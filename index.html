@@ -401,7 +401,28 @@
                 grid-template-columns: repeat(3, 1fr);
             }
             .stat-item:first-child {
-                grid-column: span 3; /* Total words takes full width */
+                grid-column: span 3;
+            }
+        }
+
+        @media (max-width: 600px) {
+            :root {
+                --card-size: 44px;
+                --word-front-size: 0.7rem;
+                --word-back-meaning-size: 0.34rem;
+                --word-back-pinyin-size: 0.24rem;
+            }
+            
+            h1 {
+                font-size: 1.4rem;
+            }
+            
+            .stat-number {
+                font-size: 1.1rem;
+            }
+            
+            .stat-label {
+                font-size: 0.6rem;
             }
         }
 
@@ -411,6 +432,12 @@
             }
             .stat-item:first-child {
                 grid-column: span 2;
+            }
+            
+            :root {
+                --word-front-size: 0.65rem;
+                --word-back-meaning-size: 0.3rem;
+                --word-back-pinyin-size: 0.2rem;
             }
         }
     </style>
