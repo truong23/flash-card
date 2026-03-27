@@ -273,6 +273,7 @@
           color: white;
           font-size: calc(var(--word-front-size) * var(--effective-card-scale));
           font-weight: 700;
+          box-shadow: inset 0 0 15px rgba(0,0,0,0.1);
         }
 
         .word-back {
@@ -280,26 +281,46 @@
           border: 1px solid #d9dee8;
           color: #1e293b;
           transform: rotateY(180deg);
-          gap: 1px;
+          /* Change to vertical top alignment for better scrolling start */
+          justify-content: flex-start;
+          padding: 4px;
+        }
+
+        .word-back-scrollable {
+          width: 100%;
+          height: 100%;
+          overflow-y: auto;
+          padding: calc(var(--card-padding) * var(--effective-card-scale) * 2);
+          display: flex;
+          flex-direction: column;
+          gap: 2px;
+          scrollbar-width: none; /* Hide scrollbar but allow scrolling */
+          -ms-overflow-style: none;
+        }
+        
+        .word-back-scrollable::-webkit-scrollbar {
+          display: none;
         }
 
         .word-back-meaning {
           font-size: calc(var(--word-back-meaning-size) * var(--effective-card-scale));
-          line-height: 1;
+          line-height: 1.15;
           font-weight: 600;
+          color: #1e293b;
+          word-break: break-all;
         }
 
         .word-back-pinyin {
           font-size: calc(var(--word-back-pinyin-size) * var(--effective-card-scale));
           color: #64748b;
           font-style: italic;
-          line-height: 1;
+          line-height: 1.1;
+          margin-top: 1px;
         }
 
         .word-card.highlight {
-            transform: scale(1.08);
-            box-shadow: 0 0 0 2px #f59e0b, 0 0 10px rgba(245, 158, 11, 0.65), 0 6px 16px rgba(0,0,0,0.35);
-            filter: brightness(1.12) contrast(1.08);
+            transform: scale(1.1);
+            box-shadow: 0 0 0 2px #f59e0b, 0 10px 20px rgba(0,0,0,0.2);
             z-index: 20;
         }
 
@@ -334,46 +355,62 @@
         }
 
         .stats {
-            display: flex;
-            gap: 20px;
-            margin-bottom: 20px;
-            padding: 15px;
-            background: white;
-            border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 12px;
+            margin-bottom: 24px;
         }
 
         .stat-item {
             display: flex;
+            flex-direction: column;
             align-items: center;
-            gap: 8px;
+            justify-content: center;
+            padding: 12px 8px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            border: 1px solid #eef2f6;
+            transition: transform 0.2s ease;
+        }
+        
+        .stat-item:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 12px -2px rgba(0, 0, 0, 0.15);
         }
 
         .stat-number {
-            font-size: 1.5rem;
-            font-weight: bold;
-            color: #333;
+            font-size: 1.25rem;
+            font-weight: 800;
+            color: #1e293b;
+            line-height: 1.2;
         }
 
         .stat-label {
-            font-size: 0.9rem;
-            color: #666;
+            font-size: 0.7rem;
+            font-weight: 600;
+            color: #64748b;
+            text-transform: uppercase;
+            letter-spacing: 0.025em;
+            margin-top: 4px;
+            text-align: center;
         }
 
-        @media (max-width: 600px) {
-            :root {
-                --card-size: 42px;
-                --word-front-size: 0.74rem;
-                --word-back-meaning-size: 0.36rem;
-                --word-back-pinyin-size: 0.26rem;
+        @media (max-width: 768px) {
+            .stats {
+                grid-template-columns: repeat(3, 1fr);
             }
-
-            h1 {
-                font-size: 1.4rem;
+            .stat-item:first-child {
+                grid-column: span 3; /* Total words takes full width */
             }
+        }
 
-            .level-section {
-              min-height: 100svh;
+        @media (max-width: 480px) {
+            .stats {
+                grid-template-columns: repeat(2, 1fr);
+            }
+            .stat-item:first-child {
+                grid-column: span 2;
             }
         }
     </style>
@@ -459,19 +496,15 @@
           const rootStyles = getComputedStyle(document.documentElement);
           const baseCardSize = parseFloat(rootStyles.getPropertyValue('--card-size')) || 52;
           const preferredCardSize = baseCardSize * currentZoom;
-          
-          if (cardCount > 300) {
-            section.style.setProperty('--effective-card-size', `${preferredCardSize}px`);
-            section.style.setProperty('--effective-card-scale', currentZoom.toFixed(4));
-            section.style.height = 'auto'; 
-            return;
-          }
-
           const gridGap = getGridGapSize();
-          const availableWidth = grid.clientWidth;
-          const availableHeight = grid.clientHeight || window.innerHeight;
+          
+          const availableWidth = grid.clientWidth || section.clientWidth - 36;
+          // Calculate available height by subtracting header height from section height
+          const header = section.querySelector('.level-header');
+          const availableHeight = (section.clientHeight || window.innerHeight) - (header ? header.offsetHeight + 40 : 100);
 
-          let bestSize = 14;
+          let bestSize = 10; // Minimum size allowed
+
           for (let cols = 1; cols <= cardCount; cols += 1) {
             const rows = Math.ceil(cardCount / cols);
             const widthPerCard = (availableWidth - gridGap * (cols - 1)) / cols;
@@ -484,7 +517,7 @@
             if (rows === 1) break;
           }
 
-          const effectiveCardSize = Math.max(14, Math.min(preferredCardSize, bestSize));
+          const effectiveCardSize = Math.max(10, Math.min(preferredCardSize, bestSize));
           const effectiveCardScale = effectiveCardSize / baseCardSize;
 
           section.style.setProperty('--effective-card-size', `${effectiveCardSize}px`);
@@ -625,37 +658,67 @@
             const levels = ['A1', 'A2', 'B1', 'B2'];
             const filteredLevels = currentLevelFilter ? [currentLevelFilter] : levels;
             
-            let currentLevelIdx = 0;
+            const sectionsToRender = [];
+            const MAX_CARDS_PER_SECTION = 600;
+            const MAX_CHARS_PER_CARD = 600;
+
+            // Pre-process and chunk the data
+            filteredLevels.forEach(level => {
+              const baseLevelWords = vocabularyData.filter(w => w.level === level);
+              const processedLevelWords = [];
+              
+              baseLevelWords.forEach(word => {
+                const meaning = word.meaning || '';
+                if (meaning.length > MAX_CHARS_PER_CARD) {
+                  const partsCount = Math.ceil(meaning.length / MAX_CHARS_PER_CARD);
+                  for (let p = 0; p < partsCount; p++) {
+                    processedLevelWords.push({
+                      ...word,
+                      chinese: `${word.chinese} (${p + 1}/${partsCount})`,
+                      meaning: meaning.substring(p * MAX_CHARS_PER_CARD, (p + 1) * MAX_CHARS_PER_CARD),
+                      originalIndex: vocabularyData.indexOf(word)
+                    });
+                  }
+                } else {
+                  processedLevelWords.push({
+                    ...word,
+                    originalIndex: vocabularyData.indexOf(word)
+                  });
+                }
+              });
+
+              for (let i = 0; i < processedLevelWords.length; i += MAX_CARDS_PER_SECTION) {
+                sectionsToRender.push({
+                  level: level,
+                  words: processedLevelWords.slice(i, i + MAX_CARDS_PER_SECTION),
+                  part: Math.floor(i / MAX_CARDS_PER_SECTION) + 1,
+                  isMultiPart: processedLevelWords.length > MAX_CARDS_PER_SECTION
+                });
+              }
+            });
+
+            let currentSectionIdx = 0;
             
-            async function renderNextLevel() {
-              if (signals.aborted || currentLevelIdx >= filteredLevels.length) {
+            async function renderNextSection() {
+              if (signals.aborted || currentSectionIdx >= sectionsToRender.length) {
                 isRendering = false;
                 applyLevelLayout();
                 updateStats();
                 return;
               }
 
-              const level = filteredLevels[currentLevelIdx];
-              const levelWords = vocabularyData.filter(w => w.level === level);
-              
-              if (levelWords.length === 0) {
-                currentLevelIdx++;
-                renderNextLevel();
-                return;
-              }
-
+              const { level, words: partWords, part, isMultiPart } = sectionsToRender[currentSectionIdx];
               const section = document.createElement('div');
               section.className = 'level-section';
               section.dataset.level = level;
               section.style.setProperty('--level-accent', levelColors[level] || '#d9dee8');
               
-              if (levelWords.length > 300) section.style.height = 'auto';
-
+              const partTitle = isMultiPart ? ` - Phần ${part}` : '';
               const header = document.createElement('h2');
               header.className = 'level-header';
               header.innerHTML = `
-                <span>TOCFL ${level}</span>
-                <span style="color: #64748b; font-size: 0.92rem; font-weight: 600;">${levelWords.length} từ</span>
+                <span style="border-left: 4px solid var(--level-accent); padding-left: 10px;">TOCFL ${level}${partTitle}</span>
+                <span style="color: #64748b; font-size: 0.92rem; font-weight: 600;">${partWords.length} thẻ</span>
               `;
               
               const grid = document.createElement('div');
@@ -664,26 +727,28 @@
               section.appendChild(grid);
               container.appendChild(section);
 
-              const CHUNK_SIZE = 300;
+              const CHUNK_SIZE = 200;
               let wordIdx = 0;
 
               async function renderChunks() {
                 if (signals.aborted) return;
                 
                 const fragment = document.createDocumentFragment();
-                const end = Math.min(wordIdx + CHUNK_SIZE, levelWords.length);
+                const end = Math.min(wordIdx + CHUNK_SIZE, partWords.length);
                 
                 for (let i = wordIdx; i < end; i++) {
-                  const word = levelWords[i];
+                  const word = partWords[i];
                   const card = document.createElement('div');
                   card.className = `word-card level-${level}`;
-                  card.dataset.index = vocabularyData.indexOf(word);
+                  card.dataset.index = word.originalIndex;
                   card.innerHTML = `
                     <div class="word-card-inner">
                       <div class="word-face word-front">${word.chinese}</div>
                       <div class="word-face word-back">
-                        <div class="word-back-meaning">${word.meaning || ''}</div>
-                        <div class="word-back-pinyin">${word.pinyin || ''}</div>
+                        <div class="word-back-scrollable">
+                          <div class="word-back-meaning">${word.meaning || ''}</div>
+                          <div class="word-back-pinyin">${word.pinyin || ''}</div>
+                        </div>
                       </div>
                     </div>
                   `;
@@ -694,18 +759,18 @@
                 grid.appendChild(fragment);
                 wordIdx = end;
 
-                if (wordIdx < levelWords.length) {
-                  setTimeout(renderChunks, 0);
+                if (wordIdx < partWords.length) {
+                  setTimeout(renderChunks, 1);
                 } else {
                   fitLevelToViewport(section);
                   applyLevelColors(section);
-                  currentLevelIdx++;
-                  setTimeout(renderNextLevel, 0);
+                  currentSectionIdx++;
+                  setTimeout(renderNextSection, 1);
                 }
               }
               renderChunks();
             }
-            renderNextLevel();
+            renderNextSection();
         }
 
         let searchTimeout;
