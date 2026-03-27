@@ -220,7 +220,7 @@ const vocabularyData = [
     "chinese": "不客氣",
     "level": "A1",
     "pinyin": "búkèqì",
-    "part_of_speech": "",
+    "part_of_speech": "Ptc",
     "meaning": "đừng khách sáo"
   },
   {
@@ -234,7 +234,7 @@ const vocabularyData = [
     "chinese": "不好意思",
     "level": "A1",
     "pinyin": "bùhǎoyìsi",
-    "part_of_speech": "",
+    "part_of_speech": "Vs",
     "meaning": "ngại"
   },
   {
@@ -529,7 +529,7 @@ const vocabularyData = [
     "level": "A1",
     "pinyin": "diǎn(zhōng)",
     "part_of_speech": "M",
-    "meaning": ""
+    "meaning": "Giờ, điểm"
   },
   {
     "chinese": "電話",
@@ -640,7 +640,7 @@ const vocabularyData = [
     "chinese": "對不起",
     "level": "A1",
     "pinyin": "duìbùqǐ",
-    "part_of_speech": "",
+    "part_of_speech": "Vs",
     "meaning": "xin lỗi"
   },
   {
@@ -1998,7 +1998,7 @@ const vocabularyData = [
     "chinese": "請問",
     "level": "A1",
     "pinyin": "qǐngwèn",
-    "part_of_speech": "",
+    "part_of_speech": "VA",
     "meaning": "xin hỏi"
   },
   {
@@ -3257,22 +3257,22 @@ const vocabularyData = [
   {
     "chinese": "怎麼辦",
     "level": "A1",
-    "pinyin": "zěnme",
-    "part_of_speech": "",
+    "pinyin": "zěnme bàn",
+    "part_of_speech": "VA",
     "meaning": "làm sao? Tính sao?"
   },
   {
     "chinese": "怎麼了",
     "level": "A1",
-    "pinyin": "zěnme",
-    "part_of_speech": "",
+    "pinyin": "zěnme le",
+    "part_of_speech": "Vs",
     "meaning": "bị sao rồi?"
   },
   {
     "chinese": "怎麼樣",
     "level": "A1",
     "pinyin": "zěnmeyàng",
-    "part_of_speech": "",
+    "part_of_speech": "VsSl",
     "meaning": "như thế nào?"
   },
   {
@@ -6821,7 +6821,7 @@ const vocabularyData = [
     "chinese": "不如",
     "level": "B1",
     "pinyin": "bùrú",
-    "part_of_speech": "conj",
+    "part_of_speech": "Conj",
     "meaning": "Không bằng"
   },
   {
@@ -6989,8 +6989,8 @@ const vocabularyData = [
     "chinese": "查",
     "level": "B1",
     "pinyin": "chá",
-    "part_of_speech": "",
-    "meaning": "V"
+    "part_of_speech": "V",
+    "meaning": "Kiểm tra, tra cứu"
   },
   {
     "chinese": "產品",
@@ -7143,8 +7143,8 @@ const vocabularyData = [
     "chinese": "尺",
     "level": "B1",
     "pinyin": "chǐ",
-    "part_of_speech": "",
-    "meaning": "M"
+    "part_of_speech": "M",
+    "meaning": "Thước"
   },
   {
     "chinese": "充實",
@@ -7766,8 +7766,8 @@ const vocabularyData = [
     "chinese": "的話",
     "level": "B1",
     "pinyin": "dehuà",
-    "part_of_speech": "",
-    "meaning": "Nếu"
+    "part_of_speech": "Ptc",
+    "meaning": "Nếu... thì"
   },
   {
     "chinese": "得",
@@ -8123,8 +8123,8 @@ const vocabularyData = [
     "chinese": "對了",
     "level": "B1",
     "pinyin": "duìle",
-    "part_of_speech": "Đúng",
-    "meaning": "rồi"
+    "part_of_speech": "Ptc",
+    "meaning": "Đúng rồi, nhân tiện"
   },
   {
     "chinese": "對象",
@@ -9222,8 +9222,8 @@ const vocabularyData = [
     "chinese": "好",
     "level": "B1",
     "pinyin": "hào",
-    "part_of_speech": "",
-    "meaning": "Vs"
+    "part_of_speech": "Vst",
+    "meaning": "Thích, ham"
   },
   {
     "chinese": "好處",
@@ -9278,8 +9278,8 @@ const vocabularyData = [
     "chinese": "合",
     "level": "B1",
     "pinyin": "hé",
-    "part_of_speech": "",
-    "meaning": "Adv"
+    "part_of_speech": "V",
+    "meaning": "Hợp, phù hợp"
   },
   {
     "chinese": "合唱",
@@ -9481,8 +9481,8 @@ const vocabularyData = [
     "chinese": "會",
     "level": "B1",
     "pinyin": "huì",
-    "part_of_speech": "",
-    "meaning": "N"
+    "part_of_speech": "Vaux",
+    "meaning": "Sẽ, biết, hội"
   },
   {
     "chinese": "會場",
@@ -10545,15 +10545,15 @@ const vocabularyData = [
     "chinese": "可",
     "level": "B1",
     "pinyin": "kě",
-    "part_of_speech": "",
-    "meaning": "Adv"
+    "part_of_speech": "Adv",
+    "meaning": "Thật, quả là"
   },
   {
     "chinese": "可",
     "level": "B1",
     "pinyin": "kě",
-    "part_of_speech": "",
-    "meaning": "Vaux"
+    "part_of_speech": "Vaux",
+    "meaning": "Có thể, có khả năng"
   },
   {
     "chinese": "可靠",
@@ -10930,8 +10930,8 @@ const vocabularyData = [
     "chinese": "里",
     "level": "B1",
     "pinyin": "lǐ",
-    "part_of_speech": "",
-    "meaning": "M"
+    "part_of_speech": "M",
+    "meaning": "đơn vị đo khoảng cách (≈ 500m)"
   },
   {
     "chinese": "裡邊",
@@ -11700,8 +11700,8 @@ const vocabularyData = [
     "chinese": "哪",
     "level": "B1",
     "pinyin": "na",
-    "part_of_speech": "",
-    "meaning": "Ptc"
+    "part_of_speech": "Ptc",
+    "meaning": "nhé, đấy (trợ từ)"
   },
   {
     "chinese": "奶",
@@ -12120,8 +12120,8 @@ const vocabularyData = [
     "chinese": "期",
     "level": "B1",
     "pinyin": "qí",
-    "part_of_speech": "",
-    "meaning": "M"
+    "part_of_speech": "M",
+    "meaning": "Kì, thời kỳ"
   },
   {
     "chinese": "期間",
@@ -14262,8 +14262,8 @@ const vocabularyData = [
     "chinese": "下",
     "level": "B1",
     "pinyin": "xià",
-    "part_of_speech": "",
-    "meaning": "N"
+    "part_of_speech": "N",
+    "meaning": "Dưới, hạ, bên dưới"
   },
   {
     "chinese": "下",
@@ -14451,8 +14451,8 @@ const vocabularyData = [
     "chinese": "相聲",
     "level": "B1",
     "pinyin": "xiàngshēng",
-    "part_of_speech": "",
-    "meaning": "N"
+    "part_of_speech": "N",
+    "meaning": "Tấu hài, xiếc lời"
   },
   {
     "chinese": "小吃",
@@ -15130,8 +15130,8 @@ const vocabularyData = [
     "chinese": "一般來說",
     "level": "B1",
     "pinyin": "yìbānláishuō",
-    "part_of_speech": "Nói",
-    "meaning": "chung"
+    "part_of_speech": "Adv",
+    "meaning": "Nói chung"
   },
   {
     "chinese": "一點/一點兒",
@@ -15410,8 +15410,8 @@ const vocabularyData = [
     "chinese": "與",
     "level": "B1",
     "pinyin": "yǔ",
-    "part_of_speech": "",
-    "meaning": "Prep"
+    "part_of_speech": "Prep",
+    "meaning": "Cùng, với"
   },
   {
     "chinese": "玉",
@@ -16761,8 +16761,8 @@ const vocabularyData = [
     "chinese": "磅",
     "level": "B2",
     "pinyin": "bàng",
-    "part_of_speech": "",
-    "meaning": "M"
+    "part_of_speech": "M",
+    "meaning": "pao (đơn vị trọng lượng)"
   },
   {
     "chinese": "棒",
@@ -17124,9 +17124,9 @@ const vocabularyData = [
   {
     "chinese": "扁",
     "level": "B2",
-    "pinyin": "biăn",
-    "part_of_speech": "",
-    "meaning": "Vs"
+    "pinyin": "biǎn",
+    "part_of_speech": "Vs",
+    "meaning": "dẹt / bẹt / phẳng"
   },
   {
     "chinese": "便",
@@ -17201,9 +17201,9 @@ const vocabularyData = [
   {
     "chinese": "丙",
     "level": "B2",
-    "pinyin": "bĭng",
-    "part_of_speech": "",
-    "meaning": "N"
+    "pinyin": "bǐng",
+    "part_of_speech": "N",
+    "meaning": "thiên can thứ 3; ký hiệu loại C / thứ tự thứ 3"
   },
   {
     "chinese": "並",
@@ -17979,8 +17979,8 @@ const vocabularyData = [
     "chinese": "成",
     "level": "B2",
     "pinyin": "chéng",
-    "part_of_speech": "",
-    "meaning": "M"
+    "part_of_speech": "M",
+    "meaning": "Thành (đơn vị đo lường 1/10), phần"
   },
   {
     "chinese": "成",
@@ -18336,8 +18336,8 @@ const vocabularyData = [
     "chinese": "處",
     "level": "B2",
     "pinyin": "chù",
-    "part_of_speech": "",
-    "meaning": "V"
+    "part_of_speech": "N",
+    "meaning": "Nơi, chỗ"
   },
   {
     "chinese": "處處",
@@ -19022,8 +19022,8 @@ const vocabularyData = [
     "chinese": "蛋白質",
     "level": "B2",
     "pinyin": "dànbáizhí",
-    "part_of_speech": "",
-    "meaning": "N"
+    "part_of_speech": "N",
+    "meaning": "Chất đạm, Protein"
   },
   {
     "chinese": "誕生",
@@ -19225,8 +19225,8 @@ const vocabularyData = [
     "chinese": "低潮",
     "level": "B2",
     "pinyin": "dīcháo",
-    "part_of_speech": "",
-    "meaning": "N"
+    "part_of_speech": "N",
+    "meaning": "Lúc sa sút, thủy triều xuống"
   },
   {
     "chinese": "的確",
@@ -19708,8 +19708,8 @@ const vocabularyData = [
     "chinese": "頓",
     "level": "B2",
     "pinyin": "dùn",
-    "part_of_speech": "",
-    "meaning": "M"
+    "part_of_speech": "M",
+    "meaning": "Bữa, suất (lượng từ theo bữa ăn, trận đánh...)"
   },
   {
     "chinese": "噸",
@@ -20429,15 +20429,15 @@ const vocabularyData = [
     "chinese": "服",
     "level": "B2",
     "pinyin": "fú",
-    "part_of_speech": "",
-    "meaning": "V"
+    "part_of_speech": "V",
+    "meaning": "Mặc, uống thuốc"
   },
   {
     "chinese": "服",
     "level": "B2",
     "pinyin": "fú",
-    "part_of_speech": "",
-    "meaning": "Vst"
+    "part_of_speech": "Vst",
+    "meaning": "Phục, thuyết phục"
   },
   {
     "chinese": "浮",
@@ -20674,8 +20674,8 @@ const vocabularyData = [
     "chinese": "幹什麼",
     "level": "B2",
     "pinyin": "gànshénme",
-    "part_of_speech": "làm",
-    "meaning": "sao, tại sao"
+    "part_of_speech": "Vi",
+    "meaning": "Làm gì?, làm sao"
   },
   {
     "chinese": "鋼",
@@ -24734,8 +24734,8 @@ const vocabularyData = [
     "chinese": "嘍",
     "level": "B2",
     "pinyin": "lóu",
-    "part_of_speech": "",
-    "meaning": "Ptc"
+    "part_of_speech": "Ptc",
+    "meaning": "nhé, rồi"
   },
   {
     "chinese": "摟",
@@ -25756,8 +25756,8 @@ const vocabularyData = [
     "chinese": "砲",
     "level": "B2",
     "pinyin": "pào",
-    "part_of_speech": "",
-    "meaning": "N"
+    "part_of_speech": "N",
+    "meaning": "Pháo (vũ khí)"
   },
   {
     "chinese": "賠",
@@ -27772,8 +27772,8 @@ const vocabularyData = [
     "chinese": "勝",
     "level": "B2",
     "pinyin": "shèng",
-    "part_of_speech": "",
-    "meaning": "Vp"
+    "part_of_speech": "Vp",
+    "meaning": "Thắng, vượt qua"
   },
   {
     "chinese": "勝利",
@@ -27821,8 +27821,8 @@ const vocabularyData = [
     "chinese": "溼",
     "level": "B2",
     "pinyin": "shī",
-    "part_of_speech": "",
-    "meaning": "Vs"
+    "part_of_speech": "Vs",
+    "meaning": "Ướt, ẩm"
   },
   {
     "chinese": "詩",
@@ -30278,8 +30278,8 @@ const vocabularyData = [
     "chinese": "相",
     "level": "B2",
     "pinyin": "xiāng",
-    "part_of_speech": "",
-    "meaning": "Adv"
+    "part_of_speech": "Adv",
+    "meaning": "Lẫn nhau, cùng nhau"
   },
   {
     "chinese": "相處",
@@ -30341,8 +30341,8 @@ const vocabularyData = [
     "chinese": "想不到",
     "level": "B2",
     "pinyin": "xiăngbudào",
-    "part_of_speech": "không",
-    "meaning": "ngờ tới"
+    "part_of_speech": "Vpt",
+    "meaning": "Không ngờ tới"
   },
   {
     "chinese": "想念",
