@@ -11,7 +11,7 @@
       :root {
         --card-zoom: 1;
         --card-size: 52px;
-        --card-radius: 4px;
+        --card-radius: 0px; /* Sharp corners */
         --card-padding: 2px;
         --grid-gap: 1px;
         --word-front-size: 0.9rem;
@@ -78,7 +78,7 @@
             padding: 14px 24px;
             font-size: 16px;
             border: 2px solid #e2e8f0;
-            border-radius: 14px;
+            border-radius: 14px; /* Rounded */
             outline: none;
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
             background: #ffffff;
@@ -93,7 +93,7 @@
           .search-box button,
           .filter-box button {
             border: none;
-            border-radius: 12px;
+            border-radius: 12px; /* Rounded */
             padding: 12px 18px;
             background: #1e293b;
             color: #fff;
@@ -192,7 +192,7 @@
             height: 50px;
             background: #3b82f6;
             color: white;
-            border-radius: 50%;
+            border-radius: 50%; /* Re-added for button look */
             display: flex;
             align-items: center;
             justify-content: center;
@@ -246,9 +246,9 @@
           margin-bottom: 30px;
           padding: 18px;
           background: #ffffff;
-          border-top: 4px solid var(--level-accent, #d9dee8);
-          border-radius: 12px;
-          box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
+          border-top: 4px solid var(--level-accent, #cbd5e1);
+          border-radius: 16px; /* Rounded section looks premium */
+          box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
           display: flex;
           flex-direction: column;
         }
@@ -267,12 +267,14 @@
         }
 
         .words-grid {
-            display: flex;
-            flex-wrap: wrap;
-            gap: calc(var(--grid-gap) * var(--card-zoom));
+          display: grid;
+          /* Perfect alignment: auto-fill ensures rows are packed, 
+             space-between ensures cards touch both edges exactly */
+          grid-template-columns: repeat(auto-fill, var(--effective-card-size));
+          justify-content: space-between;
+          gap: calc(var(--grid-gap) * var(--card-zoom));
           flex: 1;
-          align-content: flex-start;
-          justify-content: center; /* Better look for right-edge emptiness */
+          align-content: start;
           overflow: hidden;
           min-height: 0;
           width: 100%;
@@ -342,7 +344,9 @@
           border: 1px solid #e2e8f0;
           color: #1e293b;
           transform: rotateY(180deg);
-          justify-content: flex-start;
+          display: flex; /* Ensure centering works */
+          align-items: center;
+          justify-content: center;
           padding: 0.5px;
         }
 
@@ -353,6 +357,8 @@
           padding: calc(var(--card-padding) * var(--effective-card-scale));
           display: flex;
           flex-direction: column;
+          align-items: center; /* Horizontally center */
+          justify-content: center; /* Vertically center */
           gap: 0.5px;
           scrollbar-width: none;
           -ms-overflow-style: none;
@@ -363,25 +369,28 @@
         }
 
         .word-back-meaning {
-          font-size: clamp(4px, calc(var(--word-back-meaning-size) * var(--effective-card-scale)), 1.1rem);
-          line-height: 0.95;
-          font-weight: 800; /* Balanced thickness */
-          color: #000000;
+          font-size: clamp(4.5px, calc(var(--word-back-meaning-size) * var(--effective-card-scale)), 1rem);
+          line-height: 1;
+          font-weight: 700; /* Lighter weight for clarity */
+          color: #1e293b; /* Softer dark color */
           overflow-wrap: anywhere;
           word-break: normal;
-          letter-spacing: -0.025em; /* Tighter letter spacing to prevent overflow */
+          letter-spacing: -0.01em;
+          text-align: center; /* Centered */
           text-rendering: optimizeLegibility;
         }
 
         .word-back-pinyin {
-          font-size: clamp(2.5px, calc(var(--word-back-pinyin-size) * var(--effective-card-scale)), 0.8rem);
+          font-size: clamp(3px, calc(var(--word-back-pinyin-size) * var(--effective-card-scale)), 0.8rem);
           color: #475569;
           font-style: italic;
           line-height: 1;
-          margin-top: 0.5px;
+          margin-top: 1px;
           font-weight: 600;
           overflow-wrap: anywhere;
           letter-spacing: 0.01em;
+          text-align: center; /* Centered */
+          width: 100%;
         }
 
         .word-card.highlight {
@@ -434,7 +443,7 @@
             justify-content: center;
             padding: 16px 10px;
             background: #ffffff;
-            border-radius: 16px;
+            border-radius: 16px; /* Rounded stat items */
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 10px 20px -5px rgba(0, 0, 0, 0.02);
             border: 1px solid #f1f5f9;
             transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -492,6 +501,9 @@
             .stat-label {
                 font-size: 0.6rem;
             }
+            body {
+                padding: 10px 4px; /* Narrow padding */
+            }
             :root {
                 --card-padding: 1.5px;
             }
@@ -507,7 +519,9 @@
             .stat-item:first-child {
                 grid-column: span 2;
             }
-            
+            body {
+                padding: 8px 2px; /* Even narrower */
+            }
             :root {
                 --card-padding: 0.5px;
                 --word-front-size: 0.65rem;
@@ -762,7 +776,7 @@
             const filteredLevels = currentLevelFilter ? [currentLevelFilter] : levels;
             
             const sectionsToRender = [];
-            const MAX_CARDS_PER_SECTION = 400; // Adjusted based on user feedback
+            const MAX_CARDS_PER_SECTION = 406; // Updated to 406 as requested for better alignment
             const MAX_CHARS_PER_CARD = 600;
 
             // Pre-process and chunk the data
