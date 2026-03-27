@@ -272,8 +272,10 @@
             gap: calc(var(--grid-gap) * var(--card-zoom));
           flex: 1;
           align-content: flex-start;
+          justify-content: center; /* Better look for right-edge emptiness */
           overflow: hidden;
           min-height: 0;
+          width: 100%;
         }
 
         .word-card {
@@ -361,13 +363,14 @@
         }
 
         .word-back-meaning {
-          font-size: clamp(3px, calc(var(--word-back-meaning-size) * var(--effective-card-scale)), 1.2rem);
-          line-height: 1;
-          font-weight: 700;
-          color: #0f172a;
+          font-size: clamp(4px, calc(var(--word-back-meaning-size) * var(--effective-card-scale)), 1.1rem);
+          line-height: 0.95;
+          font-weight: 800; /* Balanced thickness */
+          color: #000000;
           overflow-wrap: anywhere;
           word-break: normal;
-          letter-spacing: 0.012em;
+          letter-spacing: -0.025em; /* Tighter letter spacing to prevent overflow */
+          text-rendering: optimizeLegibility;
         }
 
         .word-back-pinyin {
@@ -495,6 +498,9 @@
         }
 
         @media (max-width: 480px) {
+            .level-section {
+                padding: 10px 5px; /* Minimal padding for more space */
+            }
             .stats {
                 grid-template-columns: repeat(2, 1fr);
             }
@@ -595,12 +601,12 @@
           const preferredCardSize = baseCardSize * currentZoom;
           const gridGap = getGridGapSize();
           
-          const availableWidth = grid.clientWidth || section.clientWidth - 36;
-          // Calculate available height by subtracting header height from section height
+          const availableWidth = grid.clientWidth || section.clientWidth;
           const header = section.querySelector('.level-header');
-          const availableHeight = (section.clientHeight || window.innerHeight) - (header ? header.offsetHeight + 40 : 100);
+          const headerHeight = header ? header.offsetHeight + 10 : 50;
+          const availableHeight = (window.innerHeight) - headerHeight - 20;
 
-          let bestSize = 10; // Minimum size allowed
+          let bestSize = 8;
 
           for (let cols = 1; cols <= cardCount; cols += 1) {
             const rows = Math.ceil(cardCount / cols);
@@ -756,7 +762,7 @@
             const filteredLevels = currentLevelFilter ? [currentLevelFilter] : levels;
             
             const sectionsToRender = [];
-            const MAX_CARDS_PER_SECTION = 300; // Reduced to preserve readability with 1vh constraint
+            const MAX_CARDS_PER_SECTION = 400; // Adjusted based on user feedback
             const MAX_CHARS_PER_CARD = 600;
 
             // Pre-process and chunk the data
