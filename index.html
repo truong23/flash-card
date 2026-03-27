@@ -4,13 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TOCFL Flash Cards - Band A & B</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     <style>
       :root {
         --card-zoom: 1;
         --card-size: 52px;
         --card-radius: 4px;
-        --card-padding: 3px;
-        --grid-gap: 2px;
+        --card-padding: 2px;
+        --grid-gap: 1px;
         --word-front-size: 0.9rem;
         --word-back-meaning-size: 0.42rem;
         --word-back-pinyin-size: 0.3rem;
@@ -23,13 +26,12 @@
         }
 
         body {
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-            background: #f0f2f5;
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background: #f8fafc;
             min-height: 100vh;
-            padding: 20px;
+            padding: 24px;
             overflow-x: hidden;
-            -webkit-font-smoothing: antialiased;
-            -moz-osx-font-smoothing: grayscale;
+            color: #1e293b;
         }
 
         .container {
@@ -55,43 +57,53 @@
         }
 
         .filter-box {
-            display: flex;
-            justify-content: flex-start;
-            align-items: center;
-            gap: 8px;
-            margin-bottom: 12px;
-            flex-wrap: wrap;
+          display: flex;
+          justify-content: flex-start;
+          align-items: center;
+          gap: 10px;
+          margin-bottom: 20px;
+          flex-wrap: wrap;
           position: sticky;
           top: 0;
-          z-index: 40;
-          padding: 12px 0;
-          background: linear-gradient(180deg, rgba(245, 245, 245, 0.98) 0%, rgba(245, 245, 245, 0.94) 100%);
-          backdrop-filter: blur(8px);
+          z-index: 100;
+          padding: 16px 0;
+          background: rgba(248, 250, 252, 0.85);
+          backdrop-filter: blur(12px) saturate(180%);
+          border-bottom: 1px solid rgba(226, 232, 240, 0.8);
         }
 
         .search-box input {
             width: 100%;
             max-width: 400px;
-            padding: 12px 20px;
+            padding: 14px 24px;
             font-size: 16px;
-            border: 2px solid #ddd;
-            border-radius: 8px;
+            border: 2px solid #e2e8f0;
+            border-radius: 14px;
             outline: none;
-            transition: all 0.3s ease;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            background: #ffffff;
+            font-family: inherit;
+        }
+
+        .search-box input:focus {
+            border-color: #3b82f6;
+            box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.1);
         }
 
           .search-box button,
           .filter-box button {
             border: none;
-            border-radius: 8px;
-            padding: 10px 14px;
-            background: #1f2937;
+            border-radius: 12px;
+            padding: 12px 18px;
+            background: #1e293b;
             color: #fff;
-            font-size: 13px;
+            font-size: 14px;
             font-weight: 600;
             cursor: pointer;
-            transition: background 0.2s ease, transform 0.2s ease;
+            transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
             white-space: nowrap;
+            font-family: inherit;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
           }
 
           .search-box button.search-action {
@@ -119,53 +131,89 @@
           .filter-box button.level-filter-action.active-a1 {
             background: #10b981;
             color: #ffffff;
-            box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.3);
+            box-shadow: 0 4px 12px rgba(16, 185, 129, 0.35);
+            transform: translateY(-2px);
           }
 
           .filter-box button.level-filter-action.active-a2 {
             background: #3b82f6;
             color: #ffffff;
-            box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.3);
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.35);
+            transform: translateY(-2px);
           }
 
           .filter-box button.level-filter-action.active-b1 {
-            background: #f8b51e;
-            color: #1f2937;
-            box-shadow: 0 0 0 2px rgba(248, 181, 30, 0.3);
+            background: #f59e0b;
+            color: #ffffff;
+            box-shadow: 0 4px 12px rgba(245, 158, 11, 0.35);
+            transform: translateY(-2px);
           }
 
           .filter-box button.level-filter-action.active-b2 {
-            background: #267f94;
+            background: #0ea5e9;
             color: #ffffff;
-            box-shadow: 0 0 0 2px rgba(38, 127, 148, 0.28);
+            box-shadow: 0 4px 12px rgba(14, 165, 233, 0.35);
+            transform: translateY(-2px);
           }
 
           .search-box button.flip-chinese-action {
-            background: #b45309;
+            background: #f59e0b;
           }
 
           .search-box button.flip-chinese-action:hover {
-            background: #92400e;
+            background: #d97706;
           }
 
           .search-box button.flip-vietnamese-action {
-            background: #0f766e;
+            background: #10b981;
           }
 
           .search-box button.flip-vietnamese-action:hover {
-            background: #115e59;
+            background: #059669;
           }
 
           .search-box button.zoom-out-action,
           .search-box button.zoom-reset-action,
           .search-box button.zoom-in-action {
-            background: #475569;
+            background: #64748b;
           }
 
           .search-box button.zoom-out-action:hover,
           .search-box button.zoom-reset-action:hover,
           .search-box button.zoom-in-action:hover {
-            background: #334155;
+            background: #475569;
+          }
+
+          .back-to-top {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            width: 50px;
+            height: 50px;
+            background: #3b82f6;
+            color: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            cursor: pointer;
+            box-shadow: 0 4px 12px rgba(59, 130, 246, 0.4);
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            border: none;
+          }
+
+          .back-to-top.visible {
+            opacity: 1;
+            visibility: visible;
+          }
+
+          .back-to-top:hover {
+            transform: translateY(-5px);
+            background: #2563eb;
           }
 
           .zoom-indicator {
@@ -239,9 +287,13 @@
         }
 
         .word-card:hover {
-          transform: scale(1.02);
-            z-index: 10;
-            box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+          transform: scale(1.05); /* Subtle scale only */
+          z-index: 100;
+          box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        }
+
+        .word-card:active {
+          transform: scale(0.95);
         }
 
         .word-card-inner {
@@ -376,33 +428,35 @@
             flex-direction: column;
             align-items: center;
             justify-content: center;
-            padding: 12px 8px;
+            padding: 16px 10px;
             background: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-            border: 1px solid #eef2f6;
-            transition: transform 0.2s ease;
+            border-radius: 16px;
+            box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), 0 10px 20px -5px rgba(0, 0, 0, 0.02);
+            border: 1px solid #f1f5f9;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
         }
         
         .stat-item:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 12px -2px rgba(0, 0, 0, 0.15);
+            transform: translateY(-4px);
+            box-shadow: 0 15px 30px -10px rgba(0, 0, 0, 0.1);
+            border-color: #e2e8f0;
         }
 
         .stat-number {
-            font-size: 1.25rem;
+            font-size: 1.5rem;
             font-weight: 800;
-            color: #1e293b;
-            line-height: 1.2;
+            color: #0f172a;
+            line-height: 1;
+            letter-spacing: -0.025em;
         }
 
         .stat-label {
-            font-size: 0.7rem;
+            font-size: 0.75rem;
             font-weight: 600;
-            color: #64748b;
+            color: #94a3b8;
             text-transform: uppercase;
-            letter-spacing: 0.025em;
-            margin-top: 4px;
+            letter-spacing: 0.05em;
+            margin-top: 8px;
             text-align: center;
         }
 
@@ -434,6 +488,9 @@
             .stat-label {
                 font-size: 0.6rem;
             }
+            :root {
+                --card-padding: 1.5px;
+            }
         }
 
         @media (max-width: 480px) {
@@ -445,6 +502,7 @@
             }
             
             :root {
+                --card-padding: 1px;
                 --word-front-size: 0.65rem;
                 --word-back-meaning-size: 0.3rem;
                 --word-back-pinyin-size: 0.2rem;
@@ -458,23 +516,23 @@
         <div class="stats" id="stats">
             <div class="stat-item">
                 <span class="stat-number" id="totalWords">0</span>
-                <span class="stat-label">Tổng từ vựng</span>
+                <span class="stat-label">📚 TỔNG CỘNG</span>
             </div>
             <div class="stat-item">
                 <span class="stat-number" id="a1Count">0</span>
-                <span class="stat-label">Band A1</span>
+                <span class="stat-label">🌱 BAND A1</span>
             </div>
             <div class="stat-item">
                 <span class="stat-number" id="a2Count">0</span>
-                <span class="stat-label">Band A2</span>
+                <span class="stat-label">🌿 BAND A2</span>
             </div>
             <div class="stat-item">
                 <span class="stat-number" id="b1Count">0</span>
-                <span class="stat-label">Band B1</span>
+                <span class="stat-label">🌳 BAND B1</span>
             </div>
             <div class="stat-item">
                 <span class="stat-number" id="b2Count">0</span>
-                <span class="stat-label">Band B2</span>
+                <span class="stat-label">🌲 BAND B2</span>
             </div>
         </div>
         
@@ -500,6 +558,7 @@
         <div id="wordsContainer">
             <!-- Words will be generated by JavaScript -->
         </div>
+        <button id="backToTop" class="back-to-top" title="Lên đầu trang">↑</button>
     </div>
     <script src="./vocabulary-data.js"></script>
 
@@ -883,19 +942,17 @@
           applyZoom();
         }
 
-        const searchInput = document.getElementById('searchInput');
-        const searchButton = document.getElementById('searchButton');
-        const filterAllButton = document.getElementById('filterAllButton');
-        const filterA1Button = document.getElementById('filterA1Button');
-        const filterA2Button = document.getElementById('filterA2Button');
-        const filterB1Button = document.getElementById('filterB1Button');
-        const filterB2Button = document.getElementById('filterB2Button');
-        const flipChineseButton = document.getElementById('flipChineseButton');
-        const flipVietnameseButton = document.getElementById('flipVietnameseButton');
-        const zoomOutButton = document.getElementById('zoomOutButton');
-        const zoomResetButton = document.getElementById('zoomResetButton');
-        const zoomInButton = document.getElementById('zoomInButton');
-        const zoomIndicator = document.getElementById('zoomIndicator');
+        const backToTopButton = document.getElementById('backToTop');
+        window.addEventListener('scroll', () => {
+          if (window.scrollY > 500) {
+            backToTopButton.classList.add('visible');
+          } else {
+            backToTopButton.classList.remove('visible');
+          }
+        });
+        backToTopButton.addEventListener('click', () => {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
 
         searchInput.addEventListener('input', handleSearch);
         searchButton.addEventListener('click', handleSearch);
