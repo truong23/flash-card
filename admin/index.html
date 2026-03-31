@@ -1,0 +1,304 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flash Card - Quản trị</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../auth-pages.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="page-header">
+        <div>
+          <h1>Trang quản trị</h1>
+          <p>
+            Chỉ tài khoản admin mới được truy cập đường dẫn này. Tại đây admin có thể
+            duyệt quyền vào trang học cho từng email trong collection
+            <span class="code-pill">configPageAccess</span>.
+          </p>
+        </div>
+      </header>
+
+      <div class="card-grid">
+        <section class="card">
+          <div id="statusBadge" class="status-badge pending">Đang kiểm tra phiên đăng nhập</div>
+          <h2>Xác minh quyền admin</h2>
+          <p id="statusDescription">
+            Hệ thống sẽ kiểm tra tài khoản hiện tại có phải admin đã được duyệt hay không.
+          </p>
+
+          <div class="actions">
+            <button type="button" id="seedAdminButton" class="secondary hidden">Ghi quyền admin khởi tạo</button>
+            <button type="button" id="goStudyButton" class="secondary hidden">Về trang học</button>
+            <button type="button" id="signOutButton" class="secondary hidden">Đăng xuất</button>
+          </div>
+
+          <div class="meta-grid">
+            <div class="meta-item">
+              <span class="meta-label">Email</span>
+              <span id="currentUserEmail" class="meta-value">Chưa đăng nhập</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Vai trò</span>
+              <span id="currentUserRole" class="meta-value">Khách</span>
+            </div>
+            <div class="meta-item">
+              <span class="meta-label">Trạng thái</span>
+              <span id="currentUserState" class="meta-value">Chưa xác định</span>
+            </div>
+          </div>
+
+          <div id="setupNotice" class="notice warning hidden"></div>
+          <div id="errorNotice" class="notice error hidden"></div>
+        </section>
+
+        <section id="adminPanel" class="card hidden">
+          <h3>Duyệt tài khoản vào trang học</h3>
+          <p>
+            Mỗi document dùng email viết thường làm document ID. Nếu
+            <span class="code-pill">approved = true</span> thi user vao duoc
+            <span class="code-pill">study.html</span>.
+          </p>
+
+          <form id="accessApprovalForm" class="form-grid">
+            <div class="form-row">
+              <div class="form-field">
+                <label for="accessEmailInput">Email tài khoản</label>
+                <input type="email" id="accessEmailInput" placeholder="user@example.com" required />
+              </div>
+              <div class="form-field">
+                <label for="accessRoleInput">Vai trò</label>
+                <select id="accessRoleInput">
+                  <option value="viewer">viewer</option>
+                  <option value="admin">admin</option>
+                </select>
+              </div>
+              <div class="form-field">
+                <label for="accessApprovedInput">Trạng thái</label>
+                <select id="accessApprovedInput">
+                  <option value="true">Được duyệt</option>
+                  <option value="false">Chờ duyệt / khóa</option>
+                </select>
+              </div>
+            </div>
+            <div class="actions">
+              <button type="submit" class="primary">Lưu quyền truy cập</button>
+              <button type="button" id="refreshAccountsButton" class="secondary">Tải lại danh sách</button>
+            </div>
+          </form>
+
+          <div class="table-wrap">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Email</th>
+                  <th>Vai trò</th>
+                  <th>Trạng thái</th>
+                  <th>Cập nhật</th>
+                  <th>Thao tác</th>
+                </tr>
+              </thead>
+              <tbody id="approvedAccountsBody">
+                <tr>
+                  <td colspan="5">Chưa có dữ liệu</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore-compat.js"></script>
+    <script src="../shared-auth.js"></script>
+    <script>
+      const dom = {
+        statusBadge: document.getElementById("statusBadge"),
+        statusDescription: document.getElementById("statusDescription"),
+        seedAdminButton: document.getElementById("seedAdminButton"),
+        goStudyButton: document.getElementById("goStudyButton"),
+        signOutButton: document.getElementById("signOutButton"),
+        currentUserEmail: document.getElementById("currentUserEmail"),
+        currentUserRole: document.getElementById("currentUserRole"),
+        currentUserState: document.getElementById("currentUserState"),
+        setupNotice: document.getElementById("setupNotice"),
+        errorNotice: document.getElementById("errorNotice"),
+        adminPanel: document.getElementById("adminPanel"),
+        accessApprovalForm: document.getElementById("accessApprovalForm"),
+        accessEmailInput: document.getElementById("accessEmailInput"),
+        accessRoleInput: document.getElementById("accessRoleInput"),
+        accessApprovedInput: document.getElementById("accessApprovedInput"),
+        refreshAccountsButton: document.getElementById("refreshAccountsButton"),
+        approvedAccountsBody: document.getElementById("approvedAccountsBody"),
+      };
+
+      function setStatus(text, tone) {
+        dom.statusBadge.textContent = text;
+        dom.statusBadge.className = `status-badge ${tone}`;
+      }
+
+      function toggleElement(element, shouldShow) {
+        element.classList.toggle("hidden", !shouldShow);
+      }
+
+      function renderAccessTable(records) {
+        if (!records.length) {
+          dom.approvedAccountsBody.innerHTML = '<tr><td colspan="5">Chưa có tài khoản nào trong Firestore.</td></tr>';
+          return;
+        }
+
+        dom.approvedAccountsBody.innerHTML = records
+          .map((record) => {
+            const roleClass = record.role === "admin" ? "admin" : "viewer";
+            const statusClass = record.approved ? "approved" : "blocked";
+            const statusLabel = record.approved ? "Được duyệt" : "Chờ duyệt / khóa";
+
+            return `
+              <tr>
+                <td>${flashCardAuth.escapeHtml(record.email)}</td>
+                <td><span class="inline-chip ${roleClass}">${flashCardAuth.escapeHtml(record.role)}</span></td>
+                <td><span class="inline-chip ${statusClass}">${statusLabel}</span></td>
+                <td>${flashCardAuth.escapeHtml(flashCardAuth.formatTimestamp(record.updatedAt))}</td>
+                <td>
+                  <div class="table-actions">
+                    <button type="button" class="secondary" data-action="toggle-approved" data-email="${flashCardAuth.escapeHtml(record.email)}">${record.approved ? "Khóa" : "Duyệt"}</button>
+                    <button type="button" class="danger" data-action="delete" data-email="${flashCardAuth.escapeHtml(record.email)}">Xóa</button>
+                  </div>
+                </td>
+              </tr>
+            `;
+          })
+          .join("");
+      }
+
+      async function loadAccessList() {
+        const records = await flashCardAuth.listAccessRecords();
+        renderAccessTable(records);
+      }
+
+      async function renderSession(session) {
+        dom.currentUserEmail.textContent = session.user?.email || "Chưa đăng nhập";
+        dom.currentUserRole.textContent = session.accessRecord?.role || "Khách";
+        dom.currentUserState.textContent = session.hasAccess
+          ? session.isAdmin
+            ? "Admin đã được duyệt"
+            : "Đã được duyệt nhưng không phải admin"
+          : session.user
+            ? "Đã đăng nhập nhưng chưa có quyền admin"
+            : "Chưa đăng nhập";
+
+        toggleElement(dom.setupNotice, false);
+        toggleElement(dom.errorNotice, false);
+        toggleElement(dom.adminPanel, false);
+        toggleElement(dom.seedAdminButton, false);
+        toggleElement(dom.goStudyButton, false);
+        toggleElement(dom.signOutButton, Boolean(session.user));
+
+        if (!flashCardAuth.isFirebaseConfigured()) {
+          setStatus("Chưa cấu hình Firebase", "error");
+          dom.statusDescription.textContent = "Cần cấu hình Firebase trước khi dùng trang admin.";
+          dom.setupNotice.textContent = "Hãy kiểm tra FIREBASE_CONFIG trong shared-auth.js.";
+          toggleElement(dom.setupNotice, true);
+          return;
+        }
+
+        if (session.error) {
+          setStatus("Lỗi đọc Firestore", "error");
+          dom.statusDescription.textContent = "Không thể tải quyền admin từ Firestore.";
+          dom.errorNotice.textContent = flashCardAuth.getFriendlyFirestoreError(session.error);
+          toggleElement(dom.errorNotice, true);
+          return;
+        }
+
+        if (!session.user) {
+          window.location.replace("../index.html");
+          return;
+        }
+
+        if (session.pendingBootstrap) {
+          setStatus("Admin khởi tạo chưa được ghi", "pending");
+          dom.statusDescription.textContent = "Tài khoản này nằm trong danh sách bootstrap admin. Bấm nút dưới đây để ghi quyền vào Firestore.";
+          toggleElement(dom.seedAdminButton, true);
+          return;
+        }
+
+        if (!session.isAdmin) {
+          setStatus("Không có quyền admin", "error");
+          dom.statusDescription.textContent = "Tài khoản này không được phép vào trang /admin.";
+          dom.errorNotice.textContent = "Chỉ document có role=admin và approved=true mới được truy cập trang admin.";
+          toggleElement(dom.errorNotice, true);
+          return;
+        }
+
+        setStatus("Admin đã đăng nhập", "success");
+        dom.statusDescription.textContent = "Bạn đang ở trang admin và có thể duyệt quyền vào trang học cho các tài khoản khác.";
+        toggleElement(dom.adminPanel, true);
+        toggleElement(dom.goStudyButton, true);
+        await loadAccessList();
+      }
+
+      async function handleSaveAccessRecord(event) {
+        event.preventDefault();
+        await flashCardAuth.saveAccessRecord({
+          email: dom.accessEmailInput.value,
+          role: dom.accessRoleInput.value,
+          approved: dom.accessApprovedInput.value === "true",
+        });
+        dom.accessApprovalForm.reset();
+        dom.accessRoleInput.value = "viewer";
+        dom.accessApprovedInput.value = "true";
+        await loadAccessList();
+      }
+
+      async function handleTableAction(event) {
+        const button = event.target.closest("[data-action]");
+        if (!button) return;
+        const email = flashCardAuth.normalizeEmail(button.dataset.email);
+        if (!email) return;
+
+        if (button.dataset.action === "toggle-approved") {
+          await flashCardAuth.toggleApproved(email);
+        }
+
+        if (button.dataset.action === "delete") {
+          await flashCardAuth.deleteAccessRecord(email);
+        }
+
+        await loadAccessList();
+      }
+
+      async function init() {
+        dom.seedAdminButton.addEventListener("click", async () => {
+          await flashCardAuth.persistBootstrapAdmin();
+          await renderSession(await flashCardAuth.getCurrentSession());
+        });
+
+        dom.goStudyButton.addEventListener("click", () => {
+          window.location.replace("../study.html");
+        });
+
+        dom.signOutButton.addEventListener("click", async () => {
+          await flashCardAuth.signOutCurrentUser();
+          window.location.replace("../index.html");
+        });
+
+        dom.accessApprovalForm.addEventListener("submit", handleSaveAccessRecord);
+        dom.refreshAccountsButton.addEventListener("click", loadAccessList);
+        dom.approvedAccountsBody.addEventListener("click", handleTableAction);
+
+        await flashCardAuth.initializeFirebase();
+        await flashCardAuth.onSessionChange(renderSession);
+      }
+
+      init();
+    </script>
+  </body>
+</html>
