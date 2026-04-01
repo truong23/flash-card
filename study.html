@@ -613,7 +613,7 @@
         const LEVELS = ['A1', 'A2', 'B1', 'B2'];
         const MAX_CARDS_PER_SECTION = 406;
         const MAX_CHARS_PER_CARD = 150;
-        const SECTION_RENDER_ROOT_MARGIN = '1200px 0px';
+        const SECTION_WINDOW_OVERSCAN_MULTIPLIER = 0.75;
 
         const levelColors = {
           'A1': '#10b981',
@@ -643,10 +643,12 @@
         let isRendering = false;
         let renderAbortController = new AbortController();
         let searchTimeout;
-        let sectionObserver = null;
         let showBackFace = false;
         let searchMatchIndexes = null;
         let pendingSearchTargetIndex = null;
+        let sectionWindowFrame = null;
+        let backToTopFrame = null;
+        let resizeTimeout = null;
 
         const dataIndex = buildDataIndex();
 
@@ -665,6 +667,7 @@
           const sectionsByLevel = { A1: [], A2: [], B1: [], B2: [] };
           const processedByLevel = { A1: [], A2: [], B1: [], B2: [] };
           const firstSectionByWordIndex = new Map();
+          const sectionsById = new Map();
 
           vocabularyData.forEach((word, index) => {
             if (!LEVELS.includes(word.level)) {
@@ -722,6 +725,14 @@
                 words
               });
 
+              sectionsById.set(sectionId, {
+                sectionId,
+                level,
+                part,
+                isMultiPart,
+                words
+              });
+
               words.forEach((entry) => {
                 if (!firstSectionByWordIndex.has(entry.originalIndex)) {
                   firstSectionByWordIndex.set(entry.originalIndex, sectionId);
@@ -734,6 +745,7 @@
             counts,
             searchableEntries,
             sectionsByLevel,
+            sectionsById,
             firstSectionByWordIndex
           };
         }
@@ -868,11 +880,8 @@
           });
         }
 
-        function disconnectSectionObserver() {
-          if (sectionObserver) {
-            sectionObserver.disconnect();
-            sectionObserver = null;
-          }
+        function buildSectionStatusMarkup(message = 'Cuộn đến đây để tải thẻ nhanh hơn.') {
+          return `<div class="section-status">${message}</div>`;
         }
 
         function createSectionElement(sectionData) {
@@ -890,7 +899,7 @@
               <span style="color: #64748b; font-size: 0.92rem; font-weight: 600;">${sectionData.words.length} thẻ</span>
             </h2>
             <div class="words-grid">
-              <div class="section-status">Cuộn đến đây để tải thẻ nhanh hơn.</div>
+              ${buildSectionStatusMarkup()}
             </div>
           `;
 
@@ -911,7 +920,7 @@
           }
 
           const sectionId = section.dataset.sectionId;
-          const sectionData = getVisibleSections().find((entry) => entry.sectionId === sectionId);
+          const sectionData = dataIndex.sectionsById.get(sectionId);
           if (!sectionData) {
             return;
           }
@@ -946,24 +955,46 @@
           }
         }
 
-        function observeSections() {
-          disconnectSectionObserver();
-          sectionObserver = new IntersectionObserver((entries) => {
-            entries.forEach((entry) => {
-              if (!entry.isIntersecting) {
-                return;
-              }
+        function unrenderSection(section) {
+          if (!section || section.dataset.rendered !== 'true') {
+            return;
+          }
 
-              renderSection(entry.target);
-              sectionObserver.unobserve(entry.target);
-            });
-          }, {
-            rootMargin: SECTION_RENDER_ROOT_MARGIN
-          });
+          const grid = section.querySelector('.words-grid');
+          if (!grid) {
+            return;
+          }
 
-          document.querySelectorAll('.level-section[data-rendered="false"]').forEach((section) => {
-            sectionObserver.observe(section);
+          grid.innerHTML = buildSectionStatusMarkup('Đang chờ trong vùng nhìn thấy để tải thẻ.');
+          section.dataset.rendered = 'false';
+        }
+
+        function isSectionWithinWindow(section) {
+          const rect = section.getBoundingClientRect();
+          const overscan = window.innerHeight * SECTION_WINDOW_OVERSCAN_MULTIPLIER;
+
+          return rect.bottom >= -overscan && rect.top <= window.innerHeight + overscan;
+        }
+
+        function updateSectionWindow() {
+          sectionWindowFrame = null;
+
+          document.querySelectorAll('.level-section').forEach((section) => {
+            if (isSectionWithinWindow(section)) {
+              renderSection(section);
+              return;
+            }
+
+            unrenderSection(section);
           });
+        }
+
+        function scheduleSectionWindowUpdate() {
+          if (sectionWindowFrame !== null) {
+            return;
+          }
+
+          sectionWindowFrame = requestAnimationFrame(updateSectionWindow);
         }
 
         function setLevelFilter(level) {
@@ -1043,7 +1074,10 @@
 
           renderAbortController = new AbortController();
           isRendering = true;
-          disconnectSectionObserver();
+          if (sectionWindowFrame !== null) {
+            cancelAnimationFrame(sectionWindowFrame);
+            sectionWindowFrame = null;
+          }
           wordsContainer.innerHTML = '';
 
           const fragment = document.createDocumentFragment();
@@ -1054,9 +1088,7 @@
 
           wordsContainer.appendChild(fragment);
 
-          const initialSections = Array.from(document.querySelectorAll('.level-section')).slice(0, 2);
-          initialSections.forEach((section) => renderSection(section));
-          observeSections();
+          updateSectionWindow();
           applyLevelLayout();
           updateStats();
           isRendering = false;
@@ -1115,7 +1147,8 @@
         function applyZoom() {
           document.documentElement.style.setProperty('--card-zoom', currentZoom.toFixed(2));
           zoomIndicator.textContent = `${Math.round(currentZoom * 100)}%`;
-          applyLevelLayout();
+          scheduleSectionWindowUpdate();
+          requestAnimationFrame(applyLevelLayout);
         }
 
         function changeZoom(delta) {
@@ -1123,13 +1156,35 @@
           applyZoom();
         }
 
-        window.addEventListener('scroll', () => {
-          if (window.scrollY > 500) {
-            backToTopButton.classList.add('visible');
-          } else {
-            backToTopButton.classList.remove('visible');
+        function updateBackToTopVisibility() {
+          backToTopButton.classList.toggle('visible', window.scrollY > 500);
+        }
+
+        function scheduleBackToTopVisibilityUpdate() {
+          if (backToTopFrame !== null) {
+            return;
           }
-        });
+
+          backToTopFrame = requestAnimationFrame(() => {
+            backToTopFrame = null;
+            updateBackToTopVisibility();
+          });
+        }
+
+        function handleScroll() {
+          scheduleSectionWindowUpdate();
+          scheduleBackToTopVisibilityUpdate();
+        }
+
+        function handleResize() {
+          clearTimeout(resizeTimeout);
+          resizeTimeout = window.setTimeout(() => {
+            scheduleSectionWindowUpdate();
+            requestAnimationFrame(applyLevelLayout);
+          }, 80);
+        }
+
+        window.addEventListener('scroll', handleScroll, { passive: true });
 
         backToTopButton.addEventListener('click', () => {
           window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -1167,12 +1222,13 @@
           applyZoom();
         });
         zoomInButton.addEventListener('click', () => changeZoom(0.15));
-        window.addEventListener('resize', applyLevelLayout);
+        window.addEventListener('resize', handleResize, { passive: true });
 
         generateWords();
         updateLevelFilterButtons();
         updateStats();
         applyZoom();
+        updateBackToTopVisibility();
     </script>
 </body>
 </html>
