@@ -252,6 +252,8 @@
           display: flex;
           flex-direction: column;
           overflow: visible;
+          content-visibility: auto;
+          contain-intrinsic-size: auto 100vh;
         }
 
         .level-header {
@@ -280,6 +282,24 @@
           padding-bottom: 12px;
         }
 
+        .level-section[data-rendered="false"] .words-grid {
+          min-height: 120px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+        }
+
+        .section-status {
+          padding: 14px 18px;
+          border-radius: 14px;
+          background: #f8fafc;
+          border: 1px dashed #cbd5e1;
+          color: #64748b;
+          font-size: 0.95rem;
+          font-weight: 600;
+          text-align: center;
+        }
+
         .word-card {
           width: var(--effective-card-size);
           height: var(--effective-card-size);
@@ -288,6 +308,7 @@
             cursor: pointer;
           transition: transform 0.2s ease, opacity 0.2s ease;
           perspective: 1000px;
+          contain: layout paint;
         }
 
         .word-card:hover {
@@ -307,6 +328,10 @@
           transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
           transform-style: preserve-3d;
           border-radius: calc(var(--card-radius) * var(--effective-card-scale));
+        }
+
+        .word-card:hover .word-card-inner,
+        .word-card.flipped .word-card-inner {
           will-change: transform;
         }
 
@@ -585,6 +610,10 @@
     <script>
         const WORDS_PER_COLOR = 50;
         const CARD_COLOR_SCALE = ['#f8b51e', '#267f94', '#fa501c', '#bb1818', '#1c3e76', '#6a3669'];
+        const LEVELS = ['A1', 'A2', 'B1', 'B2'];
+        const MAX_CARDS_PER_SECTION = 406;
+        const MAX_CHARS_PER_CARD = 150;
+        const SECTION_RENDER_ROOT_MARGIN = '1200px 0px';
 
         const levelColors = {
           'A1': '#10b981',
@@ -592,11 +621,122 @@
           'B1': '#f8b51e',
           'B2': '#267f94'
         };
+
+        const searchInput = document.getElementById('searchInput');
+        const searchButton = document.getElementById('searchButton');
+        const filterAllButton = document.getElementById('filterAllButton');
+        const filterA1Button = document.getElementById('filterA1Button');
+        const filterA2Button = document.getElementById('filterA2Button');
+        const filterB1Button = document.getElementById('filterB1Button');
+        const filterB2Button = document.getElementById('filterB2Button');
+        const flipChineseButton = document.getElementById('flipChineseButton');
+        const flipVietnameseButton = document.getElementById('flipVietnameseButton');
+        const zoomOutButton = document.getElementById('zoomOutButton');
+        const zoomResetButton = document.getElementById('zoomResetButton');
+        const zoomInButton = document.getElementById('zoomInButton');
+        const zoomIndicator = document.getElementById('zoomIndicator');
+        const wordsContainer = document.getElementById('wordsContainer');
+        const backToTopButton = document.getElementById('backToTop');
+
         let currentLevelFilter = null;
         let currentZoom = 1;
-
         let isRendering = false;
         let renderAbortController = new AbortController();
+        let searchTimeout;
+        let sectionObserver = null;
+        let showBackFace = false;
+        let searchMatchIndexes = null;
+        let pendingSearchTargetIndex = null;
+
+        const dataIndex = buildDataIndex();
+
+        function escapeHtml(value) {
+          return String(value)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;')
+            .replace(/'/g, '&#39;');
+        }
+
+        function buildDataIndex() {
+          const counts = { A1: 0, A2: 0, B1: 0, B2: 0 };
+          const searchableEntries = [];
+          const sectionsByLevel = { A1: [], A2: [], B1: [], B2: [] };
+          const processedByLevel = { A1: [], A2: [], B1: [], B2: [] };
+          const firstSectionByWordIndex = new Map();
+
+          vocabularyData.forEach((word, index) => {
+            if (!LEVELS.includes(word.level)) {
+              return;
+            }
+
+            counts[word.level] += 1;
+            searchableEntries.push({
+              index,
+              level: word.level,
+              searchText: `${word.chinese}\n${word.pinyin || ''}\n${word.meaning || ''}`.toLowerCase()
+            });
+
+            const meaning = word.meaning || '';
+            const pinyin = word.pinyin || '';
+
+            if (meaning.length > MAX_CHARS_PER_CARD) {
+              const partsCount = Math.ceil(meaning.length / MAX_CHARS_PER_CARD);
+              for (let partIndex = 0; partIndex < partsCount; partIndex += 1) {
+                processedByLevel[word.level].push({
+                  originalIndex: index,
+                  chinese: `${word.chinese} (${partIndex + 1}/${partsCount})`,
+                  meaning: meaning.substring(
+                    partIndex * MAX_CHARS_PER_CARD,
+                    (partIndex + 1) * MAX_CHARS_PER_CARD
+                  ),
+                  pinyin
+                });
+              }
+              return;
+            }
+
+            processedByLevel[word.level].push({
+              originalIndex: index,
+              chinese: word.chinese,
+              meaning,
+              pinyin
+            });
+          });
+
+          LEVELS.forEach((level) => {
+            const processedWords = processedByLevel[level];
+            const isMultiPart = processedWords.length > MAX_CARDS_PER_SECTION;
+
+            for (let offset = 0; offset < processedWords.length; offset += MAX_CARDS_PER_SECTION) {
+              const part = Math.floor(offset / MAX_CARDS_PER_SECTION) + 1;
+              const sectionId = `${level}-${part}`;
+              const words = processedWords.slice(offset, offset + MAX_CARDS_PER_SECTION);
+
+              sectionsByLevel[level].push({
+                sectionId,
+                level,
+                part,
+                isMultiPart,
+                words
+              });
+
+              words.forEach((entry) => {
+                if (!firstSectionByWordIndex.has(entry.originalIndex)) {
+                  firstSectionByWordIndex.set(entry.originalIndex, sectionId);
+                }
+              });
+            }
+          });
+
+          return {
+            counts,
+            searchableEntries,
+            sectionsByLevel,
+            firstSectionByWordIndex
+          };
+        }
 
         function getGridGapSize() {
           const rootStyles = getComputedStyle(document.documentElement);
@@ -613,14 +753,12 @@
           const baseCardSize = parseFloat(rootStyles.getPropertyValue('--card-size')) || 52;
           const preferredCardSize = baseCardSize * currentZoom;
           const gridGap = getGridGapSize();
-          
           const availableWidth = grid.clientWidth || section.clientWidth;
           const header = section.querySelector('.level-header');
           const headerHeight = header ? header.offsetHeight + 10 : 50;
-          const availableHeight = (window.innerHeight) - headerHeight - 20;
+          const availableHeight = window.innerHeight - headerHeight - 20;
 
           let bestSize = 8;
-
           for (let cols = 1; cols <= cardCount; cols += 1) {
             const rows = Math.ceil(cardCount / cols);
             const widthPerCard = (availableWidth - gridGap * (cols - 1)) / cols;
@@ -630,7 +768,10 @@
             if (candidateSize > bestSize) {
               bestSize = candidateSize;
             }
-            if (rows === 1) break;
+
+            if (rows === 1) {
+              break;
+            }
           }
 
           const effectiveCardSize = Math.max(10, Math.min(preferredCardSize, bestSize));
@@ -660,8 +801,9 @@
         function applyLevelColors(section) {
           const grid = section.querySelector('.words-grid');
           const cards = section.querySelectorAll('.word-card');
-          const cardsPerRow = getApproxCardsPerRow(section, grid);
+          if (!grid || cards.length === 0) return;
 
+          const cardsPerRow = getApproxCardsPerRow(section, grid);
           cards.forEach((card, index) => {
             if (!card.style.getPropertyValue('--card-front-color')) {
               card.style.setProperty('--card-front-color', getCardColor(index, cardsPerRow));
@@ -670,7 +812,7 @@
         }
 
         function applyLevelLayout() {
-          document.querySelectorAll('.level-section').forEach((section) => {
+          document.querySelectorAll('.level-section[data-rendered="true"]').forEach((section) => {
             fitLevelToViewport(section);
             applyLevelColors(section);
           });
@@ -726,11 +868,108 @@
           });
         }
 
+        function disconnectSectionObserver() {
+          if (sectionObserver) {
+            sectionObserver.disconnect();
+            sectionObserver = null;
+          }
+        }
+
+        function createSectionElement(sectionData) {
+          const section = document.createElement('div');
+          section.className = 'level-section';
+          section.dataset.level = sectionData.level;
+          section.dataset.sectionId = sectionData.sectionId;
+          section.dataset.rendered = 'false';
+          section.style.setProperty('--level-accent', levelColors[sectionData.level] || '#d9dee8');
+
+          const partTitle = sectionData.isMultiPart ? ` - Phần ${sectionData.part}` : '';
+          section.innerHTML = `
+            <h2 class="level-header">
+              <span style="border-left: 4px solid var(--level-accent); padding-left: 10px;">TOCFL ${sectionData.level}${partTitle}</span>
+              <span style="color: #64748b; font-size: 0.92rem; font-weight: 600;">${sectionData.words.length} thẻ</span>
+            </h2>
+            <div class="words-grid">
+              <div class="section-status">Cuộn đến đây để tải thẻ nhanh hơn.</div>
+            </div>
+          `;
+
+          return section;
+        }
+
+        function getVisibleSections() {
+          if (currentLevelFilter) {
+            return dataIndex.sectionsByLevel[currentLevelFilter];
+          }
+
+          return LEVELS.flatMap((level) => dataIndex.sectionsByLevel[level]);
+        }
+
+        function renderSection(section) {
+          if (!section || section.dataset.rendered === 'true') {
+            return;
+          }
+
+          const sectionId = section.dataset.sectionId;
+          const sectionData = getVisibleSections().find((entry) => entry.sectionId === sectionId);
+          if (!sectionData) {
+            return;
+          }
+
+          const grid = section.querySelector('.words-grid');
+          if (!grid) {
+            return;
+          }
+
+          const cardsMarkup = sectionData.words.map((word) => `
+            <div class="word-card level-${sectionData.level}${showBackFace ? ' flipped' : ''}" data-index="${word.originalIndex}">
+              <div class="word-card-inner">
+                <div class="word-face word-front">${escapeHtml(word.chinese)}</div>
+                <div class="word-face word-back">
+                  <div class="word-back-scrollable">
+                    <div class="word-back-meaning">${escapeHtml(word.meaning || '')}</div>
+                    <div class="word-back-pinyin">${escapeHtml(word.pinyin || '')}</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          `).join('');
+
+          grid.innerHTML = cardsMarkup;
+          section.dataset.rendered = 'true';
+          fitLevelToViewport(section);
+          applyLevelColors(section);
+          updateRenderedSearchHighlights(section);
+
+          if (pendingSearchTargetIndex !== null) {
+            focusSearchTarget(pendingSearchTargetIndex);
+          }
+        }
+
+        function observeSections() {
+          disconnectSectionObserver();
+          sectionObserver = new IntersectionObserver((entries) => {
+            entries.forEach((entry) => {
+              if (!entry.isIntersecting) {
+                return;
+              }
+
+              renderSection(entry.target);
+              sectionObserver.unobserve(entry.target);
+            });
+          }, {
+            rootMargin: SECTION_RENDER_ROOT_MARGIN
+          });
+
+          document.querySelectorAll('.level-section[data-rendered="false"]').forEach((section) => {
+            sectionObserver.observe(section);
+          });
+        }
+
         function setLevelFilter(level) {
           currentLevelFilter = level;
           updateLevelFilterButtons();
-          generateWords(); 
-          setTimeout(applyLevelLayout, 0);
+          generateWords();
           handleSearch();
         }
 
@@ -747,207 +986,130 @@
         }
 
         function updateStats() {
-            const levels = ['A1', 'A2', 'B1', 'B2'];
-            const counts = {};
-            levels.forEach(l => {
-                counts[l] = vocabularyData.filter(w => w.level === l).length;
-            });
-            
-            document.getElementById('totalWords').textContent = vocabularyData.length;
-            document.getElementById('a1Count').textContent = counts['A1'];
-            document.getElementById('a2Count').textContent = counts['A2'];
-            document.getElementById('b1Count').textContent = counts['B1'];
-            document.getElementById('b2Count').textContent = counts['B2'];
+          document.getElementById('totalWords').textContent = vocabularyData.length;
+          document.getElementById('a1Count').textContent = dataIndex.counts.A1;
+          document.getElementById('a2Count').textContent = dataIndex.counts.A2;
+          document.getElementById('b1Count').textContent = dataIndex.counts.B1;
+          document.getElementById('b2Count').textContent = dataIndex.counts.B2;
+        }
+
+        function clearRenderedHighlights() {
+          document.querySelectorAll('.word-card.highlight, .word-card.search-target').forEach((card) => {
+            card.classList.remove('highlight', 'search-target');
+          });
+        }
+
+        function updateRenderedSearchHighlights(scope = document) {
+          const cards = scope.querySelectorAll ? scope.querySelectorAll('.word-card') : [];
+          cards.forEach((card) => {
+            const isMatch = Boolean(searchMatchIndexes && searchMatchIndexes.has(Number(card.dataset.index)));
+            card.classList.toggle('highlight', isMatch);
+            card.classList.remove('search-target');
+          });
+        }
+
+        function focusSearchTarget(wordIndex) {
+          clearRenderedHighlights();
+          updateRenderedSearchHighlights();
+
+          const targetCard = document.querySelector(`.word-card[data-index="${wordIndex}"]`);
+          if (!targetCard) {
+            return;
+          }
+
+          targetCard.classList.add('search-target');
+          targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        }
+
+        function revealWord(wordIndex) {
+          const sectionId = dataIndex.firstSectionByWordIndex.get(wordIndex);
+          if (!sectionId) {
+            return;
+          }
+
+          const section = document.querySelector(`.level-section[data-section-id="${sectionId}"]`);
+          if (!section) {
+            return;
+          }
+
+          renderSection(section);
+          focusSearchTarget(wordIndex);
         }
 
         function generateWords() {
-            if (isRendering) {
-              renderAbortController.abort();
-              renderAbortController = new AbortController();
-            }
-            
-            isRendering = true;
-            const signals = renderAbortController.signal;
-            const container = document.getElementById('wordsContainer');
-            container.innerHTML = '';
+          if (isRendering) {
+            renderAbortController.abort();
+          }
 
-            const levels = ['A1', 'A2', 'B1', 'B2'];
-            const filteredLevels = currentLevelFilter ? [currentLevelFilter] : levels;
-            
-            const sectionsToRender = [];
-            const MAX_CARDS_PER_SECTION = 406;
-            const MAX_CHARS_PER_CARD = 150;
+          renderAbortController = new AbortController();
+          isRendering = true;
+          disconnectSectionObserver();
+          wordsContainer.innerHTML = '';
 
-            filteredLevels.forEach(level => {
-              const baseLevelWords = vocabularyData.filter(w => w.level === level);
-              const processedLevelWords = [];
-              
-              baseLevelWords.forEach(word => {
-                const meaning = word.meaning || '';
-                if (meaning.length > MAX_CHARS_PER_CARD) {
-                  const partsCount = Math.ceil(meaning.length / MAX_CHARS_PER_CARD);
-                  for (let p = 0; p < partsCount; p++) {
-                    processedLevelWords.push({
-                      ...word,
-                      chinese: `${word.chinese} (${p + 1}/${partsCount})`,
-                      meaning: meaning.substring(p * MAX_CHARS_PER_CARD, (p + 1) * MAX_CHARS_PER_CARD),
-                      originalIndex: vocabularyData.indexOf(word)
-                    });
-                  }
-                } else {
-                  processedLevelWords.push({
-                    ...word,
-                    originalIndex: vocabularyData.indexOf(word)
-                  });
-                }
-              });
+          const fragment = document.createDocumentFragment();
+          const sections = getVisibleSections();
+          sections.forEach((sectionData) => {
+            fragment.appendChild(createSectionElement(sectionData));
+          });
 
-              for (let i = 0; i < processedLevelWords.length; i += MAX_CARDS_PER_SECTION) {
-                sectionsToRender.push({
-                  level: level,
-                  words: processedLevelWords.slice(i, i + MAX_CARDS_PER_SECTION),
-                  part: Math.floor(i / MAX_CARDS_PER_SECTION) + 1,
-                  isMultiPart: processedLevelWords.length > MAX_CARDS_PER_SECTION
-                });
+          wordsContainer.appendChild(fragment);
+
+          const initialSections = Array.from(document.querySelectorAll('.level-section')).slice(0, 2);
+          initialSections.forEach((section) => renderSection(section));
+          observeSections();
+          applyLevelLayout();
+          updateStats();
+          isRendering = false;
+        }
+
+        function handleSearch() {
+          clearTimeout(searchTimeout);
+          searchTimeout = setTimeout(() => {
+            const { levelFilter: inlineLevelFilter, textQuery } = parseSearchQuery(searchInput.value);
+            const effectiveLevelFilter = inlineLevelFilter || currentLevelFilter;
+            pendingSearchTargetIndex = null;
+
+            if (textQuery === '') {
+              searchMatchIndexes = null;
+              clearRenderedHighlights();
+              if (effectiveLevelFilter) {
+                scrollToLevel(effectiveLevelFilter);
               }
-            });
+              return;
+            }
 
-            let currentSectionIdx = 0;
-            
-            async function renderNextSection() {
-              if (signals.aborted || currentSectionIdx >= sectionsToRender.length) {
-                isRendering = false;
-                applyLevelLayout();
-                updateStats();
+            const matches = [];
+            let firstMatchIndex = null;
+            dataIndex.searchableEntries.forEach((entry) => {
+              if (effectiveLevelFilter && entry.level !== effectiveLevelFilter) {
                 return;
               }
 
-              const { level, words: partWords, part, isMultiPart } = sectionsToRender[currentSectionIdx];
-              const section = document.createElement('div');
-              section.className = 'level-section';
-              section.dataset.level = level;
-              section.style.setProperty('--level-accent', levelColors[level] || '#d9dee8');
-              
-              const partTitle = isMultiPart ? ` - Phần ${part}` : '';
-              const header = document.createElement('h2');
-              header.className = 'level-header';
-              header.innerHTML = `
-                <span style="border-left: 4px solid var(--level-accent); padding-left: 10px;">TOCFL ${level}${partTitle}</span>
-                <span style="color: #64748b; font-size: 0.92rem; font-weight: 600;">${partWords.length} thẻ</span>
-              `;
-              
-              const grid = document.createElement('div');
-              grid.className = 'words-grid';
-              section.appendChild(header);
-              section.appendChild(grid);
-              container.appendChild(section);
-
-              const CHUNK_SIZE = 150;
-              let wordIdx = 0;
-
-              function renderChunks() {
-                if (signals.aborted) return;
-                
-                const fragment = document.createDocumentFragment();
-                const end = Math.min(wordIdx + CHUNK_SIZE, partWords.length);
-                
-                for (let i = wordIdx; i < end; i++) {
-                  const word = partWords[i];
-                  const card = document.createElement('div');
-                  card.className = `word-card level-${level}`;
-                  card.dataset.index = word.originalIndex;
-                  card.innerHTML = `
-                    <div class="word-card-inner">
-                      <div class="word-face word-front">${word.chinese}</div>
-                      <div class="word-face word-back">
-                        <div class="word-back-scrollable">
-                          <div class="word-back-meaning">${word.meaning || ''}</div>
-                          <div class="word-back-pinyin">${word.pinyin || ''}</div>
-                        </div>
-                      </div>
-                    </div>
-                  `;
-                  card.addEventListener('click', (e) => {
-                      e.stopPropagation();
-                      card.classList.toggle('flipped');
-                  });
-                  fragment.appendChild(card);
-                }
-
-                grid.appendChild(fragment);
-                wordIdx = end;
-
-                if (wordIdx < partWords.length) {
-                  requestAnimationFrame(() => {
-                    setTimeout(renderChunks, 10);
-                  });
-                } else {
-                  fitLevelToViewport(section);
-                  applyLevelColors(section);
-                  currentSectionIdx++;
-                  requestAnimationFrame(() => {
-                    setTimeout(renderNextSection, 20);
-                  });
-                }
+              if (!entry.searchText.includes(textQuery)) {
+                return;
               }
-              renderChunks();
+
+              matches.push(entry.index);
+              if (firstMatchIndex === null) {
+                firstMatchIndex = entry.index;
+              }
+            });
+
+            searchMatchIndexes = new Set(matches);
+            updateRenderedSearchHighlights();
+
+            if (firstMatchIndex !== null) {
+              pendingSearchTargetIndex = firstMatchIndex;
+              revealWord(firstMatchIndex);
             }
-            renderNextSection();
-        }
-
-        let searchTimeout;
-        function handleSearch() {
-            clearTimeout(searchTimeout);
-            searchTimeout = setTimeout(() => {
-                const { levelFilter: inlineLevelFilter, textQuery } = parseSearchQuery(searchInput.value);
-                const effectiveLevelFilter = inlineLevelFilter || currentLevelFilter;
-                const cards = document.querySelectorAll('.word-card');
-                let firstMatchedCard = null;
-
-                if (textQuery === '') {
-                    cards.forEach(card => card.classList.remove('highlight', 'search-target'));
-                    if (effectiveLevelFilter) scrollToLevel(effectiveLevelFilter);
-                    return;
-                }
-                
-                cards.forEach(card => {
-                    card.classList.remove('search-target');
-                    const section = card.closest('.level-section');
-                    if (!section) return;
-
-                    const matchesLevel = !effectiveLevelFilter || section.dataset.level === effectiveLevelFilter;
-                    if (!matchesLevel) {
-                      card.classList.remove('highlight');
-                      return;
-                    }
-
-                    const index = parseInt(card.dataset.index);
-                    const word = vocabularyData[index];
-                    
-                    const isMatch = 
-                        word.chinese.includes(textQuery) ||
-                        (word.pinyin && word.pinyin.toLowerCase().includes(textQuery)) ||
-                        (word.meaning && word.meaning.toLowerCase().includes(textQuery));
-                    
-                    if (isMatch) {
-                        card.classList.add('highlight');
-                      if (!firstMatchedCard) firstMatchedCard = card;
-                    } else {
-                        card.classList.remove('highlight');
-                    }
-                });
-
-                if (firstMatchedCard) {
-                    firstMatchedCard.classList.add('search-target');
-                    firstMatchedCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                }
-            }, 300);
+          }, 200);
         }
 
         function setAllCardsFace(showBack) {
-            document.querySelectorAll('.word-card').forEach((card) => {
-                card.classList.toggle('flipped', showBack);
-            });
+          showBackFace = showBack;
+          document.querySelectorAll('.word-card').forEach((card) => {
+            card.classList.toggle('flipped', showBack);
+          });
         }
 
         function applyZoom() {
@@ -961,7 +1123,6 @@
           applyZoom();
         }
 
-        const backToTopButton = document.getElementById('backToTop');
         window.addEventListener('scroll', () => {
           if (window.scrollY > 500) {
             backToTopButton.classList.add('visible');
@@ -969,11 +1130,29 @@
             backToTopButton.classList.remove('visible');
           }
         });
+
         backToTopButton.addEventListener('click', () => {
           window.scrollTo({ top: 0, behavior: 'smooth' });
         });
 
-        searchInput.addEventListener('input', handleSearch);
+        wordsContainer.addEventListener('click', (event) => {
+          const card = event.target.closest('.word-card');
+          if (!card || !wordsContainer.contains(card)) {
+            return;
+          }
+
+          event.stopPropagation();
+          card.classList.toggle('flipped');
+        });
+
+        searchInput.addEventListener('keydown', (event) => {
+          if (event.key !== 'Enter') {
+            return;
+          }
+
+          event.preventDefault();
+          handleSearch();
+        });
         searchButton.addEventListener('click', handleSearch);
         filterAllButton.addEventListener('click', () => setLevelFilter(null));
         filterA1Button.addEventListener('click', () => setLevelFilter('A1'));
@@ -983,7 +1162,10 @@
         flipChineseButton.addEventListener('click', () => setAllCardsFace(false));
         flipVietnameseButton.addEventListener('click', () => setAllCardsFace(true));
         zoomOutButton.addEventListener('click', () => changeZoom(-0.15));
-        zoomResetButton.addEventListener('click', () => { currentZoom = 1; applyZoom(); });
+        zoomResetButton.addEventListener('click', () => {
+          currentZoom = 1;
+          applyZoom();
+        });
         zoomInButton.addEventListener('click', () => changeZoom(0.15));
         window.addEventListener('resize', applyLevelLayout);
 
