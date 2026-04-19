@@ -1,0 +1,86 @@
+[
+  {
+    "level": "A1",
+    "direction": "vi_zh",
+    "sourceText": "Tôi thích ăn bánh bao.",
+    "referenceAnswers": ["我喜歡吃包子。"],
+    "keywords": ["喜歡", "包子"]
+  },
+  {
+    "level": "A1",
+    "direction": "vi_zh",
+    "sourceText": "Hôm nay là thứ mấy?",
+    "referenceAnswers": ["今天是星期幾？"],
+    "keywords": ["今天", "星期"]
+  },
+  {
+    "level": "A1",
+    "direction": "vi_zh",
+    "sourceText": "Văn phòng của anh ấy ở đâu?",
+    "referenceAnswers": ["他的辦公室在哪裡？"],
+    "keywords": ["辦公室", "哪裡"]
+  },
+  {
+    "level": "A1",
+    "direction": "vi_zh",
+    "sourceText": "Cô ấy là giáo viên.",
+    "referenceAnswers": ["她是老師。"],
+    "keywords": ["老師"]
+  },
+  {
+    "level": "A1",
+    "direction": "vi_zh",
+    "sourceText": "Tôi đói bụng, muốn ăn cơm.",
+    "referenceAnswers": ["我肚子餓，想吃飯。"],
+    "keywords": ["肚子", "餓", "吃飯"]
+  },
+  {
+    "level": "A1",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta đi xem phim nhé!",
+    "referenceAnswers": ["我們去看電影吧！"],
+    "keywords": ["電影"]
+  },
+  {
+    "level": "A1",
+    "direction": "vi_zh",
+    "sourceText": "Em trai tôi rất cao.",
+    "referenceAnswers": ["我弟弟很高。"],
+    "keywords": ["弟弟", "高"]
+  },
+  {
+    "level": "A1",
+    "direction": "vi_zh",
+    "sourceText": "Máy tính này đắt không?",
+    "referenceAnswers": ["這台電腦貴嗎？"],
+    "keywords": ["電腦", "貴"]
+  },
+  {
+    "level": "A1",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy gọi điện cho mẹ mỗi ngày.",
+    "referenceAnswers": ["他每天打電話給媽媽。"],
+    "keywords": ["打電話", "媽媽", "每天"]
+  },
+  {
+    "level": "A1",
+    "direction": "vi_zh",
+    "sourceText": "Nhà hàng kia rất sạch sẽ.",
+    "referenceAnswers": ["那家餐廳很乾淨。"],
+    "keywords": ["餐廳", "乾淨"]
+  },
+  {
+    "level": "A1",
+    "direction": "vi_zh",
+    "sourceText": "Tôi thường đến trường bằng xe buýt.",
+    "referenceAnswers": ["我常常坐公車去學校。"],
+    "keywords": ["常常", "學校"]
+  },
+  {
+    "level": "A1",
+    "direction": "vi_zh",
+    "sourceText": "Xin lỗi, đây là cái gì?",
+    "referenceAnswers": ["對不起，這是什麼？"],
+    "keywords": ["對不起", "什麼"]
+  }
+]

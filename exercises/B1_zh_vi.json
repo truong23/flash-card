@@ -1,0 +1,86 @@
+[
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "儘管遇到了困難，他仍然堅持完成了任務。",
+    "referenceAnswers": ["Mặc dù gặp khó khăn, anh ấy vẫn kiên trì hoàn thành nhiệm vụ."],
+    "keywords": ["困難", "堅持", "完成", "任務"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "這個問題值得我們深入思考。",
+    "referenceAnswers": ["Vấn đề này đáng để chúng ta suy nghĩ sâu hơn."],
+    "keywords": ["問題", "值得", "思考"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "隨著科技的發展，人們的生活越來越方便。",
+    "referenceAnswers": ["Cùng với sự phát triển của khoa học kỹ thuật, cuộc sống của con người ngày càng tiện lợi hơn."],
+    "keywords": ["科技", "發展", "方便"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "她對這份工作充滿了熱情。",
+    "referenceAnswers": ["Cô ấy tràn đầy nhiệt huyết với công việc này."],
+    "keywords": ["工作", "充滿", "熱情"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "他不僅學習好，而且為人謙虛。",
+    "referenceAnswers": ["Anh ấy không chỉ học giỏi mà còn khiêm tốn."],
+    "keywords": ["不僅", "而且", "謙虛"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "這篇文章的觀點很有說服力。",
+    "referenceAnswers": ["Quan điểm của bài viết này rất có sức thuyết phục."],
+    "keywords": ["文章", "觀點", "說服力"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "我們必須保護環境，不能隨便丟垃圾。",
+    "referenceAnswers": ["Chúng ta phải bảo vệ môi trường, không được tùy tiện xả rác."],
+    "keywords": ["保護", "環境", "垃圾"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "他的建議對我很有幫助。",
+    "referenceAnswers": ["Lời đề nghị của anh ấy rất có ích cho tôi."],
+    "keywords": ["建議", "幫助"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "這家公司的產品品質非常好。",
+    "referenceAnswers": ["Chất lượng sản phẩm của công ty này rất tốt."],
+    "keywords": ["公司", "產品", "品質"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "他花了三年時間才學會了這門技術。",
+    "referenceAnswers": ["Anh ấy mất ba năm mới học được kỹ thuật này."],
+    "keywords": ["時間", "學會", "技術"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "能跟你合作，我感到非常榮幸。",
+    "referenceAnswers": ["Được hợp tác với bạn, tôi cảm thấy rất vinh hạnh."],
+    "keywords": ["合作", "感到", "榮幸"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "你應該多鍛煉身體，保持健康。",
+    "referenceAnswers": ["Bạn nên thường xuyên rèn luyện thể chất, giữ gìn sức khỏe."],
+    "keywords": ["鍛煉", "身體", "健康"]
+  }
+]

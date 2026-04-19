@@ -1,0 +1,86 @@
+[
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "雖然天氣很冷，但是他還是去跑步了。",
+    "referenceAnswers": ["Mặc dù thời tiết rất lạnh, nhưng anh ấy vẫn đi chạy bộ."],
+    "keywords": ["雖然", "天氣", "跑步"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這個週末你有沒有空？",
+    "referenceAnswers": ["Cuối tuần này bạn có rảnh không?"],
+    "keywords": ["週末", "有沒有", "空"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我覺得學外語很有趣。",
+    "referenceAnswers": ["Tôi thấy học ngoại ngữ rất thú vị."],
+    "keywords": ["覺得", "外語", "有趣"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他已經等了很久了。",
+    "referenceAnswers": ["Anh ấy đã đợi rất lâu rồi."],
+    "keywords": ["已經", "等", "久"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "你能幫我一個忙嗎？",
+    "referenceAnswers": ["Bạn có thể giúp tôi một việc không?"],
+    "keywords": ["能", "幫", "忙"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我每天早上七點起床。",
+    "referenceAnswers": ["Mỗi ngày tôi thức dậy lúc bảy giờ sáng."],
+    "keywords": ["每天", "早上", "起床"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他說的中文越來越好了。",
+    "referenceAnswers": ["Tiếng Trung của anh ấy ngày càng tốt hơn."],
+    "keywords": ["中文", "越來越"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我把書放在桌子上了。",
+    "referenceAnswers": ["Tôi đã để sách lên bàn rồi."],
+    "keywords": ["把", "書", "桌子"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這條路很難走，我們走那條吧。",
+    "referenceAnswers": ["Con đường này khó đi lắm, chúng ta đi con kia đi."],
+    "keywords": ["路", "難", "走"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他是一個很有耐心的人。",
+    "referenceAnswers": ["Anh ấy là một người rất kiên nhẫn."],
+    "keywords": ["耐心", "人"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我在網路上訂了一家飯店。",
+    "referenceAnswers": ["Tôi đã đặt một khách sạn trên mạng."],
+    "keywords": ["網路", "訂", "飯店"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "請問現在幾點了？",
+    "referenceAnswers": ["Xin hỏi bây giờ là mấy giờ rồi?"],
+    "keywords": ["請問", "現在", "幾點"]
+  }
+]

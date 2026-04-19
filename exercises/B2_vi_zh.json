@@ -1,0 +1,86 @@
+[
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Đối mặt với những thách thức môi trường ngày càng nghiêm trọng, chúng ta cần hành động ngay.",
+    "referenceAnswers": ["面對日益嚴峻的環境挑戰，我們需要立刻採取行動。"],
+    "keywords": ["環境", "挑戰", "採取", "行動"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Chính sách mới này đã thúc đẩy sự phát triển kinh tế của khu vực.",
+    "referenceAnswers": ["這項新政策推動了該地區的經濟發展。"],
+    "keywords": ["政策", "經濟", "發展"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Trong cuộc đàm phán, anh ấy đã thể hiện kỹ năng ngoại giao tuyệt vời.",
+    "referenceAnswers": ["在談判中，他展現出了卓越的外交技巧。"],
+    "keywords": ["談判", "卓越", "外交", "技巧"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Đa dạng văn hóa cần được tôn trọng trong xã hội hiện đại.",
+    "referenceAnswers": ["文化多樣性在現代社會應該受到尊重。"],
+    "keywords": ["文化", "多樣性", "現代", "社會", "尊重"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Kết quả nghiên cứu của ông đã tạo ra tác động lớn trong lĩnh vực khoa học.",
+    "referenceAnswers": ["他的研究成果在科學領域產生了重大影響。"],
+    "keywords": ["研究", "成果", "科學", "影響"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Trí tuệ nhân tạo đang thay đổi cách con người làm việc và học tập.",
+    "referenceAnswers": ["人工智能正在改變人們工作和學習的方式。"],
+    "keywords": ["人工智能", "工作", "學習"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Cô ấy đã vượt qua mọi khó khăn nhờ ý chí mạnh mẽ và quyết tâm.",
+    "referenceAnswers": ["她憑藉著頑強的意志力和決心克服了重重困難。"],
+    "keywords": ["意志力", "決心", "克服", "困難"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Trong thời đại toàn cầu hóa, giao tiếp liên văn hóa rất quan trọng.",
+    "referenceAnswers": ["在全球化時代，跨文化溝通非常重要。"],
+    "keywords": ["全球化", "文化", "溝通"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Cạnh tranh khốc liệt đòi hỏi doanh nghiệp phải không ngừng đổi mới.",
+    "referenceAnswers": ["激烈的競爭要求企業不斷創新。"],
+    "keywords": ["競爭", "企業", "創新"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Cải cách hành chính giúp nâng cao hiệu quả hoạt động của chính phủ.",
+    "referenceAnswers": ["行政改革有助於提高政府的運作效率。"],
+    "keywords": ["改革", "政府", "效率"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Giáo dục là nền tảng vững chắc cho sự phát triển bền vững của đất nước.",
+    "referenceAnswers": ["教育是國家可持續發展的堅實基礎。"],
+    "keywords": ["教育", "國家", "發展"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Tư duy sáng tạo và tinh thần đổi mới là chìa khóa của thành công.",
+    "referenceAnswers": ["創新思維和開拓進取的精神是成功的關鍵。"],
+    "keywords": ["創新", "思維", "精神", "成功"]
+  }
+]
