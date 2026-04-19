@@ -3,84 +3,144 @@
     "level": "A2",
     "direction": "vi_zh",
     "sourceText": "Mặc dù mệt nhưng tôi vẫn tiếp tục học.",
-    "referenceAnswers": ["雖然很累，但是我還是繼續學習。"],
+    "referenceAnswers": [
+      "雖然很累，但是我還是繼續學習。",
+      "虽然很累，但是我还是继续学习。",
+      "雖然很累，但我還是繼續學習。",
+      "儘管很累，我仍然繼續學習。"
+    ],
     "keywords": ["雖然", "繼續", "學習"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
     "sourceText": "Cuối tuần này bạn có đi du lịch không?",
-    "referenceAnswers": ["這個週末你有沒有去旅遊？"],
+    "referenceAnswers": [
+      "這個週末你有沒有去旅遊？",
+      "这个周末你有没有去旅游？",
+      "這週末你打算去旅遊嗎？",
+      "這個週末你去不去旅遊？"
+    ],
     "keywords": ["週末", "旅遊"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
     "sourceText": "Tôi thấy học tiếng Trung khá khó.",
-    "referenceAnswers": ["我覺得學中文比較難。"],
+    "referenceAnswers": [
+      "我覺得學中文比較難。",
+      "我觉得学中文比较难。",
+      "我感到學中文挺難的。",
+      "我認為學習中文相當難。"
+    ],
     "keywords": ["覺得", "中文", "難"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
     "sourceText": "Anh ấy đã mua vé máy bay rồi.",
-    "referenceAnswers": ["他已經買了機票了。"],
+    "referenceAnswers": [
+      "他已經買了機票了。",
+      "他已经买了机票了。",
+      "他買好機票了。",
+      "他票已經買好了。"
+    ],
     "keywords": ["已經", "機票"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
     "sourceText": "Bạn có thể đến sớm hơn không?",
-    "referenceAnswers": ["你能早一點來嗎？"],
+    "referenceAnswers": [
+      "你能早一點來嗎？",
+      "你能早一点来吗？",
+      "你可以早點到嗎？",
+      "你能早些過來嗎？"
+    ],
     "keywords": ["能", "早"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
     "sourceText": "Tôi thường dậy sớm vào mỗi buổi sáng.",
-    "referenceAnswers": ["我每天早上都很早起床。"],
+    "referenceAnswers": [
+      "我每天早上都很早起床。",
+      "我每天早上都很早起床。",
+      "我習慣在早上早起。",
+      "我每天早起。"
+    ],
     "keywords": ["每天", "早上", "起床"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
     "sourceText": "Tiếng Trung của bạn ngày càng giỏi hơn.",
-    "referenceAnswers": ["你的中文越來越好了。"],
+    "referenceAnswers": [
+      "你的中文越來越好了。",
+      "你的中文越来越好了。",
+      "你的中文進步很大。",
+      "你的中文說得越來越好。"
+    ],
     "keywords": ["中文", "越來越"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
     "sourceText": "Tôi đặt sách vào trong túi.",
-    "referenceAnswers": ["我把書放在袋子裡。"],
+    "referenceAnswers": [
+      "我把書放在袋子裡。",
+      "我把书放在袋子里。",
+      "我將書放進袋子中。",
+      "書被我放進了袋子裡。"
+    ],
     "keywords": ["把", "書", "袋子"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
     "sourceText": "Con đường này rất nguy hiểm.",
-    "referenceAnswers": ["這條路很危險。"],
+    "referenceAnswers": [
+      "這條路很危險。",
+      "这条路很危险。",
+      "這條馬路非常有危險性。",
+      "這條道路挺危險的。"
+    ],
     "keywords": ["路", "危險"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
     "sourceText": "Anh ấy là người rất tốt bụng.",
-    "referenceAnswers": ["他是一個非常善良的人。"],
+    "referenceAnswers": [
+      "他是一個非常善良的人。",
+      "他是一个非常善良的人。",
+      "他人很好。",
+      "他的心腸很善良。"
+    ],
     "keywords": ["非常", "善良"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
     "sourceText": "Tôi muốn đặt phòng khách sạn.",
-    "referenceAnswers": ["我想訂一間飯店的房間。"],
+    "referenceAnswers": [
+      "我想訂一間飯店的房間。",
+      "我想订一间饭店的房间。",
+      "我要預訂賓館房間。",
+      "我想訂個酒店房間。"
+    ],
     "keywords": ["訂", "飯店", "房間"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
     "sourceText": "Bây giờ là mấy giờ rồi?",
-    "referenceAnswers": ["現在幾點了？"],
+    "referenceAnswers": [
+      "現在幾點了？",
+      "现在几点了？",
+      "請問現在幾點？",
+      "現在是什麼時間？"
+    ],
     "keywords": ["現在", "幾點"]
   }
 ]

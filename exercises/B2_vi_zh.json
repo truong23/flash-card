@@ -3,84 +3,144 @@
     "level": "B2",
     "direction": "vi_zh",
     "sourceText": "Đối mặt với những thách thức môi trường ngày càng nghiêm trọng, chúng ta cần hành động ngay.",
-    "referenceAnswers": ["面對日益嚴峻的環境挑戰，我們需要立刻採取行動。"],
+    "referenceAnswers": [
+      "面對日益嚴峻的環境挑戰，我們需要立刻採取行動。",
+      "面对日益严峻的环境挑战，我们需要立刻采取行动。",
+      "隨著環境威脅的不斷加劇，當務之急是付諸行動。",
+      "我們必須即刻行動，以應對愈發嚴重的生態考驗。"
+    ],
     "keywords": ["環境", "挑戰", "採取", "行動"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
     "sourceText": "Chính sách mới này đã thúc đẩy sự phát triển kinh tế của khu vực.",
-    "referenceAnswers": ["這項新政策推動了該地區的經濟發展。"],
+    "referenceAnswers": [
+      "這項新政策推動了該地區的經濟發展。",
+      "这项新政策推动了该地区的经济发展。",
+      "新出台的政策有效帶動了當地的經濟成長。",
+      "該區域的經濟進步得益於這套新制定的政策。"
+    ],
     "keywords": ["政策", "經濟", "發展"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
     "sourceText": "Trong cuộc đàm phán, anh ấy đã thể hiện kỹ năng ngoại giao tuyệt vời.",
-    "referenceAnswers": ["在談判中，他展現出了卓越的外交技巧。"],
+    "referenceAnswers": [
+      "在談判中，他展現出了卓越的外交技巧。",
+      "在谈判中，他展现出了卓越的外交技巧。",
+      "協商過程中，其精湛的交涉能力令人印象深刻。",
+      "他於談判桌上發揮了優異的外交手腕。"
+    ],
     "keywords": ["談判", "卓越", "外交", "技巧"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
     "sourceText": "Đa dạng văn hóa cần được tôn trọng trong xã hội hiện đại.",
-    "referenceAnswers": ["文化多樣性在現代社會應該受到尊重。"],
+    "referenceAnswers": [
+      "文化多樣性在現代社會應該受到尊重。",
+      "文化多样性在现代社会应该受到尊重。",
+      "當今社會應當對多元文化持接納與尊重的態度。",
+      "保障社會內部的文化多樣性是極為重要的。"
+    ],
     "keywords": ["文化", "多樣性", "現代", "社會", "尊重"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
     "sourceText": "Kết quả nghiên cứu của ông đã tạo ra tác động lớn trong lĩnh vực khoa học.",
-    "referenceAnswers": ["他的研究成果在科學領域產生了重大影響。"],
+    "referenceAnswers": [
+      "他的研究成果在科學領域產生了重大影響。",
+      "他的研究成果在科学领域产生了重大影响。",
+      "其研究發現對學術界造成了深遠的衝擊。",
+      "他在科學探索上的產出引起了廣泛關注。"
+    ],
     "keywords": ["研究", "成果", "科學", "影響"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
     "sourceText": "Trí tuệ nhân tạo đang thay đổi cách con người làm việc và học tập.",
-    "referenceAnswers": ["人工智能正在改變人們工作和學習的方式。"],
+    "referenceAnswers": [
+      "人工智能正在改變人們工作和學習的方式。",
+      "人工智能正在改变人们工作和学习的方式。",
+      "AI技術正重塑著大眾的職涯與教育模式。",
+      "智能技術的普及正革新著傳統的工作學習路徑。"
+    ],
     "keywords": ["人工智能", "工作", "學習"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
     "sourceText": "Cô ấy đã vượt qua mọi khó khăn nhờ ý chí mạnh mẽ và quyết tâm.",
-    "referenceAnswers": ["她憑藉著頑強的意志力和決心克服了重重困難。"],
+    "referenceAnswers": [
+      "她憑藉著頑強的意志力和決心克服了重重困難。",
+      "她凭借着顽强的意志力和决心克服了重重困难。",
+      "靠著堅定的執著，她最終戰勝了一切逆境。",
+      "其剛毅的性格助她化解了無數艱辛。"
+    ],
     "keywords": ["意志力", "決心", "克服", "困難"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
     "sourceText": "Trong thời đại toàn cầu hóa, giao tiếp liên văn hóa rất quan trọng.",
-    "referenceAnswers": ["在全球化時代，跨文化溝通非常重要。"],
+    "referenceAnswers": [
+      "在全球化時代，跨文化溝通非常重要。",
+      "在全球化时代，跨文化沟通非常重要。",
+      "身處全球一體化的浪潮，跨越國界的交流至關重要。",
+      "具備跨文化交際能力是當今國際化的核心要求。"
+    ],
     "keywords": ["全球化", "文化", "溝通"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
     "sourceText": "Cạnh tranh khốc liệt đòi hỏi doanh nghiệp phải không ngừng đổi mới.",
-    "referenceAnswers": ["激烈的競爭要求企業不斷創新。"],
+    "referenceAnswers": [
+      "激烈的競爭要求企業不斷創新。",
+      "激烈的竞争要求企业不断创新。",
+      "白熱化的市場博弈迫使各機構尋求技術突破。",
+      "在高強度的對抗中，缺乏創新將難以生存。"
+    ],
     "keywords": ["競爭", "企業", "創新"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
     "sourceText": "Cải cách hành chính giúp nâng cao hiệu quả hoạt động của chính phủ.",
-    "referenceAnswers": ["行政改革有助於提高政府的運作效率。"],
+    "referenceAnswers": [
+      "行政改革有助於提高政府的運作效率。",
+      "行政改革有助于提高政府的运作效率。",
+      "優化管理體制可顯著提升公眾服務的效能。",
+      "推行精簡政務能使政府運行得更加順暢。"
+    ],
     "keywords": ["改革", "政府", "效率"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
     "sourceText": "Giáo dục là nền tảng vững chắc cho sự phát triển bền vững của đất nước.",
-    "referenceAnswers": ["教育是國家可持續發展的堅實基礎。"],
+    "referenceAnswers": [
+      "教育是國家可持續發展的堅實基礎。",
+      "教育是国家可持续发展的坚实基础。",
+      "育人體系之健全與否關係到民族的未來基石。",
+      "穩定的教育投入是保障國家長治久安的關鍵。"
+    ],
     "keywords": ["教育", "國家", "發展"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
     "sourceText": "Tư duy sáng tạo và tinh thần đổi mới là chìa khóa của thành công.",
-    "referenceAnswers": ["創新思維和開拓進取的精神是成功的關鍵。"],
+    "referenceAnswers": [
+      "創新思維和開拓進取的精神是成功的關鍵。",
+      "创新思维和开拓进取的精神是成功的关键。",
+      "具備獨特的靈感與改革的意志能引領通往成功。",
+      "唯有不斷開拓與反思，方能達成卓越成就。"
+    ],
     "keywords": ["創新", "思維", "精神", "成功"]
   }
 ]

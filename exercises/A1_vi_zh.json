@@ -3,84 +3,155 @@
     "level": "A1",
     "direction": "vi_zh",
     "sourceText": "Tôi thích ăn bánh bao.",
-    "referenceAnswers": ["我喜歡吃包子。"],
+    "referenceAnswers": [
+      "我喜歡吃包子。",
+      "我喜欢吃包子。",
+      "我愛吃包子。",
+      "我很喜歡吃包子。"
+    ],
     "keywords": ["喜歡", "包子"]
   },
   {
     "level": "A1",
     "direction": "vi_zh",
     "sourceText": "Hôm nay là thứ mấy?",
-    "referenceAnswers": ["今天是星期幾？"],
+    "referenceAnswers": [
+      "今天是星期幾？",
+      "今天星期幾？",
+      "今天是禮拜幾？",
+      "今天禮拜幾？",
+      "今天是週幾？",
+      "今天週幾？"
+    ],
     "keywords": ["今天", "星期"]
   },
   {
     "level": "A1",
     "direction": "vi_zh",
     "sourceText": "Văn phòng của anh ấy ở đâu?",
-    "referenceAnswers": ["他的辦公室在哪裡？"],
+    "referenceAnswers": [
+      "他的辦公室在哪裡？",
+      "他的办公室在哪里？",
+      "他的辦公室在哪兒？",
+      "辦公室在哪裡？",
+      "他在哪裡辦公？"
+    ],
     "keywords": ["辦公室", "哪裡"]
   },
   {
     "level": "A1",
     "direction": "vi_zh",
     "sourceText": "Cô ấy là giáo viên.",
-    "referenceAnswers": ["她是老師。"],
+    "referenceAnswers": [
+      "她是老師。",
+      "她是老师。",
+      "她是位老師。",
+      "她是位老师。",
+      "她是教師。",
+      "她是教师。"
+    ],
     "keywords": ["老師"]
   },
   {
     "level": "A1",
     "direction": "vi_zh",
     "sourceText": "Tôi đói bụng, muốn ăn cơm.",
-    "referenceAnswers": ["我肚子餓，想吃飯。"],
+    "referenceAnswers": [
+      "我肚子餓，想吃飯。",
+      "我肚子饿，想吃饭。",
+      "我餓了，想吃飯。",
+      "我饿了，想吃饭。",
+      "肚子餓了，想吃飯。"
+    ],
     "keywords": ["肚子", "餓", "吃飯"]
   },
   {
     "level": "A1",
     "direction": "vi_zh",
     "sourceText": "Chúng ta đi xem phim nhé!",
-    "referenceAnswers": ["我們去看電影吧！"],
+    "referenceAnswers": [
+      "我們去看電影吧！",
+      "我们去看电影吧！",
+      "我們去看電影吧。",
+      "大家去望電影吧！",
+      "我們一起去看電影吧。"
+    ],
     "keywords": ["電影"]
   },
   {
     "level": "A1",
     "direction": "vi_zh",
     "sourceText": "Em trai tôi rất cao.",
-    "referenceAnswers": ["我弟弟很高。"],
+    "referenceAnswers": [
+      "我弟弟很高。",
+      "我弟弟非常高。",
+      "我的弟弟很高。",
+      "我的弟弟非常高。"
+    ],
     "keywords": ["弟弟", "高"]
   },
   {
     "level": "A1",
     "direction": "vi_zh",
     "sourceText": "Máy tính này đắt không?",
-    "referenceAnswers": ["這台電腦貴嗎？"],
+    "referenceAnswers": [
+      "這台電腦貴嗎？",
+      "这台电脑贵吗？",
+      "這部電腦貴嗎？",
+      "這台電腦貴不貴？",
+      "這台電腦很貴嗎？"
+    ],
     "keywords": ["電腦", "貴"]
   },
   {
     "level": "A1",
     "direction": "vi_zh",
     "sourceText": "Anh ấy gọi điện cho mẹ mỗi ngày.",
-    "referenceAnswers": ["他每天打電話給媽媽。"],
+    "referenceAnswers": [
+      "他每天打電話給媽媽。",
+      "他每天给妈妈打电话。",
+      "他每天給媽媽打電話。",
+      "他天天打電話給媽媽。",
+      "他天天給媽媽打電話。"
+    ],
     "keywords": ["打電話", "媽媽", "每天"]
   },
   {
     "level": "A1",
     "direction": "vi_zh",
     "sourceText": "Nhà hàng kia rất sạch sẽ.",
-    "referenceAnswers": ["那家餐廳很乾淨。"],
+    "referenceAnswers": [
+      "那家餐廳很乾淨。",
+      "那家餐厅很干净。",
+      "那間餐廳很乾淨。",
+      "那間餐廳非常乾淨。"
+    ],
     "keywords": ["餐廳", "乾淨"]
   },
   {
     "level": "A1",
     "direction": "vi_zh",
     "sourceText": "Tôi thường đến trường bằng xe buýt.",
-    "referenceAnswers": ["我常常坐公車去學校。"],
+    "referenceAnswers": [
+      "我常常坐公車去學校。",
+      "我经常坐公车去学校。",
+      "我經常坐公車去學校。",
+      "我常常搭公車去學校。",
+      "我常坐巴士去學校。"
+    ],
     "keywords": ["常常", "學校"]
   },
   {
     "level": "A1",
     "direction": "vi_zh",
     "sourceText": "Xin lỗi, đây là cái gì?",
-    "referenceAnswers": ["對不起，這是什麼？"],
+    "referenceAnswers": [
+      "對不起，這是什麼？",
+      "对不起，这是什么？",
+      "請問，這是什麼？",
+      "不好意思，這是什麼？",
+      "這叫什麼？"
+    ],
     "keywords": ["對不起", "什麼"]
   }
 ]

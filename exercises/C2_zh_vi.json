@@ -2,29 +2,49 @@
   {
     "level": "C2",
     "direction": "zh_vi",
-    "sourceText": "即便在錯綜複雜的國際地緣政治博弈中，該國依然能夠游刃有餘地維護自身的核心利益。",
-    "referenceAnswers": ["Ngay cả trong các cuộc cạnh tranh địa chính trị quốc tế phức tạp và chằng chịt, quốc gia đó vẫn có thể khéo léo duy trì các lợi ích cốt lõi của mình một cách dư dả."],
-    "keywords": ["錯綜複雜", "地緣政治", "博弈", "游刃有餘"]
+    "sourceText": "在波譎雲詭的國際政局中，外交家們必須以如履薄冰的態度來維護國家的核心利益。",
+    "referenceAnswers": [
+      "Trong cục diện chính trị quốc tế đầy biến động và phức tạp, các nhà ngoại giao phải làm việc với thái độ vô cùng cẩn trọng để bảo vệ lợi ích cốt lõi của quốc gia.",
+      "Giữa những biến chuyển khó lường của tình hình quốc tế, các chính khách cần sự thận trọng cực độ để giữ vững vận mệnh dân tộc.",
+      "Các nhà ngoại giao phải hết sức dè chừng, như đi trên băng mỏng, để bảo toàn quyền lợi tối thượng của đất nước trước những sóng gió ngoại bang.",
+      "Lợi ích quốc gia chỉ được đảm bảo khi những người làm đối ngoại luôn giữ được sự sáng suốt và thận trọng trước mọi biến cố."
+    ],
+    "keywords": ["波譎雲詭", "如履薄冰", "維護", "利益"]
   },
   {
     "level": "C2",
     "direction": "zh_vi",
-    "sourceText": "哲學的終極追問並非尋求一個確切的答案，而是為了不斷拓寬人類思維的邊界與深度。",
-    "referenceAnswers": ["Câu hỏi tận cùng của triết học không phải là tìm kiếm một câu trả lời chính xác, mà là để không ngừng mở rộng ranh giới và chiều sâu của tư duy nhân loại."],
-    "keywords": ["終極", "追問", "確切", "拓寬", "邊界"]
+    "sourceText": "那種篳路藍縷的精神，正是當前社會在面臨轉型陣痛時最為欠缺的靈魂財富。",
+    "referenceAnswers": [
+      "Tinh thần vượt khó khai sơn phá thạch đó chính là tài sản tinh thần còn thiếu sót nhất của xã hội hiện nay khi đối mặt với những khó khăn của quá trình chuyển đổi.",
+      "Sự kiên trì vượt qua gian khổ thuở ban đầu là điều mà xã hội đang rất cần trong giai đoạn chuyển mình đầy đau đớn này.",
+      "Tinh thần khởi nghiệp gian nan, không ngại khổ cực chính là giá trị cốt lõi mà chúng ta đang dần lãng quên giữa những biến động kinh tế.",
+      "Vượt qua những đau đớn của sự thay đổi đòi hỏi một ý chí quật cường, điều mà thế hệ hiện tại đang thiếu vắng."
+    ],
+    "keywords": ["篳路藍縷", "轉型", "陣痛", "財富"]
   },
   {
     "level": "C2",
     "direction": "zh_vi",
-    "sourceText": "這篇文章旁徵博引，以極具邏輯性的論證駁斥了那些似是而非的荒謬觀點。",
-    "referenceAnswers": ["Bài viết này đã tổng hợp nhiều nguồn tài liệu phong phú, sử dụng các lập luận mang tính logic cao để bác bỏ những quan điểm hoang đường có vẻ đúng nhưng thực chất lại sai."],
-    "keywords": ["旁徵博引", "論證", "駁斥", "似是而非", "荒謬"]
+    "sourceText": "這場技術變革不僅優化了產業結構，更在潛移默化中重塑了人們的思維模式與生活範式。",
+    "referenceAnswers": [
+      "Cuộc cách mạng công nghệ này không chỉ tối ưu hóa cấu trúc ngành nghề mà còn âm thầm định hình lại mô hình tư duy và chuẩn mực sống của con người.",
+      "Sự thay đổi về kỹ thuật đã cải thiện hệ thống sản xuất và dần dần thay đổi cách chúng ta suy nghĩ cũng như sinh hoạt hàng ngày.",
+      "Không chỉ dừng lại ở việc nâng cao năng suất, công nghệ mới còn tác động sâu sắc đến thế giới quan và lối sống của xã hội.",
+      "Cơ cấu công nghiệp được tối ưu hóa cùng với sự chuyển dịch về tư duy là hệ quả tất yếu của làn sóng đổi mới công nghệ này."
+    ],
+    "keywords": ["變革", "優化", "潛移默化", "範式"]
   },
   {
     "level": "C2",
     "direction": "zh_vi",
-    "sourceText": "歷史的洪流滾滾向前，任何企圖開歷史倒車的行徑終將被時代所唾棄。",
-    "referenceAnswers": ["Dòng chảy của lịch sử cuồn cuộn tiến về phía trước, bất cứ hành vi nào có ý định thụt lùi bánh xe lịch sử cuối cùng cũng sẽ bị thời đại ruồng bỏ."],
-    "keywords": ["洪流", "企圖", "倒車", "行徑", "唾棄"]
+    "sourceText": "法律的生命力不在於條文的嚴苛，而在於其是否能公平正義地彰顯於社會的每一個角落。",
+    "referenceAnswers": [
+      "Sức sống của pháp luật không nằm ở sự nghiêm khắc của điều khoản, mà ở việc nó có được thể hiện một cách công bằng và chính nghĩa ở mọi ngóc ngách của xã hội hay không.",
+      "Pháp luật chỉ thực sự có giá trị khi sự công bằng được thực thi đồng bộ và rộng khắp, thay vì chỉ dựa vào những hình phạt nặng nề.",
+      "Giá trị cốt lõi của luật pháp là sự hiện diện của công lý trong đời sống thường nhật, chứ không phải sự khô khan của những con chữ trên giấy.",
+      "Tinh thần thượng tôn pháp luật gắn liền với sự công bằng được lan tỏa đến từng cá nhân trong xã hội."
+    ],
+    "keywords": ["生命力", "嚴苛", "公平正義", "彰顯"]
   }
 ]

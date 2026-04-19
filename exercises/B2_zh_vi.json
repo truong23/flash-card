@@ -2,85 +2,145 @@
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "面對日益嚴峻的環境問題，我們必須採取有效措施加以應對。",
-    "referenceAnswers": ["Đối mặt với vấn đề môi trường ngày càng nghiêm trọng, chúng ta phải áp dụng các biện pháp hiệu quả để ứng phó."],
-    "keywords": ["環境", "問題", "措施", "應對"]
+    "sourceText": "這份研究報告為我們提供了寶貴的第一手資料。",
+    "referenceAnswers": [
+      "Báo cáo nghiên cứu này đã cung cấp cho chúng ta những tư liệu sơ cấp quý báu.",
+      "Bản báo cáo này mang lại những thông tin gốc rất giá trị.",
+      "Văn bản nghiên cứu đã đưa ra các dữ liệu thực tế cực kỳ hữu ích.",
+      "Chúng ta có được những tài liệu quý giá từ bản báo cáo này."
+    ],
+    "keywords": ["研究", "報告", "寶貴", "資料"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "這項政策的實施對於促進地區經濟發展具有深遠意義。",
-    "referenceAnswers": ["Việc thực thi chính sách này có ý nghĩa sâu xa đối với việc thúc đẩy phát triển kinh tế khu vực."],
-    "keywords": ["政策", "實施", "經濟", "發展", "意義"]
+    "sourceText": "他善於處理複雜的人際關係，深受同事好評。",
+    "referenceAnswers": [
+      "Anh ấy giỏi xử lý các mối quan hệ nhân tế phức tạp, được đồng nghiệp đánh giá rất cao.",
+      "Cậu ấy có kỹ năng giao thiệp tốt, nên rất được lòng đồng nghiệp.",
+      "Khả năng điều phối các mối quan hệ của anh ta khiến ai cũng nể phục.",
+      "Đồng nghiệp luôn dành lời khen cho cách anh ấy đối nhân xử thế."
+    ],
+    "keywords": ["處理", "複雜", "人際關係", "好評"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "他在談判中展現出了卓越的外交技巧。",
-    "referenceAnswers": ["Anh ấy đã thể hiện kỹ năng ngoại giao xuất sắc trong cuộc đàm phán."],
-    "keywords": ["談判", "卓越", "外交"]
+    "sourceText": "該產品在市場上的競爭力主要來自其獨特的設計。",
+    "referenceAnswers": [
+      "Sức cạnh tranh của sản phẩm này trên thị trường chủ yếu đến từ thiết kế độc đáo của nó.",
+      "Thế mạnh của mặt hàng này nằm ở thiết kế không đụng hàng.",
+      "Sản phẩm thu hút khách hàng nhờ vào kiểu dáng sáng tạo và khác biệt.",
+      "Thị phần của sản phẩm được đảm bảo bởi phong cách thiết kế riêng biệt."
+    ],
+    "keywords": ["產品", "競爭力", "獨特", "設計"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "文化多樣性是人類社會的重要財富，應該被尊重與保護。",
-    "referenceAnswers": ["Đa dạng văn hóa là tài sản quan trọng của xã hội loài người, cần được tôn trọng và bảo vệ."],
-    "keywords": ["文化", "多樣性", "社會", "尊重", "保護"]
+    "sourceText": "通過這次實習，我對專業知識有了更具體的認識。",
+    "referenceAnswers": [
+      "Thông qua đợt thực tập này, tôi đã có nhận thức cụ thể hơn về kiến thức chuyên môn.",
+      "Kỳ thực tập giúp tôi hiểu rõ hơn những gì đã được học trên lớp.",
+      "Tôi đã áp dụng được lý thuyết vào thực tế sau quá trình làm việc này.",
+      "Kiến thức chuyên ngành của tôi trở nên rõ ràng hơn sau khi thực tập."
+    ],
+    "keywords": ["實習", "專業知識", "具體", "認識"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "這位學者的研究成果在學術界引起了廣泛關注。",
-    "referenceAnswers": ["Kết quả nghiên cứu của học giả này đã thu hút sự chú ý rộng rãi trong giới học thuật."],
-    "keywords": ["學者", "研究", "學術"]
+    "sourceText": "政府正積極推行可再生能源的開發與利用。",
+    "referenceAnswers": [
+      "Chính phủ đang tích cực thúc đẩy việc khai thác và sử dụng năng lượng tái tạo.",
+      "Các nguồn năng lượng xanh đang được nhà nước quan tâm đầu tư.",
+      "Việc phát triển năng lượng sạch là mục tiêu trọng tâm hiện nay.",
+      "Chính quyền đang khuyến khích sử dụng các nguồn năng lượng có thể phục hồi."
+    ],
+    "keywords": ["政府", "積極", "能源", "利用"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "人工智能的快速發展既帶來了機遇，也帶來了挑戰。",
-    "referenceAnswers": ["Sự phát triển nhanh chóng của trí tuệ nhân tạo vừa mang lại cơ hội, vừa mang lại thách thức."],
-    "keywords": ["人工智能", "發展", "機遇", "挑戰"]
+    "sourceText": "這場傳統文化展演旨在推廣當地的藝術遺產。",
+    "referenceAnswers": [
+      "Buổi trình diễn văn hóa truyền thống này nhằm mục đích quảng bá di sản nghệ thuật địa phương.",
+      "Sự kiện này được tổ chức để giới thiệu những nét đẹp nghệ thuật của vùng miền.",
+      "Mục tiêu của chương trình là bảo tồn và phát huy giá trị văn hóa khu vực.",
+      "Triển lãm này giúp mọi người hiểu thêm về vốn quý nghệ thuật của quê hương."
+    ],
+    "keywords": ["傳統文化", "推廣", "遺產"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "她憑藉著頑強的意志力克服了重重困難，最終實現了夢想。",
-    "referenceAnswers": ["Nhờ ý chí kiên cường, cô ấy đã vượt qua muôn vàn khó khăn và cuối cùng thực hiện được ước mơ."],
-    "keywords": ["意志力", "克服", "困難", "夢想"]
+    "sourceText": "有效的溝通是維持良好長久合作關係的基石。",
+    "referenceAnswers": [
+      "Giao tiếp hiệu quả là nền tảng để duy trì mối quan hệ hợp tác tốt đẹp và lâu dài.",
+      "Sự thấu hiểu lẫn nhau giúp việc cộng tác trở nên bền vững hơn.",
+      "Trao đổi thông tin thông suốt là chìa khóa của sự hợp tác thành công.",
+      "Nền móng của mọi sự làm việc chung chính là giao tiếp tốt."
+    ],
+    "keywords": ["有效", "溝通", "合作", "基石"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "在全球化背景下，跨文化溝通能力顯得尤為重要。",
-    "referenceAnswers": ["Trong bối cảnh toàn cầu hóa, năng lực giao tiếp liên văn hóa trở nên đặc biệt quan trọng."],
-    "keywords": ["全球化", "文化", "溝通"]
+    "sourceText": "面臨急劇變化的全球市場，企業必須具備靈活的應變能力。",
+    "referenceAnswers": [
+      "Đối mặt với thị trường toàn cầu thay đổi nhanh chóng, doanh nghiệp phải có khả năng ứng biến linh hoạt.",
+      "Sự linh hoạt là yếu tố sống còn khi thị trường thế giới biến động không ngừng.",
+      "Các công ty cần nhanh nhạy để thích nghi với những thay đổi chóng mặt trên quốc tế.",
+      "Khả năng xoay xở tốt giúp doanh nghiệp tồn tại trong thời đại mới."
+    ],
+    "keywords": ["急劇", "全球市場", "靈活", "應變"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "市場競爭加劇使企業不得不提升自身的核心競爭力。",
-    "referenceAnswers": ["Cạnh tranh thị trường gay gắt khiến các doanh nghiệp buộc phải nâng cao năng lực cạnh tranh cốt lõi."],
-    "keywords": ["市場", "競爭", "企業"]
+    "sourceText": "這項先進技術的投入使用極大地提高了生產效率。",
+    "referenceAnswers": [
+      "Việc đưa vào sử dụng công nghệ tiên tiến này đã nâng cao hiệu suất sản xuất một cách đáng kể.",
+      "Năng suất làm việc tăng vọt nhờ áp dụng các kỹ thuật mới hiện đại.",
+      "Công nghệ mới đã giúp tối ưu hóa quy trình và tăng sản lượng.",
+      "Sự xuất hiện của máy móc hiện đại đã cải thiện đáng kể tốc độ sản xuất."
+    ],
+    "keywords": ["先進", "技術", "生產效率"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "這項改革措施的推行有助於提高政府的行政效率。",
-    "referenceAnswers": ["Việc thúc đẩy biện pháp cải cách này giúp nâng cao hiệu quả hành chính của chính phủ."],
-    "keywords": ["改革", "措施", "政府", "效率"]
+    "sourceText": "我們應當致力於消除城鄉差距，實現社會公平。",
+    "referenceAnswers": [
+      "Chúng ta nên nỗ lực xóa bỏ khoảng cách giàu nghèo giữa thành thị và nông thôn, thực hiện công bằng xã hội.",
+      "Mục tiêu của chúng ta là mang lại sự bình đẳng cho mọi vùng miền.",
+      "Cần thu hẹp sự chênh lệch giữa các địa phương để đảm bảo quyền lợi cho mọi người.",
+      "Công bằng xã hội chỉ đạt được khi không còn sự phân biệt vùng quê với phố thị."
+    ],
+    "keywords": ["致力", "消除", "差距", "公平"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "教育是一個國家長遠發展的基石。",
-    "referenceAnswers": ["Giáo dục là nền tảng cho sự phát triển lâu dài của một quốc gia."],
-    "keywords": ["教育", "國家", "發展"]
+    "sourceText": "創新的教育理念有助於培養學生的批判性思維。",
+    "referenceAnswers": [
+      "Các quan niệm giáo dục sáng tạo giúp rèn luyện tư duy phản biện của học sinh.",
+      "Phương pháp dạy học mới chú trọng phát triển khả năng suy luận độc lập.",
+      "Học sinh được khuyến khích tư duy sắc sảo nhờ những cải cách trong giáo dục.",
+      "Tư duy phản biện là kết quả của việc áp dụng các triết lý giáo dục hiện đại."
+    ],
+    "keywords": ["創新", "教育理念", "培養", "批判性思維"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "創新思維是推動社會進步的核心動力。",
-    "referenceAnswers": ["Tư duy sáng tạo là động lực cốt lõi thúc đẩy tiến bộ xã hội."],
-    "keywords": ["創新", "思維", "社會", "進步"]
+    "sourceText": "他提出的各項建議在實踐中被證明是非常切實可行的。",
+    "referenceAnswers": [
+      "Những kiến nghị mà anh ấy đưa ra đã được chứng minh là rất khả thi trong thực tiễn.",
+      "Các ý tưởng của ông ấy áp dụng vào thực tiễn rất hiệu quả.",
+      "Nghiên cứu của anh ta không hề xa rời thực tế mà trái lại rất hữu dụng.",
+      "Mọi đề xuất đều có thể triển khai được và mang lại kết quả thật."
+    ],
+    "keywords": ["建議", "實踐", "證明", "可行"]
   }
 ]

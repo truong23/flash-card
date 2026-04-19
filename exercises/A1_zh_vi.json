@@ -3,84 +3,142 @@
     "level": "A1",
     "direction": "zh_vi",
     "sourceText": "我喜歡喝茶。",
-    "referenceAnswers": ["Tôi thích uống trà."],
+    "referenceAnswers": [
+      "Tôi thích uống trà.",
+      "Tôi ưa thích uống trà.",
+      "Tôi thích uống nước trà."
+    ],
     "keywords": ["喜歡", "茶"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
     "sourceText": "他的爸爸在辦公室工作。",
-    "referenceAnswers": ["Bố của anh ấy làm việc ở văn phòng."],
+    "referenceAnswers": [
+      "Bố của anh ấy làm việc ở văn phòng.",
+      "Cha của anh ấy làm việc ở văn phòng.",
+      "Ba của anh ấy làm việc tại văn phòng.",
+      "Bố anh ấy làm việc ở văn phòng.",
+      "Cha anh ấy làm việc ở văn phòng."
+    ],
     "keywords": ["爸爸", "辦公室"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
     "sourceText": "今天天氣非常好，我們去公園吧！",
-    "referenceAnswers": ["Hôm nay thời tiết rất tốt, chúng ta đi công viên nhé!"],
+    "referenceAnswers": [
+      "Hôm nay thời tiết rất tốt, chúng ta đi công viên nhé!",
+      "Hôm nay thời tiết cực kỳ tốt, chúng chúng ta đi công viên đi!",
+      "Hôm nay trời rất đẹp, chúng ta đi công viên nhé!",
+      "Thời tiết hôm nay rất tốt, chúng ta đi công viên thôi!"
+    ],
     "keywords": ["今天", "非常", "公園"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
     "sourceText": "她在餐廳吃飯。",
-    "referenceAnswers": ["Cô ấy ăn cơm ở nhà hàng."],
+    "referenceAnswers": [
+      "Cô ấy ăn cơm ở nhà hàng.",
+      "Cô ấy đang ăn cơm ở nhà hàng.",
+      "Cô ấy ăn cơm tại nhà hàng.",
+      "Cô ấy ăn ở nhà hàng."
+    ],
     "keywords": ["餐廳", "吃飯"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
     "sourceText": "這本書多少錢？",
-    "referenceAnswers": ["Quyển sách này bao nhiêu tiền?"],
+    "referenceAnswers": [
+      "Quyển sách này bao nhiêu tiền?",
+      "Cuốn sách này bao nhiêu tiền?",
+      "Quyển sách này giá bao nhiêu?",
+      "Cuốn sách này giá bao nhiêu?"
+    ],
     "keywords": ["本", "多少"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
     "sourceText": "我有一個弟弟和一個妹妹。",
-    "referenceAnswers": ["Tôi có một em trai và một em gái."],
+    "referenceAnswers": [
+      "Tôi có một em trai và một em gái.",
+      "Tôi có một đứa em trai và một đứa em gái.",
+      "Tôi có một người em trai và một người em gái."
+    ],
     "keywords": ["弟弟", "妹妹"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
     "sourceText": "他常常打電話給朋友。",
-    "referenceAnswers": ["Anh ấy thường xuyên gọi điện cho bạn bè."],
+    "referenceAnswers": [
+      "Anh ấy thường xuyên gọi điện cho bạn bè.",
+      "Anh ấy thường gọi điện cho bạn.",
+      "Cậu ấy thường xuyên gọi điện cho bạn bè.",
+      "Anh ấy hay gọi điện cho bạn bè."
+    ],
     "keywords": ["常常", "打電話", "朋友"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
-    "sourceText": "飛機幾點到？",
-    "referenceAnswers": ["Máy bay đến mấy giờ?"],
+    "sourceText": "飛機幾點 do？",
+    "referenceAnswers": [
+      "Máy bay đến mấy giờ?",
+      "Mấy giờ máy bay đến?",
+      "Máy bay khi nào tới?",
+      "Máy bay mấy giờ thì đến?"
+    ],
     "keywords": ["飛機", "點", "到"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
     "sourceText": "我的房間很乾淨。",
-    "referenceAnswers": ["Phòng của tôi rất sạch sẽ."],
+    "referenceAnswers": [
+      "Phòng của tôi rất sạch sẽ.",
+      "Phòng tôi rất sạch sẽ.",
+      "Căn phòng của tôi rất sạch.",
+      "Phòng của tôi rất gọn gàng."
+    ],
     "keywords": ["房間", "乾淨"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
     "sourceText": "對不起，我來晚了。",
-    "referenceAnswers": ["Xin lỗi, tôi đến muộn rồi."],
+    "referenceAnswers": [
+      "Xin lỗi, tôi đến muộn rồi.",
+      "Xin lỗi, tôi tới muộn rồi.",
+      "Xin lỗi, tôi đến trễ rồi.",
+      "Xin lỗi tôi đã đến muộn."
+    ],
     "keywords": ["對不起"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
     "sourceText": "他比我高。",
-    "referenceAnswers": ["Anh ấy cao hơn tôi."],
+    "referenceAnswers": [
+      "Anh ấy cao hơn tôi.",
+      "Cậu ấy cao hơn tôi.",
+      "Anh ta cao hơn tôi."
+    ],
     "keywords": ["比", "高"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
     "sourceText": "我想去大學學習中文。",
-    "referenceAnswers": ["Tôi muốn đến đại học học tiếng Trung."],
+    "referenceAnswers": [
+      "Tôi muốn đến đại học học tiếng Trung.",
+      "Tôi muốn đi đại học học tiếng Trung.",
+      "Tôi muốn vào đại học học tiếng Hoa.",
+      "Tôi muốn học tiếng Trung ở trường đại học."
+    ],
     "keywords": ["大學", "中文"]
   }
 ]

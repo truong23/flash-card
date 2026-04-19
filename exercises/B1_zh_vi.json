@@ -2,85 +2,145 @@
   {
     "level": "B1",
     "direction": "zh_vi",
-    "sourceText": "儘管遇到了困難，他仍然堅持完成了任務。",
-    "referenceAnswers": ["Mặc dù gặp khó khăn, anh ấy vẫn kiên trì hoàn thành nhiệm vụ."],
-    "keywords": ["困難", "堅持", "完成", "任務"]
+    "sourceText": "他對這門技術的研究非常深入。",
+    "referenceAnswers": [
+      "Nghiên cứu của anh ấy về công nghệ này rất sâu sắc.",
+      "Anh ấy nghiên cứu rất sâu về kỹ thuật này.",
+      "Việc nghiên cứu công nghệ này được anh ấy thực hiện rất kỹ lưỡng.",
+      "Anh ta có sự hiểu biết sâu rộng về chuyên môn này."
+    ],
+    "keywords": ["技術", "研究", "深入"]
   },
   {
     "level": "B1",
     "direction": "zh_vi",
-    "sourceText": "這個問題值得我們深入思考。",
-    "referenceAnswers": ["Vấn đề này đáng để chúng ta suy nghĩ sâu hơn."],
-    "keywords": ["問題", "值得", "思考"]
+    "sourceText": "這場演講引發了觀眾的強烈共鳴。",
+    "referenceAnswers": [
+      "Bài diễn thuyết này đã khơi dậy sự đồng cảm mạnh mẽ từ khán giả.",
+      "Buổi diễn thuyết đã tạo ra sự cộng hưởng lớn với người nghe.",
+      "Bài nói chuyện này khiến khán thính giả vô cùng xúc động.",
+      "Buổi nói chuyện đã nhận được sự ủng hộ nhiệt tình từ công chúng."
+    ],
+    "keywords": ["演講", "引發", "共鳴"]
   },
   {
     "level": "B1",
     "direction": "zh_vi",
-    "sourceText": "隨著科技的發展，人們的生活越來越方便。",
-    "referenceAnswers": ["Cùng với sự phát triển của khoa học kỹ thuật, cuộc sống của con người ngày càng tiện lợi hơn."],
-    "keywords": ["科技", "發展", "方便"]
+    "sourceText": "政府正致力於改善民生問題。",
+    "referenceAnswers": [
+      "Chính phủ đang nỗ lực cải thiện các vấn đề dân sinh.",
+      "Nhà nước đang dồn sức vào việc nâng cao đời sống nhân dân.",
+      "Chính quyền đang tập trung giải quyết các vấn đề sinh kế của người dân.",
+      "Việc cải thiện đời sống đang được chính phủ ưu tiên."
+    ],
+    "keywords": ["政府", "致力", "民生"]
   },
   {
     "level": "B1",
     "direction": "zh_vi",
-    "sourceText": "她對這份工作充滿了熱情。",
-    "referenceAnswers": ["Cô ấy tràn đầy nhiệt huyết với công việc này."],
-    "keywords": ["工作", "充滿", "熱情"]
+    "sourceText": "她的表演給人留下了深刻的印象。",
+    "referenceAnswers": [
+      "Màn trình diễn của cô ấy để lại ấn tượng sâu đậm cho mọi người.",
+      "Phần biểu diễn của cô ấy đã gây ấn tượng mạnh.",
+      "Cô ấy đã có một màn hóa thân rất ấn tượng.",
+      "Diễn xuất của cô ấy làm người xem nhớ mãi."
+    ],
+    "keywords": ["表演", "留下", "印象"]
   },
   {
     "level": "B1",
     "direction": "zh_vi",
-    "sourceText": "他不僅學習好，而且為人謙虛。",
-    "referenceAnswers": ["Anh ấy không chỉ học giỏi mà còn khiêm tốn."],
-    "keywords": ["不僅", "而且", "謙虛"]
+    "sourceText": "這項工程的進度比預期要快得多。",
+    "referenceAnswers": [
+      "Tiến độ của công trình này nhanh hơn nhiều so với dự kiến.",
+      "Dự án này đang hoàn thành sớm hơn mong đợi.",
+      "Tiến trình công việc diễn ra nhanh hơn kế hoạch ban đầu.",
+      "Công trình này đang vượt tiến độ đề ra."
+    ],
+    "keywords": ["工程", "進度", "預期"]
   },
   {
     "level": "B1",
     "direction": "zh_vi",
-    "sourceText": "這篇文章的觀點很有說服力。",
-    "referenceAnswers": ["Quan điểm của bài viết này rất có sức thuyết phục."],
-    "keywords": ["文章", "觀點", "說服力"]
+    "sourceText": "我們必須採取有效措施來減少污染。",
+    "referenceAnswers": [
+      "Chúng ta phải áp dụng các biện pháp hiệu quả để giảm thiểu ô nhiễm.",
+      "Cần có những hành động thiết thực nhằm cắt giảm sự ô nhiễm.",
+      "Chúng ta cần thực hiện các giải pháp hữu hiệu để bảo vệ môi trường.",
+      "Giảm ô nhiễm bằng các biện pháp hiệu quả là việc chúng ta phải làm."
+    ],
+    "keywords": ["採取", "措施", "減少", "污染"]
   },
   {
     "level": "B1",
     "direction": "zh_vi",
-    "sourceText": "我們必須保護環境，不能隨便丟垃圾。",
-    "referenceAnswers": ["Chúng ta phải bảo vệ môi trường, không được tùy tiện xả rác."],
-    "keywords": ["保護", "環境", "垃圾"]
+    "sourceText": "他具有豐富的工作經驗和專業知識。",
+    "referenceAnswers": [
+      "Anh ấy có kinh nghiệm làm việc phong phú và kiến thức chuyên môn.",
+      "Anh ta sở hữu bề dày kinh nghiệm và trình độ chuyên sâu.",
+      "Cậu ấy có rất nhiều kinh nghiệm cùng kiến thức chuyên môn vững vàng.",
+      "Kinh nghiệm và kiến thức của anh ấy rất đáng nể."
+    ],
+    "keywords": ["豐富", "經驗", "專業知識"]
   },
   {
     "level": "B1",
     "direction": "zh_vi",
-    "sourceText": "他的建議對我很有幫助。",
-    "referenceAnswers": ["Lời đề nghị của anh ấy rất có ích cho tôi."],
-    "keywords": ["建議", "幫助"]
+    "sourceText": "這家公司的誠信贏得了客戶的信任。",
+    "referenceAnswers": [
+      "Sự chính trực của công ty này đã chiếm được lòng tin của khách hàng.",
+      "Uy tín của doanh nghiệp đã giúp họ có được sự tin cậy từ phía đối tác.",
+      "Lòng tin của khách hàng đến từ sự trung thực của công ty.",
+      "Công ty này rất giữ chữ tín nên khách hàng rất tin tưởng."
+    ],
+    "keywords": ["誠信", "贏得", "信任"]
   },
   {
     "level": "B1",
     "direction": "zh_vi",
-    "sourceText": "這家公司的產品品質非常好。",
-    "referenceAnswers": ["Chất lượng sản phẩm của công ty này rất tốt."],
-    "keywords": ["公司", "產品", "品質"]
+    "sourceText": "目前，該地區正處於快速發展階段。",
+    "referenceAnswers": [
+      "Hiện tại, khu vực này đang nằm trong giai đoạn phát triển nhanh chóng.",
+      "Vùng này hiện đang phát triển rất mạnh mẽ.",
+      "Khu vực đó đang trải qua thời kỳ tăng trưởng thần tốc.",
+      "Hiện nay, đây là nơi có tốc độ phát triển cao."
+    ],
+    "keywords": ["目前", "發展", "階段"]
   },
   {
     "level": "B1",
     "direction": "zh_vi",
-    "sourceText": "他花了三年時間才學會了這門技術。",
-    "referenceAnswers": ["Anh ấy mất ba năm mới học được kỹ thuật này."],
-    "keywords": ["時間", "學會", "技術"]
+    "sourceText": "我們應該互相尊重對方的文化差異。",
+    "referenceAnswers": [
+      "Chúng ta nên tôn trọng sự khác biệt văn hóa của nhau.",
+      "Cần có sự tôn trọng lẫn nhau về mặt văn hóa.",
+      "Chúng ta nên chấp nhận và tôn trọng những điểm khác nhau về văn hóa.",
+      "Sự khác biệt văn hóa cần được chúng ta tôn trọng."
+    ],
+    "keywords": ["互相", "尊重", "差異"]
   },
   {
     "level": "B1",
     "direction": "zh_vi",
-    "sourceText": "能跟你合作，我感到非常榮幸。",
-    "referenceAnswers": ["Được hợp tác với bạn, tôi cảm thấy rất vinh hạnh."],
-    "keywords": ["合作", "感到", "榮幸"]
+    "sourceText": "他能夠冷靜地分析複雜的情況。",
+    "referenceAnswers": [
+      "Anh ấy có khả năng bình tĩnh phân tích những tình huống phức tạp.",
+      "Anh ta luôn giữ được sự tỉnh táo để mổ xẻ vấn đề khó.",
+      "Cậu ấy có thể điềm tĩnh đưa ra nhận định về các trường hợp rắc rối.",
+      "Sự bình tĩnh giúp anh ấy phân tích được các tình huống khó khăn."
+    ],
+    "keywords": ["能夠", "冷靜", "分析"]
   },
   {
     "level": "B1",
     "direction": "zh_vi",
-    "sourceText": "你應該多鍛煉身體，保持健康。",
-    "referenceAnswers": ["Bạn nên thường xuyên rèn luyện thể chất, giữ gìn sức khỏe."],
-    "keywords": ["鍛煉", "身體", "健康"]
+    "sourceText": "教育對一個人的未來發展至關重要。",
+    "referenceAnswers": [
+      "Giáo dục có tầm quan trọng sống còn đối với sự phát triển của một cá nhân trong tương lai.",
+      "Việc học hành quyết định rất lớn đến tương lai của mỗi người.",
+      "Giáo dục là yếu tố then chốt cho sự thành công sau này.",
+      "Sự phát triển mai sau phụ thuộc rất nhiều vào giáo dục."
+    ],
+    "keywords": ["教育", "未來", "至關重要"]
   }
 ]

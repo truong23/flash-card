@@ -2,29 +2,49 @@
   {
     "level": "C1",
     "direction": "vi_zh",
-    "sourceText": "Việc bảo tồn các di sản văn hóa phi vật thể đòi hỏi sự chung tay của toàn xã hội.",
-    "referenceAnswers": ["非物質文化遺產的保護需要全社會的共同努力。"],
-    "keywords": ["非物質", "遺產", "保護", "社會"]
+    "sourceText": "Trong làn sóng toàn cầu hóa, doanh nghiệp cần có tầm nhìn chiến lược để nắm bắt cơ hội.",
+    "referenceAnswers": [
+      "在全球化浪潮中，企業需要具備戰略眼光以把握機遇。",
+      "在全环化浪潮中，企业需要具备战略眼光以把握机遇。",
+      "身處全球一體化的趨勢，具備前瞻性的眼光是企業致勝的關鍵。",
+      "國際化的環境要求機構必須擁有長遠的戰略佈局。"
+    ],
+    "keywords": ["全球化", "浪潮", "戰略", "機遇"]
   },
   {
     "level": "C1",
     "direction": "vi_zh",
-    "sourceText": "Sự thiếu hụt nguồn nhân lực chất lượng cao đang là một nút thắt cản trở sự phát triển của công ty.",
-    "referenceAnswers": ["高素質人力資源的短缺正成為阻礙公司發展的瓶頸。"],
-    "keywords": ["素質", "資源", "短缺", "瓶頸"]
+    "sourceText": "Sự phát triển bền vững đòi hỏi sự cân bằng giữa tăng trưởng kinh tế và bảo vệ môi trường.",
+    "referenceAnswers": [
+      "可持續發展要求經濟增長與環境保護之間的平衡。",
+      "可持续发展要求经济增长与环境保护之间的平衡。",
+      "永續經營的核心在於平衡產值提升與生態維護。",
+      "協調經濟擴張與綠色環保是達成可持續目標的前提。"
+    ],
+    "keywords": ["可持續發展", "平衡", "增長", "環境保護"]
   },
   {
     "level": "C1",
     "direction": "vi_zh",
-    "sourceText": "Chúng ta cần nhìn nhận vấn đề một cách khách quan và toàn diện thay vì chỉ dựa vào cảm tính.",
-    "referenceAnswers": ["我們需要客觀、全面地看待問題，而不是僅僅依靠感性。"],
-    "keywords": ["客觀", "全面", "感性"]
+    "sourceText": "Những cải cách giáo dục mới đây đã mang lại những thay đổi tích cực cho thế hệ trẻ.",
+    "referenceAnswers": [
+      "最近的教育改革為年輕一代帶來了積極的變化。",
+      "最近的教育改革为年轻一代带来了积极的变化。",
+      "近期推行的學制改革對青年人的成長產生了正面引導。",
+      "教育體系的革新正為下一代開拓更廣闊的可能性。"
+    ],
+    "keywords": ["教育", "改革", "積極", "變化"]
   },
   {
     "level": "C1",
     "direction": "vi_zh",
-    "sourceText": "Chính sách đối ngoại độc lập, tự chủ đã giúp nâng cao vị thế của quốc gia trên trường quốc tế.",
-    "referenceAnswers": ["獨立自主的外交政策有助於提升國家在國際舞臺上的地位。"],
-    "keywords": ["獨立", "自主", "外交", "地位"]
+    "sourceText": "Đổi mới sáng tạo là động lực then chốt thúc đẩy sự tiến bộ của toàn xã hội.",
+    "referenceAnswers": [
+      "創新是推動整個社會進步的關鍵動力。",
+      "创新是推动整个社会进步的关键动力。",
+      "源源不斷的靈感發揮是人類文明得以向前邁進的核心要素。",
+      "改革創新在促進社會繁榮中扮演著至關重要的角色。"
+    ],
+    "keywords": ["創新", "推動", "關鍵", "動力"]
   }
 ]

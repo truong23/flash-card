@@ -291,39 +291,56 @@ function showQuestion() {
    ANSWER COMPARISON
 ================================================================ */
 function checkAnswerCorrect(userAnswer, referenceAnswers) {
-  function normalize(s) {
-    return s
-      .toLowerCase()
-      .replace(/[.,!?。，！？；：、「」『』【】《》〈〉“”‘’()（）…—]/g, '')
-      .replace(/\s+/g, ' ')
-      .trim();
-  }
   function isCJK(c) {
     const code = c.codePointAt(0);
-    return (code >= 0x4E00 && code <= 0x9FFF) || (code >= 0x3400 && code <= 0x4DBF);
+    return (code >= 0x4E00 && code <= 0x9FFF) || 
+           (code >= 0x3400 && code <= 0x4DBF) ||
+           (code >= 0x20000 && code <= 0x2A6DF);
   }
-  const userNorm = normalize(userAnswer);
+
+  // Determine language context from reference answers
+  const isChineseTarget = referenceAnswers.some(ref => {
+    const cjk = [...ref].filter(isCJK);
+    return cjk.length > 0; // if any CJK, it's a Chinese exercise
+  });
+
+  function normalize(s, isChinese) {
+    let norm = s
+      .toLowerCase()
+      .replace(/[.,!?。，！？；：、「」『』【】《》〈〉“”‘’()（）…—]/g, '')
+      .trim();
+    
+    if (isChinese) {
+      const cnNums = {'0':'零','1':'一','2':'二','3':'三','4':'四','5':'五','6':'六','7':'七','8':'八','9':'九','10':'十'};
+      norm = norm.replace(/[0-9]/g, m => cnNums[m] || m);
+      return norm.replace(/\s+/g, '');
+    } else {
+      const viNums = {'0':'không','1':'một','2':'hai','3':'ba','4':'bốn','5':'năm','6':'sáu','7':'bảy','8':'tám','9':'chín','10':'mười'};
+      norm = norm.replace(/\b([0-9]|10)\b/g, m => viNums[m] || m);
+      return norm.replace(/\s+/g, ' ');
+    }
+  }
+
+  const userNorm = normalize(userAnswer, isChineseTarget);
   if (!userNorm) return false;
 
   return referenceAnswers.some(ref => {
-    const refNorm = normalize(ref);
+    const refNorm = normalize(ref, isChineseTarget);
     if (userNorm === refNorm) return true;
 
     const refCJK = [...refNorm].filter(isCJK);
     if (refCJK.length > 0) {
-      // Chinese answer: check that user has all (or nearly all) reference CJK chars
       const userCJKSet = new Set([...userNorm].filter(isCJK));
       const missing = refCJK.filter(c => !userCJKSet.has(c));
-      const tolerance = Math.ceil(refCJK.length * 0.15); // allow 15% missing
+      const tolerance = Math.ceil(refCJK.length * 0.15);
       return missing.length <= tolerance;
     }
 
-    // Vietnamese / Latin: word-level match (80% threshold)
     const refWords = refNorm.split(' ').filter(Boolean);
     const userWordsSet = new Set(userNorm.split(' ').filter(Boolean));
     if (!refWords.length) return false;
     const matched = refWords.filter(w => userWordsSet.has(w)).length;
-    return matched / refWords.length >= 0.80;
+    return (matched / refWords.length) >= 0.80;
   });
 }
 

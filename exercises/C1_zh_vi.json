@@ -3,28 +3,48 @@
     "level": "C1",
     "direction": "zh_vi",
     "sourceText": "在全球化的浪潮中，跨國企業必須具備敏銳的市場洞察力以應對瞬息萬變的競爭格局。",
-    "referenceAnswers": ["Trong làn sóng toàn cầu hóa, các doanh nghiệp đa quốc gia phải có khả năng hiểu biết sâu sắc về thị trường để đối phó với cục diện cạnh tranh biến đổi không ngừng."],
+    "referenceAnswers": [
+      "Trong làn sóng toàn cầu hóa, các doanh nghiệp đa quốc gia phải có khả năng hiểu biết sâu sắc về thị trường để đối phó với cục diện cạnh tranh biến đổi không ngừng.",
+      "Giữa xu thế hội nhập quốc tế, các tập đoàn xuyên quốc gia cần có sự nhạy bén thị trường để thích nghi với bối cảnh cạnh tranh thay đổi liên tục.",
+      "Để đương đầu với sự biến động của thị trường toàn cầu, doanh nghiệp cần có tầm nhìn xa trông rộng và sự nhạy bén sắc sảo.",
+      "Khả năng đọc hiểu thị trường là yếu tố cốt lõi giúp các công ty đa quốc gia đứng vững trong làn sóng toàn cầu hóa."
+    ],
     "keywords": ["全球化", "浪潮", "洞察力", "格局"]
   },
   {
     "level": "C1",
     "direction": "zh_vi",
     "sourceText": "這部文學鉅作深刻剖析了人性的複雜與社會底層的無奈。",
-    "referenceAnswers": ["Tuyệt tác văn học này đã mổ xẻ sâu sắc sự phức tạp của nhân tính và sự vất vả bất lực của đáy xã hội."],
+    "referenceAnswers": [
+      "Tuyệt tác văn học này đã mổ xẻ sâu sắc sự phức tạp của nhân tính và sự vất vả bất lực của đáy xã hội.",
+      "Tác phẩm văn chương đồ sộ này đã phân tích thấu triệt những góc khuất của tâm hồn và nỗi khổ cực của tầng lớp bình dân.",
+      "Cuốn sách kinh điển đã lột tả thành công bản chất con người và những bi kịch nơi đáy cùng xã hội.",
+      "Sự phức tạp của nhân văn và những bế tắc xã hội được khắc họa đậm nét qua kiệt tác văn học này."
+    ],
     "keywords": ["鉅作", "深刻", "剖析", "人性"]
   },
   {
     "level": "C1",
     "direction": "zh_vi",
     "sourceText": "氣候變遷所引發的極端氣候現象，對人類生存環境構成了前所未有的威脅。",
-    "referenceAnswers": ["Các hiện tượng thời tiết cực đoan do biến đổi khí hậu gây ra đã và đang tạo thành mối đe dọa chưa từng có đối với môi trường sống của nhân loại."],
+    "referenceAnswers": [
+      "Các hiện tượng thời tiết cực đoan do biến đổi khí hậu gây ra đã và đang tạo thành mối đe dọa chưa từng có đối với môi trường sống của nhân loại.",
+      "Môi trường sinh thái đang phải đối mặt với những nguy cơ nghiêm trọng từ các hiện tượng khí hậu bất thường.",
+      "Biến đổi khí hậu đang đẩy con người vào tình cảnh nguy hiểm do sự gia tăng của các thảm họa tự nhiên khốc liệt.",
+      "Hệ quả từ sự biến động khí hậu đang tạo ra những thách thức sống còn đối với hành tinh chúng ta."
+    ],
     "keywords": ["氣候變遷", "極端", "現象", "威脅"]
   },
   {
     "level": "C1",
     "direction": "zh_vi",
     "sourceText": "政府的宏觀調控措施旨在穩定物價並促進經濟的永續發展。",
-    "referenceAnswers": ["Biện pháp điều tiết vĩ mô của chính phủ nhằm mục đích ổn định vật giá và thúc đẩy kinh tế phát triển bền vững."],
+    "referenceAnswers": [
+      "Biện pháp điều tiết vĩ mô của chính phủ nhằm mục đích ổn định vật giá và thúc đẩy kinh tế phát triển bền vững.",
+      "Chính sách quản lý tầm vĩ mô hướng tới việc kiểm soát lạm phát và tăng trưởng xanh.",
+      "Chính phủ sử dụng các công cụ điều tiết để giữ giá cả bình ổn và đảm bảo tính bền vững của nền kinh tế.",
+      "Thúc đẩy phát triển lâu dài và giữ vững thị trường là mục tiêu của các chính sách điều phối từ nhà nước."
+    ],
     "keywords": ["宏觀", "調控", "措施", "永續發展"]
   }
 ]

@@ -3,28 +3,48 @@
     "level": "C2",
     "direction": "vi_zh",
     "sourceText": "Mặc dù phải đối mặt với vô vàn những chỉ trích gay gắt, nhà khoa học đó vẫn giữ vững lập trường học thuật của mình một cách kiên định.",
-    "referenceAnswers": ["儘管面臨著鋪天蓋地的嚴厲指責，那位科學家依然堅定不移地堅守著自己的學術立場。"],
+    "referenceAnswers": [
+      "儘管面臨著鋪天蓋地的嚴厲指責，那位科學家依然堅定不移地堅守著自己的學術立場。",
+      "尽管面着铺天盖地的严厉指责，那位科学家依然坚定不移地坚守着自己的学术立场。",
+      "縱使遭遇四面八方的口誅筆伐，該學者仍舊氣定神閒地維持其學說初衷。",
+      "在排山倒海的負面輿論壓力下，他始終如一地捍衛著學術領域的真理。"
+    ],
     "keywords": ["鋪天蓋地", "指責", "堅定不移", "堅守", "立場"]
   },
   {
     "level": "C2",
     "direction": "vi_zh",
     "sourceText": "Nghệ thuật đích thực không chỉ là việc mô phỏng hiện thực một cách máy móc, mà còn phải truyền tải được những rung cảm tinh tế thẳm sâu trong tâm hồn.",
-    "referenceAnswers": ["真正的藝術不僅僅是對現實的生搬硬套，更要能夠傳遞出靈魂深處那細膩的共鳴。"],
+    "referenceAnswers": [
+      "真正的藝術不僅僅是對現實的生搬硬套，更要能夠傳遞出靈魂深處那細膩的共鳴。",
+      "真正的艺术不仅仅是对现实的生搬硬套，更要能够传递出灵魂深处那细腻的共鸣。",
+      "藝術的真諦在於超越對表象的死板摹仿，轉而扣動人心弦並激發情感的漣漪。",
+      "卓越的創作並非刻板的現實投影，而是對內在精神世界的深切觀照與抒發。"
+    ],
     "keywords": ["生搬硬套", "傳遞", "靈魂", "細膩", "共鳴"]
   },
   {
     "level": "C2",
     "direction": "vi_zh",
     "sourceText": "Tác phẩm này đã phản ánh một cách chân thực và sâu sắc bức tranh toàn cảnh về những biến động dữ dội của xã hội trong giai đoạn tranh tối tranh sáng đó.",
-    "referenceAnswers": ["這部作品真實而深刻地反映了在那個新舊交替的動盪時期社會全貌的波瀾壯闊。"],
+    "referenceAnswers": [
+      "這部作品真實而深刻地反映了在那個新舊交替的動盪時期社會全貌的波瀾壯闊。",
+      "这部作品真实而深刻地反映了在那个新旧交替的动荡时期社会全貌的波澜壮阔。",
+      "該著作深入刻畫了處於黎明前的黑暗時期，整個社會結構所經歷的驚濤駭浪。",
+      "這份產出細緻入微地勾勒出了社會轉型期背後的複雜底色與劇烈震盪。"
+    ],
     "keywords": ["深刻", "新舊交替", "動盪", "波瀾壯闊", "全貌"]
   },
   {
     "level": "C2",
     "direction": "vi_zh",
     "sourceText": "Những quy định pháp lý này cần được diễn giải một cách chặt chẽ và nhất quán, để không tạo ra những kẽ hở cho những hành vi trục lợi cá nhân.",
-    "referenceAnswers": ["這些法律法規需要被嚴密且連貫地解讀，以免為那些徇私舞弊的行為留下可乘之機。"],
+    "referenceAnswers": [
+      "這些法律法規需要被嚴密且連貫地解讀，以免為那些徇私舞弊的行為留下可乘之機。",
+      "这些法律法规需要被严密且连贯地解读，以免为那些徇私舞弊的行为留下可乘之机。",
+      "司法條文之釋義須保持其嚴謹性與統一性，從而杜絕任何權力尋租或自肥的灰色地帶。",
+      "對律法的闡釋絕不可含糊其辭，否則將導致法規被有心人士惡意利用或規避。"
+    ],
     "keywords": ["嚴密", "連貫", "解讀", "徇私舞弊", "可乘之機"]
   }
 ]

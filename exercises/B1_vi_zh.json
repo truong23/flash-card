@@ -3,84 +3,144 @@
     "level": "B1",
     "direction": "vi_zh",
     "sourceText": "Mặc dù gặp nhiều khó khăn, anh ấy vẫn không bỏ cuộc.",
-    "referenceAnswers": ["儘管遇到了很多困難，他仍然沒有放棄。"],
+    "referenceAnswers": [
+      "儘管遇到了很多困難，他仍然沒有放棄。",
+      "尽管遇到了很多困难，他仍然没有放弃。",
+      "雖然遇到了很多困難，但他還是沒放棄。",
+      "即使面臨重重困難，他依然堅持到底。"
+    ],
     "keywords": ["困難", "仍然", "放棄"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
     "sourceText": "Vấn đề này cần được xem xét kỹ lưỡng hơn.",
-    "referenceAnswers": ["這個問題需要更仔細地思考。"],
+    "referenceAnswers": [
+      "這個問題需要更仔細地思考。",
+      "这个问题需要更仔细地思考。",
+      "此事需要更周詳地審核。",
+      "這個問題應當被更深入地考慮。"
+    ],
     "keywords": ["問題", "需要", "仔細"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
     "sourceText": "Cuộc sống hiện đại ngày càng phụ thuộc vào công nghệ.",
-    "referenceAnswers": ["現代生活越來越依賴科技。"],
+    "referenceAnswers": [
+      "現代生活越來越依賴科技。",
+      "现代生活越来越依赖科技。",
+      "如今的生活對技術的依賴日益增加。",
+      "科技在現代生活中變得越來越不可或缺。"
+    ],
     "keywords": ["現代", "科技", "越來越"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
     "sourceText": "Cô ấy rất đam mê công việc của mình.",
-    "referenceAnswers": ["她對自己的工作充滿熱情。"],
+    "referenceAnswers": [
+      "她對自己的工作充滿熱情。",
+      "她对自己的工作充满热情。",
+      "她非常熱愛她的工作。",
+      "她對工作有無比的激情。"
+    ],
     "keywords": ["工作", "充滿", "熱情"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
     "sourceText": "Anh ấy không chỉ thông minh mà còn rất chăm chỉ.",
-    "referenceAnswers": ["他不僅很聰明，而且非常努力。"],
+    "referenceAnswers": [
+      "他不僅很聰明，而且非常努力。",
+      "他不仅很聪明，而且非常努力。",
+      "他不光聰穎，還特別勤奮。",
+      "他既聰明又刻苦。"
+    ],
     "keywords": ["不僅", "而且", "聰明", "努力"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
     "sourceText": "Bài viết này rất có sức thuyết phục.",
-    "referenceAnswers": ["這篇文章非常有說服力。"],
+    "referenceAnswers": [
+      "這篇文章非常有說服力。",
+      "这篇文章非常有说服力。",
+      "這份文稿極具說服性。",
+      "這篇文章論證得很精彩。"
+    ],
     "keywords": ["文章", "說服力"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
     "sourceText": "Chúng ta cần bảo vệ môi trường xung quanh.",
-    "referenceAnswers": ["我們需要保護周圍的環境。"],
+    "referenceAnswers": [
+      "我們需要保護周圍的環境。",
+      "我们需要保护周围的环境。",
+      "我們應當守護周遭的自然環境。",
+      "環境保護是我們必須做的。"
+    ],
     "keywords": ["保護", "環境"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
     "sourceText": "Lời khuyên của anh ấy rất hữu ích.",
-    "referenceAnswers": ["他的建議非常有用。"],
+    "referenceAnswers": [
+      "他的建議非常有用。",
+      "他的建议非常有用。",
+      "他的忠告大有裨益。",
+      "他給出的建議很具備參考價值。"
+    ],
     "keywords": ["建議", "有用"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
     "sourceText": "Chất lượng sản phẩm của họ rất đáng tin cậy.",
-    "referenceAnswers": ["他們的產品品質非常值得信賴。"],
+    "referenceAnswers": [
+      "他們的產品品質非常值得信賴。",
+      "他们的产品品质非常值得信賴。",
+      "其產品的質量極具可靠性。",
+      "他們生產的東西質量很有保障。"
+    ],
     "keywords": ["產品", "品質", "信賴"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
     "sourceText": "Anh ấy mất nhiều thời gian để làm quen với công việc mới.",
-    "referenceAnswers": ["他花了很多時間才習慣新工作。"],
+    "referenceAnswers": [
+      "他花了很多時間才習慣新工作。",
+      "他花了很多时间才习惯新工作。",
+      "他耗費了不久來適應新職位。",
+      "熟悉這份新工作花了他不少功夫。"
+    ],
     "keywords": ["時間", "習慣", "工作"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
     "sourceText": "Được hợp tác với bạn là một vinh dự lớn.",
-    "referenceAnswers": ["能跟你合作是一件非常榮幸的事。"],
+    "referenceAnswers": [
+      "能跟你合作是一件非常榮幸的事。",
+      "能跟你合作是一件非常荣幸的事。",
+      "與您協作是我的莫大榮幸。",
+      "很榮幸能有機會與您合作。"
+    ],
     "keywords": ["合作", "榮幸"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
     "sourceText": "Bạn nên duy trì thói quen tập thể dục mỗi ngày.",
-    "referenceAnswers": ["你應該每天保持運動的習慣。"],
+    "referenceAnswers": [
+      "你應該每天保持運動的習慣。",
+      "你应该每天保持运动的习惯。",
+      "你應當維持每日健身的好習慣。",
+      "每天堅持運動對你很有好處。"
+    ],
     "keywords": ["習慣", "運動", "每天"]
   }
 ]

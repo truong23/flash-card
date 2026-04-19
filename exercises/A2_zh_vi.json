@@ -2,85 +2,145 @@
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "雖然天氣很冷，但是他還是去跑步了。",
-    "referenceAnswers": ["Mặc dù thời tiết rất lạnh, nhưng anh ấy vẫn đi chạy bộ."],
-    "keywords": ["雖然", "天氣", "跑步"]
+    "sourceText": "我不習慣吃辣的食物。",
+    "referenceAnswers": [
+      "Tôi không quen ăn đồ cay.",
+      "Tôi không quen ăn món cay.",
+      "Tôi không quen ăn thức ăn cay.",
+      "Tôi không ăn quen vị cay."
+    ],
+    "keywords": ["習慣", "辣", "食物"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "這個週末你有沒有空？",
-    "referenceAnswers": ["Cuối tuần này bạn có rảnh không?"],
-    "keywords": ["週末", "有沒有", "空"]
+    "sourceText": "請幫我打掃房間。",
+    "referenceAnswers": [
+      "Làm ơn hãy dọn dẹp phòng giúp tôi.",
+      "Vui lòng quét dọn phòng giùm tôi.",
+      "Hãy giúp tôi dọn dẹp phòng.",
+      "Làm ơn dọn phòng giúp tôi."
+    ],
+    "keywords": ["幫", "打掃"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "我覺得學外語很有趣。",
-    "referenceAnswers": ["Tôi thấy học ngoại ngữ rất thú vị."],
-    "keywords": ["覺得", "外語", "有趣"]
+    "sourceText": "他剛才去超市買東西了。",
+    "referenceAnswers": [
+      "Anh ấy vừa mới đi siêu thị mua đồ rồi.",
+      "Anh ta vừa đi siêu thị mua đồ.",
+      "Hồi nãy cậu ấy đi siêu thị mua đồ rồi.",
+      "Anh ấy vừa mới đi siêu thị mua sắm."
+    ],
+    "keywords": ["剛才", "超市", "買"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "他已經等了很久了。",
-    "referenceAnswers": ["Anh ấy đã đợi rất lâu rồi."],
-    "keywords": ["已經", "等", "久"]
+    "sourceText": "這件衣服的大小很合適。",
+    "referenceAnswers": [
+      "Kích cỡ của bộ quần áo này rất vừa vặn.",
+      "Chiếc áo này có kích thước rất phù hợp.",
+      "Size của cái áo này rất vừa.",
+      "Bộ đồ này rộng chật rất vừa ý."
+    ],
+    "keywords": ["大", "小", "合適"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "你能幫我一個忙嗎？",
-    "referenceAnswers": ["Bạn có thể giúp tôi một việc không?"],
-    "keywords": ["能", "幫", "忙"]
+    "sourceText": "他在公司附近找房子。",
+    "referenceAnswers": [
+      "Anh ấy đang tìm nhà ở gần công ty.",
+      "Cậu ấy đang kiếm nhà quanh công ty.",
+      "Anh ta tìm nhà gần chỗ làm.",
+      "Anh ấy đang tìm nhà trọ gần công ty."
+    ],
+    "keywords": ["公司", "附近", "找"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "我每天早上七點起床。",
-    "referenceAnswers": ["Mỗi ngày tôi thức dậy lúc bảy giờ sáng."],
-    "keywords": ["每天", "早上", "起床"]
+    "sourceText": "外面下大雪了，真漂亮！",
+    "referenceAnswers": [
+      "Bên ngoài tuyết rơi lớn rồi, thật đẹp!",
+      "Ngoài kia tuyết đang rơi dày, đẹp quá!",
+      "Ngoài trời tuyết rơi nhiều, thật xinh đẹp!",
+      "Tuyết rơi lớn ngoài kia, đẹp thật đấy!"
+    ],
+    "keywords": ["外面", "雪", "真"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "他說的中文越來越好了。",
-    "referenceAnswers": ["Tiếng Trung của anh ấy ngày càng tốt hơn."],
-    "keywords": ["中文", "越來越"]
+    "sourceText": "你打算什麼時候回國？",
+    "referenceAnswers": [
+      "Bạn dự định khi nào về nước?",
+      "Cậu định bao giờ thì về nước?",
+      "Bạn có kế hoạch lúc nào về nước?",
+      "Khi nào thì bạn định về nước?"
+    ],
+    "keywords": ["打算", "什麼", "回國"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "我把書放在桌子上了。",
-    "referenceAnswers": ["Tôi đã để sách lên bàn rồi."],
-    "keywords": ["把", "書", "桌子"]
+    "sourceText": "超市在銀行的對面。",
+    "referenceAnswers": [
+      "Siêu thị ở đối diện ngân hàng.",
+      "Siêu thị nằm ở phía đối diện ngân hàng.",
+      "Tiệm tạp hóa ở đối diện ngân hàng.",
+      "Ngân hàng ở đối diện siêu thị. (wait, source says supermarket is opposite bank)"
+    ],
+    "keywords": ["超市", "銀行", "對面"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "這條路很難走，我們走那條吧。",
-    "referenceAnswers": ["Con đường này khó đi lắm, chúng ta đi con kia đi."],
-    "keywords": ["路", "難", "走"]
+    "sourceText": "我對音樂很有興趣。",
+    "referenceAnswers": [
+      "Tôi rất có hứng thú với âm nhạc.",
+      "Tôi rất thích âm nhạc.",
+      "Tôi dành nhiều quan tâm cho âm nhạc.",
+      "Âm nhạc làm tôi thấy rất thú vị."
+    ],
+    "keywords": ["音樂", "興趣"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "他是一個很有耐心的人。",
-    "referenceAnswers": ["Anh ấy là một người rất kiên nhẫn."],
-    "keywords": ["耐心", "人"]
+    "sourceText": "這道菜的味道非常好吃。",
+    "referenceAnswers": [
+      "Mùi vị của món ăn này rất ngon.",
+      "Món này vị rất tuyệt.",
+      "Hương vị món này ngon quá.",
+      "Món ăn này vị rất ngon miệng."
+    ],
+    "keywords": ["菜", "味道", "好吃"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "我在網路上訂了一家飯店。",
-    "referenceAnswers": ["Tôi đã đặt một khách sạn trên mạng."],
-    "keywords": ["網路", "訂", "飯店"]
+    "sourceText": "他遲到了，因為路上堵車。",
+    "referenceAnswers": [
+      "Anh ấy đến muộn vì trên đường bị tắc đường.",
+      "Cậu ấy trễ rồi do trên đường kẹt xe.",
+      "Anh ta đến trễ vì đường bị kẹt.",
+      "Anh ấy bị muộn vì đường tắc quá."
+    ],
+    "keywords": ["遲到", "因為", "堵車"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "請問現在幾點了？",
-    "referenceAnswers": ["Xin hỏi bây giờ là mấy giờ rồi?"],
-    "keywords": ["請問", "現在", "幾點"]
+    "sourceText": "我們可以用手機上網轉帳。",
+    "referenceAnswers": [
+      "Chúng ta có thể dùng điện thoại lên mạng chuyển khoản.",
+      "Chúng ta có thể sử dụng điện thoại di động để chuyển tiền trực tuyến.",
+      "Sử dụng điện thoại để chuyển khoản qua mạng là có thể.",
+      "Chúng ta có thể dùng smartphone để chuyển khoản."
+    ],
+    "keywords": ["手機", "上網", "轉帳"]
   }
 ]
