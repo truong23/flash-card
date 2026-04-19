@@ -1,18 +1,4 @@
-<!DOCTYPE html>
-<html lang="vi">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Luyện Tập Dịch | TOCFL Flash Cards</title>
-  <meta name="description" content="Trang luyện tập dịch tiếng Trung - Việt theo từng cấp độ TOCFL A1, A2, B1, B2.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Serif+TC:wght@400;700&display=swap"
-    rel="stylesheet">
-  <style>
-    /* ============================================================
+/* ============================================================
        DESIGN TOKENS
     ============================================================ */
     :root {
@@ -48,6 +34,20 @@
       --shadow-card: 0 16px 40px rgba(15, 23, 42, 0.04), 0 4px 10px rgba(15, 23, 42, 0.02);
       --shadow-glow: none;
       --transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
+
+      /* Flashcard core tokens from study.css */
+      --card-zoom: 1;
+      --card-size: 80px; /* Base size for sidebar cards */
+      --card-radius: 12px;
+      --card-padding: 8px;
+      --grid-gap: 8px;
+      --word-front-size: 1.2rem;
+      --word-back-meaning-size: 0.7rem;
+      --word-back-pinyin-size: 0.55rem;
+      
+      /* Effective variables used by the scaling logic */
+      --effective-card-size: var(--card-size);
+      --effective-card-scale: 1;
     }
 
     /* ============================================================
@@ -151,7 +151,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 16px 40px;
+      padding: 16px 40px 24px; /* extra bottom padding for 3D shadows */
       border-bottom: 2px solid var(--border);
       background: rgba(255, 255, 255, 0.95);
       backdrop-filter: blur(8px);
@@ -163,7 +163,7 @@
     .header-logo {
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 20px; /* increased gap for buttons */
       text-decoration: none;
     }
 
@@ -192,22 +192,56 @@
     }
 
     .header-nav a {
-      color: var(--text-secondary);
+      position: relative;
+      color: #fff;
       text-decoration: none;
-      font-size: 0.875rem;
-      font-weight: 500;
-      transition: var(--transition);
-      padding: 8px 14px;
-      border-radius: var(--radius-sm);
+      font-size: 0.85rem;
+      font-weight: 800;
+      transition: all 0.13s ease;
+      padding: 10px 20px;
+      border-radius: 14px;
+      background: linear-gradient(160deg, #7c3aed 0%, #5b21b6 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255, 255, 255, 0.30),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.12),
+        0 6px 0 #441091,
+        0 10px 20px rgba(124, 58, 237, 0.25);
+      text-transform: uppercase;
+      letter-spacing: 0.02em;
     }
 
     .header-nav a:hover {
-      color: var(--text-primary);
-      background: var(--bg-glass);
+      filter: brightness(1.1);
+      transform: translateY(-1px);
     }
 
+    .header-nav a:active,
     .header-nav a.active {
-      color: #7c3aed;
+      transform: translateY(4px);
+      background: linear-gradient(160deg, #6d28d9 0%, #4c1d95 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255, 255, 255, 0.20),
+        0 2px 0 #441091,
+        0 4px 10px rgba(124, 58, 237, 0.2);
+    }
+
+    .header-nav a.active::after {
+      content: '✓';
+      position: absolute;
+      top: -8px;
+      right: -8px;
+      background: #10b981;
+      color: #fff;
+      width: 22px;
+      height: 22px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 12px;
+      font-weight: 900;
+      border: 2px solid #fff;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
     }
 
     /* ============================================================
@@ -743,14 +777,181 @@
     ============================================================ */
     #screen-practice {
       width: 100%;
-      max-width: 760px;
+      max-width: 100%; /* Full width */
       display: none;
     }
 
     #screen-practice.active {
+      display: block;
+    }
+
+    /* Two-column layout */
+    .practice-layout {
+      display: grid;
+      grid-template-columns: 7fr 5fr;
+      gap: 32px;
+      align-items: flex-start;
+    }
+
+    .practice-main-col {
+      min-width: 0;
       display: flex;
       flex-direction: column;
-      gap: 0;
+    }
+
+    .practice-sidebar-col {
+      background: #fff;
+      border: 2px solid var(--border);
+      border-radius: var(--radius-xl);
+      padding: 24px;
+      box-shadow: var(--shadow-card);
+      position: sticky;
+      top: 100px;
+      max-height: calc(100vh - 140px);
+      display: flex;
+      flex-direction: column;
+    }
+
+    .sidebar-header {
+      margin-bottom: 20px;
+      padding-bottom: 15px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .sidebar-header h3 {
+      font-size: 1.1rem;
+      font-weight: 800;
+      color: var(--text-primary);
+      margin-bottom: 4px;
+    }
+
+    .sidebar-header p {
+      font-size: 0.75rem;
+      color: var(--text-secondary);
+    }
+
+    .sidebar-cards-grid {
+      overflow-y: auto;
+      flex: 1;
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(var(--effective-card-size), 1fr));
+      gap: var(--grid-gap);
+      padding: 4px;
+      padding-right: 8px; /* Room for scrollbar */
+    }
+
+    /* Custom scrollbar for sidebar */
+    .sidebar-cards-grid::-webkit-scrollbar {
+      width: 6px;
+    }
+    .sidebar-cards-grid::-webkit-scrollbar-track {
+      background: transparent;
+    }
+    .sidebar-cards-grid::-webkit-scrollbar-thumb {
+      background: #e2e8f0;
+      border-radius: 10px;
+    }
+
+    /* Flashcard style matching study.css */
+    .word-card {
+      width: var(--effective-card-size);
+      height: var(--effective-card-size);
+      position: relative;
+      border-radius: calc(var(--card-radius) * var(--effective-card-scale));
+      cursor: pointer;
+      transition: transform 0.2s ease, opacity 0.2s ease;
+      perspective: 1000px;
+      contain: layout paint;
+    }
+
+    .word-card:hover {
+      transform: scale(1.05);
+      z-index: 10;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    }
+
+    .word-card-inner {
+      position: relative;
+      width: 100%;
+      height: 100%;
+      transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+      transform-style: preserve-3d;
+      border-radius: calc(var(--card-radius) * var(--effective-card-scale));
+    }
+
+    .word-card.flipped .word-card-inner {
+      transform: rotateY(180deg);
+    }
+
+    .word-face {
+      position: absolute;
+      inset: 0;
+      border-radius: calc(var(--card-radius) * var(--effective-card-scale));
+      backface-visibility: hidden;
+      -webkit-backface-visibility: hidden;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: calc(var(--card-padding) * var(--effective-card-scale));
+      overflow: hidden;
+    }
+
+    .word-front {
+      background: var(--card-front-color, #475569);
+      color: white;
+      font-size: clamp(4px, calc(var(--word-front-size) * var(--effective-card-scale)), 1.8rem);
+      font-weight: 800;
+      box-shadow: inset 0 0 15px rgba(0,0,0,0.1);
+      text-shadow: 0 1px 2px rgba(0,0,0,0.2);
+    }
+
+    .word-back {
+      background: #f1f5f9;
+      border: 1px solid #e2e8f0;
+      color: #1e293b;
+      transform: rotateY(180deg);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0.5px;
+    }
+
+    .word-back-scrollable {
+      width: 100%;
+      height: 100%;
+      overflow-y: auto;
+      padding: calc(var(--card-padding) * var(--effective-card-scale));
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 1px;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+    }
+
+    .word-back-scrollable::-webkit-scrollbar {
+      display: none;
+    }
+
+    .word-back-meaning {
+      font-size: clamp(4px, calc(var(--word-back-meaning-size) * var(--effective-card-scale)), 1rem);
+      line-height: 1.1;
+      font-weight: 700;
+      color: #1e293b;
+      text-align: center;
+    }
+
+    .word-back-pinyin {
+      font-size: clamp(2.5px, calc(var(--word-back-pinyin-size) * var(--effective-card-scale)), 0.8rem);
+      color: #64748b;
+      font-style: italic;
+      line-height: 1;
+      margin-top: 2px;
+      font-weight: 500;
+      text-align: center;
     }
 
     /* Practice header */
@@ -1613,6 +1814,20 @@
     /* ============================================================
        RESPONSIVE
     ============================================================ */
+    @media (max-width: 1024px) {
+      #screen-practice {
+        max-width: 800px;
+      }
+      .practice-layout {
+        grid-template-columns: 1fr;
+        gap: 24px;
+      }
+      .practice-sidebar-col {
+        position: static;
+        max-height: 500px;
+      }
+    }
+
     @media (max-width: 640px) {
       .app-header {
         padding: 16px 20px;
@@ -1655,774 +1870,3 @@
         font-size: 2.4rem;
       }
     }
-  </style>
-</head>
-
-<body>
-
-  <div class="bg-orbs">
-    <div class="orb orb-1"></div>
-    <div class="orb orb-2"></div>
-    <div class="orb orb-3"></div>
-  </div>
-
-  <div class="app-wrapper">
-    <!-- Header -->
-    <header class="app-header">
-      <a href="index.html" class="header-logo" id="headerLogoLink">
-        <div class="logo-icon">📚</div>
-        <div>
-          <div class="logo-text">TOCFL Cards</div>
-          <div class="logo-sub">Luyện tập dịch</div>
-        </div>
-      </a>
-      <nav class="header-nav">
-        <a href="study.html">Từ vựng</a>
-        <a href="practice.html" class="active">Luyện tập</a>
-      </nav>
-    </header>
-
-    <!-- Main Content -->
-    <main class="main-content" id="mainContent">
-
-      <!-- LOADING -->
-      <div id="screen-loading">
-        <div class="loading-spinner"></div>
-        <div class="loading-text">Đang tải bài tập…</div>
-      </div>
-
-      <!-- SETUP SCREEN -->
-      <div id="screen-setup">
-        <div class="setup-title">
-          <h1>Luyện Tập Dịch</h1>
-          <p>Chọn cấp độ và chiều dịch để bắt đầu</p>
-        </div>
-
-        <div class="setup-card">
-          <!-- Level -->
-          <div class="section-label">📊 Chọn cấp độ</div>
-          <div class="level-grid">
-            <button class="level-btn" data-level="A1" id="lvlA1" onclick="selectLevel('A1')">
-              <div class="lbtn-left">
-                <div class="lbtn-tag">Sơ cấp</div>
-                <div class="lbtn-title">A1</div>
-                <div class="lbtn-sub">Cơ bản &amp; đơn giản</div>
-              </div>
-              <div class="lbtn-icon">🌱</div>
-            </button>
-            <button class="level-btn" data-level="A2" id="lvlA2" onclick="selectLevel('A2')">
-              <div class="lbtn-left">
-                <div class="lbtn-tag">Tiền trung cấp</div>
-                <div class="lbtn-title">A2</div>
-                <div class="lbtn-sub">Tình huống thường ngày</div>
-              </div>
-              <div class="lbtn-icon">📚</div>
-            </button>
-            <button class="level-btn" data-level="B1" id="lvlB1" onclick="selectLevel('B1')">
-              <div class="lbtn-left">
-                <div class="lbtn-tag">Trung cấp</div>
-                <div class="lbtn-title">B1</div>
-                <div class="lbtn-sub">Diễn đạt đa dạng</div>
-              </div>
-              <div class="lbtn-icon">🎯</div>
-            </button>
-            <button class="level-btn" data-level="B2" id="lvlB2" onclick="selectLevel('B2')">
-              <div class="lbtn-left">
-                <div class="lbtn-tag">Trung cao cấp</div>
-                <div class="lbtn-title">B2</div>
-                <div class="lbtn-sub">Ngôn ngữ phức tạp</div>
-              </div>
-              <div class="lbtn-icon">🏆</div>
-            </button>
-            <button class="level-btn" data-level="C1" id="lvlC1" onclick="selectLevel('C1')">
-              <div class="lbtn-left">
-                <div class="lbtn-tag">Cao cấp</div>
-                <div class="lbtn-title">C1</div>
-                <div class="lbtn-sub">Giao tiếp lưu loát</div>
-              </div>
-              <div class="lbtn-icon">🔥</div>
-            </button>
-            <button class="level-btn" data-level="C2" id="lvlC2" onclick="selectLevel('C2')">
-              <div class="lbtn-left">
-                <div class="lbtn-tag">Thành thạo</div>
-                <div class="lbtn-title">C2</div>
-                <div class="lbtn-sub">Trình độ bản ngữ</div>
-              </div>
-              <div class="lbtn-icon">👑</div>
-            </button>
-          </div>
-
-          <!-- Direction -->
-          <div class="section-label">🔄 Chiều dịch</div>
-          <div class="direction-grid">
-            <button class="dir-btn" id="dirZhVi" onclick="selectDirection('zh_vi')">
-              <div class="dbtn-left">
-                <div class="dbtn-flags">🇨🇳→🇻🇳</div>
-                <div class="dbtn-title">Trung sang Việt</div>
-                <div class="dbtn-sub">Dịch từ tiếng Trung sang tiếng Việt</div>
-              </div>
-              <div class="dbtn-icon">🎮</div>
-            </button>
-            <button class="dir-btn" id="dirViZh" onclick="selectDirection('vi_zh')">
-              <div class="dbtn-left">
-                <div class="dbtn-flags">🇻🇳→🇨🇳</div>
-                <div class="dbtn-title">Việt sang Trung</div>
-                <div class="dbtn-sub">Dịch từ tiếng Việt sang tiếng Trung</div>
-              </div>
-              <div class="dbtn-icon">✏️</div>
-            </button>
-          </div>
-
-          <!-- Session hint + start -->
-          <div class="start-section">
-            <div id="sessionHint" class="session-hint"></div>
-            <button class="btn-start" id="btnStart" onclick="startPractice()" disabled>
-              🚀 Bắt đầu luyện tập
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- PRACTICE SCREEN -->
-      <div id="screen-practice">
-        <!-- Top bar -->
-        <div class="practice-topbar">
-          <div class="practice-badges">
-            <span class="badge" id="badgeLevel"></span>
-            <span class="badge badge-dir" id="badgeDir"></span>
-          </div>
-          <div class="practice-counter" id="practiceCounter"></div>
-        </div>
-
-        <!-- Progress -->
-        <div class="progress-wrap">
-          <div class="progress-fill" id="progressFill" style="width: 0%"></div>
-        </div>
-
-        <!-- Question card -->
-        <div class="question-card" id="questionCard">
-          <div class="question-direction-label" id="questionDirLabel"></div>
-          <div class="question-source-text" id="questionSource"></div>
-          <div class="keyword-chips" id="keywordChips"></div>
-        </div>
-
-        <!-- Answer -->
-        <div class="answer-area">
-          <div class="answer-top-row">
-            <div class="answer-label" id="answerAreaLabel">✏️ Câu trả lời của bạn</div>
-            <div style="display:flex;align-items:center;gap:10px;">
-              <button class="btn-hint" id="btnHint" onclick="showHint()" title="Xem gợi ý">💡 Gợi ý</button>
-              <span class="kbd-hint"><kbd class="kbd">Enter</kbd> Kiểm tra</span>
-            </div>
-          </div>
-          <textarea class="answer-textarea" id="answerInput" placeholder="Nhập câu dịch của bạn ở đây…"
-            rows="3"></textarea>
-
-          <!-- Wrong answer feedback -->
-          <div class="wrong-panel" id="wrongPanel">
-            <span>❌</span>
-            <span id="wrongPanelText">Chưa đúng! Hãy thử lại…</span>
-            <span class="wrong-attempt-count" id="wrongAttemptCount"></span>
-          </div>
-
-          <!-- Correct answer feedback (shown briefly before auto-advance) -->
-          <div class="correct-panel" id="correctPanel">
-            <span>✅</span>
-            <span>Chính xác! Đang chuyển câu tiếp theo…</span>
-            <div class="progress-dots">
-              <div class="dot"></div>
-              <div class="dot"></div>
-              <div class="dot"></div>
-            </div>
-          </div>
-        </div>
-
-        <!-- Action row -->
-        <div class="action-row">
-          <button class="btn btn-back" onclick="goBack()">← Thay đổi</button>
-          <button class="btn btn-skip" onclick="skipQuestion()">⏭ Bỏ qua</button>
-          <button class="btn btn-check" id="btnCheck" onclick="checkAnswer()">
-            🔍 Kiểm tra
-          </button>
-        </div>
-      </div>
-
-      <!-- DONE SCREEN -->
-      <div id="screen-done">
-        <div class="done-icon">🎉</div>
-        <div class="done-title">Hoàn thành vòng luyện!</div>
-        <div class="done-sub" id="doneSubText">Bạn đã luyện qua tất cả câu trong bộ bài tập. Bắt đầu lại để tiếp tục!
-        </div>
-        <button class="btn-restart" onclick="restartSession()">🔄 Luyện tập tiếp</button>
-        <button class="btn btn-back" onclick="goBack()">← Thay đổi cài đặt</button>
-      </div>
-
-    </main>
-  </div>
-
-  <!-- Vocabulary popup overlay -->
-  <div class="vocab-overlay" id="vocabOverlay" onclick="closeVocabCard(event)">
-    <div class="vocab-card-popup" id="vocabCardPopup">
-      <button class="vocab-close" onclick="closeVocabCard()" title="Đóng">✕</button>
-      <div class="vocab-chinese" id="vcChinese"></div>
-      <div class="vocab-pinyin" id="vcPinyin"></div>
-      <div style="text-align:center;margin-bottom:14px;" id="vcLevelWrap"></div>
-      <div class="vocab-divider"></div>
-      <div class="vocab-entries" id="vcEntries"></div>
-    </div>
-  </div>
-
-  <script src="vocabulary-data.js"></script>
-  <script>
-    /* ================================================================
-       STATE
-    ================================================================ */
-    let selectedLevel = null;
-    let selectedDirection = null;
-    let exercises = [];         // all loaded exercises for current config
-    let questionSuffSheet = []; // shuffled index array (session-aware)
-    let currentPosInSheet = 0;  // pointer into questionSuffSheet
-    let isAnswerShown = false;
-    let attemptCount = 0;       // wrong attempts on current question
-
-    /* ================================================================
-       SESSION STORAGE HELPERS
-    ================================================================ */
-    function getSessionKey(level, direction) {
-      return `practice_sheet_${level}_${direction}`;
-    }
-
-    function loadSheet(level, direction) {
-      const key = getSessionKey(level, direction);
-      try {
-        const raw = sessionStorage.getItem(key);
-        if (raw) return JSON.parse(raw);
-      } catch (e) { }
-      return null;
-    }
-
-    function saveSheet(level, direction, sheet, pos) {
-      const key = getSessionKey(level, direction);
-      sessionStorage.setItem(key, JSON.stringify({ sheet, pos }));
-    }
-
-    function clearSheet(level, direction) {
-      const key = getSessionKey(level, direction);
-      sessionStorage.removeItem(key);
-    }
-
-    /* ================================================================
-       FISHER-YATES SHUFFLE
-    ================================================================ */
-    function shuffle(arr) {
-      const a = [...arr];
-      for (let i = a.length - 1; i > 0; i--) {
-        const j = Math.floor(Math.random() * (i + 1));
-        [a[i], a[j]] = [a[j], a[i]];
-      }
-      return a;
-    }
-
-    /* ================================================================
-       SETUP SCREEN LOGIC
-    ================================================================ */
-    function selectLevel(level) {
-      selectedLevel = level;
-      document.querySelectorAll('.level-btn').forEach(b => b.classList.remove('selected'));
-      document.getElementById(`lvl${level}`).classList.add('selected');
-      updateStartButton();
-      updateSessionHint();
-    }
-
-    function selectDirection(dir) {
-      selectedDirection = dir;
-      document.querySelectorAll('.dir-btn').forEach(b => b.classList.remove('selected'));
-      document.getElementById(dir === 'zh_vi' ? 'dirZhVi' : 'dirViZh').classList.add('selected');
-      updateStartButton();
-      updateSessionHint();
-    }
-
-    function updateStartButton() {
-      const btn = document.getElementById('btnStart');
-      btn.disabled = !(selectedLevel && selectedDirection);
-    }
-
-    function updateSessionHint() {
-      const hint = document.getElementById('sessionHint');
-      if (!selectedLevel || !selectedDirection) {
-        hint.innerHTML = '';
-        return;
-      }
-      const saved = loadSheet(selectedLevel, selectedDirection);
-      if (saved && saved.sheet && saved.pos < saved.sheet.length) {
-        const remaining = saved.sheet.length - saved.pos;
-        hint.innerHTML = `
-      <span class="session-info-badge">
-        💾 Tiếp tục từ câu ${saved.pos + 1} &mdash; còn ${remaining} câu trong vòng này
-      </span>
-    `;
-      } else {
-        hint.innerHTML = `
-      <span class="session-info-badge">
-        🎲 Sẽ tạo thứ tự câu hỏi ngẫu nhiên mới
-      </span>
-    `;
-      }
-    }
-
-    /* ================================================================
-       LOAD EXERCISES + INIT SHEET
-    ================================================================ */
-    async function startPractice() {
-      if (!selectedLevel || !selectedDirection) return;
-
-      showScreen('loading');
-
-      // Small delay for UX feel
-      await new Promise(r => setTimeout(r, 400));
-
-      const key = `${selectedLevel}_${selectedDirection}`;
-      let data = null;
-      try {
-        const res = await fetch(`exercises/${key}.json`);
-        if (res.ok) {
-          data = await res.json();
-        }
-      } catch (err) {
-        console.error("Lỗi khi tải file JSON:", err);
-      }
-
-      if (!data || data.length === 0) {
-        showScreen('setup');
-        alert(`Không tìm thấy dữ liệu bài tập cho cấp độ: ${key}\nHãy chắc chắn file exercises/${key}.json đã tồn tại.`);
-        return;
-      }
-
-      exercises = data;
-
-      // Build or restore questionSuffSheet
-      const saved = loadSheet(selectedLevel, selectedDirection);
-      if (saved && saved.sheet && Array.isArray(saved.sheet) && saved.pos <= saved.sheet.length) {
-        questionSuffSheet = saved.sheet;
-        currentPosInSheet = saved.pos;
-        // Validate indices still in range
-        if (questionSuffSheet.some(i => i >= exercises.length)) {
-          questionSuffSheet = shuffle(exercises.map((_, i) => i));
-          currentPosInSheet = 0;
-        }
-      } else {
-        questionSuffSheet = shuffle(exercises.map((_, i) => i));
-        currentPosInSheet = 0;
-      }
-
-      saveSheet(selectedLevel, selectedDirection, questionSuffSheet, currentPosInSheet);
-
-      setupPracticeUI();
-      showQuestion();
-    }
-
-    /* ================================================================
-       PRACTICE UI SETUP
-    ================================================================ */
-    function setupPracticeUI() {
-      // Badges
-      const lvlBadge = document.getElementById('badgeLevel');
-      lvlBadge.textContent = `Band ${selectedLevel}`;
-      lvlBadge.className = `badge badge-level-${selectedLevel}`;
-
-      const dirBadge = document.getElementById('badgeDir');
-      dirBadge.textContent = selectedDirection === 'zh_vi' ? '🇨🇳 → 🇻🇳' : '🇻🇳 → 🇨🇳';
-
-      // Answer label
-      const answerLabel = document.getElementById('answerAreaLabel');
-      if (selectedDirection === 'zh_vi') {
-        answerLabel.textContent = '✏️ Dịch sang tiếng Việt';
-        document.getElementById('answerInput').classList.remove('is-chinese-answer');
-        document.getElementById('answerInput').placeholder = 'Nhập câu dịch tiếng Việt của bạn…';
-      } else {
-        answerLabel.textContent = '✏️ Dịch sang tiếng Trung';
-        document.getElementById('answerInput').classList.add('is-chinese-answer');
-        document.getElementById('answerInput').placeholder = '請輸入您的翻譯…';
-      }
-
-      showScreen('practice');
-    }
-
-    /* ================================================================
-       SHOW QUESTION
-    ================================================================ */
-    function showQuestion() {
-      // Check if we've exhausted the sheet
-      if (currentPosInSheet >= questionSuffSheet.length) {
-        // Session complete — celebrate then reset
-        showScreen('done');
-        return;
-      }
-
-      isAnswerShown = false;
-
-      const idx = questionSuffSheet[currentPosInSheet];
-      const q = exercises[idx];
-
-      // Update counter + progress
-      const total = questionSuffSheet.length;
-      const current = currentPosInSheet + 1;
-      document.getElementById('practiceCounter').innerHTML =
-        `<strong>${current}</strong> / ${total}`;
-      document.getElementById('progressFill').style.width =
-        `${((current - 1) / total) * 100}%`;
-
-      // Direction label
-      document.getElementById('questionDirLabel').textContent =
-        selectedDirection === 'zh_vi' ? '🇨🇳 Đọc câu tiếng Trung và dịch sang tiếng Việt' : '🇻🇳 Đọc câu tiếng Việt và dịch sang tiếng Trung';
-
-      // Source text
-      const sourceEl = document.getElementById('questionSource');
-      sourceEl.textContent = q.sourceText;
-      if (selectedDirection === 'zh_vi') {
-        sourceEl.classList.add('is-chinese');
-      } else {
-        sourceEl.classList.remove('is-chinese');
-      }
-
-      // Keywords
-      const chips = document.getElementById('keywordChips');
-      chips.innerHTML = '';
-      if (q.keywords && q.keywords.length > 0) {
-        q.keywords.forEach(kw => {
-          const chip = document.createElement('span');
-          // Keywords are always Chinese characters (even in vi_zh direction)
-          chip.className = 'keyword-chip';
-          chip.textContent = kw;
-          chip.title = 'Nhấn để xem thẻ từ vựng';
-          chip.onclick = () => openVocabCard(kw);
-          chips.appendChild(chip);
-        });
-      }
-
-      // Reset hint
-      document.getElementById('btnHint').disabled = false;
-      document.getElementById('btnHint').textContent = '💡 Gợi ý';
-
-      // Reset answer area (also reset placeholder in case hint was shown)
-      const textarea = document.getElementById('answerInput');
-      textarea.value = '';
-      textarea.disabled = false;
-      textarea.placeholder = selectedDirection === 'zh_vi'
-        ? 'Nhập câu dịch tiếng Việt của bạn…'
-        : '請輸入您的翻譯…';
-      textarea.focus();
-
-      // Hide reference panel + next
-      // Reset feedback panels
-      document.getElementById('wrongPanel').classList.remove('visible');
-      document.getElementById('correctPanel').classList.remove('visible');
-      document.getElementById('wrongAttemptCount').textContent = '';
-      document.getElementById('btnCheck').style.display = '';
-      document.getElementById('btnCheck').disabled = false;
-      attemptCount = 0;
-
-      // Animate card
-      const card = document.getElementById('questionCard');
-      card.classList.remove('exit');
-      void card.offsetWidth; // reflow
-      card.style.animation = 'none';
-      void card.offsetWidth;
-      card.style.animation = '';
-    }
-
-    /* ================================================================
-       ANSWER COMPARISON
-    ================================================================ */
-    function checkAnswerCorrect(userAnswer, referenceAnswers) {
-      function normalize(s) {
-        return s
-          .toLowerCase()
-          .replace(/[.,!?。，！？；：、「」『』【】《》〈〉“”‘’()（）…—]/g, '')
-          .replace(/\s+/g, ' ')
-          .trim();
-      }
-      function isCJK(c) {
-        const code = c.codePointAt(0);
-        return (code >= 0x4E00 && code <= 0x9FFF) || (code >= 0x3400 && code <= 0x4DBF);
-      }
-      const userNorm = normalize(userAnswer);
-      if (!userNorm) return false;
-
-      return referenceAnswers.some(ref => {
-        const refNorm = normalize(ref);
-        if (userNorm === refNorm) return true;
-
-        const refCJK = [...refNorm].filter(isCJK);
-        if (refCJK.length > 0) {
-          // Chinese answer: check that user has all (or nearly all) reference CJK chars
-          const userCJKSet = new Set([...userNorm].filter(isCJK));
-          const missing = refCJK.filter(c => !userCJKSet.has(c));
-          const tolerance = Math.ceil(refCJK.length * 0.15); // allow 15% missing
-          return missing.length <= tolerance;
-        }
-
-        // Vietnamese / Latin: word-level match (80% threshold)
-        const refWords = refNorm.split(' ').filter(Boolean);
-        const userWordsSet = new Set(userNorm.split(' ').filter(Boolean));
-        if (!refWords.length) return false;
-        const matched = refWords.filter(w => userWordsSet.has(w)).length;
-        return matched / refWords.length >= 0.80;
-      });
-    }
-
-    /* ================================================================
-       CHECK ANSWER
-    ================================================================ */
-    function checkAnswer() {
-      if (isAnswerShown) return;
-
-      const textarea = document.getElementById('answerInput');
-      const userAnswer = textarea.value.trim();
-
-      // Empty answer — shake textarea
-      if (!userAnswer) {
-        textarea.classList.remove('shake');
-        void textarea.offsetWidth;
-        textarea.classList.add('shake');
-        setTimeout(() => textarea.classList.remove('shake'), 500);
-        return;
-      }
-
-      const idx = questionSuffSheet[currentPosInSheet];
-      const q = exercises[idx];
-      const isCorrect = checkAnswerCorrect(userAnswer, q.referenceAnswers);
-
-      if (isCorrect) {
-        // --- CORRECT ---
-        isAnswerShown = true;
-        document.getElementById('wrongPanel').classList.remove('visible');
-        document.getElementById('correctPanel').classList.add('visible');
-        textarea.disabled = true;
-        document.getElementById('btnCheck').style.display = 'none';
-        document.getElementById('btnHint').disabled = true;
-        // Auto-advance after 1.3s
-        setTimeout(() => nextQuestion(), 1300);
-      } else {
-        // --- WRONG ---
-        attemptCount++;
-        const wrongPanel = document.getElementById('wrongPanel');
-        const wrongText = document.getElementById('wrongPanelText');
-        const attemptEl = document.getElementById('wrongAttemptCount');
-
-        // Vary message slightly after multiple attempts
-        if (attemptCount === 1) wrongText.textContent = 'Chưa đúng! Hãy thử lại…';
-        else if (attemptCount === 2) wrongText.textContent = 'Vẫn chưa đúng, thử lại nhé!';
-        else wrongText.textContent = 'Có thể dùng gợi ý để xem đáp án!';
-
-        attemptEl.textContent = `Lần ${attemptCount}`;
-
-        // Remove & re-add for re-animation
-        wrongPanel.classList.remove('visible');
-        void wrongPanel.offsetWidth;
-        wrongPanel.classList.add('visible');
-
-        // Shake textarea
-        textarea.classList.remove('shake');
-        void textarea.offsetWidth;
-        textarea.classList.add('shake');
-        setTimeout(() => textarea.classList.remove('shake'), 450);
-
-        // Keep focus so user can correct their answer
-        textarea.focus();
-        textarea.select();
-      }
-    }
-
-    function escapeHtml(str) {
-      return String(str)
-        .replace(/&/g, '&amp;')
-        .replace(/</g, '&lt;')
-        .replace(/>/g, '&gt;')
-        .replace(/"/g, '&quot;')
-        .replace(/'/g, '&#39;');
-    }
-
-    /* ================================================================
-       NAVIGATION
-    ================================================================ */
-    function nextQuestion() {
-      currentPosInSheet++;
-      saveSheet(selectedLevel, selectedDirection, questionSuffSheet, currentPosInSheet);
-
-      const card = document.getElementById('questionCard');
-      card.classList.add('exit');
-      setTimeout(() => {
-        card.classList.remove('exit');
-        showQuestion();
-      }, 280);
-    }
-
-    function skipQuestion() {
-      // Move current question to end of remaining sheet so it appears later
-      if (currentPosInSheet < questionSuffSheet.length - 1) {
-        const skipped = questionSuffSheet.splice(currentPosInSheet, 1)[0];
-        questionSuffSheet.push(skipped);
-        saveSheet(selectedLevel, selectedDirection, questionSuffSheet, currentPosInSheet);
-      } else {
-        // Last question, just advance (will trigger done)
-        currentPosInSheet++;
-        saveSheet(selectedLevel, selectedDirection, questionSuffSheet, currentPosInSheet);
-      }
-
-      isAnswerShown = false;
-      const card = document.getElementById('questionCard');
-      card.classList.add('exit');
-      setTimeout(() => {
-        card.classList.remove('exit');
-        showQuestion();
-      }, 280);
-    }
-
-    function restartSession() {
-      // New shuffle, reset pos
-      questionSuffSheet = shuffle(exercises.map((_, i) => i));
-      currentPosInSheet = 0;
-      saveSheet(selectedLevel, selectedDirection, questionSuffSheet, currentPosInSheet);
-      setupPracticeUI();
-      showQuestion();
-    }
-
-    function goBack() {
-      showScreen('setup');
-      updateSessionHint();
-    }
-
-    /* ================================================================
-       SCREEN SWITCHER
-    ================================================================ */
-    function showScreen(name) {
-      document.getElementById('screen-loading').classList.remove('active');
-      document.getElementById('screen-setup').style.display = 'none';
-      document.getElementById('screen-practice').classList.remove('active');
-      document.getElementById('screen-done').classList.remove('active');
-
-      if (name === 'loading') {
-        document.getElementById('screen-loading').classList.add('active');
-      } else if (name === 'setup') {
-        document.getElementById('screen-setup').style.display = 'block';
-      } else if (name === 'practice') {
-        document.getElementById('screen-practice').classList.add('active');
-      } else if (name === 'done') {
-        const done = document.getElementById('screen-done');
-        done.classList.add('active');
-        done.querySelector('#doneSubText').textContent =
-          `Bạn đã luyện xong ${questionSuffSheet.length} câu trong vòng này. Nhấn "Luyện tập tiếp" để tạo thứ tự mới và tiếp tục!`;
-      }
-    }
-
-    /* ================================================================
-       HINT FUNCTION
-    ================================================================ */
-    function showHint() {
-      const idx = questionSuffSheet[currentPosInSheet];
-      const q = exercises[idx];
-      const hint = q.referenceAnswers[0] || '';
-      const textarea = document.getElementById('answerInput');
-      textarea.placeholder = hint;
-      textarea.focus();
-      const btn = document.getElementById('btnHint');
-      btn.textContent = '💡 Đang hiện gợi ý';
-      btn.disabled = true;
-    }
-
-    /* ================================================================
-       VOCABULARY CARD POPUP
-    ================================================================ */
-    function openVocabCard(chinese) {
-      if (typeof vocabularyData === 'undefined') return;
-
-      const matches = vocabularyData.filter(w => w.chinese === chinese);
-
-      const overlay = document.getElementById('vocabOverlay');
-      const vcChinese = document.getElementById('vcChinese');
-      const vcPinyin = document.getElementById('vcPinyin');
-      const vcLevelWrap = document.getElementById('vcLevelWrap');
-      const vcEntries = document.getElementById('vcEntries');
-
-      vcChinese.textContent = chinese;
-
-      if (matches.length === 0) {
-        vcPinyin.textContent = '';
-        vcLevelWrap.innerHTML = '';
-        vcEntries.innerHTML = `<div class="vocab-not-found">Không tìm thấy từ "${escapeHtml(chinese)}" trong từ điển.</div>`;
-      } else {
-        // Pinyin: take first unique
-        vcPinyin.textContent = matches[0].pinyin || '';
-
-        // Level badge
-        const level = matches[0].level || '';
-        const levelColors = { A1: '#10b981', A2: '#3b82f6', B1: '#f59e0b', B2: '#06b6d4' };
-        const lc = levelColors[level] || '#7c3aed';
-        vcLevelWrap.innerHTML = `<span class="vocab-level-badge" style="background:${lc}22;color:${lc};border:1px solid ${lc}44;">Band ${level}</span>`;
-
-        // Entries (multiple POS)
-        vcEntries.innerHTML = '';
-        matches.forEach(m => {
-          const entry = document.createElement('div');
-          entry.className = 'vocab-entry';
-          entry.innerHTML = `
-        <span class="vocab-pos">${escapeHtml(m.part_of_speech || '?')}</span>
-        <span class="vocab-meaning">${escapeHtml(m.meaning || '')}</span>
-      `;
-          vcEntries.appendChild(entry);
-        });
-      }
-
-      overlay.classList.add('open');
-      document.body.style.overflow = 'hidden';
-    }
-
-    function closeVocabCard(e) {
-      if (e && e.target !== document.getElementById('vocabOverlay')) return;
-      document.getElementById('vocabOverlay').classList.remove('open');
-      document.body.style.overflow = '';
-    }
-
-    document.addEventListener('keydown', function (e) {
-      // Escape: close vocab popup
-      if (e.key === 'Escape') {
-        const overlay = document.getElementById('vocabOverlay');
-        if (overlay.classList.contains('open')) {
-          overlay.classList.remove('open');
-          document.body.style.overflow = '';
-          return;
-        }
-      }
-
-      if (!document.getElementById('screen-practice').classList.contains('active')) return;
-      if (document.getElementById('vocabOverlay').classList.contains('open')) return;
-
-      // Enter in textarea (not Shift+Enter) → check answer
-      if (e.key === 'Enter' && !e.shiftKey) {
-        const focused = document.activeElement;
-        if (focused && focused.id === 'answerInput' && !isAnswerShown) {
-          e.preventDefault();
-          checkAnswer();
-        }
-      }
-    });
-
-    /* ================================================================
-       INIT
-    ================================================================ */
-    // Parse URL config
-    const urlParams = new URLSearchParams(window.location.search);
-    const initialLevel = urlParams.get('level');
-
-    // Start on setup screen
-    showScreen('setup');
-
-    // Pre-select level if provided in URL
-    if (initialLevel && ['A1', 'A2', 'B1', 'B2'].includes(initialLevel.toUpperCase())) {
-      selectLevel(initialLevel.toUpperCase());
-    }
-  </script>
-</body>
-
-</html>
