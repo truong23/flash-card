@@ -34,6 +34,8 @@
       --lc-a2: #3b82f6;
       --lc-b1: #f59e0b;
       --lc-b2: #8b5cf6;
+      --lc-c1: #ec4899;
+      --lc-c2: #14b8a6;
 
       --radius-sm: 12px;
       --radius-md: 20px;
@@ -244,11 +246,36 @@
       width: 100%;
       color: #fff;
       /* overflow: visible  <-- critical: let shadow escape */
-      transition: transform 0.13s ease, box-shadow 0.13s ease;
+      transition: transform 0.13s ease, box-shadow 0.13s ease, filter 0.2s ease, opacity 0.2s ease;
     }
     .level-btn:hover { filter: brightness(1.06); }
-    /* Selected = pressed down */
-    .level-btn.selected { transform: translateY(8px) !important; }
+
+
+    
+    /* Selected = pressed down & highlighted */
+    .level-btn.selected { 
+      transform: translateY(8px) !important; 
+      filter: brightness(1.1);
+    }
+    .level-btn.selected::after {
+      content: '✓';
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: #10b981;
+      color: #fff;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 900;
+      border: 3px solid var(--bg-card);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      pointer-events: none;
+    }
 
     /* Per-level colors & 3D shadow */
     .level-btn[data-level="A1"] {
@@ -307,6 +334,34 @@
         0 1px 0 #7920b8,
         0 4px 12px rgba(165,65,232,0.25);
     }
+    .level-btn[data-level="C1"] {
+      background: linear-gradient(160deg, #ff75c3 0%, #e83b8b 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.30),
+        inset 0 -2px 4px rgba(0,0,0,0.12),
+        0 8px 0 #ba2366,
+        0 14px 28px rgba(232,59,139,0.30);
+    }
+    .level-btn[data-level="C1"].selected {
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.20),
+        0 1px 0 #ba2366,
+        0 4px 12px rgba(232,59,139,0.25);
+    }
+    .level-btn[data-level="C2"] {
+      background: linear-gradient(160deg, #42e6d0 0%, #0db8a1 100%);
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.30),
+        inset 0 -2px 4px rgba(0,0,0,0.12),
+        0 8px 0 #008775,
+        0 14px 28px rgba(13,184,161,0.30);
+    }
+    .level-btn[data-level="C2"].selected {
+      box-shadow:
+        inset 0 2px 0 rgba(255,255,255,0.20),
+        0 1px 0 #008775,
+        0 4px 12px rgba(13,184,161,0.25);
+    }
 
     /* Text inside level button */
     .lbtn-left { flex: 1; min-width: 0; }
@@ -364,6 +419,7 @@
       padding-bottom: 14px;
     }
     .dir-btn {
+      position: relative;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -374,9 +430,33 @@
       text-align: left;
       width: 100%;
       color: #fff;
-      transition: transform 0.13s ease, box-shadow 0.13s ease;
+      transition: transform 0.13s ease, box-shadow 0.13s ease, filter 0.2s ease, opacity 0.2s ease;
     }
     .dir-btn:hover { filter: brightness(1.06); }
+
+
+    .dir-btn.selected {
+      filter: brightness(1.1);
+    }
+    .dir-btn.selected::after {
+      content: '✓';
+      position: absolute;
+      top: -10px;
+      right: -10px;
+      background: #10b981;
+      color: #fff;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 16px;
+      font-weight: 900;
+      border: 3px solid var(--bg-card);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      pointer-events: none;
+    }
     /* zh_vi — coral/pink */
     #dirZhVi {
       background: linear-gradient(160deg, #ff7aaa 0%, #e82860 100%);
@@ -546,6 +626,8 @@
     .badge-level-A2 { background: rgba(37,99,235,0.1); color: #2563eb; border: 1px solid rgba(37,99,235,0.25); }
     .badge-level-B1 { background: rgba(217,119,6,0.1); color: #d97706; border: 1px solid rgba(217,119,6,0.25); }
     .badge-level-B2 { background: rgba(8,145,178,0.1); color: #0891b2; border: 1px solid rgba(8,145,178,0.25); }
+    .badge-level-C1 { background: rgba(236,72,153,0.1); color: #ec4899; border: 1px solid rgba(236,72,153,0.25); }
+    .badge-level-C2 { background: rgba(20,184,166,0.1); color: #14b8a6; border: 1px solid rgba(20,184,166,0.25); }
     .badge-dir { background: rgba(124,58,237,0.08); color: #6d28d9; border: 1px solid rgba(124,58,237,0.2); }
 
     .practice-counter {
@@ -1244,6 +1326,22 @@
               <div class="lbtn-sub">Ngôn ngữ phức tạp</div>
             </div>
             <div class="lbtn-icon">🏆</div>
+          </button>
+          <button class="level-btn" data-level="C1" id="lvlC1" onclick="selectLevel('C1')">
+            <div class="lbtn-left">
+              <div class="lbtn-tag">Cao cấp</div>
+              <div class="lbtn-title">C1</div>
+              <div class="lbtn-sub">Giao tiếp lưu loát</div>
+            </div>
+            <div class="lbtn-icon">🔥</div>
+          </button>
+          <button class="level-btn" data-level="C2" id="lvlC2" onclick="selectLevel('C2')">
+            <div class="lbtn-left">
+              <div class="lbtn-tag">Thành thạo</div>
+              <div class="lbtn-title">C2</div>
+              <div class="lbtn-sub">Trình độ bản ngữ</div>
+            </div>
+            <div class="lbtn-icon">👑</div>
           </button>
         </div>
 
