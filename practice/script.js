@@ -269,13 +269,16 @@ function showQuestion() {
     : '請輸入您的翻譯…';
   textarea.focus();
 
-  // Hide reference panel + next
-  // Reset feedback panels
+  // Reset feedback
+  hideWrongFeedback();
+
+  // Reset UI
   document.getElementById('wrongPanel').classList.remove('visible');
   document.getElementById('correctPanel').classList.remove('visible');
-  document.getElementById('wrongAttemptCount').textContent = '';
-  document.getElementById('btnCheck').style.display = '';
-  document.getElementById('btnCheck').disabled = false;
+  document.getElementById('answerInput').disabled = false;
+  document.getElementById('answerInput').value = '';
+  document.getElementById('btnCheck').style.display = 'block';
+  document.getElementById('btnHint').textContent = '💡 Gợi ý';
   attemptCount = 0;
 
   // Animate card
@@ -383,17 +386,17 @@ function checkAnswer() {
     const wrongText = document.getElementById('wrongPanelText');
     const attemptEl = document.getElementById('wrongAttemptCount');
 
-    // Vary message slightly after multiple attempts
+    // Vary message
     if (attemptCount === 1) wrongText.textContent = 'Chưa đúng! Hãy thử lại…';
     else if (attemptCount === 2) wrongText.textContent = 'Vẫn chưa đúng, thử lại nhé!';
     else wrongText.textContent = 'Có thể dùng gợi ý để xem đáp án!';
 
     attemptEl.textContent = `Lần ${attemptCount}`;
-
-    // Remove & re-add for re-animation
-    wrongPanel.classList.remove('visible');
-    void wrongPanel.offsetWidth;
     wrongPanel.classList.add('visible');
+
+    // Show detailed feedback (highlights always, correct answer after 3 attempts)
+    showWrongFeedback(userAnswer, q, attemptCount);
+
 
     // Shake textarea
     textarea.classList.remove('shake');
@@ -603,4 +606,84 @@ function escapeHtml(value) {
     .replace(/>/g, "&gt;")
     .replace(/\"/g, "&quot;")
     .replace(/'/g, "&#39;");
+}
+
+/**
+ * Duolingo-style diff:
+ * Marks each token in userAnswer as correct/wrong based on the best matching reference.
+ */
+function showWrongFeedback(userAnswer, q, attemptCount) {
+  const container = document.getElementById('wrongFeedbackContainer');
+  const isChinese = q.direction === 'vi_zh';
+
+  // 1. Helper: Tokenize based on language
+  const tokenize = (s) => {
+    if (!s) return [];
+    if (isChinese) {
+        return [...s.replace(/[.,!?。，！？]/g, '').replace(/\s+/g, '')];
+    } else {
+        return s.replace(/[.,!?。，！？]/g, '').split(/\s+/).filter(Boolean);
+    }
+  };
+
+  const userTokens = tokenize(userAnswer);
+  if (userTokens.length === 0) return;
+
+  // 2. Find best reference (most token overlap)
+  let bestRef = q.referenceAnswers[0];
+  let maxMatch = -1;
+
+  q.referenceAnswers.forEach(ref => {
+    const refTokens = tokenize(ref);
+    const refSet = new Set(refTokens.map(t => t.toLowerCase()));
+    
+    let matches = 0;
+    userTokens.forEach(t => { if(refSet.has(t.toLowerCase())) matches++; });
+
+    if (matches > maxMatch) {
+      maxMatch = matches;
+      bestRef = ref;
+    }
+  });
+
+  const finalRefTokens = tokenize(bestRef);
+  const finalRefSet = new Set(finalRefTokens.map(t => t.toLowerCase()));
+
+  // 3. Generate HTML with highlights
+  let html = `
+    <div class="wrong-feedback-container">
+      <div class="diff-title"><span>⚠️</span> Phân tích lỗi:</div>
+      <div class="diff-text">
+  `;
+
+  userTokens.forEach(token => {
+    const isCorrect = finalRefSet.has(token.toLowerCase());
+    const cls = isCorrect ? 'correct' : 'wrong';
+    html += `<span class="diff-token ${cls}">${escapeHtml(token)}</span>`;
+  });
+
+  html += `</div>`;
+
+  // Show correct answer only after 3 attempts
+  if (attemptCount >= 3) {
+    html += `
+      <div class="diff-correct-answer">
+        <span>💡 Đáp án chuẩn:</span><br/>
+        <strong>${escapeHtml(bestRef)}</strong>
+      </div>
+    `;
+  }
+
+  html += `</div>`;
+
+  container.innerHTML = html;
+  container.style.display = 'block';
+}
+
+function hideWrongFeedback() {
+  const container = document.getElementById('wrongFeedbackContainer');
+  if (container) {
+    container.style.display = 'none';
+    container.innerHTML = '';
+  }
 }

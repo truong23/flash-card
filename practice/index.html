@@ -176,12 +176,14 @@
               <textarea class="answer-textarea" id="answerInput" placeholder="Nhập câu dịch của bạn ở đây…"
                 rows="3"></textarea>
 
-              <!-- Wrong answer feedback -->
               <div class="wrong-panel" id="wrongPanel">
                 <span>❌</span>
                 <span id="wrongPanelText">Chưa đúng! Hãy thử lại…</span>
                 <span class="wrong-attempt-count" id="wrongAttemptCount"></span>
               </div>
+
+              <!-- Rich Feedback Container -->
+              <div id="wrongFeedbackContainer" style="display: none;"></div>
 
               <!-- Correct answer feedback -->
               <div class="correct-panel" id="correctPanel">
