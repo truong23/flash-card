@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,29 @@
   <meta name="description" content="Trang luyện tập dịch tiếng Trung - Việt theo từng cấp độ TOCFL A1, A2, B1, B2.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Serif+TC:wght@400;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Serif+TC:wght@400;700&display=swap"
+    rel="stylesheet">
   <style>
     /* ============================================================
        DESIGN TOKENS
     ============================================================ */
     :root {
-      --bg-deep:    #f4f7fc;
-      --bg-base:    #ffffff;
+      --bg-deep: #f4f7fc;
+      --bg-base: #ffffff;
       --bg-surface: #ffffff;
-      --bg-card:    #ffffff;
-      --bg-glass:   rgba(0, 0, 0, 0.02);
-      --border:     #e2e8f0;
+      --bg-card: #ffffff;
+      --bg-glass: rgba(0, 0, 0, 0.02);
+      --border: #e2e8f0;
       --border-hover: #cbd5e1;
 
       --accent-from: #6c5ce7;
-      --accent-to:   #4834d4;
+      --accent-to: #4834d4;
       --accent-grad: linear-gradient(135deg, #6c5ce7, #4834d4);
 
-      --text-primary:   #1e293b;
+      --text-primary: #1e293b;
       --text-secondary: #475569;
-      --text-muted:     #94a3b8;
+      --text-muted: #94a3b8;
 
       /* level colors */
       --lc-a1: #10b981;
@@ -42,7 +45,7 @@
       --radius-lg: 24px;
       --radius-xl: 32px;
 
-      --shadow-card: 0 16px 40px rgba(15,23,42,0.04), 0 4px 10px rgba(15,23,42,0.02);
+      --shadow-card: 0 16px 40px rgba(15, 23, 42, 0.04), 0 4px 10px rgba(15, 23, 42, 0.02);
       --shadow-glow: none;
       --transition: all 0.25s cubic-bezier(0.34, 1.56, 0.64, 1);
     }
@@ -50,9 +53,17 @@
     /* ============================================================
        RESET & BASE
     ============================================================ */
-    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-    html { scroll-behavior: smooth; }
+    html {
+      scroll-behavior: smooth;
+    }
 
     body {
       font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -67,8 +78,10 @@
        ANIMATED BACKGROUND
     ============================================================ */
     .bg-orbs {
-      display: none; /* Hide glassmorphism orbs for clean 3D solid style */
+      display: none;
+      /* Hide glassmorphism orbs for clean 3D solid style */
     }
+
     .orb {
       position: absolute;
       border-radius: 50%;
@@ -76,13 +89,48 @@
       opacity: 0.22;
       animation: drift 20s ease-in-out infinite;
     }
-    .orb-1 { width: 600px; height: 600px; background: #a78bfa; top: -200px; left: -200px; animation-delay: 0s; }
-    .orb-2 { width: 500px; height: 500px; background: #93c5fd; top: 30%; right: -150px; animation-delay: -7s; }
-    .orb-3 { width: 400px; height: 400px; background: #6ee7b7; bottom: -100px; left: 30%; animation-delay: -14s; }
+
+    .orb-1 {
+      width: 600px;
+      height: 600px;
+      background: #a78bfa;
+      top: -200px;
+      left: -200px;
+      animation-delay: 0s;
+    }
+
+    .orb-2 {
+      width: 500px;
+      height: 500px;
+      background: #93c5fd;
+      top: 30%;
+      right: -150px;
+      animation-delay: -7s;
+    }
+
+    .orb-3 {
+      width: 400px;
+      height: 400px;
+      background: #6ee7b7;
+      bottom: -100px;
+      left: 30%;
+      animation-delay: -14s;
+    }
+
     @keyframes drift {
-      0%, 100% { transform: translate(0, 0) scale(1); }
-      33%       { transform: translate(30px, -40px) scale(1.05); }
-      66%       { transform: translate(-20px, 20px) scale(0.97); }
+
+      0%,
+      100% {
+        transform: translate(0, 0) scale(1);
+      }
+
+      33% {
+        transform: translate(30px, -40px) scale(1.05);
+      }
+
+      66% {
+        transform: translate(-20px, 20px) scale(0.97);
+      }
     }
 
     /* ============================================================
@@ -111,12 +159,14 @@
       top: 0;
       z-index: 100;
     }
+
     .header-logo {
       display: flex;
       align-items: center;
       gap: 12px;
       text-decoration: none;
     }
+
     .logo-icon {
       width: 38px;
       height: 38px;
@@ -127,17 +177,20 @@
       justify-content: center;
       font-size: 18px;
     }
+
     .logo-text {
       font-size: 1rem;
       font-weight: 700;
       color: var(--text-primary);
       letter-spacing: -0.01em;
     }
+
     .logo-sub {
       font-size: 0.72rem;
       color: var(--text-secondary);
       font-weight: 400;
     }
+
     .header-nav a {
       color: var(--text-secondary);
       text-decoration: none;
@@ -147,8 +200,15 @@
       padding: 8px 14px;
       border-radius: var(--radius-sm);
     }
-    .header-nav a:hover { color: var(--text-primary); background: var(--bg-glass); }
-    .header-nav a.active { color: #7c3aed; }
+
+    .header-nav a:hover {
+      color: var(--text-primary);
+      background: var(--bg-glass);
+    }
+
+    .header-nav a.active {
+      color: #7c3aed;
+    }
 
     /* ============================================================
        MAIN CONTENT
@@ -169,27 +229,58 @@
       max-width: 680px;
       animation: fadeInUp 0.6s ease both;
     }
+
     @keyframes fadeInUp {
-      from { opacity: 0; transform: translateY(30px); }
-      to   { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(30px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
+
     @keyframes fadeIn {
-      from { opacity: 0; }
-      to   { opacity: 1; }
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
     }
+
     @keyframes slideInRight {
-      from { opacity: 0; transform: translateX(40px); }
-      to   { opacity: 1; transform: translateX(0); }
+      from {
+        opacity: 0;
+        transform: translateX(40px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
     }
+
     @keyframes slideOutLeft {
-      from { opacity: 1; transform: translateX(0); }
-      to   { opacity: 0; transform: translateX(-40px); }
+      from {
+        opacity: 1;
+        transform: translateX(0);
+      }
+
+      to {
+        opacity: 0;
+        transform: translateX(-40px);
+      }
     }
 
     .setup-title {
       text-align: center;
       margin-bottom: 40px;
     }
+
     .setup-title h1 {
       font-size: clamp(1.8rem, 5vw, 2.6rem);
       font-weight: 900;
@@ -200,6 +291,7 @@
       letter-spacing: -0.03em;
       margin-bottom: 10px;
     }
+
     .setup-title p {
       color: var(--text-secondary);
       font-size: 1rem;
@@ -230,16 +322,20 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 16px;
-      margin-bottom: 14px;   /* reduced: shadow needs space below */
-      padding-bottom: 14px;  /* give room for 3D shadow */
+      margin-bottom: 14px;
+      /* reduced: shadow needs space below */
+      padding-bottom: 14px;
+      /* give room for 3D shadow */
     }
+
     .level-btn {
       position: relative;
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 16px 16px 16px 20px;
-      border-radius: 20px;  /* slightly squared off */
+      border-radius: 20px;
+      /* slightly squared off */
       border: none;
       cursor: pointer;
       text-align: left;
@@ -248,15 +344,19 @@
       /* overflow: visible  <-- critical: let shadow escape */
       transition: transform 0.13s ease, box-shadow 0.13s ease, filter 0.2s ease, opacity 0.2s ease;
     }
-    .level-btn:hover { filter: brightness(1.06); }
+
+    .level-btn:hover {
+      filter: brightness(1.06);
+    }
 
 
-    
+
     /* Selected = pressed down & highlighted */
-    .level-btn.selected { 
-      transform: translateY(8px) !important; 
+    .level-btn.selected {
+      transform: translateY(8px) !important;
       filter: brightness(1.1);
     }
+
     .level-btn.selected::after {
       content: '✓';
       position: absolute;
@@ -273,7 +373,7 @@
       font-size: 16px;
       font-weight: 900;
       border: 3px solid var(--bg-card);
-      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
       pointer-events: none;
     }
 
@@ -281,102 +381,122 @@
     .level-btn[data-level="A1"] {
       background: linear-gradient(160deg, #36d6b4 0%, #00b896 100%);
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.30),   /* top highlight */
-        inset 0 -2px 4px rgba(0,0,0,0.12),      /* bottom inner */
-        0 8px 0 #009070,                          /* 3D bottom */
-        0 14px 28px rgba(0,180,148,0.30);         /* ambient */
+        inset 0 2px 0 rgba(255, 255, 255, 0.30),
+        /* top highlight */
+        inset 0 -2px 4px rgba(0, 0, 0, 0.12),
+        /* bottom inner */
+        0 8px 0 #009070,
+        /* 3D bottom */
+        0 14px 28px rgba(0, 180, 148, 0.30);
+      /* ambient */
     }
+
     .level-btn[data-level="A1"].selected {
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.20),
+        inset 0 2px 0 rgba(255, 255, 255, 0.20),
         0 1px 0 #009070,
-        0 4px 12px rgba(0,180,148,0.25);
+        0 4px 12px rgba(0, 180, 148, 0.25);
     }
+
     .level-btn[data-level="A2"] {
       background: linear-gradient(160deg, #5fa8ff 0%, #2979ff 100%);
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.30),
-        inset 0 -2px 4px rgba(0,0,0,0.12),
+        inset 0 2px 0 rgba(255, 255, 255, 0.30),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.12),
         0 8px 0 #1350cc,
-        0 14px 28px rgba(41,121,255,0.30);
+        0 14px 28px rgba(41, 121, 255, 0.30);
     }
+
     .level-btn[data-level="A2"].selected {
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.20),
+        inset 0 2px 0 rgba(255, 255, 255, 0.20),
         0 1px 0 #1350cc,
-        0 4px 12px rgba(41,121,255,0.25);
+        0 4px 12px rgba(41, 121, 255, 0.25);
     }
+
     .level-btn[data-level="B1"] {
       background: linear-gradient(160deg, #ffb347 0%, #f07800 100%);
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.30),
-        inset 0 -2px 4px rgba(0,0,0,0.12),
+        inset 0 2px 0 rgba(255, 255, 255, 0.30),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.12),
         0 8px 0 #bc5e00,
-        0 14px 28px rgba(240,120,0,0.30);
+        0 14px 28px rgba(240, 120, 0, 0.30);
     }
+
     .level-btn[data-level="B1"].selected {
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.20),
+        inset 0 2px 0 rgba(255, 255, 255, 0.20),
         0 1px 0 #bc5e00,
-        0 4px 12px rgba(240,120,0,0.25);
+        0 4px 12px rgba(240, 120, 0, 0.25);
     }
+
     .level-btn[data-level="B2"] {
       background: linear-gradient(160deg, #cc82ff 0%, #a541e8 100%);
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.30),
-        inset 0 -2px 4px rgba(0,0,0,0.12),
+        inset 0 2px 0 rgba(255, 255, 255, 0.30),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.12),
         0 8px 0 #7920b8,
-        0 14px 28px rgba(165,65,232,0.30);
+        0 14px 28px rgba(165, 65, 232, 0.30);
     }
+
     .level-btn[data-level="B2"].selected {
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.20),
+        inset 0 2px 0 rgba(255, 255, 255, 0.20),
         0 1px 0 #7920b8,
-        0 4px 12px rgba(165,65,232,0.25);
+        0 4px 12px rgba(165, 65, 232, 0.25);
     }
+
     .level-btn[data-level="C1"] {
       background: linear-gradient(160deg, #ff75c3 0%, #e83b8b 100%);
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.30),
-        inset 0 -2px 4px rgba(0,0,0,0.12),
+        inset 0 2px 0 rgba(255, 255, 255, 0.30),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.12),
         0 8px 0 #ba2366,
-        0 14px 28px rgba(232,59,139,0.30);
+        0 14px 28px rgba(232, 59, 139, 0.30);
     }
+
     .level-btn[data-level="C1"].selected {
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.20),
+        inset 0 2px 0 rgba(255, 255, 255, 0.20),
         0 1px 0 #ba2366,
-        0 4px 12px rgba(232,59,139,0.25);
+        0 4px 12px rgba(232, 59, 139, 0.25);
     }
+
     .level-btn[data-level="C2"] {
       background: linear-gradient(160deg, #42e6d0 0%, #0db8a1 100%);
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.30),
-        inset 0 -2px 4px rgba(0,0,0,0.12),
+        inset 0 2px 0 rgba(255, 255, 255, 0.30),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.12),
         0 8px 0 #008775,
-        0 14px 28px rgba(13,184,161,0.30);
+        0 14px 28px rgba(13, 184, 161, 0.30);
     }
+
     .level-btn[data-level="C2"].selected {
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.20),
+        inset 0 2px 0 rgba(255, 255, 255, 0.20),
         0 1px 0 #008775,
-        0 4px 12px rgba(13,184,161,0.25);
+        0 4px 12px rgba(13, 184, 161, 0.25);
     }
 
     /* Text inside level button */
-    .lbtn-left { flex: 1; min-width: 0; }
+    .lbtn-left {
+      flex: 1;
+      min-width: 0;
+    }
+
     .lbtn-tag {
       display: inline-block;
       font-size: 0.6rem;
       font-weight: 800;
       letter-spacing: 0.1em;
       text-transform: uppercase;
-      background: rgba(255,255,255,0.25);
+      background: rgba(255, 255, 255, 0.25);
       padding: 2px 9px;
       border-radius: 12px;
       margin-bottom: 5px;
-      color: rgba(255,255,255,0.95);
+      color: rgba(255, 255, 255, 0.95);
     }
+
     .lbtn-title {
       font-size: 2rem;
       font-weight: 900;
@@ -384,23 +504,27 @@
       line-height: 1;
       color: #fff;
     }
+
     .lbtn-sub {
       font-size: 0.7rem;
       font-weight: 500;
-      color: rgba(255,255,255,0.80);
+      color: rgba(255, 255, 255, 0.80);
       margin-top: 4px;
     }
+
     /* Icon container — Soft Plastic 3D Emboss (Nhựa nổi) */
     .lbtn-icon {
       width: 58px;
       height: 58px;
       flex-shrink: 0;
-      border-radius: 18px;           /* rounded square */
+      border-radius: 18px;
+      /* rounded square */
       display: flex;
       align-items: center;
       justify-content: center;
       font-size: 2rem;
-      background: transparent;       /* seamless blend with button gradient */
+      background: transparent;
+      /* seamless blend with button gradient */
       box-shadow:
         inset 4px 4px 8px rgba(255, 255, 255, 0.45),
         inset -4px -4px 8px rgba(0, 0, 0, 0.15),
@@ -418,13 +542,15 @@
       margin-bottom: 14px;
       padding-bottom: 14px;
     }
+
     .dir-btn {
       position: relative;
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 18px 16px 18px 22px;
-      border-radius: 20px;   /* squared off */
+      border-radius: 20px;
+      /* squared off */
       border: none;
       cursor: pointer;
       text-align: left;
@@ -432,12 +558,16 @@
       color: #fff;
       transition: transform 0.13s ease, box-shadow 0.13s ease, filter 0.2s ease, opacity 0.2s ease;
     }
-    .dir-btn:hover { filter: brightness(1.06); }
+
+    .dir-btn:hover {
+      filter: brightness(1.06);
+    }
 
 
     .dir-btn.selected {
       filter: brightness(1.1);
     }
+
     .dir-btn.selected::after {
       content: '✓';
       position: absolute;
@@ -454,59 +584,71 @@
       font-size: 16px;
       font-weight: 900;
       border: 3px solid var(--bg-card);
-      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
       pointer-events: none;
     }
+
     /* zh_vi — coral/pink */
     #dirZhVi {
       background: linear-gradient(160deg, #ff7aaa 0%, #e82860 100%);
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.30),
-        inset 0 -2px 4px rgba(0,0,0,0.12),
+        inset 0 2px 0 rgba(255, 255, 255, 0.30),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.12),
         0 8px 0 #b5103d,
-        0 14px 28px rgba(232,40,96,0.30);
+        0 14px 28px rgba(232, 40, 96, 0.30);
     }
+
     #dirZhVi.selected {
       transform: translateY(8px);
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.20),
+        inset 0 2px 0 rgba(255, 255, 255, 0.20),
         0 1px 0 #b5103d,
-        0 4px 12px rgba(232,40,96,0.25);
+        0 4px 12px rgba(232, 40, 96, 0.25);
     }
+
     /* vi_zh — indigo/violet */
     #dirViZh {
       background: linear-gradient(160deg, #8b7cff 0%, #5542f0 100%);
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.30),
-        inset 0 -2px 4px rgba(0,0,0,0.12),
+        inset 0 2px 0 rgba(255, 255, 255, 0.30),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.12),
         0 8px 0 #3124b5,
-        0 14px 28px rgba(85,66,240,0.30);
+        0 14px 28px rgba(85, 66, 240, 0.30);
     }
+
     #dirViZh.selected {
       transform: translateY(8px);
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.20),
+        inset 0 2px 0 rgba(255, 255, 255, 0.20),
         0 1px 0 #3124b5,
-        0 4px 12px rgba(85,66,240,0.25);
+        0 4px 12px rgba(85, 66, 240, 0.25);
     }
-    .dbtn-left { flex: 1; min-width: 0; }
+
+    .dbtn-left {
+      flex: 1;
+      min-width: 0;
+    }
+
     .dbtn-flags {
       font-size: 1.2rem;
       margin-bottom: 3px;
       line-height: 1;
     }
+
     .dbtn-title {
       font-size: 1rem;
-      font-weight: 800;
+      font-weight: 700;
       color: #fff;
       line-height: 1.2;
     }
+
     .dbtn-sub {
       font-size: 0.66rem;
-      color: rgba(255,255,255,0.78);
+      color: rgba(255, 255, 255, 0.78);
       margin-top: 2px;
       line-height: 1.3;
     }
+
     /* Icon popup — Soft Plastic 3D Emboss */
     .dbtn-icon {
       width: 52px;
@@ -531,6 +673,7 @@
       flex-direction: column;
       gap: 12px;
     }
+
     .btn-start {
       width: 100%;
       padding: 20px;
@@ -546,21 +689,24 @@
       position: relative;
       overflow: hidden;
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.25),
-        inset 0 -2px 4px rgba(0,0,0,0.15),
+        inset 0 2px 0 rgba(255, 255, 255, 0.25),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.15),
         0 8px 0 #31219b,
-        0 14px 28px rgba(72,52,212,0.30);
+        0 14px 28px rgba(72, 52, 212, 0.30);
     }
+
     .btn-start:hover:not(:disabled) {
       filter: brightness(1.08);
     }
+
     .btn-start:active:not(:disabled) {
       transform: translateY(8px);
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.15),
+        inset 0 2px 0 rgba(255, 255, 255, 0.15),
         0 1px 0 #31219b,
-        0 4px 12px rgba(72,52,212,0.25);
+        0 4px 12px rgba(72, 52, 212, 0.25);
     }
+
     .btn-start:disabled {
       background: #cbd5e1;
       box-shadow: 0 6px 0 #94a3b8;
@@ -579,13 +725,14 @@
       justify-content: center;
       gap: 6px;
     }
+
     .session-info-badge {
       display: inline-flex;
       align-items: center;
       gap: 6px;
       padding: 6px 12px;
-      background: rgba(124,58,237,0.08);
-      border: 1px solid rgba(124,58,237,0.2);
+      background: rgba(124, 58, 237, 0.08);
+      border: 1px solid rgba(124, 58, 237, 0.2);
       border-radius: 100px;
       font-size: 0.72rem;
       color: #6d28d9;
@@ -599,7 +746,12 @@
       max-width: 760px;
       display: none;
     }
-    #screen-practice.active { display: flex; flex-direction: column; gap: 0; }
+
+    #screen-practice.active {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
 
     /* Practice header */
     .practice-topbar {
@@ -610,11 +762,13 @@
       gap: 12px;
       flex-wrap: wrap;
     }
+
     .practice-badges {
       display: flex;
       align-items: center;
       gap: 8px;
     }
+
     .badge {
       padding: 6px 14px;
       border-radius: 12px;
@@ -622,37 +776,76 @@
       font-weight: 700;
       letter-spacing: 0.04em;
     }
-    .badge-level-A1 { background: rgba(5,150,105,0.1); color: #059669; border: 1px solid rgba(5,150,105,0.25); }
-    .badge-level-A2 { background: rgba(37,99,235,0.1); color: #2563eb; border: 1px solid rgba(37,99,235,0.25); }
-    .badge-level-B1 { background: rgba(217,119,6,0.1); color: #d97706; border: 1px solid rgba(217,119,6,0.25); }
-    .badge-level-B2 { background: rgba(8,145,178,0.1); color: #0891b2; border: 1px solid rgba(8,145,178,0.25); }
-    .badge-level-C1 { background: rgba(236,72,153,0.1); color: #ec4899; border: 1px solid rgba(236,72,153,0.25); }
-    .badge-level-C2 { background: rgba(20,184,166,0.1); color: #14b8a6; border: 1px solid rgba(20,184,166,0.25); }
-    .badge-dir { background: rgba(124,58,237,0.08); color: #6d28d9; border: 1px solid rgba(124,58,237,0.2); }
+
+    .badge-level-A1 {
+      background: rgba(5, 150, 105, 0.1);
+      color: #059669;
+      border: 1px solid rgba(5, 150, 105, 0.25);
+    }
+
+    .badge-level-A2 {
+      background: rgba(37, 99, 235, 0.1);
+      color: #2563eb;
+      border: 1px solid rgba(37, 99, 235, 0.25);
+    }
+
+    .badge-level-B1 {
+      background: rgba(217, 119, 6, 0.1);
+      color: #d97706;
+      border: 1px solid rgba(217, 119, 6, 0.25);
+    }
+
+    .badge-level-B2 {
+      background: rgba(8, 145, 178, 0.1);
+      color: #0891b2;
+      border: 1px solid rgba(8, 145, 178, 0.25);
+    }
+
+    .badge-level-C1 {
+      background: rgba(236, 72, 153, 0.1);
+      color: #ec4899;
+      border: 1px solid rgba(236, 72, 153, 0.25);
+    }
+
+    .badge-level-C2 {
+      background: rgba(20, 184, 166, 0.1);
+      color: #14b8a6;
+      border: 1px solid rgba(20, 184, 166, 0.25);
+    }
+
+    .badge-dir {
+      background: rgba(124, 58, 237, 0.08);
+      color: #6d28d9;
+      border: 1px solid rgba(124, 58, 237, 0.2);
+    }
 
     .practice-counter {
       font-size: 0.875rem;
       color: var(--text-secondary);
       font-weight: 500;
     }
-    .practice-counter strong { color: var(--text-primary); }
+
+    .practice-counter strong {
+      color: var(--text-primary);
+    }
 
     /* Progress bar */
     .progress-wrap {
-      background: rgba(0,0,0,0.05);
+      background: rgba(0, 0, 0, 0.05);
       border-radius: 100px;
       height: 10px;
       overflow: hidden;
       margin-bottom: 24px;
-      box-shadow: inset 0 2px 4px rgba(0,0,0,0.08);
-      border: 1px solid rgba(0,0,0,0.02);
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.08);
+      border: 1px solid rgba(0, 0, 0, 0.02);
     }
+
     .progress-fill {
       height: 100%;
       border-radius: 100px;
       background: linear-gradient(90deg, #5b9fff, #2d7ef8);
       transition: width 0.5s cubic-bezier(0.4, 0, 0.2, 1);
-      box-shadow: inset 0 -2px 0 rgba(0,0,0,0.15), inset 0 2px 0 rgba(255,255,255,0.3);
+      box-shadow: inset 0 -2px 0 rgba(0, 0, 0, 0.15), inset 0 2px 0 rgba(255, 255, 255, 0.3);
     }
 
     /* Question card */
@@ -665,7 +858,10 @@
       margin-bottom: 20px;
       animation: slideInRight 0.4s ease both;
     }
-    .question-card.exit { animation: slideOutLeft 0.3s ease both; }
+
+    .question-card.exit {
+      animation: slideOutLeft 0.3s ease both;
+    }
 
     .question-direction-label {
       font-size: 0.7rem;
@@ -678,6 +874,7 @@
       align-items: center;
       gap: 8px;
     }
+
     .question-direction-label::after {
       content: '';
       flex: 1;
@@ -693,6 +890,7 @@
       margin-bottom: 10px;
       word-break: break-word;
     }
+
     /* Chinese text gets serif font */
     .question-source-text.is-chinese {
       font-family: 'Noto Serif TC', serif;
@@ -705,6 +903,7 @@
       gap: 8px;
       margin-top: 16px;
     }
+
     .keyword-chip {
       padding: 6px 14px;
       border-radius: 14px;
@@ -716,15 +915,18 @@
       font-family: 'Noto Serif TC', serif;
       cursor: pointer;
       transition: transform 0.12s ease, box-shadow 0.12s ease;
-      box-shadow: 0 4px 0 #d8b4fe, 0 6px 12px rgba(107,33,168,0.1);
+      box-shadow: 0 4px 0 #d8b4fe, 0 6px 12px rgba(107, 33, 168, 0.1);
     }
+
     .keyword-chip:hover {
       filter: brightness(1.05);
     }
+
     .keyword-chip:active {
       transform: translateY(4px);
-      box-shadow: 0 0px 0 #d8b4fe, 0 2px 4px rgba(107,33,168,0.1);
+      box-shadow: 0 0px 0 #d8b4fe, 0 2px 4px rgba(107, 33, 168, 0.1);
     }
+
     .keyword-chip.is-viet {
       font-family: inherit;
     }
@@ -733,6 +935,7 @@
     .answer-area {
       margin-bottom: 20px;
     }
+
     .answer-label {
       font-size: 0.75rem;
       font-weight: 700;
@@ -741,13 +944,14 @@
       color: var(--text-secondary);
       margin-bottom: 10px;
     }
+
     .answer-textarea {
       width: 100%;
       min-height: 120px;
       padding: 20px;
       border-radius: 20px;
       border: 2px solid transparent;
-      background: rgba(0,0,0,0.03);
+      background: rgba(0, 0, 0, 0.03);
       color: var(--text-primary);
       font-size: 1.1rem;
       font-family: inherit;
@@ -755,14 +959,19 @@
       outline: none;
       transition: all 0.2s ease;
       line-height: 1.6;
-      box-shadow: inset 0 4px 10px rgba(0,0,0,0.08), inset 0 1px 2px rgba(0,0,0,0.04);
+      box-shadow: inset 0 4px 10px rgba(0, 0, 0, 0.08), inset 0 1px 2px rgba(0, 0, 0, 0.04);
     }
+
     .answer-textarea:focus {
       border-color: #6c5ce7;
       background: #fff;
-      box-shadow: inset 0 2px 4px rgba(0,0,0,0.02), 0 0 0 4px rgba(108,92,231,0.15);
+      box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.02), 0 0 0 4px rgba(108, 92, 231, 0.15);
     }
-    .answer-textarea::placeholder { color: var(--text-muted); }
+
+    .answer-textarea::placeholder {
+      color: var(--text-muted);
+    }
+
     /* Chinese answer */
     .answer-textarea.is-chinese-answer {
       font-family: 'Noto Serif TC', serif;
@@ -785,19 +994,26 @@
       align-items: center;
       gap: 6px;
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.35),
-        inset 0 -2px 4px rgba(0,0,0,0.12),
+        inset 0 2px 0 rgba(255, 255, 255, 0.35),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.12),
         0 4px 0 #b45309,
-        0 8px 16px rgba(245,158,11,0.25);
+        0 8px 16px rgba(245, 158, 11, 0.25);
     }
+
     .btn-hint:hover {
       filter: brightness(1.08);
     }
+
     .btn-hint:active {
       transform: translateY(4px);
-      box-shadow: inset 0 2px 0 rgba(255,255,255,0.20), 0 0px 0 #b45309, 0 3px 6px rgba(245,158,11,0.20);
+      box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.20), 0 0px 0 #b45309, 0 3px 6px rgba(245, 158, 11, 0.20);
     }
-    .btn-hint:disabled { opacity: 0.35; cursor: not-allowed; transform: none; }
+
+    .btn-hint:disabled {
+      opacity: 0.35;
+      cursor: not-allowed;
+      transform: none;
+    }
 
     .answer-top-row {
       display: flex;
@@ -814,6 +1030,7 @@
       align-items: center;
       gap: 4px;
     }
+
     .kbd {
       display: inline-block;
       padding: 1px 6px;
@@ -830,6 +1047,7 @@
       gap: 12px;
       flex-wrap: wrap;
     }
+
     .btn {
       padding: 16px 24px;
       border-radius: 20px;
@@ -843,7 +1061,10 @@
       align-items: center;
       gap: 8px;
     }
-    .btn:active { transform: translateY(0); }
+
+    .btn:active {
+      transform: translateY(0);
+    }
 
     .btn-check {
       background: linear-gradient(160deg, #6c5ce7 0%, #4834d4 100%);
@@ -851,28 +1072,37 @@
       flex: 1;
       justify-content: center;
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.25),
-        inset 0 -2px 4px rgba(0,0,0,0.15),
+        inset 0 2px 0 rgba(255, 255, 255, 0.25),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.15),
         0 6px 0 #31219b,
-        0 10px 20px rgba(72,52,212,0.30);
-    }
-    .btn-check:hover { filter: brightness(1.08); }
-    .btn-check:active {
-      transform: translateY(6px);
-      box-shadow: inset 0 2px 0 rgba(255,255,255,0.15), 0 0px 0 #31219b, 0 4px 8px rgba(72,52,212,0.25);
+        0 10px 20px rgba(72, 52, 212, 0.30);
     }
 
-    .btn-skip, .btn-back {
+    .btn-check:hover {
+      filter: brightness(1.08);
+    }
+
+    .btn-check:active {
+      transform: translateY(6px);
+      box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.15), 0 0px 0 #31219b, 0 4px 8px rgba(72, 52, 212, 0.25);
+    }
+
+    .btn-skip,
+    .btn-back {
       background: #f1f5f9;
       color: #475569;
       border: 1px solid #cbd5e1;
       box-shadow: 0 4px 0 #cbd5e1;
     }
-    .btn-skip:hover, .btn-back:hover {
+
+    .btn-skip:hover,
+    .btn-back:hover {
       background: #e2e8f0;
       color: #1e293b;
     }
-    .btn-skip:active, .btn-back:active {
+
+    .btn-skip:active,
+    .btn-back:active {
       transform: translateY(4px);
       box-shadow: 0 0 0 #cbd5e1;
     }
@@ -888,7 +1118,10 @@
       animation: fadeInUp 0.35s ease both;
       display: none;
     }
-    .reference-panel.visible { display: block; }
+
+    .reference-panel.visible {
+      display: block;
+    }
 
     .reference-label {
       font-size: 0.7rem;
@@ -898,6 +1131,7 @@
       color: #059669;
       margin-bottom: 10px;
     }
+
     .reference-text {
       font-size: 1rem;
       color: #065f46;
@@ -905,11 +1139,13 @@
       line-height: 1.6;
       word-break: break-word;
     }
+
     .reference-text.is-chinese {
       font-family: 'Noto Serif TC', serif;
       font-size: 1.1rem;
       letter-spacing: 0.04em;
     }
+
     .highlighted-keyword {
       background: rgba(217, 119, 6, 0.15);
       color: #b45309;
@@ -918,6 +1154,7 @@
       cursor: pointer;
       transition: background 0.2s;
     }
+
     .highlighted-keyword:hover {
       background: rgba(217, 119, 6, 0.3);
     }
@@ -927,9 +1164,10 @@
       cursor: pointer;
       transition: var(--transition);
     }
+
     .keyword-chip:hover {
-      background: rgba(124,58,237,0.25);
-      border-color: rgba(124,58,237,0.5);
+      background: rgba(124, 58, 237, 0.25);
+      border-color: rgba(124, 58, 237, 0.5);
       transform: translateY(-1px);
     }
 
@@ -951,16 +1189,23 @@
       justify-content: center;
       gap: 8px;
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.25),
-        inset 0 -2px 4px rgba(0,0,0,0.15),
+        inset 0 2px 0 rgba(255, 255, 255, 0.25),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.15),
         0 6px 0 #047857,
-        0 10px 20px rgba(16,185,129,0.30);
+        0 10px 20px rgba(16, 185, 129, 0.30);
     }
-    .btn-next.visible { display: flex; }
-    .btn-next:hover { filter: brightness(1.08); }
+
+    .btn-next.visible {
+      display: flex;
+    }
+
+    .btn-next:hover {
+      filter: brightness(1.08);
+    }
+
     .btn-next:active {
       transform: translateY(6px);
-      box-shadow: inset 0 2px 0 rgba(255,255,255,0.15), 0 0 0 #047857, 0 4px 8px rgba(16,185,129,0.25);
+      box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.15), 0 0 0 #047857, 0 4px 8px rgba(16, 185, 129, 0.25);
     }
 
     /* ============================================================
@@ -974,7 +1219,11 @@
       gap: 20px;
       padding: 60px;
     }
-    #screen-loading.active { display: flex; }
+
+    #screen-loading.active {
+      display: flex;
+    }
+
     .loading-spinner {
       width: 48px;
       height: 48px;
@@ -983,8 +1232,17 @@
       border-radius: 50%;
       animation: spin 0.8s linear infinite;
     }
-    @keyframes spin { to { transform: rotate(360deg); } }
-    .loading-text { color: var(--text-secondary); font-size: 0.95rem; }
+
+    @keyframes spin {
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    .loading-text {
+      color: var(--text-secondary);
+      font-size: 0.95rem;
+    }
 
     /* ============================================================
        EMPTY / ERROR STATE
@@ -994,9 +1252,21 @@
       padding: 48px 24px;
       color: var(--text-secondary);
     }
-    .empty-state .emoji { font-size: 3rem; margin-bottom: 16px; }
-    .empty-state h3 { font-size: 1.1rem; color: var(--text-primary); margin-bottom: 8px; }
-    .empty-state p { font-size: 0.9rem; }
+
+    .empty-state .emoji {
+      font-size: 3rem;
+      margin-bottom: 16px;
+    }
+
+    .empty-state h3 {
+      font-size: 1.1rem;
+      color: var(--text-primary);
+      margin-bottom: 8px;
+    }
+
+    .empty-state p {
+      font-size: 0.9rem;
+    }
 
     /* ============================================================
        COMPLETION CELEBRATION
@@ -1012,13 +1282,32 @@
       width: 100%;
       animation: fadeInUp 0.6s ease both;
     }
-    #screen-done.active { display: flex; }
-    .done-icon { font-size: 5rem; animation: bounce 0.6s ease; }
-    @keyframes bounce {
-      0%   { transform: scale(0.5); opacity: 0; }
-      70%  { transform: scale(1.15); }
-      100% { transform: scale(1); opacity: 1; }
+
+    #screen-done.active {
+      display: flex;
     }
+
+    .done-icon {
+      font-size: 5rem;
+      animation: bounce 0.6s ease;
+    }
+
+    @keyframes bounce {
+      0% {
+        transform: scale(0.5);
+        opacity: 0;
+      }
+
+      70% {
+        transform: scale(1.15);
+      }
+
+      100% {
+        transform: scale(1);
+        opacity: 1;
+      }
+    }
+
     .done-title {
       font-size: 2rem;
       font-weight: 900;
@@ -1027,7 +1316,12 @@
       -webkit-text-fill-color: transparent;
       background-clip: text;
     }
-    .done-sub { color: var(--text-secondary); font-size: 1rem; }
+
+    .done-sub {
+      color: var(--text-secondary);
+      font-size: 1rem;
+    }
+
     .btn-restart {
       padding: 18px 40px;
       border-radius: 20px;
@@ -1040,15 +1334,19 @@
       cursor: pointer;
       transition: transform 0.12s ease, box-shadow 0.12s ease;
       box-shadow:
-        inset 0 2px 0 rgba(255,255,255,0.25),
-        inset 0 -2px 4px rgba(0,0,0,0.15),
+        inset 0 2px 0 rgba(255, 255, 255, 0.25),
+        inset 0 -2px 4px rgba(0, 0, 0, 0.15),
         0 8px 0 #31219b,
-        0 14px 28px rgba(72,52,212,0.30);
+        0 14px 28px rgba(72, 52, 212, 0.30);
     }
-    .btn-restart:hover { filter: brightness(1.08); }
+
+    .btn-restart:hover {
+      filter: brightness(1.08);
+    }
+
     .btn-restart:active {
       transform: translateY(8px);
-      box-shadow: inset 0 2px 0 rgba(255,255,255,0.15), 0 0px 0 #31219b, 0 4px 12px rgba(72,52,212,0.25);
+      box-shadow: inset 0 2px 0 rgba(255, 255, 255, 0.15), 0 0px 0 #31219b, 0 4px 12px rgba(72, 52, 212, 0.25);
     }
 
     /* ============================================================
@@ -1057,7 +1355,7 @@
     .vocab-overlay {
       position: fixed;
       inset: 0;
-      background: rgba(30,27,74,0.35);
+      background: rgba(30, 27, 74, 0.35);
       backdrop-filter: blur(6px);
       z-index: 500;
       display: flex;
@@ -1068,10 +1366,12 @@
       pointer-events: none;
       transition: opacity 0.25s ease;
     }
+
     .vocab-overlay.open {
       opacity: 1;
       pointer-events: all;
     }
+
     .vocab-card-popup {
       background: #ffffff;
       border: 2px solid #e2e8f0;
@@ -1080,15 +1380,17 @@
       max-width: 420px;
       width: 100%;
       position: relative;
-      box-shadow: 0 24px 64px rgba(99,102,241,0.15), 0 4px 16px rgba(0,0,0,0.08);
+      box-shadow: 0 24px 64px rgba(99, 102, 241, 0.15), 0 4px 16px rgba(0, 0, 0, 0.08);
       transform: translateY(20px) scale(0.96);
-      transition: transform 0.3s cubic-bezier(0.34,1.56,0.64,1), opacity 0.25s ease;
+      transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1), opacity 0.25s ease;
       opacity: 0;
     }
+
     .vocab-overlay.open .vocab-card-popup {
       transform: translateY(0) scale(1);
       opacity: 1;
     }
+
     .vocab-close {
       position: absolute;
       top: 14px;
@@ -1106,7 +1408,13 @@
       justify-content: center;
       transition: var(--transition);
     }
-    .vocab-close:hover { background: rgba(255,255,255,0.1); color: var(--text-primary); border-color: var(--border-hover); }
+
+    .vocab-close:hover {
+      background: rgba(255, 255, 255, 0.1);
+      color: var(--text-primary);
+      border-color: var(--border-hover);
+    }
+
     .vocab-chinese {
       font-family: 'Noto Serif TC', serif;
       font-size: 3.2rem;
@@ -1117,6 +1425,7 @@
       margin-bottom: 6px;
       line-height: 1.2;
     }
+
     .vocab-pinyin {
       text-align: center;
       font-size: 1rem;
@@ -1125,12 +1434,19 @@
       margin-bottom: 20px;
       letter-spacing: 0.03em;
     }
+
     .vocab-divider {
       height: 1px;
       background: var(--border);
       margin-bottom: 18px;
     }
-    .vocab-entries { display: flex; flex-direction: column; gap: 10px; }
+
+    .vocab-entries {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
     .vocab-entry {
       display: flex;
       align-items: flex-start;
@@ -1138,8 +1454,9 @@
       padding: 10px 14px;
       border-radius: var(--radius-sm);
       background: #f5f3ff;
-      border: 1px solid rgba(124,58,237,0.12);
+      border: 1px solid rgba(124, 58, 237, 0.12);
     }
+
     .vocab-pos {
       flex-shrink: 0;
       padding: 2px 8px;
@@ -1147,17 +1464,19 @@
       font-size: 0.68rem;
       font-weight: 700;
       letter-spacing: 0.04em;
-      background: rgba(124,58,237,0.10);
+      background: rgba(124, 58, 237, 0.10);
       color: #7c3aed;
-      border: 1px solid rgba(124,58,237,0.2);
+      border: 1px solid rgba(124, 58, 237, 0.2);
       margin-top: 1px;
     }
+
     .vocab-meaning {
       font-size: 0.9rem;
       color: #374151;
       line-height: 1.5;
       flex: 1;
     }
+
     .vocab-level-badge {
       display: inline-block;
       padding: 3px 10px;
@@ -1166,6 +1485,7 @@
       font-weight: 700;
       margin-bottom: 14px;
     }
+
     .vocab-not-found {
       text-align: center;
       color: var(--text-secondary);
@@ -1174,7 +1494,8 @@
     }
 
     /* Wrong / Correct feedback panels */
-    .wrong-panel, .correct-panel {
+    .wrong-panel,
+    .correct-panel {
       display: none;
       align-items: center;
       gap: 12px;
@@ -1185,837 +1506,923 @@
       margin-top: 16px;
       animation: feedbackIn 0.3s ease both;
     }
-    .wrong-panel.visible { display: flex; }
-    .correct-panel.visible { display: flex; }
+
+    .wrong-panel.visible {
+      display: flex;
+    }
+
+    .correct-panel.visible {
+      display: flex;
+    }
+
     .wrong-panel {
       background: #fef2f2;
       border: 2px solid #fecaca;
       color: #ef4444;
       box-shadow: 0 4px 0 #fecaca;
     }
+
     .correct-panel {
       background: #f0fdf4;
       border: 2px solid #bbf7d0;
       color: #10b981;
       box-shadow: 0 4px 0 #bbf7d0;
     }
+
     .wrong-attempt-count {
       margin-left: auto;
       font-size: 0.72rem;
       opacity: 0.7;
     }
+
     .correct-panel .progress-dots {
       margin-left: auto;
-      display: flex; gap: 4px;
+      display: flex;
+      gap: 4px;
     }
+
     .correct-panel .dot {
-      width: 6px; height: 6px;
+      width: 6px;
+      height: 6px;
       border-radius: 50%;
       background: #34d399;
       animation: dotPulse 0.6s ease infinite alternate;
     }
-    .correct-panel .dot:nth-child(2) { animation-delay: 0.2s; }
-    .correct-panel .dot:nth-child(3) { animation-delay: 0.4s; }
+
+    .correct-panel .dot:nth-child(2) {
+      animation-delay: 0.2s;
+    }
+
+    .correct-panel .dot:nth-child(3) {
+      animation-delay: 0.4s;
+    }
+
     @keyframes dotPulse {
-      from { opacity: 0.3; transform: scale(0.7); }
-      to   { opacity: 1;   transform: scale(1); }
+      from {
+        opacity: 0.3;
+        transform: scale(0.7);
+      }
+
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
     }
+
     @keyframes feedbackIn {
-      from { opacity: 0; transform: translateY(-8px); }
-      to   { opacity: 1; transform: translateY(0); }
+      from {
+        opacity: 0;
+        transform: translateY(-8px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
     }
+
     /* Textarea shake on empty submit */
     @keyframes shake {
-      0%, 100% { transform: translateX(0); }
-      20%       { transform: translateX(-8px); }
-      40%       { transform: translateX(8px); }
-      60%       { transform: translateX(-5px); }
-      80%       { transform: translateX(4px); }
+
+      0%,
+      100% {
+        transform: translateX(0);
+      }
+
+      20% {
+        transform: translateX(-8px);
+      }
+
+      40% {
+        transform: translateX(8px);
+      }
+
+      60% {
+        transform: translateX(-5px);
+      }
+
+      80% {
+        transform: translateX(4px);
+      }
     }
-    .answer-textarea.shake { animation: shake 0.4s ease; }
+
+    .answer-textarea.shake {
+      animation: shake 0.4s ease;
+    }
 
     /* ============================================================
        RESPONSIVE
     ============================================================ */
     @media (max-width: 640px) {
-      .app-header { padding: 16px 20px; }
-      .setup-card { padding: 24px 20px; }
-      .question-card { padding: 24px 20px; }
-      .level-grid { grid-template-columns: repeat(2, 1fr); }
-      .direction-grid { grid-template-columns: 1fr; }
-      .action-row { flex-direction: column; }
-      .btn-check { flex: unset; width: 100%; }
-      .header-nav { display: none; }
-      .vocab-card-popup { padding: 24px 20px; }
-      .vocab-chinese { font-size: 2.4rem; }
+      .app-header {
+        padding: 16px 20px;
+      }
+
+      .setup-card {
+        padding: 24px 20px;
+      }
+
+      .question-card {
+        padding: 24px 20px;
+      }
+
+      .level-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .direction-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .action-row {
+        flex-direction: column;
+      }
+
+      .btn-check {
+        flex: unset;
+        width: 100%;
+      }
+
+      .header-nav {
+        display: none;
+      }
+
+      .vocab-card-popup {
+        padding: 24px 20px;
+      }
+
+      .vocab-chinese {
+        font-size: 2.4rem;
+      }
     }
   </style>
 </head>
+
 <body>
 
-<div class="bg-orbs">
-  <div class="orb orb-1"></div>
-  <div class="orb orb-2"></div>
-  <div class="orb orb-3"></div>
-</div>
-
-<div class="app-wrapper">
-  <!-- Header -->
-  <header class="app-header">
-    <a href="index.html" class="header-logo" id="headerLogoLink">
-      <div class="logo-icon">📚</div>
-      <div>
-        <div class="logo-text">TOCFL Cards</div>
-        <div class="logo-sub">Luyện tập dịch</div>
-      </div>
-    </a>
-    <nav class="header-nav">
-      <a href="study.html">Từ vựng</a>
-      <a href="practice.html" class="active">Luyện tập</a>
-    </nav>
-  </header>
-
-  <!-- Main Content -->
-  <main class="main-content" id="mainContent">
-
-    <!-- LOADING -->
-    <div id="screen-loading">
-      <div class="loading-spinner"></div>
-      <div class="loading-text">Đang tải bài tập…</div>
-    </div>
-
-    <!-- SETUP SCREEN -->
-    <div id="screen-setup">
-      <div class="setup-title">
-        <h1>Luyện Tập Dịch</h1>
-        <p>Chọn cấp độ và chiều dịch để bắt đầu</p>
-      </div>
-
-      <div class="setup-card">
-        <!-- Level -->
-        <div class="section-label">📊 Chọn cấp độ</div>
-        <div class="level-grid">
-          <button class="level-btn" data-level="A1" id="lvlA1" onclick="selectLevel('A1')">
-            <div class="lbtn-left">
-              <div class="lbtn-tag">Sơ cấp</div>
-              <div class="lbtn-title">A1</div>
-              <div class="lbtn-sub">Cơ bản &amp; đơn giản</div>
-            </div>
-            <div class="lbtn-icon">🌱</div>
-          </button>
-          <button class="level-btn" data-level="A2" id="lvlA2" onclick="selectLevel('A2')">
-            <div class="lbtn-left">
-              <div class="lbtn-tag">Tiền trung cấp</div>
-              <div class="lbtn-title">A2</div>
-              <div class="lbtn-sub">Tình huống thường ngày</div>
-            </div>
-            <div class="lbtn-icon">📚</div>
-          </button>
-          <button class="level-btn" data-level="B1" id="lvlB1" onclick="selectLevel('B1')">
-            <div class="lbtn-left">
-              <div class="lbtn-tag">Trung cấp</div>
-              <div class="lbtn-title">B1</div>
-              <div class="lbtn-sub">Diễn đạt đa dạng</div>
-            </div>
-            <div class="lbtn-icon">🎯</div>
-          </button>
-          <button class="level-btn" data-level="B2" id="lvlB2" onclick="selectLevel('B2')">
-            <div class="lbtn-left">
-              <div class="lbtn-tag">Trung cao cấp</div>
-              <div class="lbtn-title">B2</div>
-              <div class="lbtn-sub">Ngôn ngữ phức tạp</div>
-            </div>
-            <div class="lbtn-icon">🏆</div>
-          </button>
-          <button class="level-btn" data-level="C1" id="lvlC1" onclick="selectLevel('C1')">
-            <div class="lbtn-left">
-              <div class="lbtn-tag">Cao cấp</div>
-              <div class="lbtn-title">C1</div>
-              <div class="lbtn-sub">Giao tiếp lưu loát</div>
-            </div>
-            <div class="lbtn-icon">🔥</div>
-          </button>
-          <button class="level-btn" data-level="C2" id="lvlC2" onclick="selectLevel('C2')">
-            <div class="lbtn-left">
-              <div class="lbtn-tag">Thành thạo</div>
-              <div class="lbtn-title">C2</div>
-              <div class="lbtn-sub">Trình độ bản ngữ</div>
-            </div>
-            <div class="lbtn-icon">👑</div>
-          </button>
-        </div>
-
-        <!-- Direction -->
-        <div class="section-label">🔄 Chiều dịch</div>
-        <div class="direction-grid">
-          <button class="dir-btn" id="dirZhVi" onclick="selectDirection('zh_vi')">
-            <div class="dbtn-left">
-              <div class="dbtn-flags">🇨🇳→🇻🇳</div>
-              <div class="dbtn-title">Trung sang Việt</div>
-              <div class="dbtn-sub">Dịch từ tiếng Trung sang tiếng Việt</div>
-            </div>
-            <div class="dbtn-icon">🎮</div>
-          </button>
-          <button class="dir-btn" id="dirViZh" onclick="selectDirection('vi_zh')">
-            <div class="dbtn-left">
-              <div class="dbtn-flags">🇻🇳→🇨🇳</div>
-              <div class="dbtn-title">Việt sang Trung</div>
-              <div class="dbtn-sub">Dịch từ tiếng Việt sang tiếng Trung</div>
-            </div>
-            <div class="dbtn-icon">✏️</div>
-          </button>
-        </div>
-
-        <!-- Session hint + start -->
-        <div class="start-section">
-          <div id="sessionHint" class="session-hint"></div>
-          <button class="btn-start" id="btnStart" onclick="startPractice()" disabled>
-            🚀 Bắt đầu luyện tập
-          </button>
-        </div>
-      </div>
-    </div>
-
-    <!-- PRACTICE SCREEN -->
-    <div id="screen-practice">
-      <!-- Top bar -->
-      <div class="practice-topbar">
-        <div class="practice-badges">
-          <span class="badge" id="badgeLevel"></span>
-          <span class="badge badge-dir" id="badgeDir"></span>
-        </div>
-        <div class="practice-counter" id="practiceCounter"></div>
-      </div>
-
-      <!-- Progress -->
-      <div class="progress-wrap">
-        <div class="progress-fill" id="progressFill" style="width: 0%"></div>
-      </div>
-
-      <!-- Question card -->
-      <div class="question-card" id="questionCard">
-        <div class="question-direction-label" id="questionDirLabel"></div>
-        <div class="question-source-text" id="questionSource"></div>
-        <div class="keyword-chips" id="keywordChips"></div>
-      </div>
-
-      <!-- Answer -->
-      <div class="answer-area">
-        <div class="answer-top-row">
-          <div class="answer-label" id="answerAreaLabel">✏️ Câu trả lời của bạn</div>
-          <div style="display:flex;align-items:center;gap:10px;">
-            <button class="btn-hint" id="btnHint" onclick="showHint()" title="Xem gợi ý">💡 Gợi ý</button>
-            <span class="kbd-hint"><kbd class="kbd">Enter</kbd> Kiểm tra</span>
-          </div>
-        </div>
-        <textarea
-          class="answer-textarea"
-          id="answerInput"
-          placeholder="Nhập câu dịch của bạn ở đây…"
-          rows="3"
-        ></textarea>
-
-        <!-- Wrong answer feedback -->
-        <div class="wrong-panel" id="wrongPanel">
-          <span>❌</span>
-          <span id="wrongPanelText">Chưa đúng! Hãy thử lại…</span>
-          <span class="wrong-attempt-count" id="wrongAttemptCount"></span>
-        </div>
-
-        <!-- Correct answer feedback (shown briefly before auto-advance) -->
-        <div class="correct-panel" id="correctPanel">
-          <span>✅</span>
-          <span>Chính xác! Đang chuyển câu tiếp theo…</span>
-          <div class="progress-dots">
-            <div class="dot"></div><div class="dot"></div><div class="dot"></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Action row -->
-      <div class="action-row">
-        <button class="btn btn-back" onclick="goBack()">← Thay đổi</button>
-        <button class="btn btn-skip" onclick="skipQuestion()">⏭ Bỏ qua</button>
-        <button class="btn btn-check" id="btnCheck" onclick="checkAnswer()">
-          🔍 Kiểm tra
-        </button>
-      </div>
-    </div>
-
-    <!-- DONE SCREEN -->
-    <div id="screen-done">
-      <div class="done-icon">🎉</div>
-      <div class="done-title">Hoàn thành vòng luyện!</div>
-      <div class="done-sub" id="doneSubText">Bạn đã luyện qua tất cả câu trong bộ bài tập. Bắt đầu lại để tiếp tục!</div>
-      <button class="btn-restart" onclick="restartSession()">🔄 Luyện tập tiếp</button>
-      <button class="btn btn-back" onclick="goBack()">← Thay đổi cài đặt</button>
-    </div>
-
-  </main>
-</div>
-
-<!-- Vocabulary popup overlay -->
-<div class="vocab-overlay" id="vocabOverlay" onclick="closeVocabCard(event)">
-  <div class="vocab-card-popup" id="vocabCardPopup">
-    <button class="vocab-close" onclick="closeVocabCard()" title="Đóng">✕</button>
-    <div class="vocab-chinese" id="vcChinese"></div>
-    <div class="vocab-pinyin" id="vcPinyin"></div>
-    <div style="text-align:center;margin-bottom:14px;" id="vcLevelWrap"></div>
-    <div class="vocab-divider"></div>
-    <div class="vocab-entries" id="vcEntries"></div>
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
   </div>
-</div>
 
-<script src="vocabulary-data.js"></script>
-<script>
-/* ================================================================
-   STATE
-================================================================ */
-let selectedLevel = null;
-let selectedDirection = null;
-let exercises = [];         // all loaded exercises for current config
-let questionSuffSheet = []; // shuffled index array (session-aware)
-let currentPosInSheet = 0;  // pointer into questionSuffSheet
-let isAnswerShown = false;
-let attemptCount = 0;       // wrong attempts on current question
+  <div class="app-wrapper">
+    <!-- Header -->
+    <header class="app-header">
+      <a href="index.html" class="header-logo" id="headerLogoLink">
+        <div class="logo-icon">📚</div>
+        <div>
+          <div class="logo-text">TOCFL Cards</div>
+          <div class="logo-sub">Luyện tập dịch</div>
+        </div>
+      </a>
+      <nav class="header-nav">
+        <a href="study.html">Từ vựng</a>
+        <a href="practice.html" class="active">Luyện tập</a>
+      </nav>
+    </header>
 
-/* ================================================================
-   SESSION STORAGE HELPERS
-================================================================ */
-function getSessionKey(level, direction) {
-  return `practice_sheet_${level}_${direction}`;
-}
+    <!-- Main Content -->
+    <main class="main-content" id="mainContent">
 
-function loadSheet(level, direction) {
-  const key = getSessionKey(level, direction);
-  try {
-    const raw = sessionStorage.getItem(key);
-    if (raw) return JSON.parse(raw);
-  } catch (e) {}
-  return null;
-}
+      <!-- LOADING -->
+      <div id="screen-loading">
+        <div class="loading-spinner"></div>
+        <div class="loading-text">Đang tải bài tập…</div>
+      </div>
 
-function saveSheet(level, direction, sheet, pos) {
-  const key = getSessionKey(level, direction);
-  sessionStorage.setItem(key, JSON.stringify({ sheet, pos }));
-}
+      <!-- SETUP SCREEN -->
+      <div id="screen-setup">
+        <div class="setup-title">
+          <h1>Luyện Tập Dịch</h1>
+          <p>Chọn cấp độ và chiều dịch để bắt đầu</p>
+        </div>
 
-function clearSheet(level, direction) {
-  const key = getSessionKey(level, direction);
-  sessionStorage.removeItem(key);
-}
+        <div class="setup-card">
+          <!-- Level -->
+          <div class="section-label">📊 Chọn cấp độ</div>
+          <div class="level-grid">
+            <button class="level-btn" data-level="A1" id="lvlA1" onclick="selectLevel('A1')">
+              <div class="lbtn-left">
+                <div class="lbtn-tag">Sơ cấp</div>
+                <div class="lbtn-title">A1</div>
+                <div class="lbtn-sub">Cơ bản &amp; đơn giản</div>
+              </div>
+              <div class="lbtn-icon">🌱</div>
+            </button>
+            <button class="level-btn" data-level="A2" id="lvlA2" onclick="selectLevel('A2')">
+              <div class="lbtn-left">
+                <div class="lbtn-tag">Tiền trung cấp</div>
+                <div class="lbtn-title">A2</div>
+                <div class="lbtn-sub">Tình huống thường ngày</div>
+              </div>
+              <div class="lbtn-icon">📚</div>
+            </button>
+            <button class="level-btn" data-level="B1" id="lvlB1" onclick="selectLevel('B1')">
+              <div class="lbtn-left">
+                <div class="lbtn-tag">Trung cấp</div>
+                <div class="lbtn-title">B1</div>
+                <div class="lbtn-sub">Diễn đạt đa dạng</div>
+              </div>
+              <div class="lbtn-icon">🎯</div>
+            </button>
+            <button class="level-btn" data-level="B2" id="lvlB2" onclick="selectLevel('B2')">
+              <div class="lbtn-left">
+                <div class="lbtn-tag">Trung cao cấp</div>
+                <div class="lbtn-title">B2</div>
+                <div class="lbtn-sub">Ngôn ngữ phức tạp</div>
+              </div>
+              <div class="lbtn-icon">🏆</div>
+            </button>
+            <button class="level-btn" data-level="C1" id="lvlC1" onclick="selectLevel('C1')">
+              <div class="lbtn-left">
+                <div class="lbtn-tag">Cao cấp</div>
+                <div class="lbtn-title">C1</div>
+                <div class="lbtn-sub">Giao tiếp lưu loát</div>
+              </div>
+              <div class="lbtn-icon">🔥</div>
+            </button>
+            <button class="level-btn" data-level="C2" id="lvlC2" onclick="selectLevel('C2')">
+              <div class="lbtn-left">
+                <div class="lbtn-tag">Thành thạo</div>
+                <div class="lbtn-title">C2</div>
+                <div class="lbtn-sub">Trình độ bản ngữ</div>
+              </div>
+              <div class="lbtn-icon">👑</div>
+            </button>
+          </div>
 
-/* ================================================================
-   FISHER-YATES SHUFFLE
-================================================================ */
-function shuffle(arr) {
-  const a = [...arr];
-  for (let i = a.length - 1; i > 0; i--) {
-    const j = Math.floor(Math.random() * (i + 1));
-    [a[i], a[j]] = [a[j], a[i]];
-  }
-  return a;
-}
+          <!-- Direction -->
+          <div class="section-label">🔄 Chiều dịch</div>
+          <div class="direction-grid">
+            <button class="dir-btn" id="dirZhVi" onclick="selectDirection('zh_vi')">
+              <div class="dbtn-left">
+                <div class="dbtn-flags">🇨🇳→🇻🇳</div>
+                <div class="dbtn-title">Trung sang Việt</div>
+                <div class="dbtn-sub">Dịch từ tiếng Trung sang tiếng Việt</div>
+              </div>
+              <div class="dbtn-icon">🎮</div>
+            </button>
+            <button class="dir-btn" id="dirViZh" onclick="selectDirection('vi_zh')">
+              <div class="dbtn-left">
+                <div class="dbtn-flags">🇻🇳→🇨🇳</div>
+                <div class="dbtn-title">Việt sang Trung</div>
+                <div class="dbtn-sub">Dịch từ tiếng Việt sang tiếng Trung</div>
+              </div>
+              <div class="dbtn-icon">✏️</div>
+            </button>
+          </div>
 
-/* ================================================================
-   SETUP SCREEN LOGIC
-================================================================ */
-function selectLevel(level) {
-  selectedLevel = level;
-  document.querySelectorAll('.level-btn').forEach(b => b.classList.remove('selected'));
-  document.getElementById(`lvl${level}`).classList.add('selected');
-  updateStartButton();
-  updateSessionHint();
-}
+          <!-- Session hint + start -->
+          <div class="start-section">
+            <div id="sessionHint" class="session-hint"></div>
+            <button class="btn-start" id="btnStart" onclick="startPractice()" disabled>
+              🚀 Bắt đầu luyện tập
+            </button>
+          </div>
+        </div>
+      </div>
 
-function selectDirection(dir) {
-  selectedDirection = dir;
-  document.querySelectorAll('.dir-btn').forEach(b => b.classList.remove('selected'));
-  document.getElementById(dir === 'zh_vi' ? 'dirZhVi' : 'dirViZh').classList.add('selected');
-  updateStartButton();
-  updateSessionHint();
-}
+      <!-- PRACTICE SCREEN -->
+      <div id="screen-practice">
+        <!-- Top bar -->
+        <div class="practice-topbar">
+          <div class="practice-badges">
+            <span class="badge" id="badgeLevel"></span>
+            <span class="badge badge-dir" id="badgeDir"></span>
+          </div>
+          <div class="practice-counter" id="practiceCounter"></div>
+        </div>
 
-function updateStartButton() {
-  const btn = document.getElementById('btnStart');
-  btn.disabled = !(selectedLevel && selectedDirection);
-}
+        <!-- Progress -->
+        <div class="progress-wrap">
+          <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+        </div>
 
-function updateSessionHint() {
-  const hint = document.getElementById('sessionHint');
-  if (!selectedLevel || !selectedDirection) {
-    hint.innerHTML = '';
-    return;
-  }
-  const saved = loadSheet(selectedLevel, selectedDirection);
-  if (saved && saved.sheet && saved.pos < saved.sheet.length) {
-    const remaining = saved.sheet.length - saved.pos;
-    hint.innerHTML = `
+        <!-- Question card -->
+        <div class="question-card" id="questionCard">
+          <div class="question-direction-label" id="questionDirLabel"></div>
+          <div class="question-source-text" id="questionSource"></div>
+          <div class="keyword-chips" id="keywordChips"></div>
+        </div>
+
+        <!-- Answer -->
+        <div class="answer-area">
+          <div class="answer-top-row">
+            <div class="answer-label" id="answerAreaLabel">✏️ Câu trả lời của bạn</div>
+            <div style="display:flex;align-items:center;gap:10px;">
+              <button class="btn-hint" id="btnHint" onclick="showHint()" title="Xem gợi ý">💡 Gợi ý</button>
+              <span class="kbd-hint"><kbd class="kbd">Enter</kbd> Kiểm tra</span>
+            </div>
+          </div>
+          <textarea class="answer-textarea" id="answerInput" placeholder="Nhập câu dịch của bạn ở đây…"
+            rows="3"></textarea>
+
+          <!-- Wrong answer feedback -->
+          <div class="wrong-panel" id="wrongPanel">
+            <span>❌</span>
+            <span id="wrongPanelText">Chưa đúng! Hãy thử lại…</span>
+            <span class="wrong-attempt-count" id="wrongAttemptCount"></span>
+          </div>
+
+          <!-- Correct answer feedback (shown briefly before auto-advance) -->
+          <div class="correct-panel" id="correctPanel">
+            <span>✅</span>
+            <span>Chính xác! Đang chuyển câu tiếp theo…</span>
+            <div class="progress-dots">
+              <div class="dot"></div>
+              <div class="dot"></div>
+              <div class="dot"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Action row -->
+        <div class="action-row">
+          <button class="btn btn-back" onclick="goBack()">← Thay đổi</button>
+          <button class="btn btn-skip" onclick="skipQuestion()">⏭ Bỏ qua</button>
+          <button class="btn btn-check" id="btnCheck" onclick="checkAnswer()">
+            🔍 Kiểm tra
+          </button>
+        </div>
+      </div>
+
+      <!-- DONE SCREEN -->
+      <div id="screen-done">
+        <div class="done-icon">🎉</div>
+        <div class="done-title">Hoàn thành vòng luyện!</div>
+        <div class="done-sub" id="doneSubText">Bạn đã luyện qua tất cả câu trong bộ bài tập. Bắt đầu lại để tiếp tục!
+        </div>
+        <button class="btn-restart" onclick="restartSession()">🔄 Luyện tập tiếp</button>
+        <button class="btn btn-back" onclick="goBack()">← Thay đổi cài đặt</button>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- Vocabulary popup overlay -->
+  <div class="vocab-overlay" id="vocabOverlay" onclick="closeVocabCard(event)">
+    <div class="vocab-card-popup" id="vocabCardPopup">
+      <button class="vocab-close" onclick="closeVocabCard()" title="Đóng">✕</button>
+      <div class="vocab-chinese" id="vcChinese"></div>
+      <div class="vocab-pinyin" id="vcPinyin"></div>
+      <div style="text-align:center;margin-bottom:14px;" id="vcLevelWrap"></div>
+      <div class="vocab-divider"></div>
+      <div class="vocab-entries" id="vcEntries"></div>
+    </div>
+  </div>
+
+  <script src="vocabulary-data.js"></script>
+  <script>
+    /* ================================================================
+       STATE
+    ================================================================ */
+    let selectedLevel = null;
+    let selectedDirection = null;
+    let exercises = [];         // all loaded exercises for current config
+    let questionSuffSheet = []; // shuffled index array (session-aware)
+    let currentPosInSheet = 0;  // pointer into questionSuffSheet
+    let isAnswerShown = false;
+    let attemptCount = 0;       // wrong attempts on current question
+
+    /* ================================================================
+       SESSION STORAGE HELPERS
+    ================================================================ */
+    function getSessionKey(level, direction) {
+      return `practice_sheet_${level}_${direction}`;
+    }
+
+    function loadSheet(level, direction) {
+      const key = getSessionKey(level, direction);
+      try {
+        const raw = sessionStorage.getItem(key);
+        if (raw) return JSON.parse(raw);
+      } catch (e) { }
+      return null;
+    }
+
+    function saveSheet(level, direction, sheet, pos) {
+      const key = getSessionKey(level, direction);
+      sessionStorage.setItem(key, JSON.stringify({ sheet, pos }));
+    }
+
+    function clearSheet(level, direction) {
+      const key = getSessionKey(level, direction);
+      sessionStorage.removeItem(key);
+    }
+
+    /* ================================================================
+       FISHER-YATES SHUFFLE
+    ================================================================ */
+    function shuffle(arr) {
+      const a = [...arr];
+      for (let i = a.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [a[i], a[j]] = [a[j], a[i]];
+      }
+      return a;
+    }
+
+    /* ================================================================
+       SETUP SCREEN LOGIC
+    ================================================================ */
+    function selectLevel(level) {
+      selectedLevel = level;
+      document.querySelectorAll('.level-btn').forEach(b => b.classList.remove('selected'));
+      document.getElementById(`lvl${level}`).classList.add('selected');
+      updateStartButton();
+      updateSessionHint();
+    }
+
+    function selectDirection(dir) {
+      selectedDirection = dir;
+      document.querySelectorAll('.dir-btn').forEach(b => b.classList.remove('selected'));
+      document.getElementById(dir === 'zh_vi' ? 'dirZhVi' : 'dirViZh').classList.add('selected');
+      updateStartButton();
+      updateSessionHint();
+    }
+
+    function updateStartButton() {
+      const btn = document.getElementById('btnStart');
+      btn.disabled = !(selectedLevel && selectedDirection);
+    }
+
+    function updateSessionHint() {
+      const hint = document.getElementById('sessionHint');
+      if (!selectedLevel || !selectedDirection) {
+        hint.innerHTML = '';
+        return;
+      }
+      const saved = loadSheet(selectedLevel, selectedDirection);
+      if (saved && saved.sheet && saved.pos < saved.sheet.length) {
+        const remaining = saved.sheet.length - saved.pos;
+        hint.innerHTML = `
       <span class="session-info-badge">
         💾 Tiếp tục từ câu ${saved.pos + 1} &mdash; còn ${remaining} câu trong vòng này
       </span>
     `;
-  } else {
-    hint.innerHTML = `
+      } else {
+        hint.innerHTML = `
       <span class="session-info-badge">
         🎲 Sẽ tạo thứ tự câu hỏi ngẫu nhiên mới
       </span>
     `;
-  }
-}
-
-/* ================================================================
-   LOAD EXERCISES + INIT SHEET
-================================================================ */
-async function startPractice() {
-  if (!selectedLevel || !selectedDirection) return;
-
-  showScreen('loading');
-
-  // Small delay for UX feel
-  await new Promise(r => setTimeout(r, 400));
-
-  const key = `${selectedLevel}_${selectedDirection}`;
-  let data = null;
-  try {
-    const res = await fetch(`exercises/${key}.json`);
-    if (res.ok) {
-      data = await res.json();
+      }
     }
-  } catch (err) {
-    console.error("Lỗi khi tải file JSON:", err);
-  }
 
-  if (!data || data.length === 0) {
-    showScreen('setup');
-    alert(`Không tìm thấy dữ liệu bài tập cho cấp độ: ${key}\nHãy chắc chắn file exercises/${key}.json đã tồn tại.`);
-    return;
-  }
+    /* ================================================================
+       LOAD EXERCISES + INIT SHEET
+    ================================================================ */
+    async function startPractice() {
+      if (!selectedLevel || !selectedDirection) return;
 
-  exercises = data;
+      showScreen('loading');
 
-  // Build or restore questionSuffSheet
-  const saved = loadSheet(selectedLevel, selectedDirection);
-  if (saved && saved.sheet && Array.isArray(saved.sheet) && saved.pos <= saved.sheet.length) {
-    questionSuffSheet = saved.sheet;
-    currentPosInSheet = saved.pos;
-    // Validate indices still in range
-    if (questionSuffSheet.some(i => i >= exercises.length)) {
+      // Small delay for UX feel
+      await new Promise(r => setTimeout(r, 400));
+
+      const key = `${selectedLevel}_${selectedDirection}`;
+      let data = null;
+      try {
+        const res = await fetch(`exercises/${key}.json`);
+        if (res.ok) {
+          data = await res.json();
+        }
+      } catch (err) {
+        console.error("Lỗi khi tải file JSON:", err);
+      }
+
+      if (!data || data.length === 0) {
+        showScreen('setup');
+        alert(`Không tìm thấy dữ liệu bài tập cho cấp độ: ${key}\nHãy chắc chắn file exercises/${key}.json đã tồn tại.`);
+        return;
+      }
+
+      exercises = data;
+
+      // Build or restore questionSuffSheet
+      const saved = loadSheet(selectedLevel, selectedDirection);
+      if (saved && saved.sheet && Array.isArray(saved.sheet) && saved.pos <= saved.sheet.length) {
+        questionSuffSheet = saved.sheet;
+        currentPosInSheet = saved.pos;
+        // Validate indices still in range
+        if (questionSuffSheet.some(i => i >= exercises.length)) {
+          questionSuffSheet = shuffle(exercises.map((_, i) => i));
+          currentPosInSheet = 0;
+        }
+      } else {
+        questionSuffSheet = shuffle(exercises.map((_, i) => i));
+        currentPosInSheet = 0;
+      }
+
+      saveSheet(selectedLevel, selectedDirection, questionSuffSheet, currentPosInSheet);
+
+      setupPracticeUI();
+      showQuestion();
+    }
+
+    /* ================================================================
+       PRACTICE UI SETUP
+    ================================================================ */
+    function setupPracticeUI() {
+      // Badges
+      const lvlBadge = document.getElementById('badgeLevel');
+      lvlBadge.textContent = `Band ${selectedLevel}`;
+      lvlBadge.className = `badge badge-level-${selectedLevel}`;
+
+      const dirBadge = document.getElementById('badgeDir');
+      dirBadge.textContent = selectedDirection === 'zh_vi' ? '🇨🇳 → 🇻🇳' : '🇻🇳 → 🇨🇳';
+
+      // Answer label
+      const answerLabel = document.getElementById('answerAreaLabel');
+      if (selectedDirection === 'zh_vi') {
+        answerLabel.textContent = '✏️ Dịch sang tiếng Việt';
+        document.getElementById('answerInput').classList.remove('is-chinese-answer');
+        document.getElementById('answerInput').placeholder = 'Nhập câu dịch tiếng Việt của bạn…';
+      } else {
+        answerLabel.textContent = '✏️ Dịch sang tiếng Trung';
+        document.getElementById('answerInput').classList.add('is-chinese-answer');
+        document.getElementById('answerInput').placeholder = '請輸入您的翻譯…';
+      }
+
+      showScreen('practice');
+    }
+
+    /* ================================================================
+       SHOW QUESTION
+    ================================================================ */
+    function showQuestion() {
+      // Check if we've exhausted the sheet
+      if (currentPosInSheet >= questionSuffSheet.length) {
+        // Session complete — celebrate then reset
+        showScreen('done');
+        return;
+      }
+
+      isAnswerShown = false;
+
+      const idx = questionSuffSheet[currentPosInSheet];
+      const q = exercises[idx];
+
+      // Update counter + progress
+      const total = questionSuffSheet.length;
+      const current = currentPosInSheet + 1;
+      document.getElementById('practiceCounter').innerHTML =
+        `<strong>${current}</strong> / ${total}`;
+      document.getElementById('progressFill').style.width =
+        `${((current - 1) / total) * 100}%`;
+
+      // Direction label
+      document.getElementById('questionDirLabel').textContent =
+        selectedDirection === 'zh_vi' ? '🇨🇳 Đọc câu tiếng Trung và dịch sang tiếng Việt' : '🇻🇳 Đọc câu tiếng Việt và dịch sang tiếng Trung';
+
+      // Source text
+      const sourceEl = document.getElementById('questionSource');
+      sourceEl.textContent = q.sourceText;
+      if (selectedDirection === 'zh_vi') {
+        sourceEl.classList.add('is-chinese');
+      } else {
+        sourceEl.classList.remove('is-chinese');
+      }
+
+      // Keywords
+      const chips = document.getElementById('keywordChips');
+      chips.innerHTML = '';
+      if (q.keywords && q.keywords.length > 0) {
+        q.keywords.forEach(kw => {
+          const chip = document.createElement('span');
+          // Keywords are always Chinese characters (even in vi_zh direction)
+          chip.className = 'keyword-chip';
+          chip.textContent = kw;
+          chip.title = 'Nhấn để xem thẻ từ vựng';
+          chip.onclick = () => openVocabCard(kw);
+          chips.appendChild(chip);
+        });
+      }
+
+      // Reset hint
+      document.getElementById('btnHint').disabled = false;
+      document.getElementById('btnHint').textContent = '💡 Gợi ý';
+
+      // Reset answer area (also reset placeholder in case hint was shown)
+      const textarea = document.getElementById('answerInput');
+      textarea.value = '';
+      textarea.disabled = false;
+      textarea.placeholder = selectedDirection === 'zh_vi'
+        ? 'Nhập câu dịch tiếng Việt của bạn…'
+        : '請輸入您的翻譯…';
+      textarea.focus();
+
+      // Hide reference panel + next
+      // Reset feedback panels
+      document.getElementById('wrongPanel').classList.remove('visible');
+      document.getElementById('correctPanel').classList.remove('visible');
+      document.getElementById('wrongAttemptCount').textContent = '';
+      document.getElementById('btnCheck').style.display = '';
+      document.getElementById('btnCheck').disabled = false;
+      attemptCount = 0;
+
+      // Animate card
+      const card = document.getElementById('questionCard');
+      card.classList.remove('exit');
+      void card.offsetWidth; // reflow
+      card.style.animation = 'none';
+      void card.offsetWidth;
+      card.style.animation = '';
+    }
+
+    /* ================================================================
+       ANSWER COMPARISON
+    ================================================================ */
+    function checkAnswerCorrect(userAnswer, referenceAnswers) {
+      function normalize(s) {
+        return s
+          .toLowerCase()
+          .replace(/[.,!?。，！？；：、「」『』【】《》〈〉“”‘’()（）…—]/g, '')
+          .replace(/\s+/g, ' ')
+          .trim();
+      }
+      function isCJK(c) {
+        const code = c.codePointAt(0);
+        return (code >= 0x4E00 && code <= 0x9FFF) || (code >= 0x3400 && code <= 0x4DBF);
+      }
+      const userNorm = normalize(userAnswer);
+      if (!userNorm) return false;
+
+      return referenceAnswers.some(ref => {
+        const refNorm = normalize(ref);
+        if (userNorm === refNorm) return true;
+
+        const refCJK = [...refNorm].filter(isCJK);
+        if (refCJK.length > 0) {
+          // Chinese answer: check that user has all (or nearly all) reference CJK chars
+          const userCJKSet = new Set([...userNorm].filter(isCJK));
+          const missing = refCJK.filter(c => !userCJKSet.has(c));
+          const tolerance = Math.ceil(refCJK.length * 0.15); // allow 15% missing
+          return missing.length <= tolerance;
+        }
+
+        // Vietnamese / Latin: word-level match (80% threshold)
+        const refWords = refNorm.split(' ').filter(Boolean);
+        const userWordsSet = new Set(userNorm.split(' ').filter(Boolean));
+        if (!refWords.length) return false;
+        const matched = refWords.filter(w => userWordsSet.has(w)).length;
+        return matched / refWords.length >= 0.80;
+      });
+    }
+
+    /* ================================================================
+       CHECK ANSWER
+    ================================================================ */
+    function checkAnswer() {
+      if (isAnswerShown) return;
+
+      const textarea = document.getElementById('answerInput');
+      const userAnswer = textarea.value.trim();
+
+      // Empty answer — shake textarea
+      if (!userAnswer) {
+        textarea.classList.remove('shake');
+        void textarea.offsetWidth;
+        textarea.classList.add('shake');
+        setTimeout(() => textarea.classList.remove('shake'), 500);
+        return;
+      }
+
+      const idx = questionSuffSheet[currentPosInSheet];
+      const q = exercises[idx];
+      const isCorrect = checkAnswerCorrect(userAnswer, q.referenceAnswers);
+
+      if (isCorrect) {
+        // --- CORRECT ---
+        isAnswerShown = true;
+        document.getElementById('wrongPanel').classList.remove('visible');
+        document.getElementById('correctPanel').classList.add('visible');
+        textarea.disabled = true;
+        document.getElementById('btnCheck').style.display = 'none';
+        document.getElementById('btnHint').disabled = true;
+        // Auto-advance after 1.3s
+        setTimeout(() => nextQuestion(), 1300);
+      } else {
+        // --- WRONG ---
+        attemptCount++;
+        const wrongPanel = document.getElementById('wrongPanel');
+        const wrongText = document.getElementById('wrongPanelText');
+        const attemptEl = document.getElementById('wrongAttemptCount');
+
+        // Vary message slightly after multiple attempts
+        if (attemptCount === 1) wrongText.textContent = 'Chưa đúng! Hãy thử lại…';
+        else if (attemptCount === 2) wrongText.textContent = 'Vẫn chưa đúng, thử lại nhé!';
+        else wrongText.textContent = 'Có thể dùng gợi ý để xem đáp án!';
+
+        attemptEl.textContent = `Lần ${attemptCount}`;
+
+        // Remove & re-add for re-animation
+        wrongPanel.classList.remove('visible');
+        void wrongPanel.offsetWidth;
+        wrongPanel.classList.add('visible');
+
+        // Shake textarea
+        textarea.classList.remove('shake');
+        void textarea.offsetWidth;
+        textarea.classList.add('shake');
+        setTimeout(() => textarea.classList.remove('shake'), 450);
+
+        // Keep focus so user can correct their answer
+        textarea.focus();
+        textarea.select();
+      }
+    }
+
+    function escapeHtml(str) {
+      return String(str)
+        .replace(/&/g, '&amp;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;');
+    }
+
+    /* ================================================================
+       NAVIGATION
+    ================================================================ */
+    function nextQuestion() {
+      currentPosInSheet++;
+      saveSheet(selectedLevel, selectedDirection, questionSuffSheet, currentPosInSheet);
+
+      const card = document.getElementById('questionCard');
+      card.classList.add('exit');
+      setTimeout(() => {
+        card.classList.remove('exit');
+        showQuestion();
+      }, 280);
+    }
+
+    function skipQuestion() {
+      // Move current question to end of remaining sheet so it appears later
+      if (currentPosInSheet < questionSuffSheet.length - 1) {
+        const skipped = questionSuffSheet.splice(currentPosInSheet, 1)[0];
+        questionSuffSheet.push(skipped);
+        saveSheet(selectedLevel, selectedDirection, questionSuffSheet, currentPosInSheet);
+      } else {
+        // Last question, just advance (will trigger done)
+        currentPosInSheet++;
+        saveSheet(selectedLevel, selectedDirection, questionSuffSheet, currentPosInSheet);
+      }
+
+      isAnswerShown = false;
+      const card = document.getElementById('questionCard');
+      card.classList.add('exit');
+      setTimeout(() => {
+        card.classList.remove('exit');
+        showQuestion();
+      }, 280);
+    }
+
+    function restartSession() {
+      // New shuffle, reset pos
       questionSuffSheet = shuffle(exercises.map((_, i) => i));
       currentPosInSheet = 0;
-    }
-  } else {
-    questionSuffSheet = shuffle(exercises.map((_, i) => i));
-    currentPosInSheet = 0;
-  }
-
-  saveSheet(selectedLevel, selectedDirection, questionSuffSheet, currentPosInSheet);
-
-  setupPracticeUI();
-  showQuestion();
-}
-
-/* ================================================================
-   PRACTICE UI SETUP
-================================================================ */
-function setupPracticeUI() {
-  // Badges
-  const lvlBadge = document.getElementById('badgeLevel');
-  lvlBadge.textContent = `Band ${selectedLevel}`;
-  lvlBadge.className = `badge badge-level-${selectedLevel}`;
-
-  const dirBadge = document.getElementById('badgeDir');
-  dirBadge.textContent = selectedDirection === 'zh_vi' ? '🇨🇳 → 🇻🇳' : '🇻🇳 → 🇨🇳';
-
-  // Answer label
-  const answerLabel = document.getElementById('answerAreaLabel');
-  if (selectedDirection === 'zh_vi') {
-    answerLabel.textContent = '✏️ Dịch sang tiếng Việt';
-    document.getElementById('answerInput').classList.remove('is-chinese-answer');
-    document.getElementById('answerInput').placeholder = 'Nhập câu dịch tiếng Việt của bạn…';
-  } else {
-    answerLabel.textContent = '✏️ Dịch sang tiếng Trung';
-    document.getElementById('answerInput').classList.add('is-chinese-answer');
-    document.getElementById('answerInput').placeholder = '請輸入您的翻譯…';
-  }
-
-  showScreen('practice');
-}
-
-/* ================================================================
-   SHOW QUESTION
-================================================================ */
-function showQuestion() {
-  // Check if we've exhausted the sheet
-  if (currentPosInSheet >= questionSuffSheet.length) {
-    // Session complete — celebrate then reset
-    showScreen('done');
-    return;
-  }
-
-  isAnswerShown = false;
-
-  const idx = questionSuffSheet[currentPosInSheet];
-  const q = exercises[idx];
-
-  // Update counter + progress
-  const total = questionSuffSheet.length;
-  const current = currentPosInSheet + 1;
-  document.getElementById('practiceCounter').innerHTML =
-    `<strong>${current}</strong> / ${total}`;
-  document.getElementById('progressFill').style.width =
-    `${((current - 1) / total) * 100}%`;
-
-  // Direction label
-  document.getElementById('questionDirLabel').textContent =
-    selectedDirection === 'zh_vi' ? '🇨🇳 Đọc câu tiếng Trung và dịch sang tiếng Việt' : '🇻🇳 Đọc câu tiếng Việt và dịch sang tiếng Trung';
-
-  // Source text
-  const sourceEl = document.getElementById('questionSource');
-  sourceEl.textContent = q.sourceText;
-  if (selectedDirection === 'zh_vi') {
-    sourceEl.classList.add('is-chinese');
-  } else {
-    sourceEl.classList.remove('is-chinese');
-  }
-
-  // Keywords
-  const chips = document.getElementById('keywordChips');
-  chips.innerHTML = '';
-  if (q.keywords && q.keywords.length > 0) {
-    q.keywords.forEach(kw => {
-      const chip = document.createElement('span');
-      // Keywords are always Chinese characters (even in vi_zh direction)
-      chip.className = 'keyword-chip';
-      chip.textContent = kw;
-      chip.title = 'Nhấn để xem thẻ từ vựng';
-      chip.onclick = () => openVocabCard(kw);
-      chips.appendChild(chip);
-    });
-  }
-
-  // Reset hint
-  document.getElementById('btnHint').disabled = false;
-  document.getElementById('btnHint').textContent = '💡 Gợi ý';
-
-  // Reset answer area (also reset placeholder in case hint was shown)
-  const textarea = document.getElementById('answerInput');
-  textarea.value = '';
-  textarea.disabled = false;
-  textarea.placeholder = selectedDirection === 'zh_vi'
-    ? 'Nhập câu dịch tiếng Việt của bạn…'
-    : '請輸入您的翻譯…';
-  textarea.focus();
-
-  // Hide reference panel + next
-  // Reset feedback panels
-  document.getElementById('wrongPanel').classList.remove('visible');
-  document.getElementById('correctPanel').classList.remove('visible');
-  document.getElementById('wrongAttemptCount').textContent = '';
-  document.getElementById('btnCheck').style.display = '';
-  document.getElementById('btnCheck').disabled = false;
-  attemptCount = 0;
-
-  // Animate card
-  const card = document.getElementById('questionCard');
-  card.classList.remove('exit');
-  void card.offsetWidth; // reflow
-  card.style.animation = 'none';
-  void card.offsetWidth;
-  card.style.animation = '';
-}
-
-/* ================================================================
-   ANSWER COMPARISON
-================================================================ */
-function checkAnswerCorrect(userAnswer, referenceAnswers) {
-  function normalize(s) {
-    return s
-      .toLowerCase()
-      .replace(/[.,!?。，！？；：、「」『』【】《》〈〉“”‘’()（）…—]/g, '')
-      .replace(/\s+/g, ' ')
-      .trim();
-  }
-  function isCJK(c) {
-    const code = c.codePointAt(0);
-    return (code >= 0x4E00 && code <= 0x9FFF) || (code >= 0x3400 && code <= 0x4DBF);
-  }
-  const userNorm = normalize(userAnswer);
-  if (!userNorm) return false;
-
-  return referenceAnswers.some(ref => {
-    const refNorm = normalize(ref);
-    if (userNorm === refNorm) return true;
-
-    const refCJK = [...refNorm].filter(isCJK);
-    if (refCJK.length > 0) {
-      // Chinese answer: check that user has all (or nearly all) reference CJK chars
-      const userCJKSet = new Set([...userNorm].filter(isCJK));
-      const missing = refCJK.filter(c => !userCJKSet.has(c));
-      const tolerance = Math.ceil(refCJK.length * 0.15); // allow 15% missing
-      return missing.length <= tolerance;
+      saveSheet(selectedLevel, selectedDirection, questionSuffSheet, currentPosInSheet);
+      setupPracticeUI();
+      showQuestion();
     }
 
-    // Vietnamese / Latin: word-level match (80% threshold)
-    const refWords = refNorm.split(' ').filter(Boolean);
-    const userWordsSet = new Set(userNorm.split(' ').filter(Boolean));
-    if (!refWords.length) return false;
-    const matched = refWords.filter(w => userWordsSet.has(w)).length;
-    return matched / refWords.length >= 0.80;
-  });
-}
+    function goBack() {
+      showScreen('setup');
+      updateSessionHint();
+    }
 
-/* ================================================================
-   CHECK ANSWER
-================================================================ */
-function checkAnswer() {
-  if (isAnswerShown) return;
+    /* ================================================================
+       SCREEN SWITCHER
+    ================================================================ */
+    function showScreen(name) {
+      document.getElementById('screen-loading').classList.remove('active');
+      document.getElementById('screen-setup').style.display = 'none';
+      document.getElementById('screen-practice').classList.remove('active');
+      document.getElementById('screen-done').classList.remove('active');
 
-  const textarea = document.getElementById('answerInput');
-  const userAnswer = textarea.value.trim();
+      if (name === 'loading') {
+        document.getElementById('screen-loading').classList.add('active');
+      } else if (name === 'setup') {
+        document.getElementById('screen-setup').style.display = 'block';
+      } else if (name === 'practice') {
+        document.getElementById('screen-practice').classList.add('active');
+      } else if (name === 'done') {
+        const done = document.getElementById('screen-done');
+        done.classList.add('active');
+        done.querySelector('#doneSubText').textContent =
+          `Bạn đã luyện xong ${questionSuffSheet.length} câu trong vòng này. Nhấn "Luyện tập tiếp" để tạo thứ tự mới và tiếp tục!`;
+      }
+    }
 
-  // Empty answer — shake textarea
-  if (!userAnswer) {
-    textarea.classList.remove('shake');
-    void textarea.offsetWidth;
-    textarea.classList.add('shake');
-    setTimeout(() => textarea.classList.remove('shake'), 500);
-    return;
-  }
+    /* ================================================================
+       HINT FUNCTION
+    ================================================================ */
+    function showHint() {
+      const idx = questionSuffSheet[currentPosInSheet];
+      const q = exercises[idx];
+      const hint = q.referenceAnswers[0] || '';
+      const textarea = document.getElementById('answerInput');
+      textarea.placeholder = hint;
+      textarea.focus();
+      const btn = document.getElementById('btnHint');
+      btn.textContent = '💡 Đang hiện gợi ý';
+      btn.disabled = true;
+    }
 
-  const idx = questionSuffSheet[currentPosInSheet];
-  const q = exercises[idx];
-  const isCorrect = checkAnswerCorrect(userAnswer, q.referenceAnswers);
+    /* ================================================================
+       VOCABULARY CARD POPUP
+    ================================================================ */
+    function openVocabCard(chinese) {
+      if (typeof vocabularyData === 'undefined') return;
 
-  if (isCorrect) {
-    // --- CORRECT ---
-    isAnswerShown = true;
-    document.getElementById('wrongPanel').classList.remove('visible');
-    document.getElementById('correctPanel').classList.add('visible');
-    textarea.disabled = true;
-    document.getElementById('btnCheck').style.display = 'none';
-    document.getElementById('btnHint').disabled = true;
-    // Auto-advance after 1.3s
-    setTimeout(() => nextQuestion(), 1300);
-  } else {
-    // --- WRONG ---
-    attemptCount++;
-    const wrongPanel = document.getElementById('wrongPanel');
-    const wrongText = document.getElementById('wrongPanelText');
-    const attemptEl = document.getElementById('wrongAttemptCount');
+      const matches = vocabularyData.filter(w => w.chinese === chinese);
 
-    // Vary message slightly after multiple attempts
-    if (attemptCount === 1) wrongText.textContent = 'Chưa đúng! Hãy thử lại…';
-    else if (attemptCount === 2) wrongText.textContent = 'Vẫn chưa đúng, thử lại nhé!';
-    else wrongText.textContent = 'Có thể dùng gợi ý để xem đáp án!';
+      const overlay = document.getElementById('vocabOverlay');
+      const vcChinese = document.getElementById('vcChinese');
+      const vcPinyin = document.getElementById('vcPinyin');
+      const vcLevelWrap = document.getElementById('vcLevelWrap');
+      const vcEntries = document.getElementById('vcEntries');
 
-    attemptEl.textContent = `Lần ${attemptCount}`;
+      vcChinese.textContent = chinese;
 
-    // Remove & re-add for re-animation
-    wrongPanel.classList.remove('visible');
-    void wrongPanel.offsetWidth;
-    wrongPanel.classList.add('visible');
+      if (matches.length === 0) {
+        vcPinyin.textContent = '';
+        vcLevelWrap.innerHTML = '';
+        vcEntries.innerHTML = `<div class="vocab-not-found">Không tìm thấy từ "${escapeHtml(chinese)}" trong từ điển.</div>`;
+      } else {
+        // Pinyin: take first unique
+        vcPinyin.textContent = matches[0].pinyin || '';
 
-    // Shake textarea
-    textarea.classList.remove('shake');
-    void textarea.offsetWidth;
-    textarea.classList.add('shake');
-    setTimeout(() => textarea.classList.remove('shake'), 450);
+        // Level badge
+        const level = matches[0].level || '';
+        const levelColors = { A1: '#10b981', A2: '#3b82f6', B1: '#f59e0b', B2: '#06b6d4' };
+        const lc = levelColors[level] || '#7c3aed';
+        vcLevelWrap.innerHTML = `<span class="vocab-level-badge" style="background:${lc}22;color:${lc};border:1px solid ${lc}44;">Band ${level}</span>`;
 
-    // Keep focus so user can correct their answer
-    textarea.focus();
-    textarea.select();
-  }
-}
-
-function escapeHtml(str) {
-  return String(str)
-    .replace(/&/g, '&amp;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;')
-    .replace(/"/g, '&quot;')
-    .replace(/'/g, '&#39;');
-}
-
-/* ================================================================
-   NAVIGATION
-================================================================ */
-function nextQuestion() {
-  currentPosInSheet++;
-  saveSheet(selectedLevel, selectedDirection, questionSuffSheet, currentPosInSheet);
-
-  const card = document.getElementById('questionCard');
-  card.classList.add('exit');
-  setTimeout(() => {
-    card.classList.remove('exit');
-    showQuestion();
-  }, 280);
-}
-
-function skipQuestion() {
-  // Move current question to end of remaining sheet so it appears later
-  if (currentPosInSheet < questionSuffSheet.length - 1) {
-    const skipped = questionSuffSheet.splice(currentPosInSheet, 1)[0];
-    questionSuffSheet.push(skipped);
-    saveSheet(selectedLevel, selectedDirection, questionSuffSheet, currentPosInSheet);
-  } else {
-    // Last question, just advance (will trigger done)
-    currentPosInSheet++;
-    saveSheet(selectedLevel, selectedDirection, questionSuffSheet, currentPosInSheet);
-  }
-
-  isAnswerShown = false;
-  const card = document.getElementById('questionCard');
-  card.classList.add('exit');
-  setTimeout(() => {
-    card.classList.remove('exit');
-    showQuestion();
-  }, 280);
-}
-
-function restartSession() {
-  // New shuffle, reset pos
-  questionSuffSheet = shuffle(exercises.map((_, i) => i));
-  currentPosInSheet = 0;
-  saveSheet(selectedLevel, selectedDirection, questionSuffSheet, currentPosInSheet);
-  setupPracticeUI();
-  showQuestion();
-}
-
-function goBack() {
-  showScreen('setup');
-  updateSessionHint();
-}
-
-/* ================================================================
-   SCREEN SWITCHER
-================================================================ */
-function showScreen(name) {
-  document.getElementById('screen-loading').classList.remove('active');
-  document.getElementById('screen-setup').style.display = 'none';
-  document.getElementById('screen-practice').classList.remove('active');
-  document.getElementById('screen-done').classList.remove('active');
-
-  if (name === 'loading') {
-    document.getElementById('screen-loading').classList.add('active');
-  } else if (name === 'setup') {
-    document.getElementById('screen-setup').style.display = 'block';
-  } else if (name === 'practice') {
-    document.getElementById('screen-practice').classList.add('active');
-  } else if (name === 'done') {
-    const done = document.getElementById('screen-done');
-    done.classList.add('active');
-    done.querySelector('#doneSubText').textContent =
-      `Bạn đã luyện xong ${questionSuffSheet.length} câu trong vòng này. Nhấn "Luyện tập tiếp" để tạo thứ tự mới và tiếp tục!`;
-  }
-}
-
-/* ================================================================
-   HINT FUNCTION
-================================================================ */
-function showHint() {
-  const idx = questionSuffSheet[currentPosInSheet];
-  const q = exercises[idx];
-  const hint = q.referenceAnswers[0] || '';
-  const textarea = document.getElementById('answerInput');
-  textarea.placeholder = hint;
-  textarea.focus();
-  const btn = document.getElementById('btnHint');
-  btn.textContent = '💡 Đang hiện gợi ý';
-  btn.disabled = true;
-}
-
-/* ================================================================
-   VOCABULARY CARD POPUP
-================================================================ */
-function openVocabCard(chinese) {
-  if (typeof vocabularyData === 'undefined') return;
-
-  const matches = vocabularyData.filter(w => w.chinese === chinese);
-
-  const overlay = document.getElementById('vocabOverlay');
-  const vcChinese = document.getElementById('vcChinese');
-  const vcPinyin = document.getElementById('vcPinyin');
-  const vcLevelWrap = document.getElementById('vcLevelWrap');
-  const vcEntries = document.getElementById('vcEntries');
-
-  vcChinese.textContent = chinese;
-
-  if (matches.length === 0) {
-    vcPinyin.textContent = '';
-    vcLevelWrap.innerHTML = '';
-    vcEntries.innerHTML = `<div class="vocab-not-found">Không tìm thấy từ "${escapeHtml(chinese)}" trong từ điển.</div>`;
-  } else {
-    // Pinyin: take first unique
-    vcPinyin.textContent = matches[0].pinyin || '';
-
-    // Level badge
-    const level = matches[0].level || '';
-    const levelColors = { A1: '#10b981', A2: '#3b82f6', B1: '#f59e0b', B2: '#06b6d4' };
-    const lc = levelColors[level] || '#7c3aed';
-    vcLevelWrap.innerHTML = `<span class="vocab-level-badge" style="background:${lc}22;color:${lc};border:1px solid ${lc}44;">Band ${level}</span>`;
-
-    // Entries (multiple POS)
-    vcEntries.innerHTML = '';
-    matches.forEach(m => {
-      const entry = document.createElement('div');
-      entry.className = 'vocab-entry';
-      entry.innerHTML = `
+        // Entries (multiple POS)
+        vcEntries.innerHTML = '';
+        matches.forEach(m => {
+          const entry = document.createElement('div');
+          entry.className = 'vocab-entry';
+          entry.innerHTML = `
         <span class="vocab-pos">${escapeHtml(m.part_of_speech || '?')}</span>
         <span class="vocab-meaning">${escapeHtml(m.meaning || '')}</span>
       `;
-      vcEntries.appendChild(entry);
-    });
-  }
+          vcEntries.appendChild(entry);
+        });
+      }
 
-  overlay.classList.add('open');
-  document.body.style.overflow = 'hidden';
-}
+      overlay.classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
 
-function closeVocabCard(e) {
-  if (e && e.target !== document.getElementById('vocabOverlay')) return;
-  document.getElementById('vocabOverlay').classList.remove('open');
-  document.body.style.overflow = '';
-}
-
-document.addEventListener('keydown', function(e) {
-  // Escape: close vocab popup
-  if (e.key === 'Escape') {
-    const overlay = document.getElementById('vocabOverlay');
-    if (overlay.classList.contains('open')) {
-      overlay.classList.remove('open');
+    function closeVocabCard(e) {
+      if (e && e.target !== document.getElementById('vocabOverlay')) return;
+      document.getElementById('vocabOverlay').classList.remove('open');
       document.body.style.overflow = '';
-      return;
     }
-  }
 
-  if (!document.getElementById('screen-practice').classList.contains('active')) return;
-  if (document.getElementById('vocabOverlay').classList.contains('open')) return;
+    document.addEventListener('keydown', function (e) {
+      // Escape: close vocab popup
+      if (e.key === 'Escape') {
+        const overlay = document.getElementById('vocabOverlay');
+        if (overlay.classList.contains('open')) {
+          overlay.classList.remove('open');
+          document.body.style.overflow = '';
+          return;
+        }
+      }
 
-  // Enter in textarea (not Shift+Enter) → check answer
-  if (e.key === 'Enter' && !e.shiftKey) {
-    const focused = document.activeElement;
-    if (focused && focused.id === 'answerInput' && !isAnswerShown) {
-      e.preventDefault();
-      checkAnswer();
+      if (!document.getElementById('screen-practice').classList.contains('active')) return;
+      if (document.getElementById('vocabOverlay').classList.contains('open')) return;
+
+      // Enter in textarea (not Shift+Enter) → check answer
+      if (e.key === 'Enter' && !e.shiftKey) {
+        const focused = document.activeElement;
+        if (focused && focused.id === 'answerInput' && !isAnswerShown) {
+          e.preventDefault();
+          checkAnswer();
+        }
+      }
+    });
+
+    /* ================================================================
+       INIT
+    ================================================================ */
+    // Parse URL config
+    const urlParams = new URLSearchParams(window.location.search);
+    const initialLevel = urlParams.get('level');
+
+    // Start on setup screen
+    showScreen('setup');
+
+    // Pre-select level if provided in URL
+    if (initialLevel && ['A1', 'A2', 'B1', 'B2'].includes(initialLevel.toUpperCase())) {
+      selectLevel(initialLevel.toUpperCase());
     }
-  }
-});
-
-/* ================================================================
-   INIT
-================================================================ */
-// Parse URL config
-const urlParams = new URLSearchParams(window.location.search);
-const initialLevel = urlParams.get('level');
-
-// Start on setup screen
-showScreen('setup');
-
-// Pre-select level if provided in URL
-if (initialLevel && ['A1', 'A2', 'B1', 'B2'].includes(initialLevel.toUpperCase())) {
-  selectLevel(initialLevel.toUpperCase());
-}
-</script>
+  </script>
 </body>
+
 </html>

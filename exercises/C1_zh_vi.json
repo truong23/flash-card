@@ -1,0 +1,30 @@
+[
+  {
+    "level": "C1",
+    "direction": "zh_vi",
+    "sourceText": "在全球化的浪潮中，跨國企業必須具備敏銳的市場洞察力以應對瞬息萬變的競爭格局。",
+    "referenceAnswers": ["Trong làn sóng toàn cầu hóa, các doanh nghiệp đa quốc gia phải có khả năng hiểu biết sâu sắc về thị trường để đối phó với cục diện cạnh tranh biến đổi không ngừng."],
+    "keywords": ["全球化", "浪潮", "洞察力", "格局"]
+  },
+  {
+    "level": "C1",
+    "direction": "zh_vi",
+    "sourceText": "這部文學鉅作深刻剖析了人性的複雜與社會底層的無奈。",
+    "referenceAnswers": ["Tuyệt tác văn học này đã mổ xẻ sâu sắc sự phức tạp của nhân tính và sự vất vả bất lực của đáy xã hội."],
+    "keywords": ["鉅作", "深刻", "剖析", "人性"]
+  },
+  {
+    "level": "C1",
+    "direction": "zh_vi",
+    "sourceText": "氣候變遷所引發的極端氣候現象，對人類生存環境構成了前所未有的威脅。",
+    "referenceAnswers": ["Các hiện tượng thời tiết cực đoan do biến đổi khí hậu gây ra đã và đang tạo thành mối đe dọa chưa từng có đối với môi trường sống của nhân loại."],
+    "keywords": ["氣候變遷", "極端", "現象", "威脅"]
+  },
+  {
+    "level": "C1",
+    "direction": "zh_vi",
+    "sourceText": "政府的宏觀調控措施旨在穩定物價並促進經濟的永續發展。",
+    "referenceAnswers": ["Biện pháp điều tiết vĩ mô của chính phủ nhằm mục đích ổn định vật giá và thúc đẩy kinh tế phát triển bền vững."],
+    "keywords": ["宏觀", "調控", "措施", "永續發展"]
+  }
+]
