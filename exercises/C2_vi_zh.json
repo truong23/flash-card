@@ -1,0 +1,30 @@
+[
+  {
+    "level": "C2",
+    "direction": "vi_zh",
+    "sourceText": "Mặc dù phải đối mặt với vô vàn những chỉ trích gay gắt, nhà khoa học đó vẫn giữ vững lập trường học thuật của mình một cách kiên định.",
+    "referenceAnswers": ["儘管面臨著鋪天蓋地的嚴厲指責，那位科學家依然堅定不移地堅守著自己的學術立場。"],
+    "keywords": ["鋪天蓋地", "指責", "堅定不移", "堅守", "立場"]
+  },
+  {
+    "level": "C2",
+    "direction": "vi_zh",
+    "sourceText": "Nghệ thuật đích thực không chỉ là việc mô phỏng hiện thực một cách máy móc, mà còn phải truyền tải được những rung cảm tinh tế thẳm sâu trong tâm hồn.",
+    "referenceAnswers": ["真正的藝術不僅僅是對現實的生搬硬套，更要能夠傳遞出靈魂深處那細膩的共鳴。"],
+    "keywords": ["生搬硬套", "傳遞", "靈魂", "細膩", "共鳴"]
+  },
+  {
+    "level": "C2",
+    "direction": "vi_zh",
+    "sourceText": "Tác phẩm này đã phản ánh một cách chân thực và sâu sắc bức tranh toàn cảnh về những biến động dữ dội của xã hội trong giai đoạn tranh tối tranh sáng đó.",
+    "referenceAnswers": ["這部作品真實而深刻地反映了在那個新舊交替的動盪時期社會全貌的波瀾壯闊。"],
+    "keywords": ["深刻", "新舊交替", "動盪", "波瀾壯闊", "全貌"]
+  },
+  {
+    "level": "C2",
+    "direction": "vi_zh",
+    "sourceText": "Những quy định pháp lý này cần được diễn giải một cách chặt chẽ và nhất quán, để không tạo ra những kẽ hở cho những hành vi trục lợi cá nhân.",
+    "referenceAnswers": ["這些法律法規需要被嚴密且連貫地解讀，以免為那些徇私舞弊的行為留下可乘之機。"],
+    "keywords": ["嚴密", "連貫", "解讀", "徇私舞弊", "可乘之機"]
+  }
+]

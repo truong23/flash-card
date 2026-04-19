@@ -1,0 +1,30 @@
+[
+  {
+    "level": "C1",
+    "direction": "vi_zh",
+    "sourceText": "Việc bảo tồn các di sản văn hóa phi vật thể đòi hỏi sự chung tay của toàn xã hội.",
+    "referenceAnswers": ["非物質文化遺產的保護需要全社會的共同努力。"],
+    "keywords": ["非物質", "遺產", "保護", "社會"]
+  },
+  {
+    "level": "C1",
+    "direction": "vi_zh",
+    "sourceText": "Sự thiếu hụt nguồn nhân lực chất lượng cao đang là một nút thắt cản trở sự phát triển của công ty.",
+    "referenceAnswers": ["高素質人力資源的短缺正成為阻礙公司發展的瓶頸。"],
+    "keywords": ["素質", "資源", "短缺", "瓶頸"]
+  },
+  {
+    "level": "C1",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta cần nhìn nhận vấn đề một cách khách quan và toàn diện thay vì chỉ dựa vào cảm tính.",
+    "referenceAnswers": ["我們需要客觀、全面地看待問題，而不是僅僅依靠感性。"],
+    "keywords": ["客觀", "全面", "感性"]
+  },
+  {
+    "level": "C1",
+    "direction": "vi_zh",
+    "sourceText": "Chính sách đối ngoại độc lập, tự chủ đã giúp nâng cao vị thế của quốc gia trên trường quốc tế.",
+    "referenceAnswers": ["獨立自主的外交政策有助於提升國家在國際舞臺上的地位。"],
+    "keywords": ["獨立", "自主", "外交", "地位"]
+  }
+]

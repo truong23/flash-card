@@ -1,0 +1,86 @@
+[
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Mặc dù mệt nhưng tôi vẫn tiếp tục học.",
+    "referenceAnswers": ["雖然很累，但是我還是繼續學習。"],
+    "keywords": ["雖然", "繼續", "學習"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Cuối tuần này bạn có đi du lịch không?",
+    "referenceAnswers": ["這個週末你有沒有去旅遊？"],
+    "keywords": ["週末", "旅遊"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi thấy học tiếng Trung khá khó.",
+    "referenceAnswers": ["我覺得學中文比較難。"],
+    "keywords": ["覺得", "中文", "難"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy đã mua vé máy bay rồi.",
+    "referenceAnswers": ["他已經買了機票了。"],
+    "keywords": ["已經", "機票"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Bạn có thể đến sớm hơn không?",
+    "referenceAnswers": ["你能早一點來嗎？"],
+    "keywords": ["能", "早"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi thường dậy sớm vào mỗi buổi sáng.",
+    "referenceAnswers": ["我每天早上都很早起床。"],
+    "keywords": ["每天", "早上", "起床"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tiếng Trung của bạn ngày càng giỏi hơn.",
+    "referenceAnswers": ["你的中文越來越好了。"],
+    "keywords": ["中文", "越來越"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi đặt sách vào trong túi.",
+    "referenceAnswers": ["我把書放在袋子裡。"],
+    "keywords": ["把", "書", "袋子"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Con đường này rất nguy hiểm.",
+    "referenceAnswers": ["這條路很危險。"],
+    "keywords": ["路", "危險"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy là người rất tốt bụng.",
+    "referenceAnswers": ["他是一個非常善良的人。"],
+    "keywords": ["非常", "善良"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi muốn đặt phòng khách sạn.",
+    "referenceAnswers": ["我想訂一間飯店的房間。"],
+    "keywords": ["訂", "飯店", "房間"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Bây giờ là mấy giờ rồi?",
+    "referenceAnswers": ["現在幾點了？"],
+    "keywords": ["現在", "幾點"]
+  }
+]

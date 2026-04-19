@@ -1,0 +1,86 @@
+[
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我喜歡喝茶。",
+    "referenceAnswers": ["Tôi thích uống trà."],
+    "keywords": ["喜歡", "茶"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他的爸爸在辦公室工作。",
+    "referenceAnswers": ["Bố của anh ấy làm việc ở văn phòng."],
+    "keywords": ["爸爸", "辦公室"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "今天天氣非常好，我們去公園吧！",
+    "referenceAnswers": ["Hôm nay thời tiết rất tốt, chúng ta đi công viên nhé!"],
+    "keywords": ["今天", "非常", "公園"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "她在餐廳吃飯。",
+    "referenceAnswers": ["Cô ấy ăn cơm ở nhà hàng."],
+    "keywords": ["餐廳", "吃飯"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這本書多少錢？",
+    "referenceAnswers": ["Quyển sách này bao nhiêu tiền?"],
+    "keywords": ["本", "多少"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我有一個弟弟和一個妹妹。",
+    "referenceAnswers": ["Tôi có một em trai và một em gái."],
+    "keywords": ["弟弟", "妹妹"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他常常打電話給朋友。",
+    "referenceAnswers": ["Anh ấy thường xuyên gọi điện cho bạn bè."],
+    "keywords": ["常常", "打電話", "朋友"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "飛機幾點到？",
+    "referenceAnswers": ["Máy bay đến mấy giờ?"],
+    "keywords": ["飛機", "點", "到"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我的房間很乾淨。",
+    "referenceAnswers": ["Phòng của tôi rất sạch sẽ."],
+    "keywords": ["房間", "乾淨"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "對不起，我來晚了。",
+    "referenceAnswers": ["Xin lỗi, tôi đến muộn rồi."],
+    "keywords": ["對不起"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他比我高。",
+    "referenceAnswers": ["Anh ấy cao hơn tôi."],
+    "keywords": ["比", "高"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我想去大學學習中文。",
+    "referenceAnswers": ["Tôi muốn đến đại học học tiếng Trung."],
+    "keywords": ["大學", "中文"]
+  }
+]

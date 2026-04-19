@@ -263,10 +263,37 @@
             padding-bottom: 10px;
             border-bottom: 2px solid #eee;
           display: flex;
-          justify-content: space-between;
           align-items: center;
           gap: 16px;
           flex-wrap: wrap;
+        }
+
+        .level-header-title {
+          flex: 1;
+          display: flex;
+          align-items: center;
+          gap: 12px;
+        }
+
+        .btn-practice-inline {
+          display: inline-flex;
+          align-items: center;
+          gap: 6px;
+          padding: 6px 14px;
+          background: #f1f5f9;
+          color: #3b82f6;
+          border: 1px solid #cbd5e1;
+          border-radius: 100px;
+          font-size: 0.85rem;
+          font-weight: 700;
+          text-decoration: none;
+          transition: all 0.2s ease;
+        }
+        .btn-practice-inline:hover {
+          background: #3b82f6;
+          color: white;
+          border-color: #3b82f6;
+          transform: translateY(-1px);
         }
 
         .words-grid {
@@ -895,8 +922,13 @@
           const partTitle = sectionData.isMultiPart ? ` - Phần ${sectionData.part}` : '';
           section.innerHTML = `
             <h2 class="level-header">
-              <span style="border-left: 4px solid var(--level-accent); padding-left: 10px;">TOCFL ${sectionData.level}${partTitle}</span>
-              <span style="color: #64748b; font-size: 0.92rem; font-weight: 600;">${sectionData.words.length} thẻ</span>
+              <div class="level-header-title">
+                <span style="border-left: 4px solid var(--level-accent); padding-left: 10px;">TOCFL ${sectionData.level}${partTitle}</span>
+                <span style="color: #64748b; font-size: 0.92rem; font-weight: 600;">${sectionData.words.length} thẻ</span>
+              </div>
+              <a href="practice.html?level=${sectionData.level}" class="btn-practice-inline" title="Luyện tập từ vựng phần này">
+                🎯 Luyện tập
+              </a>
             </h2>
             <div class="words-grid">
               ${buildSectionStatusMarkup()}

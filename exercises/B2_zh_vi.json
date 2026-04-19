@@ -1,0 +1,86 @@
+[
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "面對日益嚴峻的環境問題，我們必須採取有效措施加以應對。",
+    "referenceAnswers": ["Đối mặt với vấn đề môi trường ngày càng nghiêm trọng, chúng ta phải áp dụng các biện pháp hiệu quả để ứng phó."],
+    "keywords": ["環境", "問題", "措施", "應對"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "這項政策的實施對於促進地區經濟發展具有深遠意義。",
+    "referenceAnswers": ["Việc thực thi chính sách này có ý nghĩa sâu xa đối với việc thúc đẩy phát triển kinh tế khu vực."],
+    "keywords": ["政策", "實施", "經濟", "發展", "意義"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "他在談判中展現出了卓越的外交技巧。",
+    "referenceAnswers": ["Anh ấy đã thể hiện kỹ năng ngoại giao xuất sắc trong cuộc đàm phán."],
+    "keywords": ["談判", "卓越", "外交"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "文化多樣性是人類社會的重要財富，應該被尊重與保護。",
+    "referenceAnswers": ["Đa dạng văn hóa là tài sản quan trọng của xã hội loài người, cần được tôn trọng và bảo vệ."],
+    "keywords": ["文化", "多樣性", "社會", "尊重", "保護"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "這位學者的研究成果在學術界引起了廣泛關注。",
+    "referenceAnswers": ["Kết quả nghiên cứu của học giả này đã thu hút sự chú ý rộng rãi trong giới học thuật."],
+    "keywords": ["學者", "研究", "學術"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "人工智能的快速發展既帶來了機遇，也帶來了挑戰。",
+    "referenceAnswers": ["Sự phát triển nhanh chóng của trí tuệ nhân tạo vừa mang lại cơ hội, vừa mang lại thách thức."],
+    "keywords": ["人工智能", "發展", "機遇", "挑戰"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "她憑藉著頑強的意志力克服了重重困難，最終實現了夢想。",
+    "referenceAnswers": ["Nhờ ý chí kiên cường, cô ấy đã vượt qua muôn vàn khó khăn và cuối cùng thực hiện được ước mơ."],
+    "keywords": ["意志力", "克服", "困難", "夢想"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "在全球化背景下，跨文化溝通能力顯得尤為重要。",
+    "referenceAnswers": ["Trong bối cảnh toàn cầu hóa, năng lực giao tiếp liên văn hóa trở nên đặc biệt quan trọng."],
+    "keywords": ["全球化", "文化", "溝通"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "市場競爭加劇使企業不得不提升自身的核心競爭力。",
+    "referenceAnswers": ["Cạnh tranh thị trường gay gắt khiến các doanh nghiệp buộc phải nâng cao năng lực cạnh tranh cốt lõi."],
+    "keywords": ["市場", "競爭", "企業"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "這項改革措施的推行有助於提高政府的行政效率。",
+    "referenceAnswers": ["Việc thúc đẩy biện pháp cải cách này giúp nâng cao hiệu quả hành chính của chính phủ."],
+    "keywords": ["改革", "措施", "政府", "效率"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "教育是一個國家長遠發展的基石。",
+    "referenceAnswers": ["Giáo dục là nền tảng cho sự phát triển lâu dài của một quốc gia."],
+    "keywords": ["教育", "國家", "發展"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "創新思維是推動社會進步的核心動力。",
+    "referenceAnswers": ["Tư duy sáng tạo là động lực cốt lõi thúc đẩy tiến bộ xã hội."],
+    "keywords": ["創新", "思維", "社會", "進步"]
+  }
+]

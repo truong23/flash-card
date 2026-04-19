@@ -1,0 +1,30 @@
+[
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "即便在錯綜複雜的國際地緣政治博弈中，該國依然能夠游刃有餘地維護自身的核心利益。",
+    "referenceAnswers": ["Ngay cả trong các cuộc cạnh tranh địa chính trị quốc tế phức tạp và chằng chịt, quốc gia đó vẫn có thể khéo léo duy trì các lợi ích cốt lõi của mình một cách dư dả."],
+    "keywords": ["錯綜複雜", "地緣政治", "博弈", "游刃有餘"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "哲學的終極追問並非尋求一個確切的答案，而是為了不斷拓寬人類思維的邊界與深度。",
+    "referenceAnswers": ["Câu hỏi tận cùng của triết học không phải là tìm kiếm một câu trả lời chính xác, mà là để không ngừng mở rộng ranh giới và chiều sâu của tư duy nhân loại."],
+    "keywords": ["終極", "追問", "確切", "拓寬", "邊界"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "這篇文章旁徵博引，以極具邏輯性的論證駁斥了那些似是而非的荒謬觀點。",
+    "referenceAnswers": ["Bài viết này đã tổng hợp nhiều nguồn tài liệu phong phú, sử dụng các lập luận mang tính logic cao để bác bỏ những quan điểm hoang đường có vẻ đúng nhưng thực chất lại sai."],
+    "keywords": ["旁徵博引", "論證", "駁斥", "似是而非", "荒謬"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "歷史的洪流滾滾向前，任何企圖開歷史倒車的行徑終將被時代所唾棄。",
+    "referenceAnswers": ["Dòng chảy của lịch sử cuồn cuộn tiến về phía trước, bất cứ hành vi nào có ý định thụt lùi bánh xe lịch sử cuối cùng cũng sẽ bị thời đại ruồng bỏ."],
+    "keywords": ["洪流", "企圖", "倒車", "行徑", "唾棄"]
+  }
+]
