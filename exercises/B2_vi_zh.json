@@ -2,145 +2,1041 @@
   {
     "level": "B2",
     "direction": "vi_zh",
-    "sourceText": "Đối mặt với những thách thức môi trường ngày càng nghiêm trọng, chúng ta cần hành động ngay.",
+    "sourceText": "Mặc dù bối cảnh kinh tế toàn cầu đang rất khắc nghiệt, doanh nghiệp này vẫn đạt được sự tăng trưởng ngược dòng.",
     "referenceAnswers": [
-      "面對日益嚴峻的環境挑戰，我們需要立刻採取行動。",
-      "面对日益严峻的环境挑战，我们需要立刻采取行动。",
-      "隨著環境威脅的不斷加劇，當務之急是付諸行動。",
-      "我們必須即刻行動，以應對愈發嚴重的生態考驗。"
+      "儘管全球經濟形勢嚴峻，該企業仍實現了逆勢增長。",
+      "雖然全球經濟狀況不好，這家公司還是取得了逆勢成長。",
+      "儘管世界經濟面臨嚴峻挑戰，該公司依然實現了逆勢增產。",
+      "在全球經濟形勢非常糟糕的情況下，該企業依然實現了增長。",
+      "儘管全球經濟不景氣，該企業仍憑藉實力實現了逆勢增長。"
     ],
-    "keywords": ["環境", "挑戰", "採取", "行動"]
+    "keywords": ["經濟形勢", "嚴峻", "逆勢增長"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
-    "sourceText": "Chính sách mới này đã thúc đẩy sự phát triển kinh tế của khu vực.",
+    "sourceText": "Việc đào tạo nhân tài đa lĩnh vực đã trở thành một trong những mục tiêu quan trọng hàng đầu của cải cách giáo dục hiện nay.",
     "referenceAnswers": [
-      "這項新政策推動了該地區的經濟發展。",
-      "这项新政策推动了该地区的经济发展。",
-      "新出台的政策有效帶動了當地的經濟成長。",
-      "該區域的經濟進步得益於這套新制定的政策。"
+      "培養跨領域的人才已成為當前高等教育改革的重要目標之一。",
+      "培訓多方面的人才是目前教育改革的主要目標。",
+      "跨學科人才的培養是現在高等教育改革的重點之一。",
+      "發展跨領域人才已成為現今高等教育改革的關鍵目標。",
+      "目前的高等教育改革，將培養跨領域人才視為重要任務。"
     ],
-    "keywords": ["政策", "經濟", "發展"]
+    "keywords": ["跨領域", "人才", "教育改革"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
-    "sourceText": "Trong cuộc đàm phán, anh ấy đã thể hiện kỹ năng ngoại giao tuyệt vời.",
+    "sourceText": "Để đối phó hiệu quả với biến đổi khí hậu, các quốc gia phải đạt được sự đồng thuận quốc tế rộng rãi hơn.",
     "referenceAnswers": [
-      "在談判中，他展現出了卓越的外交技巧。",
-      "在谈判中，他展现出了卓越的外交技巧。",
-      "協商過程中，其精湛的交涉能力令人印象深刻。",
-      "他於談判桌上發揮了優異的外交手腕。"
+      "為了有效應對氣候變化，各國必須達成更為廣泛的國際共識。",
+      "為了有效地處理氣候變遷，國際間需要達成更廣泛的共識。",
+      "各國必須建立廣泛的國際共識，以有效應對氣候變化問題。",
+      "應對氣候變化需要各國達成一致且廣泛的國際共識。",
+      "為了應對氣候危機，世界各國必須達成廣泛的國際共識。"
     ],
-    "keywords": ["談判", "卓越", "外交", "技巧"]
+    "keywords": ["應對", "氣候變化", "國際共識"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
-    "sourceText": "Đa dạng văn hóa cần được tôn trọng trong xã hội hiện đại.",
+    "sourceText": "Nghiên cứu của anh ấy đi sâu thảo luận về những xung đột giữa trí tuệ nhân tạo và đạo đức xã hội.",
     "referenceAnswers": [
-      "文化多樣性在現代社會應該受到尊重。",
-      "文化多样性在现代社会应该受到尊重。",
-      "當今社會應當對多元文化持接納與尊重的態度。",
-      "保障社會內部的文化多樣性是極為重要的。"
+      "他的研究深刻探討了人工智慧與倫理道德的糾結與衝突。",
+      "他的論文深入討論了人工智慧與社會倫理之間的矛盾。",
+      "研究中深刻分析了人工智能與道德倫理的對立與衝突。",
+      "他深刻地探究了人工智慧在倫理道德方面引發的爭議。",
+      "該研究深入探討了AI技術與傳統倫理道德的衝突點。"
     ],
-    "keywords": ["文化", "多樣性", "現代", "社會", "尊重"]
+    "keywords": ["探討", "人工智慧", "倫理道德"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
-    "sourceText": "Kết quả nghiên cứu của ông đã tạo ra tác động lớn trong lĩnh vực khoa học.",
+    "sourceText": "Kết quả chính của cuộc họp lần này là xác lập được khung chiến lược chuyển đổi số cho công ty.",
     "referenceAnswers": [
-      "他的研究成果在科學領域產生了重大影響。",
-      "他的研究成果在科学领域产生了重大影响。",
-      "其研究發現對學術界造成了深遠的衝擊。",
-      "他在科學探索上的產出引起了廣泛關注。"
+      "這場會議的主要成果在於確立了公司的數字化轉型戰略框架。",
+      "會議最重要的成果是制定了公司轉型數字化的戰略框架。",
+      "本次會議確立了公司未來數字化轉型的戰略大綱。",
+      "確立數字化轉型戰略框架是這次會議取得的核心成果。",
+      "這次會議的主要目的在於確立數字化轉型的戰略執行框架。"
     ],
-    "keywords": ["研究", "成果", "科學", "影響"]
+    "keywords": ["成果", "數字化轉型", "戰略框架"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
-    "sourceText": "Trí tuệ nhân tạo đang thay đổi cách con người làm việc và học tập.",
+    "sourceText": "Công nghệ dữ liệu lớn đang thay đổi sâu sắc mô hình quản lý chuỗi cung ứng của ngành bán lẻ.",
     "referenceAnswers": [
-      "人工智能正在改變人們工作和學習的方式。",
-      "人工智能正在改变人们工作和学习的方式。",
-      "AI技術正重塑著大眾的職涯與教育模式。",
-      "智能技術的普及正革新著傳統的工作學習路徑。"
+      "大數據技術正在深刻地改變著零售業的供應鏈管理模式。",
+      "數據大技術的應用深刻地影響了零售業的供應鏈管理。",
+      "大數據正在根本上改變零售業對於供應鏈的管理方式。",
+      "由於大數據技術，零售業的供應鏈管理模式發生了劇變。",
+      "大數據技術的廣泛應用，重塑了零售業的供應鏈管理。"
     ],
-    "keywords": ["人工智能", "工作", "學習"]
+    "keywords": ["大數據", "供應鏈管理", "零售業"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
-    "sourceText": "Cô ấy đã vượt qua mọi khó khăn nhờ ý chí mạnh mẽ và quyết tâm.",
+    "sourceText": "Thương hiệu đã xây dựng thành công hình ảnh cá tính thông qua việc hợp tác với các ngôi sao mạng xã hội.",
     "referenceAnswers": [
-      "她憑藉著頑強的意志力和決心克服了重重困難。",
-      "她凭借着顽强的意志力和决心克服了重重困难。",
-      "靠著堅定的執著，她最終戰勝了一切逆境。",
-      "其剛毅的性格助她化解了無數艱辛。"
+      "該品牌通與社交媒體影響力人士合作，成功建立了個性的品牌形象。",
+      "通過與網紅合作，品牌成功塑造了具備個性的形象。",
+      "該品牌成功利用社交媒體影響力建立了獨特的品牌定位。",
+      "與社交媒體達人合作，讓該品牌成功樹立了個性化形象。",
+      "該品牌成功與社交媒體人士聯手，打造了鮮明的形象。"
     ],
-    "keywords": ["意志力", "決心", "克服", "困難"]
+    "keywords": ["品牌形象", "社交媒體", "合作"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
-    "sourceText": "Trong thời đại toàn cầu hóa, giao tiếp liên văn hóa rất quan trọng.",
+    "sourceText": "Chính phủ nỗ lực thực hiện chính sách bảo đảm nhà ở để giảm áp lực cho người dân đô thị.",
     "referenceAnswers": [
-      "在全球化時代，跨文化溝通非常重要。",
-      "在全球化时代，跨文化沟通非常重要。",
-      "身處全球一體化的浪潮，跨越國界的交流至關重要。",
-      "具備跨文化交際能力是當今國際化的核心要求。"
+      "政府致力於實施住房保障政策，以緩解城市居民的壓力。",
+      "為了減輕城市居民的負擔，政府正努力推行住房保障政策。",
+      "政府正通過住房保障政策來緩解城市人的住房壓力。",
+      "實施多樣化住房保障政策是政府減輕市民壓力的重要舉措。",
+      "政府致力於住房保障，旨在解決大城市居民的買房壓力。"
     ],
-    "keywords": ["全球化", "文化", "溝通"]
+    "keywords": ["政府", "住房保障", "緩解壓力"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
-    "sourceText": "Cạnh tranh khốc liệt đòi hỏi doanh nghiệp phải không ngừng đổi mới.",
+    "sourceText": "Anh ấy thể hiện khả năng xử lý khủng hoảng xuất sắc khi công ty gặp vấn đề về uy tín.",
     "referenceAnswers": [
-      "激烈的競爭要求企業不斷創新。",
-      "激烈的竞争要求企业不断创新。",
-      "白熱化的市場博弈迫使各機構尋求技術突破。",
-      "在高強度的對抗中，缺乏創新將難以生存。"
+      "他在公司遭遇信譽危機時展現出了出色的危機公關能力。",
+      "當公司信譽受損時，他展現了卓越的危機處理水平。",
+      "他在應對公司信譽危機中表現出極高的公關技巧。",
+      "面對公司的信譽挑戰，他展現了非凡的危機處理能力。",
+      "他憑藉出色的危機公關能力，成功挽救了公司的信譽。"
     ],
-    "keywords": ["競爭", "企業", "創新"]
+    "keywords": ["危機公關", "信譽危機", "展現"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
-    "sourceText": "Cải cách hành chính giúp nâng cao hiệu quả hoạt động của chính phủ.",
+    "sourceText": "Buổi diễn thuyết này nhằm mục đích khơi dậy sự quan tâm của công chúng về năng lượng tái tạo.",
     "referenceAnswers": [
-      "行政改革有助於提高政府的運作效率。",
-      "行政改革有助于提高政府的运作效率。",
-      "優化管理體制可顯著提升公眾服務的效能。",
-      "推行精簡政務能使政府運行得更加順暢。"
+      "這場講座旨在引發公眾對於可再生能源產業的關注。",
+      "這場演講的目的是激發大眾對可再生能源的重視。",
+      "這場講座旨在提高公眾對可再生能源未來發展的興趣。",
+      "此講座的主要目標是引起公眾對可再生能源的深度思考。",
+      "該專題講座旨在加深公眾對可再生能源產業的了解。"
     ],
-    "keywords": ["改革", "政府", "效率"]
+    "keywords": ["講座", "可再生能源", "關注"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
-    "sourceText": "Giáo dục là nền tảng vững chắc cho sự phát triển bền vững của đất nước.",
+    "sourceText": "Nhiều rào cản vẫn còn tồn tại khi đưa kỹ thuật từ phòng thí nghiệm vào ứng dụng thương mại.",
     "referenceAnswers": [
-      "教育是國家可持續發展的堅實基礎。",
-      "教育是国家可持续发展的坚实基础。",
-      "育人體系之健全與否關係到民族的未來基石。",
-      "穩定的教育投入是保障國家長治久安的關鍵。"
+      "雖然實驗室階段取得了進展，但商業化應用仍面臨很多障礙。",
+      "技術從實驗室走向商業化應用的過程中仍有諸多阻礙。",
+      "實現商業化應用是這項技術目前面臨的最大障礙。",
+      "儘管研究成功，該技術在推廣商業化時依然面臨挑戰。",
+      "該技術的商業化進程因多種障礙而進展緩慢。"
     ],
-    "keywords": ["教育", "國家", "發展"]
+    "keywords": ["商業化", "障礙", "實驗室"]
   },
   {
     "level": "B2",
     "direction": "vi_zh",
-    "sourceText": "Tư duy sáng tạo và tinh thần đổi mới là chìa khóa của thành công.",
+    "sourceText": "Khả năng thích nghi xuyên văn hóa tốt giúp anh ấy luôn tự tin khi giao tiếp với người nước ngoài.",
     "referenceAnswers": [
-      "創新思維和開拓進取的精神是成功的關鍵。",
-      "创新思维和开拓进取的精神是成功的关键。",
-      "具備獨特的靈感與改革的意志能引領通往成功。",
-      "唯有不斷開拓與反思，方能達成卓越成就。"
+      "良好的跨文化溝通技巧讓他與不同背景的人交流時非常自信。",
+      "他在跨文化交流中表現得很自信，源於他出色的溝通技巧。",
+      "憑藉跨文化溝通能力，他在與外國人士交流時游刃有餘。",
+      "自信且包容的態度，起源於他優秀的跨文化溝通技巧。",
+      "他在與不同文化人士交往時，展現了極佳的跨文化溝通能力。"
     ],
-    "keywords": ["創新", "思維", "精神", "成功"]
+    "keywords": ["跨文化", "溝通技巧", "自信"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Hợp tác sâu rộng trong lĩnh vực công nghệ không gian là mục tiêu chính của hoạt động lần này.",
+    "referenceAnswers": [
+      "這場活動的主要目的是加強在空間探索領域的深度合作。",
+      "加強航天技術研發的合作是這次活動的核心目的。",
+      "本次活動旨在促進兩國在空間探索方面的深度對接。",
+      "深化空間技術研發合作是這次活動的主要任務。",
+      "這場活動致力於推動航天科技領域的廣泛交流與合作。"
+    ],
+    "keywords": ["主要目的", "深度合作", "空間探索"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Công nghệ chuỗi khối đang thể hiện tiềm năng mạnh mẽ trong việc truy xuất nguồn gốc chuỗi cung ứng.",
+    "referenceAnswers": [
+      "區塊鏈技術在供應鏈溯源等領域展現出強大的潛力。",
+      "區塊鏈在供應鏈管理及溯源方面具有顯著的應用潛存力。",
+      "隨著技術成熟，區塊鏈正在供應鏈溯源中發揮重要作用。",
+      "區塊鏈技術為供應鏈溯源提供了強有力的解決方案。",
+      "區塊鏈展現了在數字資產與供應鏈溯源方面的強大發展潛力。"
+    ],
+    "keywords": ["區塊鏈", "供應鏈溯源", "潛力"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Với con mắt thẩm mỹ nhạy bén, anh ấy luôn tìm thấy vẻ đẹp từ cuộc sống bình thường.",
+    "referenceAnswers": [
+      "他具有敏銳的審美眼光，能從平凡的生活中捕捉美好。",
+      "憑藉敏銳的審美眼光，他總能發現日常生活中的美好瞬間。",
+      "他在平凡的日常生活中，總能用敏銳的眼光發現藝術美。",
+      "他敏銳的審美眼光讓他擅長從瑣事中提取藝術靈感。",
+      "他總能捕捉到生活中稍縱即逝的美，展現出不凡的審美眼光。"
+    ],
+    "keywords": ["審美眼光", "日常生活", "捕捉"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Học tập suốt đời là yếu tố quan trọng giúp lực lượng lao động thích nghi với sự thay đổi của thị trường.",
+    "referenceAnswers": [
+      "推廣終身教育理念能幫助勞動力適應不斷變化的就業市場。",
+      "終身學習是勞動力群體應對職業技能需求變化的關鍵。",
+      "政府致力於終身教育，以提升勞動力對市場變化的適應力。",
+      "為了適應多變的就業市場，推廣終身教育理念至關重要。",
+      "勞動力群體需要通過終身教育來滿足變化的職業技能需求。"
+    ],
+    "keywords": ["終身教育", "就業市場", "適應"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Buổi biểu diễn này là sự trình hiện sâu sắc về việc hòa nhập giữa các nền văn hóa đa dạng.",
+    "referenceAnswers": [
+      "這場演出不僅是視覺饗宴，更是多元文化融合的深度呈現。",
+      "演出深刻地展現了多元文化的共存與交融。",
+      "這場演出通過藝術交流，完美呈現了多元文化的融合。",
+      "演出不僅僅是藝術表演，更是對多元文化的高度總結。",
+      "這次演出深度探索並呈現了不同文化間的融合與共生。"
+    ],
+    "keywords": ["視覺饗宴", "文化融合", "深度呈現"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Việc tham gia lớp trao đổi quốc tế giúp anh ấy mở mang tầm nhìn và có thêm nhiều bạn mới.",
+    "referenceAnswers": [
+      "參加國際交流班讓他開闊了視野，也結交了許多優秀朋友。",
+      "通過國際交流項目，他拓寬了視野並建立了深厚友誼。",
+      "參加國際交流班後，他的國際視野得到了顯著提升。",
+      "他在國際交流中不僅學到了知識，還獲得了寶貴的友誼。",
+      "這次國際交流班的經歷，對他開闊視野與社交都有很大幫助。"
+    ],
+    "keywords": ["國際交流", "開闊視野", "友誼"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Tiếp xúc quá lâu với các thiết bị điện tử có thể gây hại cho thị lực và xương khớp.",
+    "referenceAnswers": [
+      "長期處於電子設備輻射下，會對視力和頸椎造成顯著損傷。",
+      "過度使用電子設備會嚴重影響視力與頸椎健康。",
+      "電子設備的輻射與高強度工作是損害健康的元兇之一。",
+      "對視力與頸椎的保護，需要減少對電子設備的依賴。",
+      "長期使用電子產品，是導致視力下降與頸椎問題的主因。"
+    ],
+    "keywords": ["電子設備", "視力", "損傷"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Khả năng điều phối liên phòng ban giúp anh ấy giải quyết mâu thuẫn và đạt được mục tiêu chung.",
+    "referenceAnswers": [
+      "良好的跨部門統籌能力能有效促進交流並達成共同目標。",
+      "他在跨部門協作中表現出的統籌能力是項目成功的關鍵。",
+      "憑藉出色的統籌技巧，他成功協調了各部門間的溝通。",
+      "有效的跨部門統籌，是各小組達成一致目標的基礎。",
+      "他擅長跨部門統籌，能迅速解決分歧並推動目標實現。"
+    ],
+    "keywords": ["跨部門", "統籌能力", "共同目標"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Sự kiên cường đứng dậy sau những thất bại là điều giúp anh ấy đạt tới thành công hôm nay.",
+    "referenceAnswers": [
+      "雖然在科研路上走了彎路，但他的韌性最終帶來了成功。",
+      "成功證明了他的韌性以及對理想的不懈追求。",
+      "雖然經歷了許多失敗，他的成功實至名歸，體現了他的韌性。",
+      "韧性是他克福科研路上的種種困難並取得成功的關鍵。",
+      "他在困難面前展現出的韌性與毅力，是通往成功的基石。"
+    ],
+    "keywords": ["韌性", "成功", "不懈追求"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Mục đích chính của sự kiện là tăng cường chia sẻ thông tin an ninh mạng trong khu vực.",
+    "referenceAnswers": [
+      "這場活動的主要目的是加強區域內的網絡安全信息共享。",
+      "活動旨在建立起有效的網絡安全分享與應急處理機制。",
+      "加強數字治理領域的交流是這次活動的核心任務。",
+      "此活動致力於推動各國在網絡安全防護上的深度合作。",
+      "通過信息共享，本次活動旨在提升區域內的數字安全水平。"
+    ],
+    "keywords": ["網絡安全", "信息共享", "深度合作"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Công nghệ nhà thông minh đang mang lại những trải nghiệm thực tế giúp nâng cao đời sống.",
+    "referenceAnswers": [
+      "智能家居技術正在將物聯網概念轉化為高品質生活體驗。",
+      "物聯網技術的演進，極大提升了我們的居家生活品質。",
+      "智能家居為我們帶來了更加便捷且高品質的居住體驗。",
+      "隨著物聯網發展，智能家居已成為提升生活水平的利器。",
+      "居家體驗的升級，離不開智能家居技術的不斷創新。"
+    ],
+    "keywords": ["智能家居", "獲客", "生活品質"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Mặc dù có nhiều ý kiến trái chiều, kế hoạch này cuối cùng vẫn được thông qua.",
+    "referenceAnswers": [
+      "雖然初期遭到了一些反對，但最終還是獲得了大家的肯定。",
+      "儘管面臨許多反對意見，該計劃最終仍被大多數人認可。",
+      "計劃在推行之初遇到障礙，但最終結果是令人滿意的。",
+      "獲得大多數人的肯定，證明了該計劃的最終可行性。",
+      "雖然過程艱辛，但獲得肯定是對所有努力的最好回報。"
+    ],
+    "keywords": ["初期", "遭到反對", "肯定"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Nghiên cứu thị trường sâu sắc giúp doanh nghiệp đưa ra các chiến dịch quảng bá hiệu quả.",
+    "referenceAnswers": [
+      "深入的市場研究幫助企業製定了有效的推廣方案。",
+      "對市場的精準分析是制定成功營銷策略的基礎。",
+      "企業憑藉詳細的市場調研，成功吸引了目標客戶群。",
+      "有效的推廣活動源於對市場趨勢的敏銳洞察。",
+      "數據支持的市場研究，讓企業在競爭中占據了優勢。"
+    ],
+    "keywords": ["市場研究", "推廣", "企業"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta phải chú trọng hơn nữa đến việc bảo tồn kiến trúc truyền thống.",
+    "referenceAnswers": [
+      "我們必須更加重視對傳統建築和文化遺產的保護。",
+      "保護傳統建築是我們傳承歷史文化的重要使命。",
+      "傳統建築的保存對於維持城市特色具有重要意義。",
+      "我們應投入更多資源來修繕和維護古老的建築。",
+      "對傳統建築的重視體現了一個國家的文明程度。"
+    ],
+    "keywords": ["重視", "傳統建築", "保護"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Tốc độ đô thị hóa nhanh chóng mang lại cả cơ hội và thách thức cho thành phố này.",
+    "referenceAnswers": [
+      "快速的城市化進程給這座城市帶來了機遇與挑戰。",
+      "城市化的擴張在推動經濟的同時也引發了社會問題。",
+      "面對城市化的挑戰，我們需要更加科學的規劃。",
+      "這座城市正在經歷轉型，城市化是其核心驅動力。",
+      "機遇與挑戰並存，是當前城市化進程的真實寫照。"
+    ],
+    "keywords": ["城市化", "機遇", "挑戰"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy là một người lãnh đạo có tâm và có tầm, luôn lắng nghe ý kiến cấp dưới.",
+    "referenceAnswers": [
+      "他是一位優秀的領導者，總是樂於聽取下屬的建議。",
+      "作為一名領袖，他展現了高度的包容性與專業素養。",
+      "聽取員工意見是他管理成功、凝聚向心力的關鍵。",
+      "他在公司內享有極高的聲望，因為他對待員工很公平。",
+      "一位好的領導者應具備像他一樣廣闊的胸懷與見識。"
+    ],
+    "keywords": ["領導者", "聽取", "建議"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Kế hoạch này được xây dựng dựa trên sự phân tích kỹ lưỡng các số liệu thực tế.",
+    "referenceAnswers": [
+      "這項計劃是基於對實際數據的詳細分析而制定的。",
+      "詳細的數據分析為這項計劃提供了科學的依據。",
+      "在制定計劃之前，團隊對市場數據進行了深度挖掘。",
+      "這份報告的準確性來源於其嚴謹的數據分析過程。",
+      "事實勝於雄辯，數據支持的計劃更具說服力。"
+    ],
+    "keywords": ["數據分析", "計劃", "實際"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Sự sáng tạo của người trẻ là động lực chính của phong trào khởi nghiệp hiện nay.",
+    "referenceAnswers": [
+      "年輕人的創新能力是當前創業浪潮的主要動力。",
+      "創意與激情讓年輕人在創業領域展現了無限可能。",
+      "政府鼓勵年輕人創新，為創業提供了良好的環境。",
+      "創新型人才的湧現，推動了整個社會的創業氛圍。",
+      "年輕一代正在通過創新來改變傳統的商業模式。"
+    ],
+    "keywords": ["創新", "年輕人", "創業"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Thật lòng mà nói, tôi cảm thấy kỹ năng lãnh đạo của anh ấy cần phải được cải thiện thêm nữa.",
+    "referenceAnswers": [
+      "老實說，我認為他的領導能力還需要進一步提昇。",
+      "說實話，我覺得他在領導方面的表現還有很大的進步空間。",
+      "坦白講，他的管理水平目前還不足以應對如此複雜的項目。",
+      "我直言不諱地說，他需要更多地磨練自己的領導技巧。",
+      "老實說，他在決策時展現出的領導魅力似乎還有所欠缺。"
+    ],
+    "keywords": ["老實說", "領導能力", "提昇"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Công ty đang cố gắng khống chế chi phí vận hành để đảm bảo mức lợi nhuận đề ra.",
+    "referenceAnswers": [
+      "公司正努力控制運營成本，以確保達成預期的利潤目標。",
+      "為了保障利潤，企業正採取措施嚴格控管各項開支。",
+      "控製成本是目前公司維持利潤水平的最有效手段。",
+      "公司正致力於優化運營效率，從而實現對利潤的有效保障。",
+      "在利潤壓力的考驗下，公司不得不更加嚴謹地控制預算。"
+    ],
+    "keywords": ["控制", "運營成本", "利潤"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Lời khen ngợi của sếp đã mang lại cho tôi niềm tin rất lớn vào bản thân.",
+    "referenceAnswers": [
+      "上司的誇獎帶給我很大的自信心。",
+      "得到老闆的稱讚，讓我對未來的發展充滿了信心。",
+      "主管的肯定與誇獎，是我目前努力工作的最大動力。",
+      "這份誇獎對我而言意義重大，讓我覺得自己的付出得到了認可。",
+      "受到誇獎後，我更加堅信自己能夠勝任這項挑戰。"
+    ],
+    "keywords": ["誇獎", "自信心", "上司"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Nguồn gốc của vấn đề này bắt nguồn từ sự thiếu minh bạch trong quy trình giao hàng.",
+    "referenceAnswers": [
+      "這個問題的來源在於配送流程缺乏透明度。",
+      "流程的不公開、不透明，是導致此問題產生的根本原因。",
+      "溯源整件事，我們會發現配送環節的溝通存在嚴重漏洞。",
+      "問題的源頭指向了配送體系中不夠規範的作業方式。",
+      "只有釐清問題的來源，我們才能從根本上解決配送延誤。"
+    ],
+    "keywords": ["來源", "透明度", "流程"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Tất cả các vật liệu xây dựng này đều đến từ các nhà cung cấp địa phương có uy tín.",
+    "referenceAnswers": [
+      "這些建築材料全部來自於享有盛譽的當地供應商。",
+      "我們使用的建材皆取自本地口碑極佳的合作夥伴。",
+      "這些工程材料源自當地，保證了質量的可靠性與安全性。",
+      "所有的原材料都來自本地，這符合我們環保與支持當地產業的理念。",
+      "來自當地供應商的高質量建材，為工程的順利進行提供了保障。"
+    ],
+    "keywords": ["來自", "建築材料", "當地", "供應商"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Lãng phí thực phẩm là một vấn đề nghiêm trọng cần có giải pháp triệt để từ xã hội.",
+    "referenceAnswers": [
+      "食物浪費是一個嚴重的社會問題，需要全社會共同努力來解決。",
+      "我們應當減少浪費，並尋找更加科學的糧食管理方案。",
+      "浪費糧食不僅不道德，也對生態環境造成了巨大壓力。",
+      "各國應攜手應對食物浪費問題，倡導綠色且節約的生活方式。",
+      "減少浪費是每個公民的責任，這也有利於資源的合理配置。"
+    ],
+    "keywords": ["浪費", "食物", "社會問題"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Lao động trí óc đôi khi còn mang lại sự mệt mỏi lớn hơn cả lao động chân tay.",
+    "referenceAnswers": [
+      "腦力勞動有時比體力勞動更讓人感到疲憊。",
+      "長時間的思考與決策，對人的精神能量消耗極大。",
+      "比起身體上的疲勞，腦力勞動帶來的精神壓力更難緩解。",
+      "從事腦力工作的人，需要更加註重心理健康的維護。",
+      "腦力勞動的強度不應被低估，它同樣需要適時的休息與調整。"
+    ],
+    "keywords": ["勞動", "腦力", "體力", "疲憊"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Dù sống ở thành phố đã lâu, nhưng anh ấy vẫn luôn nhớ về quê nhà yên bình.",
+    "referenceAnswers": [
+      "雖然在城市住了很久，但他依然懷念安靜的老家。",
+      "老家的平靜生活是他心靈深處最溫暖的回憶。",
+      "儘管移居城市多年，他對故鄉的眷戀之情從未減少。",
+      "在他心中，老家永遠是那個可以讓他放鬆的地方。",
+      "對老家的深深思念，伴隨他在城市裡度過了無數夜晚。"
+    ],
+    "keywords": ["老家", "雖然", "懷念", "平靜"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta phải lập tức hành động để ngăn chặn sự lây lan của loại virus này.",
+    "referenceAnswers": [
+      "我們必須立即採取行動以阻止病毒的傳播。",
+      "刻不容緩，醫學團隊正全力以赴地控制疫情。",
+      "立即應對是防止傳染病擴散的最有效策略。",
+      "病毒傳播速度驚人，我們需要更迅速的防疫舉措。",
+      "為了公眾健康，政府已下令立即實施嚴格的隔離措施。"
+    ],
+    "keywords": ["立即", "行動", "病毒", "傳播"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Lý do anh ấy xin nghỉ việc là vì muốn tìm kiếm một môi trường làm việc sáng tạo hơn.",
+    "referenceAnswers": [
+      "他離職的理由是希望能找到一個更有創意的環境。",
+      "尋求更大的發展空間是他選擇換工作的根本理由。",
+      "他辭職是因為目前的職位無法滿足他對創新的追求。",
+      "比起薪水，他更看重工作環境是否能激發他的靈感。",
+      "追求一個能展現才華的創意平台，是他離開的主要理由。"
+    ],
+    "keywords": ["理由", "離職", "創意", "環境"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Sự linh hoạt trong cách xử lý vấn đề giúp anh ấy giành được sự tin tưởng của khách hàng.",
+    "referenceAnswers": [
+      "靈活的做事方式讓他贏得了客戶的深度信任。",
+      "他能根據不同需求提供靈活的解決方案，讓客戶很滿意。",
+      "靈活性是他在競爭激烈的市場中脫穎而出的關鍵素質。",
+      "客戶非常欣賞他那種不拘泥於常規的靈活處理技巧。",
+      "他在跨部門協作中展現的靈活性，讓大家都感到佩服。"
+    ],
+    "keywords": ["靈活", "信任", "客戶"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Hãy trân trọng và lưu niệm những khoảnh khắc đẹp bên gia đình.",
+    "referenceAnswers": [
+      "請珍惜並留念與家人在一起的美好時光。",
+      "與家人相處的每一刻都值得被銘記與留念。",
+      "留念過去的美好，是支撐我們走向未來的力量來源。",
+      "錄下這些溫馨的畫面，作為我們永久的珍貴留念。",
+      "不要忘記這些快樂的瞬間，它們是人生最好的留念。"
+    ],
+    "keywords": ["珍惜", "留念", "家人", "美好時光"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Thái độ bình tĩnh giúp cô ấy giải quyết được mâu thuẫn giữa hai người bạn thân.",
+    "referenceAnswers": [
+      "冷靜的態度幫助她解決了兩位好友之間的矛盾。",
+      "在朋友爭執時，她展現了超越常人的沉穩與冷靜。",
+      "冷靜地溝通是化解誤會、維持友誼的最佳良藥。",
+      "多虧了她的冷靜處理，兩人的關係才得以逐步修復。",
+      "她以一顆冷靜的心，引導朋友換位思考，解決了爭議。"
+    ],
+    "keywords": ["冷靜", "解決", "朋友", "矛盾"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Càng nỗ lực, bạn sẽ càng thấy rằng thành công không phải là điều ngẫu nhiên.",
+    "referenceAnswers": [
+      "你越努力，就越會發現成功絕非偶然。",
+      "成功是勤奮與堅持的結晶，而非運氣的使然。",
+      "隨著付出的增加，你會更加堅信努力的價值。",
+      "沒有隨隨便便的成功，後台的汗水才是真實的保障。",
+      "越努力，越幸運，這句話在成功者身上得到了驗證。"
+    ],
+    "keywords": ["越...越...", "努力", "成功", "偶然"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Việc sử dụng năng lượng sạch là một giải pháp cho vấn đề biến đổi khí hậu.",
+    "referenceAnswers": [
+      "使用清潔能源是解決氣候變化問題的一種方案。",
+      "推廣清潔能源對於減緩全球變暖具有積極意義。",
+      "我們應依賴更多清潔能源來實現低碳環保的目標。",
+      "清潔能源的廣泛應用，標誌著人類能源體系的升級。",
+      "為了未來，投資清潔能源產業是具有前瞻性的決定。"
+    ],
+    "keywords": ["使用", "清潔能源", "氣候變化", "方案"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy đã rất quen thuộc với những phong tục tập quán của nước bạn.",
+    "referenceAnswers": [
+      "他對該國的風俗習慣已經非常熟悉了。",
+      "融入當地生活後，他對這裡的習俗了如指掌。",
+      "熟悉外國文化是他能在國際職位上成功的關鍵。",
+      "他在與不同文化交流時展現了極高的文化適應力。",
+      "對風俗習慣的理解與尊重，讓他贏得了許多外國朋友。"
+    ],
+    "keywords": ["熟悉", "風俗習慣", "文化"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Lao động sáng tạo là chìa khóa để kiến tạo nên những giá trị mới cho xã hội.",
+    "referenceAnswers": [
+      "創造性勞動是為社會創造新價值的關鍵。",
+      "我們應鼓勵更多具有創新精神的腦力勞動活動。",
+      "勞動不僅僅是體力活，更是一種精神上的昇華與創造。",
+      "新型經濟體系下，創造性勞動的價值被提到了新高度。",
+      "通過勞動來展現自我價值，是現代教育的重要課題。"
+    ],
+    "keywords": ["勞動", "創造性", "價值", "社會"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Tầm quan trọng của giao tiếp văn hóa ngày càng được chú trọng hơn.",
+    "referenceAnswers": [
+      "文化交流的重要性日益受到大家的高度重視。",
+      "在全球化進程中，加強文化對話是各國的共識。",
+      "文化交流有助於消除偏見，增進民族間的理解。",
+      "重視文化往來，體現了一個民族開放包容的胸懷。",
+      "我們應積極參與國際文化交流活動，展示國家魅力。"
+    ],
+    "keywords": ["文化交流", "重要性", "重視"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Cô ấy đang suy nghĩ về việc có nên tiếp tục sự nghiệp nghiên cứu hay không.",
+    "referenceAnswers": [
+      "她正在考慮是否要繼續她的科研事業。",
+      "面對生活壓力，她對是否堅持科研夢想感到有些猶豫。",
+      "科研之路雖然艱辛，但她對真理的追求從未停止。",
+      "她正在評估科研工作的發展前景與個人的適配度。",
+      "對於未來的職業選擇，她目前還處於認真的思考階段。"
+    ],
+    "keywords": ["考慮", "科研", "事業", "繼續"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Sự sáng tạo là một trong những yếu tố giúp doanh nghiệp tồn tại.",
+    "referenceAnswers": [
+      "創新是幫助企業在激烈競爭中生存的關鍵因素之一。",
+      "缺乏創新的公司，很難在快速變化的市場中立足。",
+      "企業應建立激勵創新的機制，以保持核心競爭力。",
+      "只有不斷推陳出新，企業才能獲得持續發展的動力。",
+      "創新力被視為現代企業的靈魂，是通往成功的路徑。"
+    ],
+    "keywords": ["創新", "企業", "生存", "競爭"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta nên chủ động học hỏi những kiến thức mới mỗi ngày.",
+    "referenceAnswers": [
+      "我們應該每天主動學習新知識。",
+      "保持好奇心，是不斷提升自我水平的最佳方式。",
+      "主動獲取信息，能讓你隨時把握市場的最新脈搏。",
+      "在信息爆炸的時代，篩選並學習有價值的知識很重要。",
+      "學習不應是被動的，而應成為一種生活習慣與追求。"
+    ],
+    "keywords": ["主動", "學習", "新知識", "每天"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Dịch vụ của cửa hàng này rất chu đáo và khách hàng rất hài lòng.",
+    "referenceAnswers": [
+      "這家店的服務非常周到，顧客反饋非常滿意。",
+      "高品質的服務態度，是該店能吸引眾多回頭客的原因。",
+      "店員專業且熱情的引導，讓顧客的購物體驗很棒。",
+      "顧客的社交媒體評論中，對該店的服務給予了高度讚揚。",
+      "誠信經營與貼心服務，是這家店在業內立足的根本。"
+    ],
+    "keywords": ["服務", "周到", "顧客", "滿意"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Chúng tôi đang nỗ lực cải thiện tình trạng ô nhiễm không khí.",
+    "referenceAnswers": [
+      "我們正全力以赴地改善目前的空氣污染狀況。",
+      "環保部門實施了多項措施來提升城市的空氣質量。",
+      "改善空氣質量，需要政府、企業和個人的共同行動。",
+      "減少工業排放是緩解空氣污染問題的最直接手段。",
+      "健康的呼吸環境是每個公民應享有的基本權利。"
+    ],
+    "keywords": ["改善", "空氣污染", "環保"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Sách giúp chúng ta mở mang tầm mắt và có thêm nhiều kiến thức mới.",
+    "referenceAnswers": [
+      "書是開闊視野、獲取新知的最好途徑。",
+      "廣泛的閱讀能讓我們跨越國界，了解不同的文明。",
+      "書籍引領我們走向智慧，是人生道路上最好的夥伴。",
+      "培養閱讀習慣，對於提升個人的綜合素養至關重要。",
+      "在書海中徜徉，我們能感受到思想碰撞帶來的喜悅。"
+    ],
+    "keywords": ["書", "開闊視野", "知識"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Hợp tác thành công dựa trên sự trung thực và minh bạch giữa hai nước.",
+    "referenceAnswers": [
+      "成功的合作基於兩國之間的誠實與透明度。",
+      "互信是長期穩定各領域合作關係的核心與靈魂。",
+      "雙方應秉持開誠佈公的態度，共同應對區域挑戰。",
+      "提高政策透明度，有利於吸引更多國際戰略投資。",
+      "誠信與共贏是開展國際經貿往來的基本準則。"
+    ],
+    "keywords": ["合作", "誠實", "兩國", "成功"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Nền kinh tế đang phải đối mặt với những thách thức chưa từng có do biến đổi khí hậu.",
+    "referenceAnswers": [
+      "由於氣候變化，經濟正面臨前所未有的挑戰。",
+      "全球氣候危機正對各國的經濟增長構成嚴重威脅。",
+      "必須採取及時措施以緩解氣候變化帶來的負面影響。",
+      "應對氣候挑戰已成為當前經濟發展的當務之急。",
+      "可持續發展是解決經濟與環境矛盾的關鍵路徑。"
+    ],
+    "keywords": ["經濟", "挑戰", "氣候變化", "前所未有"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Trí tuệ nhân tạo đang định hình lại thị trường lao động toàn cầu.",
+    "referenceAnswers": [
+      "人工智能正在重塑全球勞動力市場。",
+      "AI 技術的普及對傳統就業崗位產生了巨大衝擊。",
+      "未來的工作模式將更加依賴人機協作。",
+      "提升數字素養是勞動者應對 AI 挑戰的核心能力。",
+      "人工智能既帶來了失業憂慮，也創造了新的機會。"
+    ],
+    "keywords": ["人工智能", "重塑", "勞動力市場"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Việc đầu tư vào giáo dục là nền tảng cho sự phát triển lâu dài của đất quốc gia.",
+    "referenceAnswers": [
+      "投資教育是國家長期發展的基石。",
+      "教育強國是實現民族復興的戰略選擇。",
+      "資源應優先配置到教育領域以培養未來人才。",
+      "只有提升全民素質，國家才能具備核心競爭力。",
+      "教育投資的長遠效益遠大於眼前的經濟回報。"
+    ],
+    "keywords": ["投資教育", "國家發展", "基石"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Các vấn đề về sức khỏe tâm lý ngày càng nhận được sự quan tâm của xã hội.",
+    "referenceAnswers": [
+      "心理健康問題日益受到社會的廣泛關注。",
+      "緩解現代人的精神壓力是構建和諧社會的重要環節。",
+      "應建立完善的心理諮詢體系以支持有需要的人群。",
+      "關注職場壓力與員工心理健康是企業的社會責任。",
+      "大眾對心理疾病的認知正在逐步提升。"
+    ],
+    "keywords": ["心理健康", "關注", "社會問題"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Sự đổi mới là động lực cốt lõi giúp các doanh nghiệp tồn tại trong môi trường cạnh tranh.",
+    "referenceAnswers": [
+      "創新是企業在競爭環境中生存的核心動力。",
+      "企業若不進行技術創新，將難以在市場中立足。",
+      "培養創新文化是組織保持活力的關鍵。",
+      "加大研發投入是推動產品創新的重要手段。",
+      "只有不斷自我突破，企業才能贏得未來市場。"
+    ],
+    "keywords": ["創新", "企業", "核心動力", "競爭"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Quyền tự do ngôn luận cần được thực thi một cách trách nhiệm.",
+    "referenceAnswers": [
+      "言論自由應在負責任的前提下行使。",
+      "雖然有言論自由，但不應散佈虛假信息或仇恨言論。",
+      "平衡個人權利與公眾福祉是現代民主的挑戰。",
+      "網絡空間的信息發佈應遵循相應的道德與法律準則。",
+      "言論自由的底線是不損害他人的合法權益。"
+    ],
+    "keywords": ["言論自由", "負責任", "行使"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Đô thị hóa nhanh chóng dẫn đến nhiều áp lực lên hạ tầng và môi trường.",
+    "referenceAnswers": [
+      "快速城市化給基礎設施和環境帶來了巨大壓力。",
+      "城市交通與環境污染是都市擴張面臨的主要瓶頸。",
+      "科學規劃是實現城市化與自然和諧共處的前提。",
+      "解決大城市病需要優化空間布局與公共服務。",
+      "可持續城市建設應注重綠色發展與資源節約。"
+    ],
+    "keywords": ["城市化", "基礎設施", "環境壓力"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta nên khuyến khích sự đa dạng và bao trùm trong công việc.",
+    "referenceAnswers": [
+      "我們應該鼓勵工作場所的多樣性和包容性。",
+      "多元化的團隊通常能產生更多的創意與視角。",
+      "消除偏見是營造公平競爭環境的第一步。",
+      "企業應致力於構建一個尊重差異的企業文化。",
+      "包容性增長能讓不同背景的員工都發揮所長。"
+    ],
+    "keywords": ["多樣性", "包容性", "工作場所"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Toàn cầu hóa mang lại cơ hội nhưng cũng đặt ra những thách thức lớn về văn hóa.",
+    "referenceAnswers": [
+      "全球化帶來了機遇，但也對文化多樣性構成了挑戰。",
+      "在文化交流的過程中，應保護本土文化的獨特性。",
+      "世界文化的融合既是豐富自我的過程，也是一種競爭。",
+      "加強跨文化溝通能力是現代公民的基本素養。",
+      "如何在借鑒外來經驗的同時保持民族特色是個難題。"
+    ],
+    "keywords": ["全球化", "文化", "機遇", "挑戰"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Việc tiêu dùng bền vững đóng vai trò quan trọng trong việc bảo vệ trái đất.",
+    "referenceAnswers": [
+      "可持續消費在保護地球方面發揮著重要作用。",
+      "減少浪費、重覆使用是低碳生活的核心理念。",
+      "消費者應選擇環保型產品以支持綠色產業。",
+      "轉變消費觀念是緩解資源枯竭問題的根本途徑。",
+      "每一位公民的消費習慣都影響著地球的未來。"
+    ],
+    "keywords": ["可持續消費", "保護地球", "重要性"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Sự minh bạch trong quản lý tài chính giúp tăng cường niềm tin của công chúng.",
+    "referenceAnswers": [
+      "財務管理的透明度有助於增強公眾的信任。",
+      "建立公開透明的審計制度是廉潔治理的要求。",
+      "公眾有權了解公共資金的使用去向。",
+      "提高信息披露的質量能有效防範金融風險。",
+      "透明的激勵機制能提升組織內部的公平感。"
+    ],
+    "keywords": ["透明度", "財務管理", "公眾信任"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Năng lượng tái tạo là giải pháp tất yếu để giảm thải khí nhà kính.",
+    "referenceAnswers": [
+      "再生能源是減少溫室氣體排放的必然選擇。",
+      "推廣風能與太陽能是實現碳中和目標的關鍵。",
+      "能源轉型需要加強基礎研究與產業化投入。",
+      "逐漸減少對化石燃料的依賴是全球共識。",
+      "綠色能源產業的興起將創造大量就業崗位。"
+    ],
+    "keywords": ["再生能源", "排放", "必然性"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Việc bảo vệ quyền sở hữu trí tuệ thúc đẩy sự sáng tạo trong xã hội.",
+    "referenceAnswers": [
+      "保護知識產權能激發社會的創新活力。",
+      "侵權行為會損害原創者的熱情並阻礙科技進步。",
+      "完善的法律體系是知識產權保護的根本保障。",
+      "加強知識產權普及教育能提升全社會的尊重意識。",
+      "跨國企業應依法維護其在全球市場的專利權。"
+    ],
+    "keywords": ["知識產權", "創新", "保護"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Phát triển du lịch sinh thái giúp bảo tồn đa dạng sinh học địa phương.",
+    "referenceAnswers": [
+      "發展生態旅遊有助於保護當地的生物多樣性。",
+      "應在開發旅遊資源的同時，最大限度地保護環境。",
+      "生態旅遊能為當地社區提供可持續的生計來源。",
+      "提高遊客的環保意識是生態旅遊成功的關鍵。",
+      "保護自然景觀與促進社區繁榮應並行不悖。"
+    ],
+    "keywords": ["生態旅遊", "生物多樣性", "保護"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Lãnh đạo hiệu quả đòi hỏi khả năng lắng nghe và truyền cảm hứng.",
+    "referenceAnswers": [
+      "有效的領導需要具備傾聽和激勵他人的能力。",
+      "團隊的凝聚力取決於領導者的遠見與人格魅力。",
+      "同理心是現代領導力中不可或缺的特質。",
+      "領導者應以身作則，與團隊成員共同成長。",
+      "授權與信任能讓員工在工作中更有成就感。"
+    ],
+    "keywords": ["領導力", "傾聽", "激勵"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Chính sách thuế có tác động trực tiếp đến thu nhập và sức mua của người dân.",
+    "referenceAnswers": [
+      "稅收政策直接影響民眾的收入和購買力。",
+      "合理的稅率結構有利於調節財富分配公平。",
+      "通過減稅降費能有效減輕中小企業的負擔。",
+      "稅收改革應兼顧經濟增長與社會正義。",
+      "透明的稅務監管能提升全社會的納稅意識。"
+    ],
+    "keywords": ["稅收政策", "收入", "購買力"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Việc học ngoại ngữ giúp cải thiện khả năng giao tiếp liên văn hóa.",
+    "referenceAnswers": [
+      "學習外語有助於提升跨文化交際能力。",
+      "掌握一門外語能讓我們更好地理解他國文化。",
+      "語言是連接不同文化的橋樑，不僅僅是溝通工具。",
+      "在國際化的背景下，語言能力是核心競爭力。",
+      "通過語言學習，我們可以打破偏見並建立友誼。"
+    ],
+    "keywords": ["學習外語", "跨文化交際"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Sự phát triển bền vững yêu cầu sự cân bằng giữa kinh tế, xã hội và môi trường.",
+    "referenceAnswers": [
+      "可持續發展要求經濟、社會和環境之間的平衡。",
+      "我們不應以犧牲環境為代價來換取經濟增長。",
+      "社會公平與環境友好是可持續發展的兩個支柱。",
+      "跨部門合作是實施可持續發展戰略的必要條件。",
+      "長遠的眼光能引領我們走向更加綠色的未來。"
+    ],
+    "keywords": ["可持續發展", "平衡", "環境"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Khoa học và công nghệ là đòn bẩy quan trọng cho sự phát triển của quốc gia.",
+    "referenceAnswers": [
+      "科學技術是國家發展的重要槓桿。",
+      "加強基礎科學研究是提升國家實力的根本途徑。",
+      "科技成果轉化為生產力能推動產業轉型升級。",
+      "培養一批高層次科技人才是國家的戰略目標。",
+      "科技創新應服務於民生改善與社會進步。"
+    ],
+    "keywords": ["科學技術", "國家發展", "槓桿"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Việc đào tạo kỹ năng số là điều cần thiết trong kỷ nguyên mới.",
+    "referenceAnswers": [
+      "在新時代，數字技能培訓是必不可少的。",
+      "縮小數字鴻溝是實現社會公平的重要任務。",
+      "勞動者應主動學習數字化工具以提高效率。",
+      "學校應將編程與數字素養納入基礎教育體系。",
+      "掌握數據分析能力能為職業發展開拓新空間。"
+    ],
+    "keywords": ["數字技能", "培訓", "數字化時代"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy đã hoàn thành xuất sắc nhiệm vụ khó khăn được giao.",
+    "referenceAnswers": [
+      "他出色地完成了交付給他的艱巨任務。",
+      "他在壓力之下展現了非凡的執行力。",
+      "克服重重困難取得成功，他的表現令人欽佩。",
+      "這次任務的成功離不開他紮實的專業技術。",
+      "他在項目關鍵時刻發揮了核心作用，功不可沒。"
+    ],
+    "keywords": ["任務", "出色", "完成"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Tình hình tài chính của công ty đã được cải thiện rõ rệt.",
+    "referenceAnswers": [
+      "公司的財務狀況有了顯著改善。",
+      "通過優化成本結構，企業利潤實現了增長。",
+      "負債率的降低增強了公司的市場抗風險能力。",
+      "穩健的財務政策讓投資者對其充滿信心。",
+      "現金流的穩定運營保證了項目的順利開展。"
+    ],
+    "keywords": ["財務狀況", "顯著", "改善"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Quản lý rủi ro hữu hiệu là then chốt để đảm bảo sự ổn định của dự án.",
+    "referenceAnswers": [
+      "有效的風險管理是確保項目穩定的關鍵。",
+      "在立項初期就應建立完善的風險評估機制。",
+      "對潛在危機的預判能化解不必要的損失。",
+      "風險與機遇並存，合理的應對是成功的基石。",
+      "團隊應保持敏捷性以應對隨時可能出現的變數。"
+    ],
+    "keywords": ["風險管理", "穩定", "關鍵"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Sự kiên định với mục tiêu giúp chúng ta vượt qua mọi khó khăn.",
+    "referenceAnswers": [
+      "對目標的堅定有助於我們克服一切困難。",
+      "只有心中有目標，腳下的路才不會迷茫。",
+      "在逆境中保持初心，是強者的必備素質。",
+      "成功往往屬於那些在黑暗中堅持到底的人。",
+      "持之以恆的努力終將換來成功的果實。"
+    ],
+    "keywords": ["堅定", "目標", "克服困難"]
+  },
+  {
+    "level": "B2",
+    "direction": "vi_zh",
+    "sourceText": "Mạng xã hội đã thay đổi cách chúng ta tương tác và truyền tải thông tin.",
+    "referenceAnswers": [
+      "社交媒體改變了我們互動和傳遞信息的方式。",
+      "虛擬世界的交流已成為現代生活不可或缺的部分。",
+      "信息傳播的速度在互聯網背景下呈幾何級增長。",
+      "社交網絡既縮短了距離，也可能引發隱私憂慮。",
+      "如何辨別網上信息的真偽是對現代公民的考驗。"
+    ],
+    "keywords": ["社交媒體", "互動", "信息傳遞"]
   }
 ]

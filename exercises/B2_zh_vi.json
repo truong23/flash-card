@@ -2,145 +2,1301 @@
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "這份研究報告為我們提供了寶貴的第一手資料。",
+    "sourceText": "儘管全球經濟形勢嚴峻，該企業仍憑藉敏銳的市場洞察力實現了逆勢增長。",
     "referenceAnswers": [
-      "Báo cáo nghiên cứu này đã cung cấp cho chúng ta những tư liệu sơ cấp quý báu.",
-      "Bản báo cáo này mang lại những thông tin gốc rất giá trị.",
-      "Văn bản nghiên cứu đã đưa ra các dữ liệu thực tế cực kỳ hữu ích.",
-      "Chúng ta có được những tài liệu quý giá từ bản báo cáo này."
+      "Mặc dù bối cảnh kinh tế toàn cầu đang rất khắc nghiệt, doanh nghiệp này vẫn đạt được sự tăng trưởng ngược dòng nhờ vào sự nhạy bén trong quan sát thị trường.",
+      "Bất chấp những khó khăn của nền kinh tế thế giới, công ty vẫn tăng trưởng mạnh mẽ nhờ khả năng phân tích thị trường sắc sảo.",
+      "Dù kinh tế toàn cầu có nhiều biến động tiêu cực, doanh nghiệp vẫn bứt phá thành công dựa trên tầm nhìn thị trường nhạy bén.",
+      "Doanh nghiệp đã chứng minh thực lực bằng việc tăng trưởng ổn định trong khi kinh tế thế giới suy thoái, nhờ vào sự am hiểu thị trường.",
+      "Nhờ có sự nhạy tin và nhạy bén với thị trường, doanh nghiệp này đã tăng trưởng bất chấp tình hình kinh tế toàn cầu tồi tệ."
     ],
-    "keywords": ["研究", "報告", "寶貴", "資料"]
+    "keywords": ["經濟形勢", "企業", "市場洞察力", "逆勢增長"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "他善於處理複雜的人際關係，深受同事好評。",
+    "sourceText": "培養跨領域的人才已成為當前高等教育改革的重要目標之一。",
     "referenceAnswers": [
-      "Anh ấy giỏi xử lý các mối quan hệ nhân tế phức tạp, được đồng nghiệp đánh giá rất cao.",
-      "Cậu ấy có kỹ năng giao thiệp tốt, nên rất được lòng đồng nghiệp.",
-      "Khả năng điều phối các mối quan hệ của anh ta khiến ai cũng nể phục.",
-      "Đồng nghiệp luôn dành lời khen cho cách anh ấy đối nhân xử thế."
+      "Việc đào tạo nhân tài đa lĩnh vực đã trở thành một trong những mục tiêu quan trọng hàng đầu của công cuộc cải cách giáo dục đại học hiện nay.",
+      "Bồi dưỡng nguồn nhân lực liên ngành là trọng tâm mà giáo dục đại học đang hướng tới trong giai đoạn cải cách này.",
+      "Một trong những đích đến quan trọng của đổi mới giáo dục đại học là tạo ra những con người có kiến thức đa dạng.",
+      "Cải cách giáo dục đại học hiện nay đang tập trung vào việc phát triển các nhân tài có khả năng làm việc ở nhiều lĩnh vực khác nhau.",
+      "Đào tạo nhân lực đa ngành, đa nghề là mục tiêu chiến lược trong tiến trình cải cách giáo dục bậc cao hiện nay."
     ],
-    "keywords": ["處理", "複雜", "人際關係", "好評"]
+    "keywords": ["跨領域", "人才", "高等教育", "改革"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "該產品在市場上的競爭力主要來自其獨特的設計。",
+    "sourceText": "為了有效應對氣候變化，各國必須在減少碳排放方面達成更為廣泛的國際共識。",
     "referenceAnswers": [
-      "Sức cạnh tranh của sản phẩm này trên thị trường chủ yếu đến từ thiết kế độc đáo của nó.",
-      "Thế mạnh của mặt hàng này nằm ở thiết kế không đụng hàng.",
-      "Sản phẩm thu hút khách hàng nhờ vào kiểu dáng sáng tạo và khác biệt.",
-      "Thị phần của sản phẩm được đảm bảo bởi phong cách thiết kế riêng biệt."
+      "Để đối phó hiệu quả với biến đổi khí hậu, các quốc gia phải đạt được sự đồng thuận quốc tế rộng rãi hơn trong việc cắt giảm khí thải carbon.",
+      "Các nước cần bắt tay nhau và thống nhất về các mục tiêu giảm phát thải carbon nhằm ngăn chặn sự biến đổi khí hậu diễn ra nhanh chóng.",
+      "Đạt được đồng thuận chung toàn cầu về giảm carbon là điều kiện tiên quyết để chúng ta giải quyết các vấn đề về môi trường hiện nay.",
+      "Việc giải quyết biến đổi khí hậu đòi hỏi một cam kết quốc tế mạnh mẽ và rộng khắp về việc hạn chế lượng khí thải độc hại.",
+      "Chung tay cắt giảm lượng carbon dựa trên sự thống nhất cao độ giữa các quốc gia là cách duy nhất để cứu lấy hành tinh xanh."
     ],
-    "keywords": ["產品", "競爭力", "獨特", "設計"]
+  "keywords": ["有效應對", "氣候變化", "碳排放", "國際共識"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "通過這次實習，我對專業知識有了更具體的認識。",
+    "sourceText": "他在多場國際學術研討會上發表的論文，深刻探討了人工智慧與倫理道德的糾結與衝突。",
     "referenceAnswers": [
-      "Thông qua đợt thực tập này, tôi đã có nhận thức cụ thể hơn về kiến thức chuyên môn.",
-      "Kỳ thực tập giúp tôi hiểu rõ hơn những gì đã được học trên lớp.",
-      "Tôi đã áp dụng được lý thuyết vào thực tế sau quá trình làm việc này.",
-      "Kiến thức chuyên ngành của tôi trở nên rõ ràng hơn sau khi thực tập."
+      "Các bài luận văn mà anh ấy trình bày tại nhiều hội thảo học thuật quốc tế đã đi sâu thảo luận về những xung đột và vướng mắc giữa trí tuệ nhân tạo và đạo đức.",
+      "Nghiên cứu của anh ấy cung cấp cái nhìn sâu sắc về những khía cạnh đạo đức đầy tranh cãi trong sự phát triển của AI hiện nay.",
+      "Anh ta đã thành công trong việc mổ xẻ các mối quan hệ phức tạp và mâu thuẫn giữa tiến bộ công nghệ AI và các chuẩn mực đạo đức xã hội.",
+      "Tại các diễn đàn khoa học thế giới, các bài viết của anh ấy luôn tập trung vào sự cân bằng giữa phát triển AI và giữ gìn các giá trị đạo đức con người.",
+      "Xung đột giữa trí tuệ nhân tạo và các rào cản đạo đức là chủ đề chính xuyên suốt trong các công trình nghiên cứu mà anh ấy đã công bố."
     ],
-    "keywords": ["實習", "專業知識", "具體", "認識"]
+    "keywords": ["學術研討會", "探討", "人工智慧", "倫理道德"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "政府正積極推行可再生能源的開發與利用。",
+    "sourceText": "這場專案會議的主要成果在於確立了公司未來三年的數字化轉型戰略框架。",
     "referenceAnswers": [
-      "Chính phủ đang tích cực thúc đẩy việc khai thác và sử dụng năng lượng tái tạo.",
-      "Các nguồn năng lượng xanh đang được nhà nước quan tâm đầu tư.",
-      "Việc phát triển năng lượng sạch là mục tiêu trọng tâm hiện nay.",
-      "Chính quyền đang khuyến khích sử dụng các nguồn năng lượng có thể phục hồi."
+      "Kết quả chính của cuộc họp dự án này nằm ở việc xác lập được khung chiến lược chuyển đổi số của công ty trong ba năm tới.",
+      "Cuộc họp đã thành công trong việc định hình lộ trình chuyển đổi kỹ thuật số cho toàn doanh nghiệp cho giai đoạn sắp tới.",
+      "Chiến lược chuyển đổi số ba năm là thành tựu quan trọng nhất được thông qua trong buổi họp bàn về dự án lần này.",
+      "Chúng tôi đã đạt được sự thống nhất về nền tảng chuyển đổi số, đây chính là kim chỉ nam cho các hoạt động của công ty trong 3 năm tiếp theo.",
+      "Việc xây dựng khung chiến lược cho quá trình số hóa đã hoàn tất, đánh dấu sự thành công của buổi họp dự án này."
     ],
-    "keywords": ["政府", "積極", "能源", "利用"]
+    "keywords": ["專案會議", "主要成果", "數字化轉型", "戰略框架"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "這場傳統文化展演旨在推廣當地的藝術遺產。",
+    "sourceText": "大數據技術的廣泛應用，正在深刻地改變著傳統零售業的供應鏈管理與庫存優化模式。",
     "referenceAnswers": [
-      "Buổi trình diễn văn hóa truyền thống này nhằm mục đích quảng bá di sản nghệ thuật địa phương.",
-      "Sự kiện này được tổ chức để giới thiệu những nét đẹp nghệ thuật của vùng miền.",
-      "Mục tiêu của chương trình là bảo tồn và phát huy giá trị văn hóa khu vực.",
-      "Triển lãm này giúp mọi người hiểu thêm về vốn quý nghệ thuật của quê hương."
+      "Việc ứng dụng rộng rãi công nghệ dữ liệu lớn đang thay đổi sâu sắc mô hình quản lý chuỗi cung ứng và tối ưu hóa kho hàng của ngành bán lẻ truyền thống.",
+      "Ngành bán lẻ đang chứng kiến một cuộc cách mạng trong hậu cần và lưu kho nhờ vào sức mạnh của Big Data.",
+      "Big Data đã giúp các nhà bán lẻ truyền thống tái cấu trúc lại chuỗi cung ứng, từ đó nâng cao hiệu quả và giảm thiểu lãng phí tồn kho.",
+      "Quản lý kho hàng hiện đại và thông minh hơn bao giờ hết khi các thuật toán dữ liệu lớn được đưa vào ứng dụng thực tế.",
+      "Sự thay đổi trong quản trị chuỗi cung ứng nhờ dữ liệu lớn đang giúp ngành bán lẻ thích nghi tốt hơn với nhu cầu biến đổi của thị trường."
     ],
-    "keywords": ["傳統文化", "推廣", "遺產"]
+    "keywords": ["大數據技術", "零售業", "供應鏈管理", "庫存優化"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "有效的溝通是維持良好長久合作關係的基石。",
+    "sourceText": "該品牌通與社交媒體影響力人士合作，成功地在年輕消費群體中建立了具備個性的品牌形象。",
     "referenceAnswers": [
-      "Giao tiếp hiệu quả là nền tảng để duy trì mối quan hệ hợp tác tốt đẹp và lâu dài.",
-      "Sự thấu hiểu lẫn nhau giúp việc cộng tác trở nên bền vững hơn.",
-      "Trao đổi thông tin thông suốt là chìa khóa của sự hợp tác thành công.",
-      "Nền móng của mọi sự làm việc chung chính là giao tiếp tốt."
+      "Thương hiệu này đã xây dựng thành công hình ảnh đầy cá tính trong mắt người tiêu dùng trẻ thông qua việc hợp tác với những người có tầm ảnh hưởng trên mạng xã hội.",
+      "Sự kết hợp với các KOL đã giúp nhãn hàng định vị được bản sắc riêng biệt đối với thế hệ người trẻ hiện nay.",
+      "Nhờ chiến lược sử dụng Influencer, thương hiệu đã tạo được dấu ấn đậm nét và thu hút được sự chú ý của giới trẻ.",
+      "Hình ảnh thương hiệu cá tính là kết quả của quá trình cộng tác hiệu quả giữa hãng và các ngôi sao mạng xã hội.",
+      "Thế giới trẻ hiện nay rất tin dùng sản phẩm này vì họ thấy được sự tương đồng giữa bản thân và phong cách mà thương hiệu đang truyền tải."
     ],
-    "keywords": ["有效", "溝通", "合作", "基石"]
+    "keywords": ["社交媒體", "影響力人士", "年輕消費群體", "品牌形象"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "面臨急劇變化的全球市場，企業必須具備靈活的應變能力。",
+    "sourceText": "政府正致力於實施多樣化的住房保障政策，以緩解特大城市居民面臨的租房與買房壓力。",
     "referenceAnswers": [
-      "Đối mặt với thị trường toàn cầu thay đổi nhanh chóng, doanh nghiệp phải có khả năng ứng biến linh hoạt.",
-      "Sự linh hoạt là yếu tố sống còn khi thị trường thế giới biến động không ngừng.",
-      "Các công ty cần nhanh nhạy để thích nghi với những thay đổi chóng mặt trên quốc tế.",
-      "Khả năng xoay xở tốt giúp doanh nghiệp tồn tại trong thời đại mới."
+      "Chính phủ đang nỗ lực thực hiện các chính sách bảo đảm nhà ở đa dạng nhằm giảm bớt áp lực thuê và mua nhà mà người dân tại các siêu đô thị đang phải đối mặt.",
+      "Để giải quyết vấn đề nhà ở tại các thành phố lớn, nhà nước đã triển khai đồng bộ nhiều gói hỗ trợ và ưu đãi cho người dân.",
+      "Áp lực từ giá nhà tăng cao đang được xoa dịu thông qua các chương trình nhà ở xã hội và chính sách điều tiết thị trường của chính phủ.",
+      "Nhiều giải pháp linh hoạt về nơi cư trú đang được thực hiện để giúp người dân đô thị ổn định cuộc sống và giảm bớt gánh nặng tài chính.",
+      "Việc thực hiện các chính sách nhà ở đa tầng giúp chính phủ tiếp cận và hỗ trợ được nhiều đối tượng dân cư khác nhau trong xã hội."
     ],
-    "keywords": ["急劇", "全球市場", "靈活", "應變"]
+    "keywords": ["住房保障", "特大城市", "租房", "買房壓力"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "這項先進技術的投入使用極大地提高了生產效率。",
+    "sourceText": "他展現出了出色的危機公關能力，在公司遭遇信譽危機時迅速做出了恰當的回應與處理。",
     "referenceAnswers": [
-      "Việc đưa vào sử dụng công nghệ tiên tiến này đã nâng cao hiệu suất sản xuất một cách đáng kể.",
-      "Năng suất làm việc tăng vọt nhờ áp dụng các kỹ thuật mới hiện đại.",
-      "Công nghệ mới đã giúp tối ưu hóa quy trình và tăng sản lượng.",
-      "Sự xuất hiện của máy móc hiện đại đã cải thiện đáng kể tốc độ sản xuất."
+      "Anh ấy đã thể hiện khả năng xử lý khủng hoảng truyền thông xuất sắc, đưa ra những phản phản ứng và cách giải quyết kịp thời khi công ty gặp bê bối uy tín.",
+      "Bản lĩnh của anh được bộc lộ rõ nét khi anh thành công trong việc làm dịu dư luận và khôi phục niềm tin của khách hàng đối với doanh nghiệp.",
+      "Khả năng ứng biến linh hoạt trước các tình huống tồi tệ đã giúp công ty vượt qua giai đoạn khó khăn nhất về mặt hình ảnh công chúng.",
+      "Anh ấy là người đứng sau những chiến dịch truyền thông hiệu quả giúp doanh nghiệp "lội ngược dòng" sau những thông tin tiêu cực.",
+      "Sự bình tĩnh và những phát ngôn chuẩn mực của anh ấy đóng vai trò then chốt trong việc dập tắt cuộc khủng hoảng niềm tin đối với thương hiệu."
     ],
-    "keywords": ["先進", "技術", "生產效率"]
+    "keywords": ["危機公關", "信譽危機", "迅速做出", "恰當處理"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "我們應當致力於消除城鄉差距，實現社會公平。",
+    "sourceText": "這場專題講座旨在引發公眾對於可再生能源產業未來發展趨勢的深度思考與關注。",
     "referenceAnswers": [
-      "Chúng ta nên nỗ lực xóa bỏ khoảng cách giàu nghèo giữa thành thị và nông thôn, thực hiện công bằng xã hội.",
-      "Mục tiêu của chúng ta là mang lại sự bình đẳng cho mọi vùng miền.",
-      "Cần thu hẹp sự chênh lệch giữa các địa phương để đảm bảo quyền lợi cho mọi người.",
-      "Công bằng xã hội chỉ đạt được khi không còn sự phân biệt vùng quê với phố thị."
+      "Buổi diễn thuyết chuyên đề này nhằm mục đích khơi gợi sự suy nghĩ sâu sắc và sự quan tâm của công chúng đối với xu hướng phát triển của ngành năng lượng tái tạo trong tương lai.",
+      "Chúng tôi tổ chức buổi chia sẻ này để mọi người có cái nhìn toàn diện hơn về tiềm năng và thách thức của năng lượng xanh.",
+      "Sự chú ý dành cho năng lượng tái tạo đang được thúc đẩy thông qua những phân tích chuyên sâu tại buổi tọa đàm này.",
+      "Buổi nói chuyện hướng tới việc xây dựng một cộng đồng quan tâm và ủng hộ các giải pháp năng lượng bền vững cho mai sau.",
+      "Thay đổi tư duy về sử dụng năng lượng là thông điệp chính mà buổi diễn giảng này muốn truyền tải đến toàn xã hội."
     ],
-    "keywords": ["致力", "消除", "差距", "公平"]
+    "keywords": ["專題講座", "可再生能源", "發展趨勢", "深度思考"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "創新的教育理念有助於培養學生的批判性思維。",
+    "sourceText": "雖然這項技術在實驗室階段取得了突破性進展，但在實現商業化應用方面仍面臨很多障礙。",
     "referenceAnswers": [
-      "Các quan niệm giáo dục sáng tạo giúp rèn luyện tư duy phản biện của học sinh.",
-      "Phương pháp dạy học mới chú trọng phát triển khả năng suy luận độc lập.",
-      "Học sinh được khuyến khích tư duy sắc sảo nhờ những cải cách trong giáo dục.",
-      "Tư duy phản biện là kết quả của việc áp dụng các triết lý giáo dục hiện đại."
+      "Mặc dù kỹ thuật này đã đạt được những bước tiến đột phá trong giai đoạn phòng thí nghiệm, nhưng vẫn còn nhiều rào cản khi đưa vào ứng dụng thương mại thực tế.",
+      "Dù đã thành công rực rỡ trong nghiên cứu, việc biến công nghệ này thành một sản phẩm có thể bán được trên thị trường là cả một thách thức lớn.",
+      "Nhiều trở ngại về chi phí và sản xuất hàng loạt đang ngăn cản công nghệ mới này tiến vào đời sống hằng ngày.",
+      "Chúng ta cần thêm thời gian để hoàn thiện quy trình từ thử nghiệm đến thương mại hóa để đảm bảo tính ổn định và lợi nhuận.",
+      "Những thành công bước đầu trong lý thuyết cần được chuyển hóa thành các giải pháp thực tiễn có khả năng cạnh tranh trên thị trường."
     ],
-    "keywords": ["創新", "教育理念", "培養", "批判性思維"]
+    "keywords": ["技術", "實驗室階段", "商業化", "面臨障礙"]
   },
   {
     "level": "B2",
     "direction": "zh_vi",
-    "sourceText": "他提出的各項建議在實踐中被證明是非常切實可行的。",
+    "sourceText": "他具有良好的跨文化溝通技巧，能夠在與不同文化背景的人士交流時保持自信與包容。",
     "referenceAnswers": [
-      "Những kiến nghị mà anh ấy đưa ra đã được chứng minh là rất khả thi trong thực tiễn.",
-      "Các ý tưởng của ông ấy áp dụng vào thực tiễn rất hiệu quả.",
-      "Nghiên cứu của anh ta không hề xa rời thực tế mà trái lại rất hữu dụng.",
-      "Mọi đề xuất đều có thể triển khai được và mang lại kết quả thật."
+      "Anh ấy sở hữu kỹ năng giao tiếp xuyên văn hóa tuyệt vời, có thể giữ được sự tự tin và sự bao dung khi trò chuyện với những người đến từ các nền văn hóa khác nhau.",
+      "Khả năng thấu hiểu và tôn trọng sự khác biệt giúp anh ấy luôn tạo được thiện cảm trong các môi trường làm việc quốc tế.",
+      "Sự tinh tế trong cách ứng xử đã giúp anh kết nối được nhiều đối tác nước ngoài và xóa tan đi các rào cản về phong tục tập quán.",
+      "Anh ta luôn biết cách điều chỉnh ngôn ngữ và thái độ của mình để phù hợp với từng ngữ cảnh văn hóa cụ thể.",
+      "Sự bao dung và am hiểu đa văn hóa là vũ khí sắc bén giúp anh thành công trên con đường sự nghiệp toàn cầu của mình."
     ],
-    "keywords": ["建議", "實踐", "證明", "可行"]
+    "keywords": ["跨文化", "溝通技巧", "文化背景", "自信與包容"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "這場活動的主要目的是加強兩國在航空航天技術研發與空間探索領域的深度合作。",
+    "referenceAnswers": [
+      "Mục đích chính của hoạt động này là tăng cường sự hợp tác sâu rộng giữa hai nước trong lĩnh vực nghiên cứu phát triển công nghệ hàng không vũ trụ và thám hiểm không gian.",
+      "Sự kiện đánh dấu một bước tiến mới trong việc chia sẻ kiến thức và nguồn lực cho các dự án chinh phục vũ trụ tầm cỡ quốc tế.",
+      "Hai quốc gia đang cùng nhau xây dựng một nền tảng hợp tác bền vững để phát triển các thế hệ tàu bay và vệ tinh hiện đại.",
+      "Việc bắt tay nghiên cứu các công nghệ không gian mới sẽ mang lại những lợi ích đột phá cho cả hai phía trong tương lai.",
+      "Tăng cường kết nối giữa các chuyên gia hàng không là ưu tiên hàng đầu của chúng tôi trong buổi làm việc lần này."
+    ],
+    "keywords": ["主要目的", "航空航天", "技術研發", "空間探索"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "隨著區塊鏈技術的不斷成熟，它在供應鏈溯源、數字財產權及智能合約等領域展現出強大的潛力。",
+    "referenceAnswers": [
+      "Cùng với sự hoàn thiện không ngừng của công nghệ chuỗi khối (blockchain), nó đang thể hiện tiềm năng mạnh mẽ trong các lĩnh vực như truy xuất nguồn gốc chuỗi cung ứng, quyền sở hữu tài sản kỹ thuật số và hợp đồng thông minh.",
+      "Thế giới đang chứng kiến sự trỗi dậy của blockchain như một giải pháp bảo mật và minh bạch cho nền kinh tế số tương lai.",
+      "Công nghệ chuỗi khối hứa hẹn sẽ làm thay đổi toàn bộ cách thức chúng ta giao dịch và quản lý tài sản trên môi trường internet.",
+      "Tính ứng dụng thực tế của blockchain đang ngày càng rộng mở khi nó giải quyết được bài toán về niềm tin và sự xác thực thông tin.",
+      "Tiềm năng đột phá của chuỗi khối trong việc tối ưu hóa quản trị xã hội và kinh tế đang được các nhà khoa học đánh giá rất cao."
+    ],
+    "keywords": ["區塊鏈技術", "供應鏈溯源", "數字財產權", "智能合約"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "他具有敏銳的審美眼光，總能從平凡的日常生活中捕捉到稍縱即逝的美好瞬間並將其轉化為藝術作品。",
+    "referenceAnswers": [
+      "Anh ấy có con mắt thẩm mỹ nhạy bén, luôn có thể nắm bắt được những khoảnh khắc tuyệt đẹp chợt lóe lên trong cuộc sống thường nhật và biến chúng thành các tác phẩm nghệ thuật.",
+      "Khả năng quan sát tinh tế giúp anh tìm thấy vẻ đẹp ở những nơi mà người khác thường bỏ qua.",
+      "Những tác phẩm của anh là sự chắt lọc từ những hơi thở thật nhất của cuộc đời qua lăng kính đầy nghệ thuật.",
+      "Anh ta có tài biến những điều bình dị nhất trở nên lung linh và đầy ý nghĩa thông qua sự sáng tạo của mình.",
+      "Cái đẹp trong mắt anh không xa xỉ, nó nằm ngay ở những giây phút ngắn ngủi nhưng đầy cảm xúc của cuộc sống xung quanh."
+    ],
+    "keywords": ["審美眼光", "日常生活", "瞬間", "藝術作品"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "政府正致力於推廣終身教育理念，以幫助勞動力群體適應不斷變化的就業市場與職業技能需求。",
+    "referenceAnswers": [
+      "Chính phủ đang nỗ lực quảng bá triết lý học tập suốt đời nhằm giúp lực lượng lao động thích nghi với thị trường việc làm và các yêu cầu kỹ năng nghề nghiệp đang thay đổi liên tục.",
+      "Khuyến khích học tập không ngừng là cách để mỗi cá nhân không bị bỏ lại phía sau trong thời đại công nghệ số.",
+      "Các chương trình đào tạo lại và nâng cao tay nghề đang được triển khai rộng khắp để hỗ trợ người lao động chuyển đổi nghề nghiệp.",
+      "Mục tiêu của chính phủ là xây dựng một xã hội học tập, nơi tri thức luôn được làm mới và cập nhật thường xuyên.",
+      "Học tập suốt đời là chìa khóa để duy trì năng lực cạnh tranh bền vững của quốc gia trong bối cảnh toàn cầu hóa."
+    ],
+    "keywords": ["終身教育", "適應", "就業市場", "職業技能"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "這場演出不僅僅是聽覺與視覺的饗宴，更是一次對於多元文化融合與共存的深度呈現。",
+    "referenceAnswers": [
+      "Buổi biểu diễn này không đơn thuần chỉ là một bữa tiệc của thính giác và thị giác, mà còn là một sự trình hiện sâu sắc về việc hòa nhập và cùng chung sống giữa các nền văn hóa đa dạng.",
+      "Khán giả đã thực sự kinh ngạc trước sự kết hợp nhuần nhuyễn giữa âm nhạc truyền thống và hiện đại của nhiều dân tộc.",
+      "Thông điệp về một thế giới hòa bình và tôn trọng sự khác biệt đã được truyền tải một cách khéo léo qua các tiết mục nghệ thuật.",
+      "Sự共tại của nhiều dòng chảy văn hóa trên cùng một sân khấu đã tạo nên một sức mạnh lay động lòng người.",
+      "Nghệ thuật đã chứng minh mình là ngôn ngữ chung tuyệt vời nhất để gắn kết mọi người lại với nhau bất kể biên giới."
+    ],
+    "keywords": ["視覺饗宴", "多元文化融合", "深度呈現"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "通過參加這個國際交流班，他不僅開闊了國際視野，也與來自世界各地的優秀學子建立了深厚的友誼。",
+    "referenceAnswers": [
+      "Thông qua việc tham gia lớp trao đổi quốc tế này, anh ấy không chỉ mở mang được tầm nhìn ra thế giới mà còn xây dựng được tình bạn sâu đậm với những sinh viên ưu tú đến từ khắp nơi trên toàn cầu.",
+      "Trải nghiệm học tập trong môi trường đa quốc gia đã giúp anh trưởng thành và có cái nhìn khách quan hơn về các vấn đề toàn cầu.",
+      "Những mối quan hệ bạn bè quốc tế quý báu sẽ là hành trang quan trọng cho anh trên con đường sự nghiệp mai sau.",
+      "Sự giao thoa tri thức và văn hóa từ bạn bè khắp châu lục đã mang lại cho anh những góc nhìn mới mẻ và thú vị.",
+      "Tham gia chương trình giao lưu là một quyết định đúng đắn giúp anh tự tin hơn khi bước chân ra thế giới."
+    ],
+    "keywords": ["國際交流", "視野", "優秀學子", "深厚友誼"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "長期處於電子設備的輻射與高強度工作下，會對視力與頸椎健康造成顯著的損傷。",
+    "referenceAnswers": [
+      "Làm việc cường độ cao và tiếp xúc lâu ngày với bức xạ từ các thiết bị điện tử sẽ gây ra những tổn thương đáng kể cho thị lực và sức khỏe của đốt sống cổ.",
+      "Sử dụng máy tính quá nhiều mà không nghỉ ngơi hợp lý là nguyên nhân hàng đầu dẫn đến các bệnh về mắt và xương khớp ở người trẻ.",
+      "Cần chú ý điều chỉnh tư thế ngồi và thời gian nhìn màn hình để bảo vệ sức khỏe bản thân trong thời đại văn phòng này.",
+      "Các tác động tiêu cực của ánh sáng xanh đối với giấc ngủ và đôi mắt cần phải được cảnh báo một cách rộng rãi hơn.",
+      "Lối sống làm việc gắn liền với các thiết bị số đang đặt ra những thách thức lớn cho sức khỏe cộng đồng hiện đại."
+    ],
+    "keywords": ["電子設備", "輻射", "視力", "損傷"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "他具有良好的跨部門統籌能力，能夠有效促進不同職能部門之間的溝通協作並達成共同目標。",
+    "referenceAnswers": [
+      "Anh ấy có khả năng điều phối liên phòng ban tốt, có thể thúc đẩy hiệu quả sự giao tiếp và hợp tác giữa các phòng chức năng khác nhau để đạt được mục tiêu chung.",
+      "Sự thành công của dự án lớn này phụ thuộc rất nhiều vào kỹ năng quản lý và kết nối khéo léo của anh ta.",
+      "Anh ấy đóng vai trò là chiếc cầu nối xóa tan đi các rào cản và hiểu lầm giữa các nhóm làm việc trong công ty.",
+      "Khả năng huy động nguồn lực và sự đồng lòng từ nhiều bộ phận là điểm mạnh nhất của người lãnh đạo này.",
+      "Mọi mâu thuẫn nội bộ đều được giải quyết êm đẹp nhờ vào cách tiếp cận công bằng và thấu đáo của anh ấy."
+    ],
+    "keywords": ["跨部門", "統籌能力", "溝通協作", "共同目標"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "雖然他在科研這條道路上走了很多彎路，但最終的成功證明了他的韌性與不懈追求。",
+    "referenceAnswers": [
+      "Mặc dù anh ấy đã trải qua nhiều thăng trầm và cả những lần đi sai hướng trên con đường nghiên cứu khoa học, nhưng thành công cuối cùng đã minh chứng cho sự kiên cường và nỗ lực không ngừng nghỉ của anh.",
+      "Sự bền bỉ trước thất bại là điều làm nên sự khác biệt giữa một nhà khoa học chân chính và những người bình thường khác.",
+      "Mọi thử thách chỉ càng làm dày thêm kinh nghiệm và bản lĩnh để anh tiến tới đỉnh cao của tri thức.",
+      "Dù muộn màng, nhưng những phát kiến của anh đã đóng góp to lớn cho sự phát triển của ngành này.",
+      "Anh ấy chưa bao giờ nghĩ đến việc bỏ cuộc, niềm tin vào sự thật đã luôn thôi thúc anh tiến về phía trước."
+    ],
+    "keywords": ["科研", "彎路", "韌性", "不懈追求"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "這場活動的主要目的是加強亞太地區在網絡安全與數字治理領域的信息共享與應急處理機制。",
+    "referenceAnswers": [
+      "Mục đích chính của hoạt động này là tăng cường cơ chế chia sẻ thông tin và xử lý khẩn cấp trong lĩnh vực an ninh mạng và quản trị số tại khu vực Châu Á - Thái Bình Dương.",
+      "Các quốc gia đang cùng nhau xây dựng một lá chắn phòng thủ vững chắc trước các cuộc tấn công mạng ngày càng tinh vi.",
+      "Hợp tác quốc tế là yếu tố sống còn để đảm bảo an toàn cho hạ tầng thông tin quan trọng của mỗi đất nước.",
+      "Buổi làm việc tập trung vào việc chuẩn hóa các quy trình ứng phó sự cố và nâng cao năng lực kỹ thuật cho các bên.",
+      "Sự minh bạch và tin cậy lẫn nhau là nền tảng để các bên cùng phát triển một môi trường không gian mạng lành mạnh."
+    ],
+    "keywords": ["主要目的", "網絡安全", "數字治理", "應急處理"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "隨著智能家居技術的不斷演進，它正在將“物聯網”的概念轉化為切實提升生活品質的居家體驗。",
+    "referenceAnswers": [
+      "Cùng với sự tiến hóa không ngừng của công nghệ nhà thông minh, nó đang biến khái niệm "Internet vạn vật" (IoT) thành những trải nghiệm gia đình thực tế giúp nâng cao chất lượng cuộc sống.",
+      "Ngôi nhà trong tương lai sẽ thấu hiểu và phục vụ mọi nhu cầu của chúng ta một cách hoàn toàn tự động.",
+      "Sự tiện nghi và an toàn được đẩy lên một tầm cao mới nhờ vào sự kết nối đồng bộ giữa các thiết bị gia dụng.",
+      "Chúng ta đang sống trong một kỷ nguyên mà mọi vật dụng quanh mình đều có khả năng tương tác và nhận lệnh.",
+      "Nhà thông minh không còn là điều gì đó xa xỉ, nó đang dần trở thành một tiêu chuẩn mới cho cuộc sống hiện đại."
+    ],
+    "keywords": ["智能家居", "物聯網", "生活品質", "居家體驗"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "他正在努力寫論文，以換取能在學術研討會上發言的機會。",
+    "referenceAnswers": [
+      "Anh ấy đang nỗ lực viết luận văn để đổi lấy cơ hội được phát biểu tại hội thảo học thuật.",
+      "Việc hoàn thành bài luận là điều kiện cần để anh ấy có thể trình bày ý tưởng tại hội nghị.",
+      "Anh ta dành toàn bộ thời gian cho nghiên cứu với hy vọng được giới chuyên môn công nhận.",
+      "Ước mơ được đứng trên bục diễn thuyết của hội thảo lớn thôi thúc anh ấy viết lách miệt mài.",
+      "Bài báo khoa học này là tấm vé giúp anh ấy tiến gần hơn tới giới học giả quốc tế."
+    ],
+    "keywords": ["寫論文", "學術研討會", "發言", "機會"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "這場講座引發了現場聽眾對於家庭教育重要性的熱烈討論。",
+    "referenceAnswers": [
+      "Buổi diễn thuyết này đã khơi dậy sự thảo luận sôi nổi của thính giả có mặt về tầm quan trọng của giáo dục gia đình.",
+      "Khán phòng bỗng chốc trở nên ồn ào với những ý kiến đóng góp về cách nuôi dạy con cái đúng đắn.",
+      "Tầm ảnh hưởng của gia đình đối với trẻ là chủ đề chính được mọi người quan tâm trong buổi tọa đàm.",
+      "Buổi chia sẻ đã chạm đến những vấn đề cốt lõi mà mọi bậc làm cha mẹ đang phải đối mặt.",
+      "Nhiều thắc mắc đã được giải đáp và nhiều kinh nghiệm quý báu đã được lan tỏa sau buổi nói chuyện."
+    ],
+    "keywords": ["引發", "聽眾", "家庭教育", "重要性"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "教育的目的應該是為了引導學生發現自我價值，而不是僅僅考取高分。",
+    "referenceAnswers": [
+      "Mục đích của giáo dục nên là hướng dẫn học sinh khám phá giá trị bản thân chứ không chỉ đơn thuần là đạt điểm cao.",
+      "Thay vì chạy theo những con số, trường học nên là nơi giúp trẻ tìm thấy đam mê và thực lực của mình.",
+      "Điểm số không định nghĩa tất cả, giá trị cốt lõi của giáo dục nằm ở việc định hình nhân cách.",
+      "Hãy dạy học sinh cách làm người và cách tự hào về chính mình trước khi dạy chúng cách làm toán.",
+      "Tương lai của một đứa trẻ không chỉ nằm ở những tấm bằng khen mà ở sự tự tin vào chính bản thân nó."
+    ],
+    "keywords": ["目的", "引導", "發現自我價值", "僅僅考取"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "他在表演中展現出了極其靈動的神韻，深深地打動了在場的人。",
+    "referenceAnswers": [
+      "Trong phần biểu diễn, anh ấy thể hiện thần thái cực kỳ linh động, làm xúc động sâu sắc những người có mặt.",
+      "Mọi người đều bị mê hoặc bởi diễn xuất tinh tế và hồn nhiên của người nghệ sĩ trẻ.",
+      "Cảm xúc chân thật được anh ấy truyền tải qua từng ánh mắt và cử chỉ trên sân khấu.",
+      "Cả khán phòng lặng đi để cảm nhận cái hồn của nhân vật mà anh đang hóa thân.",
+      "Đó là một màn trình diễn đỉnh cao, chạm đến những rung động thầm kín nhất của trái tim khán giả."
+    ],
+    "keywords": ["展現", "靈動", "神韻", "打動"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "通這段時間的相處，我發現他不但善良，而且富有正義感。",
+    "referenceAnswers": [
+      "Qua quãng thời gian tiếp xúc này, tôi nhận thấy anh ấy không chỉ lương thiện mà còn đầy tinh thần chính nghĩa.",
+      "Anh ấy là người thực sự có tâm và luôn sẵn sàng đứng về phía lẽ phải.",
+      "Càng hiểu về anh ấy, tôi càng trân trọng tấm lòng nhân hậu và sự cương trực trong tính cách đó.",
+      "Khác với vẻ ngoài lạnh lùng, bên trong anh là một trái tim ấm áp và luôn bảo vệ công lý.",
+      "Sự chính trực của anh ấy khiến mọi người xung quanh cảm thấy vô cùng tin tưởng và nể trọng."
+    ],
+    "keywords": ["相處", "善良", "富有", "正義感"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "為了能如期完成任務，我們團隊每個人都付出了巨大的努力與汗水。",
+    "referenceAnswers": [
+      "Để có thể hoàn thành nhiệm vụ đúng hạn, mỗi thành viên trong đội chúng tôi đều đã bỏ ra rất nhiều nỗ lực và mồ hôi.",
+      "Sự thành công của dự án này là kết quả của nhiều đêm trắng và sự cống hiến hết mình từ cả tập thể.",
+      "Chúng tôi đã chiến đấu đến những giây phút cuối cùng để không làm lỡ hẹn với khách hàng.",
+      "Không có thành quả nào đạt được mà không trải qua những gian khổ và thử thách cực độ.",
+      "Tất cả chúng tôi đều tự hào vì đã cùng nhau vượt qua giai đoạn khó khăn nhất để đạt tới đích."
+    ],
+    "keywords": ["如期完成", "任務", "巨大努力", "汗水"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "長期從事繁重的體力勞動，可能會對身體關節造成永久性損傷。",
+    "referenceAnswers": [
+      "Việc làm các công việc chân tay nặng nhọc lâu dài có thể gây ra những tổn thương vĩnh viễn cho các khớp xương.",
+      "Sức khỏe của công nhân bị ảnh hưởng nghiêm trọng do các tác động cơ học liên tục lên cơ thể.",
+      "Cần có các biện pháp bảo hộ lao động để giảm thiểu rủi ro tàn tật do tính chất công việc gây ra.",
+      "Nghề lao động nặng đòi hỏi sự dẻo dai nhưng cũng tiềm ẩn nhiều mối nguy cho hệ vận động.",
+      "Các bác sĩ khuyến cáo nên có chế độ nghỉ ngơi hợp lý để tránh những biến chứng sức khỏe về già."
+    ],
+    "keywords": ["長期", "繁重", "體力勞動", "永久性損傷"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "這場交流活動旨在促進兩地之間的科技研發與人才共享合作模式。",
+    "referenceAnswers": [
+      "Hoạt động giao lưu này nhằm thúc đẩy mô hình hợp tác nghiên cứu phát triển công nghệ và chia sẻ nhân tài giữa hai nơi.",
+      "Hai vùng đất đang tìm tiếng nói chung trong việc khai phá các tiềm năng khoa học mới.",
+      "Xây dựng mạng lưới trí thức và công nghệ là mục tiêu xuyên suốt của buổi gặp gỡ lần này.",
+      "Chúng tôi mong muốn tạo ra một hệ sinh thái khởi nghiệp liên kết chặt chẽ giữa các thành phố.",
+      "Sự hợp tác này mang lại lợi ích to lớn cho sự phát triển chung của cả khu vực kinh tế."
+    ],
+    "keywords": ["促進", "科技研發", "人才共享", "模式"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "雖然這項計劃在初期遭到了一些反對，但最終還是獲得了大多數人的肯定。",
+    "referenceAnswers": [
+      "Mặc dù kế hoạch này lúc đầu gặp phải một số ý kiến phản đối, nhưng cuối cùng vẫn nhận được sự khẳng định của số đông.",
+      "Mọi nghi ngại ban đầu đã được giải tỏa hoàn toàn bởi hiệu quả thực tế mà dự án mang lại.",
+      "Dù có nhiều tranh luận, niềm tin vào sự thành công của kế hoạch vẫn chiến thắng tất cả.",
+      "Chúng tôi đã thuyết phục được sự ủng hộ của cộng đồng sau khi điều chỉnh các nội dung chưa phù hợp.",
+      "Kết quả viên mãn cuối cùng là minh chứng hùng hồn nhất cho sự đúng đắn của lộ trình đã chọn."
+    ],
+    "keywords": ["初期", "遭到反對", "最終", "肯定"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "政府正致力於實施多項惠民政策，以緩解貧富差距帶來的社會矛盾。",
+    "referenceAnswers": [
+      "Chính phủ đang dồn sức thực hiện nhiều chính sách an sinh xã hội nhằm giảm bớt mâu thuẫn do khoảng cách giàu nghèo gây ra.",
+      "Nâng cao đời sống cho người nghèo là nhiệm vụ trọng tâm để duy trì sự ổn định của đất nước.",
+      "Các gói hỗ trợ kinh tế đang được triển khai để thu hẹp hố sâu ngăn cách giữa các tầng lớp xã hội.",
+      "Lắng nghe và đáp ứng nguyện vọng của người dân là cách tốt nhất để hòa hợp các mối quan hệ xã hội.",
+      "Cân bằng lợi ích giữa các bên giúp xã hội phát triển một cách văn minh và bền vững hơn."
+    ],
+    "keywords": ["致力", "惠民政策", "貧富差距", "社會矛盾"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "他正在努力研讀古籍，希望能對古代歷史有更全面的了解與認識。",
+    "referenceAnswers": [
+      "Anh ấy đang nỗ lực nghiên cứu sách cổ với hy vọng có sự hiểu biết và nhận thức toàn diện hơn về lịch sử cổ đại.",
+      "Việc tìm về cội nguồn văn hóa qua các trang sách xưa là niềm đam mê cháy bỏng của anh ấy.",
+      "Anh ta dành hàng giờ trong thư viện để giải mã những bí ẩn mà tiền nhân để lại.",
+      "Kiến thức về quá khứ giúp anh có cái nhìn khách quan hơn về hiện tại và tương lai.",
+      "Sự uyên bác của anh trong lĩnh vực sử học được bồi đắp từ việc đọc hàng nghìn trang thư tịch cổ."
+    ],
+    "keywords": ["研讀", "古籍", "古代歷史", "全面了解"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "這場專題講座為在座的高校學子提供了一個展示自我與交流心得的寶貴平台。",
+    "referenceAnswers": [
+      "Buổi diễn thuyết chuyên đề này đã cung cấp cho sinh viên các trường đại học một sân chơi quý báu để thể hiện bản thân và trao đổi kinh nghiệm.",
+      "Các bạn trẻ có cơ hội hiếm có để kết nối với những chuyên gia hàng đầu trong lĩnh vực của mình.",
+      "Tọa đàm là nơi khởi đầu cho những ý tưởng sáng tạo và những tình bạn đẹp giữa các sinh viên.",
+      "Mọi người đều phấn khởi khi được chia sẻ những băn khoăn và nhận được sự tư vấn nhiệt tình.",
+      "Giá trị của sự kiện nằm ở khả năng lan tỏa tri thức và cảm hứng cho thế hệ tương lai của đất nước."
+    ],
+    "keywords": ["專題講座", "展示自我", "交流心得", "寶貴平台"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "教育的真諦在於啟發人類潛藏的良知與靈魂，而不僅僅是填充記憶。",
+    "referenceAnswers": [
+      "Ý nghĩa thực sự của giáo dục nằm ở việc khơi dậy lương tri và tâm hồn tiềm ẩn của con người chứ không chỉ là lấp đầy trí nhớ.",
+      "Học không phải là học thuộc lòng, mà là học cách để trở thành một con người tử tế và có ích.",
+      "Bản chất của dạy học là khơi gợi ngọn lửa đam mê và lòng nhân ái trong mỗi cá nhân.",
+      "Đừng biến học sinh thành những cỗ máy lưu trữ dữ liệu, hãy để chúng bay bổng với tư duy sáng tạo.",
+      "Giáo dục tâm hồn mới là cái gốc để tạo ra một xã hội hạnh phúc và văn minh."
+    ],
+    "keywords": ["真諦", "啟發", "良知與靈魂", "填充記憶"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "他在表演中將角色的內心戲處理得極致細膩，令不少觀眾淚灑現場。",
+    "referenceAnswers": [
+      "Anh ấy đã xử lý tâm lý nhân vật một cách tinh tế đến mức khiến không ít khán giả phải rơi lệ tại chỗ.",
+      "Diễn xuất có chiều sâu của người diễn viên đã chạm đến tận cùng nỗi đau của câu chuyện.",
+      "Cả khán phòng đã cùng khóc cùng cười với những thăng trầm của nhân vật trên sân khấu.",
+      "Đó là một sự hóa thân hoàn mỹ, khiến người xem quên đi đâu là diễn và đâu là đời.",
+      "Ấn tượng về một tâm hồn tan vỡ đã được anh khắc họa một cách đầy ám ảnh và đầy xúc động."
+    ],
+    "keywords": ["角色", "內心戲", "細膩", "淚灑現場"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "通過參加這次志願服務，他深刻感受到了幫助他人所帶來的快樂與幸福感。",
+    "referenceAnswers": [
+      "Thông qua việc tham gia phục vụ tình nguyện lần này, anh ấy đã cảm nhận sâu sắc niềm vui và hạnh phúc khi giúp đỡ người khác.",
+      "Làm việc thiện giúp tâm hồn anh trở nên thanh thản và yêu đời hơn bao giờ hết.",
+      "Anh ấy nhận ra rằng cho đi cũng chính là nhận lại những giá trị tinh thần vô giá.",
+      "Trải nghiệm cộng đồng này đã làm thay đổi hoàn toàn cách nhìn của anh về ý nghĩa cuộc sống.",
+      "Niềm tự hào khi được cống hiến sức trẻ cho xã hội là điều anh luôn trân trọng."
+    ],
+    "keywords": ["志願服務", "幫助他人", "快樂", "幸福感"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "為了保護瀕危物種，我們必須加強公眾防範違法貿易的法律意識。",
+    "referenceAnswers": [
+      "Để bảo vệ các loài có nguy cơ tuyệt chủng, chúng ta phải nâng cao nhận thức pháp luật của công chúng về việc phòng chống buôn bán bất hợp pháp.",
+      "Tiếng nói của cộng đồng là lá chắn thép giúp ngăn chặn nạn săn bắn động vật hoang dã.",
+      "Cần thiết phải trang bị kiến thức về bảo tồn cho thế hệ trẻ ngay từ khi còn ngồi trên ghế nhà trường.",
+      "Việc thực thi pháp luật nghiêm minh kết hợp với tuyên truyền sẽ mang lại hiệu quả bền vững.",
+      "Mọi hành vi xâm hại thiên nhiên cần phải được lên án và xử lý một cách thích đáng theo quy định."
+    ],
+    "keywords": ["保護", "瀕危物種", "違法貿易", "法律意識"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "他具有極高的分析能力，能在龐雜的數據中迅速找出核心問題所在。",
+    "referenceAnswers": [
+      "Anh ấy có khả năng phân tích cực cao, có thể nhanh chóng tìm ra vấn đề cốt lõi trong mớ dữ liệu khổng lồ và phức tạp.",
+      "Kỹ năng xử lý thông tin nhạy bén giúp anh ấy luôn đi trước đối thủ một bước trong kinh doanh.",
+      "Anh ta là người đưa ra những quyết định sáng suốt dựa trên những bằng chứng xác thực từ số liệu.",
+      "Sự thông thái của anh ấy thể hiện qua việc đơn giản hóa những điều cực kỳ phức tạp.",
+      "Dữ liệu không biết nói dối, và anh ấy là người thấu hiểu ngôn ngữ của chúng tốt nhất."
+    ],
+    "keywords": ["分析能力", "龐雜數據", "核心問題", "迅速找"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "隨著全球化的深入發展，跨文化溝通能力已經成為職場精英的必備能力之一。",
+    "referenceAnswers": [
+      "Cùng với sự phát triển sâu rộng của toàn cầu hóa, kỹ năng giao tiếp xuyên văn hóa đã trở thành một trong những khả năng bắt buộc của giới tinh hoa nơi công sở.",
+      "Hợp tác quốc tế đòi hỏi sự thấu hiểu đa dạng về phong tục và tập quán của các đối tác khác nhau.",
+      "Khả năng ngoại ngữ là quan trọng nhưng sự tinh tế trong văn hóa mới là chìa khóa của thành công.",
+      "Thế giới đang thu nhỏ lại, và những người biết kết nối giữa các nền văn hóa sẽ là người dẫn đầu.",
+      "Học cách tôn trọng sự khác biệt là bước đầu tiên để trở thành một công dân toàn cầu ưu tú."
+    ],
+    "keywords": ["全球化", "跨文化溝通", "職場精英", "必備能力"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "這份研究報告揭示了目前城市青年群體對於購房壓力的普遍焦慮感。",
+    "referenceAnswers": [
+      "Bản báo cáo nghiên cứu này đã tiết lộ sự lo lắng phổ biến của nhóm thanh niên thành thị đối với áp lực mua nhà hiện nay.",
+      "Những con số phản ánh một thực tế khắc nghiệt về giấc mơ sở hữu tổ ấm của người trẻ.",
+      "Áp lực tài chính từ việc trả góp ngân hàng đang đè nặng lên vai những người đang ở độ tuổi sung sức nhất.",
+      "Chính sách hỗ trợ nhà ở cần được chú trọng hơn để xoa dịu những bất ổn trong tâm lý thế hệ Gen Z.",
+      "Hạnh phúc dường như khó đạt được hơn khi ngôi nhà trở thành một gánh nặng thay vì nơi để về."
+    ],
+    "keywords": ["揭示", "城市青年", "購房壓力", "焦慮感"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "為了推廣公益活動，我們邀請了多位著名藝人參與宣傳。",
+    "referenceAnswers": [
+      "Để quảng bá các hoạt động công ích, chúng tôi đã mời nhiều nghệ sĩ nổi tiếng tham gia tuyên truyền.",
+      "Nỗ lực lan tỏa thông điệp từ thiện của chúng tôi được hỗ trợ bởi sự góp mặt của các ngôi sao lớn.",
+      "Chiến dịch vì cộng đồng lần này có sự đồng hành của nhiều gương mặt có tầm ảnh hưởng.",
+      "Sự tham gia của những người nổi tiếng giúp thu hút sự chú ý của công chúng đối với hoạt động xã hội.",
+      "Chúng tôi hy vọng sức mạnh của truyền thông qua các nghệ sĩ sẽ giúp chương trình thành công rực rỡ."
+    ],
+    "keywords": ["推廣", "公益活動", "著名藝人", "參與宣傳"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "在他的帶領下，研發團隊成功攻克了技術難關，獲得了多項國家專利。",
+    "referenceAnswers": [
+      "Dưới sự dẫn dắt của anh, đội ngũ R&D đã chinh phục thành công các khó khăn về kỹ thuật và đạt được nhiều bằng sáng chế quốc gia.",
+      "Bản lĩnh của người thủ lĩnh đã giúp tập thể vượt qua giai đoạn bế tắc và gặt hái được những thành công vang dội.",
+      "Những bằng sáng chế mới là minh chứng cho sự nỗ lực và óc sáng tạo tuyệt vời của cả đội ngũ.",
+      "Chúng tôi tự hào vì đã tạo ra những đột phá có giá trị thực tiễn cao cho ngành công nghiệp nước nhà.",
+      "Sự đồng lòng và quyết tâm của các kỹ sư đã mang lại những kết quả vượt ngoài mong đợi."
+    ],
+    "keywords": ["帶領", "攻克", "技術難關", "國家專利"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "政府正致力於實施多樣化的保障性住房政策，以緩解一線城市居民的負擔。",
+    "referenceAnswers": [
+      "Chính phủ đang nỗ lực thực hiện các chính sách nhà ở đảm bảo đa dạng nhằm giảm bớt gánh nặng cho cư dân các thành phố cấp 1.",
+      "An cư lạc nghiệp là mục tiêu hàng đầu mà các chính sách dân sinh đang hướng tới.",
+      "Áp lực tài chính về nơi ở đang được tháo gỡ thông qua các gói hỗ trợ thuê và mua nhà trả góp.",
+      "Người trẻ có thêm nhiều cơ hội sở hữu căn nhà đầu tiên nhờ các ưu đãi từ phía nhà nước.",
+      "Xây dựng một môi trường sống công bằng và tiện nghi là ưu tiên hàng đầu của chúng tôi."
+    ],
+    "keywords": ["住房政策", "一線城市", "居民負擔", "緩解"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "這場活動旨在引發公眾對於氣候變化與生態保護問題的深度覺醒。",
+    "referenceAnswers": [
+      "Hoạt động này nhằm khơi dậy sự thức tỉnh sâu sắc của công chúng về vấn đề biến đổi khí hậu và bảo vệ hệ sinh thái.",
+      "Tiếng chuông cảnh báo về môi trường đã vang lên, thôi thúc mỗi chúng ta phải hành động ngay lập tức.",
+      "Bảo vệ Trái Đất không còn là trách nhiệm của riêng ai, đó là sứ mệnh chung của cả nhân loại.",
+      "Mỗi hành động nhỏ đều góp phần tạo nên sự thay đổi lớn cho tương lai của hành tinh xanh.",
+      "Chúng tôi hy vọng buổi lan tỏa này sẽ thôi thúc mọi người sống xanh và trách nhiệm hơn."
+    ],
+    "keywords": ["旨在", "引發", "深度覺醒", "生態保護"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "他展現出了極高的專業水平，贏得了行業內專家們的高度認可。",
+    "referenceAnswers": [
+      "Anh ấy đã thể hiện trình độ chuyên môn rất cao, nhận được sự công nhận lớn từ các chuyên gia trong ngành.",
+      "Sự am hiểu sâu sắc và kỹ năng điêu luyện đã giúp anh khẳng định được vị thế của mình.",
+      "Anh ta là một tấm gương sáng về tinh thần học hỏi và rèn luyện không ngừng trong công việc.",
+      "Những đóng góp của anh mang lại giá trị thực tiễn to lớn cho sự phát triển của lĩnh vực này.",
+      "Đồng nghiệp và đối tác đều dành những lời khen ngợi nồng nhiệt cho thái độ làm việc của anh."
+    ],
+    "keywords": ["專業水平", "贏得", "認可", "專家"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "這場專案會議的主要成果在於明確了各部門在數字化轉型過程中的具體職責。",
+    "referenceAnswers": [
+      "Kết quả chính của cuộc họp dự án này nằm ở việc làm rõ trách nhiệm cụ thể của từng bộ phận trong quá trình chuyển đổi số.",
+      "Sự phân công nhiệm vụ rõ ràng giúp hệ thống vận hành trơn tru và đạt hiệu suất cao nhất.",
+      "Mọi vướng mắc về quản lý đã được giải quyết triệt để thông qua các trao đổi thẳng thắn.",
+      "Chúng tôi đã đạt được sự đồng thuận cao về lộ trình phát triển công nghệ trong giai đoạn tới.",
+      "Bản kế hoạch chi tiết này sẽ là kim chỉ nam cho mọi hoạt động của công ty sắp tới."
+    ],
+    "keywords": ["會議成果", "數字化轉型", "具體職責"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "隨著區塊鏈技術的不斷演進，它正逐漸應用於供應鏈追蹤、版權保護等關鍵領域。",
+    "referenceAnswers": [
+      "Cùng với sự tiến hóa không ngừng của công nghệ chuỗi khối, nó đang dần được ứng dụng vào các lĩnh vực then chốt như truy xuất nguồn gốc chuỗi cung ứng và bảo vệ bản quyền.",
+      "Tính minh bạch và bảo mật của blockchain mang lại niềm tin tuyệt đối cho các giao dịch trực tuyến.",
+      "Kỷ nguyên số đang đòi hỏi những giải pháp xác thực thông tin mạnh mẽ và đáng tin cậy hơn bao giờ hết.",
+      "Các nghệ sĩ và nhà sáng tạo nội dung giờ đây có thể yên tâm hơn về quyền sở hữu trí tuệ của mình.",
+      "Sự đột phá này mở ra những cơ hội kinh doanh mới đầy hứa hẹn cho các doanh nghiệp khởi nghiệp."
+    ],
+    "keywords": ["區塊鏈", "供應鏈追蹤", "版權保護", "發展"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "雖然這項計劃在實施過程中面臨諸多阻礙，但最終還是取得了令人鼓舞的階段性成果。",
+    "referenceAnswers": [
+      "Mặc dù kế hoạch này đối mặt với nhiều rào cản trong quá trình thực hiện, nhưng cuối cùng vẫn đạt được những kết quả giai đoạn đáng khích lệ.",
+      "Sự kiên trì của tập thể đã chiến thắng những khó khăn khách quan từ môi trường bên ngoài.",
+      "Mỗi bước tiến nhỏ đều là động lực to lớn để chúng ta tiếp tục chinh phục những mục tiêu xa hơn.",
+      "Chúng tôi tự hào vì đã không bỏ cuộc khi đối diện với những thử thách khắc nghiệt nhất.",
+      "Những con số tăng trưởng ổn định đã minh chứng cho sự đúng đắn của chiến lược đề ra."
+    ],
+    "keywords": ["阻礙", "最終", "階段性成果", "令人鼓舞"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "老實說，我認為他的領導能力還需要進一步提昇。",
+    "referenceAnswers": [
+      "Thật lòng mà nói, tôi cảm thấy kỹ năng lãnh đạo của anh ấy cần phải được cải thiện thêm nữa.",
+      "Nói thật là trình độ quản lý của anh ấy vẫn còn nhiều hạn chế và cần được trau dồi thêm.",
+      "Thẳng thắn mà nói, anh ấy chưa thực sự thể hiện được bản lĩnh của một người đứng đầu.",
+      "Tôi nghĩ rằng anh ấy nên tham gia thêm các khóa đào tạo về kỹ năng dẫn dắt đội nhóm.",
+      "Sự thiếu quyết đoán là một trong những điểm yếu trong cách lãnh đạo của anh ấy hiện nay."
+    ],
+    "keywords": ["老實說", "領導能力", "提昇"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "公司正努力控制運營成本，以確保達成預期的利潤目標。",
+    "referenceAnswers": [
+      "Công ty đang cố gắng khống chế chi phí vận hành để đảm bảo mức lợi nhuận đề ra.",
+      "Việc tối ưu hóa các khoản chi tiêu là ưu tiên hàng đầu của doanh nghiệp trong giai đoạn này.",
+      "Chúng tôi đang thắt chặt ngân sách nhằm duy trì khả năng sinh lời cho cả hệ thống.",
+      "Mọi khâu trong quy trình sản xuất đều được kiểm soát gắt gao để tránh lãng phí tiền bạc.",
+      "Để đạt được mục tiêu doanh thu, việc cắt giảm những chi phí không cần thiết là điều bắt buộc."
+    ],
+    "keywords": ["控制", "運營成本", "利潤"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "上司的誇獎帶給我很大的自信心。",
+    "referenceAnswers": [
+      "Lời khen ngợi của sếp đã mang lại cho tôi niềm tin rất lớn vào bản thân.",
+      "Sự công nhận từ phía lãnh đạo khiến tôi cảm thấy công sức của mình đã được đền đáp.",
+      "Được cấp trên khen ngợi là động lực vô cùng quý báu để tôi tiếp tục cống hiến.",
+      "Tôi cảm thấy tự tin hơn nhiều sau khi nhận được những lời tán dương từ giám đốc.",
+      "Sự khích lệ kịp thời của quản lý đã giúp tôi vượt qua sự hoài nghi về năng lực của mình."
+    ],
+    "keywords": ["誇獎", "自信心", "上司"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "這個問題的來源在於配送流程缺乏透明度。",
+    "referenceAnswers": [
+      "Nguồn gốc của vấn đề này bắt nguồn từ sự thiếu minh bạch trong quy trình giao hàng.",
+      "Sự mập mờ trong các khâu vận chuyển chính là nguyên nhân dẫn đến những rắc rối hiện tại.",
+      "Chúng ta cần làm rõ nguồn gốc của việc thất thoát hàng hóa trong quá trình phân phối.",
+      "Quy trình hậu cần cần được công khai hóa để tránh những hiểu lầm không đáng có.",
+      "Gốc rễ của nan đề nằm ở việc chúng ta chưa kiểm soát tốt các luồng thông tin vận tải."
+    ],
+    "keywords": ["來源", "透明度", "流程"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "這些建築材料全部來自於享有盛譽的當地供應商。",
+    "referenceAnswers": [
+      "Tất cả các vật liệu xây dựng này đều đến từ các nhà cung cấp địa phương có uy tín.",
+      "Nguồn gốc của các loại vật tư xây dựng này hoàn toàn bảm bảo nhờ những đối tác tin cậy.",
+      "Chúng tôi ưu tiên sử dụng sản phẩm từ các doanh nghiệp bản địa để đảm bảo chất lượng.",
+      "Sự uy tín của nhà cung cấp là tiêu chí hàng đầu khi chúng tôi lựa chọn nguyên vật liệu.",
+      "Toàn bộ khối lượng sắt thép và xi măng được nhập từ các đơn vị có tiếng trong khu vực."
+    ],
+    "keywords": ["來自", "建築材料", "當地", "供應商"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "食物浪費是一個嚴重的社會問題，需要全社會共同努力來解決。",
+    "referenceAnswers": [
+      "Lãng phí thực phẩm là một vấn đề nghiêm trọng cần có giải pháp triệt để từ xã hội.",
+      "Để ngăn chặn nạn bỏ phí đồ ăn, mỗi cá nhân và doanh nghiệp đều phải có trách nhiệm.",
+      "Tiết kiệm thực phẩm không chỉ là bảo vệ tài chính mà còn là bảo vệ môi trường sống.",
+      "Xây dựng một lối sống tiết kiệm và chống lãng phí là mục tiêu của phong trào này.",
+      "Chúng ta cần giáo dục thế hệ trẻ về giá trị của thực phẩm để tránh những sự lãng phí."
+    ],
+    "keywords": ["浪費", "食物", "社會問題"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "腦力勞動有時比體力勞動更讓人感到疲憊。",
+    "referenceAnswers": [
+      "Lao động trí óc đôi khi còn mang lại sự mệt mỏi lớn hơn cả lao động chân tay.",
+      "Sự vắt kiệt sức lực từ việc suy nghĩ quá nhiều là điều mà dân văn phòng thường gặp phải.",
+      "Căng thẳng thần kinh kéo dài gây ra những hệ lụy sức khỏe trầm trọng hơn mệt mỏi cơ bắp.",
+      "Đừng coi thường lao động trí óc, nó đòi hỏi sự tập trung cao độ và tiêu tốn nhiều năng lượng.",
+      "Phục hồi thể chất dễ hơn nhiều so với việc cân bằng lại tâm trí sau những giờ làm việc căng thẳng."
+    ],
+    "keywords": ["勞動", "腦力", "體力", "疲憊"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "雖然在城市住了很久，但他依然懷念安靜的老家。",
+    "referenceAnswers": [
+      "Dù sống ở thành phố đã lâu, nhưng anh ấy vẫn luôn nhớ về quê nhà yên bình.",
+      "Thành thị ồn ào khiến anh càng thêm nhớ nhung không khí tĩnh mịch nơi làng quê cũ.",
+      "Ký ức về mái nhà xưa yên ả luôn hiện về trong tâm trí anh sau mỗi ngày làm việc.",
+      "Khoảng cách địa lý không làm vơi đi tình yêu và sự gắn bó của anh đối với quê hương.",
+      "Anh ấy luôn mong có dịp được trở về để tận hưởng không gian trong lành của vùng quê."
+    ],
+    "keywords": ["老家", "雖然", "懷念", "平靜"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "我們必須立即採取行動以阻止病毒的傳播。",
+    "referenceAnswers": [
+      "Chúng ta phải lập tức hành động để ngăn chặn sự lây lan của loại virus này.",
+      "Mọi sự trì hoãn lúc này đều có thể dẫn đến những hậu quả khôn lường cho sức khỏe cộng đồng.",
+      "Việc triển khai các biện pháp ngăn chặn cần được thực hiện ngay lập tức và quyết liệt.",
+      "Dập dịch tại nguồn là ưu tiên số một để virus không có cơ hội phát tán ra diện rộng.",
+      "Sự chung tay của mỗi công dân trong việc tuân thủ quy định y tế là hành động cấp bách nhất."
+    ],
+    "keywords": ["立即", "行動", "病毒", "傳播"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "他離職的理由是希望能找到一個更有創意的環境。",
+    "referenceAnswers": [
+      "Lý do anh ấy xin nghỉ việc là vì muốn tìm kiếm một môi trường làm việc sáng tạo hơn.",
+      "Khát khao đổi mới và được thi triển sở trường là động lực để anh rời bỏ vị trí hiện tại.",
+      "Anh ấy hy vọng ở công ty mới, những ý tưởng đột phá của mình sẽ được tôn trọng.",
+      "Môi trường gò bó không còn phù hợp với con người luôn muốn bứt phá như anh ấy.",
+      "Anh ta quyết tâm tìm kiếm một nơi mà trí sáng tạo được đặt lên hàng đầu trong công việc."
+    ],
+    "keywords": ["理由", "離職", "創意", "環境"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "靈活的做事方式讓他贏得了客戶的深度信任。",
+    "referenceAnswers": [
+      "Sự linh hoạt trong cách xử lý vấn đề giúp anh ấy giành được sự tin tưởng của khách hàng.",
+      "Khách hàng rất an tâm khi làm việc với một người luôn biết biến ứng trước mọi tình huống.",
+      "Chính sự mềm mỏng và nhạy bén trong đàm phán đã tạo nên uy tín cá nhân cho anh ta.",
+      "Niềm tin tuyệt đối từ phía đối tác là kết quả của quá trình cộng tác hiệu quả và linh hoạt.",
+      "Anh ấy luôn ưu tiên lợi ích của khách hàng thông qua những giải pháp xử lý linh hoạt và nhanh chóng."
+    ],
+    "keywords": ["靈活", "信任", "客戶"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "請珍惜並留念與家人在一起的美好時光。",
+    "referenceAnswers": [
+      "Hãy trân trọng và lưu niệm những khoảnh khắc đẹp bên gia đình.",
+      "Gia đình là tổ ấm, mỗi phút giây sum vầy đều là kỉ niệm vô giá cần được giữ gìn.",
+      "Đừng để bận rộn cuốn bạn đi, hãy dành thời gian để tạo nên những ký ức đẹp cùng người thân.",
+      "Những bức ảnh và thước phim về ngày Tết đoàn viên chính là những vật lưu niệm ý nghĩa nhất.",
+      "Tình yêu gia đình là nguồn sức mạnh to lớn nhất, hãy luôn nâng niu và bảo vệ nó."
+    ],
+    "keywords": ["珍惜", "留念", "家人", "美好時光"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "冷靜的態度幫助她解決了兩位好友之間的矛盾。",
+    "referenceAnswers": [
+      "Thái độ bình tĩnh giúp cô ấy giải quyết được mâu thuẫn giữa hai người bạn thân.",
+      "Sự sáng suốt và không thiên vị của cô ấy đã khiến hai bên sớm tìm được tiếng nói chung.",
+      "Hòa giải mâu thuẫn đòi hỏi một cái đầu lạnh và một trái tim ấm áp như cách cô ấy đã làm.",
+      "Nhờ có sự can thiệp kịp thời và bình tĩnh, tình bạn của họ đã tránh được sự đổ vỡ.",
+      "Cô ấy đã khéo léo gỡ bỏ những hiểu lầm bằng sự phân tích thấu đáo và thái độ điềm đạm."
+    ],
+    "keywords": ["冷靜", "解決", "朋友", "矛盾"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "你越努力，就越會發現成功絕非偶然。",
+    "referenceAnswers": [
+      "Càng nỗ lực, bạn sẽ càng thấy rằng thành công không phải là điều ngẫu nhiên.",
+      "Sự thành công bền vững luôn song hành cùng với quá trình lao động miệt mài và nghiêm túc.",
+      "Đừng tin vào vận may, hãy tin vào sức mạnh của sự kiên trì và cố gắng không ngừng nghỉ.",
+      "Mỗi bước tiến hôm nay là kết quả của hàng ngàn giờ khổ luyện mà không ai thấy được.",
+      "Chỉ khi bạn dồn toàn lực cho mục tiêu, thành quả gặt hái được mới thực sự có ý nghĩa."
+    ],
+    "keywords": ["越...越...", "努力", "成功", "偶然"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "使用清潔能源是解決氣候變化問題的一種方案。",
+    "referenceAnswers": [
+      "Việc sử dụng năng lượng sạch là một giải pháp cho vấn đề biến đổi khí hậu.",
+      "Chuyển đổi sang các nguồn năng lượng tái tạo là nhiệm vụ cấp bách của cả nhân loại.",
+      "Năng lượng xanh chính là chìa khóa để kiến tạo nên một tương lai phát triển bền vững.",
+      "Mỗi quốc gia cần ưu tiên đầu tư vào công nghệ năng lượng sạch để bảo vệ trái đất.",
+      "Sự thay đổi nhỏ trong cách tiêu dùng năng lượng sẽ mang lại tác động lớn cho môi trường."
+    ],
+    "keywords": ["使用", "清潔能源", "氣候變化", "方案"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "他對該國的風俗習慣已經非常熟悉了。",
+    "referenceAnswers": [
+      "Anh ấy đã rất quen thuộc với những phong tục tập quán của nước bạn.",
+      "Sự am hiểu sâu sắc về văn hóa bản địa giúp anh ấy hòa nhập rất nhanh vào cộng đồng.",
+      "Không còn bất cứ rào cản nào về lối sống khi anh ấy đã quá quen với tục lệ nơi đây.",
+      "Anh ta luôn dành sự tôn trọng tuyệt đối cho những truyền thống của quốc gia đang sinh sống.",
+      "Việc tìm hiểu phong tục là bước đầu tiên để anh xây dựng thành công các mối quan hệ xã hội."
+    ],
+    "keywords": ["熟悉", "風俗習慣", "文化"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "創造性勞動是為社會創造新價值的關鍵。",
+    "referenceAnswers": [
+      "Lao động sáng tạo là chìa khóa để kiến tạo nên những giá trị mới cho xã hội.",
+      "Chúng ta cần khuyến khích tư duy đổi mới trong mọi ngành nghề lao động khác nhau.",
+      "Giá trị của sản phẩm không chỉ nằm ở công sức bỏ ra mà còn ở trí tuệ được lồng ghép.",
+      "Xã hội hiện đại đòi hỏi con người phải liên tục sáng tạo để bắt kịp đà phát triển.",
+      "Sức mạnh của trí tưởng tượng khi kết hợp với lao động thực tiễn sẽ tạo nên điều kỳ diệu."
+    ],
+    "keywords": ["勞動", "創造性", "價值", "社會"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "文化交流的重要性日益受到大家的高度重視。",
+    "referenceAnswers": [
+      "Tầm quan trọng của giao tiếp văn hóa ngày càng được chú trọng hơn.",
+      "Việc thúc đẩy đối thoại giữa các nền văn minh là xu thế tất yếu trong thời đại toàn cầu hóa.",
+      "Tăng cường hiểu biết lẫn nhau thông qua văn hóa giúp xóa bỏ những định kiến sai lầm.",
+      "Nhiều sự kiện quốc tế lớn được tổ chức nhằm tôn vinh sự đa dạng văn hóa nhân loại.",
+      "Chúng ta nên coi văn hóa là cầu nối để gắn kết con người lại gần nhau hơn bất kể sắc tộc."
+    ],
+    "keywords": ["文化交流", "重要性", "重視"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "她正在考慮是否要繼續她的科研事業。",
+    "referenceAnswers": [
+      "Cô ấy đang suy nghĩ về việc có nên tiếp tục sự nghiệp nghiên cứu hay không.",
+      "Con đường khoa học đầy chông gai khiến cô ấy phải cân nhắc kỹ về những định hướng tương lai.",
+      "Sự đam mê với những con số và thí nghiệm dường như đang bị thử thách bởi thực tế cuộc sống.",
+      "Cô ấy cần thêm thời gian để đánh giá lại những thành tựu đã đạt được trước khi quyết định.",
+      "Việc rời xa phòng thí nghiệm là một lựa chọn khó khăn đối với một người say mê nghiên cứu như cô."
+    ],
+    "keywords": ["考慮", "科研", "事業", "繼續"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "創新是幫助企業在激烈競爭中生存的關鍵因素之一。",
+    "referenceAnswers": [
+      "Sự sáng tạo là một trong những yếu tố giúp doanh nghiệp tồn tại giữa sự cạnh tranh khốc liệt.",
+      "Nếu không liên tục cải tiến, doanh nghiệp sẽ sớm bị đào thải khỏi thị trường đầy biến động.",
+      "Chiến lược đổi mới sản phẩm là vũ khí sắc bén giúp chúng ta duy trì thị phần ưu thế.",
+      "Chúng tôi đầu tư mạnh mẽ vào R&D để đảm bảo tính tiên phong của thương hiệu.",
+      "Văn hóa sáng tạo cần được thấm nhuần vào mỗi nhân viên để tạo nên sức mạnh tập thể."
+    ],
+    "keywords": ["創新", "企業", "生存", "競爭"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "我們應該每天主動學習新知識。",
+    "referenceAnswers": [
+      "Chúng ta nên chủ động học hỏi những kiến thức mới mỗi ngày.",
+      "Việc tự học và cập nhật thông tin là thói quen tốt cần được duy trì lâu dài.",
+      "Đừng để bộ não ngừng nghỉ, hãy nạp thêm tri thức mỗi khi có cơ hội.",
+      "Thế giới luôn thay đổi, và chỉ có học tập mới giúp chúng ta không bị lạc hậu.",
+      "Mỗi trang sách hay một khóa học online đều mang lại những giá trị bổ ích cho sự nghiệp."
+    ],
+    "keywords": ["主動", "學習", "新知識", "每天"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "這家店的服務非常周到，顧客反饋非常滿意。",
+    "referenceAnswers": [
+      "Dịch vụ của cửa hàng này rất chu đáo và khách hàng rất hài lòng.",
+      "Sự tận tâm trong cung cách phục vụ đã tạo nên uy tín và sự tin cậy của thực khách.",
+      "Nhân viên luôn lắng nghe và đáp ứng mọi nhu cầu của khách hàng một cách nhanh chóng nhất.",
+      "Phản hồi tích cực trên các trang đánh giá là minh chứng cho chất lượng dịch vụ ở đây.",
+      "Chúng tôi tự hào về đội ngũ nhân sự luôn coi khách hàng là trung tâm của mọi hoạt động."
+    ],
+    "keywords": ["服務", "周到", "顧客", "滿意"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "我們正全力以赴地改善目前的空氣污染狀況。",
+    "referenceAnswers": [
+      "Chúng tôi đang nỗ lực cải thiện tình trạng ô nhiễm không khí hiện nay bằng mọi giá.",
+      "Việc giảm thiểu khí thải công nghiệp là giải pháp then chốt để trả lại bầu trời xanh cho thành phố.",
+      "Sức khỏe của người dân phụ thuộc rất lớn vào chất lượng môi trường sống xung quanh.",
+      "Các quốc gia cần ký kết những hiệp ước chung về bảo vệ tầng khí quyển trái đất.",
+      "Mỗi hành động xanh như trồng cây hay dùng phương tiện công bản đều có ý nghĩa to lớn."
+    ],
+    "keywords": ["改善", "空氣污染", "環保"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "書是開闊視野、獲取新知的最好途徑。",
+    "referenceAnswers": [
+      "Sách là con đường tốt nhất để mở mang tầm mắt và tiếp thu những tri thức mới.",
+      "Tri thức nhân loại được kết tinh trong từng trang giấy, chờ đợi chúng ta đến khám phá.",
+      "Việc đọc sách giúp bồi đắp tâm hồn và nâng tầm tư duy cho mỗi cá nhân.",
+      "Hãy coi sách là người thầy vĩ đại, luôn đồng hành cùng bạn trên mọi nẻo đường cuộc sống.",
+      "Mỗi cuốn sách mở ra một thế giới mới đầy thú vị và những góc nhìn đa dạng về cuộc đời."
+    ],
+    "keywords": ["書", "開闊視野", "知識"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "成功的合作基於兩國之間的誠實與透明度。",
+    "referenceAnswers": [
+      "Hợp tác thành công dựa trên sự trung thực và minh bạch giữa hai nước.",
+      "Sự tin tưởng lẫn nhau là nền tảng vững chắc để xây dựng các mối quan hệ ngoại giao bền vững.",
+      "Mọi thỏa thuận cần được công khai và tôn trọng để đảm bảo lợi ích chung cho cả hai phía.",
+      "Đối thoại thẳng thắn là cách tốt nhất để xóa bỏ những nghi ngại và củng cố tình hữu nghị.",
+      "Chúng tôi cam kết duy trì một môi trường hợp tác lành mạnh, công bằng và ổn định lâu dài."
+    ],
+    "keywords": ["合作", "誠實", "兩國", "成功"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "由於氣候變化，經濟正面臨前所未有的挑戰。",
+    "referenceAnswers": [
+      "Nền kinh tế đang phải đối mặt với những thách thức chưa từng có do biến đổi khí hậu.",
+      "Cuộc khủng hoảng khí hậu toàn cầu đang đặt ra những mối đe dọa nghiêm trọng đối với tăng trưởng kinh tế.",
+      "Cần phải triển khai các biện pháp kịp thời nhằm giảm thiểu những tác động tiêu cực của biến đổi khí hậu.",
+      "Ứng phó với các thách thức khí hậu đã trở thành nhiệm vụ cấp bách hàng đầu trong phát triển kinh tế hiện nay.",
+      "Phát triển bền vững là con đường then chốt để giải quyết mâu thuẫn giữa nhu cầu kinh tế và bảo vệ môi trường."
+    ],
+    "keywords": ["經濟", "挑戰", "氣候變化", "前所未有"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "人工智能正在重塑全球勞動力市場。",
+    "referenceAnswers": [
+      "Trí tuệ nhân tạo đang định hình lại thị trường lao động toàn cầu.",
+      "Sự phổ biến của công nghệ AI đang tạo ra những cú sốc lớn đối với các vị trí việc làm truyền thống.",
+      "Mô hình làm việc trong tương lai sẽ ngày càng phụ thuộc nhiều hơn vào sự cộng tác giữa người và máy.",
+      "Nâng cao năng lực số chính là kỹ năng cốt lõi giúp người lao động vượt qua những thách thức từ AI.",
+      "Trí tuệ nhân tạo vừa mang đến những nỗi lo về thất nghiệp, nhưng đồng thời cũng mở ra vô vàn cơ hội mới."
+    ],
+    "keywords": ["人工智能", "重塑", "勞動力市場"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "投資教育是國家長期發展的基石。",
+    "referenceAnswers": [
+      "Việc đầu tư vào giáo dục là nền tảng cho sự phát triển lâu dài của đất quốc gia.",
+      "Xây dựng một nền giáo dục vững mạnh là lựa chọn chiến lược để thực hiện khát vọng chấn hưng dân tộc.",
+      "Các nguồn lực cần được ưu tiên phân bổ cho giáo dục nhằm bồi dưỡng thế hệ nhân tài cho tương lai.",
+      "Chỉ khi chất lượng dân trí được nâng cao, quốc gia mới có thể thực sự sở hữu năng lực cạnh tranh cốt lõi.",
+      "Hiệu quả lâu dài của việc đầu tư cho giáo dục luôn lớn hơn rất nhiều so với những lợi ích kinh tế trước mắt."
+    ],
+    "keywords": ["投資教育", "國家發展", "基石"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "心理健康問題日益受到社會的廣泛關注。",
+    "referenceAnswers": [
+      "Các vấn đề về sức khỏe tâm lý ngày càng nhận được sự quan tâm của xã hội.",
+      "Giảm bớt áp lực tinh thần cho con người hiện đại là một mắt xích quan trọng trong việc xây dựng xã hội hòa hợp.",
+      "Cần thiết lập một hệ thống tư vấn tâm lý hoàn thiện để hỗ trợ những nhóm đối tượng đang gặp khó khăn.",
+      "Quan tâm đến áp lực công sở và sức khỏe tâm thần của nhân viên là trách nhiệm xã hội tất yếu của doanh nghiệp.",
+      "Nhận thức của cộng đồng đối với các căn bệnh về tâm lý đang từng bước được nâng cao một cách rõ rệt."
+    ],
+    "keywords": ["心理健康", "關注", "社會問題"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "創新是企業在競爭環境中生存的核心動力。",
+    "referenceAnswers": [
+      "Sự đổi mới là động lực cốt lõi giúp các doanh nghiệp tồn tại trong môi trường cạnh tranh.",
+      "Nếu doanh nghiệp không tiến hành đổi mới công nghệ, sẽ rất khó để giữ vững vị thế trên thị trường hiện nay.",
+      "Xây dựng một nền văn hóa đổi mới chính là chìa khóa để duy trì sức sống mãnh liệt cho một tổ chức.",
+      "Gia tăng đầu tư vào nghiên cứu và phát triển là phương thức quan trọng nhất để thúc đẩy sự sáng tạo sản phẩm.",
+      "Chỉ khi không ngừng tự bứt phá và làm mới mình, doanh nghiệp mới có thể chinh phục được thị trường tương lai."
+    ],
+    "keywords": ["創新", "企業", "核心動力", "競爭"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "言論自由應在負責任的前提下行使。",
+    "referenceAnswers": [
+      "Quyền tự do ngôn luận cần được thực thi một cách trách nhiệm.",
+      "Mặc dù được tự do ngôn luận, nhưng không nên lợi dụng nó để phát tán tin giả hoặc những lời lẽ thù hằn.",
+      "Cân bằng giữa quyền lợi cá nhân và phúc lợi công cộng là một thách thức lớn đối với nền dân chủ hiện đại.",
+      "Việc công bố thông tin trên không gian mạng cần tuân thủ các chuẩn mực đạo đức và quy định pháp luật tương ứng.",
+      "Ranh giới cuối cùng của tự do ngôn luận chính là không được xâm phạm đến những quyền lợi hợp pháp của người khác."
+    ],
+    "keywords": ["言論自由", "負責任", "行使"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "快速城市化給基礎設施和環境帶來了巨大壓力。",
+    "referenceAnswers": [
+      "Đô thị hóa nhanh chóng dẫn đến nhiều áp lực lên hạ tầng và môi trường.",
+      "Giao thông đô thị và ô nhiễm môi trường là những nút thắt chính mà quá trình mở rộng các thành phố phải đối mặt.",
+      "Quy hoạch khoa học là tiền đề bắt buộc để thực hiện sự chung sống hài hòa giữa đô thị hóa và thiên nhiên.",
+      "Giải quyết các 'căn bệnh đô thị' đòi hỏi phải tối ưu hóa bố cục không gian và nâng cao chất lượng dịch vụ công.",
+      "Xây dựng đô thị bền vững cần chú trọng đến các yếu tố phát triển xanh và tiết kiệm tài nguyên thiên nhiên."
+    ],
+    "keywords": ["城市化", "基礎設施", "環境壓力"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "我們應該鼓勵工作場所的多樣性和包容性。",
+    "referenceAnswers": [
+      "Chúng ta nên khuyến khích sự đa dạng và bao trùm trong công việc.",
+      "Một đội ngũ đa dạng thường sẽ tạo ra nhiều ý tưởng sáng tạo và những góc nhìn mới mẻ, đột phá hơn.",
+      "Xóa bỏ những định kiến cá nhân chính là bước đi đầu tiên để gây dựng một môi trường cạnh tranh công bằng.",
+      "Doanh nghiệp cần nỗ lực xây dựng một nền văn hóa công ty, nơi mà mọi sự khác biệt đều được tôn trọng.",
+      "Sự phát triển mang tính bao trùm sẽ giúp mọi nhân viên dù đến từ bất kỳ đâu cũng có thể phát huy tối đa sở trường."
+    ],
+    "keywords": ["多樣性", "包容性", "工作場所"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "全球化帶來了機遇，但也對文化多樣性構成了挑戰。",
+    "referenceAnswers": [
+      "Toàn cầu hóa mang lại cơ hội nhưng cũng đặt ra những thách thức lớn về văn hóa.",
+      "Trong quá trình giao lưu văn hóa, cần đặc biệt chú trọng việc bảo tồn những nét độc đáo của văn hoá bản địa.",
+      "Sự giao thoa giữa các nền văn hóa thế giới vừa là quá trình tự làm phong phú bản thân, vừa là một cuộc cạnh tranh.",
+      "Nâng cao năng lực giao tiếp đa văn hóa đã trở thành một tố chất cơ bản của mỗi công dân trong thời đại ngày nay.",
+      "Làm thế nào để vừa học hỏi kinh nghiệm từ bên ngoài, vừa giữ vững bản sắc dân tộc là một bài toán không hề dễ dàng."
+    ],
+    "keywords": ["全球化", "文化", "機遇", "挑戰"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "可持續消費在保護地球方面發揮著重要作用。",
+    "referenceAnswers": [
+      "Việc tiêu dùng bền vững đóng vai trò quan trọng trong việc bảo vệ trái đất.",
+      "Giảm thiểu lãng phí và tăng cường tái sử dụng là những triết lý cốt lõi của một lối sống xanh, ít phát thải.",
+      "Người tiêu dùng nên thông thái lựa chọn các sản phẩm thân thiện với môi trường để ủng hộ các ngành công nghiệp xanh.",
+      "Thay đổi tư duy tiêu dùng là con đường căn bản nhất để giải quyết triệt để tình trạng cạn kiệt tài nguyên thiên nhiên.",
+      "Thói quen mua sắm và sử dụng của mỗi cá nhân ngày hôm nay đều có những ảnh hưởng trực tiếp đến tương lai của địa cầu."
+    ],
+    "keywords": ["可持續消費", "保護地球", "重要性"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "財務管理的透明度有助於增強公眾的信任。",
+    "referenceAnswers": [
+      "Sự minh bạch trong quản lý tài chính giúp tăng cường niềm tin của công chúng.",
+      "Thiết lập một chế độ kiểm toán công khai và minh bạch là yêu cầu tất yếu của công tác quản trị liêm chính.",
+      "Công chúng hoàn toàn có quyền được biết rõ các nguồn tài chính công đang được sử dụng vào những mục đích như thế nào.",
+      "Nâng cao chất lượng công bố thông tin có thể giúp phòng ngừa và kiểm soát các rủi ro tài chính một cách hiệu quả.",
+      "Một cơ chế khuyến khích minh bạch sẽ giúp gia tăng cảm giác công bằng và tin cậy trong nội bộ một tổ chức."
+    ],
+    "keywords": ["透明度", "財務管理", "公眾信任"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "再生能源是減少溫室氣體排放的必然選擇。",
+    "referenceAnswers": [
+      "Năng lượng tái tạo là giải pháp tất yếu để giảm thải khí nhà kính.",
+      "Thúc đẩy phát triển năng lượng gió và năng lượng mặt trời là chìa khóa để hiện thực hóa mục tiêu trung hòa carbon.",
+      "Quá trình chuyển đổi năng lượng đòi hỏi phải tăng cường đầu tư cho nghiên cứu cơ bản và ứng dụng công nghiệp hóa.",
+      "Việc từng bước cắt giảm sự phụ thuộc vào các nguồn nhiên liệu hóa thạch truyền thống đã trở thành sự đồng thuận toàn cầu.",
+      "Sự trỗi dậy của ngành công nghiệp năng lượng xanh hứa hẹn sẽ tạo ra một lượng lớn cơ hội việc làm mới cho xã hội."
+    ],
+    "keywords": ["再生能源", "排放", "必然性"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "保護知識產權能激發社會的創新活力。",
+    "referenceAnswers": [
+      "Việc bảo vệ quyền sở hữu trí tuệ thúc đẩy sự sáng tạo trong xã hội.",
+      "Những hành vi xâm phạm bản quyền sẽ dập tắt nhiệt huyết của người sáng tạo và gây cản trở rất lớn cho tiến bộ khoa học.",
+      "Một hệ thống pháp luật hoàn thiện chính là sự bảo đảm căn bản nhất cho công tác bảo hộ quyền sở hữu trí tuệ.",
+      "Tăng cường giáo dục phổ biến kiến thức bản quyền sẽ giúp nâng cao ý thức tôn trọng chất xám của toàn thể xã hội.",
+      "Các tập đoàn đa quốc gia cần phải thượng tôn pháp luật để bảo vệ các bằng sáng chế của mình trên thị trường toàn cầu."
+    ],
+    "keywords": ["知識產權", "創新", "保護"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "發展生態旅遊有助於保護當地的生物多樣性。",
+    "referenceAnswers": [
+      "Phát triển du lịch sinh thái giúp bảo tồn đa dạng sinh học địa phương.",
+      "Cần phải cân bằng giữa việc khai thác tài nguyên du lịch và nỗ lực bảo tồn môi trường ở mức độ tối đa.",
+      "Du lịch sinh thái có tiềm năng cung cấp những nguồn sinh kế bền vững và lâu dài cho cộng đồng dân cư bản địa.",
+      "Nâng cao ý thức bảo vệ thiên nhiên cho du khách chính là yếu tố then chốt dẫn tới thành công của du lịch sinh thái.",
+      "Việc gìn giữ cảnh quan tự nhiên và thúc đẩy sự thịnh vượng của cộng đồng cần phải được triển khai song hành cùng nhau."
+    ],
+    "keywords": ["生態旅遊", "生物多樣性", "保護"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "有效的領導需要具備傾聽和激勵他人的能力。",
+    "referenceAnswers": [
+      "Lãnh đạo hiệu quả đòi hỏi khả năng lắng nghe và truyền cảm hứng.",
+      "Sức mạnh đoàn kết của một đội ngũ phụ thuộc rất nhiều vào tầm nhìn xa trông rộng và sức hút cá nhân của người lãnh đạo.",
+      "Sự thấu cảm là một trong những tố chất đặc biệt quan trọng và không thể thiếu của năng lực lãnh đạo hiện đại.",
+      "Người lãnh đạo cần phải làm gương và luôn đồng hành, thúc đẩy sự trưởng thành của các thành viên trong đội ngũ.",
+      "Việc trao quyền và đặt niềm tin đúng chỗ sẽ giúp nhân viên cảm thấy tự tin và có nhiều động lực hơn trong công việc."
+    ],
+    "keywords": ["領導力", "傾聽", "激勵"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "稅收政策直接影響民眾的收入和購買力。",
+    "referenceAnswers": [
+      "Chính sách thuế có tác động trực tiếp đến thu nhập và sức mua của người dân.",
+      "Một biểu thuế hợp lý sẽ góp phần quan trọng trong việc điều tiết sự công bằng của quá trình phân phối tài sản xã hội.",
+      "Thông qua việc giảm thuế và phí, Nhà nước có thể hỗ trợ tháo gỡ khó khăn, giảm bớt gánh nặng cho các doanh nghiệp.",
+      "Cải cách thuế cần phải đảm bảo sự hài hòa giữa mục tiêu tăng trưởng kinh tế và yêu cầu về công bằng xã hội.",
+      "Một hệ thống giám sát thuế minh bạch sẽ giúp nâng cao ý thức tự giác tuân thủ nghĩa vụ nộp thuế của mọi cá nhân."
+    ],
+    "keywords": ["稅收政策", "收入", "購買力"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "學習外語有助於提升跨文化交際能力。",
+    "referenceAnswers": [
+      "Việc học ngoại ngữ giúp cải thiện khả năng giao tiếp liên văn hóa.",
+      "Làm chủ một ngôn ngữ mới cho phép chúng ta thấu hiểu sâu sắc hơn về bản sắc văn hóa của các dân tộc khác trên thế giới.",
+      "Ngôn ngữ không chỉ đơn thuần là công cụ để truyền đạt thông tin, mà còn là nhịp cầu hữu hiệu kết nối các nền văn minh.",
+      "Trong bối cảnh hội nhập quốc tế sâu rộng, năng lực ngoại ngữ chính là một lợi thế cạnh tranh vô cùng quan trọng.",
+      "Thông qua việc học tiếng, chúng ta có thể xóa nhòa đi những định kiến và xây dựng những tình bạn quốc tế bền chặt."
+    ],
+    "keywords": ["學習外語", "跨文化交際"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "可持續發展要求經濟、社會和環境之間的平衡。",
+    "referenceAnswers": [
+      "Sự phát triển bền vững yêu cầu sự cân bằng giữa kinh tế, xã hội và môi trường.",
+      "Chúng ta không được phép đánh đổi môi trường sinh thái bằng bất cứ giá nào chỉ để lấy sự tăng trưởng kinh tế nhanh chóng.",
+      "Công bằng xã hội và thân thiện với thiên nhiên chính là hai trụ cột cốt lõi của chiến lược phát triển bền vững.",
+      "Sự phối hợp chặt chẽ giữa các bộ ngành là điều kiện tiên quyết để triển khai thành công các chiến dịch phát triển lâu dài.",
+      "Có một tầm nhìn xa trông rộng sẽ giúp chúng ta dẫn dắt dân tộc đi tới một tương lai xanh và thịnh vượng hơn."
+    ],
+    "keywords": ["可持續發展", "平衡", "環境"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "科學技術是國家發展的重要槓桿。",
+    "referenceAnswers": [
+      "Khoa học và công nghệ là đòn bẩy quan trọng cho sự phát triển của quốc gia.",
+      "Tăng cường công tác nghiên cứu khoa học cơ bản là con đường gốc rễ để nâng cao sức mạnh tổng thể của một đất nước.",
+      "Việc chuyển hóa các thành tựu công nghệ thành năng suất thực tế sẽ giúp thúc đẩy mạnh mẽ quá trình tái cơ cấu ngành.",
+      "Đào tạo và bồi dưỡng một đội ngũ nhân tài công nghệ cao là mục tiêu mang tính chiến lược của mọi quốc gia hiện đại.",
+      "Mọi đổi mới sáng tạo về khoa học kỹ thuật đều cần hướng tới mục tiêu cải thiện dân sinh và thúc đẩy xã hội văn minh."
+    ],
+    "keywords": ["科學技術", "國家發展", "槓桿"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "在新時代，數字技能培訓是必不可少的。",
+    "referenceAnswers": [
+      "Việc đào tạo kỹ năng số là điều cần thiết trong kỷ nguyên mới.",
+      "Thu hẹp khoảng cách về công nghệ số hiện đang là một nhiệm vụ quan trọng nhằm hiện thực hóa sự công bằng xã hội.",
+      "Người lao động cần chủ động học hỏi các công cụ kỹ thuật số hiện đại để tối ưu hóa hiệu suất trong công việc.",
+      "Nhà trường cần đưa lập trình và tư duy số vào hệ thống giáo dục nền tảng để trang bị hành trang cho học sinh.",
+      "Làm chủ năng lực phân tích dữ liệu không chỉ là một lợi thế, mà còn mở ra những không gian nghề nghiệp rộng lớn."
+    ],
+    "keywords": ["數字技能", "培訓", "數字化時代"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "他出色地完成了交付給他的艱巨任務。",
+    "referenceAnswers": [
+      "Anh ấy đã hoàn thành xuất sắc nhiệm vụ khó khăn được giao.",
+      "Trong những hoàn cảnh áp lực nhất, anh ấy vẫn thể hiện được một bản lĩnh và khả năng thực thi phi thường.",
+      "Việc vượt qua vô vàn rào cản để đi tới đích cuối cùng làm cho thành quả của anh ấy trở nên thực sự đáng ngưỡng mộ.",
+      "Thành công vang dội của dự án lần này có đóng góp không nhỏ từ nền tảng chuyên môn kỹ thuật vững chắc của anh.",
+      "Vào những thời điểm quyết định nhất của dự án, anh ấy đã đóng vai trò là hạt nhân then chốt với công lao vô cùng lớn."
+    ],
+    "keywords": ["任務", "出色", "完成"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "公司的財務狀況有了顯著改善。",
+    "referenceAnswers": [
+      "Tình hình tài chính của công ty đã được cải thiện rõ rệt.",
+      "Nhờ nỗ lực tối ưu hóa cấu trúc chi phí, lợi nhuận của doanh nghiệp đã có những bước tăng trưởng đầy ấn tượng.",
+      "Việc cắt giảm tỷ lệ nợ phải trả đã giúp gia tăng năng lực kháng cự trước các biến động tiêu cực của thị trường.",
+      "Những chính sách tài chính vững vàng và thận trọng đã củng cố niềm tin mạnh mẽ cho các nhà đầu tư chiến lược.",
+      "Sự vận hành ổn định của dòng tiền chính là bảo chứng quan trọng nhất cho việc triển khai các dự án mới diễn ra suôn sẻ."
+    ],
+    "keywords": ["財務狀況", "顯著", "改善"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "有效的風險管理是確保項目穩定的關鍵。",
+    "referenceAnswers": [
+      "Quản lý rủi ro hữu hiệu là then chốt để đảm bảo sự ổn định của dự án.",
+      "Ngay từ những giai đoạn đầu tiên của dự án, việc thiết lập một cơ chế đánh giá rủi ro hoàn thiện là vô cùng cần thiết.",
+      "Năng lực dự báo và nhận diện sớm những nguy cơ tiềm ẩn sẽ giúp doanh nghiệp hóa giải những tổn thất không đáng có.",
+      "Rủi ro và cơ hội luôn tồn tại song hành, vì vậy một chiến lược ứng phó thông minh chính là nền tảng của thành công.",
+      "Toàn bộ đội ngũ cần phải duy trì sự nhạy bén và linh hoạt để kịp thời xử lý các biến số phát sinh bất ngờ."
+    ],
+    "keywords": ["風險管理", "穩定", "關鍵"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "對目標的堅定有助於我們克服一切困難。",
+    "referenceAnswers": [
+      "Sự kiên định với mục tiêu giúp chúng ta vượt qua mọi khó khăn.",
+      "Chỉ khi luôn khắc ghi mục tiêu trong tâm khảm, chúng ta mới không bị lạc lối trên hành trình dài đầy gian khổ.",
+      "Giữ vững ý chí và tâm thái tích cực trước những nghịch cảnh là phẩm chất bắt buộc của những con người mạnh mẽ.",
+      "Thành công cuối cùng luôn dành cho những ai đủ nhẫn nại để bước tiếp ngay cả trong những giai đoạn đen tối nhất.",
+      "Sự nỗ lực bền bỉ và không bao giờ bỏ cuộc theo thời gian nhất định sẽ đơm hoa kết trái thành những thành tựu vĩ đại."
+    ],
+    "keywords": ["堅定", "目標", "克服困難"]
+  },
+  {
+    "level": "B2",
+    "direction": "zh_vi",
+    "sourceText": "社交媒體改變了我們互動和傳遞信息的方式。",
+    "referenceAnswers": [
+      "Mạng xã hội đã thay đổi cách chúng ta tương tác và truyền tải thông tin.",
+      "Các hình thức giao tiếp trong thế giới ảo hiện đã trở thành một phần tất yếu không thể tách rời của cuộc sống hiện đại.",
+      "Tốc độ lan truyền thông tin trong kỷ nguyên internet đang diễn ra với một vận tốc nhanh chưa từng có trong lịch sử.",
+      "Các mạng lưới xã hội vừa giúp chúng ta thu hẹp khoảng cách địa lý, nhưng đồng thời cũng làm dấy lên nỗi lo về quyền riêng tư.",
+      "Năng lực nhận diện và phân biệt giữa tin thật và tin giả trên không gian mạng hiện đang là thử thách lớn đối với mỗi công dân."
+    ],
+    "keywords": ["社交媒體", "互動", "信息傳遞"]
   }
 ]

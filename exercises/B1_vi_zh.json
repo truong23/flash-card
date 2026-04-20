@@ -2,145 +2,1301 @@
   {
     "level": "B1",
     "direction": "vi_zh",
-    "sourceText": "Mặc dù gặp nhiều khó khăn, anh ấy vẫn không bỏ cuộc.",
+    "sourceText": "Mặc dù gặp phải nhiều thử thách, nhưng anh ấy vẫn kiên trì theo đuổi ước mơ của mình.",
     "referenceAnswers": [
-      "儘管遇到了很多困難，他仍然沒有放棄。",
-      "尽管遇到了很多困难，他仍然没有放弃。",
-      "雖然遇到了很多困難，但他還是沒放棄。",
-      "即使面臨重重困難，他依然堅持到底。"
+      "雖然面臨許多挑戰，但他依然堅持追求自己的夢想。",
+      "儘管遇到很多困難，他還是堅持追逐自己的夢想。",
+      "雖然有很多挑戰，他仍舊堅持追求夢想。",
+      "儘管面臨重重挑戰，他依然不放棄追求夢想。",
+      "雖然面臨挑戰，但他追求夢想的決心始終不變。"
     ],
-    "keywords": ["困難", "仍然", "放棄"]
+    "keywords": ["雖然", "挑戰", "追求", "夢想"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
-    "sourceText": "Vấn đề này cần được xem xét kỹ lưỡng hơn.",
+    "sourceText": "Để hiểu sâu hơn về văn hóa bản địa, cậu ấy quyết định sống ở đó một năm.",
     "referenceAnswers": [
-      "這個問題需要更仔細地思考。",
-      "这个问题需要更仔细地思考。",
-      "此事需要更周詳地審核。",
-      "這個問題應當被更深入地考慮。"
+      "為了能更深入了解當地文化，他決定在那裡住上一年。",
+      "為了深層次地了解在地文化，他在那裡住了一年。",
+      "想更深入認識當地文化，因此他決定在那住一年。",
+      "為了體驗當地文化，他選擇在那住上一年。",
+      "他決定在那裡住一年，目的是深入了解當地文化。"
     ],
-    "keywords": ["問題", "需要", "仔細"]
+    "keywords": ["了解", "文化", "決定", "一年"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
-    "sourceText": "Cuộc sống hiện đại ngày càng phụ thuộc vào công nghệ.",
+    "sourceText": "Mục đích của cuộc họp này là thảo luận về cách giải quyết khủng hoảng kinh tế.",
     "referenceAnswers": [
-      "現代生活越來越依賴科技。",
-      "现代生活越来越依赖科技。",
-      "如今的生活對技術的依賴日益增加。",
-      "科技在現代生活中變得越來越不可或缺。"
+      "這場會議的目的是商討如何解決經濟危機。",
+      "這場會議主要在討論解決經濟危機的方法。",
+      "會議旨在交流如何應對目前的經濟危機。",
+      "大家開會是為了找出解決經濟危機的方案。",
+      "這場會議是為了解決目前經濟危機而召開的。"
     ],
-    "keywords": ["現代", "科技", "越來越"]
+    "keywords": ["會議", "目的", "解決", "經濟危機"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
-    "sourceText": "Cô ấy rất đam mê công việc của mình.",
+    "sourceText": "Nghề giáo viên không chỉ là truyền đạt kiến thức mà còn là giáo dục nhân cách.",
     "referenceAnswers": [
-      "她對自己的工作充滿熱情。",
-      "她对自己的工作充满热情。",
-      "她非常熱愛她的工作。",
-      "她對工作有無比的激情。"
+      "教師不僅是傳授知識，更是教育人格。",
+      "老師的工作不只是教書，還要培養好的人格。",
+      "擔任老師除了傳遞知識外，人格養成也很重要。",
+      "教職不僅限於知識傳授，更包含教育人格。",
+      "做一名老師，傳授知識與人格教育同樣重要。"
     ],
-    "keywords": ["工作", "充滿", "熱情"]
+    "keywords": ["不僅", "傳授", "知識", "人格"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
-    "sourceText": "Anh ấy không chỉ thông minh mà còn rất chăm chỉ.",
+    "sourceText": "Càng ngày càng có nhiều người chú trọng đến lối sống lành mạnh và bền vững.",
     "referenceAnswers": [
-      "他不僅很聰明，而且非常努力。",
-      "他不仅很聪明，而且非常努力。",
-      "他不光聰穎，還特別勤奮。",
-      "他既聰明又刻苦。"
+      "越來越多的人開始注重健康且永續的生活方式。",
+      "注重健康和永續生活的人越來越多了。",
+      "大家對健康及永續的生活模式日益重視。",
+      "越來越多人關心如何過上健康又永續的生活。",
+      "健康與永續的生活方式正受到更多人的喜愛。"
     ],
-    "keywords": ["不僅", "而且", "聰明", "努力"]
+    "keywords": ["越來越多", "注重", "健康", "生活"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
-    "sourceText": "Bài viết này rất có sức thuyết phục.",
+    "sourceText": "Anh ấy có khả năng phân tích cực tốt, có thể tìm ra vấn đề trong mớ dữ liệu phức tạp.",
     "referenceAnswers": [
-      "這篇文章非常有說服力。",
-      "这篇文章非常有说服力。",
-      "這份文稿極具說服性。",
-      "這篇文章論證得很精彩。"
+      "他具有極強的分析能力，能從複雜的數據中找出問題。",
+      "他分析能力很強，能迅速在龐雜數據中發現核心點。",
+      "他擅長分析，可以從雜亂的數據中梳理出問題。",
+      "他的分析技巧很高，能在複雜數據中找出關鍵所在。",
+      "憑藉優秀的分晰能力，他能從數據中分析出問題。"
     ],
-    "keywords": ["文章", "說服力"]
+    "keywords": ["分析", "能力", "數據", "複雜"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
-    "sourceText": "Chúng ta cần bảo vệ môi trường xung quanh.",
+    "sourceText": "Kết quả của trận đấu lần này khiến mọi người đều vô cùng ngạc nhiên.",
     "referenceAnswers": [
-      "我們需要保護周圍的環境。",
-      "我们需要保护周围的环境。",
-      "我們應當守護周遭的自然環境。",
-      "環境保護是我們必須做的。"
+      "這次比賽的結果讓大家都感到非常驚訝。",
+      "這場比賽的結果出乎所有人的意料。",
+      "大家對這次比賽的結果都感到很震驚。",
+      "比賽的結果公佈後，所有的人都驚呆了。",
+      "這場比賽的結果確實令人感到意外和驚訝。"
     ],
-    "keywords": ["保護", "環境"]
+    "keywords": ["比賽", "結果", "驚訝"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
-    "sourceText": "Lời khuyên của anh ấy rất hữu ích.",
+    "sourceText": "Để đáp ứng nhu cầu thị trường, công ty cần không ngừng đổi mới sản phẩm.",
     "referenceAnswers": [
-      "他的建議非常有用。",
-      "他的建议非常有用。",
-      "他的忠告大有裨益。",
-      "他給出的建議很具備參考價值。"
+      "為了滿足市場需求，公司需要不斷創新產品。",
+      "為了迎合市場，公司必須持續進行產品創新。",
+      "因應市場的需要，公司得持續推出新產品。",
+      "公司需要不斷推陳出新，以滿足市場的要求。",
+      "唯有不斷創新產品，才能滿足市場多元的需求。"
     ],
-    "keywords": ["建議", "有用"]
+    "keywords": ["為了", "滿足", "需求", "創新"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
-    "sourceText": "Chất lượng sản phẩm của họ rất đáng tin cậy.",
+    "sourceText": "Hành động của cha mẹ có tác động rất lớn đến việc hình thành tính cách của trẻ.",
     "referenceAnswers": [
-      "他們的產品品質非常值得信賴。",
-      "他们的产品品质非常值得信賴。",
-      "其產品的質量極具可靠性。",
-      "他們生產的東西質量很有保障。"
+      "父母的言行舉止對孩子的性格養成有很大影響。",
+      "父母的行為會深深影響小孩的個性發展。",
+      "小孩性格的形成，受父母影響非常深遠。",
+      "父母的身教對孩子人格的形塑至關重要。",
+      "父母如何表現，會直接決定孩子成為什麼樣的人。"
     ],
-    "keywords": ["產品", "品質", "信賴"]
+    "keywords": ["父母", "言行", "性格", "影響"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
-    "sourceText": "Anh ấy mất nhiều thời gian để làm quen với công việc mới.",
+    "sourceText": "Cuốn sách này đã khơi dậy sự thảo luận sôi nổi của thính giả về bảo vệ thiên nhiên.",
     "referenceAnswers": [
-      "他花了很多時間才習慣新工作。",
-      "他花了很多时间才习惯新工作。",
-      "他耗費了不久來適應新職位。",
-      "熟悉這份新工作花了他不少功夫。"
+      "這本書引發了聽眾對保護大自然的熱烈討論。",
+      "此書激起了讀者們關於自然保護的廣泛交流。",
+      "這本書在大眾中引發了關於環保話題的辯論。",
+      "這本著作讓聽眾們開始認真討論如何保護自然。",
+      "這部作品引發了現場對於大自然保育的積極探討。"
     ],
-    "keywords": ["時間", "習慣", "工作"]
+    "keywords": ["引發", "熱烈", "討論", "保護"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
-    "sourceText": "Được hợp tác với bạn là một vinh dự lớn.",
+    "sourceText": "Năng lực thích ứng tốt giúp cô ấy hòa nhập rất nhanh vào môi trường làm việc mới.",
     "referenceAnswers": [
-      "能跟你合作是一件非常榮幸的事。",
-      "能跟你合作是一件非常荣幸的事。",
-      "與您協作是我的莫大榮幸。",
-      "很榮幸能有機會與您合作。"
+      "良好的適應能力讓她很快融入了新的工作環境。",
+      "因為適應力強，她能迅速地在新規環境中安定下來。",
+      "她優異的適應力使她能快步融入新團隊。",
+      "她很快就適應了新工作，展現了極強的融入感。",
+      "憑藉出色的適應力，她很快地在新職位上得心應手。"
     ],
-    "keywords": ["合作", "榮幸"]
+    "keywords": ["適應", "能力", "融入", "環境"]
   },
   {
     "level": "B1",
     "direction": "vi_zh",
-    "sourceText": "Bạn nên duy trì thói quen tập thể dục mỗi ngày.",
+    "sourceText": "Chính phủ đang nỗ lực cải thiện đời sống nhân dân ở các vùng nông thôn.",
     "referenceAnswers": [
-      "你應該每天保持運動的習慣。",
-      "你应该每天保持运动的习惯。",
-      "你應當維持每日健身的好習慣。",
-      "每天堅持運動對你很有好處。"
+      "政府正致力於改善農村地區的人民生活。",
+      "政府正在努力提升偏遠農民的生活水平。",
+      "政府投入大量心力在改善農村的民生問題。",
+      "為了農村發展，政府正積極推動民生改善政策。",
+      "政府目前的重心是提高農村居民的生活品質。"
     ],
-    "keywords": ["習慣", "運動", "每天"]
+    "keywords": ["政府", "改善", "農村", "生活"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Nội dung của buổi diễn thuyết này rất phong phú, khiến người nghe nhận được nhiều điều bổ ích.",
+    "referenceAnswers": [
+      "這場演講內容豐富，讓聽眾獲益良多。",
+      "演講的內容很充實，聽完後感到獲收很大。",
+      "這場講座知識豐富，令在場聽眾受益匪淺。",
+      "內容豐富的演講讓聽眾們學到了很多知識。",
+      "這次的演說內容精彩，給聽眾帶來了很多啟發。"
+    ],
+    "keywords": ["內容", "豐富", "獲益良多"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Dù sống ở nước ngoài nhiều năm nhưng anh vẫn giữ được nét văn hóa của quê nhà.",
+    "referenceAnswers": [
+      "雖然在國外多年，他依然保留著家鄉的文化特色。",
+      "儘管移居海外已久，他仍守著老家的文化習慣。",
+      "他在國外住了很久，但始終沒有忘記家鄉的文化。",
+      "雖然長年旅居國外，他對家鄉文化的熱愛從未減少。",
+      "即便在海外工作多年，他仍維持著傳統的家鄉文化。"
+    ],
+    "keywords": ["雖然", "國外", "保留", "文化"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Bạn nên cố gắng bình tĩnh hơn khi đối mặt với những vấn đề khó khăn.",
+    "referenceAnswers": [
+      "面對困難的問題時，你應該盡量保持冷靜。",
+      "你應當學習如何更冷靜地處理艱難的情況。",
+      "遇到難題時，更冷靜的分析對你比較有幫助。",
+      "你应该在壓力下也努力維持一顆冷靜的心。",
+      "冷靜地思考有助於你克服現在所面臨的困難。"
+    ],
+    "keywords": ["應該", "冷靜", "面對", "困難"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Tầm quan trọng của giao tiếp văn hóa ngày càng được chú trọng trong thời đại toàn cầu hóa.",
+    "referenceAnswers": [
+      "在全球化的時代，文化交流的重要性日益受到重視。",
+      "在世界接軌的背景下，文化溝通變得越發重要。",
+      "全球化促使人們更加關注跨文化的交流與理解。",
+      "隨著全球化的發展，各國間的文化對話顯得更關鍵。",
+      "在如今全球化的環境中，重視文化交流是必然的趨勢。"
+    ],
+    "keywords": ["全球化", "重要性", "文化交流"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Sự chuyên nghiệp của anh ấy đã để lại ấn tượng rất sâu sắc cho đối tác.",
+    "referenceAnswers": [
+      "他的專業素養給合作夥伴留下了深刻的印象。",
+      "他展現的專業精神讓合作對象感到很佩服。",
+      "合作夥伴對他表現出的專業態度印象極深。",
+      "他的專業能力贏得了合作夥伴的高度信任。",
+      "合作方對他在工作中的專業表現給予了極高評價。"
+    ],
+    "keywords": ["專業", "留下", "印象", "合作夥伴"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Nhà trường cần tạo cho học sinh một không gian sáng tạo và năng động.",
+    "referenceAnswers": [
+      "學校需要為學生創造一個富有創意和活力的空間。",
+      "學校應提供給學生更多展現創意與活力的機會。",
+      "創造一個積極、有活力的學習環境是學校的責任。",
+      "學生在學校應該擁有能自由發揮創意的動態空間。",
+      "學校正致力於打造一個充滿創意與活力的校園。"
+    ],
+    "keywords": ["學校", "創意", "活力", "空間"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy đang nỗ lực làm việc để có thể mua được căn nhà mơ ước.",
+    "referenceAnswers": [
+      "他正努力工作，希望早日買到心目中的夢想家。",
+      "為了能購買夢想中的房子，他正在拼命工作。",
+      "他工作非常勤奮，目標是買下屬於自己的夢想屋。",
+      "他在工作上非常努力，是為了未來能買間好房子。",
+      "買到夢想的房子是他目前努力工作的最大動力。"
+    ],
+    "keywords": ["努力", "工作", "買", "房子"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta có trách nhiệm giữ gìn sự trong sạch của môi trường thiên nhiên.",
+    "referenceAnswers": [
+      "我們有責任維護自然環境的清潔與純淨。",
+      "保護自然環境的整潔是我們每個人的義務。",
+      "維護環境衛生、愛護大自然是我們的共同責任。",
+      "我們應當肩負起保持自然環境不受污染的責任。",
+      "守護環境的純淨，是我們必須承擔的社會責任。"
+    ],
+    "keywords": ["責任", "維護", "環境", "自然"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Cô ấy đã thể hiện một tinh thần bất khuất trong cuộc thi thể thao lần này.",
+    "referenceAnswers": [
+      "她在這次體育比賽中展現了不屈不撓的精神。",
+      "在這次比賽中，她展現了極強的意志力。",
+      "儘管困難重重，她仍在比賽中維持著不服輸的主風。",
+      "比賽過程中，她表現出的韌性讓所有人感動。",
+      "她在場上拼搏的精神展現了運動員應有的素質。"
+    ],
+    "keywords": ["展現", "精神", "比賽", "體育"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Mô hình kinh doanh mới này đã mang lại cơ hội phát triển cho thành phố.",
+    "referenceAnswers": [
+      "這種新的商業模式為城市帶來了發展機遇。",
+      "新創的商業營運方式促進了這座城市的發展。",
+      "新商業模式的引進，讓城市有了更多的發展空間。",
+      "這座城市因為採用了新的商業模式而充滿生機。",
+      "新商業格局的形成，推動了整體的城市發展。"
+    ],
+    "keywords": ["模式", "城市", "發展", "機遇"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Bạn nên tìm kiếm những sự giúp đỡ từ những chuyên gia giàu kinh nghiệm.",
+    "referenceAnswers": [
+      "你應該尋求那些經驗豐富專家的協助。",
+      "向有經驗的專家請教，對你解决問題很有幫助。",
+      "建議你找一些資深專家來提供專業建議。",
+      "資深專家的建議是你目前最需要的幫助。",
+      "你應當主動尋找相關領域的專家來幫忙。"
+    ],
+    "keywords": ["尋求", "專家", "經驗", "幫助"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Giáo dục không chỉ nằm ở trong sách vở mà còn ở trong thực tiễn cuộc sống.",
+    "referenceAnswers": [
+      "教育不只是在書本裡，更存在於生活實踐中。",
+      "真正的教育發生在書本之外的現實世界裡。",
+      "除了課本知識，實際的生活體驗也是教育的一環。",
+      "生活即教育，我們不應只侷限於書本上的知識。",
+      "實踐經驗比課本理论在教育中占據更重要的地位。"
+    ],
+    "keywords": ["教育", "書本", "實踐", "生活"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Càng học nhiều, tôi càng thấy những thiếu sót của bản thân mình.",
+    "referenceAnswers": [
+      "學得越多，我越能覺察到自己的不足之處。",
+      "隨著學習的深入，我更了解自己的缺陷在哪。",
+      "越是學習，我越感到自己還有很多需要改進的地方。",
+      "學習讓我意識到自己在知識上的匱乏。",
+      "在不斷學習的過程中，我也在不斷反思自己的不足。"
+    ],
+    "keywords": ["越...越...", "學習", "不足", "自己"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Tất cả mọi người đều mong muốn có một môi trường sống ổn định và phát triển.",
+    "referenceAnswers": [
+      "所有的人都希望有一個穩定且發展的生存環境。",
+      "大家都渴望生活在一個既安穩又能進步的社會中。",
+      "追求穩定與發展，是每個人對生活環境的共同期待。",
+      "一個進步且安定的環境是所有市民的基本願望。",
+      "人們普遍嚮往擁有高效率且和平的生活環境。"
+    ],
+    "keywords": ["所有人", "希望", "穩定", "發展"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Sự đổi mới kỹ thuật đã nâng cao năng suất của toàn bộ ngành sản xuất.",
+    "referenceAnswers": [
+      "技術創新提升了整個製造業的生產率。",
+      "科技的進步帶動了製造業生產效率的大幅提高。",
+      "製造業的產能因為技術更新而得到了顯著改善。",
+      "透過技術上的革新，製造業的作業效率大幅提升。",
+      "革新技術是目前提升製造業競爭力的關鍵因素。"
+    ],
+    "keywords": ["技術", "創新", "提升", "生產率"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Hãy trân quý thời gian vì nó một khi trôi qua là không quay lại nữa.",
+    "referenceAnswers": [
+      "請珍惜時間，因為它一旦流逝就再也回不來了。",
+      "時間一去不復返，我們應當學會好好珍惜。",
+      "懂得珍惜時間的人，才能掌握自己的人生。",
+      "生命有限，每分每秒的流逝都值得我們珍惜。",
+      "不要虛度光陰，因為失去的時間永遠無法找回。"
+    ],
+    "keywords": ["珍惜", "時間", "流逝", "回不來"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy rất được mọi người tin tưởng vì sự trung thực và thẳng thắn.",
+    "referenceAnswers": [
+      "他因誠實和坦率而深受大家的信任。",
+      "大家都很信任他，因為他待人誠懇、說話坦白。",
+      "誠實與坦率的性格讓他贏得了眾人的信任。",
+      "他在群體中很有威信，這源於他的誠信品質。",
+      "人們都很放心地跟他共事，因為他為人很正派。"
+    ],
+    "keywords": ["信任", "誠實", "坦率", "深受"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Để hoàn thành nhiệm vụ lần này đúng hạn, chúng tôi đã phải làm thêm giờ.",
+    "referenceAnswers": [
+      "為了能如期完成這次任務，我們必須加班。",
+      "我們不得不加班工作，只為了能準時交付任務。",
+      "為了趕上進度，團隊成員最近都在加班努力。",
+      "如期交件是我們的承諾，因此大家都在加班加點。",
+      "為了達成目標，全體員工都配合加班來完成任務。"
+    ],
+    "keywords": ["任務", "如期", "加班", "完成"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Tiền bạc không phải là tất cả nhưng nó giúp giải quyết được nhiều vấn đề.",
+    "referenceAnswers": [
+      "金錢雖然不是一切，但它能解決很多問題。",
+      "錢雖不是萬能的，但沒有錢卻萬萬不能。",
+      "雖然錢不能買到幸福，但能處理許多實際困難。",
+      "擁有資源能讓我們更有力地應對生活中的困擾。",
+      "金錢是解決問題的一種工具，但並非唯一的途徑。"
+    ],
+    "keywords": ["金錢", "解決", "問題", "不是一切"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Giao lưu văn hóa góp phần xây dựng tình hữu nghị giữa nhân dân các nước.",
+    "referenceAnswers": [
+      "文化交流有助於建立各國人民之間的友誼。",
+      "各國人民的友好交往始於深入的文化互動。",
+      "透過文化往來，各國之間的了解與友誼能更好加深。",
+      "加強文化交流是促進世界和平的重要手段。",
+      "人民間的互信是通過長期的文化交流建立起來的。"
+    ],
+    "keywords": ["文化交流", "建立", "友誼", "人民"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta phải chú ý đến việc bảo tồn những di sản văn hóa phi vật thể.",
+    "referenceAnswers": [
+      "我們必須注意保護那些非物質文化遺產。",
+      "非物質文化遺產的傳承與保護至關重要。",
+      "我們應當時刻關注如何維護傳統的非物質遺產。",
+      "保護非遺文化是我們這一代的歷史使命。",
+      "政府與社會大眾應合力守護珍貴的文化遺產。"
+    ],
+    "keywords": ["注意", "保護", "非物質", "遺產"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Cô ấy đang suy nghĩ về việc có nên chuyển đến thành phố khác sinh sống hay không.",
+    "referenceAnswers": [
+      "她正在考慮是否要搬到另一個城市去生活。",
+      "她目前還在猶豫，到底要不要換個城市住。",
+      "對於搬遷到新城市的計畫，她仍在思考中。",
+      "她正在評估遷移到其他地區的生活成本與機會。",
+      "要不要換個環境生活，這對她來說是個大決定。"
+    ],
+    "keywords": ["考慮", "搬到", "城市", "生活"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Cuộc sống luôn có những điều không như ý muốn, hãy biết cách mỉm cười vượt qua.",
+    "referenceAnswers": [
+      "生活總有不如意之事，要學會微笑著去面對。",
+      "人生不如意事十有八九，保持樂觀是很重要的。",
+      "遇到挫折時，用微笑來化解痛苦是最好的良藥。",
+      "學會坦然接受生命中的遺憾，並繼續前進。",
+      "積極的心態能幫助我們走過人生的每一個低谷。"
+    ],
+    "keywords": ["生活", "不如意", "微笑", "面對"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Sự phát triển của Internet đã thay đổi hoàn toàn thói quen tiêu dùng của mọi người.",
+    "referenceAnswers": [
+      "互聯網的發展徹底改變了人們的消費習慣。",
+      "因為互聯網的普及，大眾的購物模式發生了巨變。",
+      "現在大家更傾向於網購，這都是互聯網帶來的變化。",
+      "電子商務的興起重塑了全球的消費市場。",
+      "人們現在更享受互聯網帶來的便捷購物體驗。"
+    ],
+    "keywords": ["互聯網", "發展", "改變", "消費習慣"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Để thành công trong sự nghiệp, bạn cần hội tụ đủ kiến thức và cả kỹ năng mềm.",
+    "referenceAnswers": [
+      "要在事業上取得成功，你需要具備知識與軟實力。",
+      "職場上的成就往往取決於專業知識與溝通能力的結合。",
+      "除了硬實力，良好的社交技巧也是成功的關鍵。",
+      "全方位的能力發展有助於你在職場中脫穎而出。",
+      "不斷學習新知並磨練處世能力，成功才會降臨。"
+    ],
+    "keywords": ["成功", "事業", "知識", "軟實力"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Dù hôm nay tôi rất bận nhưng tôi vẫn dành thời gian để tập thể dục.",
+    "referenceAnswers": [
+      "雖然今天我很忙，但我還是抽空去運動了。",
+      "儘管工作繁忙，我也沒忘了每天固定的運動項目。",
+      "我盡量安排時間運動，即便是在最忙的日子裡。",
+      "健康是革命的本錢，所以再忙我也要堅持運動。",
+      "抽出時間鍛鍊身體是我每天必修的功課之一。"
+    ],
+    "keywords": ["雖然", "很忙", "抽空", "運動"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Hãy học cách lắng nghe ý kiến từ phía người khác một cách trân trọng.",
+    "referenceAnswers": [
+      "請學著如何尊重並傾聽他人的意見。",
+      "學會傾聽是溝通中最重要的一個環節。",
+      "我們應該以謙虛的態度去聽取別人的建議。",
+      "多聽少說，保持開放的心態去接受不同的想法。",
+      "尊重他人的發言權，是基本的人際交往禮儀。"
+    ],
+    "keywords": ["尊重", "傾聽", "意見", "他人"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Sự sáng tạo là một trong những yếu tố giúp doanh nghiệp tồn tại được trong cạnh tranh.",
+    "referenceAnswers": [
+      "創新是幫助企業在競爭中生存的關鍵因素之一。",
+      "唯有不斷創新，企業才能在激烈的市場中站穩腳跟。",
+      "創造力是企業核心競爭力的重要組成部分。",
+      "在多元競爭的時代，缺乏創新的公司很難長久。",
+      "企業的競爭力很大程度上來源於其研發創新能力。"
+    ],
+    "keywords": ["創新", "競爭", "生存", "關鍵"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta nên chủ động học hỏi những kiến thức mới ở mọi lúc mọi nơi.",
+    "referenceAnswers": [
+      "我們應該隨時隨地主動學習新知識。",
+      "活到老學到老，不論何時何地都要維持學習熱情。",
+      "主動獲取資訊是充實自我最有效的方式。",
+      "在任何情況下都要保持好奇心，不斷充實自己。",
+      "隨時準備好吸取新知，這會讓你變得更强大。"
+    ],
+    "keywords": ["隨時隨地", "主動", "學習", "新知識"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Cảm xúc là một phần không thể thiếu của cuộc sống con người.",
+    "referenceAnswers": [
+      "情緒是人類生活中不可或缺的一部分。",
+      "感情與理智共同構成了豐富多彩的人類生活。",
+      "每個人都有情緒，它是我們對世界的真實反饋。",
+      "學會管理好情緒，能讓你的生活更加和諧。",
+      "忽視情感的的人，往往很難體會到真正的快樂。"
+    ],
+    "keywords": ["情緒", "生活", "一部分", "不可或缺"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Dịch vụ của cửa hàng này rất chu đáo, khiến khách hàng rất hài lòng.",
+    "referenceAnswers": [
+      "這家店的服務非常周到，令顧客感到很滿意。",
+      "店員專業且熱情的態度贏得了顧客的讚賞。",
+      "高水準的服務是這家店能吸引回頭客的原因。",
+      "顧客在購物過程中感受到了賓至如歸的專屬服務。",
+      "店家對細節的重視，讓客人的購物體驗非常完美。"
+    ],
+    "keywords": ["服務", "周到", "顧客", "滿意"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Chúng tôi đang nỗ lực hết mình để cải thiện tình trạng ô nhiễm không khí hiện nay.",
+    "referenceAnswers": [
+      "我們正全力以赴改善目前的空氣污染狀況。",
+      "解決霧霾與空氣污染問題是我們的當務之急。",
+      "政府與企業正攜手緩解日益嚴重的空氣污染。",
+      "提高空氣品質需要全社會共同採取行動。",
+      "每個人都能為減少空氣污染貢獻出一份力量。"
+    ],
+    "keywords": ["改善", "空氣污染", "全力以赴"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Sách là người bạn thân thiết giúp chúng ta mở mang tầm mắt.",
+    "referenceAnswers": [
+      "書是良友，能幫助我們開闊眼界。",
+      "讀書能讓你足不出戶就了解外面的世界。",
+      "書籍是引領我們通往智慧之門的嚮導。",
+      "透過閱讀，我們可以穿越時空與智者對話。",
+      "愛上閱讀的人，人生會變得更有層次和深度。"
+    ],
+    "keywords": ["書", "開闊", "眼界", "幫助"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Dù kết quả thế nào, sự cố gắng của bạn vẫn rất đáng trân trọng.",
+    "referenceAnswers": [
+      "不管結果如何，你的努力依然值得被珍惜。",
+      "過程比結果更重要，你的付出大家都有目共睹。",
+      "即使失敗了，你展現出的勇氣也讓人佩服。",
+      "請對自己感到驕傲，因為你已經拼盡了全力。",
+      "失敗乃成功之母，你的每一步努力都不會白費。"
+    ],
+    "keywords": ["不管", "努力", "珍惜", "值得"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Bạn nên xây dựng những thói quen tốt từ khi còn trẻ.",
+    "referenceAnswers": [
+      "你應該趁年輕時就養成良好的習慣。",
+      "良好的習慣會讓你受益終身，愈早養成愈好。",
+      "青春是塑塑性格的最佳時期，別虛度了時光。",
+      "規律的生活與自律的習慣是成功的基石。",
+      "從小處著手，每天進步一點點，這就是好習慣。"
+    ],
+    "keywords": ["應該", "年輕", "養成", "良好習慣"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Hợp tác thành công dựa trên sự trung thực và minh bạch giữa các bên.",
+    "referenceAnswers": [
+      "成功的合作基於各方之間的實誠與透明度。",
+      "互信是長期穩定伙伴關係的唯一保障。",
+      "透明的溝通機制有助於減少合作中的誤解。",
+      "雙方應秉持開誠佈公的態度來處理各項事務。",
+      "誠信經營是企業在國際舞台立足的根本。"
+    ],
+    "keywords": ["合作", "誠實", "透明", "成功"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta cần bảo hộ sự đa dạng văn hóa của các dân tộc thiểu số.",
+    "referenceAnswers": [
+      "我們需要保護少數民族的文化多樣性。",
+      "尊重並傳承少數民族的傳統文化至關重要。",
+      "各民族的獨特文化共同交織成了國家的歷史。",
+      "政府應投入資源支持少數民族語言與藝術的保存。",
+      "維護文化多樣性是構建和諧社會的重要一步。"
+    ],
+    "keywords": ["保護", "少數民族", "文化", "多樣性"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Sự kiên nhẫn là đức tính cần có khi muốn giải quyết các vấn đề nan giải.",
+    "referenceAnswers": [
+      "耐心是解决複雜難題時必備的品質。",
+      "冷靜與耐心能幫助你找到事情的突破口。",
+      "急於求成往往會適得其反，慢工才能出細活。",
+      "在困境中保持耐心，代表著一種強大的心靈力量。",
+      "處理紛繁的事務，需要一顆波瀾不驚且持久的心。"
+    ],
+    "keywords": ["耐心", "解決", "難題", "必備"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Thực tế cho thấy, việc học tập suốt đời là yếu tố quan trọng để thành công.",
+    "referenceAnswers": [
+      "實際情況表明，終身學習是成功的關鍵因素。",
+      "事實證明，活到老學到老對事業成功至關重要。",
+      "根據實際經驗，持續學習能帶領我們走向成功。",
+      "實踐證明，不斷充實自己是立於不敗之地的根本。",
+      "終身學習的態度，是現代人達成目標的必經之路。"
+    ],
+    "keywords": ["實際", "終身學習", "關鍵"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Nếu chúng ta biết cách thích ứng với môi trường mới, chúng ta sẽ phát triển nhanh hơn.",
+    "referenceAnswers": [
+      "如果我們懂得如何適應新環境，我們會發展得更快。",
+      "學會適應新環境，是加速個人成長的重要一步。",
+      "適應力強的人，往往能在新領域中迅速脫穎而出。",
+      "只要能靈活適應環境變化，發展的機會就會更多。",
+      "主動適應新挑戰，能讓我們的事業更上一層樓。"
+    ],
+    "keywords": ["如果", "適應", "發展", "更快"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Sau một năm nỗ lực, anh ấy cuối cùng cũng đã gặt hái được những thành quả lớn.",
+    "referenceAnswers": [
+      "經過一年的努力，他終於獲得了巨大的收穫。",
+      "在一整年的拼搏後，他總算見到了成功的果實。",
+      "辛勤工作一年，他得到了應有的回報與成效。",
+      "他這一年的汗水沒有白流，最終取得了好成績。",
+      "一年的不懈奮鬥，換來了事業上的重大突破。"
+    ],
+    "keywords": ["努力", "終於", "收穫"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Cô ấy cảm thấy dường như có điều gì đó không ổn trong bản kế hoạch này.",
+    "referenceAnswers": [
+      "她覺得這份計劃書似乎有些地方不太對勁。",
+      "她察覺到這份方案裡可能存在一些潛在問題。",
+      "這份計畫似乎還不夠完善，她正感到些許憂慮。",
+      "她隱約覺得這份計畫的邏輯上似乎有漏洞。",
+      "對於這份計畫，她似乎總覺得還欠缺點什麼。"
+    ],
+    "keywords": ["覺得", "似乎", "計畫", "不對"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Việc đầu tư vào giáo dục là sự đầu tư mang lại lợi ích lâu dài nhất.",
+    "referenceAnswers": [
+      "投資教育是回報期最長也最有意義的投資。",
+      "教育投資能為個人 and 國家帶來深遠的影響與效益。",
+      "對於教育的投入，往往能產生持續一生的價值。",
+      "教育是最好的投資，其影響力是任何財富比不上的。",
+      "我們應當重視教育投資，因為它是未來的希望。"
+    ],
+    "keywords": ["投資", "教育", "利益", "長期"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Thái độ của bạn đối với công việc sẽ quyết định trình độ thành công của bạn.",
+    "referenceAnswers": [
+      "你對工作的態度將決定你成功的程度。",
+      "態度決定高度，認真工作的態度是成功的基石。",
+      "一個人的職業態度，直接關係到他能走多遠。",
+      "如果你想成功，就必須先具備正確的工作態度。",
+      "成功的機會，往往留給那些態度端正且勤奮的人。"
+    ],
+    "keywords": ["態度", "決定", "成功", "程度"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta cần nói thực thà về những khó khăn mà chúng ta đang gặp phải.",
+    "referenceAnswers": [
+      "我們需要實話實說目前所面臨的困難。",
+      "誠實地面對目前的困境，是解決問題的第一步。",
+      "我們不應隱瞞，而應坦白目前的處境並不樂觀。",
+      "大家應該開誠佈公地討論現在遇到的瓶頸。",
+      "只有實話實說，我們才能找到應對困難的方案。"
+    ],
+    "keywords": ["實話實說", "困難", "面臨"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Năng lực của anh ấy đã được khẳng định thông qua những kết quả thực tế.",
+    "referenceAnswers": [
+      "他的能力通過實際結果得到了充分的肯認。",
+      "實踐是檢驗真理的唯一標準，他的實力大家有目共睹。",
+      "他的工作成效有力地證明了他優秀的個人實力。",
+      "大家都不再懷疑他的能力，因為事實勝於雄辯。",
+      "憑藉穩健的表現，他在團隊中樹立了極高的威信。"
+    ],
+    "keywords": ["能力", "實際", "肯定", "結果"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Tôi hy vọng rằng mọi việc sẽ diễn ra thuận lợi theo đúng kế hoạch.",
+    "referenceAnswers": [
+      "我希望一切都能按照計劃順利進行。",
+      "期盼這次的任務能圓滿且順利地完成。",
+      "但願接下來的流程不會出現任何意外，進展順利。",
+      "我希望目前的計畫能按步就班地達成目標。",
+      "只要大家通力合作，我相信事情一定會進展順利。"
+    ],
+    "keywords": ["希望", "順利", "按照", "計畫"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Bạn nên cố gắng bình tĩnh để suy xét kỹ về vấn đề này.",
+    "referenceAnswers": [
+      "你應該試著冷靜下來，仔細思考這個問題。",
+      "在做決定前，請務必先冷靜思考一番。",
+      "深思熟慮能幫助你避免在情緒激動時犯錯。",
+      "你需要一段安靜的時間，來好好梳理這件事。",
+      "比起急躁，現在你更需要冷靜的邏輯與思考。"
+    ],
+    "keywords": ["冷靜", "思考", "仔細"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Tốc độ phát triển của khoa học kỹ thuật ngày nay thật đáng kinh ngạc.",
+    "referenceAnswers": [
+      "現今科學技術的發展速度令人驚嘆。",
+      "在這個科技日新月異的時代，變化快得驚人。",
+      "科技進步的速度大幅超出了人們之前的預期。",
+      "令人震撼的科技發展，正深刻改變著我們的生活。",
+      "我們正處於一個技術迅速更迭的偉大時代。"
+    ],
+    "keywords": ["速度", "科學技術", "發展", "驚人"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Việc sử dụng năng lượng sạch là xu hướng tất yếu của tương lai.",
+    "referenceAnswers": [
+      "使用清潔能源是未來發展的必然趨勢。",
+      "為了環境永續，推廣清潔能源已成為全球共識。",
+      "清潔能源的廣泛應用，將引領未來的能源革命。",
+      "尋求環保的替代能源，是人類社會進步的體現。",
+      "未來，清潔能源將在能源結構中佔據主導地位。"
+    ],
+    "keywords": ["使用", "清潔能源", "趨勢", "未來"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy đã rất quen thuộc với những phong tục tập quán của người dân địa phương.",
+    "referenceAnswers": [
+      "他對當地居民的風俗習慣已經非常熟悉了。",
+      "融入當地生活後，他對這裡的習俗了如指掌。",
+      "他已經完全適應並熟悉了這裡的傳統生活方式。",
+      "由於長期的居住，他與當地文化已經融為一體。",
+      "他對這兒的人情世故非常熟悉，像個當地人。"
+    ],
+    "keywords": ["熟悉", "風俗習慣", "當地"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Sự thật là anh ấy đã nỗ lực hết mình nhưng vẫn chưa đạt được ý muốn.",
+    "referenceAnswers": [
+      "事實是他雖然盡了全力，但仍未達到預期目的。",
+      "儘管他拼盡全力，現實卻依然不盡如人意。",
+      "他確實努力過了，可惜最終還是沒能成功。",
+      "雖然付出了很多汗水，事實卻有些令人感到遺憾。",
+      "他對此感到很無奈，畢竟事實擺在眼前，目標未成。"
+    ],
+    "keywords": ["事實", "努力", "目的", "未達"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Giao lưu văn hóa giúp các quốc gia hiểu nhau hơn và xây dựng hòa bình.",
+    "referenceAnswers": [
+      "文化交流有助於各國增進了解並構建世界和平。",
+      "跨國間的文化互動，是促進互信與友好的橋樑。",
+      "只有通過頻繁的文化對話，各國才能達成和諧共處。",
+      "理解與尊重是建立在長期的文化交流之上的。",
+      "文化多樣性的展現與交流，有利於維護地區穩定。"
+    ],
+    "keywords": ["文化交流", "了解", "和平", "構建"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Cô ấy đang tìm kiếm một cơ hội để phát triển sự nghiệp của mình.",
+    "referenceAnswers": [
+      "她正在尋找一個可以發展自己事業的機會。",
+      "為了事業能更進一步，她正積極尋求新的平台。",
+      "她渴望能有一個展現才華並提昇自我的職位。",
+      "尋求突破是她目前最主要的職業目標。",
+      "她目前正處於職業生涯的關鍵時期，急需新機會。"
+    ],
+    "keywords": ["尋找", "機會", "發展", "事業"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Một lời nói thật đôi khi làm người khác đau lòng nhưng nó rất cần thiết.",
+    "referenceAnswers": [
+      "實話有時傷人，但它卻是非常必要的。",
+      "雖然真話聽起來刺耳，但對解决問題卻很有利。",
+      "忠言逆耳，實踐中我們應當多聽聽真誠的意見。",
+      "誠實地指出不足，有助於他人的進步與成長。",
+      "在關鍵時刻，說實話比客套話更具備價值。"
+    ],
+    "keywords": ["實話", "傷人", "必要"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Vấn đề này nghe có vẻ đơn giản nhưng thực sự rất phức tạp.",
+    "referenceAnswers": [
+      "這個問題聽起來很簡單，但實際上非常複雜。",
+      "別被它的外表騙了，這件事處理起來極端棘手。",
+      "這看起來是個小問題，其實深層邏輯很複雜。",
+      "雖然表面上好解决，細究起來卻有很多學問。",
+      "這件事的複雜程度遠遠超出了大眾的直觀感受。"
+    ],
+    "keywords": ["聽起來", "簡單", "實際上", "複雜"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Bạn nên tạo cho bản thân một không gian làm việc thật thoải mái.",
+    "referenceAnswers": [
+      "你應該為自己創造一個非常舒適的工作空間。",
+      "良好的辦公環境能大幅提高工作效率與心情。",
+      "讓自己的工位變得整潔且舒適是很重要的。",
+      "一個自在的工作氛圍，能激發出更多的靈感。",
+      "你值得擁有一個更符合個人習慣的舒適工作室。"
+    ],
+    "keywords": ["創造", "舒適", "工作空間"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta nên trân trọng những gì mình đang có ở hiện tại.",
+    "referenceAnswers": [
+      "我們應該珍惜現在所擁有的一切。",
+      "活在當下，並對生活中的小確幸感到感激。",
+      "不要總想著失去的，而要學會看重眼前的幸福。",
+      "珍惜目前的資源與感情，是成熟的一種體現。",
+      "當下的每一分美好，都值得我們用心去守護。"
+    ],
+    "keywords": ["珍惜", "現在", "所有", "應該"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Tình đồng nghiệp tốt đẹp là động lực lớn để làm việc hiệu quả.",
+    "referenceAnswers": [
+      "良好的同事關係是提高工作效率的一大動力。",
+      "與同事和諧相處，會讓工作環境變得更愉快。",
+      "團隊精神與同事間的互助，對事業發展很重要。",
+      "擁有志同道合的夥伴，工作時會更有熱情。",
+      "互相關心、共同進步的同事關係是非常難得的。"
+    ],
+    "keywords": ["同事關係", "動力", "效率", "良好"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Mỗi ngày hãy tự đặt ra cho mình một mục tiêu nhỏ để hoàn thành.",
+    "referenceAnswers": [
+      "每天給自己設定一個小目標去完成吧。",
+      "達成小目標的成就感，會推動你走向大成功。",
+      "日積月累的進步，源於對每天目標的堅持。",
+      "不要想一步登天，先從每天的小計畫開始做起。",
+      "明確每天的任務清單，是你提昇效率的第一步。"
+    ],
+    "keywords": ["每天", "設定", "小目標", "完成"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Sự sáng tạo của trẻ em là vô hạn, chúng ta nên khuyến khích chúng.",
+    "referenceAnswers": [
+      "小孩子的創造力是無限的，我們應該多加鼓勵。",
+      "不要束縛孩子的想像力，讓他們自由地發揮。",
+      "鼓勵創意是教育中非常具有前瞻性的一環。",
+      "每個孩子都是天生的藝術家，給他們舞台去創作。",
+      "好奇心與創意，是引導孩子們探索世界的鑰匙。"
+    ],
+    "keywords": ["孩子", "創造力", "無限", "鼓勵"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Tương lai của bạn nằm ở trong chính đôi bàn tay và sự nỗ lực của bạn.",
+    "referenceAnswers": [
+      "你的未來掌握在你自己的雙手和努力之中。",
+      "命運由自己掌握，努力是通往未來唯一的路。",
+      "只要肯付出汗水，你的人生一定會繁花似錦。",
+      "不要依賴運氣，實力與勤奮才是未來的保障。",
+      "你的成就與你付出的努力程度是正相關的。"
+    ],
+    "keywords": ["未來", "掌握", "自己", "努力"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta nên chủ động tham gia vào các hoạt động bảo vệ môi trường.",
+    "referenceAnswers": [
+      "我們應該主動參與各項環保活動。",
+      "做一名環保志願者，是我們對社會的貢獻。",
+      "愛護地球，從我做起，積極參加環境保護。",
+      "只有人人參與，環境污染問題才能得到改善。",
+      "為了子孫後代，我們必須主動採取行動守護綠色。"
+    ],
+    "keywords": ["主動", "參與", "環保", "活動"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Công nghệ thông tin đang thay đổi cuộc sống của chúng ta một cách nhanh chóng.",
+    "referenceAnswers": [
+      "信息技術正在迅速改變我們的生活。",
+      "IT 技術的發展讓生活變得更加便捷。",
+      "信息時代帶來的變革無處不在。",
+      "科技進步正在重塑人類的生活方式。",
+      "我們正處於信息技術引領的變革之中。"
+    ],
+    "keywords": ["信息技術", "迅速", "改變", "生活"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Để thành công, bạn cần phải có lòng kiên nhẫn và sự quyết tâm.",
+    "referenceAnswers": [
+      "為了成功，你需要有耐心和決心。",
+      "成功並非偶然，它需要毅力和堅持。",
+      "只要有足夠的耐心，成功的機會就在眼前。",
+      "決心是通往成功的基石。",
+      "在成功的道路上，耐心與決心不可或缺。"
+    ],
+    "keywords": ["成功", "耐心", "決心"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Việc bảo vệ động vật hoang dã là trách nhiệm của mỗi người.",
+    "referenceAnswers": [
+      "保護野生動物是每個人的責任。",
+      "我們有義務維護生態平衡，保護野生生物。",
+      "守護野生動物，就是守護我們自己。",
+      "社會各界應共同致力於野生動物的保護。",
+      "保護自然，不應忽視對野生動物的關愛。"
+    ],
+    "keywords": ["保護", "野生動物", "責任"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Đọc sách không chỉ giúp mở mang kiến thức mà còn rèn luyện tư duy.",
+    "referenceAnswers": [
+      "讀書不僅能增長知識，還能鍛煉思維。",
+      "書籍是人類進步的階梯，也是思維的源泉。",
+      "通過閱讀，我們可以開拓視野並提升思考能力。",
+      "讀書是自我提升和鍛煉邏輯的最好方式。",
+      "廣泛的閱讀能讓我們變得更加睿智。"
+    ],
+    "keywords": ["讀書", "知識", "鍛煉思維"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Giao thông công cộng giúp giảm thiểu ô nhiễm môi trường và tắc đường.",
+    "referenceAnswers": [
+      "公共交通有助於減少環境污染和交通擁堵。",
+      "提倡使用公交通勤，是緩解路面壓力的良方。",
+      "綠色出行能有效改善城市空氣質量。",
+      "發展公共交通是現代化城市設計的重點。",
+      "多乘公交或地鐵，能節省排污並避免塞車。"
+    ],
+    "keywords": ["公共交通", "環境污染", "交通擁堵"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta nên tôn trọng sự khác biệt văn hóa giữa các quốc gia.",
+    "referenceAnswers": [
+      "我們應該尊重各國之間的文化差異。",
+      "文化的多樣性需要各方的理解與尊重。",
+      "尊重差異是國際交流與合作的前提。",
+      "只有包容不同的文化，世界才能和諧發展。",
+      "理解並認可文化差異，能增進各國友誼。"
+    ],
+    "keywords": ["尊重", "文化差異", "國家"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Làm việc nhóm giúp chúng ta giải quyết các vấn đề phức tạp một cách hiệu quả.",
+    "referenceAnswers": [
+      "團隊合作有助於我們高效地解決複雜問題。",
+      "集思廣益是應對艱巨挑戰的最佳策略。",
+      "通過團隊配合，我們可以完成個人難以達成的目標。",
+      "有效的溝通是團隊合作取得成功的關鍵。",
+      "協作精神能激發團隊成員的潛力。"
+    ],
+    "keywords": ["團隊合作", "解決問題", "效率"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Sự phát triển của du lịch mang lại nhiều lợi ích kinh tế cho địa phương.",
+    "referenceAnswers": [
+      "旅遊業的發展為當地帶來了巨大的經濟效益。",
+      "振興旅遊產業能有效帶動地方經濟增長。",
+      "開拓旅遊資源是促進地區繁榮的重要途徑。",
+      "當地居民從蓬勃發展的旅遊業中獲益匪淺。",
+      "旅遊收入已成該地區財政增長的主要來源。"
+    ],
+    "keywords": ["旅遊業", "經濟效益", "當地"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Học tập suốt đời là một xu hướng tất yếu trong xã hội hiện đại.",
+    "referenceAnswers": [
+      "終身學習是現代社會的必然趨勢。",
+      "在信息時代，我們必須保持持續學習的狀態。",
+      "活到老學到老，是適應社會發展的關鍵。",
+      "教育不應止於校園，而應貫穿整個人生。",
+      "不斷更新知識儲備，才能在競爭中立於不敗。"
+    ],
+    "keywords": ["終身學習", "現代社會", "趨勢"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Chế độ ăn uống cân bằng đóng vai trò quan trọng đối với sức khỏe.",
+    "referenceAnswers": [
+      "平衡飲食對身體健康至關重要。",
+      "合理的膳食搭配是預防疾病的基礎。",
+      "營養均衡與規律作息同樣重要。",
+      "為了改善體質，我們需注重飲食的多樣化。",
+      "良好的口語習慣能顯著提升生活質量。"
+    ],
+    "keywords": ["平衡飲食", "健康", "重要"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy đã quyết định nghỉ việc để theo đuổi ước mơ của mình.",
+    "referenceAnswers": [
+      "他決定辭職去追求自己的夢想。",
+      "為了理想，他毅然放棄了原本穩定的工作。",
+      "辭職創業是他人生中的一個重大轉折點。",
+      "他不想再為別人打工，而是想實現自我價值。",
+      "追逐夢想的熱情促使他做出了離職的決定。"
+    ],
+    "keywords": ["辭職", "追求", "夢想"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Việc giáo dục trẻ em không chỉ là trách nhiệm của nhà trường.",
+    "referenceAnswers": [
+      "兒童教育不僅僅是學校的責任。",
+      "家庭與社會在孩子成長過程中扮演著重要角色。",
+      "共同營造良好的教育環境，是家校聯動的目標。",
+      "父母是孩子的第一任老師，家庭教育不可或缺。",
+      "全社會都應關心青少年身心的健康成長。"
+    ],
+    "keywords": ["兒童教育", "學校", "責任"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Kỹ năng giao tiếp là một trong những yếu tố quan trọng để thành công trong sự nghiệp.",
+    "referenceAnswers": [
+      "溝通技巧是職場成功的關鍵因素之一。",
+      "擁有良好的社交能力能為職場晉升加分。",
+      "在職場中，如何與同事有效溝通是一門學問。",
+      "高情商的表達能化解衝突並贏得合作伙伴的信任。",
+      "掌握溝通藝術，能讓你在事業上事半功倍。"
+    ],
+    "keywords": ["溝通技巧", "職場", "成功"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta nên học cách quản lý thời gian một cách khoa học.",
+    "referenceAnswers": [
+      "我們應該學習科學地管理時間。",
+      "高效的時間管理能顯著提升工作與學習效率。",
+      "制定合理的計劃表，能讓生活變得井然有序。",
+      "不做時間的奴隸，而要做時間的主人。",
+      "合理分配精力，是取得卓越成就的前提。"
+    ],
+    "keywords": ["管理時間", "科學", "效率"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Biến đổi khí hậu đang đe dọa sự sinh tồn của nhiều loài sinh vật.",
+    "referenceAnswers": [
+      "氣候變化正在威脅許多生物的生存。",
+      "全球變暖導致的連鎖反應正改變著地球面貌。",
+      "如果不採取應對措施，更多物種將面臨滅絕風險。",
+      "生態系統的脆弱性在極端氣候面前暴露無遺。",
+      "保護自然環境已到了刻不容緩的地步。"
+    ],
+    "keywords": ["氣候變化", "威脅", "生存"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Sự sáng tạo là động lực thúc đẩy sự phát triển của xã hội.",
+    "referenceAnswers": [
+      "創造力是推動社會進步的動力。",
+      "創新意識已成現代企業核心競爭力的關鍵。",
+      "只有不斷突破傳統思維，才能引領時代潮流。",
+      "激發年輕一代的創造熱情，是國家的戰略方向。",
+      "人類文明的每一次飛躍都離不開奇思妙想。"
+    ],
+    "keywords": ["創造力", "推動", "社會發展"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Cô ấy đang cố gắng cải thiện khả năng tiếng Anh của mình.",
+    "referenceAnswers": [
+      "她正在努力提高自己的英語水平。",
+      "為了能出國深造，她每天都練習英語口語。",
+      "攻克語言難關，需要持之以恆的練習與積累。",
+      "她報名參加了英語培訓班，希望能有實質突破。",
+      "她的英語口語在短時間內有了長足的進步。"
+    ],
+    "keywords": ["努力", "提高", "英語水平"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Việc đọc báo mỗi ngày giúp chúng ta cập nhật tin tức quốc tế.",
+    "referenceAnswers": [
+      "每天看報紙有助於我們了解國際新聞。",
+      "關注時政動態，能讓我們不與社會脫節。",
+      "通過各類媒體，我們可以第一時間獲知全球大事。",
+      "保持對世界的熱情與好奇，是現代人的標配。",
+      "了解多元化的聲音，能讓我們思考問題更全面。"
+    ],
+    "keywords": ["看報紙", "更新", "國際新聞"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Tình bạn chân chính dựa trên sự tin tưởng và tôn trọng lẫn nhau.",
+    "referenceAnswers": [
+      "真正的友誼建立在相互信任和尊重的基礎上。",
+      "志同道合的人，往往能建立起深厚的革命情誼。",
+      "朋友間的坦誠相待，是維繫感情長久的秘訣。",
+      "患難見真情，真正的友誼經得起時間的考驗。",
+      "尊重彼此的邊界與選擇，才是友誼長青之道。"
+    ],
+    "keywords": ["友誼", "信任", "尊重"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Lối sống lành mạnh giúp chúng ta tránh được nhiều bệnh tật.",
+    "referenceAnswers": [
+      "健康的生活方式有助於我們遠離各類疾病。",
+      "預防大於治療，養成良好的習慣受益終生。",
+      "早睡早起、科學飲食，是保持活力的不二法門。",
+      "遠離菸酒等不良嗜好，是對自己健康的負責。",
+      "心態平衡配合適度運動，能有效提升免疫力。"
+    ],
+    "keywords": ["健康生活方式", "遠離疾病"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Học từ những sai lầm là cách nhanh nhất để trưởng thành.",
+    "referenceAnswers": [
+      "從錯誤中學習是成長最快的方式。",
+      "不要害怕失敗，失敗乃成功之母。",
+      "每一次挫折都是一次寶貴的實踐經驗累積。",
+      "反思自身的不足，才能在未來的挑戰中更勝一籌。",
+      "總結教訓並付諸行動，才算真正掌握了知識。"
+    ],
+    "keywords": ["錯誤", "學習", "成長"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta nên bảo vệ di sản văn hóa thế giới cho thế hệ mai sau.",
+    "referenceAnswers": [
+      "我們應該為子孫後代保護世界文化遺產。",
+      "傳承歷史，留住鄉愁，是當代人的神聖使命。",
+      "加強對文物建築的修繕與保護，是政府的職責。",
+      "文化遺產是全人類共同的財富，不容破壞。",
+      "向世界展示民族文化瑰寶，能增進民族自豪感。"
+    ],
+    "keywords": ["保護", "文化遺產", "後代"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Sự kiên trì là chìa khóa mở cánh cửa dẫn tới thành công.",
+    "referenceAnswers": [
+      "堅持不懈是開啟成功大門的鑰匙。",
+      "只要功夫深，鐵杵磨成針，成功的路在腳下。",
+      "在逆境中不輕言放棄，是強者的通行證。",
+      "勝利往往屬於最後五分鐘堅持到底的人。",
+      "厚積薄發，久久為功，是成就事業的必經途徑。"
+    ],
+    "keywords": ["堅持不懈", "成功", "鑰匙"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Công việc tình nguyện giúp chúng ta hiểu thêm về giá trị cuộc sống.",
+    "referenceAnswers": [
+      "志願者工作讓我們更深刻地理解生命的意義。",
+      "在奉獻中獲取快樂，能升華我們的人格境界。",
+      "參加義工活動，讓我們看到了更廣闊的世界面貌。",
+      "用愛心傳遞溫暖，用行動回饋社會的厚愛。",
+      "親身參與社會實踐，能有效增強青少年的責任意識。"
+    ],
+    "keywords": ["志願者", "生命意義", "價值"]
+  },
+  {
+    "level": "B1",
+    "direction": "vi_zh",
+    "sourceText": "Internet cung cấp cho chúng ta một kho tàng kiến thức khổng lồ.",
+    "referenceAnswers": [
+      "互聯網為我們提供了一個龐大的知識庫。",
+      "在網絡時代，獲取信息的途徑變得前所未有的廣泛。",
+      "善用網絡資源，可以極大地輔助自主學習。",
+      "海量的信息既是機會，也考驗我們篩選信息的能力。",
+      "虛擬世界與現實生活的邊界正在日益模糊。"
+    ],
+    "keywords": ["互聯網", "知識庫", "龐大"]
   }
 ]

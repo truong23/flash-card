@@ -2,49 +2,911 @@
   {
     "level": "C2",
     "direction": "zh_vi",
-    "sourceText": "在波譎雲詭的國際政局中，外交家們必須以如履薄冰的態度來維護國家的核心利益。",
+    "sourceText": "該宏觀經濟報告通過對博弈論模型的範式演進與參數擬合，深度解構了當前全球金融市場的系统性風險與脆弱性。",
     "referenceAnswers": [
-      "Trong cục diện chính trị quốc tế đầy biến động và phức tạp, các nhà ngoại giao phải làm việc với thái độ vô cùng cẩn trọng để bảo vệ lợi ích cốt lõi của quốc gia.",
-      "Giữa những biến chuyển khó lường của tình hình quốc tế, các chính khách cần sự thận trọng cực độ để giữ vững vận mệnh dân tộc.",
-      "Các nhà ngoại giao phải hết sức dè chừng, như đi trên băng mỏng, để bảo toàn quyền lợi tối thượng của đất nước trước những sóng gió ngoại bang.",
-      "Lợi ích quốc gia chỉ được đảm bảo khi những người làm đối ngoại luôn giữ được sự sáng suốt và thận trọng trước mọi biến cố."
+      "Bản báo cáo kinh tế vĩ mô này, thông qua sự tiến hóa phạm trù và tinh chỉnh tham số của mô hình lý thuyết trò chơi, đã giải cấu trúc sâu sắc các rủi ro hệ thống và tính dễ bị tổn thương của thị trường tài chính toàn cầu hiện nay.",
+      "Thông qua việc áp dụng các thuật toán cao cấp và lý thuyết trò chơi, công trình nghiên cứu đã phơi bày những lỗ hổng chết người trong cấu trúc tài chính quốc tế.",
+      "Sự phân tích đa chiều về biến số kinh tế dựa trên nền tảng lý thuyết trò chơi đã mang lại cái nhìn chân thực về sự bấp bênh của dòng vốn toàn cầu.",
+      "Báo cáo đã chỉ ra rằng rủi ro hệ thống hiện nay không chỉ là vấn đề tài chính mà còn là sự đổ vỡ mang tính dây chuyền của các niềm tin định chế.",
+      "Việc giải mã các tham số kinh tế vĩ mô giúp chúng ta dự báo tốt hơn các kịch bản khủng hoảng tiềm ẩn đang rình rập nền kinh tế thế giới."
     ],
-    "keywords": ["波譎雲詭", "如履薄冰", "維護", "利益"]
+    "keywords": ["博弈論模型", "範式演進", "參數擬合", "系統性風險"]
   },
   {
     "level": "C2",
     "direction": "zh_vi",
-    "sourceText": "那種篳路藍縷的精神，正是當前社會在面臨轉型陣痛時最為欠缺的靈魂財富。",
+    "sourceText": "在後真相時代，大眾傳播媒介的資本邏輯與算法權力的共生關係，正以前所未有的速度重盟與解構著社會共識。",
     "referenceAnswers": [
-      "Tinh thần vượt khó khai sơn phá thạch đó chính là tài sản tinh thần còn thiếu sót nhất của xã hội hiện nay khi đối mặt với những khó khăn của quá trình chuyển đổi.",
-      "Sự kiên trì vượt qua gian khổ thuở ban đầu là điều mà xã hội đang rất cần trong giai đoạn chuyển mình đầy đau đớn này.",
-      "Tinh thần khởi nghiệp gian nan, không ngại khổ cực chính là giá trị cốt lõi mà chúng ta đang dần lãng quên giữa những biến động kinh tế.",
-      "Vượt qua những đau đớn của sự thay đổi đòi hỏi một ý chí quật cường, điều mà thế hệ hiện tại đang thiếu vắng."
+      "Trong kỷ nguyên hậu sự thật, sự cộng sinh giữa logic tư bản của phương tiện truyền thông đại chúng và quyền lực thuật toán đang tái lập và giải cấu trúc các đồng thuận xã hội với một tốc độ chưa từng thấy.",
+      "Trật tự thông tin bị thao túng bởi các thuật toán đang làm xói mòn khả năng phân biện giữa sự thật và sự dối trá của công chúng.",
+      "Sự thống trị của các nền tảng số đang tạo ra "những căn phòng vang" (echo chambers), nơi các quan điểm cực đoan được nuôi dưỡng và phát tán.",
+      "Chúng ta đang chứng kiến sự tan rã của những giá trị chung khi mà mỗi cá nhân đều bị nhốt trong một thực tại ảo do máy tính gợi ý.",
+      "Định nghĩa về sự thật giờ đây trở nên tương đối và phụ thuộc vào tần suất xuất hiện của nó trên các phương tiện truyền thông xã hội."
     ],
-    "keywords": ["篳路藍縷", "轉型", "陣痛", "財富"]
+    "keywords": ["後真相時代", "資本邏輯", "算法權力", "解構社會共識"]
   },
   {
     "level": "C2",
     "direction": "zh_vi",
-    "sourceText": "這場技術變革不僅優化了產業結構，更在潛移默化中重塑了人們的思維模式與生活範式。",
+    "sourceText": "量子計算技術的範式突破預示著經典密碼學體系的終結，其在算力維度的指数級躍遷將對數字主權與網絡安全格局產生顛覆性影響。",
     "referenceAnswers": [
-      "Cuộc cách mạng công nghệ này không chỉ tối ưu hóa cấu trúc ngành nghề mà còn âm thầm định hình lại mô hình tư duy và chuẩn mực sống của con người.",
-      "Sự thay đổi về kỹ thuật đã cải thiện hệ thống sản xuất và dần dần thay đổi cách chúng ta suy nghĩ cũng như sinh hoạt hàng ngày.",
-      "Không chỉ dừng lại ở việc nâng cao năng suất, công nghệ mới còn tác động sâu sắc đến thế giới quan và lối sống của xã hội.",
-      "Cơ cấu công nghiệp được tối ưu hóa cùng với sự chuyển dịch về tư duy là hệ quả tất yếu của làn sóng đổi mới công nghệ này."
+      "Sự đột phá về mặt phạm trù của công nghệ tính toán lượng tử dự báo sự kết thúc của hệ thống mật mã học cổ điển; sự nhảy vọt theo hàm số mũ về năng lực tính toán của nó sẽ tạo ra ảnh hưởng mang tính lật đổ đối với chủ quyền số và cục diện an ninh mạng.",
+      "Kỷ nguyên lượng tử sẽ định nghĩa lại khái niệm bảo mật thông tin, khi mà mọi rào cản mã hóa hiện nay đều có thể bị hóa giải trong tích tắc.",
+      "Cuộc đua giành quyền kiểm soát máy tính lượng tử thực chất là cuộc đua giành quyền thống trị không gian mạng trong tương lai gần.",
+      "An ninh quốc gia giờ đây gắn liền với khả năng làm chủ các hạt hạ nguyên tử và các quy luật vật lý kỳ lạ của thế giới vi mô.",
+      "Chúng ta cần xây dựng các hệ thống mật mã kháng lượng tử ngay từ bây giờ để đối phó với những thách thức không thể tránh khỏi này."
     ],
-    "keywords": ["變革", "優化", "潛移默化", "範式"]
+    "keywords": ["量子計算", "範式突破", "經典密碼學", "指數級躍遷"]
   },
   {
     "level": "C2",
     "direction": "zh_vi",
-    "sourceText": "法律的生命力不在於條文的嚴苛，而在於其是否能公平正義地彰顯於社會的每一個角落。",
+    "sourceText": "該哲學著作通過對康德式先驗範疇與當代神經現象學的跨時空對話，深刻探討了人類主體性在人工智能時代的異化與重塑。",
     "referenceAnswers": [
-      "Sức sống của pháp luật không nằm ở sự nghiêm khắc của điều khoản, mà ở việc nó có được thể hiện một cách công bằng và chính nghĩa ở mọi ngóc ngách của xã hội hay không.",
-      "Pháp luật chỉ thực sự có giá trị khi sự công bằng được thực thi đồng bộ và rộng khắp, thay vì chỉ dựa vào những hình phạt nặng nề.",
-      "Giá trị cốt lõi của luật pháp là sự hiện diện của công lý trong đời sống thường nhật, chứ không phải sự khô khan của những con chữ trên giấy.",
-      "Tinh thần thượng tôn pháp luật gắn liền với sự công bằng được lan tỏa đến từng cá nhân trong xã hội."
+      "Tác phẩm triết học này, thông qua cuộc đối thoại xuyên không gian và thời gian giữa các phạm trù tiên nghiệm kiểu Kant và thần kinh hiện tượng học đương đại, đã thảo luận sâu sắc về sự tha hóa và tái cấu trúc tính chủ thể của con người trong kỷ nguyên trí tuệ nhân tạo.",
+      "Sự va chạm giữa các giá trị nhân văn cổ điển và các thành tựu khoa học não bộ mang lại những góc nhìn đầy ám ảnh về định nghĩa "con người".",
+      "Triết gia đã đặt ra câu hỏi về linh hồn và ý chí tự do khi mà mọi hành vi của chúng ta đều có thể được mô phỏng bởi các thuật toán.",
+      "Sự tha hóa về mặt tinh thần trong thế giới ảo được phân tích như một triệu chứng của việc đánh mất các mối kết nối thực tại.",
+      "Phục hưng tính chủ thể là con đường duy nhất để chúng ta không trở thành những con rối trong tay của các hệ thống AI thông minh."
     ],
-    "keywords": ["生命力", "嚴苛", "公平正義", "彰顯"]
+    "keywords": ["先驗範疇", "神經現象學", "主體性", "異化與重塑"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "地緣政治下的能源轉型不僅涉及底層技術的疊代，更隱含著國際權力結構從傳統化石能源向稀土等戰略性資源供應鏈的權威重組。",
+    "referenceAnswers": [
+      "Chuyển đổi năng lượng dưới góc độ địa chính trị không chỉ liên quan đến việc lặp lại của các công nghệ nền tảng, mà còn ẩn chứa sự tái cấu trúc quyền uy của cấu trúc quyền lực quốc tế từ năng lượng hóa thạch truyền thống sang chuỗi cung ứng các nguồn tài nguyên chiến lược như đất hiếm.",
+      "Sự dịch chuyển từ "vàng đen" sang các loại khoáng sản quý hiếm đang vẽ lại bản đồ địa chính trị thế giới một cách quyết liệt.",
+      "Các quốc gia nắm giữ công nghệ xanh và nguồn cung vật liệu mới sẽ là những người cầm lái nền kinh tế toàn cầu trong những thập kỷ tới.",
+      "An ninh năng lượng hiện nay gắn liền với khả năng đa dạng hóa nguồn cung và kiểm soát các công đoạn sản xuất then chốt trong chuỗi giá trị.",
+      "Cuộc chiến giành quyền kiểm soát các mỏ đất hiếm chính là mặt trận mới của các cường quốc trong kỷ nguyên năng lượng sạch."
+    ],
+    "keywords": ["地緣政治", "能量轉型", "底層技術", "利益主體"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "該研究團隊成功研發出一種新型複合材料，其卓越的耐腐蝕性能預示著深海勘探領域將迎來技術革新。",
+    "referenceAnswers": [
+      "Đội ngũ nghiên cứu đã phát triển thành công một loại vật liệu composite mới, với khả năng chống ăn mòn vượt trội hứa hẹn sẽ mang lại một cuộc cách mạng kỹ thuật trong lĩnh vực thăm dò đại dương sâu.",
+      "Bước đột phá này mở ra cơ hội chế tạo các thiết bị lặn có khả năng chịu đựng được những áp lực và môi trường khắc nghiệt nhất của đáy biển.",
+      "Việc ứng dụng vật liệu mới sẽ giúp kéo dài tuổi thọ và giảm chi phí bảo trì cho các công trình dầu khí ngoài khơi.",
+      "Sự kết hợp giữa độ bền cao và trọng lượng nhẹ là những ưu điểm mà các kỹ sư luôn tìm kiếm cho các dự án hàng không vũ trụ và hải quân.",
+      "Chúng tôi đang tiến hành các bước thử nghiệm cuối cùng để sớm đưa công nghệ này vào sản xuất quy mô công nghiệp."
+    ],
+  "keywords": ["研究團隊", "複合材料", "耐腐蝕", "技術革新"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "在全球治理體系深刻變革的當下，倡導多邊主義與加強國際法治已經成為維護公平、正義與和平發展的必然選擇。",
+    "referenceAnswers": [
+      "Trong thời điểm hệ thống quản trị toàn cầu đang trải qua những thay đổi sâu sắc, việc cổ vũ chủ nghĩa đa phương và tăng cường hiệu lực của pháp luật quốc tế đã trở thành lựa chọn tất yếu để duy trì sự công bằng, công lý và phát triển hòa bình.",
+      "Sự thù địch và các rào cản thương mại cần được dỡ bỏ để thay thế bằng sự hợp tác trên tinh thần tôn trọng lẫn nhau.",
+      "Tiếng nói của các nước đang phát triển cần được lắng nghe và tôn trọng hơn trong các định chế tài chính và chính trị thế giới.",
+      "Chúng ta cần một thượng tầng kiến trúc quốc tế mới để phản ánh đúng thực trạng sức mạnh và nhu cầu của nhân loại trong thế kỷ 21.",
+      "Thử thách lớn nhất hiện nay là làm sao để các cam kết chung được thực hiện một cách nghiêm túc và có trách nhiệm bởi tất cả các bên."
+    ],
+    "keywords": ["全球治理", "多邊主義", "國際法治", "和平發展"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "人工智能的普及引發了關於演算法偏見與大數據私隱的廣泛辯論，這促使各界重新審視數字人權的邊界。",
+    "referenceAnswers": [
+      "Sự phổ cập của trí tuệ nhân tạo đã khơi dậy những cuộc tranh luận rộng rãi về định kiến thuật toán và quyền riêng tư dữ liệu lớn, thúc đẩy các bên liên quan xem xét lại ranh giới của quyền con người trong thời đại số.",
+      "Tính minh bạch của các quyết định máy tính đang là tâm điểm của sự chú ý khi chúng tác động trực tiếp đến công bằng xã hội.",
+      "Việc bảo vệ thông tin cá nhân khỏi sự khai thác quá mức của các tập đoàn công nghệ là một trong những thách thức lớn nhất của pháp luật hiện đại.",
+      "Chúng ta cần một khung đạo đức tiêu chuẩn để hướng dẫn sự phát triển của AI mà không xâm phạm đến các quyền căn bản của công dân.",
+      "Sự cân bằng giữa đổi mới sáng tạo và bảo mật thông tin là chìa khóa để xây dựng một xã hội số văn minh và an toàn."
+    ],
+    "keywords": ["演算法偏見", "大數據私隱", "數字人權", "重新審視"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "教育改革的核心在於建立一個開放、多元且包容的評價體系，以充分發掘每個學生的潛能並促進個體全面發展。",
+    "referenceAnswers": [
+      "Trọng tâm của cải cách giáo dục nằm ở việc thiết lập một hệ thống đánh giá mở, đa dạng và bao trùm nhằm khám phá đầy đủ tiềm năng của mỗi học sinh và thúc đẩy sự phát triển toàn diện của cá nhân.",
+      "Thay vì chỉ tập trung vào điểm số, giáo dục hiện đại cần đánh giá dựa trên sự tiến bộ và khả năng sáng tạo của người học.",
+      "Việc cá nhân hóa lộ trình học tập giúp mỗi học sinh tìm thấy thế mạnh riêng và xây dựng lòng tự tin vào bản thân.",
+      "Sự đa dạng trong cách tiếp cận kiến thức và phương pháp giảng dạy là chìa khóa để thu hẹp khoảng cách về chất lượng đào tạo.",
+      "Giáo dục phải là nơi nuôi dưỡng những ước mơ và định hình những nhân cách có trách nhiệm với cộng đồng và xã hội."
+    ],
+    "keywords": ["教育改革", "評價體系", "全面發展", "潛能"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "該大學的藝術學院以其前衛的實驗性教學而聞名，不斷挑戰傳統審美的邊界與藝術表達的極限。",
+    "referenceAnswers": [
+      "Học viện nghệ thuật của trường đại học này nổi tiếng với lối giảng dạy thực nghiệm tiên phong, không ngừng thách thức ranh giới của thẩm mỹ truyền thống và những giới hạn của biểu đạt nghệ thuật.",
+      "Sự phá cách và tinh thần sáng tạo không ngừng là điểm đặc thù giúp nhà trường thu hút những tài năng nghệ thuật xuất chúng.",
+      "Các sinh viên tại đây được khuyến khích thử nghiệm với những công nghệ và chất liệu mới nhất để tạo ra những tác phẩm độc bản.",
+      "Nghệ thuật không chỉ là cái đẹp, nó còn phải là tiếng nói phản biện và khơi gợi những góc nhìn mới về xã hội.",
+      "Học viện là nơi nuôi dưỡng sự tự do trong tư duy và là bệ phóng cho những trào lưu nghệ thuật mang tính cách mạng."
+    ],
+    "keywords": ["前衛", "實驗教學", "傳統審美", "術表達"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "氣候變化的嚴峻挑戰促使全球能源體系發生全方位轉型，從低碳技術到綠色金融的深度滲透正全面展開。",
+    "referenceAnswers": [
+      "Những thách thức khắc nghiệt của biến đổi khí hậu đang thúc đẩy một sự chuyển đổi toàn diện trong hệ thống năng lượng toàn cầu, với sự thẩm thấu sâu từ công nghệ thấp carbon đến tài chính xanh đang diễn ra rộng khắp.",
+      "Làn sóng xanh hóa đang quét qua mọi ngóc ngách của nền kinh tế, đòi hỏi các doanh nghiệp phải thay đổi mô hình kinh doanh một cách nhanh chóng.",
+      "Đầu tư vào nguồn năng lượng sạch không còn là một lựa chọn đạo đức, mà đã trở thành một lựa chọn kinh tế sáng suốt.",
+      "Các chính sách tài chính tiến bộ đang đóng vai trò là chất xúc tác quan trọng cho quá trình chuyển dịch năng lượng bền vững.",
+      "Sự đồng thuận toàn cầu về giảm phát thải là nền tảng để chúng ta cùng chung tay bảo vệ ngôi nhà chung Trái Đất."
+    ],
+    "keywords": ["氣候變化", "全方位轉型", "低碳技術", "綠色金融"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "精準醫學的興起預示著醫療模式的範式轉移，通過對基因組學數據的深度挖掘實現了疾病預防與治療的個性化。",
+    "referenceAnswers": [
+      "Sự trỗi dậy của y học chính xác dự báo một sự chuyển đổi phạm trù trong mô hình y tế; thông qua việc khai thác sâu dữ liệu hệ gen, nó thực hiện sự cá nhân hóa trong phòng ngừa và điều trị bệnh.",
+      "Mỗi cá nhân giờ đây có thể nhận được phác đồ điều trị được thiết kế riêng dựa trên cấu trúc sinh học độc nhất của chính mình.",
+      "Y học chính xác giúp giảm thiểu các tác dụng phụ không mong muốn và nâng cao đáng kể tỷ lệ thành công của các ca phẫu thuật.",
+      "Dữ liệu lớn và trí tuệ nhân tạo đang biến ngành y tế hành một lĩnh vực khoa học chính xác và đáng tin cậy hơn bao giờ hết.",
+      "Tương lai của sức khỏe con người nằm ở khả năng giải mã các bí ẩn chứa đựng trong từng sợi ADN của chúng ta."
+    ],
+    "keywords": ["精準醫學", "範式轉移", "基因組學", "數據挖掘"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "區塊鏈技術的去中心化特徵，正通過智能合約與數字資產確權等應用，重塑著數字貿易的底層架構。",
+    "referenceAnswers": [
+      "Đặc tính phi tập trung của công nghệ chuỗi khối đang tái cấu trúc tầng kiến trúc nền tảng của thương mại số thông qua các ứng dụng như hợp đồng thông minh và xác thực quyền sở hữu tài sản kỹ thuật số.",
+      "Sự minh bạch và không thể sửa đổi của dữ liệu trên chuỗi giúp loại bỏ sự cần thiết của các bên trung gian tin cậy.",
+      "Thương mại điện tử thế hệ mới sẽ dựa trên nền tảng của sự bảo mật tuyệt đối và tốc độ giao dịch xuyên biên giới vượt trội.",
+      "Việc số hóa toàn bộ các khâu trong chuỗi cung ứng giúp doanh nghiệp tối ưu hóa chi phí và nâng cao hiệu quả vận hành.",
+      "Blockchain không chỉ là công nghệ, nó còn là một triết lý mới về sự công bằng và bình đẳng trong các giao dịch kinh tế."
+    ],
+    "keywords": ["區塊鏈", "去中心化", "智能合約", "數字資產"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "該文化研究專著深刻揭示了全球化浪潮下本土文化的身份焦慮與重構過程，探討了文化雜糅性帶來的挑戰。",
+    "referenceAnswers": [
+      "Chuyên khảo nghiên cứu văn hóa này đã phơi bày sâu sắc nỗi lo âu về căn tính và quá trình tái cấu trúc văn hóa bản địa dưới làn sóng toàn cầu hóa, thảo luận về những thách thức mà tính lai tạp văn hóa đem lại.",
+      "Sự xâm lăng của các trào lưu ngoại lai đang đặt các giá trị truyền thống vào thế đối đầu khốc liệt.",
+      "Bản sắc không phải là một thực thể tĩnh, nó luôn biến thiên và thích nghi trong dòng chảy không ngừng của lịch sử.",
+      "Việc gìn giữ linh hồn của dân tộc trong một thế giới phẳng là bài toán khó đòi hỏi sự thông thái và bản lĩnh của mỗi cá nhân.",
+      "Sự pha trộn giữa cái cũ và cái mới, giữa nội sinh và ngoại sinh tạo nên một bức tranh văn hóa đa sắc nhưng cũng đầy mâu thuẫn."
+    ],
+    "keywords": ["跨文化", "身份焦慮", "文化重構", "文化雜糅性"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "政府正致力於實施多樣化的保障性住房政策，以緩解特大城市居民面臨的租房與買房壓力。",
+    "referenceAnswers": [
+      "Chính phủ đang nỗ lực thực hiện các chính sách bảo đảm nhà ở đa dạng nhằm giảm bớt áp lực thuê và mua nhà mà người dân tại các siêu đô thị đang phải đối mặt.",
+      "Để giải quyết vấn đề nhà ở tại các thành phố lớn, nhà nước đã triển khai đồng bộ nhiều gói hỗ trợ và ưu đãi cho người dân.",
+      "Áp lực từ giá nhà tăng cao đang được xoa dịu thông qua các chương trình nhà ở xã hội và chính sách điều tiết thị trường của chính phủ.",
+      "Nhiều giải pháp linh hoạt về nơi cư trú đang được thực hiện để giúp người dân đô thị ổn định cuộc sống và giảm bớt gánh nặng tài chính.",
+      "Việc thực hiện các chính sách nhà ở đa tầng giúp chính phủ tiếp cận và hỗ trợ được nhiều đối tượng dân cư khác nhau trong xã hội."
+    ],
+    "keywords": ["住房保障", "特大城市", "租房", "買房壓力"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "該研究團隊成功研發出一種新型複合材料，其卓越的耐腐蝕性能預示著深海勘探領域將迎來技術革新。",
+    "referenceAnswers": [
+      "Đội ngũ nghiên cứu đã phát triển thành công một loại vật liệu composite mới, với khả năng chống ăn mòn vượt trội hứa hẹn sẽ mang lại một cuộc cách mạng kỹ thuật trong lĩnh vực thăm dò đại dương sâu.",
+      "Bước đột phá này mở ra cơ hội chế tạo các thiết bị lặn có khả năng chịu đựng được những áp lực và môi trường khắc nghiệt nhất của đáy biển.",
+      "Việc ứng dụng vật liệu mới sẽ giúp kéo dài tuổi thọ và giảm chi phí bảo trì cho các công trình dầu khí ngoài khơi.",
+      "Sự kết hợp giữa độ bền cao và trọng lượng nhẹ là những ưu điểm mà các kỹ sư luôn tìm kiếm cho các dự án hàng không vũ trụ và hải quân.",
+      "Chúng tôi đang tiến hành các bước thử nghiệm cuối cùng để sớm đưa công nghệ này vào sản xuất quy mô công nghiệp."
+    ],
+    "keywords": ["研究團隊", "複合材料", "耐腐蝕", "技術革新"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "在全球治理體系深刻變革的當下，倡導多邊主義與加強國際法治已經成為維護公平、正義與和平發展的必然選擇。",
+    "referenceAnswers": [
+      "Trong thời điểm hệ thống quản trị toàn cầu đang trải qua những thay đổi sâu sắc, việc cổ vũ chủ nghĩa đa phương và tăng cường hiệu lực của pháp luật quốc tế đã trở thành lựa chọn tất yếu để duy trì sự công bằng, công lý và phát triển hòa bình.",
+      "Sự thù địch và các rào cản thương mại cần được dỡ bỏ để thay thế bằng sự hợp tác trên tinh thần tôn trọng lẫn nhau.",
+      "Tiếng nói của các nước đang phát triển cần được lắng nghe và tôn trọng hơn trong các định chế tài chính và chính trị thế giới.",
+      "Chúng ta cần một thượng tầng kiến trúc quốc tế mới để phản ánh đúng thực trạng sức mạnh và nhu cầu của nhân loại trong thế kỷ 21.",
+      "Thử thách lớn nhất hiện nay là làm sao để các cam kết chung được thực hiện một cách nghiêm túc và có trách nhiệm bởi tất cả các bên."
+    ],
+    "keywords": ["全球治理", "多邊主義", "國際法治", "和平發展"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "該項目的成功實施，不僅在於其技術上的突破，更在於其構建了一個多方參與、利益共享的創新生態系統。",
+    "referenceAnswers": [
+      "Sự thực hiện thành công của dự án này không chỉ nằm ở những đột phá về mặt kỹ thuật, mà quan trọng hơn là nó đã xây dựng được một hệ sinh thái đổi mới có sự tham gia của nhiều bên và cùng chia sẻ lợi ích.",
+      "Xây dựng mạng lưới kết nối giữa các doanh nghiệp, trường đại học và viện nghiên cứu là chìa khóa của sự phát triển bền vững.",
+      "Khả năng huy động nguồn lực xã hội và trí tuệ tập thể giúp chúng ta vượt qua những rào cản về chi phí và công nghệ.",
+      "Dự án mang lại những lợi ích thiết thực cho cộng đồng và đóng góp tích cực vào sự phát triển kinh tế vùng.",
+      "Chúng tôi tự hào vì đã tạo ra một mô hình hợp tác mẫu mực có thể nhân rộng sang các lĩnh vực khác."
+    ],
+    "keywords": ["技術突破", "多方參與", "利益共享", "創新生態系統"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "他在談判中展示了極高的戰略耐心與靈活性，成功地在博弈中為公司爭取到了最有利的條款。",
+    "referenceAnswers": [
+      "Trong quá trình đàm phán, anh ấy đã thể hiện sự kiên nhẫn chiến lược và tính linh hoạt cực cao, thành công trong việc giành được những điều khoản có lợi nhất cho công ty trong cuộc giằng co này.",
+      "Mọi bước đi đều được tính toán kỹ lưỡng để tối ưu hóa lợi nhuận mà vẫn duy trì được mối quan hệ tốt với đối tác.",
+      "Sự điềm tĩnh trước áp lực và khả năng ứng biến nhanh nhạy là những tố chất giúp anh trở thành một chuyên gia đàm phán hàng đầu.",
+      "Kết quả cuối cùng vượt ngoài sự mong đợi của ban lãnh đạo và củng cố thêm vị thế của chúng ta trên thị trường.",
+      "Anh ta đã chứng minh rằng trong kinh doanh, sự thấu hiểu đối phương đôi khi mạnh hơn bất kỳ công cụ phân tích nào."
+    ],
+    "keywords": ["談判", "戰略耐心", "靈活性", "博弈"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "該研究成果不僅在學術界引發了巨大的迴響，也為政府制定相關產業政策提供了科學的依據。",
+    "referenceAnswers": [
+      "Kết quả nghiên cứu này không chỉ khơi dậy tiếng vang lớn trong giới học thuật, mà còn cung cấp căn cứ khoa học quan trọng cho chính phủ trong việc xây dựng các chính sách công nghiệp liên quan.",
+      "Sự giao thoa giữa nghiên cứu cơ bản và ứng dụng thực tiễn là hướng đi đúng đắn để nâng cao năng lực cạnh tranh quốc gia.",
+      "Các nhà hoạch định chính sách giờ đây có thêm những bằng chứng thực nghiệm mạnh mẽ để đưa ra những quyết định sáng suốt.",
+      "Chúng tôi hy vọng những kiến thức mới này sẽ thúc đẩy sự đổi mới và tăng trưởng trong toàn bộ khu vực kinh tế.",
+      "Sự công nhận từ cả chuyên gia và các cấp lãnh đạo là phần thưởng xứng đáng cho những nỗ lực miệt mài của đội ngũ."
+    ],
+    "keywords": ["學術界", "迴響", "產業政策", "科學依據"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "數字平台的崛起正催生出一種“算法治理”狀態，政治決策正被數據邏輯所深度裹挾。",
+    "referenceAnswers": [
+      "Sự trỗi dậy của các nền tảng số đang tạo ra một trạng thái 'quản trị bằng thuật toán', nơi các quyết định chính trị bị chi phối bởi logic dữ liệu.",
+      "Trong bối cảnh quản trị bằng thuật toán, ranh giới của các quyết định chính trị đang bị logic dữ liệu lớn重塑 với tốc độ chưa từng có.",
+      "Trạng thái quản trị bị logic dữ liệu chi phối này đang đặt ra những thách thức nghiêm trọng đối với tính dân chủ và minh bạch của các quyết định chính trị truyền thống.",
+      "Các nền tảng số đang thông qua việc quản trị bằng thuật toán, thẩm thấu logic dữ liệu vào cấu trúc tầng sâu của các quyết định chính trị.",
+      "Sự trỗi dậy của quản trị bằng thuật toán dự báo một sự tái cấu trúc mô hình quyết định chính trị, với đặc trưng cốt lõi là sự chi phối tuyệt đối của logic dữ liệu."
+    ],
+    "keywords": ["算法治理", "政治決策", "數據邏輯", "裹挾"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "民族文化身份並非一種靜止的存在，而是歷史長河中不斷建構與再建構的動態產物。",
+    "referenceAnswers": [
+      "Bản sắc văn hóa dân tộc không phải là một thực thể tĩnh tại mà là kết quả của sự kiến tạo và tái kiến tạo liên tục trong dòng chảy lịch sử.",
+      "Trong sự tiến hóa lịch sử, tính kiến tạo động của bản sắc văn hóa dân tộc đã thể hiện khả năng tự điều chỉnh và sự tái kiến tạo liên tục của sức sống.",
+      "Thông qua việc nghiên cứu sâu về bản sắc văn hóa dân tộc, chúng ta có thể thấu thị những quy luật nội tại của sự kiến tạo và tái kiến tạo không ngừng trong tiến trình lịch sử.",
+      "Đặc trưng của bản sắc văn hóa dân tộc nằm ở tính phi tĩnh tại, tức là một quá trình kiến tạo và tái kiến tạo liên tục theo sự thay đổi của thời đại.",
+      "Quá trình tái kiến tạo động này cho phép bản sắc văn hóa dân tộc vừa giữ được bề dày lịch sử, vừa không ngừng khơi dậy những hơi thở văn minh mới."
+    ],
+    "keywords": ["文化身份", "靜止", "建構", "再建構"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "合成生物學與人工智能的技術匯流，正以前所未有的速度加速著生命科學知識圖譜的解碼過程。",
+    "referenceAnswers": [
+      "Sự hội tụ giữa sinh học tổng hợp và AI đang đẩy nhanh việc giải mã bản đồ tri thức của sự sống.",
+      "Sự hội tụ công nghệ đã cung cấp động lực mạnh mẽ cho việc giải mã bản đồ tri thức khoa học sự sống phức tạp, thúc đẩy sự chuyển đổi phạm trù trong lĩnh vực y sinh học.",
+      "Dưới sự hỗ trợ của trí tuệ nhân tạo, sự hội tụ công nghệ trong lĩnh vực sinh học tổng hợp đã trở thành chìa khóa để giải mã các đặc trưng sự sống và tối ưu hóa bản đồ tri thức.",
+      "Sự hội tụ công nghệ sâu sắc này đang dẫn dắt nhân loại tiến hành giải mã một cách chính xác và hệ thống bản đồ tri thức sự sống ở cấp độ phân tử.",
+      "Việc giải mã toàn diện bản đồ tri thức sinh học tổng hợp phụ thuộc vào sự hội tụ công nghệ trình độ cao với các lĩnh vực tiền phong như trí tuệ nhân tạo và dữ liệu lớn."
+    ],
+    "keywords": ["技術匯流", "合成生物學", "知識圖譜", "解碼"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "該社會學研究深刻解構了文化資本與機會喪失之間相互交織、螺旋式上升的複雜互動機制。",
+    "referenceAnswers": [
+      "Nghiên cứu xã hội học này đã bóc tách sự tương tác phức tạp giữa vốn văn hóa và sự bất bình đẳng cơ hội.",
+      "Thông qua việc giải cấu trúc sâu sắc các mẫu vi mô, nghiên cứu đã tiết lộ cách thức vốn văn hóa làm trầm trọng thêm sự mất mát cơ hội xã hội thông qua sự truyền tải liên thế hệ.",
+      "Nghịch lý kép về vốn văn hóa và sự mất mát cơ hội đã được giải cấu trúc một cách hệ thống và xem xét mang tính phê phán liên ngành trong cuốn sách.",
+      "Nghiên cứu nhằm mục đích giải cấu trúc các yếu tố cấu trúc ẩn sau đời sống hàng ngày dẫn đến sự mất mát cơ hội và sự phân hóa vốn văn hóa.",
+      "Việc giải cấu trúc sâu sắc sự bất bình đẳng xã hội này cung cấp nền tảng lý thuyết để chúng ta hiểu được vai trò của vốn văn hóa trong việc phân bổ cơ hội."
+    ],
+    "keywords": ["文化資本", "機會喪失", "解構", "螺旋式上升"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "從單邊主義向多邊主義的轉型，是一個雖充滿陣痛卻具有歷史必然性的全球治理重塑過程。",
+    "referenceAnswers": [
+      "Sự dịch chuyển từ chủ nghĩa đơn phương sang chủ nghĩa đa phương là một quá trình tất yếu nhưng đầy khó khăn trong quản trị toàn cầu.",
+      "Kiểu chuyển đổi mang tính阵痛 này thể hiện sự lựa chọn tất yếu của hệ thống quản trị toàn cầu trong việc tìm kiếm sự cân bằng hướng tới chủ nghĩa đa phương khi ứng phó với các cuộc khủng hoảng đa chiều.",
+      "Sự trở lại mạnh mẽ của chủ nghĩa đa phương mặc dù đi kèm với những trận đau do xung đột lợi ích khu vực, nhưng vị thế cốt lõi của nó như là trung tâm của quản trị toàn cầu là không thể lay chuyển.",
+      "Chúng ta đang trải qua một cuộc chuyển đổi phạm trù quản trị toàn cầu, đằng sau sự khó khăn là sự theo đuổi chung của cộng đồng quốc tế đối với một trật tự đa phương công bằng hơn.",
+      "Quá trình tranh chấp lợi ích và khó khăn trong giai đoạn chuyển đổi là những thử thách văn minh mà sự thúc đẩy quản trị toàn cầu hướng tới chủ nghĩa đa phương thực sự phải trải qua một cách có trình tự."
+    ],
+    "keywords": ["單邊主義", "多邊主義", "陣痛", "轉型"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "人工智能正超越單純的生產工具屬性，轉而對人類邏輯思維與藝術創造的本質進行深度解構。",
+    "referenceAnswers": [
+      "Trí tuệ nhân tạo không chỉ là một công cụ sản xuất mà còn đang định nghĩa lại bản chất của tư duy logic và sáng tạo của con người.",
+      "Trong kỷ nguyên trí tuệ nhân tạo, định nghĩa truyền thống về khả năng sáng tạo của con người đang đối mặt với sự chuyển đổi phạm trù và giải cấu trúc thuật ngữ ở tầng sâu.",
+      "Sự giải cấu trúc sâu sắc này không chỉ phản ánh sự tiến hóa của công nghệ, mà còn đánh dấu sự tư duy lại của nhân loại về bản chất của trí tuệ bản thân và mối quan hệ với logic máy móc.",
+      "Sự giải cấu trúc sâu sắc của trí tuệ nhân tạo đối với các chiều kích sáng tạo của con người đang thúc đẩy chúng ta xây dựng một bộ chỉ số đánh giá tài năng và giáo dục hoàn toàn mới.",
+      "Việc giải cấu trúc sâu sắc tính độc đáo của tư duy con người là những truy vấn triết học liên ngành tất yếu nảy sinh sau khi trí tuệ nhân tạo phát triển tới một giai đoạn nhất định."
+    ],
+    "keywords": ["人工智能", "創造力", "深度解構", "本質"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "在特大城市群中推進生物多樣性保護，與其在制度層面實現跨時空的範式更新。",
+    "referenceAnswers": [
+      "Việc bảo tồn đa dạng sinh học trong các khu vực đô thị cực lớn đòi hỏi sự đổi mới sáng tạo trong chính sách quản trị xanh.",
+      "Sự đổi mới chế độ của mô hình quản trị xanh nhằm giải quyết sự căng thẳng và mâu thuẫn giữa sự mở rộng của các siêu đô thị và việc đảm bảo sức tải của hệ sinh thái.",
+      "Sự cập nhật phạm trù không chỉ要求 việc lặp lại về kỹ thuật, mà còn cần nội hàm hóa mô hình quản trị xanh thành logic tổ chức cốt lõi của sự phát triển đô thị bền vững.",
+      "Năng lực phục hồi trong tương lai của các siêu đô thị phụ thuộc cao độ vào sự cập nhật phạm trù sâu sắc của mô hình quản trị xanh trên cả hai chiều kích chế độ và kỹ thuật.",
+      "Sự cập nhật phạm trù hướng tới tương lai này thể hiện sự theo đuổi trên phạm vi toàn cầu đối với việc chuyển đổi mô hình quản trị xanh đô thị sang hướng hiệu quả và công bằng hơn."
+    ],
+    "keywords": ["綠色治理模式", "特大城市群", "範式更新", "制度創新"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "該文明的文化張力在其鼎盛時期迸發出璀璨的光芒，在人類歷史長河中刻下了不朽的印記。",
+    "referenceAnswers": [
+      "Sự phát quang của nền văn hóa này rạng rỡ khắp chân trời, để lại dấu ấn sâu sắc cho nhân loại.",
+      "Sự giải phóng sâu sắc sức căng văn hóa đã giúp nền văn minh này đạt tới một trình độ phù hợp xuyên không gian và thời gian trên các chiều kích nghệ thuật, khoa học và triết học.",
+      "Ánh sáng văn minh rạng rỡ này là sức căng sức sống bộc phát sau sự giao lưu, học hỏi lẫn nhau và hội tụ sâu sắc giữa tinh thần dân tộc và các nền văn minh bên ngoài.",
+      "Chúng ta đã từng chiêm ngưỡng những dấu ấn văn minh rạng rỡ đó, sức căng văn hóa của nó cho đến nay vẫn khơi dậy những tiếng vang mạnh mẽ trong các nghiên cứu nhân văn đương đại.",
+      "Trong hệ tọa độ lịch sử huy hoàng, nền văn minh này bằng sức căng văn hóa vượt trội của mình, đã phô diễn trước thế gian những giới hạn của trí tuệ và khả năng sáng tạo."
+    ],
+    "keywords": ["文明", "璀璨", "文化張力", "不朽"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "國際法治的崇高權威必須超越個別利益集團的短視行為，成為維護全球公義的定海神針。",
+    "referenceAnswers": [
+      "Quyền lực tối cao của pháp luật quốc tế phải vượt trên những mưu cầu đoản kiến của các nhóm lợi ích hẹp hòi.",
+      "Từ bỏ các hành vi ngắn hạn, quay trở lại tinh thần của pháp trị quốc tế là một sự đồng thuận chiến lược nhằm tìm kiếm sự ổn định lâu dài trong ván cờ địa chính trị hiện nay.",
+      "Ván cờ tổng bằng không do các hành vi ngắn hạn mang lại đang xói mòn nghiêm trọng các thành quả hợp tác và phát triển toàn cầu dựa trên nền tảng pháp trị quốc tế.",
+      "Việc tăng cường pháp trị quốc tế nhằm mục đích điều chỉnh những hành vi ngắn hạn gây hại cho người khác để trục lợi cho bản thân, dẫn dắt cộng đồng quốc tế hướng tới một tương lai hài hòa hơn.",
+      "Chỉ khi các quốc gia nhận thức được tính không bền vững của các hành vi ngắn hạn, giá trị phổ quát và thẩm quyền của pháp trị quốc tế mới thực sự được thể hiện rõ ràng."
+    ],
+    "keywords": ["國際法治", "短視行為", "權威", "定海神針"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "數字生態系統正通過算力賦予的動能，深度重構著知識經濟背景下的生產關係與消費範式。",
+    "referenceAnswers": [
+      "Hệ sinh thái số đang tái cấu trúc lại hành vi tiêu dùng và các quan hệ sản xuất trong nền kinh tế tri thức.",
+      "Trong sự bố cục sâu sắc của nền kinh tế tri thức, hệ sinh thái số đã trở thành động cơ cốt lõi thúc đẩy sự điều chỉnh cấu trúc ngành và sự chuyển đổi phạm trù.",
+      "Sự chuyển đổi số của các quan hệ sản xuất thể hiện sự giải cấu trúc và tái tổ chức mang tính lật đổ của hệ sinh thái số đối với các hình thức tổ chức văn minh công nghiệp truyền thống.",
+      "Sự hội tụ sâu sắc vào hệ sinh thái số là con đường tất yếu để các doanh nghiệp tri thức giành được quyền chủ đạo trong sự cạnh tranh thị trường toàn cầu khốc liệt.",
+      "Sự cá nhân hóa và thông minh hóa của các phạm trù tiêu dùng là thành quả của việc hệ sinh thái số tiến hành tái khai phá tính chủ thể của con người trong lĩnh vực kinh tế tri thức."
+    ],
+    "keywords": ["數字生態系統", "生產關係", "重構", "知識經濟"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "該專著對現代消費主義的內在矛盾進行了細緻入微的解剖，揭示了符號價值背後的虛無焦慮。",
+    "referenceAnswers": [
+      "Quyển sách này đã giải phẫu một cách tỉ mỉ những mâu thuẫn nội tại của chủ nghĩa tiêu thụ hiện đại.",
+      "Thông qua việc giải phẫu sâu sắc các cơ chế tâm lý và chiến lược thị trường, tác giả đã chứng minh cách thức chủ nghĩa tiêu thụ hiện đại tiêu giản các nhu cầu thực sự của con người như thế nào.",
+      "Nghiên cứu giải phẫu học về chủ nghĩa tiêu thụ hiện đại cung cấp công cụ để chúng ta xem xét cách thức logic tư bản thực thi sự thao túng thông qua môi giới văn hóa.",
+      "Sự giải phẫu xã hội học tỉ mỉ này đã xé toạc lớp vỏ phồn vinh của chủ nghĩa tiêu thụ hiện đại, làm lộ ra tính dễ bị tổn thương mang tính hệ thống của nó.",
+      "Sự giải phẫu sâu sắc của tác phẩm về mối quan hệ giữa chủ nghĩa tiêu thụ và nhận diện căn tính đã khơi dậy sự suy ngẫm sâu sắc của độc giả về bản chất của chủ nghĩa tối giản và hạnh phúc."
+    ],
+    "keywords": ["解剖", "消費主義", "內在矛盾", "虛無焦慮"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "創作靈感的迸發往往源於那種極致的孤寂，在一片靜穆中對靈魂深處的真諦進行深沉的叩問。",
+    "referenceAnswers": [
+      "Sự bộc phát của cảm hứng sáng tạo đôi khi cần một không gian lặng im tuyệt đối để lắng nghe bản lĩnh của tâm hồn.",
+      "Sự truy vấn sâu sắc đối với chân lý này là hành trình tâm linh tất yếu để người nghệ sĩ đột phá khỏi sự bình thường, hướng tới sự ưu tú và vĩnh cửu.",
+      "Trong một bầu không khí nghệ thuật tĩnh lặng, tác giả đã truyền tải đến độc giả những truy vấn sâu sắc của mình về sự hưng vong của văn minh và thiện ác của nhân tính.",
+      "Sự bộc phát của cảm hứng không nên dựa vào sự ồn ào bên ngoài, mà nên bắt rễ từ sự truy vấn liên tục đối với bản chất sự sống và quy luật thế giới.",
+      "Sự truy vấn sâu sắc này dẫn dắt chúng ta vượt qua những tạm bợ trước mắt, tìm kiếm ánh sáng chân lý rạng rỡ đó trong bầu trời sao mênh mông của tư tưởng."
+    ],
+    "keywords": ["靈感", "迸發", "靜穆", "叩問"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "跨學科協同能力已成為解決二十一世紀一系列複雜、開放且交織的問題的系統性解決方案。",
+    "referenceAnswers": [
+      "Khả năng phối hợp liên ngành là nền tảng để giải quyết các vấn đề ngày càng phức tạp của thế kỷ 21.",
+      "Sự phối hợp liên ngành mang tính hệ thống này nhằm mục đích phá vỡ các rào cản giữa học thuật và các ngành công nghiệp, thúc đẩy sự đổi mới nguyên bản và chuyển đổi thành quả kỹ thuật.",
+      "Khi đối mặt với các vấn đề quy mô lớn toàn cầu như biến đổi khí hậu, sự phối hợp liên ngành đã thể hiện giá trị dẫn dắt chiến lược không thể thay thế được.",
+      "Việc thiết lập cơ chế phối hợp liên ngành thường xuyên là sự đảm bảo về chế độ để thúc đẩy có trình tự quá trình chuyển đổi nghiên cứu khoa học sang khoa học hệ thống phức tạp.",
+      "Cốt lõi của sự phối hợp liên ngành nằm ở sự bổ trợ và đối thoại giữa các phạm trù tư duy, từ đó khơi dậy trí tuệ tập thể vượt lên trên các lĩnh vực đơn nhất."
+    ],
+    "keywords": ["跨學科協同", "系統性", "解決方案", "壁壘"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "舊有意識形態體系的逐漸瓦解，正為全球範圍內的文明對話與價值觀重整留出了廣袤的時空縫隙。",
+    "referenceAnswers": [
+      "Sự thoái trào của các hệ tư tưởng cũ đang tạo ra một khoảng trống cho sự định vị lại các giá trị văn hóa.",
+      "Trong sự tái cấu trúc động của đối thoại văn minh, chúng ta nên tích cực cổ vũ sự tin cậy lẫn nhau và học hỏi lẫn nhau, từ đó xây dựng một hệ thống giá trị có tính bao dung mạnh mẽ hơn.",
+      "Sự tái cấu trúc các giá trị này không chỉ là sự thay đổi về hình thức, mà còn là sự thực hành sâu sắc lý niệm cộng đồng chung vận mệnh nhân loại ở cấp độ triết học.",
+      "Sự mở rộng các biên cương văn minh mênh mông đang dần chuyển động cùng với sự đi sâu của đối thoại văn hóa, phô diện sự thống nhất cao độ của trí tuệ nhân loại trong tính đa dạng.",
+      "Quá trình đối thoại văn minh và tái cấu trúc giá trị thể hiện sự khát khao sâu sắc của xã hội đương đại đối với việc vượt qua sự đối lập cực đoan và tìm kiếm hòa bình phổ quát."
+    ],
+    "keywords": ["文明對話", "重整", "意識形態", "廣袤"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "區域一體化進程的穩步推進，高度依賴於各主權國家間建立在制度保障基礎上的戰略互信。",
+    "referenceAnswers": [
+      "Sự hội nhập kinh tế khu vực cần được thúc đẩy bởi sự nhạy bén chính trị và lòng tin chiến lược giữa các nước.",
+      "Sự thiếu hụt lòng tin chiến lược là căn bệnh trầm kha lớn nhất cản trở tiến trình tích hợp khu vực hiện nay, điều này đòi hỏi các cơ quan tư vấn và giới chính trị cùng tìm ra cách thức để phá vỡ thế bế tắc.",
+      "Thông qua việc thiết lập cơ chế đối thoại giao lưu nhiều cấp độ, hai nước đã sửa chữa thành công lòng tin chiến lược bị tổn hại, mở ra chương mới cho sự hợp tác kinh mô.",
+      "Một cấu trúc tích hợp khu vực có khả năng phục hồi phải sở hữu chức năng tự sửa chữa để giảm bớt các xung đột địa chính trị và tăng cường lòng tin chiến lược.",
+      "Việc xây dựng lòng tin chiến lược là một quá trình lâu dài và mong manh, thực hiện hợp đồng một cách chân thành, công khai và minh bạch là nền tảng duy nhất giúp duy trì nó một cách bền vững."
+    ],
+    "keywords": ["戰略互信", "區域一體化", "破局", "基石"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "該項體制改革方案旨在破除長期存在、制礙了市場主體活力的結構性壁壘與制度性沉痾。",
+    "referenceAnswers": [
+      "Chương trình đổi mới này nhắm tới việc phá bỏ những rào cản hành chính đang kìm hãm tiềm năng của doanh nghiệp.",
+      "Việc xóa bỏ các căn bệnh trầm kha về tổ chức và tối ưu hóa môi trường kinh doanh là con đường tất yếu để đạt được sự phát triển kinh tế chất lượng cao và khơi dậy động lực đổi mới.",
+      "Sự xóa bỏ sâu sắc các rào cản cấu trúc này phô diễn đầy đủ quyết tâm của chính phủ trong việc đi sâu cải cách thị trường hóa và thúc đẩy xây dựng pháp trị hóa.",
+      "Mô hình giám sát dựa trên nền tảng minh bạch dữ liệu và đơn giản hóa quy trình có lợi cho việc xóa bỏ một cách căn bản các loại rào cản của quản lý truyền thống.",
+      "Trong giai đoạn then chốt của cải cách thể chế, chúng ta phải dám tuyên chiến với các rào cản lợi ích đã bị xơ cứng, nhằm xóa bỏ triệt để các rào cản không còn phù hợp với thời đại."
+    ],
+    "keywords": ["破除", "壁壘", "體制改革", "制度性沉痾"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "精妙的語言藝術能在波詭雲譎的外交角逐中起到化干戈為玉帛、優化談判環境的微秒作用。",
+    "referenceAnswers": [
+      "Sự thanh nhã của ngôn từ có thể làm dịu đi những căng thẳng trong các cuộc đàm phán ngoại giao phức tạp.",
+      "Trong những thời điểm căng thẳng của cuộc tranh tài ngoại giao, những thuật ngữ văn hoa linh hoạt không chỉ là một công cụ truyền thông mà còn là một sự phô diễn động thái của chủ quyền quốc gia và trí tuệ chiến lược.",
+      "Việc nắm bắt chính xác các sai biệt ngôn ngữ vi mô trong bối cảnh quốc tế là tiền đề để các nhà ngoại giao duy trì lợi ích quốc gia và giành được sự tôn trọng trong những cuộc tranh tài phức tạp.",
+      "Cuộc tranh tài ngoại giao dựa trên nền tảng văn hóa sâu sắc này thể hiện sự trở lại của các cường quốc đương đại đối với lý niệm 'hòa nhi bất đồng' trong các cuộc giằng co.",
+      "Cảnh giới cao nhất của cuộc tranh tài ngoại giao nằm ở chỗ khuất phục quân địch mà không cần chiến đấu, thông qua sức cảm hóa của văn hóa và sự đấu trí của trí tuệ để hiện thực hóa các mục tiêu chiến lược."
+    ],
+    "keywords": ["外交角逐", "化干戈為玉帛", "圓融", "智慧"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "生物基因編碼的精確解讀，將在生物醫學及精準製藥領域引發一場前所未有的范式震盪。",
+    "referenceAnswers": [
+      "Việc giải mã mã hóa sinh học sẽ mang lại những thay đổi rung chuyển cho ngành công nghiệp dược phẩm.",
+      "Đối mặt với sự chấn động phạm trù của các lộ trình nghiên cứu phát triển truyền thống, các tập đoàn dược phẩm khổng lồ đang lần lượt chuyển hướng sang mô hình phát triển mới được thúc đẩy bởi dữ liệu lớn và trí tuệ nhân tạo.",
+      "Sự chấn động phạm trù do công nghệ mang lại này đang nén bớt chu kỳ phát hiện thuốc với một tốc độ chưa từng thấy, nâng cao năng lực ứng phó y tế công cộng.",
+      "Sự tái cấu trúc sâu sắc và chấn động phạm trù của ngành công nghiệp dược phẩm thể hiện cuộc giằng co trình độ cao giữa khoa học sự sống trong kỷ nguyên số và văn minh công nghiệp.",
+      "Sự xem xét về đạo đức và sự đi kèm của các biện pháp giám sát sau sự chấn động phạm trù là hệ thống định vị giúp đảm bảo sự phát triển an toàn và bao trùm của kỹ thuật y sinh học."
+    ],
+    "keywords": ["範式震盪", "生物醫學", "解讀", "精準製藥"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "共享經濟的橫向擴張，不僅重塑了勞動力市場的邊界，更引發了關於平台倫理與權利保障的深度詰問。",
+    "referenceAnswers": [
+      "Sự lan tỏa của nền kinh tế chia sẻ mang lại cả hy vọng và những thách thức đạo đức mới.",
+      "Trong kiểu truy vấn sâu sắc hướng tới đạo đức nền tảng này, chúng ta cần kiến cấu một bộ cơ chế bảo vệ pháp luật có thể phản ánh tốt hơn các đặc trưng của quan hệ sản xuất đương đại.",
+      "Sự truy vấn sâu sắc không phải nhằm mục đích ức chế sự đổi mới, mà nhằm dẫn dắt nền kinh tế chia sẻ tiến hóa theo hướng công bằng, minh bạch và bền vững hơn.",
+      "Sự quy thuộc về quyền lợi của lực lượng lao động trong nền kinh tế việc làm tự do (gig economy) đã trở thành một điểm truy vấn sâu sắc mà các học giả luật và các nhà hoạch định chính sách đương đại cùng đối mặt.",
+      "Sự tồn tại song song giữa sự truy vấn và đôi bên cùng có lợi thể hiện sự suy ngẫm sâu sắc của xã hội về việc làm sao để đảm bảo phẩm giá và quyền phát triển của cá nhân trong giai đoạn chuyển đổi công nghệ."
+    ],
+    "keywords": ["共享經濟", "深度詰問", "平台倫理", "演進"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "數字化生存環境下的文化雜糅性，催生出了一系列超越物理邊界、具備全球意識的虛擬社群。",
+    "referenceAnswers": [
+      "Sự pha trộn văn hóa trong thời đại số tạo nên nhửng cộng đồng người vượt qua ranh giới địa lý.",
+      "Sự kết nối vượt qua ranh giới vật lý này đang định nghĩa lại nhận dạng căn tính, phong cách ngôn ngữ và định hướng giá trị của cộng đồng thanh niên đương đại.",
+      "Sự trỗi dậy của các cộng đồng ảo thể hiện vai trò trao quyền của Internet như là một loại cơ sở hạ tầng mới trong việc tái tổ chức cấu trúc xã hội và địa hình văn hóa.",
+      "Đối thoại giữa các cộng đồng ảo vượt biên giới đã cung cấp một nền tảng ý dân hoàn toàn mới để ứng phó với khủng hoảng khí hậu toàn cầu và thúc đẩy quản trị công vụ.",
+      "Sự xóa bỏ biên giới vật lý này đi kèm với các cuộc giằng co phức tạp và cùng quản trị về chủ quyền văn hóa và chủ quyền số ở cấp độ quản lý các cộng đồng ảo."
+    ],
+    "keywords": ["虛擬社群", "超越物理邊界", "文化雜糅性", "賦能"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "視覺藝術形式的邊界拓展，正對傳統美學範疇下的審美標準進行著極具衝擊力的動態改塑。",
+    "referenceAnswers": [
+      "Việc thăng tiến của nghệ thuật thị giác đang thách thức những định nghĩa truyền thống về cái đẹp.",
+      "Dưới sự dẫn dắt của các tự sự xuyên môi trường (transmedia storytelling), nghệ thuật thị giác đang thực hiện việc định hình lại sâu sắc các kinh nghiệm tri giác của con người thông qua việc tái cấu trúc các mối quan hệ thời không.",
+      "Sự định hình lại động các kinh nghiệm thẩm mỹ này phản ánh sự khám phá của nghệ thuật đương đại đối với thẩm mỹ văn minh kỹ thuật số tương lai khi đang giải cấu trúc chủ nghĩa cổ điển.",
+      "Sự chuyển hướng tập thể này của giới nghệ thuật thị giác nhằm mục đích thực hiện việc định hình lại căn bản cách thức quan sát của khán giả thông qua việc tái khám phá tính chất vật thể.",
+      "Quá trình định hình lại các tiêu chuẩn thẩm mỹ, về bản chất, là một cái bắt tay ở trình độ cao giữa nghệ thuật và kỹ thuật, giữa cảm tính và lý tính trong bối cảnh đương đại."
+    ],
+    "keywords": ["視覺藝術", "審美標準", "改塑", "感知經驗"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "該品牌通極致的文化賦能，成功將產品體驗提昇至一種具備符號學價值的藝術層級。",
+    "referenceAnswers": [
+      "Dịch vụ của thương hiệu này đã đạt tới tầm cao mang tính biểu tượng của sự sang trọng.",
+      "Dưới sự hỗ trợ của việc trao quyền văn hóa này, những gì người tiêu dùng mua không chỉ là thực thể vật chất, mà còn là sự thuộc về sâu sắc đối với một lối sống cao cấp và sự nhận dạng căn tính.",
+      "Đối với ngành công nghiệp xa xỉ phẩm, trao quyền văn hóa là chiến lược cốt lõi dự trữ để thương hiệu từ bỏ thị trường hiện có và dẫn dắt các phạm trù thịnh hành tương lai.",
+      "Sự trao quyền văn hóa sâu sắc đối với thủ công truyền thống và tinh thần hiện đại này đã mang lại cho thương hiệu một sự dày dặn lịch sử vượt xa các thuộc tính thương mại của nó.",
+      "Bản chất của trao quyền văn hóa nằm ở việc điêu khắc linh hồn thương hiệu, khiến nó vẫn duy trì được sức hiệu triệu thị trường và sức sống mạnh mẽ trong sự trôi chảy của thời gian."
+    ],
+    "keywords": ["文化賦能", "符號學價值", "奢侈品", "號召力"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "建立在人類共同價值觀基礎上的倫理共識，是引導前沿科技向善、避免自我毀滅的生命航標。",
+    "referenceAnswers": [
+      "Sự đồng thuận về đạo đức là nền tảng để công nghệ phát triển vì lợi ích nhân loại.",
+      "Dưới sự chỉ dẫn của sự đồng thuận đạo đức toàn cầu này, sự phát triển của trí tuệ nhân tạo và khoa học sự sống nên luôn luôn phục vụ việc nâng cao phúc lợi toàn diện của loài người.",
+      "Việc xây dựng sự đồng thuận đạo đức khoa học công nghệ đòi hỏi việc vượt qua các rào cản địa chính trị, tôn giáo và văn hóa, thực hiện trách nhiệm và bảo vệ cao độ đối với tương lai của loài người.",
+      "Chỉ khi nhúng các sự đồng thuận đạo đức vào từng khâu tầng đáy của nghiên cứu phát triển thuật toán và luật pháp giám sát, chúng ta mới có thể xây dựng được một tương lai công nghệ thực sự an toàn và bao trùm.",
+      "Sự theo đuổi các đồng thuận đạo đức này thể hiện sự phản tỉnh tỉnh táo của giới khoa học đối với các biên giới đạo đức và các con đường phát triển của bản thân trong kỷ nguyên của sức mạnh bùng nổ."
+    ],
+    "keywords": ["倫理共識", "科技向善", "福祉", "航標"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "經典著作作為思想的承載體，引領著個體心靈在時代喧囂中，向著星辰大海進行莊嚴且神聖的拔擢。",
+    "referenceAnswers": [
+      "Sách là con thuyền chở che linh hồn đi qua những dông bão của thời đại cuộc đời.",
+      "Sự nâng tầm ở cấp độ tinh thần này là động lực cốt lõi mạnh mẽ nhất để chúng ta phản kháng sự tầm thường, từ chối sự nô dịch của kỹ thuật và bảo vệ linh hồn tự do của loài người.",
+      "Trong một tầm nhìn triết học mênh mông, việc đọc sách không còn là công cụ để có được thông tin, mà là một cuộc nâng tầm cuối cùng đối với mối liên hệ giữa vũ trụ và bản thân.",
+      "Sức mạnh của các tác phẩm kinh điển nằm ở sức căng văn hóa lâu bền của nó, có thể vượt qua thời không, cung cấp sự nâng tầm tâm linh liên tục cho mỗi linh hồn khao khát được thăng hoa.",
+      "Nâng tầm cái tôi, vượt lên trên hiện tại, là sứ mệnh cốt lõi và sự bảo vệ mang tính chiến lược đối với ngọn lửa văn minh mà giáo dục nhân văn nên có trong thời đại của sự xung kích kỹ thuật số."
+    ],
+    "keywords": ["拔擢", "經典著作", "心靈", "喧囂"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "兩國間的高度戰略協同，不僅基於共同的利益訴求，更是對維護全球秩序公平正義理念的深度實踐。",
+    "referenceAnswers": [
+      "Sự thống nhất chiến lược giữa hai nước dựa trên các nguyên tắc cơ bản của luật quốc tế.",
+      "Sự phối hợp chiến lược xuyên lĩnh vực này đã cung cấp bản thiết kế hợp tác mạnh mẽ cho việc ứng phó với các cuộc khủng hoảng toàn cầu như biến đổi khí hậu, y tế công cộng và an ninh số.",
+      "Trong tình hình quốc tế đầy biến động, hai nước thông qua việc tăng cường phối hợp chiến lược, đã thành công trong việc phát huy chức năng dẫn dắt ổn định và xây dựng các quy tắc trên vũ đài đa phương.",
+      "Độ sâu và độ rộng của sự phối hợp chiến lược phụ thuộc vào việc các bên có thể từ bỏ tư duy chiến tranh lạnh, quay lại hệ thống trật tự quốc tế với Liên Hiệp Quốc làm trung tâm hay không.",
+      "Sự phối hợp chiến lược hướng tới sự cùng thắng này thể hiện trách nhiệm lịch sử của các cường quốc đương đại trong quá trình giằng co tiến dần tới mục tiêu xây dựng cộng đồng chung vận mệnh nhân loại."
+    ],
+    "keywords": ["戰略協同", "公平正義", "合作藍圖", "穩定引領"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "內在精神的崇高與優雅，往往在庸俗生活的細微處，通過那種不矜不伐、溫潤如玉的謙抑美德得以彰顯。",
+    "referenceAnswers": [
+      "Sự thanh nhã của tâm hồn thường hiển lộ qua những hành động khiêm cung và vị tha.",
+      "Sự cao thượng và ưu nhã của tinh thần nội tại thường được hiển lộ ở những chi tiết nhỏ nhặt của cuộc sống tầm thường, thông qua đức hạnh khiêm nhường không phô trương, ấm áp như ngọc.",
+      "Khiêm nhường không phải là thấp kém, mà là một tư thái sinh tồn sâu sắc và giàu tính dẻo dai hơn được lựa chọn sau khi đã thấu hiểu sự u tối của nhân tính và những giới hạn của sinh mệnh.",
+      "Trong chốn quyền lực ồn ào, giữ được một sự khiêm nhường chính trực và kỳ lạ là sự bảo vệ ưu nhã nhất của người trí giả đối với tôn nghiêm của bản thân và sự siêu thoát đối với vật dục.",
+      "Xây dựng một nền văn hóa khiêm nhường dựa trên sự bình đẳng nhân cách giúp xóa bỏ sự ngạo mạn của chủ nghĩa tinh hoa, kiến tạo một hệ sinh thái xã hội bao dung và ấm áp hơn."
+    ],
+    "keywords": ["謙抑", "不矜不伐", "生存姿態", "超脫"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "對極致完美的近乎偏執的追逐，本質上是一場精緻的自我囚禁，導致我們在虛妄的標竿中迷失了生活的本來面目。",
+    "referenceAnswers": [
+      "Việc theo đuổi sự hoàn hảo đôi khi là một cái bẫy tinh vi ngăn cản chúng ta cảm nhận được hạnh phúc chân thực.",
+      "Sự truy đuổi gần như hoang tưởng đối với sự hoàn mỹ cực độ, về bản chất là một cuộc tự giam cầm tinh vi, dẫn đến việc chúng ta đánh mất diện mạo vốn có của cuộc sống trong những chuẩn mực hư ảo.",
+      "Sự tự giam cầm này bắt nguồn từ nỗi lo âu sâu sắc về danh tính, nó giản đơn hóa sự phong phú của sinh mệnh thành những chỉ số thành công học đơn chiều, cuối cùng dẫn tới sự khô héo về tinh thần.",
+      "Phá vỡ xiềng xích của sự tự giam cầm này đòi hỏi chúng ta phải đạt được sự hòa giải với logic hiệu suất lạnh lùng, để một lần nữa ôm lấy chất liệu sinh mệnh thô ráp nhưng chân thực.",
+      "Chấp nhận những khiếm khuyết và tính bất định không phải là sự thỏa hiệp tầm thường, mà là một sự thừa nhận dũng cảm đối với màu nền của sinh mệnh, là khởi đầu của bước đi từ tự giam cầm hướng tới tự do."
+    ],
+    "keywords": ["自我囚禁", "身份焦慮", "主體性", "反撥"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "深夜的靜謐猶如一場無聲的洗禮，迫使我們在物欲消散的剎那，完成一次與內在真我跨越星空的深度靜謐對話。",
+    "referenceAnswers": [
+      "Sự tĩnh lặng của đêm tối mang lại cơ hội để chúng ta đối diện với bản ngã sâu thẳm nhất.",
+      "Sự tĩnh lặng của đêm khuya giống như một cuộc rửa tội không lời, buộc chúng ta phải hoàn thành một cuộc đối thoại tĩnh lặng sâu sắc với cái tôi chân thực nội tại xuyên qua bầu trời sao ngay trong khoảnh khắc vật dục tan biến.",
+      "Sự tĩnh lặng này không phải là trống rỗng, mà là một sự giác tri đầy sức căng, để cho những nỗi cô đơn và sự nhiệt thiết vốn bị sự ồn ào che lấp vào ban ngày có được quyền biểu đạt một lần nữa.",
+      "Trong sự bao vây của các thuật toán và những vụn vặt thường nhật, chủ động xây dựng một sự tĩnh lặng cho tâm hồn là pháo đài bí mật của cá nhân để kháng cự lại xu hướng tầm thường hóa và bảo vệ lãnh địa tinh thần.",
+      "Cảm giác về tầng thứ của sự tĩnh lặng này thể hiện độ sâu sắc trong sự thấu tỏ của một người đối với những diệu nghĩa của vũ trụ, là nấc thang quan trọng để nhảy vọt từ lý tính kỹ thuật hướng tới sự cư ngụ đầy chất thơ."
+    ],
+    "keywords": ["靜謐", "洗禮", "覺察", "詩意棲居"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "藝術靈感的迸發往往是長期精神蓄積後的偶然邂逅，是在生活的幽暗隧道中忽然窺見的那一抹驚心動魄的微光。",
+    "referenceAnswers": [
+      "Sự bộc phát của cảm hứng nghệ thuật thường đến từ một khoảnh khắc ngẫu nhiên của cuộc sống.",
+      "Sự bùng phát của cảm hứng nghệ thuật thường là sự gặp gỡ ngẫu nhiên sau một thời gian dài tích lũy tinh thần, là tia sáng yếu ớt nhưng làm chấn động lòng người bỗng chốc nhìn thấy được trong đường hầm tăm tối của cuộc đời.",
+      "Cuộc gặp gỡ ngẫu nhiên này đã nắm bắt được sự phi lý và cao cả khó có thể diễn đạt bằng lời ẩn giấu dưới lớp vỏ hiện thực, từ đó ban tặng sắc màu thần thánh bất hủ cho những sự vật tầm thường.",
+      "Sứ mệnh của người nghệ sĩ nằm ở việc chuyển hóa vô số những cuộc gặp gỡ ngẫu nhiên sâu thẳm trong linh hồn đó thành những kiến trúc ngôn từ chính xác, tái tạo ý nghĩa trong thời đại mẩu vụn.",
+      "Chúng ta sở dĩ yêu nghệ thuật là bởi vì trong những cuộc gặp gỡ ngẫu nhiên đó, nó đã khai mở cho những con người vốn đang mắc kẹt trong vũng bùn thường nhật một con đường dẫn tới tính siêu việt."
+    ],
+    "keywords": ["偶然邂逅", "迸發", "神性底色", "超越性"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "斷壁殘垣間凝固的歷史雲煙，不僅是對昔日繁華的哀輓，更是文明韌性在廢墟之上不屈不撓的一種時代印記。",
+    "referenceAnswers": [
+      "Các di tích lịch sử là những chứng nhân câm lặng của những hưng vong và đổi thay trong dòng chảy thời gian.",
+      "Làn khói lịch sử ngưng tụ giữa những bức tường đổ nát không chỉ là tiếng than khóc cho sự phồn hoa ngày cũ, mà còn là một dấu ấn thời đại về sự dẻo dai không khuất phục của văn minh trên đống đổ nát.",
+      "Thông qua làn khói lịch sử, chúng ta có thể thấu rõ sự tàn khốc của việc hoán đổi quyền lực và sự kiên cường sinh tồn của thứ dân, kiến tạo nên một sử quan vĩ đại vượt qua giới hạn của quốc gia dân tộc.",
+      "Gìn giữ làn khói lịch sử này là cuộc hành trình tìm về nguồn cội gen văn hóa của con người đương đại, nhằm để cho nền tảng văn minh dày dặn trở thành tọa độ tinh thần chỉ dẫn cho việc bước tới tương lai.",
+      "Ngọn lửa văn minh nhấp nháy trong làn khói lịch sử nhắc nhở chúng ta rằng, mọi sự sáng tạo vĩ đại đều bắt đầu từ sự cảm nhận sâu sắc và thăng hoa đối với vận mệnh bi kịch chung của nhân loại."
+    ],
+    "keywords": ["歷史雲煙", "哀輓", "時代印記", "文明底蘊"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "幸福絕非某種可以被精確量化、一勞永逸的終極目標，而是在生活的粗糲與日常的細碎中，對內在祥和的不懈砥礪。",
+    "referenceAnswers": [
+      "Hạnh phúc không phải là cái đích đến mà là hành trình bồi đắp nhẫn nại và thấu cảm mỗi ngày.",
+      "Hạnh phúc tuyệt đối không phải là một mục tiêu cuối cùng có thể định lượng chính xác hay đạt được một lần rồi mãi mãi, mà là sự rèn giũa không ngừng nghỉ đối với sự an lạc nội tại trong sự thô ráp của cuộc sống và sự vụn vặt của thường nhật.",
+      "Sự rèn giũa này đòi hỏi chúng ta phải duy trì một định lực kiên định không dời đổi trong nghịch cảnh, biến những vị đắng mà số phận ban tặng thành sức mạnh nồng đượm trong sự phát triển nhân cách.",
+      "Sự rèn giũa chậm rãi và bền bỉ này không chỉ là cuộc tự cứu rỗi của tâm hồn, mà còn là nỗ lực gian nan nhằm giành lại chiều sâu nhân tính trước sự kẹp chả của dòng thác thông tin và văn hóa ăn liền.",
+      "Mỗi sự chuyển hóa những cảm xúc tiêu cực và sự thấu cảm đối với đau khổ của người khác đều là những thắng lợi nhỏ bé trong cuộc rèn giũa dài lâu này, cùng nhau tạo nên bản anh hùng ca tráng lệ của cuộc đời."
+    ],
+    "keywords": ["砥礪", "祥和", "守志不移", "安寧"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "人性之複雜，在於其深淵般的幽暗與璀璨神性間的劇烈撕裂與膠著，構成了一個充滿無限可能的道德博弈場點。",
+    "referenceAnswers": [
+      "Tính phức tạp của con người nằm ở sự đan xen giữa ánh sáng và bóng tối.",
+      "Sự phức tạp của nhân tính nằm ở sự xâu xé và giằng co kịch liệt giữa sự u tối như vực thẳm và thần tính rực rỡ, tạo thành một sân chơi đấu trí đạo đức chứa đựng những khả năng vô hạn.",
+      "Sân chơi đấu trí đạo đức sâu sắc này yêu cầu chúng ta từ bỏ những nhãn dán của chủ nghĩa giản đơn hóa trắng đen rõ ràng, để trực diện với những yếu đuối và đấu tranh thầm kín bằng một góc nhìn bi mẫn hơn.",
+      "Giá trị của văn học kinh điển chính nằm ở chỗ nó dũng cảm đi sâu vào sân chơi đấu trí đạo đức ở những vùng đất không người, hé lộ bề dày sinh mệnh vốn bị xóa nhòa trong các đại tự sự dòng chính.",
+      "Sự tự phản tỉnh đầy dũng cảm đối với sân chơi đấu trí đạo đức của bản thân là mắt xích then chốt của sự tiến hóa từ mông muội hướng tới tự giác, cũng là nền tảng để tạo lập điểm tựa nhân cách của mỗi cá nhân trong thế giới phức tạp."
+    ],
+    "keywords": ["道德博弈場點", "簡化論", "模糊空間", "自省"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "藝術家的靈魂深處，那是一片由無數名狀莫名的孤寂與悲憫匯成的深沉汪洋，是承載人類集體憂傷的澄澈之所在。",
+    "referenceAnswers": [
+      "Trái tim của người nghệ sĩ là một đại dương chứa đựng những nỗi buồn chưa thể gọi tên.",
+      "Sâu thẳm trong linh hồn của người nghệ sĩ là một đại dương sâu thẳm được tạo nên từ vô số những nỗi cô liêu và bi mẫn không thể gọi tên, là nơi thanh khiết chứa đựng những nỗi u sầu tập thể của nhân loại.",
+      "Nơi thanh khiết này mặc dù thường xuyên khiêu vũ cùng bóng tối, nhưng lại có thể thông qua sự điểm hóa mang tính thẩm mỹ để chuyển hóa những vết thương thầm kín thành thứ ánh sáng kinh thế hãi tục cứu rỗi thế giới.",
+      "Việc canh giữ nơi thanh khiết này là phòng tuyến cuối cùng chống lại sự xâm thực của sự rập khuôn trong công nghiệp văn hóa, nó lưu giữ một không gian dị biệt thần thánh cho sự tồn tại của các giá trị đa nguyên.",
+      "Sự cảm triệu bắt nguồn từ nơi thanh khiết này vượt qua rào cản ngôn ngữ là động lực cơ bản thúc đẩy những cuộc đối thoại linh hồn sâu sắc giữa các nền văn hóa khác nhau nhằm đạt được sự đồng cảm về vận mệnh."
+    ],
+    "keywords": ["澄澈之所在", "點化", "驚世駭俗", "共情"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "權力的擴張天性猶如未被馴化的洪荒巨獸，若缺乏基於自然法與契約精神的、剛性的體制約束，必將崩解人類文明的脆弱堤壩。",
+    "referenceAnswers": [
+      "Quyền lực tối thượng nếu không được đặt trong cái lồng văn minh sẽ biến thành con quái vật đáng sợ.",
+      "Bản tính bành trướng của quyền lực giống như một con quái thú hồng hoang chưa được thuần hóa, nếu thiếu đi những sự chế ước thể chế mang tính cứng nhắc dựa trên luật tự nhiên và tinh thần khế ước, chắc chắn sẽ phá hủy những con đê mong manh của văn minh nhân loại.",
+      "Sự chế ước thể chế này không nên chỉ là những điều khoản trên mặt giấy, mà nên là một sự cảnh giác và bảo vệ mang tính bản năng đối với các ranh giới vận hành quyền lực vốn đã bén rễ sâu trong tiềm thức của công chúng.",
+      "Việc xây dựng các sự chế ước thể chế trong thời đại kỹ thuật số để đề phòng những sự bạo chính kỹ thuật mới là việc hết sức cấp bách nhằm bảo vệ tính chủ thể của con người khi sự thống trị của thuật toán đang ngày càng thẩm thấu.",
+      "Lịch sử đã vô số lần chứng minh rằng, chỉ có dưới những sự chế ước thể chế minh bạch, có tính kiềm chế và đầy ấm áp, việc vận hành quyền lực mới có thể thoát khỏi sự dã man hướng tới văn minh, từ phá hoại chuyển sang kiến tạo."
+    ],
+    "keywords": ["體制約束", "主體性", "倫理化轉型", "公共福祉"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "生命是一場關於與執念和解、在舍離的陣痛中求索永恆之安寧的宏大佈局，是一場從佔有轉向存在的人格升等。",
+    "referenceAnswers": [
+      "Cuộc đời là một dòng sông luôn biến chuyển, nơi chúng ta học cách buông bỏ để nhẹ bước đi tiếp.",
+      "Cuộc đời là một bố cục vĩ đại về việc hòa giải với những chấp niệm, tìm kiếm sự an lạc vĩnh hằng trong cơn đau của sự buông bỏ, là một cuộc nâng cấp nhân cách từ chiếm hữu chuyển hướng sang tồn tại.",
+      "Sự nâng cấp nhân cách này đòi hỏi chúng ta phải nhận diện được những biểu tượng quyền lực phù phiếm đó trong những ảo ảnh tư bản ồn ào, để rồi quay sang theo đuổi một sự sung túc tinh tinh thần hướng vào bên trong, nhất thể với đạo.",
+      "Chủ động thực hiện sự buông bỏ ở tầng mức tinh thần là một cuộc tháo chạy mang tính chiến lược của con người hiện đại nhằm giành lại chủ quyền nhận thức và tái thiết lập tư duy độc lập trước sự lôi kéo của các thuật toán đề xuất và mạng xã hội.",
+      "Mỗi lần buông bỏ hư danh và vọng niệm là một lời triệu triệu hồi đầy tình cảm đối với thần tính nội tại, để cá nhân đạt được sự khoáng đạt vượt qua sinh tử trong cuộc hành trình cô độc."
+    ],
+    "keywords": ["舍離", "執念", "與道合一", "豁達"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "那些對於存在本質與價值源頭的哲學追問，猶如在虛無主義的迷霧中矗立的、指引人類靈魂歸航的永恆之所在標誌。",
+    "referenceAnswers": [
+      "Những câu hỏi triết học là mỏ neo giúp chúng ta không bị cuốn trôi trong đại dương vô nghĩa.",
+      "Những câu hỏi triết học về bản chất của sự tồn tại và nguồn gốc của các giá trị giống như những dấu mốc về nơi vĩnh hằng sừng sững giữa màn sương mù của chủ nghĩa hư vô dẫn dắt linh hồn nhân loại trở về bến đỗ.",
+      "Việc tái khởi động những sự truy vấn triết học này là tảng đá tảng của nơi lý tính cuối cùng nhằm kháng cự lại xu hướng tầm thường hóa tinh thần và tự động hóa cuộc sống trước thực tại mẩu vụn thông tin và sự khan hiếm ý nghĩa.",
+      "Ý nghĩa của sự truy vấn triết học không nằm ở việc đưa ra một đáp án tiêu chuẩn cuối cùng, mà nằm ở sức căng nhân cách do chính cuộc truy vấn này kích hoạt, khiến sinh mệnh đạt được một sự tự giác ở trình độ cao giữa những nỗi lo âu.",
+      "Chỉ có một thời đại thiếu vắng những sự truy vấn triết học mới rơi vào sự nô dịch của vật chất; chỉ có ngọn lửa của sự phản tư và hoài nghi mới có thể chiếu rọi cuộc hành trình của nhân loại từ vương quốc tất yếu hướng tới vương quốc tự do."
+    ],
+    "keywords": ["哲學追問", "虛無主義", "理性之所在", "自覺"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "真正的氣度與風華，絕非昂貴皮囊的堆砌，而是源於一個人對命運悲劇性的深刻體認後，所呈現出的那份波瀾不驚。",
+    "referenceAnswers": [
+      "Sự thanh lịch thực sự không đến từ vẻ ngoài hào nhoáng mà từ sự hiểu biết thấu đáo về bản thân.",
+      "Khí độ và phong thái thực sự tuyệt đối không phải là sự bồi đắp của lớp vỏ ngoài đắt tiền, mà bắt nguồn từ sự thản nhiên bất kể sóng gió được thể hiện ra sau khi một người đã nhận thức sâu sắc về tính bi kịch của số phận.",
+      "Sự thản nhiên bất kể sóng gió này thể hiện một sự khinh bỉ sâu sắc đối với những trò chơi quyền lực và tiền bạc, cũng như sự tự hoàn thiện bản thân dựa trên tinh thần nhân văn được tạo lập trên nền tảng đó.",
+      "Sự thanh lịch thực sự nằm ở một thứ thể thống gần như thần thánh vẫn có thể giữ vững được trong nghịch cảnh, nó nói với thế giới rằng: có những thứ mà tư bản vĩnh viễn không thể mua chuộc hay định nghĩa được.",
+      "Thứ ánh sáng tỏa ra từ sâu thẳm nhân cách này mặc dù yếu ớt, nhưng có thể cung cấp một sự tham chiếu về tôn nghiêm cho những linh hồn đang lạc lối trong thời đại tăm tối."
+    ],
+    "keywords": ["波瀾不驚", "自我完成", "體統", "強悍守護"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "實質性公平的宏大願景，在於通過對資本邏輯的制度性矯正，賦予每個卑微生命以突破階層藩籬、實現自我拔擢的權力。",
+    "referenceAnswers": [
+      "Công bằng xã hội không phải là sự chia đều mọi thứ mà là trao cho mỗi người cơ hội để tự do tỏa sáng.",
+      "Tầm nhìn vĩ đại về sự công bằng thực chất nằm ở việc trao cho mỗi sinh mệnh hèn mọn quyền lực để phá vỡ những rào cản giai cấp và thực hiện sự tự nâng tầm bản thân thông qua sự hiệu chỉnh mang tính chế độ đối với các logic tư bản.",
+      "Sự hiệu chỉnh mang tính chế độ này không nên chỉ là sự ban ơn, mà nên là sự tái cấu trúc một cơ chế công bằng dựa trên quyền con người thiên bẩm, bảo đảm rằng thiên phú và sự cần cù không còn bị xóa nhòa bởi định danh và di sản.",
+      "Linh hồn của sự công bằng nằm ở khả năng khoan dung đối với tính đa dạng và sự dẫn dắt hướng tới sự ưu tú, để những đóa hoa dại mọc lên từ khe đá cũng có thể nhận được sự nở rộ trang nghiêm dưới ánh nắng của pháp trị.",
+      "Theo đuổi sự công bằng là một tiến trình chiến lược không bao giờ có điểm dừng, nó đòi hỏi chúng ta không ngừng phản tư về những đặc quyền và định kiến thầm kín đó để tìm kiếm lời giải tối ưu cho lợi ích đại chúng trong những cuộc cải cách liên tục."
+    ],
+    "keywords": ["制度性矯正", "自我拔擢", "身份消解", "最優解"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "創造力的本質是靈魂與宇宙秩序在更高維度的一次詩意共鳴，是人類不甘於平庸現實、向無限可能性發起的一場精神突圍。",
+    "referenceAnswers": [
+      "Sự sáng tạo là tiếng vang của một tâm hồn đang tìm kiếm sự hòa hợp với vũ trụ.",
+      "Bản chất của sức sáng tạo là một lần cộng hưởng đầy chất thơ giữa linh hồn và trật tự vũ trụ ở một chiều kích cao hơn, là một cuộc bứt phá tinh thần hướng tới những khả năng vô hạn mà con người không cam chịu thực tại tầm thường thực hiện.",
+      "Trong mỗi cơn đau của sự đổi mới, cá nhân đã hoàn thiện cuộc giải cấu trúc tàn khốc đối với cái tôi cũ và tái cấu trúc ý nghĩa sinh mệnh, thể hiện sự tự giác của ý chí tiến hóa sinh học.",
+      "Sự cộng hưởng đầy chất thơ này đòi hỏi người sáng tạo phải sở hữu một viễn kiến vượt qua những giới hạn của thời đại và trực giác thẩm mỹ đối với nguồn cội, nắm bắt được nhịp đập của các quy luật giữa những mảnh vụn thông tin hỗn loạn.",
+      "Một dân tộc từ chối sự đổi mới, thiếu vắng loại cộng hưởng chiều kích cao này, chắc chắn sẽ dần bị thạch hóa trong dòng sông dài của văn minh, đánh mất đi tôn nghiêm và chỗ dựa để đối thoại với tương lai."
+    ],
+    "keywords": ["詩意共鳴", "精神突圍", "解構", "意志自覺"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "廣義之慈悲，是超越生死界限的、對萬物苦難的一種深度感知與救贖轉化，是生命在荒原上開出的最溫潤之所在。",
+    "referenceAnswers": [
+      "Tình yêu là sức mạnh duy nhất có thể hàn gắn những vết thương sâu thẳm nhất của thời gian.",
+      "Lòng từ bi theo nghĩa rộng là một loại cảm nhận sâu sắc và sự chuyển hóa cứu rỗi đối với nỗi khổ nạn của muôn loài vượt qua ranh giới sinh tử, là nơi ấm áp nhất mà sinh mệnh nở hoa trên cánh đồng hoang.",
+      "Sự chuyển hóa cứu rỗi này đòi hỏi chúng ta phải rũ bỏ những độc tố của định kiến và thù hận, bơm sức mạnh của sự tha thứ vào những vết thương bị xâu xé bởi làn khói lịch sử, kiến tạo một cộng đồng chung vận mệnh mới.",
+      "Trong sự cô độc ngày càng sâu sắc của xã hội nguyên tử hóa, cảm giác liên kết từ bi này là logic nền tảng để chúng ta tái thiết cộng đồng, kháng cự lại sự nội hao tinh thần và lo âu xã hội.",
+      "Từ bi không chỉ là sự dâng trào của tình cảm, mà còn là một sự lựa chọn đạo đức mang tính cứng nhắc, nó xác định chúng ta là một nền văn minh với tư cách là một chỉnh thể, hay là một khu rừng già nơi săn đuổi lẫn nhau."
+    ],
+    "keywords": ["救贖轉化", "最溫潤之所在", "命運共同體", "召喚"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "人性的惰性往往表現為對現世安穩的近乎病態的依戀，恐懼那種能摧毀既有認知與權力結構的、未知力量的深度震盪。",
+    "referenceAnswers": [
+      "Con người thường sợ hãi sự thay đổi vì nó buộc chúng ta phải rời bỏ vùng an toàn để đối diện với cái chưa biết.",
+      "Tính lười biếng của nhân tính thường biểu hiện qua sự quyến luyến gần như bệnh hoạn đối với sự an ổn hiện thế, sợ hãi trước những sự rung chấn sâu sắc của những sức mạnh chưa biết vốn có thể hủy diệt các trật tự quyền lực và nhận thức sẵn có.",
+      "Tuy nhiên, sự rung chấn sâu sắc này chính là cuộc rửa tội để sinh mệnh có thể tiến hóa, nó xé toang những ảo ảnh giả dối của vùng an toàn, buộc chủ thể phải tái lập mối liên hệ với thế giới trong sự kinh hoàng.",
+      "Trước những làn sóng thời đại đầy biến động kịch liệt, chủ động ôm lấy cuộc rung chấn sâu sắc này là một sự mở rộng táo bạo về tầm vóc của bản thân đối với kẻ mạnh và là sự phản kháng tiến bước đối với những logic sinh hoạt đã bị xơ cứng.",
+      "Lịch sử sau cùng sẽ chứng minh rằng, những xã hội có thể chịu đựng được sự hỗn loạn, bao dung sự đa nguyên và bảo vệ tôn nghiêm của ngôn luận mới sở hữu được khả năng miễn dịch nội tại và trí lực phát triển để tiến tới một nền văn minh cao cấp hơn."
+    ],
+    "keywords": ["深度震盪", "病態依戀", "認知重組", "前行反撥"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "真正的睿智植根於對認知邊界的清醒覺知，是在浩瀚的信息海洋中，謙卑地承認自我在造化奧義面前的渺小與偏頗。",
+    "referenceAnswers": [
+      "Sự thông thái không nằm ở việc biết nhiều mọi thứ mà ở việc hiểu rõ sự giới hạn của hiểu biết.",
+      "Sự thông tuệ thực sự bén rễ từ sự giác tri tỉnh táo đối với các ranh giới nhận thức, là sự thừa nhận một cách khiêm nhường về sự nhỏ bé và phiến diện của cá nhân trước những diệu nghĩa của tạo hóa giữa đại dương thông tin mênh mông.",
+      "Sự giác tri này không phải là sự hoài nghi hư vô, mà là một sự phê phán lý tính ở chiều kích cao, nó bảo vệ chúng ta không bị giam cầm và nô dịch bởi những giáo điều mang tính sách giáo khoa ngạo mạn đó.",
+      "Trong thời đại AI và dữ liệu tràn lan hiện nay, duy trì sự giác tri này đối với các giới hạn của thuật toán là trận địa cuối cùng để con người bảo vệ những phán đoán về đạo đức, thẩm mỹ và trực giác độc đáo của mình.",
+      "Chỉ có những nhà lãnh đạo sở hữu sự giác tri này mới có thể tiếp thu tinh hoa từ nhiều phía, tránh được những cái bẫy do sự ngạo mạn cá nhân và các điểm mù nhận thức đặt ra trong những cuộc đối đầu quyết sách phức tạp."
+    ],
+    "keywords": ["認知邊界", "清醒覺知", "簡約真諦", "博採眾長"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "真正的自由肇始於對社會集體潛意識所構築的、那套隱形宰制機制的徹底反省與勇氣十足的決裂。",
+    "referenceAnswers": [
+      "Tự do thực sự bắt đầu khi chúng ta thoát khỏi sự nô dịch của các định kiến từ xã hội.",
+      "Tự do thực sự bắt đầu từ sự phản tỉnh triệt để và cuộc quyết liệt đầy dũng cảm đối với bộ cơ chế thống trị ẩn tàng do tiềm thức tập thể xã hội cấu trúc nên.",
+      "Cơ chế thống trị này thường ngụy trang thành 'thường thức' hoặc 'thành công', âm thầm thiến đi tính độc đáo của cá nhân, biến sinh mệnh thành những bánh răng đồng nhất ngay ngắn trên dây chuyền sản xuất của nhà máy.",
+      "Quá trình phá vỡ cơ chế thống trị này về bản chất là một cuộc giành lại tính chủ thể đầy gian nan, là cuộc tái lập luật pháp cho ý nghĩa tồn tại của bản thân linh hồn giữa chốn hoang dã.",
+      "Hơi thở của tự do bắt nguồn từ loại biểu đạt sinh mệnh độc đáo, đa nguyên và căng đầy sức mạnh đó, nó sinh trưởng giữa những kẽ hở của chế độ, thể hiện một sự bất kham dưới sự chú mục của quyền lực."
+    ],
+    "keywords": ["宰制機制", "徹底反省", "重新立法", "主體性奪回"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "文明的巔峰範式在於那種能消解一切戾氣與偏見的、基於人性多元共生的宏大慈悲，它將異見視為自我完善的珍貴參照。",
+    "referenceAnswers": [
+      "Sự bao dung là đỉnh cao của văn minh, nơi những khác biệt không còn là rào cản mà là sự bù đắp.",
+      "Hình mẫu đỉnh cao của văn minh nằm ở lòng từ bi vĩ đại dựa trên sự cộng sinh đa nguyên của nhân tính có thể tiêu trừ mọi sự hung hăng và định kiến, nó xem những ý kiến dị biệt là những tham chiếu quý giá để tự hoàn thiện mình.",
+      "Lòng từ bi vĩ đại này đòi hỏi chúng ta phải vượt qua những vực thẳm của huyết thống, quốc gia và tín ngưỡng, tìm kiếm một sự tích hợp giá trị mang tính toàn cầu trên tiền đề thừa nhận sự khác biệt.",
+      "Từ bi không chỉ là tâm thái, mà càng nên được chuyển hóa thành các chính sách công cộng mang tính bao trùm, để những sinh mệnh bị đẩy ra bên lề hay bị làm nhục cũng có thể nhận được ánh nắng và tôn nghiêm xứng đáng.",
+      "Khi một dân tộc có thể tiếp nhận sự xung kích và rửa tội của các nền văn minh ngoại lai trong lòng từ bi vĩ đại này, nó đã thực sự sở hữu tấm lòng và tầm vóc để dẫn dắt tương lai hướng tới một thế giới đại đồng."
+    ],
+    "keywords": ["宏大慈悲", "巔峰範式", "多元共生", "價值整合"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "那種超越世俗喧囂的、清醒的孤獨，是個體在與終極實在進行深度靜謐對話時所必須支付的、高昂的精神門票。",
+    "referenceAnswers": [
+      "Sự cô đơn là một kho báu quý giá cho bất kỳ ai muốn khám phá chiều sâu của cuộc sống.",
+      "Sự cô độc tỉnh táo vượt lên trên những ồn ào trần thế đó là tấm vé tinh thần đắt giá mà cá nhân buộc phải chi trả khi thực hiện cuộc đối thoại tĩnh lặng sâu sắc với chân lý cuối cùng.",
+      "Trong đường hầm không gian và thời gian cô độc này, linh hồn hoàn thành một cuộc tự gột rửa và tái cấu trúc triệt để, bóc tách từng lớp hư danh và vọng niệm vốn đang bám chặt trên đó.",
+      "Chủ động duy trì một sự cô độc thuần khiết trước sự bao phủ không điểm mù của các thuật toán và tương tác xã hội thường nhật là một cuộc chiến tranh thu nhỏ của con người hiện đại nhằm bảo vệ tính độc lập của tư duy và cảm giác bí ẩn của sinh mệnh.",
+      "Trí tuệ mà kẻ cô độc thu nhận được trong cuộc đối thoại tĩnh lặng sâu sắc đó, thoạt nhìn thì có vẻ lạnh lùng cách biệt, nhưng thực chất lại sở hữu nội năng rực cháy nhất để thắp sáng lương tri đại chúng và chỉ dẫn văn minh tiến bước."
+    ],
+    "keywords": ["深度靜謐對話", "精神門票", "自伐", "微型戰爭"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "科學負責揭示那套冷峻、精確的宇宙物理代碼，而藝術則通過一種跨越邏輯的感性點化，賦予這段代碼以熱切的靈魂溫度。",
+    "referenceAnswers": [
+      "Khoa học giúp chúng ta hiểu về thế giới, nhưng nghệ thuật mới là thứ giúp chúng ta yêu thế giới này.",
+      "Khoa học chịu trách nhiệm hé lộ bộ mã vật lý vũ trụ lạnh lùng và chính xác, trong khi nghệ thuật thông qua một sự điểm hóa cảm tính vượt qua logic để ban tặng hơi ấm linh hồn nồng nhiệt cho đoạn mã này.",
+      "Sự điểm hóa này biến dữ liệu thành những vần thơ, biến các quy luật thành những nốt nhạc, tìm thấy một bến đỗ chủ thể có thể nghỉ ngơi cho những con người vốn đang rơi vào sự hư vô giữa tính khách quan lạnh lẽo.",
+      "Thiết bị thăm dò của khoa học bay qua những thiên hà, còn sự cộng hưởng của nghệ thuật thì lặn sâu vào đáy lòng người, cả hai cùng phát lực theo một hướng, cùng nhau vẽ nên bản phức điệu tráng lệ nhất trong cuộc khám phá diệu nghĩa của sự hiện tồn của nhân loại.",
+      "Chỉ khi những tính toán chính xác gặp được loại điểm hóa nghệ thuật vốn không thể bị mã hóa đó, sức sáng tạo của nhân loại mới thực sự thoát khỏi trọng lực của máy móc để nhảy vọt hướng tới ánh sáng thần thánh."
+    ],
+    "keywords": ["感性點化", "物理代碼", "主體性港灣", "複調"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "極權主義下的盲從與規訓，是在個體理性之林中散佈的、足以扼殺一切創新與生機的劇毒迷霧，它導致文明底色的徹底灰暗。",
+    "referenceAnswers": [
+      "Chế độ chuyên chế tôn vinh sự phục tùng, trong khi sự tiến bộ thực sự chỉ nảy nở trong tự do.",
+      "Sự mù quáng và quy huấn dưới chủ nghĩa cực quyền là màn sương mù cực độc phân tán trong khu rừng lý tính cá nhân, đủ sức để bóp nghẹt mọi sự sáng tạo và sức sống, dẫn tới sự xám xịt hoàn toàn của màu nền văn minh.",
+      "Màn sương mù này xuyên tạc sự thật, nén một cách bạo lực những màu sắc sinh mệnh vốn phong phú đa nguyên vào trong một chiếc lồng ý thức hệ đơn điệu và khô khan, với cái giá là sự khô héo linh lực của dân tộc.",
+      "Phá vỡ màn sương mù này cần dũng khí, và càng cần hơn nữa cuộc tự cứu rỗi về tinh thần và sự拨亂反正 (bát loạn phản chính) mang tính chế độ liên tục dựa trên sự khát khao bản năng đối với chân lý và tự do.",
+      "Chỉ dưới ánh nắng của sự cởi mở, tranh luận và đầy rẫy các ý kiến dị biệt, ngọn lửa sáng tạo mới có thể rực cháy thành ngọn đuốc vĩ đại dẫn dắt thời đại tiến bước, mà không bị dập tắt trong đêm đông câm lặng."
+    ],
+    "keywords": ["劇毒迷霧", "規訓", "撥亂反正", "文明底色"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "生物多樣性的宏大景觀，是地球在數十億載時間長河中編織出的、最為精緻且充滿內核張力的、不可逆轉的生命史詩。",
+    "referenceAnswers": [
+      "Sự đa dạng sinh học là một món quà vô cùng quý báu mà thiên nhiên ban tặng cho trái đất.",
+      "Cảnh quan hùng vĩ của đa dạng sinh học là bản anh hùng ca sinh mệnh không thể đảo ngược, tinh tế nhất và tràn đầy sức căng cốt lõi, được Trái Đất dệt nên trong dòng sông thời gian dài hàng tỷ năm.",
+      "Sức căng của bản anh hùng ca sinh mệnh này bắt nguồn từ sự cân bằng tinh tế của muôn loài cùng sinh tồn, mỗi sự biến mất của một loài đều là một đoạn chương tàn khốc khó có thể sửa chữa đối với bản anh hùng ca này.",
+      "Dưới sự kẹp chả của sự bành trướng tư bản và những biến đổi khí hậu kịch liệt, gìn giữ tính toàn vẹn của bản anh hùng ca sinh mệnh này là bài kiểm tra cuối cùng để nhân loại cứu lấy nền tảng sinh tồn và bày tỏ lòng kính ngưỡng đối với thiên nhiên đại tự sự.",
+      "Thứ chúng ta bảo vệ không chỉ là các loài khác, mà còn là định danh bản thân sâu sắc nhất và hơi ấm sinh mệnh cùng chung mạch máu, cùng vinh cùng nhục với tất cả các sinh linh trong vũ trụ cô độc của con người."
+    ],
+    "keywords": ["生命史詩", "內核張力", "斷章", "生存基石"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "庸俗輿論場中的嘈雜聲浪，往往充斥著情緒的投機與事實的盲從，導致那種稀缺且珍貴的真知灼見在狂歡中被無情湮滅。",
+    "referenceAnswers": [
+      "Dư luận xã hội thường là một đống lộn xộn, nơi chân lý dễ bị nhấn chìm bởi các âm thanh ồn ào.",
+      "Những con sóng âm thanh ồn ào trong trường dư luận tầm thường thường chứa đầy sự đầu cơ về cảm xúc và sự mù quáng theo đuổi sự thật, dẫn đến việc những hiểu biết thấu đáo quý giá và khan hiếm bị dập tắt không thương tiếc trong cơn cuồng nhiệt.",
+      "Sự vắng bóng của những hiểu biết thấu đáo này bắt nguồn từ sự chán ghét tập thể đối với các lối tự sự có chiều sâu và những kén nhận thức ngày càng dày đặc do các thuật toán đề xuất tạo ra.",
+      "Trách nhiệm của người cầm bút nằm ở chỗ giữ được một sự giữ mồm giữ miệng lạnh lùng giữa chốn nhân thanh đỉnh sôi, thông qua sức mạnh xuyên thấu của con chữ để một lần nữa xác lập thường thức và dũng khí trên đống đổ nát.",
+      "Chỉ khi những tiếng nói lý tính yếu ớt nhưng kiên định có thể xuyên phá sự bao vây của những con sóng âm thanh, xã hội mới có thể tìm lại được sự ổn định và sức mạnh tiến bước vốn cực kỳ đáng quý giữa những nỗi lo âu."
+    ],
+    "keywords": ["真知灼見", "認知繭房", "意見引領體系", "負反饋循環"]
+  },
+  {
+    "level": "C2",
+    "direction": "zh_vi",
+    "sourceText": "對於終末時刻的恐懼，往往遮蔽了我們對那種向死而生的、在有限時空中創造無限意義的人格自覺與莊嚴綻放的渴求。",
+    "referenceAnswers": [
+      "Cái chết không phải là điều đáng sợ, điều đáng hối tiếc là một cuộc đời chưa bao giờ được sống thực sự.",
+      "Nỗi sợ hãi đối với khoảnh khắc cuối cùng thường che lấp đi sự khát khao của chúng ta về sự tự giác nhân cách và cuộc nở hoa trang nghiêm vốn là sự hướng tới cái chết mà sinh sôi, tạo ra ý nghĩa vô hạn trong một không gian thời gian hữu hạn.",
+      "Quyết tâm hướng tới cái chết mà sinh sôi này mang lại bề dày bi tráng cho cuộc sống tầm thường, buộc chúng ta trong mỗi nhịp thở đều dũng cảm trực diện với cuộc đấu trí mang tính nguyền cội nhất về sự tồn tại.",
+      "Vẻ đẹp của sinh mệnh không nằm ở độ dài, mà nằm ở độ tinh khiết mãnh liệt và bất kham của tình cảm khi nó bùng cháy, quét sạch mọi sự giả dối, chiếu sáng những góc tối thẳm sâu nhất của lòng người.",
+      "Từ chối kiểu sinh tồn giống như xác sống, chủ động tìm kiếm sự khiêu vũ cùng định mệnh của bản thân, là cuộc bứt phá thẩm mỹ hoa lệ nhất, mạnh mẽ nhất của cá nhân trước thời gian vốn định sẵn sẽ tiêu tan."
+    ],
+    "keywords": ["向死而生", "人格自覺", "審美突圍", "不朽徑線"]
   }
 ]

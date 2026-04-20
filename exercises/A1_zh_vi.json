@@ -2,143 +2,2042 @@
   {
     "level": "A1",
     "direction": "zh_vi",
-    "sourceText": "我喜歡喝茶。",
+    "sourceText": "你好，很感興認識你。",
     "referenceAnswers": [
-      "Tôi thích uống trà.",
-      "Tôi ưa thích uống trà.",
-      "Tôi thích uống nước trà."
+      "Chào bạn, rất vui được làm quen với bạn.",
+      "Xin chào, tôi rất hân hạnh được biết bạn.",
+      "Chào bạn, thật vui khi được quen biết bạn.",
+      "Xin chào, rất vui khi chúng ta biết nhau.",
+      "Chào anh/chị, tôi rất vui được làm quen."
     ],
-    "keywords": ["喜歡", "茶"]
+    "keywords": ["你好", "感興", "認識"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
-    "sourceText": "他的爸爸在辦公室工作。",
+    "sourceText": "這是我家人的照片。",
     "referenceAnswers": [
-      "Bố của anh ấy làm việc ở văn phòng.",
-      "Cha của anh ấy làm việc ở văn phòng.",
-      "Ba của anh ấy làm việc tại văn phòng.",
-      "Bố anh ấy làm việc ở văn phòng.",
-      "Cha anh ấy làm việc ở văn phòng."
+      "Đây là bức ảnh gia đình tôi.",
+      "Đây là tấm hình của người nhà tôi.",
+      "Đây là ảnh chụp các thành viên trong gia đình tôi.",
+      "Đây là bức ảnh chụp gia đình của tôi.",
+      "Đây là hình ảnh tổ ấm của tôi."
     ],
-    "keywords": ["爸爸", "辦公室"]
+    "keywords": ["這", "家人", "照片"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
-    "sourceText": "今天天氣非常好，我們去公園吧！",
+    "sourceText": "他要去圖書館借書。",
     "referenceAnswers": [
-      "Hôm nay thời tiết rất tốt, chúng ta đi công viên nhé!",
-      "Hôm nay thời tiết cực kỳ tốt, chúng chúng ta đi công viên đi!",
-      "Hôm nay trời rất đẹp, chúng ta đi công viên nhé!",
-      "Thời tiết hôm nay rất tốt, chúng ta đi công viên thôi!"
+      "Anh ấy muốn đi thư viện mượn sách.",
+      "Cậu ấy định đến thư viện để mượn sách.",
+      "Anh ta ra thư viện mượn sách.",
+      "Anh ấy sẽ đi mượn sách ở thư viện.",
+      "Cậu ấy sẽ ghé bưu điện mượn sách."
     ],
-    "keywords": ["今天", "非常", "公園"]
+    "keywords": ["圖書館", "借", "書"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
-    "sourceText": "她在餐廳吃飯。",
+    "sourceText": "昨天晚上下了一場大雨。",
     "referenceAnswers": [
-      "Cô ấy ăn cơm ở nhà hàng.",
-      "Cô ấy đang ăn cơm ở nhà hàng.",
-      "Cô ấy ăn cơm tại nhà hàng.",
-      "Cô ấy ăn ở nhà hàng."
+      "Tối qua đã có một trận mưa lớn.",
+      "Đêm qua trời đã mưa rất to.",
+      "Tối hôm qua trời mưa như trút nước.",
+      "Đã có một cơn mưa lớn vào tối qua.",
+      "Hôm qua trời mưa to vào buổi tối."
     ],
-    "keywords": ["餐廳", "吃飯"]
+    "keywords": ["昨天", "晚上", "大雨"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
-    "sourceText": "這本書多少錢？",
+    "sourceText": "你想在那裡坐嗎？",
     "referenceAnswers": [
-      "Quyển sách này bao nhiêu tiền?",
-      "Cuốn sách này bao nhiêu tiền?",
-      "Quyển sách này giá bao nhiêu?",
-      "Cuốn sách này giá bao nhiêu?"
+      "Bạn có muốn ngồi ở đó không?",
+      "Bạn muốn ngồi chỗ đó chứ?",
+      "Bạn định ngồi ở đằng kia à?",
+      "Chúng ta ngồi ở đó nhé?",
+      "Bạn thích ngồi tại vị trí đó không?"
     ],
-    "keywords": ["本", "多少"]
+    "keywords": ["想", "那裡", "坐"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
-    "sourceText": "我有一個弟弟和一個妹妹。",
+    "sourceText": "我喜歡吃那家餐廳的牛肉麵。",
     "referenceAnswers": [
-      "Tôi có một em trai và một em gái.",
-      "Tôi có một đứa em trai và một đứa em gái.",
-      "Tôi có một người em trai và một người em gái."
+      "Tôi thích ăn mì bò của nhà hàng đó.",
+      "Mì bò ở tiệm đó là món tôi thích nhất.",
+      "Tôi rất thích món mì bò ở quán ăn kia.",
+      "Tôi thường ăn mì bò tại nhà hàng đó.",
+      "Mì bò của quán đó ăn rất ngon."
     ],
-    "keywords": ["弟弟", "妹妹"]
+    "keywords": ["喜歡", "餐廳", "牛肉麵"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
-    "sourceText": "他常常打電話給朋友。",
+    "sourceText": "他正在聽音樂，不喜歡說話。",
     "referenceAnswers": [
-      "Anh ấy thường xuyên gọi điện cho bạn bè.",
-      "Anh ấy thường gọi điện cho bạn.",
-      "Cậu ấy thường xuyên gọi điện cho bạn bè.",
-      "Anh ấy hay gọi điện cho bạn bè."
+      "Anh ấy đang nghe nhạc, không thích nói chuyện.",
+      "Cậu ấy đang thưởng thức âm nhạc nên không muốn nói.",
+      "Anh ta đang nghe nhạc và chẳng muốn chuyện trò.",
+      "Anh ấy đang nghe nhạc, không muốn bị làm phiền.",
+      "Cậu ấy đang nghe nhạc, không thích trò chuyện lúc này."
     ],
-    "keywords": ["常常", "打電話", "朋友"]
+    "keywords": ["正在", "聽音樂", "說話"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
-    "sourceText": "飛機幾點 do？",
+    "sourceText": "這杯茶很好喝，而且不貴。",
     "referenceAnswers": [
-      "Máy bay đến mấy giờ?",
-      "Mấy giờ máy bay đến?",
-      "Máy bay khi nào tới?",
-      "Máy bay mấy giờ thì đến?"
+      "Ly trà này rất ngon, vả lại còn không đắt.",
+      "Tách trà này ngon mà giá cũng rẻ.",
+      "Ly trà này vị rất tốt, giá cả lại phải chăng.",
+      "Trà này uống được đấy, lại còn rẻ nữa.",
+      "Chén trà này vừa ngon vừa rẻ."
     ],
-    "keywords": ["飛機", "點", "到"]
+    "keywords": ["茶", "喝", "貴"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
-    "sourceText": "我的房間很乾淨。",
+    "sourceText": "他在運動場打網球。",
     "referenceAnswers": [
-      "Phòng của tôi rất sạch sẽ.",
-      "Phòng tôi rất sạch sẽ.",
-      "Căn phòng của tôi rất sạch.",
-      "Phòng của tôi rất gọn gàng."
+      "Anh ấy đang đánh tennis ở sân vận động.",
+      "Cậu ấy chơi quần vợt tại sân thể thao.",
+      "Anh ta đang tập tennis ở sân vận động.",
+      "Anh ấy đang chơi tennis tại khu thể thao.",
+      "Cậu ấy đang ở sân vận động đánh tennis."
     ],
-    "keywords": ["房間", "乾淨"]
+    "keywords": ["運動場", "打網球"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
-    "sourceText": "對不起，我來晚了。",
+    "sourceText": "我的媽媽在廚房做飯。",
     "referenceAnswers": [
-      "Xin lỗi, tôi đến muộn rồi.",
-      "Xin lỗi, tôi tới muộn rồi.",
-      "Xin lỗi, tôi đến trễ rồi.",
-      "Xin lỗi tôi đã đến muộn."
+      "Mẹ của tôi đang nấu cơm trong bếp.",
+      "Mẹ tôi làm cơm ở nhà bếp.",
+      "Mẹ tôi đang ở trong bếp nấu nướng.",
+      "Mẹ tôi đang chuẩn bị bữa ăn ở bếp.",
+      "Trong phòng bếp, mẹ tôi đang nấu ăn."
     ],
-    "keywords": ["對不起"]
+    "keywords": ["媽媽", "廚房", "做飯"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
-    "sourceText": "他比我高。",
+    "sourceText": "你要去超市買水果嗎？",
     "referenceAnswers": [
-      "Anh ấy cao hơn tôi.",
-      "Cậu ấy cao hơn tôi.",
-      "Anh ta cao hơn tôi."
+      "Bạn muốn đi siêu thị mua trái cây không?",
+      "Bạn có định ra siêu thị mua hoa quả không?",
+      "Bạn ra siêu thị sắm trái cây chứ?",
+      "Bạn đi siêu thị mua hoa quả nhé?",
+      "Bạn có đi siêu thị mua trái cây không?"
     ],
-    "keywords": ["比", "高"]
+    "keywords": ["超市", "買", "水果"]
   },
   {
     "level": "A1",
     "direction": "zh_vi",
-    "sourceText": "我想去大學學習中文。",
+    "sourceText": "星期天我們常去公園散步。",
     "referenceAnswers": [
-      "Tôi muốn đến đại học học tiếng Trung.",
-      "Tôi muốn đi đại học học tiếng Trung.",
-      "Tôi muốn vào đại học học tiếng Hoa.",
-      "Tôi muốn học tiếng Trung ở trường đại học."
+      "Chủ nhật chúng tôi thường đi dạo ở công viên.",
+      "Chúng tôi hay đi tản bộ ở công viên vào chủ nhật.",
+      "Vào ngày chủ nhật, chúng mình hay ra công viên đi dạo.",
+      "Chủ nhật nào chúng tôi cũng đi dạo trong công viên.",
+      "Chúng tôi thường tới công viên đi bộ vào chủ nhật."
     ],
-    "keywords": ["大學", "中文"]
+    "keywords": ["星期天", "公園", "散步"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在公司等他的女朋友。",
+    "referenceAnswers": [
+      "Anh ấy đang đợi bạn gái ở công ty.",
+      "Anh ấy chờ bạn gái tại công ty.",
+      "Cậu ấy đang chờ người yêu mình ở công ty.",
+      "Anh ta đang đợi bạn gái tại nơi làm việc.",
+      "Cậu ấy đang ở công ty chờ bạn gái."
+    ],
+    "keywords": ["公司", "等", "女朋友"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這個蘋果太紅了，很好吃。",
+    "referenceAnswers": [
+      "Quả táo này đỏ quá, ăn rất ngon.",
+      "Trái táo này rất đỏ và cũng rất ngon.",
+      "Quả táo này đỏ mọng, vị rất ngon.",
+      "Táo này đỏ quá, chắc là ngon lắm.",
+      "Trái táo này đỏ thế, ăn ngon thật."
+    ],
+    "keywords": ["蘋果", "紅", "好吃"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我的同學都很聰明。",
+    "referenceAnswers": [
+      "Các bạn cùng lớp của tôi đều rất thông minh.",
+      "Bạn học của tôi ai cũng thông minh.",
+      "Tất cả bạn bè cùng lớp với tôi đều sáng dạ.",
+      "Bạn học của tôi rất thông minh.",
+      "Những người bạn cùng lớp của tôi rất giỏi."
+    ],
+    "keywords": ["同學", "聰明"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "請給我一支黑色的筆。",
+    "referenceAnswers": [
+      "Làm ơn cho tôi một cây bút màu đen.",
+      "Xin hãy đưa tôi chiếc bút đen.",
+      "Cho mình mượn một cây viết đen nhé.",
+      "Làm ơn đưa tôi một chiếc bút màu đen.",
+      "Cho tôi xin một cây bút đen."
+    ],
+    "keywords": ["請", "黑色", "筆"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在辦公室處理公事。",
+    "referenceAnswers": [
+      "Anh ấy đang xử lý việc công ở văn phòng.",
+      "Anh ấy đang làm việc tại văn phòng.",
+      "Cậu ấy giải quyết việc công ty ở văn phòng.",
+      "Anh ta đang ở văn phòng làm việc công.",
+      "Anh ấy xử lý công việc tại văn phòng."
+    ],
+    "keywords": ["辦公室", "處理", "公事"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "今天晚上的天氣很不舒服。",
+    "referenceAnswers": [
+      "Thời tiết tối nay rất khó chịu.",
+      "Thời tiết buổi tối hôm nay không thoải mái chút nào.",
+      "Tối nay thời tiết thật là khó chịu.",
+      "Thời tiết tối nay làm người ta mệt mỏi.",
+      "Tối hôm nay thời tiết chẳng dễ chịu gì."
+    ],
+    "keywords": ["今天", "晚上", "舒服"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你要喝溫水還是冰水？",
+    "referenceAnswers": [
+      "Bạn muốn uống nước ấm hay là nước đá?",
+      "Bạn chọn nước ấm hay nước lạnh?",
+      "Nước ấm hay nước đá là lựa chọn của bạn?",
+      "Bạn uống nước ấm hay nước có đá?",
+      "Bạn dùng nước ấm hay nước lạnh?"
+    ],
+    "keywords": ["喝", "還是", "冰水"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我的哥哥不喜歡游泳。",
+    "referenceAnswers": [
+      "Anh trai của tôi không thích bơi lội.",
+      "Anh tôi ghét đi bơi.",
+      "Bơi lội không phải sở thích của anh tôi.",
+      "Anh trai tôi không ưa môn bơi lội.",
+      "Anh tôi chẳng bao giờ thích bơi."
+    ],
+    "keywords": ["哥哥", "不", "游泳"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在路口等計程車。",
+    "referenceAnswers": [
+      "Anh ấy đang đợi taxi ở ngã tư.",
+      "Anh ấy chờ taxi tại giao lộ.",
+      "Cậu ấy đang đứng ở ngã đường đợi taxi.",
+      "Anh ta đang đợi taxi ở đầu đường.",
+      "Cậu ấy đang bắt taxi ở ngã rẽ."
+    ],
+    "keywords": ["路口", "等", "計程車"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這件毛衣很漂亮，可是顏色不好看。",
+    "referenceAnswers": [
+      "Chiếc áo len này rất đẹp, nhưng màu sắc không đẹp.",
+      "Cái áo len này đẹp thật, nhưng màu lại xấu.",
+      "Áo len này đẹp nhưng tông màu không ổn.",
+      "Chiếc len này xinh quá, cơ mà màu sắc không được bắt mắt.",
+      "Bộ len này đẹp đấy, nhưng mà màu sắc chẳng ra sao."
+    ],
+    "keywords": ["毛衣", "漂亮", "顏色"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在做什麼好吃的菜？",
+    "referenceAnswers": [
+      "Anh ấy đang nấu món gì ngon vậy?",
+      "Anh ấy nấu món ăn gì mà ngon thế?",
+      "Món ngon nào đang được anh ấy nấu vậy?",
+      "Cậu ấy đang làm món gì ngon lành thế?",
+      "Anh ta đang nấu món gì bốc mùi thơm thế?"
+    ],
+    "keywords": ["做", "什麼", "好吃", "菜"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我不喜歡喝太甜的飲料。",
+    "referenceAnswers": [
+      "Tôi không thích uống đồ uống quá ngọt.",
+      "Đồ uống nhiều đường không phải gu của tôi.",
+      "Tôi chẳng thích nước giải khát quá ngọt.",
+      "Tôi ghét các loại thức uống ngọt lịm.",
+      "Đồ uống quá ngọt tôi không hay dùng."
+    ],
+    "keywords": ["不", "太甜", "飲料"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在那裡買了很多漂亮的衣服。",
+    "referenceAnswers": [
+      "Anh ấy đã mua rất nhiều quần áo đẹp ở đó.",
+      "Cậu ấy sắm được khối bộ đồ xinh xắn ở kia.",
+      "Anh ta đã mua không ít quần áo đẹp tại nơi đó.",
+      "Tại đó, anh ấy đã mua rất nhiều quần áo bắt mắt.",
+      "Anh ấy đã đi mua sắm khá nhiều đồ đẹp ở chỗ kia."
+    ],
+    "keywords": ["那裡", "很多", "漂亮", "衣服"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他要去百貨公司買一件外套。",
+    "referenceAnswers": [
+      "Anh ấy muốn đi trung tâm thương mại mua một cái áo khoác.",
+      "Cậu ấy định đi bách hóa sắm một chiếc áo khoác.",
+      "Anh ta sẽ đến công ty bách hóa để mua áo khoác.",
+      "Anh ấy đi bách hóa mua áo khoác.",
+      "Cậu ấy sẽ đi siêu thị lớn mua một chiếc áo khoác."
+    ],
+    "keywords": ["百貨公司", "買", "外套"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "那是誰的狗？正在門口叫。",
+    "referenceAnswers": [
+      "Đó là chó của ai? Đang sủa ở cửa kìa.",
+      "Con chó kia của ai thế? Nó đang sủa ở cổng.",
+      "Ai là chủ nhân của con chó đang sủa ở cửa kia?",
+      "Con chó đó của ai vậy? Nó đang kêu ở lối vào.",
+      "Kia là chó nhà ai mà đang sủa ở cửa thế?"
+    ],
+    "keywords": ["誰", "狗", "叫"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在大學學習漢語。",
+    "referenceAnswers": [
+      "Anh ấy học tiếng Trung ở đại học.",
+      "Cậu ấy đang theo học Hán ngữ tại trường đại học.",
+      "Anh ta là sinh viên khoa tiếng Trung của đại học.",
+      "Anh ấy học tập ngôn ngữ Trung tại đại học.",
+      "Cậu ấy đang học tiếng Trung ở bậc đại học."
+    ],
+    "keywords": ["大學", "學習", "漢語"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你要喝一杯冷水還是咖啡？",
+    "referenceAnswers": [
+      "Bạn muốn uống một ly nước lạnh hay là cà phê?",
+      "Bạn chọn nước lạnh hay cà phê?",
+      "Nước lạnh hay cà phê là lựa chọn của bạn?",
+      "Bạn uống nước lạnh hay là dùng cà phê?",
+      "Cho bạn một ly nước lạnh hay cà phê nhé?"
+    ],
+    "keywords": ["喝", "冷水", "咖啡"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "弟弟不喜歡吃難吃的蔬菜。",
+    "referenceAnswers": [
+      "Em trai không thích ăn những loại rau dở tệ.",
+      "Em trai tôi ghét ăn rau không ngon.",
+      "Đứa em trai không ưa các món rau mùi vị chán.",
+      "Rau dở là thứ em trai không bao giờ ăn.",
+      "Em trai chẳng thích những loại rau củ mùi vị không tốt."
+    ],
+    "keywords": ["弟弟", "難吃", "蔬菜"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在那個公司工作很久了。",
+    "referenceAnswers": [
+      "Anh ấy làm việc ở công ty đó lâu rồi.",
+      "Anh ấy đã công tác tại đó rất lâu.",
+      "Cậu ấy làm việc ở công ty kia được một thời gian dài rồi.",
+      "Anh ta gắn bó với công ty đó đã lâu.",
+      "Thời gian anh ấy làm việc tại công ty đó khá dài."
+    ],
+    "keywords": ["公司", "工作", "久"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "那是我的漢語老師，他人很好。",
+    "referenceAnswers": [
+      "Đó là giáo viên tiếng Trung của tôi, thầy ấy rất tốt.",
+      "Người kia là thầy giáo dạy tiếng Trung cho tôi, thầy ấy rất hiền.",
+      "Đó là cô giáo tiếng Trung của tôi, cô ấy rất tốt bụng.",
+      "Kia là người dạy tiếng Trung của tôi, tính cách rất tuyệt.",
+      "Đó chính là giáo viên tiếng Hán của tôi, thầy ấy rất tốt."
+    ],
+    "keywords": ["漢語", "老師", "人很好"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在看那份非常有意思的報紙。",
+    "referenceAnswers": [
+      "Anh ấy đang đọc tờ báo rất thú vị đó.",
+      "Anh ấy xem tờ báo cực kỳ hay ho kia.",
+      "Cậu ấy đang đọc tờ báo đầy thú vị đó.",
+      "Anh ta đang theo dõi tin tức trên tờ báo rất hay đó.",
+      "Anh ấy đang xem một tờ báo rất có ý nghĩa."
+    ],
+    "keywords": ["看過", "意思", "報紙"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這件白色洋裝太貴了，我不買了。",
+    "referenceAnswers": [
+      "Chiếc váy màu trắng này đắt quá, tôi không mua nữa.",
+      "Cái váy trắng này quá mắc, tôi thôi không sắm nữa.",
+      "Bộ váy trắng này giá cao quá, tôi bỏ qua.",
+      "Áo đầm trắng này đắt quá rồi, tôi không lấy đâu.",
+      "Chiếc váy trắng này thật là mắc mỏ, tôi không mua nữa."
+    ],
+    "keywords": ["白色", "洋裝", "太貴了"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "今天天氣很冷，多穿一點衣服吧，別感冒了。",
+    "referenceAnswers": [
+      "Hôm nay trời rất lạnh, mặc thêm áo vào đi, đừng để bị cảm.",
+      "Hôm nay thời tiết lạnh, hãy mặc nhiều áo một chút kẻo cảm lạnh.",
+      "Trời lạnh quá, bạn nên mặc thêm quần áo để giữ sức khỏe.",
+      "Hôm nay lạnh lắm, mặc ấm vào nhé, coi chừng bị ốm.",
+      "Thời tiết hôm nay lạnh, hãy mặc thêm đồ ấm để không bị cảm."
+    ],
+    "keywords": ["天氣", "冷", "感冒"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我不喜歡喝太甜的果汁。",
+    "referenceAnswers": [
+      "Tôi không thích uống nước trái cây quá ngọt.",
+      "Nước ép nhiều đường không phải sở thích của tôi.",
+      "Tôi chẳng thích nước hoa quả ngọt lịm.",
+      "Tôi ghét các loại nước ép trái cây quá ngọt.",
+      "Nước quả quá ngọt tôi không hay dùng."
+    ],
+    "keywords": ["不", "太甜", "果汁"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在樓上睡覺，不要吵他。",
+    "referenceAnswers": [
+      "Anh ấy đang ngủ trên lầu, đừng làm phiền anh ấy.",
+      "Anh ấy ngủ ở tầng trên, chớ có làm ồn.",
+      "Cậu ấy đang ngủ ở trên gác, đừng làm ồn nhé.",
+      "Anh ta đang ngủ ở phía trên lầu, đừng có gây tiếng động.",
+      "Cậu ấy đang ở trên lầu ngủ, đừng có làm ồn."
+    ],
+    "keywords": ["樓上", "睡覺", "吵"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這本書是我的哥哥買給我的。",
+    "referenceAnswers": [
+      "Quyển sách này là anh trai tôi mua cho tôi.",
+      "Cuốn sách này do anh trai tôi mua tặng.",
+      "Anh trai tôi đã mua quyển sách này cho tôi đấy.",
+      "Đây là cuốn sách anh trai tôi đã mua tặng cho tôi.",
+      "Quyển sách này anh tôi đã sắm cho tôi."
+    ],
+    "keywords": ["哥哥", "買", "書"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你要買哪一種水果？",
+    "referenceAnswers": [
+      "Bạn muốn mua loại trái cây nào?",
+      "Bạn định mua hoa quả loại gì?",
+      "Trái cây nào là thứ bạn muốn mua?",
+      "Bạn chọn loại quả nào để mua?",
+      "Bạn sẽ sắm loại trái cây nào?"
+    ],
+    "keywords": ["買", "哪種", "水果"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在圖書館看了很久的書。",
+    "referenceAnswers": [
+      "Anh ấy đã đọc sách ở thư viện rất lâu.",
+      "Cậu ấy đã dành nhiều thời gian đọc sách tại thư viện.",
+      "Anh ta đã ở thư viện xem sách suốt một thời gian dài.",
+      "Việc đọc sách ở thư viện của anh ấy kéo dài khá lâu.",
+      "Cậu ấy đã ở lại thư viện đọc sách rất lâu."
+    ],
+    "keywords": ["圖書館", "看", "久"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "那家餐廳的點心非常好吃。",
+    "referenceAnswers": [
+      "Món tráng miệng của nhà hàng đó rất ngon.",
+      "Điểm tâm ở tiệm đó cực kỳ ngon.",
+      "Tiệm ăn kia có món điểm tâm rất tuyệt.",
+      "Món ăn nhẹ của quán đó ăn rất được.",
+      "Đồ ăn sáng ở nhà hàng đó rất ngon."
+    ],
+    "keywords": ["餐廳", "點心", "好吃"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "今天晚上的電影很有意思。",
+    "referenceAnswers": [
+      "Bộ phim tối nay rất thú vị.",
+      "Phim buổi tối hôm nay rất hay.",
+      "Tối nay có một bộ phim rất thú vị.",
+      "Phim chiếu tối nay thật sự có ý nghĩa.",
+      "Bộ phim được chiếu tối nay rất đáng xem."
+    ],
+    "keywords": ["晚上", "電影", "意思"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你要去哪裡買新衣服？",
+    "referenceAnswers": [
+      "Bạn muốn đi đâu mua quần áo mới?",
+      "Bạn định đi sắm đồ mới ở đâu?",
+      "Nơi nào bạn chọn để mua quần áo mới?",
+      "Chúng ta đi đâu mua đồ mới bây giờ nhỉ?",
+      "Bạn thích mua quần áo mới tại cửa hàng nào?"
+    ],
+    "keywords": ["哪裡", "買", "新衣服"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在捷運站等他的同學。",
+    "referenceAnswers": [
+      "Anh ấy đang đợi bạn cùng lớp ở ga tàu điện ngầm.",
+      "Cậu ấy chờ bạn học tại trạm MRT.",
+      "Anh ta đang đứng ở ga tàu điện đợi bạn bè.",
+      "Tại trạm tàu điện, anh ấy đang chờ người bạn học của mình.",
+      "Anh ấy đang ở ga MRT để đón bạn cùng lớp."
+    ],
+    "keywords": ["捷運站", "等", "同學"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這支手機的功能很多，非常有意思。",
+    "referenceAnswers": [
+      "Chiếc điện thoại này có nhiều chức năng, rất thú vị.",
+      "Cái điện thoại này nhiều tính năng hay thật đấy.",
+      "Điện thoại này tích hợp nhiều cái hay ho.",
+      "Chiếc di động này có nhiều tác dụng thú vị.",
+      "Điện thoại này có nhiều chức năng dùng rất thích."
+    ],
+    "keywords": ["手機", "功能", "有意思"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在百貨公司買了很多漂亮的東西。",
+    "referenceAnswers": [
+      "Anh ấy đã mua rất nhiều đồ đẹp ở trung tâm thương mại.",
+      "Cậu ấy sắm được khối thứ xinh xắn ở bách hóa.",
+      "Anh ta đã mua không ít đồ đẹp tại công ty bách hóa.",
+      "Tại trung tâm thương mại, anh ấy đã mua rất nhiều thứ đẹp đẽ.",
+      "Anh ấy đã đi mua sắm khá nhiều đồ bắt mắt ở bách hóa."
+    ],
+    "keywords": ["百貨公司", "買", "漂亮"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我明天要跟家人一起去公園玩。",
+    "referenceAnswers": [
+      "Ngày mai tôi sẽ cùng gia đình đi công viên chơi.",
+      "Mai tôi đi chơi công viên với người nhà.",
+      "Tôi sẽ đi công viên chơi cùng gia đình vào ngày mai.",
+      "Hơi mai tôi đi công viên giải trí với người thân.",
+      "Ngày mai tôi cùng với những người trong nhà đi công viên chơi."
+    ],
+    "keywords": ["明天", "家人", "公園"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在那裡練習說漢語說得很好。",
+    "referenceAnswers": [
+      "Anh ấy luyện nói tiếng Trung ở đó rất tốt.",
+      "Cậu ấy tập giao tiếp bằng tiếng Hán ở kia rất giỏi.",
+      "Anh ta thực hành nói tiếng Trung tại nơi đó rất cừ.",
+      "Anh ấy tập nói tiếng Trung ở đằng kia và nói rất tốt.",
+      "Cậu ấy rèn luyện khả năng nói tiếng Hán ở chỗ đó rất xuất sắc."
+    ],
+    "keywords": ["練習", "說", "漢語"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他有很多漂亮的照片，都是他自己拍的。",
+    "referenceAnswers": [
+      "Anh ấy có rất nhiều tấm ảnh đẹp, đều do chính anh ấy chụp.",
+      "Cậu ấy sở hữu nhiều bức hình xinh xắn tự tay mình chụp.",
+      "Anh ta có không ít những tấm hình đẹp đều là tự chụp.",
+      "Nhiều tấm ảnh đẹp hiện có ở chỗ anh ấy là do anh ấy tự bấm máy.",
+      "Anh ấy có nhiều ảnh chụp trông cực kỳ bắt mắt do anh ấy tự thực hiện."
+    ],
+    "keywords": ["照片", "漂亮", "拍"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這件白色洋裝很漂亮，可惜對我來說太貴了。",
+    "referenceAnswers": [
+      "Chiếc váy màu trắng này rất đẹp, tiếc là đối với tôi nó quá đắt.",
+      "Cái váy trắng này đẹp thật, tiếc rằng giá nó hơi cao với tôi.",
+      "Bộ váy trắng này xinh lắm, nhưng tiếc là tôi thấy nó quá mắc.",
+      "Chiếc váy màu trắng này đẹp đấy, nhưng thật đáng tiếc là nó quá đắt.",
+      "Áo đầm trắng này trông đẹp, nhưng tiếc là giá của nó quá tầm với của tôi."
+    ],
+    "keywords": ["白色", "洋裝", "可惜", "太貴了"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這盤水果很新鮮，請大家慢慢吃。",
+    "referenceAnswers": [
+      "Đĩa trái cây này rất tươi, mời mọi người thong thả thưởng thức.",
+      "Dĩa hoa quả này tươi lắm, mời mọi người ăn tự nhiên.",
+      "Trái cây này rất tươi ngon, xin mời cả nhà cùng dùng.",
+      "Đĩa hoa quả này nhìn tươi quá, mọi người cùng ăn nhé.",
+      "Mời mọi người dùng chút trái cây tươi này."
+    ],
+    "keywords": ["水果", "新鮮", "慢慢吃"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在圖書館看書，我看電影。",
+    "referenceAnswers": [
+      "Anh ấy đọc sách ở thư viện, còn tôi thì xem phim.",
+      "Anh ấy đang ở thư viện xem sách, tôi thì đang coi phim.",
+      "Cậu ấy đọc sách tại thư viện, tôi lại thích xem phim hơn.",
+      "Trong khi anh ấy đọc sách ở thư viện thì tôi đi xem phim.",
+      "Anh ấy xem sách ở bưu điện, tôi xem phim ở nhà."
+    ],
+    "keywords": ["圖書館", "看書", "看電影"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "那件紅色的衣服多少錢？",
+    "referenceAnswers": [
+      "Chiếc áo màu đỏ kia giá bao nhiêu tiền?",
+      "Cái áo đỏ đó bao nhiêu tiền vậy?",
+      "Bộ đồ màu đỏ kia bán thế nào?",
+      "Cho hỏi chiếc áo đỏ đằng kia giá bao nhiêu?",
+      "Áo màu đỏ đó giá bao nhiêu?"
+    ],
+    "keywords": ["紅色", "衣服", "多少錢"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他要去銀行換一點錢。",
+    "referenceAnswers": [
+      "Anh ấy muốn đi ngân hàng đổi một ít tiền.",
+      "Cậu ấy định ra ngân hàng để đổi tiền.",
+      "Anh ta sẽ tới ngân hàng đổi chút tiền.",
+      "Anh ấy cần ra ngân hàng đổi lấy ít tiền.",
+      "Anh ấy đi ngân hàng đổi tiền."
+    ],
+    "keywords": ["銀行", "換", "錢"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這杯茶不貴，可是很好喝。",
+    "referenceAnswers": [
+      "Ly trà này không đắt nhưng rất ngon.",
+      "Tách trà này rẻ mà uống ngon lắm.",
+      "Ly trà này giá phải chăng mà vị rất tuyệt.",
+      "Trà này tuy rẻ nhưng uống được đấy.",
+      "Chén trà này vừa túi tiền mà hương vị rất tốt."
+    ],
+    "keywords": ["茶", "貴", "喝"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在運動場打網球打得很好。",
+    "referenceAnswers": [
+      "Anh ấy đánh tennis ở sân vận động rất giỏi.",
+      "Cậu ấy chơi quần vợt tại sân thể thao rất tốt.",
+      "Anh ta đánh tennis cực kỳ hay ở sân vận động.",
+      "Kỹ năng tennis của anh ấy thể hiện ở sân vận động rất cừ.",
+      "Anh ấy chơi tennis xuất sắc tại khu thể dục."
+    ],
+    "keywords": ["運動場", "打網球", "很好"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "昨天他在超市買了很多新鮮的水果。",
+    "referenceAnswers": [
+      "Hôm qua anh ấy đã mua rất nhiều trái cây tươi ở siêu thị.",
+      "Cậu ấy đã sắm được khối hoa quả tươi ngon tại siêu thị vào hôm qua.",
+      "Hôm qua tại siêu thị, anh ấy đã mua không ít trái cây tươi.",
+      "Anh ấy đã đi siêu thị và mua nhiều hoa quả tươi vào ngày hôm qua.",
+      "Trái cây tươi ở siêu thị hôm qua đã được anh ấy mua rất nhiều."
+    ],
+    "keywords": ["昨天", "超級市場", "新鮮", "水果"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這支手機的功能很多，可是不貴。",
+    "referenceAnswers": [
+      "Chiếc điện thoại này có nhiều chức năng nhưng không đắt.",
+      "Cái điện thoại này nhiều tính năng mà giá lại rẻ.",
+      "Điện thoại này tích hợp nhiều cái hay mà không hề mắc mỏ.",
+      "Dẫu nhiều tính năng nhưng chiếc di động này giá rất hợp lý.",
+      "Điện thoại này nhiều chức năng dùng thích lắm mà giá lại bèo."
+    ],
+    "keywords": ["手機", "功能", "貴"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我的哥哥不喜歡游泳，他喜歡跑步。",
+    "referenceAnswers": [
+      "Anh trai tôi không thích bơi lội, anh ấy thích chạy bộ.",
+      "Anh tôi ghét bơi, anh ấy chỉ thích chạy bộ thôi.",
+      "Thay vì bơi lội, anh trai tôi lại có niềm đam mê với chạy bộ.",
+      "Anh trai tôi chọn chạy bộ chứ không chọn bơi lội.",
+      "Chạy bộ là sở thích của anh tôi, còn bơi lội thì không."
+    ],
+    "keywords": ["哥哥", "游泳", "跑步"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在大學學習漢語，他的漢語說得很好。",
+    "referenceAnswers": [
+      "Anh ấy học tiếng Trung ở đại học, anh ấy nói tiếng Trung rất tốt.",
+      "Cậu ấy đang theo học Hán ngữ tại trường đại học và nói rất giỏi.",
+      "Anh ấy là sinh viên khoa tiếng Trung và có khả năng giao tiếp rất cừ.",
+      "Vì học tiếng Trung ở đại học nên anh ấy nói rất lưu loát.",
+      "Khả năng nói tiếng Trung của anh ấy rất tốt nhờ học tập tại đại học."
+    ],
+    "keywords": ["大學", "學習", "漢語", "很好"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "那是誰的狗？牠正在公園裡跑。",
+    "referenceAnswers": [
+      "Đó là chó của ai? Nó đang chạy trong công viên kìa.",
+      "Con chó kia của ai thế? Nó đang chạy nhảy ở công viên.",
+      "Ai là chủ nhân của con chó đang chạy trong công viên kia?",
+      "Con chó đó của ai vậy? Nó đang nô đùa ở trong công viên.",
+      "Kia là chó nhà ai mà đang chạy ở công viên thế?"
+    ],
+    "keywords": ["誰", "狗", "公園", "跑"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在那家餐廳吃了很久的晚飯。",
+    "referenceAnswers": [
+      "Anh ấy đã ăn tối ở nhà hàng đó rất lâu.",
+      "Cậu ấy đã dành nhiều thời gian dùng bữa tối tại nhà hàng đó.",
+      "Bữa tối của anh ấy tại tiệm ăn kia kéo dài khá lâu.",
+      "Anh ấy đã ở lại nhà hàng đó ăn tối suốt một thời gian dài.",
+      "Cậu ấy đã ăn một bữa tối rất thong thả ở nhà hàng đó."
+    ],
+    "keywords": ["餐廳", "吃", "晚飯", "久"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你要喝一杯咖啡還是這盤水果？",
+    "referenceAnswers": [
+      "Bạn muốn uống một ly cà phê hay là ăn đĩa trái cây này?",
+      "Bạn chọn cà phê hay là đĩa hoa quả này?",
+      "Bạn dùng cà phê hay thưởng thức đĩa trái cây này nhé?",
+      "Cà phê hay trái cây là lựa chọn của bạn lúc này?",
+      "Cho bạn một tách cà phê hay đĩa hoa quả tươi này đây?"
+    ],
+    "keywords": ["喝", "咖啡", "水果"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我的同學都很聰明，也很努力。",
+    "referenceAnswers": [
+      "Các bạn cùng lớp của tôi đều rất thông minh và cũng rất nỗ lực.",
+      "Bạn học của tôi ai cũng thông minh và chăm chỉ.",
+      "Bạn bè cùng lớp với tôi vừa sáng dạ vừa cần cù.",
+      "Sự thông minh và nỗ lực là đặc điểm chung của các bạn lớp tôi.",
+      "Những người bạn học của tôi rất giỏi giang và chịu khó."
+    ],
+    "keywords": ["同學", "聰明", "努力"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "請給我一支黑色的筆，我要寫信。",
+    "referenceAnswers": [
+      "Làm ơn cho tôi một cây bút màu đen, tôi muốn viết thư.",
+      "Xin hãy đưa tôi chiếc bút đen để tôi viết thư.",
+      "Cho mình mượn cây viết đen để viết một bức thư nhé.",
+      "Làm ơn đưa tôi chiếc bút màu đen, tôi cần phải gửi thư.",
+      "Tôi cần một cây bút đen để bắt đầu viết thư."
+    ],
+    "keywords": ["筆", "黑色", "寫信"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在辦公室處理公事，不喜歡別人吵他。",
+    "referenceAnswers": [
+      "Anh ấy đang xử lý việc công ở văn phòng, không thích người khác làm phiền.",
+      "Anh ấy đang làm việc tại văn phòng và không muốn bị ai quấy rầy.",
+      "Cậu ấy giải quyết việc công ty và cần sự yên tĩnh, đừng làm ồn.",
+      "Anh ta đang bận việc công ở văn phòng, đừng có làm ồn nhé.",
+      "Khi đang xử lý công việc tại văn phòng, anh ấy ghét sự ồn ào."
+    ],
+    "keywords": ["辦公室", "處理", "吵"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "今天晚上的天氣很不舒服，我不想出門。",
+    "referenceAnswers": [
+      "Thời tiết tối nay rất khó chịu, tôi không muốn ra khỏi nhà.",
+      "Tối nay thời tiết không thoải mái chút nào nên tôi sẽ ở nhà.",
+      "Tôi chẳng muốn đi đâu vì thời tiết tối nay thật tệ.",
+      "Vì thời tiết tối nay quá khó chịu nên tôi quyết định không ra ngoài.",
+      "Tôi ở nhà tối nay vì thời tiết chẳng dễ chịu gì cả."
+    ],
+    "keywords": ["晚上", "舒服", "出門"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在路口等計程車等了半個小時。",
+    "referenceAnswers": [
+      "Anh ấy đã đợi taxi ở ngã tư suốt nửa tiếng đồng hồ.",
+      "Anh ấy đã đứng chờ taxi tại giao lộ được 30 phút rồi.",
+      "Cậu ấy đã dành ra nửa giờ để bắt taxi ở ngã đường.",
+      "Việc chờ taxi ở ngã tư của anh ấy đã kéo dài 30 phút.",
+      "Anh ấy đã đứng ở đầu đường đợi taxi mất nửa tiếng."
+    ],
+    "keywords": ["路口", "等", "半個小時"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "那是誰的照片？看起來非常漂亮。",
+    "referenceAnswers": [
+      "Đó là ảnh của ai? Trông rất là đẹp.",
+      "Bức hình kia là của ai vậy? Trông xinh quá.",
+      "Ai trong bức ảnh đó thế? Nhìn đẹp thật đấy.",
+      "Tấm hình đó của ai mà trông bắt mắt thế nhỉ?",
+      "Bức ảnh đó của ai mà nhìn đẹp tuyệt vời thế?"
+    ],
+    "keywords": ["誰", "照片", "漂亮"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在捷運站等他的同學等了很久。",
+    "referenceAnswers": [
+      "Anh ấy đã đợi bạn cùng lớp ở ga tàu điện ngầm rất lâu.",
+      "Cậu ấy đã chờ bạn học tại trạm MRT trong một thời gian dài.",
+      "Anh ta đã đứng ở ga tàu điện đợi bạn bè suốt nãy giờ.",
+      "Tại trạm tàu điện, anh ấy đã phải chờ người bạn học khá lâu.",
+      "Anh ấy đã ở ga MRT đón bạn cùng lớp mất nhiều thời gian."
+    ],
+    "keywords": ["捷運站", "等", "久"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我的哥哥不喜歡吃難吃的菜。",
+    "referenceAnswers": [
+      "Anh trai tôi không thích ăn những món không ngon.",
+      "Anh tôi ghét cay ghét đắng các món ăn dở.",
+      "Món nào dở là anh trai tôi không bao giờ đụng đũa.",
+      "Anh trai tôi thường xuyên từ chối những món ăn mùi vị kém.",
+      "Anh tôi chỉ thích ăn ngon, còn món dở thì không."
+    ],
+    "keywords": ["哥哥", "不喜歡", "菜"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在那裡買了很多漂亮的衣服送給他的女朋友。",
+    "referenceAnswers": [
+      "Anh ấy đã mua rất nhiều quần áo đẹp ở đó để tặng bạn gái.",
+      "Cậu ấy sắm được khối bộ đồ xinh xắn ở kia về cho người yêu.",
+      "Anh ta đã mua không ít quần áo đẹp tại nơi đó làm quà cho bạn gái.",
+      "Tại đó, anh ấy đã mua rất nhiều quần áo bắt mắt tặng cho người yêu mình.",
+      "Bạn gái anh ấy sẽ nhận được nhiều quần áo đẹp mua từ chỗ kia."
+    ],
+    "keywords": ["買", "衣服", "送", "女朋友"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他要去圖書館看書，不喜歡說話。",
+    "referenceAnswers": [
+      "Anh ấy muốn đi thư viện đọc sách, không thích nói chuyện.",
+      "Cậu ấy định đến thư viện xem sách và cần sự yên tĩnh.",
+      "Anh ta ra thư viện đọc sách và chẳng muốn chuyện trò với ai.",
+      "Khi đi thư viện đọc sách, anh ấy cực kỳ ghét việc phải nói chuyện.",
+      "Anh ấy chọn thư viện để đọc sách vì không muốn bị ai bắt chuyện."
+    ],
+    "keywords": ["圖書館", "看書", "說話"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "星期天我們常去公園散步，那裡很舒服。",
+    "referenceAnswers": [
+      "Chủ nhật chúng tôi thường đi dạo ở công viên, chỗ đó rất dễ chịu.",
+      "Chúng tôi hay đi tản bộ ở công viên vào chủ nhật vì không khí ở đó rất tốt.",
+      "Vào ngày chủ nhật, chúng mình hay ra công viên đi dạo cho thoải mái.",
+      "Chủ nhật nào chúng tôi cũng tới công viên đi dạo để tận hưởng sự dễ chịu.",
+      "Công viên là nơi chúng tôi hay tới đi bộ vào chủ nhật vì nó rất thoải mái."
+    ],
+    "keywords": ["星期天", "公園", "舒服"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這杯茶很好喝，你要再喝一杯嗎？",
+    "referenceAnswers": [
+      "Ly trà này rất ngon, bạn có muốn uống thêm một ly nữa không?",
+      "Tách trà này vị tuyệt lắm, bạn dùng thêm một chén nữa nhé?",
+      "Trà này ngon thật đấy, làm thêm một ly nữa chứ?",
+      "Bạn có muốn dùng thêm một ly trà ngon như thế này nữa không?",
+      "Ly trà này rất được, bạn có muốn uống thêm không?"
+    ],
+    "keywords": ["茶", "喝", "再"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在做什麼好吃的菜？聞起來很香。",
+    "referenceAnswers": [
+      "Anh ấy đang nấu món gì ngon vậy? Ngửi mùi thơm quá.",
+      "Anh ấy nấu món gì mà bốc mùi thơm phức thế nhỉ?",
+      "Món gì mà anh ấy đang nấu mà ngửi thơm thế không biết?",
+      "Anh ấy đang chuẩn bị món gì ngon lành mà thơm quá vậy?",
+      "Ngửi mùi thơm này chắc là anh ấy đang nấu món gì ngon lắm đây."
+    ],
+    "keywords": ["做", "菜", "聞", "香"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他不喜歡喝太甜的飲料，他喜歡喝冷水。",
+    "referenceAnswers": [
+      "Anh ấy không thích uống đồ uống quá ngọt, anh thích uống nước lạnh.",
+      "Đồ uống nhiều đường không phải gu của anh ấy, anh ấy chỉ thích nước lạnh.",
+      "Thay vì nước giải khát ngọt lịm, anh ấy chọn uống nước lạnh.",
+      "Anh ấy thường từ chối đồ uống ngọt và chọn nước lạnh để thay thế.",
+      "Anh ấy chỉ thích nước lạnh chứ không ưa các loại nước ngọt."
+    ],
+    "keywords": ["太甜", "飲料", "冷水"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這本書是我的哥哥買給我的生日禮物。",
+    "referenceAnswers": [
+      "Quyển sách này là quà sinh nhật anh trai mua tặng tôi.",
+      "Cuốn sách này là món quà mà anh trai đã tặng nhân dịp sinh nhật tôi.",
+      "Anh trai tôi đã chọn quyển sách này làm quà sinh nhật cho tôi đấy.",
+      "Đây là món quà sinh nhật từ anh trai tôi - một cuốn sách.",
+      "Món quà sinh nhật mà anh trai mua cho tôi chính là quyển sách này."
+    ],
+    "keywords": ["哥哥", "生日", "禮物"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "那是誰的狗？牠正在門口等牠的主人。",
+    "referenceAnswers": [
+      "Đó là chó của ai? Nó đang đợi chủ ở cửa kìa.",
+      "Con chó kia của ai thế? Nó đang chờ chủ nhân tại cổng.",
+      "Ai là chủ của con chó đang đợi ở cửa kia vậy?",
+      "Con chó đó của ai nhỉ? Nó đang ở lối vào chờ bác chủ.",
+      "Kia là chó nhà ai mà đang ở cửa chờ chủ thế?"
+    ],
+    "keywords": ["狗", "等", "主人"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在看那份非常有意思的報紙，我也想看。",
+    "referenceAnswers": [
+      "Anh ấy đang đọc tờ báo rất thú vị đó, tôi cũng muốn đọc.",
+      "Anh ấy xem tờ báo hay ho kia, tôi cũng thấy tò mò muốn xem.",
+      "Cậu ấy đang đọc tờ báo đầy thú vị đó và tôi cũng có ý định xem qua.",
+      "Tôi cũng muốn xem tờ báo đầy ý nghĩa mà anh ấy đang đọc.",
+      "Tờ báo anh ấy đang xem có vẻ hay, tôi cũng muốn mượn xem một chút."
+    ],
+    "keywords": ["意思", "報紙", "想看"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "今天天氣很冷，多穿一點衣服吧。",
+    "referenceAnswers": [
+      "Hôm nay trời rất lạnh, hãy mặc thêm nhiều áo vào nhé.",
+      "Hôm nay thời tiết lạnh lắm, mặc ấm vào đi.",
+      "Trời lạnh quá, bạn nên mặc thêm quần áo để giữ ấm.",
+      "Ngày hôm nay lạnh thật, nhớ mặc đồ dày một chút nhé.",
+      "Thời tiết hôm nay lạnh, hãy mặc thêm đồ cho ấm."
+    ],
+    "keywords": ["天氣", "冷", "穿"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在那裡買了很多衣服。",
+    "referenceAnswers": [
+      "Anh ấy đã mua rất nhiều quần áo ở đó.",
+      "Cậu ấy đã sắm được khối đồ tại nơi đó.",
+      "Anh ta đã mua không ít quần áo ở chỗ kia.",
+      "Tại đó, anh ấy đã mua rất nhiều áo quần.",
+      "Số quần áo ấy anh ấy đã mua ở chỗ đằng kia."
+    ],
+    "keywords": ["那裡", "很多", "衣服"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我媽媽在市場買菜。",
+    "referenceAnswers": [
+      "Mẹ tôi đang mua rau ở chợ.",
+      "Mẹ đang đi mua rau ở ngoài chợ.",
+      "Mẹ tôi đang ở chợ để mua rau.",
+      "Mẹ đang mua thức ăn ở chợ.",
+      "Mẹ của tôi đang đi chợ mua rau."
+    ],
+    "keywords": ["媽媽", "市場", "買菜"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "今天天氣很好，我們去踢足球吧。",
+    "referenceAnswers": [
+      "Hôm nay thời tiết rất đẹp, chúng ta đi đá bóng đi.",
+      "Thời tiết hôm nay tốt quá, mình đi chơi đá bóng nhé.",
+      "Hôm nay trời đẹp, chúng mình cùng đi đá bóng đi.",
+      "Trời hôm nay đẹp thật, đi đá bóng thôi nào các bạn.",
+      "Thời tiết hôm nay thật tuyệt để đi đá bóng."
+    ],
+    "keywords": ["今天", "天氣", "足球"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我爸爸喜歡在早上喝熱茶。",
+    "referenceAnswers": [
+      "Bố tôi thích uống trà nóng vào buổi sáng.",
+      "Ba tôi thường uống trà nóng mỗi sáng.",
+      "Buổi sáng bố tôi rất hay uống trà nóng.",
+      "Bố tôi có thói quen uống trà nóng vào sáng sớm.",
+      "Cha tôi thích nhâm nhi ly trà nóng lúc sớm mai."
+    ],
+    "keywords": ["爸爸", "早上", "熱茶"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你妹妹幾歲了？",
+    "referenceAnswers": [
+      "Em gái bạn bao nhiêu tuổi rồi?",
+      "Em gái của bạn năm nay mấy tuổi rồi?",
+      "Em gái cậu bao nhiêu tuổi thế?",
+      "Cho mình hỏi em gái bạn mấy tuổi rồi?",
+      "Cô em gái nhỏ của bạn bao nhiêu tuổi rồi?"
+    ],
+    "keywords": ["妹妹", "幾歲"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我要買兩個包子和一杯豆漿。",
+    "referenceAnswers": [
+      "Tôi muốn mua hai cái bánh bao và một ly sữa đậu nành.",
+      "Tôi định mua hai chiếc bánh bao kèm một cốc sữa đậu nành.",
+      "Cho tôi hai cái bánh bao với một ly sữa đậu nành nhé.",
+      "Tôi sẽ mua hai cái bánh bao và một phần sữa đậu nành.",
+      "Sắm hai cái bánh bao và một ly sữa đậu nành là ý định của tôi."
+    ],
+    "keywords": ["買", "包子", "豆漿"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我們的學校很大也很漂亮。",
+    "referenceAnswers": [
+      "Trường học của chúng tôi rất lớn và đẹp.",
+      "Trường của chúng mình vừa to vừa xinh xắn.",
+      "Ngôi trường của chúng tôi to lớn và đẹp lắm.",
+      "Trường chúng tôi có quy mô lớn và rất đẹp.",
+      "Trường học của chúng mình rộng lớn và khang trang."
+    ],
+    "keywords": ["學校", "大", "漂亮"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在辦公室工作。",
+    "referenceAnswers": [
+      "Anh ấy đang làm việc ở văn phòng.",
+      "Cậu ấy đang công tác tại văn phòng.",
+      "Anh ta làm việc trong văn phòng làm việc.",
+      "Anh ấy đang ở văn phòng xử lý công việc.",
+      "Cậu ấy đang làm việc công ở văn phòng."
+    ],
+    "keywords": ["辦公室", "工作"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你會游泳嗎？",
+    "referenceAnswers": [
+      "Bạn có biết bơi không?",
+      "Bạn biết bơi chứ?",
+      "Bạn có khả năng bơi lội không?",
+      "Bạn biết bơi không vậy?",
+      "Bạn có biết môn thể thao bơi lội không?"
+    ],
+    "keywords": ["會", "游泳"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "今天晚上我要做漢語作業。",
+    "referenceAnswers": [
+      "Tối nay tôi phải làm bài tập tiếng Trung.",
+      "Đêm nay tôi định hoàn thành bài tập Hán ngữ.",
+      "Tôi sẽ làm bài tập tiếng Trung vào tối hôm nay.",
+      "Tối nay bài tập tiếng Trung là thứ tôi cần làm.",
+      "Tôi cần giải quyết bài tập tiếng Trung trong tối nay."
+    ],
+    "keywords": ["晚上", "做", "作業"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這支筆是誰的？",
+    "referenceAnswers": [
+      "Cái bút này là của ai?",
+      "Chiếc bút này thuộc về ai vậy?",
+      "Bút này của ai thế nhợ?",
+      "Cây viết này là của ai?",
+      "Ai là chủ nhân của cây bút này?"
+    ],
+    "keywords": ["支", "筆", "誰"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我覺得有點累，我想去睡覺。",
+    "referenceAnswers": [
+      "Tôi cảm thấy hơi mệt, tôi muốn đi ngủ.",
+      "Mình thấy mệt rồi, mình đi ngủ đây.",
+      "Tôi mệt quá, chắc phải đi ngủ thôi.",
+      "Cảm giác mệt mỏi làm tôi muốn đi ngủ ngay.",
+      "Tôi thấy trong người không khỏe, muốn đi nghỉ sớm."
+    ],
+    "keywords": ["覺得", "累", "睡覺"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你覺得這道菜怎麼樣？好吃嗎？",
+    "referenceAnswers": [
+      "Bạn thấy món ăn này thế nào? Có ngon không?",
+      "Món này bạn thấy vị ra sao? Ngon chứ?",
+      "Bạn nghĩ gì về món ăn này? Ăn được không?",
+      "Món ăn này theo bạn thì thế nào? Có ngon miệng không?",
+      "Bạn cho nhận xét về món này đi, ngon không?"
+    ],
+    "keywords": ["覺得", "菜", "好吃"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "今天我穿一白色的衣服。",
+    "referenceAnswers": [
+      "Hôm nay tôi mặc chiếc áo màu trắng.",
+      "Hôm nay tôi diện một bộ đồ trắng.",
+      "Trắng là màu áo tôi mặc ngày hôm nay.",
+      "Tôi mặc quần áo màu trắng vào ngày hôm nay.",
+      "Hôm nay tôi mặc đồ trắng đi ra ngoài."
+    ],
+    "keywords": ["穿", "白色", "衣服"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "體育場在學校的北邊。",
+    "referenceAnswers": [
+      "Sân vận động ở phía bắc của trường học.",
+      "Phía bắc trường học là sân vận động.",
+      "Sân thể thao nằm ở hướng bắc ngôi trường.",
+      "Đi về phía bắc của học viện sẽ thấy sân vận động.",
+      "Sân bãi tập thể dục ở mạn bắc của trường."
+    ],
+    "keywords": ["體育場", "學校", "北邊"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你明天有空嗎？去看電影吧。",
+    "referenceAnswers": [
+      "Ngày mai bạn có rảnh không? Đi xem phim đi.",
+      "Mai bạn có thời gian không? Chúng mình đi coi phim nhé.",
+      "Ngày mai nếu rảnh thì mình đi xem phim đi.",
+      "Cậu có rảnh vào ngày mai không? Đi rạp phim thôi.",
+      "Mai cậu rảnh chứ? Đi xem một bộ phim đi."
+    ],
+    "keywords": ["明天", "有空", "看電影"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我常常搭公車去學校。",
+    "referenceAnswers": [
+      "Tôi thường đi xe buýt đến trường.",
+      "Xe buýt là phương tiện tôi hay dùng để đi học.",
+      "Tôi rất hay bắt xe buýt để đến trường học.",
+      "Tôi thường xuyên đến trường bằng xe buýt.",
+      "Đi học bằng xe buýt là thói quen của tôi."
+    ],
+    "keywords": ["常常", "公車", "學校"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在房間裡找鑰匙。",
+    "referenceAnswers": [
+      "Anh ấy đang tìm chìa khóa ở trong phòng.",
+      "Cậu ấy đang lục tìm chìa khóa ở trong phòng ngủ.",
+      "Trong phòng, anh ta đang mải miết tìm chìa khóa.",
+      "Anh ấy đang đi tìm chùm chìa khóa ở phòng.",
+      "Chìa khóa đang được anh ấy tìm kiếm ở trong phòng."
+    ],
+    "keywords": ["房間", "找", "鑰匙"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你吃飽了嗎？",
+    "referenceAnswers": [
+      "Bạn đã ăn no chưa?",
+      "Bạn ăn no rồi chứ?",
+      "Bạn đã thấy no bụng chưa?",
+      "No chưa bạn ơi?",
+      "Bữa ăn này làm bạn no rồi chứ?"
+    ],
+    "keywords": ["吃飽"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我們是好朋友。",
+    "referenceAnswers": [
+      "Chúng tôi là bạn tốt của nhau.",
+      "Chúng mình là những người bạn thân thiết.",
+      "Hai chúng tôi là bạn tốt.",
+      "Chúng tôi là bạn bè tâm giao.",
+      "Chúng mình là bạn tốt từ lâu."
+    ],
+    "keywords": ["好朋友"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "對不起，我遲到了十分鐘。",
+    "referenceAnswers": [
+      "Xin lỗi, tôi đến muộn mười phút.",
+      "Thật xin lỗi vì tôi đã tới trễ mười phút.",
+      "Tôi xin lỗi, tôi đã muộn mất mười phút đồng hồ.",
+      "Xin lỗi bạn, tôi trễ hẹn mười phút.",
+      "Thành thật xin lỗi, tôi bị muộn mười phút."
+    ],
+    "keywords": ["對不起", "遲到", "分鐘"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "她正在舞台上唱歌。",
+    "referenceAnswers": [
+      "Cô ấy đang hát ở trên sân khấu.",
+      "Cô ấy đang trình diễn bài hát trên sân khấu.",
+      "Trên sân khấu, cô ấy đang cất tiếng hát.",
+      "Cô ấy đang hát say sưa trên bục sân khấu.",
+      "Nàng đang thể hiện giọng hát trên sân khấu."
+    ],
+    "keywords": ["正在", "舞台", "唱歌"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你要喝咖啡還是奶茶？",
+    "referenceAnswers": [
+      "Bạn muốn uống cà phê hay là trà sữa?",
+      "Cà phê hay trà sữa sẽ là món bạn chọn?",
+      "Bạn dùng cà phê hay uống trà sữa nhỉ?",
+      "Bạn sẽ lấy cà phê hay trà sữa đây?",
+      "Lựa chọn của bạn là cà phê hay trà sữa?"
+    ],
+    "keywords": ["喝", "咖啡", "還是", "奶茶"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我很喜歡在這個公園散步。",
+    "referenceAnswers": [
+      "Tôi rất thích đi dạo ở công viên này.",
+      "Mình vô cùng thích tản bộ trong công viên này.",
+      "Đi bộ ở công viên này là điều mình rất thích.",
+      "Tôi cực kỳ yêu việc đi dạo tại công viên này.",
+      "Lúc nào mình cũng thích ra công viên này đi dạo."
+    ],
+    "keywords": ["喜歡", "公園", "散步"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你的生日是幾月幾號？",
+    "referenceAnswers": [
+      "Sinh nhật của bạn là ngày mấy tháng mấy?",
+      "Bạn sinh ngày nào tháng nào thế?",
+      "Cho mình hỏi ngày sinh của bạn là khi nào?",
+      "Ngày mấy tháng mấy là sinh nhật của bạn vậy?",
+      "Sinh nhật bạn rơi vào ngày mấy tháng mấy?"
+    ],
+    "keywords": ["生日", "幾月幾號"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你的班級裡有多少學生？",
+    "referenceAnswers": [
+      "Có bao nhiêu học sinh trong lớp học của bạn?",
+      "Lớp bạn có sĩ số là bao nhiêu học sinh?",
+      "Sĩ số lớp học của bạn là bao nhiêu?",
+      "Bao nhiêu học sinh đang học trong lớp của bạn thế?",
+      "Trong lớp của bạn có tất cả bao nhiêu học sinh?"
+    ],
+    "keywords": ["多少", "學生", "班"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你要喝一杯柳橙汁嗎？",
+    "referenceAnswers": [
+      "Bạn có muốn uống một ly nước ép cam không?",
+      "Bạn muốn dùng một ly nước cam chứ?",
+      "Bạn có muốn uống nước cam ép không?",
+      "Một cốc nước cam cho bạn nhé?",
+      "Bạn có muốn uống nước cam cho mát lòng không?"
+    ],
+    "keywords": ["喝", "柳橙汁"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "今天我很開心，因為又見到你了。",
+    "referenceAnswers": [
+      "Hôm nay tôi cảm thấy rất vui vì được gặp lại bạn.",
+      "Hôm nay mình rất hạnh phúc vì lại được nhìn thấy cậu.",
+      "Hôm nay gặp lại bạn mình vui lắm.",
+      "Gặp lại bạn khiến ngày hôm nay của mình thật tuyệt vời.",
+      "Mình rất vui khi hôm nay đôi ta lại có dịp gặp nhau."
+    ],
+    "keywords": ["今天", "開心", "見面"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他常搭捷運去上班。",
+    "referenceAnswers": [
+      "Anh ấy thường đi làm bằng tàu điện ngầm.",
+      "Cậu ấy hay bắt tàu điện ngầm để đi làm.",
+      "Tàu điện ngầm là phương tiện anh ấy hay dùng đi làm.",
+      "Anh ấy thường xuyên tới công ty bằng tàu điện ngầm.",
+      "Đi làm bằng tàu điện ngầm là thói quen của cậu ấy."
+    ],
+    "keywords": ["常常", "捷運", "上班"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這本字典對學漢語很有幫助。",
+    "referenceAnswers": [
+      "Quyển từ điển này rất hữu ích cho việc học tiếng Trung.",
+      "Cuốn từ điển này giúp ích rất nhiều cho việc học Hán ngữ.",
+      "Học tiếng Trung sẽ dễ dàng hơn với cuốn từ điển này.",
+      "Quyển từ điển này là một công cụ tốt để học tiếng Trung.",
+      "Việc học tiếng Trung của bạn sẽ tốt hơn nhờ cuốn từ điển này."
+    ],
+    "keywords": ["字典", "漢語", "幫助"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我媽媽做的這道魚很好吃。",
+    "referenceAnswers": [
+      "Mẹ tôi nấu món cá này rất ngon.",
+      "Món cá này do chính tay mẹ tôi nấu và nó rất ngon.",
+      "Mẹ mình nấu cá ngon tuyệt cú mèo luôn.",
+      "Cá do mẹ mình làm thì lúc nào cũng ngon nhất.",
+      "Hương vị món cá mẹ nấu thật sự rất tuyệt vời."
+    ],
+    "keywords": ["媽媽", "做", "魚", "好吃"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你常去圖書館看書嗎？",
+    "referenceAnswers": [
+      "Bạn có hay đi thư viện đọc sách không?",
+      "Bạn có thường xuyên tới thư viện xem sách không?",
+      "Bạn có hay lui tới thư viện để đọc sách không vậy?",
+      "Đến thư viện đọc sách có phải sở thích của bạn không?",
+      "Bạn có thường xuyên đọc sách ở thư viện không?"
+    ],
+    "keywords": ["常常", "圖書館", "看書"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "今天我想買一點新鮮水果。",
+    "referenceAnswers": [
+      "Hôm nay tôi muốn mua một ít trái cây tươi.",
+      "Hôm nay mình định đi sắm một ít hoa quả tươi.",
+      "Mình muốn mua một vài loại trái cây tươi ngon vào hôm nay.",
+      "Hôm nay mình sẽ đi chợ mua ít trái cây tươi về ăn.",
+      "Hoa quả tươi là thứ mình muốn mua trong ngày hôm nay."
+    ],
+    "keywords": ["今天", "買", "新鮮水果"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在公司門口等計程車。",
+    "referenceAnswers": [
+      "Anh ấy đang chờ taxi ở trước cổng công ty.",
+      "Cậu ấy đang đứng đón taxi ở ngay cổng công ty.",
+      "Anh ta chờ taxi tại lối vào của công ty.",
+      "Ngay trước cổng công ty, anh ấy đang đợi taxi tới.",
+      "Cậu ấy đang ở cửa công ty để bắt taxi."
+    ],
+    "keywords": ["公司", "門口", "等", "計程車"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這裡的夏天非常炎熱且潮濕。",
+    "referenceAnswers": [
+      "Thời tiết mùa hè ở đây rất nóng và ẩm.",
+      "Mùa hè ở nơi này vừa nóng nực vừa ẩm ướt.",
+      "Ở đây vào mùa hè thì nóng và ẩm lắm.",
+      "Khí hậu mùa hè tại đây thực sự rất oi bức và ẩm.",
+      "Cái nóng và sự ẩm ướt là đặc trưng mùa hè ở đây."
+    ],
+    "keywords": ["這裡", "夏天", "熱"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你會玩什麼運動嗎？",
+    "referenceAnswers": [
+      "Bạn có biết chơi môn thể thao nào không?",
+      "Bạn biết chơi loại hình thể thao nào thế?",
+      "Bạn có hay tập luyện môn thể thao nào không?",
+      "Bạn có khiếu với môn thể thao nào không vậy?",
+      "Loại hình vận động nào mà bạn biết chơi?"
+    ],
+    "keywords": ["會", "運動"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我想送你一份小禮物。",
+    "referenceAnswers": [
+      "Tôi muốn tặng bạn một món quà nhỏ.",
+      "Mình có một món quà nhỏ xinh muốn gửi tặng bạn.",
+      "Tôi muốn gửi tới bạn một món quà nhỏ làm kỉ niệm.",
+      "Đây là món quà nhỏ mình dành tặng cho bạn.",
+      "Mình tặng bạn món quà nhỏ này, mong bạn thích."
+    ],
+    "keywords": ["送", "禮物"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在教小朋友學英語。",
+    "referenceAnswers": [
+      "Anh ấy đang dạy tiếng Anh cho các bạn nhỏ.",
+      "Cậu ấy đang hướng dẫn các em nhỏ học tiếng Anh.",
+      "Anh ta truyền dạy vốn tiếng Anh cho các bạn nhỏ.",
+      "Anh ấy đang đứng lớp dạy tiếng Anh cho thiếu nhi.",
+      "Dạy tiếng Anh cho trẻ em là việc anh ấy đang làm."
+    ],
+    "keywords": ["教", "小朋友", "英語"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我很喜歡這個房間，因為很明亮。",
+    "referenceAnswers": [
+      "Tôi rất thích căn phòng này vì nó rất sáng.",
+      "Căn phòng này sáng sủa nên mình rất ưng ý.",
+      "Sự minh bạch và ánh sáng của phòng này làm mình thích.",
+      "Mình thích ở phòng này vì ánh sáng tự nhiên rất tốt.",
+      "Căn phòng đầy ánh sáng này là nơi mình yêu thích nhất."
+    ],
+    "keywords": ["喜歡", "房間", "明亮"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "今天是弟弟的生日。",
+    "referenceAnswers": [
+      "Hôm nay là sinh nhật của em trai tôi.",
+      "Ngày hôm nay chính là sinh nhật của đứa em trai mình.",
+      "Hôm nay em trai mình chính thức bước sang tuổi mới.",
+      "Bữa tiệc tối nay là để mừng sinh nhật em trai tôi.",
+      "Sinh nhật em trai mình rơi vào đúng ngày hôm nay."
+    ],
+    "keywords": ["今天", "弟弟", "生日"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你喜歡吃中國菜嗎？",
+    "referenceAnswers": [
+      "Bạn có thích ăn đồ ăn Trung Quốc không?",
+      "Ẩm thực Trung Hoa có phải sở thích của bạn không?",
+      "Bạn có thấy các món Trung Quốc hợp khẩu vị không?",
+      "Bạn có hay chọn ăn đồ Trung Quốc không vậy?",
+      "Bạn có niềm đam mê với món ăn Trung Quốc không?"
+    ],
+    "keywords": ["喜歡", "中國菜"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "她穿著一件很漂亮的紅裙子。",
+    "referenceAnswers": [
+      "Cô ấy đang mặc một chiếc váy màu đỏ rất đẹp.",
+      "Nàng đang diện một bộ váy đỏ trông vô cùng xinh xắn.",
+      "Chiếc váy đỏ nàng đang mặc trông thật sự bắt mắt.",
+      "Cô ấy mặc váy đỏ trông rất chi là duyên dáng.",
+      "Bộ đồ màu đỏ nàng đang khoát lên người thật là đẹp."
+    ],
+    "keywords": ["穿", "紅色", "漂亮"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "今天我要去超市買東西。",
+    "referenceAnswers": [
+      "Hôm nay tôi phải đi mua sắm ở siêu thị.",
+      "Hôm nay mình sẽ ghé siêu thị để sắm sửa đồ đạc.",
+      "Mình có kế hoạch đi siêu thị mua sắm vào hôm nay.",
+      "Hôm nay mình dành thời gian để đi siêu thị mua đồ.",
+      "Đi siêu thị sắm đồ là việc mình làm trong ngày hôm nay."
+    ],
+    "keywords": ["今天", "超市", "買東西"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他在看一本很有趣的書。",
+    "referenceAnswers": [
+      "Anh ấy đang đọc một quyển sách rất hay.",
+      "Cậu ấy đang xem một cuốn sách đầy thú vị.",
+      "Anh ta mải mê đọc một quyển sách rất có ý nghĩa.",
+      "Cuốn sách anh ấy đang đọc thật sự rất lôi cuốn.",
+      "Anh ấy hiện đang say sưa với một quyển sách hay."
+    ],
+    "keywords": ["看", "有意思", "書"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我們常在晚上見面。",
+    "referenceAnswers": [
+      "Chúng tôi thường gặp nhau vào buổi tối.",
+      "Chúng mình hay hẹn hò gặp mặt nhau khi tối trời.",
+      "Buổi tối là dịp chúng mình thường xuyên tụ tập.",
+      "Chúng tôi rất hay chọn buổi tối để gặp gỡ nhau.",
+      "Thường lệ thì chúng mình hay gặp nhau lúc tối muộn."
+    ],
+    "keywords": ["常常", "晚上", "見面"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你想要和我一起去散步嗎？",
+    "referenceAnswers": [
+      "Bạn có muốn đi dạo cùng tôi không?",
+      "Bạn có nhã hứng cùng mình đi tản bộ không?",
+      "Bạn muốn đi loanh quanh đâu đó với mình không?",
+      "Đi dạo một chút với mình cho thư giãn lòng nhé?",
+      "Bạn có muốn cùng mình ra ngoài hóng gió không?"
+    ],
+    "keywords": ["想", "跟我", "散步"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "快要下雨了，我們回家吧。",
+    "referenceAnswers": [
+      "Trời sắp mưa rồi, chúng ta về nhà thôi.",
+      "Mưa sắp tới nơi rồi, mình mau quay về nhà đi.",
+      "Trời sắp đổ mưa to rồi, chúng mình về nhà nhé.",
+      "Có vẻ sắp mưa rồi đấy, về nhà thôi kẻo ướt.",
+      "Chúng ta mau về nhà thôi, trời sắp mưa mất rồi."
+    ],
+    "keywords": ["下雨", "回家"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他買到了一間新房子。",
+    "referenceAnswers": [
+      "Anh ấy đã mua được một căn nhà mới.",
+      "Cậu ấy sắm được một tổ ấm mới khang trang.",
+      "Anh ta đã chính thức sở hữu một căn nhà mới.",
+      "Việc mua được nhà mới làm anh ấy rất vui mùng.",
+      "Anh ấy vừa mới tậu được một căn hộ mới ."
+    ],
+    "keywords": ["買", "新", "房子"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你知道去醫院的路嗎？",
+    "referenceAnswers": [
+      "Bạn có biết đường đến bệnh viện không?",
+      "Bạn có rành lối đi tới bệnh viện không vậy?",
+      "Đường ra bệnh viện bạn có biết không?",
+      "Bạn biết cách đi tới bệnh viện chứ?",
+      "Lối mòn dẫn tới bệnh viện bạn có biết không?"
+    ],
+    "keywords": ["知道", "醫院", "路"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "今天晚上我和一位老朋友有約。",
+    "referenceAnswers": [
+      "Tối nay tôi có hẹn với một người bạn cũ.",
+      "Tối nay mình đi gặp gỡ một người bạn xưa.",
+      "Mình có một buổi hẹn với người bạn cũ vào tối nay.",
+      "Tối hôm nay mình dành thời gian cho một người bạn cũ.",
+      "Lịch trình tối nay của mình là đi gặp bạn cũ."
+    ],
+    "keywords": ["晚上", "有約", "老朋友"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這部手機很好用。",
+    "referenceAnswers": [
+      "Chiếc điện thoại này dùng rất tốt.",
+      "Cái điện thoại này dùng cực kỳ nhạy và tốt.",
+      "Điện thoại này sử dụng rất mượt mà và hay.",
+      "Mình thấy chiếc di động này dùng rất được.",
+      "Điện thoại này tính năng tốt, dùng rất thích."
+    ],
+    "keywords": ["手機", "好用"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "貓在椅子上睡覺。",
+    "referenceAnswers": [
+      "Con mèo đang ngủ trên ghế.",
+      "Chú mèo đang nằm ngủ ở trên cái ghế kia.",
+      "Có một con mèo đang ngủ thiếp đi trên ghế.",
+      "Con mèo nhà tôi đang ngủ trên ghế rồi.",
+      "Mèo đang ngủ ở trên chiếc ghế đó."
+    ],
+    "keywords": ["貓", "椅子", "睡覺"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這本書有一百頁。",
+    "referenceAnswers": [
+      "Quyển sách này có 100 trang.",
+      "Cuốn sách này dày đúng một trăm trang.",
+      "Tổng số trang của quyển sách này là một trăm bản.",
+      "Quyển sách đó có tất cả là một trăm trang.",
+      "Cuốn sách này có độ dài một trăm trang."
+    ],
+    "keywords": ["書", "一百", "頁"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "今天是女兒的生日。",
+    "referenceAnswers": [
+      "Hôm nay là sinh nhật của con gái tôi.",
+      "Ngày hôm nay là ngày sinh nhật con gái mình.",
+      "Con gái mình hôm nay tròn thêm một tuổi mới.",
+      "Hôm nay chính là ngày sinh nhật của con gái.",
+      "Ngày này hôm nay là ngày sinh của con gái tôi."
+    ],
+    "keywords": ["今天", "女兒", "生日"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "快要下雨了，我們走吧。",
+    "referenceAnswers": [
+      "Trời sắp mưa rồi, chúng ta đi thôi.",
+      "Sắp có mưa rồi, tụi mình mau đi thôi.",
+      "Trời sắp đổ mưa rồi, chúng ta khởi hành thôi.",
+      "Mưa sắp tới nơi rồi, mình nhanh chân đi thôi.",
+      "Lát nữa sẽ mưa đấy, chúng mình đi thôi nào."
+    ],
+    "keywords": ["下雨", "走", "快"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我想買一點水果。",
+    "referenceAnswers": [
+      "Tôi muốn mua một ít trái cây.",
+      "Mình đang định mua một vài loại hoa quả.",
+      "Tôi muốn đi mua một chút trái cây tươi.",
+      "Dự định của tôi là mua thêm ít trái cây.",
+      "Tôi muốn mua một ít trái cây về ăn."
+    ],
+    "keywords": ["買", "水果"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "學校離這兒不遠。",
+    "referenceAnswers": [
+      "Trường học cách đây không xa.",
+      "Trường học ở ngay gần đây thôi, không xa đâu.",
+      "Có một ngôi trường ở ngay gần đây thôi.",
+      "Từ đây đi tới trường học rất là gần.",
+      "Trường học nằm khá gần với nơi này."
+    ],
+    "keywords": ["學校", "離", "遠"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他是這兒最好的醫生。",
+    "referenceAnswers": [
+      "Anh ấy là bác sĩ giỏi nhất ở đây.",
+      "Ông ấy là vị bác sĩ có tay nghề cao nhất vùng.",
+      "Anh ta là người bác sĩ xuất sắc nhất nơi này.",
+      "Ở đây ông ấy là bác sĩ nổi tiếng nhất.",
+      "Anh ấy là người thầy thuốc giỏi nhất ở đây."
+    ],
+    "keywords": ["醫生", "最好"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我喜歡綠色。",
+    "referenceAnswers": [
+      "Tôi thích màu xanh lá cây.",
+      "Màu xanh lá là màu sắc mà tôi yêu thích.",
+      "Tôi rất là ưng ý với màu xanh lá cây này.",
+      "Tôi thích nhất là màu xanh lá cây đó.",
+      "Màu xanh lục là màu mà tôi thích nhất."
+    ],
+    "keywords": ["喜歡", "綠色"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你在做什麼？",
+    "referenceAnswers": [
+      "Bạn đang làm gì vậy?",
+      "Bạn đang bận bịu việc gì thế?",
+      "Cậu đang làm cái gì đó hả?",
+      "Bạn đang thực hiện việc gì vậy?",
+      "Hiện tại bạn đang làm gì thế?"
+    ],
+    "keywords": ["做", "什麼"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我媽媽做飯很好吃。",
+    "referenceAnswers": [
+      "Mẹ tôi nấu ăn rất ngon.",
+      "Những món mẹ nấu lúc nào cũng rất vừa miệng.",
+      "Mẹ mình luôn nấu những bữa cơm thật ngon.",
+      "Mẹ nấu cơm lúc nào cũng rất ngon lành.",
+      "Bữa cơm mẹ nấu chính tay lúc nào cũng ngon."
+    ],
+    "keywords": ["媽媽", "做飯", "好吃"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "現在是早上八點半。",
+    "referenceAnswers": [
+      "Bây giờ là tám giờ rưỡi sáng.",
+      "Hiện tại đã là tám giờ ba mươi phút sáng.",
+      "Bây giờ đã đúng tám giờ rưỡi rồi đó.",
+      "Lúc này vừa vặn là tám giờ ba mươi phút.",
+      "Sáng nay lúc này là tám giờ rưỡi rồi."
+    ],
+    "keywords": ["現在", "八點半"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這輛車是我的生日禮物。",
+    "referenceAnswers": [
+      "Chiếc xe này là quà sinh nhật của tôi.",
+      "Chiếc xe kia là món quà sinh nhật tặng tôi.",
+      "Đây là chiếc xe quà tặng sinh nhật của mình.",
+      "Món quà sinh nhật của mình là chiếc ô tô này.",
+      "Chiếc xe này chính là quà mừng sinh nhật tôi."
+    ],
+    "keywords": ["車", "禮物", "生日"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "他喝了很多水。",
+    "referenceAnswers": [
+      "Anh ấy uống rất nhiều nước.",
+      "Cậu ấy đã uống một lượng nước khá lớn.",
+      "Anh ta đã uống không ít nước vào người.",
+      "Hồi nãy anh ấy vừa mới uống rất nhiều nước.",
+      "Anh ấy uống nước rất là nhiều luôn đấy."
+    ],
+    "keywords": ["喝", "多", "水"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我不會游泳。",
+    "referenceAnswers": [
+      "Tôi không biết bơi.",
+      "Tôi vẫn chưa học được cách bơi lội.",
+      "Tôi không hề giỏi trong việc bơi lội chút nào.",
+      "Bơi lội là môn mà tôi không biết làm.",
+      "Việc bơi lội đối với tôi là không thể."
+    ],
+    "keywords": ["不會", "游泳"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你想去看電影嗎？",
+    "referenceAnswers": [
+      "Bạn có muốn đi xem phim không?",
+      "Bạn có định đi ra rạp xem phim không nhỉ?",
+      "Bạn có muốn tới rạp chiếu phim cùng mình không?",
+      "Hôm nay bạn có nhã hứng đi xem phim chứ?",
+      "Bạn có quan tâm đến việc đi xem phim không?"
+    ],
+    "keywords": ["想", "看電影"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這個菜太辣了。",
+    "referenceAnswers": [
+      "Món ăn này cay quá.",
+      "Hương vị của món ăn này thực sự rất cay.",
+      "Món này ăn vào thấy cay xè cả lưỡi.",
+      "Đĩa thức ăn này cay nồng luôn đấy.",
+      "Cay quá trời luôn, món ăn này thực sự cay."
+    ],
+    "keywords": ["菜", "太", "辣"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我有兩個哥哥。",
+    "referenceAnswers": [
+      "Tôi có hai người anh trai.",
+      "Gia đình tôi có hai người anh trai lớn.",
+      "Tôi có hai người anh tiền bối trong nhà.",
+      "Mình có hai người anh trai ruột thịt.",
+      "Trên mình còn có hai người anh trai nữa."
+    ],
+    "keywords": ["有", "兩個", "哥哥"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "今天天氣很好。",
+    "referenceAnswers": [
+      "Trời hôm nay rất đẹp.",
+      "Thời tiết của ngày hôm nay thật là tuyệt.",
+      "Trời hôm nay khá là đẹp và trong xanh.",
+      "Hôm nay là một ngày có thời tiết rất tốt.",
+      "Thời tiết hôm nay thật sự bừng sáng và đẹp."
+    ],
+    "keywords": ["今天", "天氣", "好"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "她正在學習漢語。",
+    "referenceAnswers": [
+      "Cô ấy đang học tiếng Trung.",
+      "Cô ấy đang miệt mài học ngôn ngữ Hán.",
+      "Hiện tại cô ấy đang học nói tiếng Trung.",
+      "Cô ấy đang dành thời gian để học tiếng Hoa.",
+      "Việc học tiếng Trung của cô ấy rất chăm chỉ."
+    ],
+    "keywords": ["學習", "漢語"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "這是我第一次來越南。",
+    "referenceAnswers": [
+      "Đây là lần đầu tiên tôi đến Việt Nam.",
+      "Lần đầu tiên mình đặt chân tới đất nước Việt Nam.",
+      "Đây là chuyến đi đầu đời của tôi tới Việt Nam.",
+      "Đây là lần đầu tôi ghé thăm Việt Nam mình.",
+      "Lần đầu tới Việt Nam mình thấy rất hào hứng."
+    ],
+    "keywords": ["第一次", "來", "越南"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我的狗很聰明。",
+    "referenceAnswers": [
+      "Con chó của tôi rất thông minh.",
+      "Chú chó này của mình cực kỳ lanh lợi.",
+      "Con chó nhà mình nuôi rất là thông thái.",
+      "Chú cún này lanh lẹ và thông minh lắm.",
+      "Con chó cưng của tôi rất là thông minh."
+    ],
+    "keywords": ["狗", "聰明"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我經常在早上散步。",
+    "referenceAnswers": [
+      "Tôi thường đi bộ vào buổi sáng.",
+      "Sáng nào tôi cũng thích đi tản bộ một chút.",
+      "Tôi hay đi dạo bộ để rèn luyện vào buổi sáng.",
+      "Thói quen của mình là đi bộ vào lúc sáng sớm.",
+      "Mình thường xuyên đi dạo vào mỗi buổi sáng."
+    ],
+    "keywords": ["經常", "早上", "散步"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "你在找什麼？",
+    "referenceAnswers": [
+      "Bạn đang tìm gì vậy?",
+      "Bạn đang lục tìm vật gì đó phải không?",
+      "Cậu đang mải mê tìm kiếm cái gì thế?",
+      "Bạn đang cố gắng tìm kiếm điều gì vậy?",
+      "Bạn đang bận tìm món đồ gì đó hả?"
+    ],
+    "keywords": ["找", "什麼"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "我想喝杯熱咖啡。",
+    "referenceAnswers": [
+      "Tôi muốn uống một cốc cà phê nóng.",
+      "Cho tôi xin một ly cà phê nóng hổi nhé.",
+      "Mình muốn thưởng thức một tách cà phê nóng.",
+      "Tôi định sẽ uống một chút cà phê nóng.",
+      "Làm một ly cà phê nóng cho tỉnh táo thôi nào."
+    ],
+    "keywords": ["想", "喝", "咖啡"]
+  },
+  {
+    "level": "A1",
+    "direction": "zh_vi",
+    "sourceText": "出門時別忘了關燈。",
+    "referenceAnswers": [
+      "Đừng quên tắt đèn khi đi ra ngoài.",
+      "Lúc ra ngoài nhớ lưu ý tắt hết đèn nhé.",
+      "Ra khỏi cửa thì đừng bao giờ quên tắt đèn.",
+      "Trước khi đi hãy nhớ tắt đèn dùm mình nhé.",
+      "Đi ra ngoài, tắt đèn, đừng có quên đấy."
+    ],
+    "keywords": ["別忘了", "關燈", "出門"]
   }
 ]

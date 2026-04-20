@@ -2,145 +2,1301 @@
   {
     "level": "A2",
     "direction": "vi_zh",
-    "sourceText": "Mặc dù mệt nhưng tôi vẫn tiếp tục học.",
+    "sourceText": "Mặc dù hôm nay trời mưa rất to nhưng chúng tôi vẫn quyết định đi leo núi.",
     "referenceAnswers": [
-      "雖然很累，但是我還是繼續學習。",
-      "虽然很累，但是我还是继续学习。",
-      "雖然很累，但我還是繼續學習。",
-      "儘管很累，我仍然繼續學習。"
+      "雖然今天下雨下很大，但是我們還是決定去爬山。",
+      "儘管今天雨很大，我們還是堅持去登山。",
+      "雖然今天雨勢很大，我們仍然決定去爬山。",
+      "雖然下著大雨，我們還是決定今天去爬山。",
+      "雖然今天是大雨天，我們還是決定去爬山。"
     ],
-    "keywords": ["雖然", "繼續", "學習"]
+    "keywords": ["雖然", "但是", "爬山"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
-    "sourceText": "Cuối tuần này bạn có đi du lịch không?",
+    "sourceText": "Anh ấy không những nói tiếng Hán rất tốt mà còn biết nói cả tiếng Pháp nữa.",
     "referenceAnswers": [
-      "這個週末你有沒有去旅遊？",
-      "这个周末你有没有去旅游？",
-      "這週末你打算去旅遊嗎？",
-      "這個週末你去不去旅遊？"
+      "他不但漢語說得很好，而且還會說法語。",
+      "他不只中文說得棒，還會講法語。",
+      "他不僅漢語說的好，連法語也會說。",
+      "他除了漢語說得好以外，還會說法語。",
+      "他漢語說得好，法語也很流利。"
     ],
-    "keywords": ["週末", "旅遊"]
+    "keywords": ["不但", "而且", "法語"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
-    "sourceText": "Tôi thấy học tiếng Trung khá khó.",
+    "sourceText": "Nếu bạn có thời gian, vui lòng giúp tôi giải quyết vấn đề này nhé.",
     "referenceAnswers": [
-      "我覺得學中文比較難。",
-      "我觉得学中文比较难。",
-      "我感到學中文挺難的。",
-      "我認為學習中文相當難。"
+      "如果您有時間，請幫我解決這個問題。",
+      "要是你有空的話，請幫我處理這個問題。",
+      "如果你有時間，請幫忙解決這件事。",
+      "有時間的話，能幫我解決一下這個問題嗎？",
+      "如果您方便，請幫我處理這個問題。"
     ],
-    "keywords": ["覺得", "中文", "難"]
+    "keywords": ["如果", "解決", "問題"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
-    "sourceText": "Anh ấy đã mua vé máy bay rồi.",
+    "sourceText": "Tác giả của cuốn sách này là một nhà văn rất nổi tiếng ở Đài Loan.",
     "referenceAnswers": [
-      "他已經買了機票了。",
-      "他已经买了机票了。",
-      "他買好機票了。",
-      "他票已經買好了。"
+      "這本書的作者是一位在台灣非常有名的作家。",
+      "這位作家在台灣很有名，是這本書的作者。",
+      "這本書是由一位台灣著名作家寫的。",
+      "這本書的作者是台灣的一位知名作家。",
+      "台灣的一位有名作家寫了這本書。"
     ],
-    "keywords": ["已經", "機票"]
+    "keywords": ["作者", "有名", "作家"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
-    "sourceText": "Bạn có thể đến sớm hơn không?",
+    "sourceText": "Để nâng cao trình độ tiếng Trung, anh ấy luyện nghe mỗi ngày.",
     "referenceAnswers": [
-      "你能早一點來嗎？",
-      "你能早一点来吗？",
-      "你可以早點到嗎？",
-      "你能早些過來嗎？"
+      "為了提高漢語水平，他每天都練習聽力。",
+      "為了讓漢語更好，他每天練習聽力。",
+      "他每天練習聽力，是為了提高漢語水平。",
+      "他天天練聽力，為了提升中文水平。",
+      "為了增加中文能力，他每天都聽錄音。"
     ],
-    "keywords": ["能", "早"]
+    "keywords": ["為了", "提高", "聽力"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
-    "sourceText": "Tôi thường dậy sớm vào mỗi buổi sáng.",
+    "sourceText": "Kể từ khi chuyển đến đây, tôi cảm thấy cuộc sống thoải mái hơn nhiều.",
     "referenceAnswers": [
-      "我每天早上都很早起床。",
-      "我每天早上都很早起床。",
-      "我習慣在早上早起。",
-      "我每天早起。"
+      "自從搬到這裡以後，我覺得生活舒服多了。",
+      "搬到這兒之後，我感覺生活輕鬆多了。",
+      "自從來到這裡，我感到生活很自在。",
+      "搬家到這裡以後，生活變得舒服多了。",
+      "自從住到這，我覺得生活質量提高了。"
     ],
-    "keywords": ["每天", "早上", "起床"]
+    "keywords": ["自從", "舒服", "生活"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
-    "sourceText": "Tiếng Trung của bạn ngày càng giỏi hơn.",
+    "sourceText": "Kết quả của trận đấu lần này thực sự khiến chúng tôi rất ngạc nhiên.",
     "referenceAnswers": [
-      "你的中文越來越好了。",
-      "你的中文越来越好了。",
-      "你的中文進步很大。",
-      "你的中文說得越來越好。"
+      "這次比賽的結果真的讓我們很驚訝。",
+      "這場比賽的結果確實讓我們感到意外。",
+      "這次比賽的結果讓我們大吃一驚。",
+      "這次比賽的結果非常出乎我們的意料。",
+      "比賽的結果確實令我們感到驚奇。"
     ],
-    "keywords": ["中文", "越來越"]
+    "keywords": ["比賽", "結果", "驚訝"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
-    "sourceText": "Tôi đặt sách vào trong túi.",
+    "sourceText": "Thành phố này có rất nhiều cảnh đẹp thu hút khách du lịch.",
     "referenceAnswers": [
-      "我把書放在袋子裡。",
-      "我把书放在袋子里。",
-      "我將書放進袋子中。",
-      "書被我放進了袋子裡。"
+      "這個城市有很多吸引遊客的風景。",
+      "這座城市有許多吸引觀光客的美景。",
+      "這個城市的美景吸引了很多遊客。",
+      "這個城市的風景很美，吸引了很多人來旅遊。",
+      "有很多遊客被這個城市的風景吸引。"
     ],
-    "keywords": ["把", "書", "袋子"]
+    "keywords": ["城市", "吸引", "風景"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
-    "sourceText": "Con đường này rất nguy hiểm.",
+    "sourceText": "Chúng ta nên trân trọng món quà mà đại tự nhiên đã ban tặng.",
     "referenceAnswers": [
-      "這條路很危險。",
-      "这条路很危险。",
-      "這條馬路非常有危險性。",
-      "這條道路挺危險的。"
+      "我們應該珍惜大自然賜予我們的禮物。",
+      "我們應當保護大自然的禮物。",
+      "我們應該愛護大自然賜予的一切。",
+      "珍惜大自然的賜予是我們的責任。",
+      "我們應珍惜大自然給我們的禮物。"
     ],
-    "keywords": ["路", "危險"]
+    "keywords": ["珍惜", "大自然", "禮物"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
-    "sourceText": "Anh ấy là người rất tốt bụng.",
+    "sourceText": "Anh ấy đang cân nhắc xem có nên chấp nhận lời mời công việc mới không.",
     "referenceAnswers": [
-      "他是一個非常善良的人。",
-      "他是一个非常善良的人。",
-      "他人很好。",
-      "他的心腸很善良。"
+      "他正在考慮是否要接受新的工作邀請。",
+      "他正在考慮要不要接受這份新工作。",
+      "他正猶豫是否接受新的工作職位。",
+      "對於新的工作機會，他正在考慮中。",
+      "他正在思考是否答應新的工作要求。"
     ],
-    "keywords": ["非常", "善良"]
+    "keywords": ["考慮", "接受", "邀請"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
-    "sourceText": "Tôi muốn đặt phòng khách sạn.",
+    "sourceText": "Năng lực đổi mới của công ty này đang dẫn đầu trong toàn ngành.",
     "referenceAnswers": [
-      "我想訂一間飯店的房間。",
-      "我想订一间饭店的房间。",
-      "我要預訂賓館房間。",
-      "我想訂個酒店房間。"
+      "這家公司的創新能力在全行業內領先。",
+      "這家公司的創新能力是行業領先的。",
+      "在整個行業中，這家公司的創新力最強。",
+      "這家公司憑藉創新能力在行業中領先。",
+      "這家企業的創新水平在業內是领先的。"
     ],
-    "keywords": ["訂", "飯店", "房間"]
+    "keywords": ["創新", "領先", "能力"]
   },
   {
     "level": "A2",
     "direction": "vi_zh",
-    "sourceText": "Bây giờ là mấy giờ rồi?",
+    "sourceText": "Mục đích của cuộc họp này là để thảo luận về kế hoạch năm tới.",
     "referenceAnswers": [
-      "現在幾點了？",
-      "现在几点了？",
-      "請問現在幾點？",
-      "現在是什麼時間？"
+      "這次會議的目的是討論明年的計劃。",
+      "開這次會是為了討論明年的計劃。",
+      "這次會議旨在討論明年的規劃。",
+      "明年的計劃是這次會議討論的重點。",
+      "會議的目的在於商量明年的發展計劃。"
     ],
-    "keywords": ["現在", "幾點"]
+    "keywords": ["會議", "目的", "討論"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Dù công việc rất bận nhưng anh ấy vẫn kiên trì học tiếng Hoa.",
+    "referenceAnswers": [
+      "雖然工作很忙，但他還是堅持學習漢語。",
+      "儘管工作繁忙，他仍然堅持學中文。",
+      "雖然工作很累，他還是每天學習漢語。",
+      "工作再忙，他也會堅持學習漢語。",
+      "他不顧工作繁忙，一直堅持學習漢語。"
+    ],
+    "keywords": ["雖然", "堅持", "漢語"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Bạn nên bình tĩnh phân tích những tình huống phức tạp này.",
+    "referenceAnswers": [
+      "你應該冷靜地分析這些複雜的情況。",
+      "你應當冷靜地面對這些複雜的事。",
+      "你應該冷靜分析這種複雜的情況。",
+      "冷靜地分析這些複雜的情況對你有好處。",
+      "面對複雜的情況，你需要冷靜分析。"
+    ],
+    "keywords": ["冷靜", "分析", "複雜"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Gợi ý của anh ấy thực sự đã giúp chúng tôi giải quyết được rắc rối.",
+    "referenceAnswers": [
+      "他的建議真的幫我們解決了麻煩。",
+      "他的建議確實對解決麻煩很有幫助。",
+      "多虧了他的建議，我們才解決了麻煩。",
+      "他的提議幫助我們處理了這個麻煩。",
+      "他的建議讓問題迎刃而解。"
+    ],
+    "keywords": ["建議", "解決", "麻煩"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Cô ấy thể hiện một sự nhiệt huyết cực kỳ lớn trong học tập.",
+    "referenceAnswers": [
+      "她在學習中展現出了極大的熱情。",
+      "她對學習充滿了熱情。",
+      "學習時，她表現得非常熱情。",
+      "她在學習上投入了極大的熱情。",
+      "她的學習熱情非常高。"
+    ],
+    "keywords": ["展現", "熱情", "學習"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tương lai ứng dụng của kỹ thuật này cực kỳ rộng mở.",
+    "referenceAnswers": [
+      "這門技術的應用前景非常廣闊。",
+      "這門技術的未來應用非常廣泛。",
+      "這門技術有很好的應用前景。",
+      "這項技術的前景非常看好。",
+      "技術的未來發展空間很大。"
+    ],
+    "keywords": ["技術", "應用", "前景"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Họ đã gặt hái được những thành tựu đáng kể trong nghiên cứu khoa học.",
+    "referenceAnswers": [
+      "他在科研領域取得了顯著的成就。",
+      "他在科學研究方面有很大的成就。",
+      "他在研究領域獲得了重大的成果。",
+      "他在科研方面取得了卓越的成就。",
+      "他的科研成就非常顯著。"
+    ],
+    "keywords": ["科研", "成就", "顯著"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Cuốn sách này đã khơi dậy sự suy ngẫm sâu sắc về hiện trạng xã hội.",
+    "referenceAnswers": [
+      "這本書引發了對社會現狀的深思。",
+      "這本書讓人們對社會問題進行了深思。",
+      "這本書引起了讀者的深思。",
+      "這本書引發了社會的廣泛思考。",
+      "這本書讓人對社會有了更深的思考。"
+    ],
+    "keywords": ["引發", "深思", "社會"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta phải áp dụng các biện pháp hiệu quả để bảo vệ môi trường.",
+    "referenceAnswers": [
+      "我們必須採取有效措施來保護環境。",
+      "為了保護環境，我們必須採取有效措施。",
+      "我們應當採取有效措施保護環境健康。",
+      "保護環境需要我們採取有效措施。",
+      "我們必須實施有效措施來保護環境。"
+    ],
+    "keywords": ["採取", "措施", "保護環境"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy luôn mong muốn con cái mình lớn lên trong bình an.",
+    "referenceAnswers": [
+      "他總是希望孩子能平安成長。",
+      "他總是希望孩子能健康平安。",
+      "他一直期盼著孩子平安長大。",
+      "他始終希望孩子平安。",
+      "他總想著孩子能平安。"
+    ],
+    "keywords": ["總是", "希望", "平安"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Môi trường của bãi biển này rất yên tĩnh, rất hợp đi dạo.",
+    "referenceAnswers": [
+      "這個海邊的環境很安靜，很適合散步。",
+      "海邊環境安靜，適合走走。",
+      "這裡海邊很安靜，是很適合散步的地方。",
+      "這兒的海邊很安靜，適合去散心。",
+      "海邊的環境幽靜，推薦去散步。"
+    ],
+    "keywords": ["環境", "安靜", "散步"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Bạn nên học cách trân trọng những gì mình đang có.",
+    "referenceAnswers": [
+      "你應該學會珍惜現在擁有的東西。",
+      "你應該懂得珍惜目前的一切。",
+      "學會珍惜現在對你很重要。",
+      "你應當珍惜眼前的這一切。",
+      "你應該珍惜當下的生活。"
+    ],
+    "keywords": ["珍惜", "學會", "現在"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Nhà sách này có rất nhiều loại sách phong phú và đầy đủ.",
+    "referenceAnswers": [
+      "這家書店的書種類非常豐富齊全。",
+      "那家書店的書很多也很全。",
+      "這書店裡的書豐富多樣。",
+      "這家書店有各種類型的書。",
+      "書店的書籍齊全又豐富。"
+    ],
+    "keywords": ["書店", "豐富", "齊全"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Công ty chúng tôi quyết định kéo dài thêm giờ làm việc.",
+    "referenceAnswers": [
+      "我們公司決定延長營業時間。",
+      "公司決定把營業時間延長了。",
+      "我們公司決定增加營業時間。",
+      "公司決定延長上班時間。",
+      "公司方面決定延長營業時段。"
+    ],
+    "keywords": ["我們", "決定", "延長"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Bài diễn thuyết này đã nhận được sự ủng hộ nhiệt tình từ khán giả.",
+    "referenceAnswers": [
+      "這場演講引發了觀眾的強烈支持。",
+      "那場演講受到了觀眾的熱烈歡迎。",
+      "演講得到了觀眾的衷心支持。",
+      "這場演講獲得了許多觀眾的支持。",
+      "觀眾對這場演講表現出極大的熱情。"
+    ],
+    "keywords": ["演講", "觀眾", "支持"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy sở hữu rất nhiều kinh nghiệm quý báu trong công việc.",
+    "referenceAnswers": [
+      "他具有豐富且寶貴的工作經驗。",
+      "他擁有很多寶貴的工作經驗。",
+      "他在工作方面有豐富的經驗。",
+      "他工作經驗多，且都很寶貴。",
+      "他擁有許多可貴的工作閱歷。"
+    ],
+    "keywords": ["具有", "寶貴", "經驗"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Công ty này rất giữ chữ tín nên vì thế khách hàng rất tin tưởng.",
+    "referenceAnswers": [
+      "這家公司的誠信贏得了客戶的信任。",
+      "因為公司講信用，所以客戶很信任。",
+      "公司的誠信是客戶信任的關鍵。",
+      "這家企業非常有誠信，客戶都很放心。",
+      "客戶非常信任這家具備誠信的公司。"
+    ],
+    "keywords": ["誠信", "贏得", "信任"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta nên nỗ lực hơn nữa để thực hiện lý tưởng của mình.",
+    "referenceAnswers": [
+      "我們應該更加努力來實現我們的理想。",
+      "我們應該努力工作，實現理想。",
+      "為了實現理想，我們必須加倍努力。",
+      "我們應該更加努力地去追求理想。",
+      "實現理想需要我們更加努力。"
+    ],
+    "keywords": ["更加", "實現", "理想"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Ý chí kiên cường đã giúp anh ấy vượt qua mọi thử thách.",
+    "referenceAnswers": [
+      "頑強的毅力幫助他克服了所有挑戰。",
+      "他靠著頑強的毅力戰勝了困難。",
+      "頑強的毅力使他度過了難關。",
+      "他的成功源於頑強的毅力。",
+      "正是頑強的毅力讓他勝出了。"
+    ],
+    "keywords": ["頑強", "毅力", "克服"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Khí hậu ở vùng này khá ôn hòa, rất dễ sống.",
+    "referenceAnswers": [
+      "這個地區的氣候很溫和，很適合居住。",
+      "這裡的氣候溫暖，住起來很舒服。",
+      "該地區氣候宜人，生活方便。",
+      "這兒氣候溫和，適合大家居住。",
+      "此地氣候特點是溫和，利於生活。"
+    ],
+    "keywords": ["地區", "氣候", "溫和"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Bạn nên tìm một người có thể tin tưởng để chia sẻ tâm sự.",
+    "referenceAnswers": [
+      "你應該找一個可以信任的人來分享心情。",
+      "你應該找個信任的人聊聊天。",
+      "找一個能信任的人說說心事吧。",
+      "你應與信任的人分享你的故事。",
+      "找個能交心的朋友來談談吧。"
+    ],
+    "keywords": ["應該", "信任", "分享"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Chương trình lần này đã mang lại nhiều kiến thức cho khán giả.",
+    "referenceAnswers": [
+      "這次的活動讓觀眾獲益良多。",
+      "活動給觀眾帶來了不少知識。",
+      "這次活動增加了觀眾的見識。",
+      "觀眾從這次活動中學到了很多。",
+      "活動內容豐富，觀眾很受啟發。"
+    ],
+    "keywords": ["活動", "獲益良多", "觀眾"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi đang suy nghĩ về việc có nên đổi một công ty khác không.",
+    "referenceAnswers": [
+      "我正在考慮是否要換一家公司。",
+      "我正在想著要不要換工作。",
+      "我在考慮更換工作的可能性。",
+      "關於換公司，我正在思考中。",
+      "我正考慮是否該換個工作環境。"
+    ],
+    "keywords": ["考慮", "換", "公司"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Giáo dục đóng một vai trò quan trọng trong cuộc đời mỗi người.",
+    "referenceAnswers": [
+      "教育在每個人的人生中都起著重要作用。",
+      "教育對每個人來說都非常重要。",
+      "人生中教育是不可或缺的。",
+      "教育會影響一個人的一生。",
+      "每個人都需要接受良好的教育。"
+    ],
+    "keywords": ["教育", "重要", "人生"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Càng ngày càng có nhiều người chú trọng đến sức khỏe bản thân.",
+    "referenceAnswers": [
+      "越來越多的人開始注重自己的健康。",
+      "現今注重健康的人越來越多了。",
+      "大家對健康的關注度越來越高。",
+      "越來越多的人重視養生。",
+      "注重個人健康的人數在增加。"
+    ],
+    "keywords": ["越來越多", "注重", "健康"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy đã chuẩn bị rất kỹ lưỡng cho buổi diễn thuyết này.",
+    "referenceAnswers": [
+      "他為了這場演講做了充分的準備。",
+      "他對這次演講準備得很仔細。",
+      "這場演講他準備了很久。",
+      "他為演講做了全方位的準備。",
+      "這場演講的準備工作做得很紮實。"
+    ],
+    "keywords": ["演講", "準備", "充分"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tiến độ của dự án lần này thực sự rất nhanh.",
+    "referenceAnswers": [
+      "這次項目的進度真的很快。",
+      "這個工程的進展非常迅速。",
+      "項目的進度比想像中快。",
+      "進度很快，這讓人很高興。",
+      "這次項目的速度非常令人滿意。"
+    ],
+    "keywords": ["項目", "進度", "快"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Bạn cảm thấy cuộc sống ở thành phố này như thế nào?",
+    "referenceAnswers": [
+      "你覺得這個城市的內容怎麼樣？",
+      "在這個城市生活你感覺如何？",
+      "你對這個城市的生活滿意嗎？",
+      "這個城市的生活你住得慣嗎？",
+      "你覺得這兒的生活環境如何？"
+    ],
+    "keywords": ["覺得", "城市", "生活"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi rất ấn tượng với phong cách làm việc của anh ấy.",
+    "referenceAnswers": [
+      "我對他的工作風格印象深刻。",
+      "他的工作作風讓我印象很深。",
+      "我很佩服他的工作風格。",
+      "他工作時的樣子非常有魅力。",
+      "對他工作的方式，我感到很滿意。"
+    ],
+    "keywords": ["印象深刻", "風格"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Môi trường ở nhà hàng này vừa đẹp vừa yên tĩnh.",
+    "referenceAnswers": [
+      "這家餐廳的環境又漂亮又安靜。",
+      "這餐廳環境好，也很安靜。",
+      "餐廳環境優美安靜。",
+      "這家店的環境很不錯，很安靜。",
+      "環境安靜漂亮是這家店的特點。"
+    ],
+    "keywords": ["餐廳", "環境", "安靜"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy có thói quen đi bộ ở công viên mỗi buổi sáng.",
+    "referenceAnswers": [
+      "他有每天早上去公園散步的習慣。",
+      "他習慣每天早上走在公園裡。",
+      "他每天早晨都會去公園散步。",
+      "早上去公園散步是他的習慣。",
+      "他每天早上都堅持去公園。"
+    ],
+    "keywords": ["習慣", "散步", "公園"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Cuốn sách này giúp tôi hiểu thêm về văn hóa Trung Hoa.",
+    "referenceAnswers": [
+      "這本書讓我更了解中華文化。",
+      "通過這本書，我了解了中華文化。",
+      "這本書幫助我認識了中華文化。",
+      "我從這本書中學到了很多文化知識。",
+      "讀了這本書，我對中華文化有了更多認識。"
+    ],
+    "keywords": ["了解", "中華文化", "書"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta nên cùng nhau chung tay bảo vệ môi trường.",
+    "referenceAnswers": [
+      "我們應該一起共同保護環境。",
+      "大家一起來保護環境吧。",
+      "保護環境需要我們共同努力。",
+      "我們應該攜手保護大自然。",
+      "共同保護環境是我們的義務。"
+    ],
+    "keywords": ["保護", "環境", "共同"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy là một nhân vật có tầm ảnh hưởng lớn trong xã hội.",
+    "referenceAnswers": [
+      "他在社會上是一個很有影響力的人。",
+      "他在社會上有很高的地位。",
+      "他是一位社會名人。",
+      "社會上很多人都聽他的話。",
+      "他對社會的發展有很大影響。"
+    ],
+    "keywords": ["社會", "影響力", "人"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Càng ngày càng có nhiều sinh viên sang Trung Quốc du học.",
+    "referenceAnswers": [
+      "越來越多的學生去中國留學。",
+      "現在去中國留學的人變多了。",
+      "許多學生都想去中國留學。",
+      "越來越多的學生選擇到中國讀書。",
+      "中國成了越來越多學生的留學目的地。"
+    ],
+    "keywords": ["越來越多", "留學", "中國"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy luôn đối xử rất tốt với tất cả mọi người.",
+    "referenceAnswers": [
+      "他對所有人都非常好。",
+      "他對每個人都很友好。",
+      "他對大家都很照顧。",
+      "他總是很客氣地對待所有人。",
+      "大家都很喜歡他，因為他對人好。"
+    ],
+    "keywords": ["所有", "很好", "對待"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tối ngày hôm nay trời rất nóng, ngủ không được.",
+    "referenceAnswers": [
+      "今天晚上太熱了，睡不著。",
+      "今晚很熱，沒辦法睡覺。",
+      "晚上好熱，很難睡著。",
+      "今晚的天氣熱得讓人睡不著。",
+      "今天晚上熱極了，翻來覆去睡不著。"
+    ],
+    "keywords": ["晚上", "太熱", "睡不著"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi rất mong chờ vào chuyến đi lần này.",
+    "referenceAnswers": [
+      "我很期待這次的旅行。",
+      "我對這次旅行充滿期待。",
+      "我很想快點開始這次的旅行。",
+      "我非常期待這次的行程。",
+      "我一直在盼著這次旅行。"
+    ],
+    "keywords": ["期待", "這次", "旅行"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Cám ơn mọi người đã luôn ủng hộ công ty chúng tôi.",
+    "referenceAnswers": [
+      "謝謝大家一直對我們公司的支持。",
+      "感謝大家長期以來的支持。",
+      "謝謝大家支持我們。",
+      "非常感謝大家的支持。",
+      "大家的支持是我們的動力，謝謝。"
+    ],
+    "keywords": ["謝謝", "支持", "公司"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Mặc dù trời mưa nhưng anh ấy vẫn đi làm.",
+    "referenceAnswers": [
+      "雖然下雨了，但他還是去上班。",
+      "儘管下著雨，他依然堅持去工作。",
+      "雖然天在下雨，他還是出門上班了。",
+      "儘管雨下得很大，他還是去公司了。",
+      "雖然有雨，他還是沒耽誤上班。"
+    ],
+    "keywords": ["雖然", "下雨", "上班"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Thói quen của tôi là đánh răng ngay sau khi ngủ dậy.",
+    "referenceAnswers": [
+      "我的習慣是起床後馬上刷牙。",
+      "起床就刷牙是我的生活習慣。",
+      "我習慣在起床後立刻去刷牙。",
+      "我養成了起床後第一件事就刷牙的習慣。",
+      "每天起床後，我都會馬上刷牙。"
+    ],
+    "keywords": ["習慣", "起床", "刷牙"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Âm thanh của chiếc tivi này thật sự quá lớn.",
+    "referenceAnswers": [
+      "這部電視的聲音真的太大了。",
+      "電視機的音量實在是太響了。",
+      "這台電視發出的聲音非常大。",
+      "電視的聲音開得太大了，很吵。",
+      "這部電視聲很大，請調小一點。"
+    ],
+    "keywords": ["聲音", "電視", "太大"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Món quà này thật là kì lạ, tôi không biết ai gửi nó.",
+    "referenceAnswers": [
+      "這份禮物真奇怪，我不知道是誰送的。",
+      "這份禮物挺奇怪的，沒寫是誰送來的。",
+      "我不清楚這份怪異的禮物是誰送的。",
+      "這禮物的樣子真特別，不知道出自誰手。",
+      "這份奇怪的禮物讓我摸不著頭腦。"
+    ],
+    "keywords": ["奇怪", "禮物", "不知道"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Sáng nay trời nắng đẹp, chúng ta đi công viên chơi nhé.",
+    "referenceAnswers": [
+      "今天早上是晴天，我們去公園玩吧。",
+      "今天早晨陽光燦爛，去公園走走怎麼樣？",
+      "今天是大晴天，我們一起去公園玩。",
+      "晴朗的早晨，最適合去公園玩了。",
+      "既然今天是晴天，我們就去公園吧。"
+    ],
+    "keywords": ["晴天", "公園", "玩"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi đã tìm thấy chiếc bút chì bị mất ở dưới gầm bàn.",
+    "referenceAnswers": [
+      "我在桌子下面找到了丟失的鉛筆。",
+      "那支丟了的地鉛筆，在桌下被我找到了。",
+      "找到了，原來筆就在桌子的底下。",
+      "我終於在桌子底找到了那支鉛筆。",
+      "丟掉的鉛筆就在桌下，我已經找到了。"
+    ],
+    "keywords": ["找到", "鉛筆", "桌下"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Chúng tôi định tổ chức một buổi tiệc để chúc mừng ngày sinh nhật của thầy.",
+    "referenceAnswers": [
+      "我們打算辦個派對來慶祝老師的生日。",
+      "我們計劃舉行聚會來為老師慶生。",
+      "慶祝老師生日的派對正在籌備中。",
+      "我們準備開個生日派對慶祝一下。",
+      "為了慶祝老師生日，我們打算辦派對。"
+    ],
+    "keywords": ["慶祝", "生日", "派對"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy cho rằng việc này không hề nguy hiểm chút nào.",
+    "referenceAnswers": [
+      "他認為這件事一點也不危險。",
+      "他覺得這項工作完全沒有危險。",
+      "在他看來，這件事並不可怕。",
+      "他主張這件事是十分安全的。",
+      "他認為這件事沒什麼好擔心的。"
+    ],
+    "keywords": ["認為", "危險", "一點也不"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Mẹ dặn tôi phải luôn giữ gìn sức khỏe thật tốt.",
+    "referenceAnswers": [
+      "媽媽叮囑我要一直保持身體健康。",
+      "媽媽告訴我健康是最重要的。",
+      "媽媽提醒我要注意身體健康。",
+      "媽媽叫我要好好照顧自己的身體。",
+      "媽媽說，一定要保持健康。"
+    ],
+    "keywords": ["媽媽", "健康", "保持"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Quyển tiểu thuyết này rất nổi tiếng và được nhiều người yêu thích.",
+    "referenceAnswers": [
+      "這本小說非常有名，很多人都喜歡看。",
+      "這部小說很有名氣，讀者非常多。",
+      "這是一本廣受歡迎的著名小說。",
+      "這本小說名氣很大，受到很多人的喜愛。",
+      "這部著名的部小說，許多人都讀過。"
+    ],
+    "keywords": ["有名", "小說", "喜歡"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi nghe nói thành phố này có rất nhiều cảnh đẹp.",
+    "referenceAnswers": [
+      "我聽說這個城市有很多好風景。",
+      "傳聞這個城市到處都是美景。",
+      "聽說這座城市以風景優美著稱。",
+      "我聽說這城裡的風景非常迷人。",
+      "聽說這裡風景如畫，有很多好去處。"
+    ],
+    "keywords": ["聽說", "城市", "風景"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy đã mua cho tôi một ly nước cam rất ngon.",
+    "referenceAnswers": [
+      "他給我買了一杯很好喝的柳橙汁。",
+      "他請我喝了一杯美味的柳橙汁。",
+      "這杯好喝的柳橙汁是他買給我的。",
+      "他買了一杯柳橙汁送過來，很好喝。",
+      "他為我買了一杯味道很棒的柳橙汁。"
+    ],
+    "keywords": ["買", "柳橙汁", "好吃"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Hôm kia anh ấy đã đi xem một trận đấu bóng đá rất kịch tính.",
+    "referenceAnswers": [
+      "前天他去看了一場很精彩的足球比賽。",
+      "前天他去欣賞了一場激烈的足球賽。",
+      "一場精彩的足球賽，他在前天去看了。",
+      "前天，他出現在足球比賽的現場。",
+      "前天那場足球賽很精彩，他去看了。"
+    ],
+    "keywords": ["前天", "足球比賽", "精彩"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi hy vọng rằng thời tiết ngày mai sẽ tốt hơn hôm nay.",
+    "referenceAnswers": [
+      "我希望明天的天氣會比今天好。",
+      "但願明天的天氣能放晴。",
+      "我期盼明天有個好天氣。",
+      "希望明天不要再下雨了，天氣好一點。",
+      "我希望明天能看到太陽，天氣變好。"
+    ],
+    "keywords": ["希望", "明天", "天氣"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta hãy cùng nhau cố gắng để hoàn thành công việc này.",
+    "referenceAnswers": [
+      "我們一起努力完成這項工作吧。",
+      "讓我們共同努力來做好這件事。",
+      "大家一起加油，把工作做完。",
+      "為了完成工作，我們需要一起努力。",
+      "咱們齊心協力，把這事辦成。"
+    ],
+    "keywords": ["一起", "努力", "完成"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy luôn đối xử rất chân thành với bạn bè.",
+    "referenceAnswers": [
+      "他對朋友一直都很真誠。",
+      "他對待朋友非常誠懇。",
+      "他一直以真誠的態度對待朋友。",
+      "在他眼裡，對朋友真誠是最重要的。",
+      "他是一個對朋友非常真心的人。"
+    ],
+    "keywords": ["朋友", "真誠", "對待"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Mỗi ngày tôi đều dành một ít thời gian để đọc tiểu thuyết.",
+    "referenceAnswers": [
+      "我每天都花一點時間看小說。",
+      "讀小說是我每天都會做的一件事。",
+      "我每天都會抽空讀一讀小說。",
+      "每天看點小說是我的日常。",
+      "我每天都會安排時間來讀小說。"
+    ],
+    "keywords": ["每天", "時間", "看小說"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy đột nhiên cảm thấy rất buồn chán.",
+    "referenceAnswers": [
+      "他突然覺得很無聊。",
+      "他莫名其妙地感到一陣空虛。",
+      "他突然間感到沒什麼趣兒。",
+      "一股無聊感突然襲向他。",
+      "他突然變得很沒精神，覺得無聊。"
+    ],
+    "keywords": ["突然", "覺得", "無聊"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Dưa hấu là loại trái cây mà tôi yêu thích nhất trong mùa hè.",
+    "referenceAnswers": [
+      "西瓜是我夏天最喜歡的水果。",
+      "夏天裡，我最愛吃的水果就是西瓜。",
+      "西瓜是我在夏季的首選水果。",
+      "在夏天的所有水果中，我最中意西瓜。",
+      "西瓜絕對是夏天最解渴的水果。"
+    ],
+    "keywords": ["西瓜", "夏天", "喜歡"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Âm thanh của bản nhạc này thật sự rất êm tai.",
+    "referenceAnswers": [
+      "這段音樂的聲音真的很好聽。",
+      "這首曲子的旋律非常動人。",
+      "音樂的聲音聽起來很舒服。",
+      "這部音樂作品的音色很棒。",
+      "這曲子聲音美妙，我很喜歡。"
+    ],
+    "keywords": ["聲音", "音樂", "好聽"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy tin rằng mình có thể đạt được mục tiêu đã đề ra.",
+    "referenceAnswers": [
+      "他相信自己能達到目標。",
+      "他堅信自己可以成功。",
+      "他對達成目標充滿信心。",
+      "他認為自己一定能做好這件事。",
+      "他相信目標一定會實現的。"
+    ],
+    "keywords": ["相信", "自己", "目標"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Hành lý của tôi thực sự rất nặng, giúp tôi một chút nhé.",
+    "referenceAnswers": [
+      "我的行李真的很重，幫我一下吧。",
+      "這行李太沉了，能不能搭把手？",
+      "幫我提一下行李吧，太重了。",
+      "我的包非常重，請你幫幫忙。",
+      "行李太重，我提不動，幫幫我。"
+    ],
+    "keywords": ["行李", "重", "幫"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi thỉnh thoảng đi dạo trong khu rừng gần nhà.",
+    "referenceAnswers": [
+      "我有時會去家附近的森林散步。",
+      "偶爾我會到那片小森林裡走走。",
+      "家門前那片森林是我常去散步的地方。",
+      "我有時候會去附近的樹林裡走一圈。",
+      "去森林散步是我偶爾的愛好。"
+    ],
+    "keywords": ["有時候", "森林", "散步"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Cô ấy cảm thấy rất vinh dự khi được tham gia buổi lễ này.",
+    "referenceAnswers": [
+      "她感到很榮幸能參加這個典禮。",
+      "能出席這個儀式，她覺得很自豪。",
+      "參加這個典禮是她的榮幸。",
+      "她對參加這次活動感到非常高興。",
+      "她很榮幸能被邀請參加典禮。"
+    ],
+    "keywords": ["榮幸", "參加", "典禮"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Anh ấy thường xuyên tập luyện đánh răng đúng cách.",
+    "referenceAnswers": [
+      "他經常練習正確的刷牙方法。",
+      "好好刷牙是他每天都在練習的事。",
+      "他非常注重練習刷牙的技巧。",
+      "他常練習如何把牙刷乾淨。",
+      "練習刷牙是他每天的日常練習。"
+    ],
+    "keywords": ["常常", "練習", "刷牙"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Mùa hè năm nay tôi định đi du lịch Đà Lạt.",
+    "referenceAnswers": [
+      "今年夏天我打算去大叻旅遊。",
+      "我計劃今年暑假去大叻玩。",
+      "這個夏天我準備去大叻旅行。",
+      "今年夏天我打算到大叻走走。",
+      "大叻是我今年夏天旅遊的目的地。"
+    ],
+    "keywords": ["夏天", "打算", "旅遊", "大叻"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Cám ơn bạn đã giúp đỡ tôi rất nhiều.",
+    "referenceAnswers": [
+      "謝謝你給了我這麼多幫助。",
+      "非常感謝你對我的幫助。",
+      "謝謝你幫了我很大的忙。",
+      "多虧了你的幫助，非常感謝。",
+      "感謝你這段時間以來對我的關照。"
+    ],
+    "keywords": ["謝謝", "幫助"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi nghĩ rằng việc học ngoại ngữ rất quan trọng.",
+    "referenceAnswers": [
+      "我認為學習外語非常重要。",
+      "我覺得學外語是很有必要的。",
+      "在我看來，掌握一門外語很重要。",
+      "學習外語對每個人來說都很重要。",
+      "我深知學習外語的重要意義。"
+    ],
+    "keywords": ["認為", "學習", "外語", "重要"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Bạn có thể chỉ đường cho tôi đến siêu thị không?",
+    "referenceAnswers": [
+      "你能告訴我怎麼去超市嗎？",
+      "請問去超市該怎麼走？",
+      "你能幫我指一下去超市的路嗎？",
+      "請問超市是在哪個方向？",
+      "你能帶我去附近的超市嗎？"
+    ],
+    "keywords": ["告訴", "去", "超市"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi rất thích đọc tiểu thuyết vào thời gian rảnh.",
+    "referenceAnswers": [
+      "空閒時間我非常喜歡看小說。",
+      "我愛在休閒時讀一些小說。",
+      "沒事的時候我喜歡讀讀小說。",
+      "看小說是我在業餘時間的愛好。",
+      "我喜歡在放鬆時看一些長篇小說。"
+    ],
+    "keywords": ["喜歡", "讀", "小說", "空閒時間"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Hôm qua tôi đã mua một món quà cho em trai.",
+    "referenceAnswers": [
+      "昨天我給弟弟買了一份禮物。",
+      "我昨天去為弟弟挑選了禮物。",
+      "昨天我買了一個禮物送給弟弟。",
+      "我弟弟昨天收到了我買的禮物。",
+      "昨天我專門去買了弟弟喜歡的禮物。"
+    ],
+    "keywords": ["昨天", "買", "禮物", "弟弟"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Chúng ta nên tập thể dục mỗi ngày để khỏe mạnh.",
+    "referenceAnswers": [
+      "為了健康，我們應該每天運動。",
+      "我們每天都應該鍛煉身體。",
+      "每天堅持運動對身體有好處。",
+      "保持健康需要每天進行鍛煉。",
+      "每個人都應該每天做點運動。"
+    ],
+    "keywords": ["應該", "每天", "運動", "健康"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Bạn cao nhất trong lớp của bạn phải không?",
+    "referenceAnswers": [
+      "你是你們班最高的學生嗎？",
+      "在你們班裡，你是最高的一個嗎？",
+      "你是班級裡個子最高的那個人嗎？",
+      "請問你是班裡最高的那個嗎？",
+      "你們班誰最高？是你嗎？"
+    ],
+    "keywords": ["班", "最高"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi không thích ăn đồ ăn nhanh vì không tốt cho sức khỏe.",
+    "referenceAnswers": [
+      "我不喜歡吃快餐，因為對健康不利。",
+      "我覺得快餐不健康，所以不愛吃。",
+      "我不常吃快餐，因為它沒營養。",
+      "對我來說，快餐並不是健康的選擇。",
+      "我不喜歡快餐，它對身體不好。"
+    ],
+    "keywords": ["不喜歡", "吃", "快餐", "健康"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Gia đình tôi thường đi công viên vào cuối tuần.",
+    "referenceAnswers": [
+      "我們家周末常去公園散步。",
+      "周末我們全家人喜歡去公園玩。",
+      "每個周末，我們都會去公園。",
+      "我家習慣在周末去公園休閒。",
+      "周末的時候，我們家常去公園。"
+    ],
+    "keywords": ["周末", "去", "公園"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Cô ấy nói tiếng Trung rất trôi chảy.",
+    "referenceAnswers": [
+      "她的漢語說得很流利。",
+      "她能說一口流利的普通話。",
+      "她說中文說得非常順口。",
+      "她的中文水平非常高，說得流利。",
+      "她說中文的樣子非常自然流利。"
+    ],
+    "keywords": ["漢語", "說", "流利"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi muốn tặng bạn một chiếc đồng hồ mới.",
+    "referenceAnswers": [
+      "我想送你一塊新手錶。",
+      "我要送給你一個新的手錶。",
+      "我打算買一塊新手錶送給你。",
+      "送你這塊新手錶，希望你喜歡。",
+      "我想要送一塊新手錶給你。"
+    ],
+    "keywords": ["送", "手錶", "新"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Buổi chiều tôi thường đến thư viện học bài.",
+    "referenceAnswers": [
+      "我下午經常去圖書館學習。",
+      "下午我一般都在圖書館自習。",
+      "我習慣下午去圖書館看書學習。",
+      "去圖書館學習是我下午的日常。",
+      "下午的時間我多半在圖書館。"
+    ],
+    "keywords": ["下午", "去", "圖書館", "學習"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Cửa hàng này bán trái cây rất tươi.",
+    "referenceAnswers": [
+      "這家店賣的水果非常新鮮。",
+      "這家商店的水果品相很好。",
+      "這裡的水果都是當天採摘的新鮮貨。",
+      "這間超商的水果一直都很新鮮。",
+      "這家店的水果新鮮度很高。"
+    ],
+    "keywords": ["這家店", "水果", "新鮮"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Bạn đã từng đi Trung Quốc chưa?",
+    "referenceAnswers": [
+      "你去過中國嗎？",
+      "你有沒有去過中國旅遊？",
+      "你到過中國境內嗎？",
+      "想請問你有去過中國嗎？",
+      "你去中國的次數多嗎？"
+    ],
+    "keywords": ["去過", "中國"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Bố tôi là kỹ sư làm việc tại công ty này.",
+    "referenceAnswers": [
+      "我爸爸是這家公司的工程師。",
+      "爸爸在該公司擔任工程師職務。",
+      "我父親在這間公司做工程師。",
+      "這家公司的工程師是我爸爸。",
+      "爸爸在這家公司從事工程工作。"
+    ],
+    "keywords": ["爸爸", "這家公司", "工程師"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi cảm thấy hơi mệt, muốn nghỉ ngơi một chút.",
+    "referenceAnswers": [
+      "我感覺有點累，想休息一下。",
+      "我累了，打算去睡一會兒。",
+      "我覺得有點 fatigue，想歇歇腳。",
+      "我想去休息一會兒，感覺挺累的。",
+      "我體力有點透支，需要休息。"
+    ],
+    "keywords": ["累", "休息", "一下"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Món phở Việt Nam nổi tiếng khắp thế giới.",
+    "referenceAnswers": [
+      "越南河粉在世界上非常有名。",
+      "越南河粉聞名全球。",
+      "全世界的人都知道越南河粉。",
+      "河粉是越南非常著名的美食。",
+      "越南河粉是一道享譽國際的菜餚。"
+    ],
+    "keywords": ["越南河粉", "有名", "世界"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi thường nghe nhạc khi đang làm việc nhà.",
+    "referenceAnswers": [
+      "我做家務時經常聽音樂。",
+      "聽著音樂做家務是我的習慣。",
+      "我喜歡一邊聽歌一邊做家務。",
+      "做家務的時候，我會放點音樂。",
+      "聽音樂能讓我做家務時更輕鬆。"
+    ],
+    "keywords": ["聽音樂", "做家務"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Hôm nay tôi quên mang theo ô rồi.",
+    "referenceAnswers": [
+      "我今天忘記帶雨傘了。",
+      "我今天門沒帶傘。",
+      "糟糕，我今天沒拿雨傘。",
+      "我今天忘拿傘了，希望別下雨。",
+      "雨傘被我忘在家裡了。"
+    ],
+    "keywords": ["忘記", "帶", "雨傘"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Bạn thích xem loại phim nào nhất?",
+    "referenceAnswers": [
+      "你最喜歡看哪種類型的電影？",
+      "哪種電影是你最愛看的？",
+      "你平時最愛看什麼類型的片子？",
+      "哪一類電影最合你的口味？",
+      "你最中意看哪一類的影片？"
+    ],
+    "keywords": ["喜歡", "電影", "哪種"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tiệm cà phê này có trà rất thơm.",
+    "referenceAnswers": [
+      "這家咖啡館的茶很香。",
+      "這間店的茶葉味道很醇厚。",
+      "這家咖啡店提供的茶很有名。",
+      "咖啡館裡的茶聞起來很舒服。",
+      "這間咖啡店的茶香氣四溢。"
+    ],
+    "keywords": ["咖啡館", "茶", "香"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi không thích mặc quần áo quá rộng.",
+    "referenceAnswers": [
+      "我不喜歡穿太寬鬆的衣服。",
+      "太大的衣服穿起來不舒服。",
+      "我不愛穿那種大號的衣服。",
+      "我覺得寬鬆的衣服不適合我。",
+      "我比較喜歡穿合身的衣服。"
+    ],
+    "keywords": ["不喜歡", "寬鬆", "衣服"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Hãy cẩn thận khi lái xe vào ban đêm.",
+    "referenceAnswers": [
+      "晚上開車要多加小心。",
+      "夜間行車請注意安全。",
+      "晚上開車時請務必謹慎。",
+      "夜裡開車要特別留意路況。",
+      "開夜車的時候一定要保持警惕。"
+    ],
+    "keywords": ["晚上", "開車", "小心"]
+  },
+  {
+    "level": "A2",
+    "direction": "vi_zh",
+    "sourceText": "Tôi rất hài lòng với kết quả học tập của mình.",
+    "referenceAnswers": [
+      "我對自己的學習成績很滿意。",
+      "我的學習表現讓我感到欣慰。",
+      "我對目前的學習狀況很滿意。",
+      "我很滿意這段時間的學習成果。",
+      "學習成績達到了我的預期，我很滿意。"
+    ],
+    "keywords": ["滿意", "學習成績"]
   }
 ]

@@ -2,145 +2,1301 @@
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "我不習慣吃辣的食物。",
+    "sourceText": "除了工作以外，他還喜歡打羽毛球。",
     "referenceAnswers": [
-      "Tôi không quen ăn đồ cay.",
-      "Tôi không quen ăn món cay.",
-      "Tôi không quen ăn thức ăn cay.",
-      "Tôi không ăn quen vị cay."
+      "Ngoài công việc ra, anh ấy còn thích đánh cầu lông.",
+      "Ngoài đi làm, anh ấy còn có sở thích đánh cầu lông.",
+      "Bên cạnh công việc, anh ấy còn thích chơi cầu lông.",
+      "Anh ấy thích đánh cầu lông bên cạnh việc đi làm.",
+      "Ngoài giờ làm việc, anh ấy hay đi đánh cầu lông."
     ],
-    "keywords": ["習慣", "辣", "食物"]
+    "keywords": ["除了", "羽毛球"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "請幫我打掃房間。",
+    "sourceText": "雖然外面在下雨，但我們還是出發了。",
     "referenceAnswers": [
-      "Làm ơn hãy dọn dẹp phòng giúp tôi.",
-      "Vui lòng quét dọn phòng giùm tôi.",
-      "Hãy giúp tôi dọn dẹp phòng.",
-      "Làm ơn dọn phòng giúp tôi."
+      "Mặc dù bên ngoài đang mưa, nhưng chúng tôi vẫn xuất phát.",
+      "Tuy ngoài trời đang mưa, chúng tôi vẫn lên đường.",
+      "Dù trời đang mưa nhưng chúng tôi vẫn đi.",
+      "Mặc cho trời mưa, chúng tôi vẫn quyết định khởi hành.",
+      "Dù bên ngoài có mưa, chúng tôi vẫn bắt đầu chuyến đi."
     ],
-    "keywords": ["幫", "打掃"]
+    "keywords": ["雖然", "還是", "出發"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "他剛才去超市買東西了。",
+    "sourceText": "這門課對我的未來很有幫助。",
     "referenceAnswers": [
-      "Anh ấy vừa mới đi siêu thị mua đồ rồi.",
-      "Anh ta vừa đi siêu thị mua đồ.",
-      "Hồi nãy cậu ấy đi siêu thị mua đồ rồi.",
-      "Anh ấy vừa mới đi siêu thị mua sắm."
+      "Khóa học này rất có ích cho tương lai của tôi.",
+      "Môn học này giúp ích nhiều cho tương lai của tôi sau này.",
+      "Khóa học này hỗ trợ rất nhiều cho sự nghiệp tương lai của tôi.",
+      "Tương lai của tôi sẽ rộng mở hơn nhờ khóa học này.",
+      "Môn học này thật sự có giá trị cho tương lai của tôi."
     ],
-    "keywords": ["剛才", "超市", "買"]
+    "keywords": ["課", "幫助", "未來"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "這件衣服的大小很合適。",
+    "sourceText": "他打算明年去歐洲留學。",
     "referenceAnswers": [
-      "Kích cỡ của bộ quần áo này rất vừa vặn.",
-      "Chiếc áo này có kích thước rất phù hợp.",
-      "Size của cái áo này rất vừa.",
-      "Bộ đồ này rộng chật rất vừa ý."
+      "Anh ấy dự định năm sau đi du học châu Âu.",
+      "Cậu ấy có kế hoạch đi châu Âu du học vào năm tới.",
+      "Anh ta định sang năm sẽ đi du học ở châu Âu.",
+      "Kế hoạch của anh ấy là đi du học châu Âu vào năm sau.",
+      "Năm sau anh ấy sẽ sang châu Âu để du học."
     ],
-    "keywords": ["大", "小", "合適"]
+    "keywords": ["打算", "歐洲", "留學"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "他在公司附近找房子。",
+    "sourceText": "如果你有時間，請幫我一個忙。",
     "referenceAnswers": [
-      "Anh ấy đang tìm nhà ở gần công ty.",
-      "Cậu ấy đang kiếm nhà quanh công ty.",
-      "Anh ta tìm nhà gần chỗ làm.",
-      "Anh ấy đang tìm nhà trọ gần công ty."
+      "Nếu bạn có thời gian, vui lòng giúp tôi một tay.",
+      "Nếu rảnh, xin hãy giúp tôi việc này.",
+      "Nếu bạn có thời gian, hãy giúp tôi một chút nhé.",
+      "Nếu không bận, bạn giúp tôi một việc được không?",
+      "Vui lòng giúp tôi nếu bạn có thời gian rảnh."
     ],
-    "keywords": ["公司", "附近", "找"]
+    "keywords": ["如果", "幫忙"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "外面下大雪了，真漂亮！",
+    "sourceText": "這家公司的產品在市場上非常受歡迎。",
     "referenceAnswers": [
-      "Bên ngoài tuyết rơi lớn rồi, thật đẹp!",
-      "Ngoài kia tuyết đang rơi dày, đẹp quá!",
-      "Ngoài trời tuyết rơi nhiều, thật xinh đẹp!",
-      "Tuyết rơi lớn ngoài kia, đẹp thật đấy!"
+      "Sản phẩm của công ty này rất được ưa chuộng trên thị trường.",
+      "Các sản phẩm của công ty này cực kỳ phổ biến trên thị trường.",
+      "Thị trường rất đón nhận các sản phẩm từ công ty này.",
+      "Sản phẩm của công ty này đang rất hot trên thị trường.",
+      "Mọi người rất thích sản phẩm của công ty này."
     ],
-    "keywords": ["外面", "雪", "真"]
+    "keywords": ["產品", "市場", "受歡迎"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "你打算什麼時候回國？",
+    "sourceText": "他不但會說漢語，還會說法語。",
     "referenceAnswers": [
-      "Bạn dự định khi nào về nước?",
-      "Cậu định bao giờ thì về nước?",
-      "Bạn có kế hoạch lúc nào về nước?",
-      "Khi nào thì bạn định về nước?"
+      "Anh ấy không những biết nói tiếng Hán mà còn biết nói tiếng Pháp.",
+      "Cậu ấy không chỉ nói được tiếng Trung, mà còn cả tiếng Pháp nữa.",
+      "Anh ta vừa biết nói tiếng Trung, vừa biết nói tiếng Pháp.",
+      "Không chỉ tiếng Hán, anh ấy còn có thể giao tiếp bằng tiếng Pháp.",
+      "Anh ấy nói được cả tiếng Hán lẫn tiếng Pháp."
     ],
-    "keywords": ["打算", "什麼", "回國"]
+    "keywords": ["不但", "法語"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "超市在銀行的對面。",
+    "sourceText": "我覺得這部電影的劇情很有吸引力。",
     "referenceAnswers": [
-      "Siêu thị ở đối diện ngân hàng.",
-      "Siêu thị nằm ở phía đối diện ngân hàng.",
-      "Tiệm tạp hóa ở đối diện ngân hàng.",
-      "Ngân hàng ở đối diện siêu thị. (wait, source says supermarket is opposite bank)"
+      "Tôi thấy cốt truyện của bộ phim này rất hấp dẫn.",
+      "Tôi cảm thấy nội dung phim này cực kỳ thu hút.",
+      "Cốt truyện phim này theo tôi là rất hấp dẫn.",
+      "Tôi bị thu hút bởi kịch bản của bộ phim này.",
+      "Phim này có nội dung rất lôi cuốn."
     ],
-    "keywords": ["超市", "銀行", "對面"]
+    "keywords": ["劇情", "吸引力"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "我對音樂很有興趣。",
+    "sourceText": "為了提高水平，他每天都練習口語。",
     "referenceAnswers": [
-      "Tôi rất có hứng thú với âm nhạc.",
-      "Tôi rất thích âm nhạc.",
-      "Tôi dành nhiều quan tâm cho âm nhạc.",
-      "Âm nhạc làm tôi thấy rất thú vị."
+      "Để nâng cao trình độ, anh ấy luyện nói mỗi ngày.",
+      "Vì mục tiêu nâng cao trình độ, anh ấy tập nói hàng ngày.",
+      "Anh ấy luyện tập khẩu ngữ mỗi ngày để cải thiện trình độ.",
+      "Để trình độ tốt hơn, ngày nào anh ấy cũng luyện nói.",
+      "Anh ấy dành thời gian tập nói mỗi ngày nhằm nâng cao kỹ năng."
     ],
-    "keywords": ["音樂", "興趣"]
+    "keywords": ["為了", "提高", "口語"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "這道菜的味道非常好吃。",
+    "sourceText": "這條路一直走到底，就能看到捷運站。",
     "referenceAnswers": [
-      "Mùi vị của món ăn này rất ngon.",
-      "Món này vị rất tuyệt.",
-      "Hương vị món này ngon quá.",
-      "Món ăn này vị rất ngon miệng."
+      "Đi thẳng hết con đường này là bạn sẽ thấy ga tàu điện.",
+      "Cứ đi thẳng đến cuối đường là tới ga MRT.",
+      "Đi hết đường này bạn sẽ thấy trạm tàu điện ngầm.",
+      "Ga tàu điện nằm ngay cuối con đường này.",
+      "Đi thẳng tới cuối đường là nhìn thấy ga tàu điện ngay."
     ],
-    "keywords": ["菜", "味道", "好吃"]
+    "keywords": ["一直", "到底", "捷運站"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "他遲到了，因為路上堵車。",
+    "sourceText": "自從他搬到這裡以後，身體變好了。",
     "referenceAnswers": [
-      "Anh ấy đến muộn vì trên đường bị tắc đường.",
-      "Cậu ấy trễ rồi do trên đường kẹt xe.",
-      "Anh ta đến trễ vì đường bị kẹt.",
-      "Anh ấy bị muộn vì đường tắc quá."
+      "Kể từ khi anh ấy chuyển đến đây, sức khỏe đã tốt lên.",
+      "Sức khỏe của anh ấy cải thiện rõ rệt từ khi dời đến đây.",
+      "Từ lúc chuyển tới đây, anh ấy khỏe mạnh hơn hẳn.",
+      "Sau khi chuyển đến đây, tình hình sức khỏe của anh ấy đã biến chuyển tốt.",
+      "Anh ấy khỏe hơn từ khi bắt đầu sống ở chỗ này."
     ],
-    "keywords": ["遲到", "因為", "堵車"]
+    "keywords": ["自從", "以後", "變好"]
   },
   {
     "level": "A2",
     "direction": "zh_vi",
-    "sourceText": "我們可以用手機上網轉帳。",
+    "sourceText": "那家餐廳的環境很安靜，適合約會。",
     "referenceAnswers": [
-      "Chúng ta có thể dùng điện thoại lên mạng chuyển khoản.",
-      "Chúng ta có thể sử dụng điện thoại di động để chuyển tiền trực tuyến.",
-      "Sử dụng điện thoại để chuyển khoản qua mạng là có thể.",
-      "Chúng ta có thể dùng smartphone để chuyển khoản."
+      "Không gian nhà hàng đó rất yên tĩnh, thích hợp để hẹn hò.",
+      "Nhà hàng kia có môi trường yên tĩnh, hợp cho các cặp đôi.",
+      "Chỗ đó yên tĩnh lắm, rất hợp để đi hẹn hò.",
+      "Môi trường trong nhà hàng đó rất tĩnh lặng, phù hợp cho việc gặp gỡ yêu đương.",
+      "Hẹn hò ở nhà hàng đó là lý tưởng vì không gian rất yên tĩnh."
     ],
-    "keywords": ["手機", "上網", "轉帳"]
+    "keywords": ["環境", "適合", "約會"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "父母總是希望孩子能健康成長。",
+    "referenceAnswers": [
+      "Cha mẹ luôn mong muốn con cái có thể lớn lên khỏe mạnh.",
+      "Bố mẹ lúc nào cũng hy vọng con mình trưởng thành trong khỏe mạnh.",
+      "Sự trưởng thành khỏe mạnh của con cái là mong ước của cha mẹ.",
+      "Cha mẹ luôn kỳ vọng vào sự phát triển lành mạnh của con cái.",
+      "Bố mẹ luôn mong con mình khỏe mạnh và mau lớn."
+    ],
+    "keywords": ["總是", "希望", "成長"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這本書的作者是一位著名的教育家。",
+    "referenceAnswers": [
+      "Tác giả của cuốn sách này là một nhà giáo dục nổi tiếng.",
+      "Người viết quyển sách này là một chuyên gia giáo dục lừng danh.",
+      "Cuốn sách này được viết bởi một nhà giáo dục có tiếng.",
+      "Tác giả quyển sách này là một nhân vật nổi tiếng trong ngành giáo dục.",
+      "Một nhà giáo dục nổi tiếng chính là tác giả của cuốn sách này."
+    ],
+    "keywords": ["作者", "著名", "教育家"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他不但聰明，而且非常努力。",
+    "referenceAnswers": [
+      "Anh ấy không chỉ thông minh mà còn rất nỗ lực.",
+      "Cậu ấy vừa sáng dạ lại vừa cực kỳ chăm chỉ.",
+      "Không chỉ thông minh, anh ấy còn rất cố gắng trong công việc.",
+      "Anh ta là người vừa có tài vừa có đức tính cần cù.",
+      "Anh ấy không những thông minh mà còn luôn nỗ lực hết mình."
+    ],
+    "keywords": ["不但", "努力"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我們必須保護地球的自然資源。",
+    "referenceAnswers": [
+      "Chúng ta phải bảo vệ tài nguyên thiên nhiên của Trái Đất.",
+      "Việc bảo vệ tài nguyên tự nhiên của hành tinh là trách nhiệm của chúng ta.",
+      "Chúng ta cần bảo hộ các nguồn lực tự nhiên trên địa cầu.",
+      "Tài nguyên thiên nhiên của Trái Đất cần được chúng ta bảo vệ.",
+      "Cần phải bảo vệ các nguồn tài nguyên thiên nhiên của thế giới."
+    ],
+    "keywords": ["必須", "保護", "自然資源"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他在那家飯店住了兩天。",
+    "referenceAnswers": [
+      "Anh ấy đã ở khách sạn đó hai ngày.",
+      "Cậu ấy lưu trú tại khách sạn đó trong vòng hai ngày.",
+      "Anh ta đã nghỉ lại ở khách sạn kia hai đêm.",
+      "Hai ngày là thời gian anh ấy ở tại khách sạn đó.",
+      "Anh ấy đã thuê phòng ở khách sạn đó hai ngày."
+    ],
+    "keywords": ["飯店", "住", "兩天"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "目前，這門學科的發展非常迅速。",
+    "referenceAnswers": [
+      "Hiện tại, chuyên ngành này đang phát triển rất nhanh chóng.",
+      "Môn học này hiện đang có tốc độ phát triển cực kỳ nhanh.",
+      "Hiện nay, ngành học này đang trên đà phát triển thần tốc.",
+      "Sự phát triển của học thuật này đang diễn ra rất nhanh ở thời điểm hiện tại.",
+      "Ngành này đang phát triển rất mạnh mẽ vào lúc này."
+    ],
+    "keywords": ["目前", "學科", "迅速"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "為了方便大家，公司決定延長營業時間。",
+    "referenceAnswers": [
+      "Để thuận tiện cho mọi người, công ty quyết định kéo dài thời gian mở cửa.",
+      "Nhằm tạo điều kiện thuận lợi, công ty đã gia hạn giờ kinh doanh.",
+      "Vì sự tiện lợi của khách hàng, giờ làm việc của công ty được kéo dài thêm.",
+      "Công ty quyết định đóng cửa muộn hơn để phục vụ mọi người tốt hơn.",
+      "Giờ mở cửa được công ty kéo dài nhằm mang lại sự thuận tiện cho công chúng."
+    ],
+    "keywords": ["方便", "決定", "延長"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他總是能冷靜地面對各種困難。",
+    "referenceAnswers": [
+      "Anh ấy luôn có thể bình tĩnh đối mặt với đủ loại khó khăn.",
+      "Cậu ấy luôn giữ được sự tỉnh táo trước mọi thử thách.",
+      "Dù khó khăn thế nào, anh ấy cũng luôn bình tĩnh giải quyết.",
+      "Sự bình tĩnh giúp anh ấy đương đầu với mọi rắc rối.",
+      "Anh ta luôn điềm tĩnh khi gặp phải những tình huống khó khăn."
+    ],
+    "keywords": ["總是", "冷靜", "困難"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這次活動的目的是為了加強團隊合作。",
+    "referenceAnswers": [
+      "Mục đích của hoạt động lần này là nhằm tăng cường sự hợp tác nhóm.",
+      "Sự kiện này được tổ chức để củng cố tinh thần làm việc tập thể.",
+      "Hoạt động này hướng tới việc nâng cao khả năng phối hợp đồng đội.",
+      "Tăng cường làm việc nhóm là mục tiêu chính của chương trình này.",
+      "Chúng tôi tổ chức hoạt động này để mọi người hợp tác với nhau tốt hơn."
+    ],
+    "keywords": ["目的", "加強", "合作"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他在那個城市生活了很長時間。",
+    "referenceAnswers": [
+      "Anh ấy đã sống ở thành phố đó trong một thời gian dài.",
+      "Cậu ấy đã ở thành phố kia rất lâu.",
+      "Khoảng thời gian anh ấy sống ở thành phố đó là khá dài.",
+      "Anh ta đã gắn bó với thành phố đó suốt nhiều năm.",
+      "Anh ấy sinh sống tại thành phố đó một thời gian không hề ngắn."
+    ],
+    "keywords": ["城市", "生活", "長時間"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這家書店的書種類非常齊全。",
+    "referenceAnswers": [
+      "Các loại sách ở tiệm này rất đầy đủ.",
+      "Nhà sách này có danh mục sách cực kỳ phong phú và trọn bộ.",
+      "Bạn có thể tìm thấy đủ mọi loại sách tại hiệu sách này.",
+      "Sách ở đây rất đa dạng, không thiếu loại nào.",
+      "Hiệu sách này cung cấp đầy đủ các thể loại sách khác nhau."
+    ],
+    "keywords": ["書店", "種類", "齊全"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他正在考慮是否要辭職。",
+    "referenceAnswers": [
+      "Anh ấy đang cân nhắc xem có nên xin nghỉ việc hay không.",
+      "Cậu ấy đang xem xét việc thôi việc.",
+      "Anh ta đang suy nghĩ về việc có nên từ chức không.",
+      "Việc nghỉ việc đang được anh ấy cân nhắc kỹ lưỡng.",
+      "Anh ấy đang đắn đo chuyện có nên bỏ việc không."
+    ],
+    "keywords": ["考慮", "是否", "辭職"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這場比賽的結果讓人感到非常驚訝。",
+    "referenceAnswers": [
+      "Kết quả của trận đấu này khiến mọi người cảm thấy rất ngạc nhiên.",
+      "Mọi người đều vô cùng bất ngờ trước kết quả của cuộc thi này.",
+      "Kết quả trận đấu đã gây ra một sự ngạc nhiên lớn.",
+      "Thật bất ngờ khi biết kết quả của trận đấu này.",
+      "Ai cũng kinh ngạc trước tỉ số của trận đấu vừa rồi."
+    ],
+    "keywords": ["比賽", "結果", "驚訝"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他對這門技術的研究非常深入。",
+    "referenceAnswers": [
+      "Nghiên cứu của anh ấy về kỹ thuật này rất sâu sắc.",
+      "Anh ấy nghiên cứu rất chuyên sâu về công nghệ này.",
+      "Việc nghiên cứu chuyên sâu công nghệ này là công lao của anh ấy.",
+      "Anh ta có kiến thức rất uyên thâm về kỹ thuật này.",
+      "Anh ấy đã đào sâu nghiên cứu về lĩnh vực công nghệ đó."
+    ],
+    "keywords": ["技術", "研究", "深入"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這場演講引發了觀眾的強烈共鳴。",
+    "referenceAnswers": [
+      "Bài diễn thuyết này đã khơi dậy sự đồng cảm mạnh mẽ từ khán giả.",
+      "Buổi diễn thuyết đã tạo ra sự cộng hưởng lớn đối với người nghe.",
+      "Bài nói chuyện này khiến khán thính giả vô cùng xúc động.",
+      "Bài diễn văn đã nhận được sự ủng hộ nhiệt liệt từ công chúng.",
+      "Thông điệp của bài nói đã chạm đến trái tim của nhiều người xem."
+    ],
+    "keywords": ["演講", "引發", "共鳴"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "政府正致力於改善民生問題。",
+    "referenceAnswers": [
+      "Chính phủ đang nỗ lực cải thiện các vấn đề dân sinh.",
+      "Nhà nước đang dồn sức vào việc nâng cao đời sống nhân dân.",
+      "Chính quyền đang tập trung giải quyết các vấn đề sinh kế của người dân.",
+      "Việc cải thiện đời sống cộng đồng đang được chính phủ ưu tiên.",
+      "Chính phủ đang thực hiện các biện pháp để đời sống người dân tốt hơn."
+    ],
+    "keywords": ["政府", "致力", "民生"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "她的表演給人留下了深刻的印象。",
+    "referenceAnswers": [
+      "Màn trình diễn của cô ấy để lại ấn tượng sâu đậm cho mọi người.",
+      "Phần biểu diễn của cô ấy đã gây ấn tượng mạnh mẽ cho người xem.",
+      "Cô ấy đã có một màn hóa thân rất ấn tượng trên sân khấu.",
+      "Diễn xuất của cô ấy làm người xem phải nhớ mãi.",
+      "Ấn tượng sâu sắc là điều cô ấy để lại sau buổi biểu diễn."
+    ],
+    "keywords": ["表演", "留下", "印象"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這項工程的進度比預期要快得多。",
+    "referenceAnswers": [
+      "Tiến độ của công trình này nhanh hơn nhiều so với dự kiến.",
+      "Dự án này đang hoàn thành sớm hơn mong đợi.",
+      "Tiến trình công việc thực tế diễn ra nhanh hơn kế hoạch ban đầu.",
+      "Công trình này đang vượt tiến độ đề ra khá xa.",
+      "Tốc độ thi công hiện tại nhanh hơn những gì đã tính toán."
+    ],
+    "keywords": ["工程", "進度", "預期"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我們必須採取有效措施來減少污染。",
+    "referenceAnswers": [
+      "Chúng ta phải áp dụng các biện pháp hiệu quả để giảm thiểu ô nhiễm.",
+      "Cần có những hành động thiết thực nhằm cắt giảm sự ô nhiễm.",
+      "Chúng ta cần thực hiện các giải pháp hữu hiệu để bảo vệ môi trường.",
+      "Giảm ô nhiễm bằng các biện pháp hiệu quả là việc bắt buộc phải làm.",
+      "Cần triển khai các kế hoạch thực tế để kéo giảm tình trạng ô nhiễm."
+    ],
+    "keywords": ["採取", "措施", "減少", "污染"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他具有豐富的工作經驗和專業知識。",
+    "referenceAnswers": [
+      "Anh ấy có kinh nghiệm làm việc phong phú và kiến thức chuyên môn.",
+      "Anh ta sở hữu bề dày kinh nghiệm cùng trình độ chuyên sâu.",
+      "Cậu ấy có rất nhiều kinh nghiệm kèm theo kiến thức chuyên ngành vững vàng.",
+      "Kinh nghiệm và kiến thức chuyên môn của anh ấy rất đáng nể.",
+      "Lượng kinh nghiệm và kiến thức của anh ấy thực sự rất lớn."
+    ],
+    "keywords": ["豐富", "經驗", "專業知識"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這家公司的誠信贏得了客戶的信任。",
+    "referenceAnswers": [
+      "Sự chính trực của công ty này đã chiếm được lòng tin của khách hàng.",
+      "Uy tín của doanh nghiệp đã giúp họ có được sự tin cậy từ phía người dùng.",
+      "Lòng tin của khách hàng đến từ sự trung thực trong kinh doanh của công ty.",
+      "Công ty này rất giữ chữ tín nên vì thế khách hàng rất tin tưởng.",
+      "Sự trung thực đã mang về niềm tin từ khách hàng cho công ty này."
+    ],
+    "keywords": ["誠信", "贏得", "信任"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "應該互相尊重對方的文化差異。",
+    "referenceAnswers": [
+      "Chúng ta nên tôn trọng sự khác biệt văn hóa của nhau.",
+      "Cần có sự tôn trọng lẫn nhau về mặt văn hóa.",
+      "Sự khác biệt văn hóa cần được chúng ta trân trọng và thấu hiểu.",
+      "Nên chấp nhận và tôn trọng những điểm khác nhau về văn hóa của đối phương.",
+      "Chúng mình cần tôn trọng những nét văn hóa khác biệt của nhau."
+    ],
+    "keywords": ["互相", "尊重", "差異"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他能夠冷靜地分析複雜的情況。",
+    "referenceAnswers": [
+      "Anh ấy có khả năng bình tĩnh phân tích những tình huống phức tạp.",
+      "Anh ta luôn giữ được sự tỉnh táo để mổ xẻ những vấn đề khó khăn.",
+      "Cậu ấy có thể điềm tĩnh đưa ra nhận định về các trường hợp rắc rối.",
+      "Sự bình tĩnh đã giúp anh ấy phân tích được các tình huống khó.",
+      "Anh ấy phân tích các tình huống rắc rối một cách rất bình thản."
+    ],
+    "keywords": ["冷靜", "分析", "複雜"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "教育對一個人的未來發展至關重要。",
+    "referenceAnswers": [
+      "Giáo dục có tầm quan trọng sống còn đối với sự phát triển của một cá nhân trong tương lai.",
+      "Việc học hành quyết định rất lớn đến tương lai của mỗi người.",
+      "Giáo dục là yếu tố then chốt cho sự thành công sau này.",
+      "Sự phát triển mai sau phụ thuộc cực kỳ nhiều vào giáo dục.",
+      "Học vấn giữ vai trò then chốt cho tương lai của mỗi cá nhân."
+    ],
+    "keywords": ["教育", "未來發展", "至關重要"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這場音樂會吸引了成千上萬的粉絲。",
+    "referenceAnswers": [
+      "Buổi hòa nhạc này đã thu hút hàng hàng ngàn người hâm mộ.",
+      "Hàng vạn fan đã đổ xô đến buổi trình diễn âm nhạc này.",
+      "Đêm nhạc đã lôi cuốn hàng ngàn người yêu âm nhạc tham gia.",
+      "Có hàng lố người hâm mộ đã tới buổi hòa nhạc đó.",
+      "Buổi concert này thực sự đã hút một lượng fan khổng lồ."
+    ],
+    "keywords": ["音樂會", "吸引", "粉絲"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他在工作中展現出了極高的熱情。",
+    "referenceAnswers": [
+      "Anh ấy đã thể hiện niềm đam mê cực kỳ cao trong công việc.",
+      "Sự nhiệt huyết lớn đã được anh ấy bộc lộ khi làm việc.",
+      "Anh ta luôn làm việc với một sự nhiệt tình rất đáng nể.",
+      "Niềm say mê công việc của anh ấy thật sự rất đáng kinh ngạc.",
+      "Làm việc với thái độ hăng hái là phong cách của anh ấy."
+    ],
+    "keywords": ["展現", "熱情"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這本書的語言風格非常幽默有趣。",
+    "referenceAnswers": [
+      "Phong cách ngôn ngữ của cuốn sách này rất hài hước và thú vị.",
+      "Quyển sách này được viết với giọng văn hóm hỉnh và hay ho.",
+      "Cách dùng từ trong sách này thật sự rất vui nhộn và lôi cuốn.",
+      "Cuốn sách có lối hành văn rất buồn cười và đáng yêu.",
+      "Ngôn ngữ của tác phẩm này đầy sự hài hước và trí tuệ."
+    ],
+    "keywords": ["語言", "風格", "幽默"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我們應該珍惜大自然賜予我們的禮物。",
+    "referenceAnswers": [
+      "Chúng ta nên trân trọng những món quà mà thiên nhiên ban tặng.",
+      "Hãy biết ơn và bảo vệ những gì tự nhiên mang lại cho chúng ta.",
+      "Trân quý những món quà của tạo hóa là điều chúng ta nên làm.",
+      "Thiên nhiên đã ban tặng nhiều thứ và chúng ta cần phải giữ gìn chúng.",
+      "Nên trân trọng các giá trị tự nhiên quanh mình."
+    ],
+    "keywords": ["珍惜", "大自然", "禮物"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這家公司正面臨著嚴峻的挑戰。",
+    "referenceAnswers": [
+      "Công ty này đang phải đối mặt với những thách thức nghiêm trọng.",
+      "Doanh nghiệp kia hiện đang gặp phải những khó khăn rất lớn.",
+      "Thử thách gay gắt đang là vấn đề của công ty này vào lúc này.",
+      "Công ty đang ở trong một giai đoạn đầy thử thách và khó khăn.",
+      "Đối mặt với thách thức khắc nghiệt là tình trạng của công ty hiện nay."
+    ],
+    "keywords": ["面臨", "嚴峻", "挑戰"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他對未來的職業生涯充滿了信心。",
+    "referenceAnswers": [
+      "Anh ấy đầy tự tin vào sự nghiệp tương lai của mình.",
+      "Cậu ấy luôn tin tưởng vào con đường nghề nghiệp sắp tới.",
+      "Sự tự tin vào tương lai công việc luôn rực cháy trong anh ấy.",
+      "Anh ta tin rằng mình sẽ có một sự nghiệp thành công phía trước.",
+      "Lòng tự tin về nghề nghiệp tương lai là điều anh ấy luôn có."
+    ],
+    "keywords": ["職業生涯", "充滿", "信心"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這場講座內容豐富，讓人獲益良多。",
+    "referenceAnswers": [
+      "Buổi diễn thuyết này có nội dung phong phú, giúp ích được rất nhiều.",
+      "Khán giả đã học hỏi được không ít điều từ buổi nói chuyện đầy bổ ích này.",
+      "Nội dung của bài giảng rất đa dạng và mang lại nhiều giá trị.",
+      "Tham dự buổi tọa đàm này thật đúng đắn vì nó rất hay.",
+      "Mọi người nhận được rất nhiều kiến thức từ buổi trình bày đó."
+    ],
+    "keywords": ["講座", "內容", "獲益良多"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他在科研領域取得了顯著的成就。",
+    "referenceAnswers": [
+      "Anh ấy đã đạt được những thành tựu đáng kể trong lĩnh vực nghiên cứu khoa học.",
+      "Nhiều thành tích vượt trội đã được anh ấy xác lập trong ngành khoa học.",
+      "Anh ta là một nhân vật có nhiều đóng góp lớn cho hoạt động nghiên cứu.",
+      "Thành công trong nghiên cứu khoa học của anh ấy là rất rõ rệt.",
+      "Anh ấy đã gặt hái được nhiều thành công vang dội khi làm khoa học."
+    ],
+    "keywords": ["科研", "領域", "成就"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這家公司的創新能力在行業內領先。",
+    "referenceAnswers": [
+      "Khả năng sáng tạo của công ty này đang dẫn đầu trong ngành.",
+      "Công ty này nổi tiếng với những ý tưởng đột phá nhất lĩnh vực.",
+      "Năng lực đổi mới sáng tạo giúp họ đứng đầu thị trường hiện nay.",
+      "Dẫn đầu ngành về sáng tạo chính là ưu thế của công ty này.",
+      "Trong lĩnh vực này, không ai qua được họ về mặt sáng tạo."
+    ],
+    "keywords": ["創新", "能力", "領先"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他的建議對解決問題非常有幫助。",
+    "referenceAnswers": [
+      "Gợi ý của anh ấy rất hữu ích trong việc giải quyết vấn đề.",
+      "Lời khuyên từ phía anh ấy đã giúp ích rất lớn cho việc tháo gỡ khó khăn.",
+      "Nhờ có ý kiến của anh ấy mà vấn đề đã được giải quyết nhanh gọn.",
+      "Góp ý của anh ấy thực sự đã tạo ra sự khác biệt cho giải pháp.",
+      "Những gì anh ấy đề xuất đã hỗ trợ rất nhiều cho chúng tôi."
+    ],
+    "keywords": ["建議", "解決問題", "幫助"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這門技術的應用前景非常廣闊。",
+    "referenceAnswers": [
+      "Triển vọng ứng dụng của kỹ thuật này rất rộng mở.",
+      "Công nghệ này hứa hẹn sẽ được áp dụng trong rất nhiều lĩnh vực.",
+      "Tương lai của việc đưa kỹ thuật này vào thực tiễn là cực kỳ tiềm năng.",
+      "Có rất nhiều không gian cho việc phát triển công nghệ này.",
+      "Ứng dụng thực tế của nó sẽ mang lại những thay đổi lớn."
+    ],
+    "keywords": ["技術", "應用", "前景"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他在體育比賽中展現出了頑強的毅力。",
+    "referenceAnswers": [
+      "Anh ấy đã thể hiện ý chí quật cường trong cuộc thi đấu thể thao.",
+      "Sự bền bỉ và kiên cường đã được anh bộc lộ khi thi đấu.",
+      "Nghị lực phi thường của anh ấy là yếu tố giúp anh chiến thắng.",
+      "Anh ta đã thi đấu với một tinh thần không bao giờ bỏ cuộc.",
+      "Ý chí thép đã được anh ấy thể hiện rõ nét trên sân đấu."
+    ],
+    "keywords": ["體育", "展現", "毅力"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這本書引發了讀者對於社會問題的深思。",
+    "referenceAnswers": [
+      "Cuốn sách đã khiến người đọc phải suy ngẫm sâu sắc về các vấn đề xã hội.",
+      "Tác phẩm gợi ra những trăn trở về hiện trạng xã hội cho độc giả.",
+      "Nhiều vấn đề của xã hội đã được người đọc nhìn nhận lại sau khi xem sách.",
+      "Cuốn sách này có giá trị thức tỉnh cao đối với cộng đồng đọc sách.",
+      "Độc giả bị lôi cuốn vào những suy nghĩ về tương lai của xã hội."
+    ],
+    "keywords": ["引發", "讀者", "深思"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我們應該更加努力地工作來實現夢想。",
+    "referenceAnswers": [
+      "Chúng ta nên làm việc chăm chỉ hơn để hiện thực hóa ước mơ.",
+      "Sự nỗ lực trong công việc là chìa khóa để đạt được giấc mơ của mình.",
+      "Làm việc hết mình sẽ giúp chúng ta chạm tới những điều hằng mong đợi.",
+      "Chúng ta cần cố gắng nhiều hơn để biến ước mơ thành sự thật.",
+      "Hãy dốc sức làm việc vì những mục tiêu mà chúng ta đã đề ra."
+    ],
+    "keywords": ["努力", "工作", "實現夢想"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "雖然下雨了，但他還是去上班。",
+    "referenceAnswers": [
+      "Mặc dù trời mưa nhưng anh ấy vẫn đi làm.",
+      "Tuy rằng trời đang mưa, anh ấy vẫn tới công ty.",
+      "Mặc kệ trời mưa, anh ấy vẫn không nghỉ làm.",
+      "Dẫu trời có mưa thì anh ấy vẫn đi làm như bình thường.",
+      "Trời mưa nhưng anh ấy vẫn đi làm, thật là chăm chỉ."
+    ],
+    "keywords": ["雖然", "下雨", "上班"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我的習慣是起床後馬上刷牙。",
+    "referenceAnswers": [
+      "Thói quen của tôi là đánh răng ngay sau khi ngủ dậy.",
+      "Tôi có thói quen đánh răng ngay khi vừa thức giấc.",
+      "Việc đầu tiên tôi làm sau khi ngủ dậy là đánh răng.",
+      "Sau khi thức dậy, tôi luôn giữ thói quen đánh răng ngay.",
+      "Thức dậy và đánh răng ngay lập tức là thói quen của tôi."
+    ],
+    "keywords": ["習慣", "起床", "刷牙"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這部電視的聲音真的太大了。",
+    "referenceAnswers": [
+      "Âm thanh của chiếc tivi này thật sự quá lớn.",
+      "Tiếng từ cái tivi này to quá mức rồi đấy.",
+      "Âm lượng của tivi này thực sự rất ồn ào.",
+      "Chiếc tivi này phát ra âm thanh quá to.",
+      "Tiếng tivi này lớn quá, hãy vặn nhỏ lại đi."
+    ],
+    "keywords": ["聲音", "電視", "太大"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這份禮物真奇怪，我不知道是誰送的。",
+    "referenceAnswers": [
+      "Món quà này thật là kì lạ, tôi không biết ai gửi nó.",
+      "Món quà này lạ lùng quá, mình chẳng biết ai đã tặng.",
+      "Thật kì quặc, mình không biết chủ nhân món quà này là ai.",
+      "Món quà này trông thật lạ mắt, không biết là của ai gửi.",
+      "Mình đang thắc mắc không biết ai đã gửi món quà lạ này."
+    ],
+    "keywords": ["奇怪", "禮物", "不知道"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "今天早上是晴天，我們去公園玩吧。",
+    "referenceAnswers": [
+      "Sáng nay trời nắng đẹp, chúng ta đi công viên chơi nhé.",
+      "Sáng hôm nay trời hửng nắng, đi công viên chơi thôi nào.",
+      "Vì trời sáng nay nắng ráo nên chúng mình đi công viên nhé.",
+      "Thời tiết sáng nay rất đẹp, chúng ta ra công viên chơi đi.",
+      "Sáng nay trời không mưa, đi công viên chơi là nhất."
+    ],
+    "keywords": ["晴天", "公園", "玩"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我在桌子下面找到了丟失的鉛筆。",
+    "referenceAnswers": [
+      "Tôi đã tìm thấy chiếc bút chì bị mất ở dưới gầm bàn.",
+      "Chiếc bút chì thất lạc bấy lâu, tôi đã tìm thấy dưới bàn.",
+      "Hóa ra chiếc bút chì nằm ở dưới gầm bàn, tôi tìm thấy rồi.",
+      "Tôi vừa tìm được cây bút chì bị mất ở ngay dưới bàn.",
+      "Bút chì bị mất đã được tôi tìm thấy ở dưới cái bàn."
+    ],
+    "keywords": ["找到", "鉛筆", "桌下"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我們打算辦個派對來慶祝老師的生日。",
+    "referenceAnswers": [
+      "Chúng tôi định tổ chức một buổi tiệc để chúc mừng ngày sinh nhật của thầy.",
+      "Chúng mình sẽ mở tiệc mừng sinh nhật thầy giáo.",
+      "Một bữa tiệc sinh nhật cho thầy đang được chúng mình lên kế hoạch.",
+      "Chúng tôi dự định tổ chức tiệc sinh nhật thật lớn cho thầy.",
+      "Mừng sinh nhật thầy, chúng mình sẽ cùng nhau làm một bữa tiệc."
+    ],
+    "keywords": ["慶祝", "生日", "派對"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他認為這件事一點也不危險。",
+    "referenceAnswers": [
+      "Anh ấy cho rằng việc này không hề nguy hiểm chút nào.",
+      "Theo anh ấy thì việc này hoàn toàn an toàn.",
+      "Anh ấy tin chắc rằng việc này chẳng có gì là nguy hiểm.",
+      "Cậu ấy nhận định việc này không hề mang lại rủi ro.",
+      "Đối với anh ấy, công việc này chẳng có chút nguy hiểm nào."
+    ],
+    "keywords": ["認為", "危險", "一點也不"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "媽媽叮囑我要一直保持身體健康。",
+    "referenceAnswers": [
+      "Mẹ dặn tôi phải luôn giữ gìn sức khỏe thật tốt.",
+      "Mẹ nhắc nhở tôi lúc nào cũng phải quan tâm tới sức khỏe.",
+      "Lời mẹ dặn là phải luôn luôn khỏe mạnh.",
+      "Mẹ tôi luôn bảo tôi phải để ý đến sức khỏe của mình.",
+      "Dặn dò của mẹ là tôi cần phải giữ cho cơ thể luôn khỏe."
+    ],
+    "keywords": ["媽媽", "健康", "保持"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這本小說非常有名，很多人都喜歡看。",
+    "referenceAnswers": [
+      "Quyển tiểu thuyết này rất nổi tiếng và được nhiều người yêu thích.",
+      "Cuốn tiểu thuyết này có lượng người đọc rất lớn vì độ nổi tiếng.",
+      "Đây là một tác phẩm tiểu thuyết lừng danh, ai cũng thích đọc.",
+      "Rất nhiều người tìm đọc quyển tiểu thuyết nổi tiếng này.",
+      "Tiểu thuyết này rất hay và nổi tiếng, nhiều người mê lắm."
+    ],
+    "keywords": ["有名", "小說", "喜歡"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我聽說這個城市有很多好風景。",
+    "referenceAnswers": [
+      "Tôi nghe nói thành phố này có rất nhiều cảnh đẹp.",
+      "Nghe mọi người kể là thành phố này có nhiều danh lam thắng cảnh.",
+      "Mình nghe phong phanh thành phố này có nhiều chỗ chơi đẹp lắm.",
+      "Người ta bảo thành phố này rất đẹp với nhiều cảnh quan.",
+      "Nghe nói là ở thành phố này có không thiếu cảnh đẹp để xem."
+    ],
+    "keywords": ["聽說", "城市", "風景"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他給我買了一杯很好喝的柳橙汁。",
+    "referenceAnswers": [
+      "Anh ấy đã mua cho tôi một ly nước cam rất ngon.",
+      "Cậu ấy mua tặng mình một cốc nước ép cam vị rất tuyệt.",
+      "Một ly nước cam ngon lành đã được anh ấy mua cho mình.",
+      "Anh ấy mang đến cho mình một ly nước cam cực kỳ ngon.",
+      "Nước cam anh ấy mua cho mình uống rất là vừa miệng."
+    ],
+    "keywords": ["買", "柳橙汁", "好吃"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "前天他去看了一場很精彩的足球比賽。",
+    "referenceAnswers": [
+      "Hôm kia anh ấy đã đi xem một trận đấu bóng đá rất kịch tính.",
+      "Trận bóng đá hôm kia anh ấy đi xem thật là hấp dẫn.",
+      "Anh ấy đã xem một trận bóng đá hay vào ngày hôm kia.",
+      "Hôm kia, một trận bóng kịch tính đã được anh ấy theo dõi.",
+      "Anh ấy đi xem bóng đá vào hôm kia và nó rất tuyệt vời."
+    ],
+    "keywords": ["前天", "足球比賽", "精彩"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我希望明天的天氣會比今天好。",
+    "referenceAnswers": [
+      "Tôi hy vọng rằng thời tiết ngày mai sẽ tốt hơn hôm nay.",
+      "Mong là ngày mai trời sẽ đẹp hơn ngày hôm nay.",
+      "Hy vọng thời tiết ngày mai hửng nắng và đẹp hơn hôm nay.",
+      "Ước gì ngày mai thời tiết tốt hơn chút so với hôm nay.",
+      "Mình mong rằng ngày mai trời sẽ không còn tệ như hôm nay."
+    ],
+    "keywords": ["希望", "明天", "天氣"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我們一起努力完成這項工作吧。",
+    "referenceAnswers": [
+      "Chúng ta hãy cùng nhau cố gắng để hoàn thành công việc này.",
+      "Hãy cùng nỗ lực dốc sức cho xong công việc này nhé.",
+      "Chúng mình cùng cố gắng để kết thúc công việc này sớm.",
+      "Mọi người cùng nhau nỗ lực để hoàn tất phần việc này nào.",
+      "Hãy cùng đồng lòng để hoàn thành tốt công việc được giao."
+    ],
+    "keywords": ["一起", "努力", "完成"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他對朋友一直都很真誠。",
+    "referenceAnswers": [
+      "Anh ấy luôn đối xử rất chân thành với bạn bè.",
+      "Sự chân thành là cách mà anh ấy đối đãi với bạn bè mình.",
+      "Cậu ấy luôn hết lòng và thật thà với những người bạn.",
+      "Anh ấy chưa bao giờ gian dối với bạn bè, luôn rất chân thành.",
+      "Anh ta là một người bạn cực kỳ chân thành và đáng tin."
+    ],
+    "keywords": ["朋友", "真誠", "對待"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我每天都花一點時間看小說。",
+    "referenceAnswers": [
+      "Mỗi ngày tôi đều dành một ít thời gian để đọc tiểu thuyết.",
+      "Đọc tiểu thuyết là việc tôi làm mỗi ngày dù bận rộn.",
+      "Hằng ngày tôi luôn bớt chút thời gian để xem tiểu thuyết.",
+      "Ngày nào tôi cũng dành ra một khoảng thời gian cho tiểu thuyết.",
+      "Tiểu thuyết là niềm vui mỗi ngày của tôi sau giờ làm việc."
+    ],
+    "keywords": ["每天", "時間", "看小說"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他突然覺得很無聊。",
+    "referenceAnswers": [
+      "Anh ấy đột nhiên cảm thấy rất buồn chán.",
+      "Cảm giác vô vị bỗng dưng ập đến với anh ấy.",
+      "Anh ấy bỗng thấy trong lòng trống trải và chán nản.",
+      "Đột nhiên anh ấy thấy chẳng có gì làm mình hứng thú.",
+      "Anh ta cảm thấy buồn chán một cách bất thình lình."
+    ],
+    "keywords": ["突然", "覺得", "無聊"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "西瓜是我夏天最喜歡的水果。",
+    "referenceAnswers": [
+      "Dưa hấu là loại trái cây mà tôi yêu thích nhất trong mùa hè.",
+      "Hoa quả mình thích nhất vào mùa hè chính là dưa hấu.",
+      "Dưa hấu là món tráng miệng giải nhiệt mình mê nhất mùa hè.",
+      "Mùa hè mà được ăn dưa hấu thì đúng là sở thích của mình.",
+      "Trong các loại quả mùa hè, dưa hấu luôn là số một đối với mình."
+    ],
+    "keywords": ["西瓜", "夏天", "喜歡"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這段音樂的聲音真的很好聽。",
+    "referenceAnswers": [
+      "Âm thanh của bản nhạc này thật sự rất êm tai.",
+      "Giai điệu của đoạn nhạc này nghe rất bắt tai và hay.",
+      "Âm thanh phát ra từ bản nhạc này thật sống động và hay.",
+      "Nghe đoạn nhạc này thật là dễ chịu và đi vào lòng người.",
+      "Bản nhạc này có âm thanh tuyệt vời, nghe rất thích."
+    ],
+    "keywords": ["聲音", "音樂", "好聽"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他相信自己能達到目標。",
+    "referenceAnswers": [
+      "Anh ấy tin rằng mình có thể đạt được mục tiêu đã đề ra.",
+      "Anh ấy có niềm tin sẽ chinh phục được mục tiêu của mình.",
+      "Việc đạt được mục tiêu là điều mà anh ấy luôn tin tưởng.",
+      "Cậu ấy tin vào khả năng hoàn thành mục tiêu của bản thân.",
+      "Anh ta chắc chắn mình sẽ đạt tới đích mà mình mong muốn."
+    ],
+    "keywords": ["相信", "自己", "目標"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我的行李真的很重，幫我一下吧。",
+    "referenceAnswers": [
+      "Hành lý của tôi thực sự rất nặng, giúp tôi một chút nhé.",
+      "Giúp mình một tay với, vali của mình nặng quá.",
+      "Làm ơn phụ mình khuân đồ, hành lý nặng kinh khủng.",
+      "Hành lý này nặng quá tầm tay của mình, bạn giúp mình nhé.",
+      "Nhờ bạn xách hộ mình cái túi, nó nặng quá rồi."
+    ],
+    "keywords": ["行李", "重", "幫"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我有時會去家附近的森林散步。",
+    "referenceAnswers": [
+      "Tôi thỉnh thoảng đi dạo trong khu rừng gần nhà.",
+      "Thi thoảng mình lại ra khu rừng cạnh nhà để tản bộ.",
+      "Đi dạo rừng là thói quen thỉnh thoảng của mình khi ở nhà.",
+      "Mình hay ra sau nhà đi dạo trong rừng mỗi khi rảnh rỗi.",
+      "Thỉnh thoảng hít thở không khí rừng gần nhà là sở thích của mình."
+    ],
+    "keywords": ["有時候", "森林", "散步"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "她感到很榮幸能參加這個典禮。",
+    "referenceAnswers": [
+      "Cô ấy cảm thấy rất vinh dự khi được tham gia buổi lễ này.",
+      "Được dự buổi lễ này là niềm vinh dự lớn đối với cô ấy.",
+      "Cô ấy thấy thật hãnh diện khi có mặt tại buổi lễ trọng đại.",
+      "Việc tham gia vào buổi lễ làm cô ấy thấy mình thật may mắn.",
+      "Cô ấy rất trân trọng cơ hội được góp mặt trong buổi lễ này."
+    ],
+    "keywords": ["榮幸", "參加", "典禮"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "他經常練習正確的刷牙方法。",
+    "referenceAnswers": [
+      "Anh ấy thường xuyên tập luyện đánh răng đúng cách.",
+      "Cậu ấy luôn cố gắng thực hiện việc đánh răng sao cho chuẩn.",
+      "Đánh răng đúng quy trình là điều anh ấy rèn luyện mỗi ngày.",
+      "Anh ấy chăm chỉ tập cách chải răng để bảo vệ sức khỏe.",
+      "Tập luyện vệ sinh răng miệng đúng cách giúp anh ấy tự tin hơn."
+    ],
+    "keywords": ["常常", "練習", "刷牙"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "今年夏天我打算去大叻旅遊。",
+    "referenceAnswers": [
+      "Mùa hè năm nay tôi định đi du lịch Đà Lạt.",
+      "Tôi lên kế hoạch đi chơi Đà Lạt vào kỳ nghỉ hè này.",
+      "Mùa hè này tôi chuẩn bị làm một chuyến du lịch đến Đà Lạt.",
+      "Tôi dự định sẽ đi thăm Đà Lạt trong mùa hè năm nay.",
+      "Đà Lạt là điểm đến du lịch mà tôi dự định cho hè này."
+    ],
+    "keywords": ["夏天", "打算", "旅遊", "大叻"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "謝謝你給了我這麼多幫助。",
+    "referenceAnswers": [
+      "Cám ơn bạn đã giúp đỡ tôi rất nhiều.",
+      "Rất cảm ơn sự hỗ trợ nhiệt tình của bạn dành cho tôi.",
+      "Cảm ơn vì bạn đã giúp mình một tay thật đắc lực.",
+      "Nhờ có sự giúp đỡ của bạn mà mọi việc thật tốt, cảm ơn nhé.",
+      "Tôi vô cùng biết ơn những gì bạn đã giúp đỡ tôi suốt thời gian qua."
+    ],
+    "keywords": ["謝謝", "幫助"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我認為學習外語非常重要。",
+    "referenceAnswers": [
+      "Tôi nghĩ rằng việc học ngoại ngữ rất quan trọng.",
+      "Theo tôi thấy thì việc học thêm một ngôn ngữ mới là rất cần thiết.",
+      "Tôi nhận thấy việc làm chủ một ngoại ngữ có ý nghĩa rất lớn.",
+      "Học ngoại ngữ là điều quan trọng đối với tất cả mọi người.",
+      "Tôi hiểu rất rõ tầm quan trọng của việc học ngoại ngữ hiện nay."
+    ],
+    "keywords": ["認為", "學習", "外語", "重要"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "你能告訴我怎麼去超市嗎？",
+    "referenceAnswers": [
+      "Bạn có thể chỉ đường cho tôi đến siêu thị không?",
+      "Làm ơn cho hỏi đường đi đến siêu thị là đi như thế nào?",
+      "Bạn có thể giúp mình chỉ lối đi tới siêu thị gần đây không?",
+      "Cho hỏi siêu thị thì nằm ở hướng nào vậy ạ?",
+      "Bạn có thể dẫn mình tới cái siêu thị ở gần đây được không?"
+    ],
+    "keywords": ["告訴", "去", "超市"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "空閒時間我非常喜歡看小說。",
+    "referenceAnswers": [
+      "Tôi rất thích đọc tiểu thuyết vào thời gian rảnh.",
+      "Mình yêu thích việc đọc sách tiểu thuyết những lúc nhàn rỗi.",
+      "Khi không có việc gì làm mình thường lôi tiểu thuyết ra đọc.",
+      "Đọc tiểu thuyết là sở thích của mình vào thời gian rảnh rỗi.",
+      "Tôi thích thư giãn bằng cách đọc những bộ tiểu thuyết dài tập."
+    ],
+    "keywords": ["喜歡", "讀", "小說", "空閒時間"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "昨天我給弟弟買了一份禮物。",
+    "referenceAnswers": [
+      "Hôm qua tôi đã mua một món quà cho em trai.",
+      "Hôm qua mình đã đi chọn một món quà tặng cho em trai mình.",
+      "Mình đã mua một món đồ để làm quà sinh nhật cho em trai hôm qua.",
+      "Em trai mình hôm qua đã nhận được món quà mà mình mua tặng.",
+      "Hôm qua mình đã cất công đi mua đúng món quà mà em trai thích."
+    ],
+    "keywords": ["昨天", "買", "禮物", "弟弟"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "為了健康，我們應該每天運動。",
+    "referenceAnswers": [
+      "Chúng ta nên tập thể dục mỗi ngày để khỏe mạnh.",
+      "Chúng ta đều nên dành thời gian rèn luyện thân thể mỗi ngày.",
+      "Việc kiên trì tập thể dục hàng ngày rất tốt cho sức khỏe con người.",
+      "Để giữ gìn sức khỏe thì việc tập thể dục mỗi ngày là cần thiết.",
+      "Mọi người ai cũng nên thực hiện một vài bài tập thể dục mỗi ngày."
+    ],
+    "keywords": ["應該", "每天", "運動", "健康"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "你是你們班最高的學生嗎？",
+    "referenceAnswers": [
+      "Bạn cao nhất trong lớp của bạn phải không?",
+      "Trong lớp của bạn, bạn là người cao nhất có đúng không?",
+      "Bạn có phải là người sở hữu chiều cao tốt nhất trong lớp không?",
+      "Cho hỏi bạn có phải là thành viên cao nhất lớp mình không?",
+      "Trong lớp bạn ai là người cao nhất? Có phải là bạn không?"
+    ],
+    "keywords": ["班", "最高"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我不喜歡吃快餐，因為對健康不利。",
+    "referenceAnswers": [
+      "Tôi không thích ăn đồ ăn nhanh vì không tốt cho sức khỏe.",
+      "Mình thấy đồ ăn nhanh không lành mạnh nên mình không thích ăn.",
+      "Tôi ít khi ăn thức ăn nhanh vì chúng không có nhiều dinh dưỡng.",
+      "Đối với mình, đồ ăn nhanh chưa bao giờ là một lựa chọn tốt cho sức khỏe.",
+      "Tôi không chuộng đồ ăn nhanh vì nó thật sự không tốt cho cơ thể."
+    ],
+    "keywords": ["不喜歡", "吃", "快餐", "健康"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我們家周末常去公園散步。",
+    "referenceAnswers": [
+      "Gia đình tôi thường đi công viên vào cuối tuần.",
+      "Cuối tuần cả nhà mình rất thích ra công viên để vui chơi.",
+      "Mỗi dịp cuối tuần, gia đình mình đều dành thời gian ở công viên.",
+      "Nhà mình có thói quen đi dạo và thư giãn ở công viên vào cuối tuần.",
+      "Vào những ngày cuối tuần, gia đình tôi thường tụ họp ở công viên."
+    ],
+    "keywords": ["周末", "去", "公園"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "她的漢語說得很流利。",
+    "referenceAnswers": [
+      "Cô ấy nói tiếng Trung rất trôi chảy.",
+      "Cô ấy có thể nói một mạch tiếng phổ thông rất mượt mà.",
+      "Trình độ tiếng Trung của cô ấy rất tốt, nói năng rất loát.",
+      "Khả năng giao tiếp tiếng Trung của cô ấy cực kỳ trôi chảy.",
+      "Cô ấy phát âm và nói tiếng Trung một cách rất tự nhiên và trôi chảy."
+    ],
+    "keywords": ["漢語", "說", "流利"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我想送你一塊新手錶。",
+    "referenceAnswers": [
+      "Tôi muốn tặng bạn một chiếc đồng hồ mới.",
+      "Mình định tặng cho bạn một chiếc đồng hồ đeo tay mới.",
+      "Mình dự định sẽ mua một chiếc đồng hồ thật đẹp làm quà cho bạn.",
+      "Tặng cho bạn chiếc đồng hồ mới này, hy vọng bạn sẽ thích nó.",
+      "Mình mong muốn được tặng một chiếc đồng hồ mới cho bạn."
+    ],
+    "keywords": ["送", "手錶", "新"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我下午經常去圖書館學習。",
+    "referenceAnswers": [
+      "Buổi chiều tôi thường đến thư viện học bài.",
+      "Vào buổi chiều, mình thường hay ở lại thư viện để tự học.",
+      "Mình có thói quen dành thời gian buổi chiều ở thư viện để nghiên cứu.",
+      "Đi thư viện học bài đã trở thành hoạt động quen thuộc của mình mỗi chiều.",
+      "Hầu hết thời gian buổi chiều của mình đều diễn ra ở trong thư viện."
+    ],
+    "keywords": ["下午", "去", "圖書館", "學習"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這家店賣的水果非常新鮮。",
+    "referenceAnswers": [
+      "Cửa hàng này bán trái cây rất tươi.",
+      "Đồ hoa quả ở cửa hàng này lúc nào cũng trông rất ngon và tươi.",
+      "Trái cây ở đây đều là hàng mới nhập về nên rất tươi ngon.",
+      "Siêu thị mini này luôn đảm bảo trái cây tươi sạch mỗi ngày.",
+      "Độ tươi ngon của trái cây tại cửa hàng này được đánh giá rất cao."
+    ],
+    "keywords": ["這家店", "水果", "新鮮"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "你去過中國嗎？",
+    "referenceAnswers": [
+      "Bạn đã từng đi Trung Quốc chưa?",
+      "Bạn đã bao giờ đi du lịch sang Trung Quốc chưa vậy?",
+      "Bạn đã từng đặt chân đến đất nước Trung Quốc lần nào chưa?",
+      "Cho mình hỏi là bạn đã có lần nào đi Trung Quốc chưa nhỉ?",
+      "Số lần bạn đi sang Trung Quốc có nhiều không?"
+    ],
+    "keywords": ["去過", "中國"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我爸爸是這家公司的工程師。",
+    "referenceAnswers": [
+      "Bố tôi là kỹ sư làm việc tại công ty này.",
+      "Bố mình đang đảm nhận vị trí kỹ sư trưởng tại công ty đó.",
+      "Cha tôi đang công tác với vai trò là kỹ sư ở doanh nghiệp này.",
+      "Kỹ sư của công ty này chính là bố của mình đấy.",
+      "Bố mình làm các công việc liên quan đến kỹ thuật tại công ty này."
+    ],
+    "keywords": ["爸爸", "這家公司", "工程師"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我感覺有點累，想休息一下。",
+    "referenceAnswers": [
+      "Tôi cảm thấy hơi mệt, muốn nghỉ ngơi một chút.",
+      "Mình thấy mệt quá, định sẽ đi nằm nghỉ một lát đây.",
+      "Tôi cảm thấy sức lực hơi cạn kiệt nên muốn được nghỉ ngơi.",
+      "Mình muốn dành thời gian để nghỉ ngơi, dạo này thấy mệt mỏi quá.",
+      "Cơ thể mình thấy hơi đuối, cần được nghỉ ngơi để hồi phục."
+    ],
+    "keywords": ["累", "休息", "一下"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "越南河粉在世界上非常有名。",
+    "referenceAnswers": [
+      "Món phở Việt Nam nổi tiếng khắp thế giới.",
+      "Phở Việt Nam là món ăn đã vang danh trên toàn thế giới.",
+      "Mọi người ở khắp nơi trên thế giới đều biết đến món phở Việt.",
+      "Phở chính là một nét tinh hoa ẩm thực nổi tiếng của Việt Nam.",
+      "Món phở truyền thống của Việt Nam đã được quốc tế công nhận dánh giá cao."
+    ],
+    "keywords": ["越南河粉", "有名", "世界"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我做家務時經常聽音樂。",
+    "referenceAnswers": [
+      "Tôi thường nghe nhạc khi đang làm việc nhà.",
+      "Thói quen của mình là vừa làm việc nhà vừa thưởng thức âm nhạc.",
+      "Mình rất thích cảm giác được nghe nhạc trong lúc dọn dẹp nhà cửa.",
+      "Mỗi khi làm việc nhà, mình đều bật một chút nhạc cho thư thái.",
+      "Nghe nhạc giúp mình cảm thấy việc dọn nhà trở nên nhẹ nhàng hơn nhiều."
+    ],
+    "keywords": ["聽音樂", "做家務"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我今天忘記帶雨傘了。",
+    "referenceAnswers": [
+      "Hôm nay tôi quên mang theo ô rồi.",
+      "Hôm nay rời khỏi nhà mà mình lại quên mất cây dù.",
+      "Thôi chết, hôm nay mình quên không cầm theo cái ô rồi.",
+      "Hôm nay mình lỡ để quên ô ở nhà, hy vọng chiều nay không mưa.",
+      "Cây dù của mình hiện đang bị bỏ quên ở nhà mất rồi."
+    ],
+    "keywords": ["忘記", "帶", "雨傘"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "你最喜歡看哪種類型的電影？",
+    "referenceAnswers": [
+      "Bạn thích xem loại phim nào nhất?",
+      "Thể loại phim nào là sở thích hàng đầu của bạn vậy?",
+      "Bình thường bạn hay ưu tiên xem những bộ phim thuộc thể loại gì?",
+      "Phim thuộc thể loại nào thì đúng 'gu' của bạn nhất nhỉ?",
+      "Bạn cảm thấy hứng thú nhất với những loại phim như thế nào?"
+    ],
+    "keywords": ["喜歡", "電影", "哪種"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "這家咖啡館的茶很香。",
+    "referenceAnswers": [
+      "Tiệm cà phê này có trà rất thơm.",
+      "Hương vị trà ở cái quán cà phê này thực sự rất đậm đà.",
+      "Loại trà mà quán cà phê này phục vụ có tiếng là thơm ngon.",
+      "Hương trà tỏa ra từ quán cà phê này khiến mình thấy rất dễ chịu.",
+      "Tiệm cà phê này có những loại trà tỏa hương thơm ngào ngạt."
+    ],
+    "keywords": ["咖啡館", "茶", "香"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我不喜歡穿太寬鬆的衣服。",
+    "referenceAnswers": [
+      "Tôi không thích mặc quần áo quá rộng.",
+      "Mấy bộ quần áo quá khổ thường làm mình thấy không thoải mái.",
+      "Mình không hảo mấy kiểu trang phục rộng thùng thình cho lắm.",
+      "Mình nhận thấy những bộ đồ quá rộng không thực sự hợp với mình.",
+      "Mình có xu hướng thích mặt những bộ đồ vừa vặn với cơ thể hơn."
+    ],
+    "keywords": ["不喜歡", "寬鬆", "衣服"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "晚上開車要多加小心。",
+    "referenceAnswers": [
+      "Hãy cẩn thận khi lái xe vào ban đêm.",
+      "Việc lái xe vào ban đêm đòi hỏi bạn phải chú ý an toàn hơn.",
+      "Hãy luôn giữ sự thận trọng nhất định khi phải lái xe vào buổi tối.",
+      "Lái xe ban đêm cần đặc biệt quan sát kỹ tình huống trên đường.",
+      "Mỗi khi phải chạy xe buổi tối, hãy luôn duy trì sự tỉnh táo cần thiết."
+    ],
+    "keywords": ["晚上", "開車", "小心"]
+  },
+  {
+    "level": "A2",
+    "direction": "zh_vi",
+    "sourceText": "我對自己的學習成績很滿意。",
+    "referenceAnswers": [
+      "Tôi rất hài lòng với kết quả học tập của mình.",
+      "Những gì mình thể hiện trong học tập làm mình thấy rất an tâm.",
+      "Mình cảm thấy hoàn toàn hài lòng với tình hình học tập hiện tại.",
+      "Mình thấy rất vui với những thành quả học tập đạt được thời gian qua.",
+      "Kết quả học tập đã đúng như những gì mình kỳ vọng, mình thấy hài lòng."
+    ],
+    "keywords": ["滿意", "學習成績"]
   }
 ]
