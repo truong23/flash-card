@@ -335,7 +335,7 @@ function checkAnswerCorrect(userAnswer, referenceAnswers) {
     if (refCJK.length > 0) {
       const userCJKSet = new Set([...userNorm].filter(isCJK));
       const missing = refCJK.filter(c => !userCJKSet.has(c));
-      const tolerance = Math.ceil(refCJK.length * 0.5);
+      const tolerance = Math.ceil(refCJK.length * 0.05);
       return missing.length <= tolerance;
     }
 
