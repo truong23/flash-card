@@ -156,21 +156,21 @@ async function startPractice() {
 function renderSidebarCards(level) {
   const grid = document.getElementById('sidebarCardsGrid');
   const bandNameSpan = document.getElementById('sidebarBandName');
-  
+
   if (!grid || !bandNameSpan) return;
-  
+
   bandNameSpan.textContent = level;
   grid.innerHTML = '';
 
   if (typeof vocabularyData === 'undefined') return;
 
   const cards = vocabularyData.filter(w => w.level === level);
-  
+
   cards.forEach((word, index) => {
     const cardEl = document.createElement('div');
     cardEl.className = `word-card level-${level}`;
     cardEl.onclick = () => cardEl.classList.toggle('flipped');
-    
+
     // Assign color based on index, same as study.js
     const paletteIndex = Math.floor(index / WORDS_PER_COLOR) % CARD_COLOR_SCALE.length;
     cardEl.style.setProperty('--card-front-color', CARD_COLOR_SCALE[paletteIndex]);
@@ -296,9 +296,9 @@ function showQuestion() {
 function checkAnswerCorrect(userAnswer, referenceAnswers) {
   function isCJK(c) {
     const code = c.codePointAt(0);
-    return (code >= 0x4E00 && code <= 0x9FFF) || 
-           (code >= 0x3400 && code <= 0x4DBF) ||
-           (code >= 0x20000 && code <= 0x2A6DF);
+    return (code >= 0x4E00 && code <= 0x9FFF) ||
+      (code >= 0x3400 && code <= 0x4DBF) ||
+      (code >= 0x20000 && code <= 0x2A6DF);
   }
 
   // Determine language context from reference answers
@@ -312,13 +312,13 @@ function checkAnswerCorrect(userAnswer, referenceAnswers) {
       .toLowerCase()
       .replace(/[.,!?。，！？；：、「」『』【】《》〈〉“”‘’()（）…—]/g, '')
       .trim();
-    
+
     if (isChinese) {
-      const cnNums = {'0':'零','1':'一','2':'二','3':'三','4':'四','5':'五','6':'六','7':'七','8':'八','9':'九','10':'十'};
+      const cnNums = { '0': '零', '1': '一', '2': '二', '3': '三', '4': '四', '5': '五', '6': '六', '7': '七', '8': '八', '9': '九', '10': '十' };
       norm = norm.replace(/[0-9]/g, m => cnNums[m] || m);
       return norm.replace(/\s+/g, '');
     } else {
-      const viNums = {'0':'không','1':'một','2':'hai','3':'ba','4':'bốn','5':'năm','6':'sáu','7':'bảy','8':'tám','9':'chín','10':'mười'};
+      const viNums = { '0': 'không', '1': 'một', '2': 'hai', '3': 'ba', '4': 'bốn', '5': 'năm', '6': 'sáu', '7': 'bảy', '8': 'tám', '9': 'chín', '10': 'mười' };
       norm = norm.replace(/\b([0-9]|10)\b/g, m => viNums[m] || m);
       return norm.replace(/\s+/g, ' ');
     }
@@ -335,7 +335,7 @@ function checkAnswerCorrect(userAnswer, referenceAnswers) {
     if (refCJK.length > 0) {
       const userCJKSet = new Set([...userNorm].filter(isCJK));
       const missing = refCJK.filter(c => !userCJKSet.has(c));
-      const tolerance = Math.ceil(refCJK.length * 0.15);
+      const tolerance = Math.ceil(refCJK.length * 0.5);
       return missing.length <= tolerance;
     }
 
@@ -620,9 +620,9 @@ function showWrongFeedback(userAnswer, q, attemptCount) {
   const tokenize = (s) => {
     if (!s) return [];
     if (isChinese) {
-        return [...s.replace(/[.,!?。，！？]/g, '').replace(/\s+/g, '')];
+      return [...s.replace(/[.,!?。，！？]/g, '').replace(/\s+/g, '')];
     } else {
-        return s.replace(/[.,!?。，！？]/g, '').split(/\s+/).filter(Boolean);
+      return s.replace(/[.,!?。，！？]/g, '').split(/\s+/).filter(Boolean);
     }
   };
 
@@ -636,9 +636,9 @@ function showWrongFeedback(userAnswer, q, attemptCount) {
   q.referenceAnswers.forEach(ref => {
     const refTokens = tokenize(ref);
     const refSet = new Set(refTokens.map(t => t.toLowerCase()));
-    
+
     let matches = 0;
-    userTokens.forEach(t => { if(refSet.has(t.toLowerCase())) matches++; });
+    userTokens.forEach(t => { if (refSet.has(t.toLowerCase())) matches++; });
 
     if (matches > maxMatch) {
       maxMatch = matches;
