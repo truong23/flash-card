@@ -304,7 +304,7 @@ function checkAnswerCorrect(userAnswer, referenceAnswers) {
   // Determine language context from reference answers
   const isChineseTarget = referenceAnswers.some(ref => {
     const cjk = [...ref].filter(isCJK);
-    return cjk.length > 0; // if any CJK, it's a Chinese exercise
+    return cjk.length > 0;
   });
 
   function normalize(s, isChinese) {
@@ -324,26 +324,53 @@ function checkAnswerCorrect(userAnswer, referenceAnswers) {
     }
   }
 
+  function levenshtein(a, b) {
+    const tmp = [];
+    for (let i = 0; i <= a.length; i++) tmp[i] = [i];
+    for (let j = 0; j <= b.length; j++) tmp[0][j] = j;
+    for (let i = 1; i <= a.length; i++) {
+      for (let j = 1; j <= b.length; j++) {
+        tmp[i][j] = a[i - 1] === b[j - 1] 
+          ? tmp[i - 1][j - 1] 
+          : Math.min(tmp[i - 1][j - 1] + 1, tmp[i][j - 1] + 1, tmp[i - 1][j] + 1);
+      }
+    }
+    return tmp[a.length][b.length];
+  }
+
   const userNorm = normalize(userAnswer, isChineseTarget);
   if (!userNorm) return false;
 
+  console.log(`%c[Kiểm tra đáp án] Nhập: "${userNorm}"`, "color: #3b82f6; font-weight: bold;");
+
   return referenceAnswers.some(ref => {
     const refNorm = normalize(ref, isChineseTarget);
-    if (userNorm === refNorm) return true;
-
-    const refCJK = [...refNorm].filter(isCJK);
-    if (refCJK.length > 0) {
-      const userCJKSet = new Set([...userNorm].filter(isCJK));
-      const missing = refCJK.filter(c => !userCJKSet.has(c));
-      const tolerance = Math.ceil(refCJK.length * 0.05);
-      return missing.length <= tolerance;
+    if (userNorm === refNorm) {
+      console.log(`  ✅ Khớp tuyệt đối với: "${refNorm}"`);
+      return true;
     }
 
-    const refWords = refNorm.split(' ').filter(Boolean);
-    const userWordsSet = new Set(userNorm.split(' ').filter(Boolean));
-    if (!refWords.length) return false;
-    const matched = refWords.filter(w => userWordsSet.has(w)).length;
-    return (matched / refWords.length) >= 0.80;
+    let similarity = 0;
+    let threshold = isChineseTarget ? 0.95 : 0.90;
+
+    if (isChineseTarget) {
+      const refChars = [...refNorm].filter(isCJK);
+      const userChars = [...userNorm].filter(isCJK);
+      if (refChars.length === 0) return false;
+      const dist = levenshtein(refChars, userChars);
+      similarity = 1 - (dist / Math.max(refChars.length, userChars.length));
+    } else {
+      const refWords = refNorm.split(' ').filter(Boolean);
+      const userWords = userNorm.split(' ').filter(Boolean);
+      if (refWords.length === 0) return false;
+      const dist = levenshtein(refWords, userWords);
+      similarity = 1 - (dist / Math.max(refWords.length, userWords.length));
+    }
+
+    const isPass = similarity >= threshold;
+    console.log(`  ${isPass ? '✅' : '❌'} So với: "${refNorm}" | Khớp: ${(similarity * 100).toFixed(1)}% | Ngưỡng: ${threshold * 100}%`);
+    
+    return isPass;
   });
 }
 
