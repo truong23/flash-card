@@ -5822,5 +5822,590 @@
       "Lần này đã cho tôi học được rất nhiều."
     ],
     "keywords": ["這次", "真的", "學到了很多"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "他最近好像有很多心事。",
+    "referenceAnswers": [
+      "Dạo này anh ấy có vẻ có nhiều tâm sự.",
+      "Gần đây trông anh ấy như đang có nhiều chuyện trong lòng.",
+      "Có vẻ gần đây anh ấy đang suy nghĩ nhiều.",
+      "Mấy hôm nay anh ấy hình như có nhiều điều khó nói.",
+      "Trông anh ấy dạo này như đang mang nhiều tâm sự."
+    ],
+    "keywords": ["最近", "好像", "很多心事"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "如果你願意，我們可以現在談。",
+    "referenceAnswers": [
+      "Nếu bạn muốn thì chúng ta có thể nói chuyện ngay bây giờ.",
+      "Bạn đồng ý thì mình nói luôn bây giờ cũng được.",
+      "Nếu bạn sẵn sàng thì chúng ta có thể trao đổi ngay.",
+      "Muốn thì mình nói chuyện luôn lúc này nhé.",
+      "Nếu bạn thấy được thì giờ mình nói luôn."
+    ],
+    "keywords": ["如果", "願意", "我們", "可以", "現在談"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "雖然路不遠，但是很難找。",
+    "referenceAnswers": [
+      "Tuy đường không xa nhưng rất khó tìm.",
+      "Dù chỗ đó không xa, tìm lại không dễ.",
+      "Đường không xa lắm nhưng khá khó tìm.",
+      "Không xa đâu, nhưng kiếm ra thì hơi khó.",
+      "Tuy ở không xa nhưng vị trí khá khó tìm."
+    ],
+    "keywords": ["雖然", "路不遠", "但是", "很難找"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "這件事我還沒想好。",
+    "referenceAnswers": [
+      "Chuyện này tôi vẫn chưa nghĩ xong.",
+      "Tôi còn chưa quyết được chuyện này.",
+      "Việc này tôi chưa nghĩ kỹ.",
+      "Tôi vẫn đang suy nghĩ về chuyện này.",
+      "Chuyện này hiện tôi chưa chốt được."
+    ],
+    "keywords": ["這件事", "還沒想好"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "他本來今天要來，後來又改了。",
+    "referenceAnswers": [
+      "Ban đầu hôm nay anh ấy định đến, nhưng sau đó lại đổi ý.",
+      "Lúc đầu anh ấy nói hôm nay sẽ tới, sau lại thay đổi.",
+      "Anh ấy vốn định đến hôm nay, nhưng về sau lại đổi.",
+      "Ban đầu anh ấy có kế hoạch đến, sau đó lại đổi rồi.",
+      "Hôm nay lẽ ra anh ấy tới, nhưng sau đó lại thay đổi."
+    ],
+    "keywords": ["本來", "今天", "要來", "後來", "改了"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "如果你不方便，就改天吧。",
+    "referenceAnswers": [
+      "Nếu bạn không tiện thì để hôm khác nhé.",
+      "Không tiện thì mình hẹn hôm khác cũng được.",
+      "Nếu giờ bạn không thuận tiện thì để bữa khác.",
+      "Bạn không tiện thì thôi đổi sang hôm khác.",
+      "Nếu chưa tiện thì để dịp khác nhé."
+    ],
+    "keywords": ["如果", "不方便", "改天吧"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "她現在比以前成熟多了。",
+    "referenceAnswers": [
+      "Bây giờ cô ấy trưởng thành hơn trước nhiều.",
+      "Giờ cô ấy chín chắn hơn trước hẳn.",
+      "So với trước kia, cô ấy giờ trưởng thành hơn nhiều.",
+      "Cô ấy bây giờ đằm hơn trước rất nhiều.",
+      "Hiện tại cô ấy đã trưởng thành hơn hẳn."
+    ],
+    "keywords": ["現在", "比以前", "成熟多了"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "與其在這裡等，不如先回去。",
+    "referenceAnswers": [
+      "Thay vì đợi ở đây, chi bằng về trước.",
+      "Ngồi chờ ở đây không bằng mình về trước.",
+      "Tốt hơn là về trước thay vì cứ đợi ở đây.",
+      "Ở đây chờ không bằng quay về trước.",
+      "Hay là về trước đi, đợi ở đây cũng vậy thôi."
+    ],
+    "keywords": ["與其", "在這裡等", "不如", "先回去"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "這個決定讓大家都很意外。",
+    "referenceAnswers": [
+      "Quyết định này khiến mọi người đều rất bất ngờ.",
+      "Ai cũng ngạc nhiên với quyết định này.",
+      "Mọi người đều không ngờ lại có quyết định như vậy.",
+      "Quyết định này làm ai cũng bất ngờ.",
+      "Không ai nghĩ sẽ có quyết định này."
+    ],
+    "keywords": ["這個決定", "讓大家", "都很意外"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "他其實不太會拒絕別人。",
+    "referenceAnswers": [
+      "Thật ra anh ấy không giỏi từ chối người khác.",
+      "Anh ấy thực ra khá khó nói lời từ chối.",
+      "Anh ấy không quen từ chối người khác lắm.",
+      "Thực ra anh ấy rất khó từ chối ai đó.",
+      "Anh ấy không phải kiểu dễ từ chối người khác."
+    ],
+    "keywords": ["其實", "不太會", "拒絕別人"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "如果明天有空，我們再見面。",
+    "referenceAnswers": [
+      "Nếu mai rảnh thì chúng ta gặp lại nhé.",
+      "Ngày mai có thời gian thì mình gặp nhau tiếp.",
+      "Nếu mai bạn rảnh thì mình gặp nhé.",
+      "Mai nếu có thời gian thì chúng ta gặp mặt.",
+      "Có rảnh ngày mai thì mình lại gặp nhau."
+    ],
+    "keywords": ["如果", "明天", "有空", "我們", "再見面"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "雖然他沒說，但是我懂。",
+    "referenceAnswers": [
+      "Dù anh ấy không nói ra nhưng tôi hiểu.",
+      "Tuy anh ấy không nói, tôi vẫn hiểu.",
+      "Anh ấy không nói thành lời nhưng tôi biết.",
+      "Không cần nói tôi cũng hiểu ý anh ấy.",
+      "Dù im lặng, tôi vẫn hiểu anh ấy muốn gì."
+    ],
+    "keywords": ["雖然", "沒說", "但是", "我懂"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "這件事比我們預計的快。",
+    "referenceAnswers": [
+      "Chuyện này nhanh hơn chúng tôi dự tính.",
+      "Việc này diễn ra nhanh hơn dự kiến của bọn tôi.",
+      "Nhanh hơn so với lúc chúng tôi dự đoán.",
+      "Mọi việc nhanh hơn chúng tôi tưởng.",
+      "Tốc độ nhanh hơn kế hoạch ban đầu."
+    ],
+    "keywords": ["這件事", "比", "我們預計的", "快"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "他後來決定不再等了。",
+    "referenceAnswers": [
+      "Về sau anh ấy quyết định không chờ nữa.",
+      "Sau đó anh ấy quyết định dừng việc chờ đợi.",
+      "Cuối cùng anh ấy quyết định không đợi nữa.",
+      "Anh ấy về sau đã chọn không tiếp tục chờ.",
+      "Sau này anh ấy không muốn chờ thêm nữa."
+    ],
+    "keywords": ["後來", "決定", "不再等了"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "如果累了，就休息一下。",
+    "referenceAnswers": [
+      "Nếu mệt thì nghỉ một chút đi.",
+      "Mệt rồi thì nghỉ ngơi một lát nhé.",
+      "Nếu thấy mệt thì cứ nghỉ một lúc.",
+      "Mệt thì dừng lại nghỉ chút đi.",
+      "Nếu xuống sức rồi thì nghỉ trước đã."
+    ],
+    "keywords": ["如果", "累了", "就", "休息一下"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "她最近常常一個人發呆。",
+    "referenceAnswers": [
+      "Dạo này cô ấy thường ngồi thẫn thờ một mình.",
+      "Gần đây cô ấy hay ngẩn người một mình.",
+      "Mấy hôm nay cô ấy thường một mình ngồi suy nghĩ.",
+      "Dạo này cô ấy hay ngồi lặng người một mình.",
+      "Cô ấy gần đây thường ngồi ngơ ra một mình."
+    ],
+    "keywords": ["最近", "常常", "一個人", "發呆"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "與其想太多，不如先睡覺。",
+    "referenceAnswers": [
+      "Thay vì nghĩ nhiều, chi bằng đi ngủ trước.",
+      "Nghĩ ngợi mãi không bằng ngủ một giấc trước đã.",
+      "Tốt hơn là ngủ trước thay vì suy nghĩ quá nhiều.",
+      "Cứ ngủ trước đi, đừng nghĩ nhiều nữa.",
+      "Thay vì lo quá, ngủ trước vẫn hơn."
+    ],
+    "keywords": ["與其", "想太多", "不如", "先睡覺"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "這樣做可能比較安全。",
+    "referenceAnswers": [
+      "Làm vậy có thể sẽ an toàn hơn.",
+      "Cách làm này có lẽ an toàn hơn.",
+      "Có thể làm như vậy sẽ chắc hơn.",
+      "Làm kiểu này nhìn chung sẽ an toàn hơn.",
+      "Phương án này có vẻ an toàn hơn."
+    ],
+    "keywords": ["這樣做", "可能", "比較安全"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "他其實早就想離職了。",
+    "referenceAnswers": [
+      "Thật ra anh ấy đã muốn nghỉ việc từ lâu rồi.",
+      "Anh ấy thực ra đã có ý định nghỉ việc từ trước.",
+      "Hóa ra anh ấy đã muốn thôi việc từ lâu.",
+      "Anh ấy sớm đã nghĩ đến chuyện nghỉ việc.",
+      "Thực ra anh ấy đã muốn rời công ty từ lâu rồi."
+    ],
+    "keywords": ["其實", "早就", "想", "離職了"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "如果你聽不懂，我可以再說一次。",
+    "referenceAnswers": [
+      "Nếu bạn không hiểu thì tôi có thể nói lại một lần nữa.",
+      "Bạn nghe chưa rõ thì tôi nói lại nhé.",
+      "Nếu chưa nghe hiểu thì tôi nhắc lại được.",
+      "Không hiểu thì tôi nói lại cho bạn.",
+      "Tôi có thể nói lại nếu bạn chưa hiểu."
+    ],
+    "keywords": ["如果", "聽不懂", "我", "可以", "再說一次"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "雖然只是幫了一點忙，他還是很感謝。",
+    "referenceAnswers": [
+      "Dù chỉ giúp một chút thôi, anh ấy vẫn rất biết ơn.",
+      "Tuy chỉ giúp chút ít nhưng anh ấy vẫn cảm ơn nhiều.",
+      "Chỉ hỗ trợ một ít thôi mà anh ấy vẫn rất cảm kích.",
+      "Dù chỉ giúp chút nhỏ, anh ấy vẫn rất cảm ơn.",
+      "Anh ấy vẫn rất biết ơn dù chỉ được giúp một chút."
+    ],
+    "keywords": ["雖然", "只是", "幫了一點忙", "還是", "很感謝"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "這個地方晚上比較安靜。",
+    "referenceAnswers": [
+      "Chỗ này buổi tối yên tĩnh hơn.",
+      "Nơi này về đêm khá yên tĩnh.",
+      "Ban đêm chỗ này im ắng hơn nhiều.",
+      "Tối đến nơi này sẽ yên hơn.",
+      "Khu này buổi tối khá vắng và yên tĩnh."
+    ],
+    "keywords": ["這個地方", "晚上", "比較安靜"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "他本來不想麻煩你。",
+    "referenceAnswers": [
+      "Ban đầu anh ấy không muốn làm phiền bạn.",
+      "Anh ấy vốn không muốn phiền đến bạn.",
+      "Lúc đầu anh ấy không định làm phiền bạn đâu.",
+      "Thực ra anh ấy không muốn nhờ vả bạn.",
+      "Anh ấy ban đầu muốn tự xử lý để khỏi phiền bạn."
+    ],
+    "keywords": ["本來", "不想", "麻煩你"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "如果你願意說，我會聽。",
+    "referenceAnswers": [
+      "Nếu bạn muốn nói thì tôi sẽ nghe.",
+      "Bạn muốn chia sẻ thì tôi sẵn sàng nghe.",
+      "Nếu bạn muốn nói ra, tôi ở đây để nghe.",
+      "Bạn muốn kể thì tôi sẽ lắng nghe.",
+      "Nếu bạn mở lời, tôi sẽ nghe."
+    ],
+    "keywords": ["如果", "願意說", "我", "會聽"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "她現在不太相信別人。",
+    "referenceAnswers": [
+      "Bây giờ cô ấy không quá tin người khác.",
+      "Hiện tại cô ấy khó tin người khác hơn.",
+      "Cô ấy lúc này không còn dễ tin người khác.",
+      "Bây giờ cô ấy không dễ đặt niềm tin vào ai.",
+      "Hiện giờ cô ấy khá dè dặt với người khác."
+    ],
+    "keywords": ["現在", "不太相信", "別人"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "與其一直後悔，不如往前看。",
+    "referenceAnswers": [
+      "Thay vì mãi hối hận, chi bằng nhìn về phía trước.",
+      "Cứ tiếc nuối mãi không bằng bước tiếp.",
+      "Tốt hơn là nhìn về tương lai thay vì hối hận mãi.",
+      "Đừng mãi hối tiếc, hãy tiếp tục đi lên.",
+      "Nhìn về phía trước vẫn hơn là cứ hối hận."
+    ],
+    "keywords": ["與其", "一直後悔", "不如", "往前看"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "這句話讓我想了很久。",
+    "referenceAnswers": [
+      "Câu nói này làm tôi suy nghĩ rất lâu.",
+      "Tôi đã nghĩ mãi về câu này.",
+      "Lời này khiến tôi trăn trở khá lâu.",
+      "Câu nói đó làm tôi suy nghĩ mãi.",
+      "Tôi đã để câu này trong đầu rất lâu."
+    ],
+    "keywords": ["這句話", "讓我", "想了很久"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "他其實沒有那麼冷淡。",
+    "referenceAnswers": [
+      "Thật ra anh ấy không lạnh nhạt đến vậy.",
+      "Anh ấy thực ra không hề xa cách như thế.",
+      "Thực ra anh ấy không lạnh lùng như bạn nghĩ.",
+      "Anh ấy thật ra không đến mức lạnh nhạt.",
+      "Bề ngoài vậy thôi chứ anh ấy không lạnh lùng lắm."
+    ],
+    "keywords": ["其實", "沒有", "那麼冷淡"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "如果你先說，我就放心了。",
+    "referenceAnswers": [
+      "Nếu bạn nói trước thì tôi sẽ yên tâm hơn.",
+      "Bạn mà nói trước thì tôi đỡ lo hơn.",
+      "Nếu bạn mở lời trước, tôi sẽ thấy yên tâm.",
+      "Bạn nói trước thì tôi mới an tâm.",
+      "Chỉ cần bạn nói trước là tôi yên tâm rồi."
+    ],
+    "keywords": ["如果", "先說", "我", "就放心了"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "雖然只是小錯，也要注意。",
+    "referenceAnswers": [
+      "Dù chỉ là lỗi nhỏ thì cũng phải chú ý.",
+      "Sai nhỏ thôi nhưng vẫn cần để ý.",
+      "Tuy chỉ là lỗi bé nhưng cũng không nên bỏ qua.",
+      "Lỗi nhỏ cũng phải cẩn thận.",
+      "Dù không lớn nhưng vẫn cần chú ý."
+    ],
+    "keywords": ["雖然", "只是", "小錯", "也要注意"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "這裡比我想的還要冷。",
+    "referenceAnswers": [
+      "Ở đây còn lạnh hơn tôi tưởng.",
+      "Chỗ này lạnh hơn cả tôi nghĩ.",
+      "Nơi này hóa ra lạnh hơn tôi tưởng nhiều.",
+      "Tôi không ngờ ở đây lại lạnh đến vậy.",
+      "Nơi đây còn lạnh hơn mức tôi hình dung."
+    ],
+    "keywords": ["這裡", "比我想的", "還要冷"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "他後來還是沒來。",
+    "referenceAnswers": [
+      "Cuối cùng anh ấy vẫn không đến.",
+      "Về sau anh ấy rốt cuộc vẫn không tới.",
+      "Sau cùng anh ấy vẫn không xuất hiện.",
+      "Anh ấy cuối cùng đã không đến.",
+      "Rốt cuộc anh ấy vẫn không qua."
+    ],
+    "keywords": ["後來", "還是", "沒來"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "如果有需要，再跟我說。",
+    "referenceAnswers": [
+      "Nếu cần gì thì nói với tôi sau nhé.",
+      "Có gì cần thì cứ báo tôi.",
+      "Khi nào cần thì nói lại với tôi.",
+      "Nếu có nhu cầu thì cứ nói với tôi.",
+      "Cần gì thêm thì cứ nói."
+    ],
+    "keywords": ["如果", "有需要", "再跟我說"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "她最近開始早睡了。",
+    "referenceAnswers": [
+      "Dạo này cô ấy bắt đầu ngủ sớm rồi.",
+      "Gần đây cô ấy đã tập đi ngủ sớm.",
+      "Mấy hôm nay cô ấy bắt đầu ngủ sớm hơn.",
+      "Cô ấy gần đây đổi sang ngủ sớm.",
+      "Dạo gần đây cô ấy đã đi ngủ sớm hơn."
+    ],
+    "keywords": ["最近", "開始", "早睡了"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "與其一直問， 不如自己看看。",
+    "referenceAnswers": [
+      "Thay vì hỏi mãi, chi bằng tự xem thử.",
+      "Cứ tự xem trước còn hơn hỏi liên tục.",
+      "Hỏi hoài không bằng tự kiểm tra một chút.",
+      "Bạn nên tự xem trước thay vì hỏi mãi.",
+      "Tốt hơn là tự nhìn thử trước."
+    ],
+    "keywords": ["與其", "一直問", "不如", "自己看看"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "這件事其實沒那麼嚴重。",
+    "referenceAnswers": [
+      "Chuyện này thật ra không nghiêm trọng đến vậy.",
+      "Việc này thực ra không nặng như thế đâu.",
+      "Thật ra chuyện này không quá nghiêm trọng.",
+      "Không đến mức nghiêm trọng như bạn nghĩ đâu.",
+      "Chuyện này hóa ra cũng không nghiêm trọng lắm."
+    ],
+    "keywords": ["這件事", "其實", "沒那麼嚴重"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "他本來想一個人去。",
+    "referenceAnswers": [
+      "Ban đầu anh ấy định đi một mình.",
+      "Lúc đầu anh ấy muốn tự đi.",
+      "Anh ấy vốn định đi một mình.",
+      "Ban đầu anh ấy không định đi cùng ai.",
+      "Anh ấy ban đầu muốn đi một mình."
+    ],
+    "keywords": ["本來", "想", "一個人去"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "如果今天不行，就改明天。",
+    "referenceAnswers": [
+      "Nếu hôm nay không được thì đổi sang ngày mai.",
+      "Hôm nay không tiện thì để mai.",
+      "Nếu hôm nay chưa ổn thì chuyển qua mai nhé.",
+      "Không làm hôm nay được thì để ngày mai.",
+      "Nếu hôm nay không được thì mai làm cũng được."
+    ],
+    "keywords": ["如果", "今天不行", "就", "改明天"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "她後來變得很少出門。",
+    "referenceAnswers": [
+      "Về sau cô ấy rất ít ra ngoài.",
+      "Sau này cô ấy hiếm khi ra khỏi nhà.",
+      "Cô ấy về sau ít đi ra ngoài hơn nhiều.",
+      "Dạo sau cô ấy gần như không ra ngoài mấy.",
+      "Sau đó cô ấy ít ra ngoài hẳn."
+    ],
+    "keywords": ["後來", "變得", "很少出門"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "與其一直忍，不如說出來。",
+    "referenceAnswers": [
+      "Thay vì cứ chịu đựng mãi, chi bằng nói ra.",
+      "Cứ giữ trong lòng không bằng nói thẳng ra.",
+      "Tốt hơn là nói ra thay vì nhịn mãi.",
+      "Đừng chịu đựng mãi, hãy nói ra đi.",
+      "Nói ra vẫn hơn là cứ im lặng chịu đựng."
+    ],
+    "keywords": ["與其", "一直忍", "不如", "說出來"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "這個地方我以前來過。",
+    "referenceAnswers": [
+      "Chỗ này trước đây tôi từng đến rồi.",
+      "Tôi đã từng tới nơi này trước đây.",
+      "Nơi này tôi từng ghé qua rồi.",
+      "Trước kia tôi có đến đây rồi.",
+      "Đây là chỗ tôi từng tới trước đây."
+    ],
+    "keywords": ["這個地方", "以前", "來過"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "他其實很在意你的看法。",
+    "referenceAnswers": [
+      "Thật ra anh ấy rất để ý đến ý kiến của bạn.",
+      "Anh ấy thực ra rất quan tâm bạn nghĩ gì.",
+      "Thực ra anh ấy rất coi trọng cách bạn nhìn nhận.",
+      "Anh ấy thật ra để tâm đến suy nghĩ của bạn lắm.",
+      "Ý kiến của bạn thực ra rất quan trọng với anh ấy."
+    ],
+    "keywords": ["其實", "很在意", "你的看法"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "如果你準備好了，我們就出發。",
+    "referenceAnswers": [
+      "Nếu bạn chuẩn bị xong rồi thì chúng ta xuất phát.",
+      "Bạn sẵn sàng rồi thì mình đi thôi.",
+      "Nếu đã chuẩn bị xong thì chúng ta đi nhé.",
+      "Chuẩn bị xong thì mình lên đường.",
+      "Khi nào bạn sẵn sàng thì chúng ta đi."
+    ],
+    "keywords": ["如果", "準備好了", "我們", "就出發"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "雖然天氣不好，風景還是很美。",
+    "referenceAnswers": [
+      "Dù thời tiết không đẹp nhưng cảnh vẫn rất đẹp.",
+      "Trời không đẹp lắm nhưng phong cảnh vẫn rất xinh.",
+      "Mặc dù thời tiết xấu, cảnh vật vẫn đẹp.",
+      "Dù trời không thuận lợi, phong cảnh vẫn rất đáng ngắm.",
+      "Thời tiết không tốt nhưng cảnh vẫn đẹp lắm."
+    ],
+    "keywords": ["雖然", "天氣不好", "風景", "還是", "很美"]
+  },
+  {
+    "level": "B1",
+    "direction": "zh_vi",
+    "sourceText": "這次我真的學到了很多。",
+    "referenceAnswers": [
+      "Lần này tôi thật sự học được rất nhiều.",
+      "Qua lần này tôi đã học được rất nhiều điều.",
+      "Lần này đúng là tôi rút ra được nhiều thứ.",
+      "Tôi thật sự thu được nhiều bài học sau lần này.",
+      "Lần này đã cho tôi học được rất nhiều."
+    ],
+    "keywords": ["這次", "真的", "學到了很多"]
   }
 ]
