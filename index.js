@@ -2,6 +2,7 @@ const dom = {
   statusBadge: document.getElementById("statusBadge"),
   statusDescription: document.getElementById("statusDescription"),
   signOutButton: document.getElementById("signOutButton"),
+  profileRow: document.querySelector(".profile-row"),
   currentUserAvatar: document.getElementById("currentUserAvatar"),
   currentUserAvatarFallback: document.getElementById("currentUserAvatarFallback"),
   currentUserName: document.getElementById("currentUserName"),
@@ -11,6 +12,8 @@ const dom = {
   setupNotice: document.getElementById("setupNotice"),
   errorNotice: document.getElementById("errorNotice"),
 };
+
+let activeSession = null;
 
 function setStatus(text, tone) {
   dom.statusBadge.textContent = text;
@@ -24,6 +27,22 @@ function toggleElement(element, shouldShow) {
 function clearNotices() {
   toggleElement(dom.setupNotice, false);
   toggleElement(dom.errorNotice, false);
+}
+
+function updateAdminShortcut(session) {
+  if (!dom.profileRow) return;
+
+  const canOpenAdmin = Boolean(session?.isAdmin && session?.hasAccess);
+  dom.profileRow.classList.toggle("is-admin-shortcut", canOpenAdmin);
+
+  if (canOpenAdmin) {
+    dom.profileRow.setAttribute("title", "Mở trang quản trị");
+    dom.profileRow.setAttribute("aria-label", "Mở trang quản trị");
+    return;
+  }
+
+  dom.profileRow.removeAttribute("title");
+  dom.profileRow.removeAttribute("aria-label");
 }
 
 function renderUserAvatar(user) {
@@ -62,6 +81,7 @@ function setSessionStateClass(session) {
 }
 
 async function renderSession(session) {
+  activeSession = session;
   const emailText = session.user?.email || "Chưa đăng nhập";
   const displayName = session.user?.displayName || (session.user?.email ? session.user.email.split("@")[0] : "Khách");
   renderUserAvatar(session.user);
@@ -77,6 +97,7 @@ async function renderSession(session) {
   dom.currentUserState.setAttribute("aria-label", stateLabel);
   dom.currentUserState.setAttribute("title", stateLabel);
   setSessionStateClass(session);
+  updateAdminShortcut(session);
 
   clearNotices();
   toggleElement(dom.signOutButton, Boolean(session.user));
@@ -118,7 +139,14 @@ async function init() {
     toggleElement(dom.currentUserAvatarFallback, true);
   });
 
-  dom.signOutButton.addEventListener("click", async () => {
+  dom.profileRow?.addEventListener("click", () => {
+    if (activeSession?.isAdmin && activeSession?.hasAccess) {
+      flashCardAuth.redirectTo("admin");
+    }
+  });
+
+  dom.signOutButton.addEventListener("click", async (event) => {
+    event.stopPropagation();
     await flashCardAuth.signOutCurrentUser();
     flashCardAuth.redirectTo("login");
   });
