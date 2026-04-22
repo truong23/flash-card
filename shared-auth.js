@@ -382,11 +382,11 @@
     const isSubPage = isAdminPage || isPracticePage;
 
     if (name === "login") {
-      return isSubPage ? "../index.html" : "./index.html";
+      return "/";
     }
 
     if (name === "study") {
-      return isSubPage ? "../study.html" : "./study.html";
+      return "/study";
     }
 
     if (name === "admin") {
@@ -394,10 +394,10 @@
     }
 
     if (name === "practice") {
-      return isPracticePage ? "./" : (isAdminPage ? "../practice/" : "./practice/");
+      return  "/practice"
     }
 
-    return "./index.html";
+    return "/";
   }
 
   function redirectTo(name) {
