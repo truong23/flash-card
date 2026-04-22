@@ -215,7 +215,9 @@ function fitLevelToViewport(section) {
     }
   }
 
-  const effectiveCardSize = Math.max(10, Math.min(preferredCardSize, bestSize));
+  const effectiveCardSize = currentZoom === 1 ?
+    Math.max(10, Math.min(preferredCardSize, bestSize)) :
+    Math.max(10, preferredCardSize);
   const effectiveCardScale = effectiveCardSize / baseCardSize;
 
   section.style.setProperty('--effective-card-size', `${effectiveCardSize}px`);

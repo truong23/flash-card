@@ -219,7 +219,7 @@
         }
 
         if (!session.user) {
-          window.location.replace("../index.html");
+          window.location.replace("/");
           return;
         }
 
@@ -287,7 +287,7 @@
 
         dom.signOutButton.addEventListener("click", async () => {
           await flashCardAuth.signOutCurrentUser();
-          window.location.replace("../index.html");
+          window.location.replace("/");
         });
 
         dom.accessApprovalForm.addEventListener("submit", handleSaveAccessRecord);

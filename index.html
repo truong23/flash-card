@@ -18,13 +18,25 @@
         <div>
           <h1>Đăng nhập vào flash card</h1>
           <p>
-            Tất cả người dùng đều vào từ trang đăng nhập này. Sau khi đăng nhập, nếu đã
-            được phê duyệt thì hệ thống sẽ chuyển sang trang học. Nếu chưa được duyệt,
+            Tất cả người dùng đều vào từ trang đăng nhập này. Sau khi đăng nhập và được phê duyệt,
+            chọn Từ Vựng hoặc Luyện Tập để bắt đầu. Nếu chưa được duyệt,
             màn hình sẽ hiển thị thông báo chờ duyệt.
           </p>
         </div>
       </header>
 
+      <div class="nav-grid">
+        <button type="button" id="vocabButton" class="nav-card hidden" onclick="location.href='/study'">
+          <span class="nav-card-icon">📖</span>
+          <span class="nav-card-title">Từ Vựng</span>
+          <span class="nav-card-sub">Ôn luyện từ vựng theo cấp độ</span>
+        </button>
+        <button type="button" id="practiceButton" class="nav-card hidden" onclick="location.href='/practice'">
+          <span class="nav-card-icon">✏️</span>
+          <span class="nav-card-title">Luyện Tập</span>
+          <span class="nav-card-sub">Bài tập và kiểm tra kiến thức</span>
+        </button>
+      </div>
       <div class="card-grid">
         <section class="card">
           <div id="statusBadge" class="status-badge pending">Đang kiểm tra phiên đăng nhập</div>
@@ -38,6 +50,7 @@
             <button type="button" id="refreshButton" class="secondary hidden">Kiểm tra lại trạng thái</button>
             <button type="button" id="signOutButton" class="secondary hidden">Đăng xuất</button>
           </div>
+
 
           <div class="meta-grid">
             <div class="meta-item">
