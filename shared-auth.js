@@ -377,11 +377,11 @@
   }
 
   function getRoute(name) {
-    const isAdminPage = window.location.pathname.includes("/admin/");
-    const isPracticePage = window.location.pathname.includes("/practice/");
-    const isSubPage = isAdminPage || isPracticePage;
-
     if (name === "login") {
+      return "/login";
+    }
+
+    if (name === "home") {
       return "/";
     }
 
@@ -390,7 +390,7 @@
     }
 
     if (name === "admin") {
-      return isAdminPage ? "./" : (isPracticePage ? "../admin/" : "./admin/");
+      return "/admin/";
     }
 
     if (name === "practice") {

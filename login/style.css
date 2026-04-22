@@ -1,0 +1,427 @@
+:root {
+  color-scheme: light;
+  --bg-a: #fff8ee;
+  --bg-b: #e8f2ff;
+  --ink-1: #18273f;
+  --ink-2: #4a5f79;
+  --line: rgba(33, 62, 101, 0.14);
+  --panel: rgba(255, 255, 255, 0.84);
+  --shadow: 0 24px 48px rgba(15, 35, 64, 0.16);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: "Be Vietnam Pro", "Segoe UI", sans-serif;
+  color: var(--ink-1);
+  background:
+    radial-gradient(circle at 12% 18%, rgba(255, 158, 77, 0.32), transparent 26%),
+    radial-gradient(circle at 88% 8%, rgba(67, 161, 255, 0.25), transparent 30%),
+    radial-gradient(circle at 50% 110%, rgba(55, 202, 195, 0.18), transparent 42%),
+    linear-gradient(130deg, var(--bg-a), var(--bg-b));
+}
+
+.bg-noise {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  opacity: 0.25;
+  background-image: radial-gradient(rgba(29, 62, 98, 0.2) 0.5px, transparent 0.5px);
+  background-size: 4px 4px;
+}
+
+body::before,
+body::after {
+  content: "";
+  position: fixed;
+  z-index: 0;
+  pointer-events: none;
+  border-radius: 999px;
+}
+
+body::before {
+  width: 320px;
+  height: 320px;
+  left: -110px;
+  bottom: -90px;
+  background: radial-gradient(circle at center, rgba(255, 130, 78, 0.22), transparent 72%);
+}
+
+body::after {
+  width: 280px;
+  height: 280px;
+  right: -80px;
+  top: 30%;
+  background: radial-gradient(circle at center, rgba(49, 178, 199, 0.2), transparent 72%);
+}
+
+.login-shell {
+  position: relative;
+  z-index: 1;
+  width: min(1120px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 42px 0 56px;
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 22px;
+  align-items: start;
+}
+
+.intro-panel,
+.auth-panel {
+  position: relative;
+  overflow: hidden;
+  border-radius: 28px;
+  border: 1px solid var(--line);
+  background: linear-gradient(140deg, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.76));
+  box-shadow:
+    var(--shadow),
+    inset 0 1px 0 rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(8px);
+}
+
+.intro-panel::before,
+.auth-panel::before {
+  content: "";
+  position: absolute;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  right: -90px;
+  top: -90px;
+  background: radial-gradient(circle at center, rgba(80, 173, 255, 0.24), transparent 70%);
+  pointer-events: none;
+}
+
+.intro-panel {
+  padding: 30px;
+}
+
+.intro-float-card {
+  width: max-content;
+  margin-bottom: 12px;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 999px;
+  padding: 8px 12px;
+  font-size: 12px;
+  font-weight: 700;
+  color: #174b7b;
+  border: 1px solid rgba(51, 122, 194, 0.24);
+  background: rgba(245, 251, 255, 0.92);
+}
+
+.float-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: #31c5b2;
+  box-shadow: 0 0 0 4px rgba(49, 197, 178, 0.2);
+}
+
+.intro-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 12px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #13548a;
+  background: rgba(61, 160, 255, 0.14);
+}
+
+.intro-panel h1 {
+  margin: 14px 0 10px;
+  font-family: "Sora", "Be Vietnam Pro", sans-serif;
+  font-size: clamp(2rem, 4vw, 3rem);
+  line-height: 1.06;
+  letter-spacing: -0.03em;
+}
+
+.intro-panel h1 span {
+  background: linear-gradient(140deg, #2a7fe8, #2bb8a3);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.intro-panel p {
+  margin: 0;
+  color: var(--ink-2);
+  line-height: 1.75;
+}
+
+.intro-list {
+  margin-top: 18px;
+  display: grid;
+  gap: 10px;
+}
+
+.intro-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-radius: 14px;
+  border: 1px solid rgba(39, 72, 113, 0.16);
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.9), rgba(244, 250, 255, 0.82));
+  padding: 10px 12px;
+  color: #2c4058;
+  font-size: 0.94rem;
+  line-height: 1.5;
+}
+
+.intro-icon {
+  flex: 0 0 auto;
+  width: 30px;
+  height: 30px;
+  border-radius: 10px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 0.74rem;
+  color: #124f7d;
+  background: rgba(66, 157, 246, 0.15);
+}
+
+.intro-footer-pill {
+  margin-top: 14px;
+  width: max-content;
+  border-radius: 999px;
+  padding: 7px 12px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #1a5379;
+  background: rgba(46, 169, 191, 0.15);
+  border: 1px solid rgba(46, 169, 191, 0.26);
+}
+
+.auth-panel {
+  padding: 24px;
+}
+
+.auth-topline {
+  margin-bottom: 10px;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-weight: 800;
+  color: #4f6784;
+}
+
+.auth-panel h2 {
+  margin: 0;
+  font-family: "Sora", "Be Vietnam Pro", sans-serif;
+  font-size: clamp(1.4rem, 2.6vw, 1.9rem);
+}
+
+.auth-description {
+  margin: 10px 0 0;
+  color: var(--ink-2);
+  line-height: 1.7;
+}
+
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 8px 12px;
+  margin-bottom: 12px;
+  font-size: 12px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  font-weight: 800;
+}
+
+.status-badge.pending {
+  background: #fff4e8;
+  color: #b24f17;
+}
+
+.status-badge.success {
+  background: #e9fbef;
+  color: #0c7a4e;
+}
+
+.status-badge.error {
+  background: #ffecec;
+  color: #af1f1f;
+}
+
+.status-badge.info {
+  background: #e9f2ff;
+  color: #20539c;
+}
+
+.actions {
+  margin-top: 16px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+button {
+  border: 0;
+  border-radius: 12px;
+  padding: 10px 14px;
+  font: inherit;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button.primary {
+  color: #17395f;
+  background: linear-gradient(140deg, #ffffff, #edf4ff);
+  border: 1px solid rgba(51, 93, 146, 0.22);
+  box-shadow: 0 10px 18px rgba(39, 83, 130, 0.14);
+}
+
+button.primary::before {
+  content: "G";
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 22px;
+  height: 22px;
+  border-radius: 50%;
+  margin-right: 8px;
+  color: #fff;
+  font-weight: 800;
+  font-size: 13px;
+  background: conic-gradient(from 210deg, #ea4335, #fbbc05, #34a853, #4285f4, #ea4335);
+}
+
+button.secondary {
+  color: #1b3558;
+  background: #e7eef8;
+}
+
+button:hover {
+  filter: brightness(1.03);
+  transform: translateY(-1px);
+}
+
+button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.meta-grid {
+  margin-top: 16px;
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.meta-item {
+  border-radius: 14px;
+  border: 1px solid rgba(40, 71, 110, 0.17);
+  background: linear-gradient(145deg, rgba(255, 255, 255, 0.92), rgba(246, 251, 255, 0.82));
+  padding: 11px 12px;
+}
+
+.meta-label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: #69809b;
+  font-weight: 700;
+}
+
+.meta-value {
+  display: block;
+  font-size: 0.92rem;
+  font-weight: 700;
+  color: #20354e;
+  overflow-wrap: anywhere;
+}
+
+.notice {
+  margin-top: 10px;
+  border-radius: 14px;
+  padding: 11px 12px;
+  line-height: 1.6;
+  font-size: 0.88rem;
+}
+
+.notice.warning {
+  background: #fff3e5;
+  color: #b24f17;
+}
+
+.notice.info {
+  background: #e9f2ff;
+  color: #20539c;
+}
+
+.notice.error {
+  background: #ffeaea;
+  color: #af1f1f;
+}
+
+.notice.success {
+  background: #e9fbef;
+  color: #0c7a4e;
+}
+
+.hidden {
+  display: none !important;
+}
+
+.reveal-up {
+  animation: reveal-up 520ms ease both;
+}
+
+.delay-1 {
+  animation-delay: 90ms;
+}
+
+@keyframes reveal-up {
+  from {
+    opacity: 0;
+    transform: translateY(14px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@media (max-width: 940px) {
+  .login-shell {
+    grid-template-columns: 1fr;
+  }
+
+  .intro-panel {
+    display: none;
+  }
+
+  .meta-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 720px) {
+  .login-shell {
+    width: min(100%, calc(100% - 18px));
+    padding-top: 18px;
+  }
+
+  .intro-panel,
+  .auth-panel {
+    border-radius: 20px;
+    padding: 18px;
+  }
+}

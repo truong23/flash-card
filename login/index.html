@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flash Card - Đăng nhập</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/login/style.css" />
+  </head>
+  <body>
+    <div class="bg-noise" aria-hidden="true"></div>
+    <div class="login-shell">
+      <section class="intro-panel reveal-up">
+        <div class="intro-float-card" aria-hidden="true">
+          <span class="float-dot"></span>
+          <span>Smart TOCFL Journey</span>
+        </div>
+        <div class="intro-badge">TOCFL Flash Cards</div>
+        <h1>Đăng nhập để <span>kích hoạt lộ trình</span> học tập</h1>
+        <p>
+          Hệ thống xác thực bằng Google, kiểm tra quyền trên Firestore,
+          sau đó tự động chuyển đến trang chủ khi tài khoản đã được duyệt.
+        </p>
+        <div class="intro-list">
+          <div class="intro-item">
+            <span class="intro-icon">01</span>
+            <span>Đăng nhập Google nhanh trong một lần chạm</span>
+          </div>
+          <div class="intro-item">
+            <span class="intro-icon">02</span>
+            <span>Kiểm tra duyệt quyền tự động theo email</span>
+          </div>
+          <div class="intro-item">
+            <span class="intro-icon">03</span>
+            <span>Được duyệt xong sẽ chuyển về trang chủ</span>
+          </div>
+        </div>
+        <div class="intro-footer-pill">Realtime auth status • Firebase secured</div>
+      </section>
+
+      <section class="auth-panel reveal-up delay-1">
+        <div class="auth-topline">Secure Login Gateway</div>
+        <div id="statusBadge" class="status-badge pending">Đang kiểm tra phiên đăng nhập</div>
+        <h2>Đăng nhập và kiểm tra quyền</h2>
+        <p id="statusDescription" class="auth-description">
+          Hệ thống đang xác minh tài khoản và kiểm tra quyền trong Firestore.
+        </p>
+
+        <div class="actions">
+          <button type="button" id="signInButton" class="primary hidden">Đăng nhập Google</button>
+          <button type="button" id="refreshButton" class="secondary hidden">Kiểm tra lại trạng thái</button>
+          <button type="button" id="signOutButton" class="secondary hidden">Đăng xuất</button>
+        </div>
+
+        <div class="meta-grid">
+          <div class="meta-item">
+            <span class="meta-label">Email</span>
+            <span id="currentUserEmail" class="meta-value">Chưa đăng nhập</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Vai trò</span>
+            <span id="currentUserRole" class="meta-value">Khách</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Trạng thái</span>
+            <span id="currentUserState" class="meta-value">Chưa xác định</span>
+          </div>
+        </div>
+
+        <div id="setupNotice" class="notice warning hidden"></div>
+        <div id="infoNotice" class="notice info hidden"></div>
+        <div id="errorNotice" class="notice error hidden"></div>
+        <div id="successNotice" class="notice success hidden"></div>
+      </section>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore-compat.js"></script>
+    <script src="../shared-auth.js"></script>
+    <script src="/login/script.js"></script>
+  </body>
+</html>

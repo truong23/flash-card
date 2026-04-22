@@ -3,82 +3,77 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Flash Card - Đăng nhập</title>
+    <title>Flash Card - Trang chủ</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./auth-pages.css" />
+    <link rel="stylesheet" href="./home.css" />
   </head>
   <body>
-    <div class="page-shell">
-      <header class="page-header">
-        <div>
-          <h1>Đăng nhập vào flash card</h1>
+    <div class="home-wrap">
+      <section class="hero reveal">
+        <div class="hero-main reveal">
+          <span class="hero-kicker">TOCFL Learning Hub</span>
+          <h1>Chọn nhịp học của bạn hôm nay</h1>
           <p>
-            Tất cả người dùng đều vào từ trang đăng nhập này. Sau khi đăng nhập và được phê duyệt,
-            chọn Từ Vựng hoặc Luyện Tập để bắt đầu. Nếu chưa được duyệt,
-            màn hình sẽ hiển thị thông báo chờ duyệt.
+            Trang chủ tập trung vào hai đường học chính: ghi nhớ từ vựng và luyện dịch theo cấp độ.
+            Hệ thống chỉ hiển thị trang này khi phiên đăng nhập hợp lệ.
           </p>
         </div>
-      </header>
-
-      <div class="nav-grid">
-        <button type="button" id="vocabButton" class="nav-card hidden" onclick="location.href='/study'">
-          <span class="nav-card-icon">📖</span>
-          <span class="nav-card-title">Từ Vựng</span>
-          <span class="nav-card-sub">Ôn luyện từ vựng theo cấp độ</span>
-        </button>
-        <button type="button" id="practiceButton" class="nav-card hidden" onclick="location.href='/practice'">
-          <span class="nav-card-icon">✏️</span>
-          <span class="nav-card-title">Luyện Tập</span>
-          <span class="nav-card-sub">Bài tập và kiểm tra kiến thức</span>
-        </button>
-      </div>
-      <div class="card-grid">
-        <section class="card">
-          <div id="statusBadge" class="status-badge pending">Đang kiểm tra phiên đăng nhập</div>
-          <h2>Đăng nhập và kiểm tra quyền</h2>
-          <p id="statusDescription">
-            Hệ thống đang xác minh tài khoản và kiểm tra quyền trong Firestore.
+        <section class="status-panel hero-status reveal delay-1">
+          <h2 class="status-title">Thông tin phiên làm việc</h2>
+          <p id="statusDescription" class="status-description">
+            Hệ thống đang xác minh tài khoản và kiểm tra quyền truy cập.
           </p>
 
-          <div class="actions">
-            <button type="button" id="signInButton" class="primary hidden">Đăng nhập Google</button>
-            <button type="button" id="refreshButton" class="secondary hidden">Kiểm tra lại trạng thái</button>
-            <button type="button" id="signOutButton" class="secondary hidden">Đăng xuất</button>
-          </div>
-
-
           <div class="meta-grid">
-            <div class="meta-item">
-              <span class="meta-label">Email</span>
-              <span id="currentUserEmail" class="meta-value">Chưa đăng nhập</span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-label">Vai trò</span>
-              <span id="currentUserRole" class="meta-value">Khách</span>
-            </div>
-            <div class="meta-item">
-              <span class="meta-label">Trạng thái</span>
-              <span id="currentUserState" class="meta-value">Chưa xác định</span>
+            <div class="meta-item profile-row">
+              <span class="profile-avatar-wrap" aria-hidden="true">
+                <img id="currentUserAvatar" class="profile-avatar-image hidden" alt="Ảnh tài khoản" referrerpolicy="no-referrer" />
+                <span id="currentUserAvatarFallback" class="profile-avatar">◌</span>
+              </span>
+              <span class="profile-stack">
+                <span id="currentUserName" class="profile-name">Khách</span>
+                <span id="currentUserEmail" class="profile-text">Chưa đăng nhập</span>
+                <span class="profile-sub profile-role-line">Vai trò: <span id="currentUserRole">Khách</span></span>
+              </span>
+              <span id="currentUserState" class="session-pill state-unknown" aria-label="Chưa xác định" title="Chưa xác định"></span>
+              <button type="button" id="signOutButton" class="secondary signout-inline hidden">Đăng xuất</button>
             </div>
           </div>
 
           <div id="setupNotice" class="notice warning hidden"></div>
-          <div id="infoNotice" class="notice info hidden"></div>
           <div id="errorNotice" class="notice error hidden"></div>
-          <div id="successNotice" class="notice success hidden"></div>
         </section>
-      </div>
+      </section>
+
+      <section class="nav-grid reveal delay-1">
+        <button type="button" id="vocabButton" class="nav-card" onclick="location.href='/study'">
+          <div>
+            <span class="nav-card-top">📖</span>
+            <h2 class="nav-card-title">Từ Vựng</h2>
+            <p class="nav-card-sub">Ôn theo cấp độ, lật thẻ nhanh, tối ưu tốc độ ghi nhớ.</p>
+          </div>
+        </button>
+
+        <button type="button" id="practiceButton" class="nav-card" onclick="location.href='/practice'">
+          <div>
+            <span class="nav-card-top">✏️</span>
+            <h2 class="nav-card-title">Luyện Tập</h2>
+            <p class="nav-card-sub">Dịch câu và kiểm tra tức thì để củng cố phản xạ ngôn ngữ.</p>
+          </div>
+        </button>
+      </section>
+
     </div>
 
     <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore-compat.js"></script>
     <script src="./shared-auth.js"></script>
-    <script src="index.js"></script>
+    <script src="./index.js"></script>
   </body>
 </html>

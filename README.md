@@ -1,19 +1,22 @@
 # flash-card
 
-Ung dung hien duoc tach thanh 3 trang rieng:
+Ung dung hien duoc tach thanh 4 trang rieng:
 
-- `index.html`: trang login mac dinh
-- `study.html`: trang hoc, chi mo duoc khi tai khoan da duoc duyet
+- `login/index.html`: trang login mac dinh
+- `index.html`: trang chu, hien 2 lua chon hoc sau khi dang nhap
+- `study/index.html`: trang hoc, chi mo duoc khi tai khoan da duoc duyet
+- `practice/index.html`: trang luyen tap, chi mo duoc khi tai khoan da duoc duyet
 - `admin/index.html`: trang admin, chi mo duoc khi tai khoan co `role=admin` va `approved=true`
 
 ## Luong su dung
 
-1. Tat ca nguoi dung vao `index.html`
+1. Tat ca nguoi dung vao `login/index.html`
 2. Dang nhap Google
 3. Frontend doc document trong `configPageAccess/{email}`
-4. Neu `approved=true` thi tu dong chuyen sang `study.html`
-5. Neu chua duoc duyet thi hien thong bao `yeu cau cua ban dang cho duyet`
-6. Admin vao duong dan `admin/` de duyet tai khoan
+4. Neu `approved=true` thi tu dong chuyen sang `index.html` (trang chu)
+5. Trang chu hien 2 lua chon: Tu Vung va Luyen Tap
+6. Neu chua duoc duyet thi hien thong bao `yeu cau cua ban dang cho duyet`
+7. Admin vao duong dan `admin/` de duyet tai khoan
 
 ## Cac file chinh
 

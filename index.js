@@ -1,24 +1,16 @@
 const dom = {
   statusBadge: document.getElementById("statusBadge"),
   statusDescription: document.getElementById("statusDescription"),
-  signInButton: document.getElementById("signInButton"),
-  refreshButton: document.getElementById("refreshButton"),
   signOutButton: document.getElementById("signOutButton"),
-  vocabButton: document.getElementById("vocabButton"),
-  practiceButton: document.getElementById("practiceButton"),
+  currentUserAvatar: document.getElementById("currentUserAvatar"),
+  currentUserAvatarFallback: document.getElementById("currentUserAvatarFallback"),
+  currentUserName: document.getElementById("currentUserName"),
   currentUserEmail: document.getElementById("currentUserEmail"),
   currentUserRole: document.getElementById("currentUserRole"),
   currentUserState: document.getElementById("currentUserState"),
   setupNotice: document.getElementById("setupNotice"),
-  infoNotice: document.getElementById("infoNotice"),
   errorNotice: document.getElementById("errorNotice"),
-  successNotice: document.getElementById("successNotice"),
 };
-
-function setNavButtons(visible) {
-  toggleElement(dom.vocabButton, visible);
-  toggleElement(dom.practiceButton, visible);
-}
 
 function setStatus(text, tone) {
   dom.statusBadge.textContent = text;
@@ -31,25 +23,63 @@ function toggleElement(element, shouldShow) {
 
 function clearNotices() {
   toggleElement(dom.setupNotice, false);
-  toggleElement(dom.infoNotice, false);
   toggleElement(dom.errorNotice, false);
-  toggleElement(dom.successNotice, false);
+}
+
+function renderUserAvatar(user) {
+  const photoURL = user?.photoURL || "";
+  if (!photoURL) {
+    dom.currentUserAvatar.removeAttribute("src");
+    toggleElement(dom.currentUserAvatar, false);
+    toggleElement(dom.currentUserAvatarFallback, true);
+    return;
+  }
+
+  dom.currentUserAvatar.src = photoURL;
+  toggleElement(dom.currentUserAvatar, true);
+  toggleElement(dom.currentUserAvatarFallback, false);
+}
+
+function setSessionStateClass(session) {
+  dom.currentUserState.classList.remove(
+    "state-approved",
+    "state-pending",
+    "state-guest",
+    "state-unknown",
+  );
+
+  if (session.hasAccess) {
+    dom.currentUserState.classList.add("state-approved");
+    return;
+  }
+
+  if (session.user) {
+    dom.currentUserState.classList.add("state-pending");
+    return;
+  }
+
+  dom.currentUserState.classList.add("state-guest");
 }
 
 async function renderSession(session) {
-  dom.currentUserEmail.textContent = session.user?.email || "Chưa đăng nhập";
+  const emailText = session.user?.email || "Chưa đăng nhập";
+  const displayName = session.user?.displayName || (session.user?.email ? session.user.email.split("@")[0] : "Khách");
+  renderUserAvatar(session.user);
+  dom.currentUserName.textContent = displayName;
+  dom.currentUserEmail.textContent = emailText;
   dom.currentUserRole.textContent = session.accessRecord?.role || "Khách";
-  dom.currentUserState.textContent = session.hasAccess
+  const stateLabel = session.hasAccess
     ? "Đã được duyệt"
     : session.user
       ? "Đang chờ duyệt"
       : "Chưa đăng nhập";
+  dom.currentUserState.textContent = "";
+  dom.currentUserState.setAttribute("aria-label", stateLabel);
+  dom.currentUserState.setAttribute("title", stateLabel);
+  setSessionStateClass(session);
 
   clearNotices();
-  toggleElement(dom.signInButton, false);
-  toggleElement(dom.refreshButton, false);
   toggleElement(dom.signOutButton, Boolean(session.user));
-  setNavButtons(false);
 
   if (!flashCardAuth.isFirebaseConfigured()) {
     setStatus("Chưa cấu hình Firebase", "error");
@@ -64,54 +94,33 @@ async function renderSession(session) {
     dom.statusDescription.textContent = "Không thể kiểm tra quyền truy cập của tài khoản này.";
     dom.errorNotice.textContent = flashCardAuth.getFriendlyFirestoreError(session.error);
     toggleElement(dom.errorNotice, true);
-    toggleElement(dom.refreshButton, true);
     return;
   }
 
   if (!session.user) {
-    setStatus("Chưa đăng nhập", "info");
-    dom.statusDescription.textContent = "Đăng nhập bằng Google để hệ thống kiểm tra quyền vào trang học.";
-    dom.infoNotice.textContent = "Nếu đăng nhập xong mà chưa được duyệt, bạn sẽ thấy thông báo chờ duyệt ngay tại đây.";
-    toggleElement(dom.infoNotice, true);
-    toggleElement(dom.signInButton, true);
+    flashCardAuth.redirectTo("login");
     return;
   }
 
   if (session.hasAccess) {
     setStatus("Đã được phê duyệt", "success");
-    dom.statusDescription.textContent = "Tài khoản đã được phê duyệt. Chọn mục bạn muốn học.";
-    dom.successNotice.textContent = session.isAdmin
-      ? "Tài khoản này có quyền admin. Nếu cần duyệt người dùng khác, vào đường dẫn /admin."
-      : "Tài khoản này đã được duyệt vào trang học.";
-    toggleElement(dom.successNotice, true);
-    setNavButtons(true);
+    dom.statusDescription.textContent = "Bạn đang ở trang chủ. Hãy chọn Từ Vựng hoặc Luyện Tập để bắt đầu.";
     return;
   }
-  setStatus("Yêu cầu đang chờ duyệt", "pending");
-  dom.statusDescription.textContent = "Bạn đã đăng nhập nhưng chưa được phê duyệt vào trang học.";
-  dom.infoNotice.textContent = "Yêu cầu của bạn đang chờ admin duyệt. Khi admin cấp quyền approved=true, bạn có thể bấm kiểm tra lại trạng thái.";
-  toggleElement(dom.infoNotice, true);
-  toggleElement(dom.refreshButton, true);
+
+  flashCardAuth.redirectTo("login");
 }
 
 async function init() {
-  dom.signInButton.addEventListener("click", async () => {
-    try {
-      await flashCardAuth.signInWithGoogle();
-    } catch (error) {
-      setStatus("Đăng nhập thất bại", "error");
-      dom.errorNotice.textContent = flashCardAuth.getFriendlyFirebaseError(error);
-      toggleElement(dom.errorNotice, true);
-    }
-  });
-
-  dom.refreshButton.addEventListener("click", async () => {
-    await renderSession(await flashCardAuth.getCurrentSession());
+  dom.currentUserAvatar.addEventListener("error", () => {
+    dom.currentUserAvatar.removeAttribute("src");
+    toggleElement(dom.currentUserAvatar, false);
+    toggleElement(dom.currentUserAvatarFallback, true);
   });
 
   dom.signOutButton.addEventListener("click", async () => {
     await flashCardAuth.signOutCurrentUser();
-    await renderSession(await flashCardAuth.getCurrentSession());
+    flashCardAuth.redirectTo("login");
   });
 
   await flashCardAuth.initializeFirebase();
