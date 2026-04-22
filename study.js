@@ -1,3 +1,27 @@
+// ================================================================
+// AUTH GUARD — redirect to login if session has no access
+// ================================================================
+(async function () {
+  document.documentElement.style.visibility = 'hidden';
+
+  if (typeof flashCardAuth === 'undefined') {
+    document.documentElement.style.visibility = '';
+    return;
+  }
+
+  let resolved = false;
+  const unsubscribe = await flashCardAuth.onSessionChange(function (session) {
+    if (resolved) return;
+    resolved = true;
+    if (typeof unsubscribe === 'function') unsubscribe();
+    if (!session.hasAccess) {
+      flashCardAuth.redirectTo('login');
+      return;
+    }
+    document.documentElement.style.visibility = '';
+  });
+})();
+
 const WORDS_PER_COLOR = 50;
 const CARD_COLOR_SCALE = ['#f8b51e', '#267f94', '#fa501c', '#bb1818', '#1c3e76', '#6a3669'];
 const LEVELS = ['A1', 'A2', 'B1', 'B2'];
@@ -52,10 +76,25 @@ function escapeHtml(value) {
 }
 
 function buildDataIndex() {
-  const counts = { A1: 0, A2: 0, B1: 0, B2: 0 };
+  const counts = {
+    A1: 0,
+    A2: 0,
+    B1: 0,
+    B2: 0
+  };
   const searchableEntries = [];
-  const sectionsByLevel = { A1: [], A2: [], B1: [], B2: [] };
-  const processedByLevel = { A1: [], A2: [], B1: [], B2: [] };
+  const sectionsByLevel = {
+    A1: [],
+    A2: [],
+    B1: [],
+    B2: []
+  };
+  const processedByLevel = {
+    A1: [],
+    A2: [],
+    B1: [],
+    B2: []
+  };
   const firstSectionByWordIndex = new Map();
   const sectionsById = new Map();
 
@@ -254,15 +293,37 @@ function parseSearchQuery(rawQuery) {
 }
 
 function updateLevelFilterButtons() {
-  const buttons = [
-    { element: filterAllButton, level: null },
-    { element: filterA1Button, level: 'A1', class: 'active-a1' },
-    { element: filterA2Button, level: 'A2', class: 'active-a2' },
-    { element: filterB1Button, level: 'B1', class: 'active-b1' },
-    { element: filterB2Button, level: 'B2', class: 'active-b2' }
+  const buttons = [{
+      element: filterAllButton,
+      level: null
+    },
+    {
+      element: filterA1Button,
+      level: 'A1',
+      class: 'active-a1'
+    },
+    {
+      element: filterA2Button,
+      level: 'A2',
+      class: 'active-a2'
+    },
+    {
+      element: filterB1Button,
+      level: 'B1',
+      class: 'active-b1'
+    },
+    {
+      element: filterB2Button,
+      level: 'B2',
+      class: 'active-b2'
+    }
   ];
 
-  buttons.forEach(({ element, level, class: activeClass }) => {
+  buttons.forEach(({
+    element,
+    level,
+    class: activeClass
+  }) => {
     element.classList.toggle('active', currentLevelFilter === level);
     if (activeClass) {
       element.classList.toggle(activeClass, currentLevelFilter === level);
@@ -401,13 +462,20 @@ function setLevelFilter(level) {
 
 function scrollToLevel(level) {
   if (!level) {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    });
     return;
   }
 
   const section = document.querySelector(`.level-section[data-level="${level}"]`);
   if (section) {
-    section.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' });
+    section.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'nearest'
+    });
   }
 }
 
@@ -444,7 +512,10 @@ function focusSearchTarget(wordIndex) {
   }
 
   targetCard.classList.add('search-target');
-  targetCard.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  targetCard.scrollIntoView({
+    behavior: 'smooth',
+    block: 'center'
+  });
 }
 
 function revealWord(wordIndex) {
@@ -492,7 +563,10 @@ function generateWords() {
 function handleSearch() {
   clearTimeout(searchTimeout);
   searchTimeout = setTimeout(() => {
-    const { levelFilter: inlineLevelFilter, textQuery } = parseSearchQuery(searchInput.value);
+    const {
+      levelFilter: inlineLevelFilter,
+      textQuery
+    } = parseSearchQuery(searchInput.value);
     const effectiveLevelFilter = inlineLevelFilter || currentLevelFilter;
     pendingSearchTargetIndex = null;
 
@@ -579,10 +653,15 @@ function handleResize() {
   }, 80);
 }
 
-window.addEventListener('scroll', handleScroll, { passive: true });
+window.addEventListener('scroll', handleScroll, {
+  passive: true
+});
 
 backToTopButton.addEventListener('click', () => {
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth'
+  });
 });
 
 wordsContainer.addEventListener('click', (event) => {
@@ -617,7 +696,9 @@ zoomResetButton.addEventListener('click', () => {
   applyZoom();
 });
 zoomInButton.addEventListener('click', () => changeZoom(0.15));
-window.addEventListener('resize', handleResize, { passive: true });
+window.addEventListener('resize', handleResize, {
+  passive: true
+});
 
 generateWords();
 updateLevelFilterButtons();

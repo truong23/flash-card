@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="study.css">
 </head>
+
 <body>
     <div class="container">
-    <h1>TOCFL Band A & B - Từ vựng (Phồn thể)</h1>
+        <h1>TOCFL Band A & B - Từ vựng (Phồn thể)</h1>
         <div class="stats" id="stats">
             <div class="stat-item">
                 <span class="stat-number" id="totalWords">0</span>
@@ -34,34 +36,36 @@
                 <span class="stat-label">🌲 BAND B2</span>
             </div>
         </div>
-        
+
         <div class="filter-box">
-          <button type="button" id="filterAllButton" class="level-filter-action active">Tất cả</button>
-          <button type="button" id="filterA1Button" class="level-filter-action">Band A1</button>
-          <button type="button" id="filterA2Button" class="level-filter-action">Band A2</button>
-          <button type="button" id="filterB1Button" class="level-filter-action">Band B1</button>
-          <button type="button" id="filterB2Button" class="level-filter-action">Band B2</button>
+            <button type="button" id="filterAllButton" class="level-filter-action active">Tất cả</button>
+            <button type="button" id="filterA1Button" class="level-filter-action">Band A1</button>
+            <button type="button" id="filterA2Button" class="level-filter-action">Band A2</button>
+            <button type="button" id="filterB1Button" class="level-filter-action">Band B1</button>
+            <button type="button" id="filterB2Button" class="level-filter-action">Band B2</button>
         </div>
 
         <div class="search-box">
             <input type="text" id="searchInput" placeholder="Tìm kiếm từ vựng...">
-          <button type="button" id="searchButton" class="search-action">Tìm kiếm</button>
-          <button type="button" id="flipChineseButton" class="flip-chinese-action">Lật tiếng Trung</button>
-          <button type="button" id="flipVietnameseButton" class="flip-vietnamese-action">Lật tiếng Việt</button>
-          <button type="button" id="zoomOutButton" class="zoom-out-action">-</button>
-          <span class="zoom-indicator" id="zoomIndicator">100%</span>
-          <button type="button" id="zoomResetButton" class="zoom-reset-action">100%</button>
-          <button type="button" id="zoomInButton" class="zoom-in-action">+</button>
+            <button type="button" id="searchButton" class="search-action">Tìm kiếm</button>
+            <button type="button" id="flipChineseButton" class="flip-chinese-action">Lật tiếng Trung</button>
+            <button type="button" id="flipVietnameseButton" class="flip-vietnamese-action">Lật tiếng Việt</button>
+            <button type="button" id="zoomOutButton" class="zoom-out-action">-</button>
+            <span class="zoom-indicator" id="zoomIndicator">100%</span>
+            <button type="button" id="zoomResetButton" class="zoom-reset-action">100%</button>
+            <button type="button" id="zoomInButton" class="zoom-in-action">+</button>
         </div>
-        
+
         <div id="wordsContainer">
         </div>
         <button id="backToTop" class="back-to-top" title="Lên đầu trang">↑</button>
     </div>
-    <script src="./vocabulary-data.js"></script>
-
+    <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore-compat.js"></script>
     <script src="./shared-auth.js"></script>
     <script src="./vocabulary-data.js"></script>
     <script src="./study.js"></script>
 </body>
+
 </html>

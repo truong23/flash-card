@@ -1,13 +1,37 @@
+// ================================================================
+// AUTH GUARD — redirect to login if session has no access
+// ================================================================
+(async function () {
+  document.documentElement.style.visibility = 'hidden';
+
+  if (typeof flashCardAuth === 'undefined') {
+    document.documentElement.style.visibility = '';
+    return;
+  }
+
+  let resolved = false;
+  const unsubscribe = await flashCardAuth.onSessionChange(function (session) {
+    if (resolved) return;
+    resolved = true;
+    if (typeof unsubscribe === 'function') unsubscribe();
+    if (!session.hasAccess) {
+      flashCardAuth.redirectTo('login');
+      return;
+    }
+    document.documentElement.style.visibility = '';
+  });
+})();
+
 /* ================================================================
        STATE
     ================================================================ */
 let selectedLevel = null;
 let selectedDirection = null;
-let exercises = [];         // all loaded exercises for current config
+let exercises = []; // all loaded exercises for current config
 let questionSuffSheet = []; // shuffled index array (session-aware)
-let currentPosInSheet = 0;  // pointer into questionSuffSheet
+let currentPosInSheet = 0; // pointer into questionSuffSheet
 let isAnswerShown = false;
-let attemptCount = 0;       // wrong attempts on current question
+let attemptCount = 0; // wrong attempts on current question
 
 /* Settings for flashcard colors (matching study.js) */
 const WORDS_PER_COLOR = 50;
@@ -25,13 +49,16 @@ function loadSheet(level, direction) {
   try {
     const raw = sessionStorage.getItem(key);
     if (raw) return JSON.parse(raw);
-  } catch (e) { }
+  } catch (e) {}
   return null;
 }
 
 function saveSheet(level, direction, sheet, pos) {
   const key = getSessionKey(level, direction);
-  sessionStorage.setItem(key, JSON.stringify({ sheet, pos }));
+  sessionStorage.setItem(key, JSON.stringify({
+    sheet,
+    pos
+  }));
 }
 
 function clearSheet(level, direction) {
@@ -264,9 +291,9 @@ function showQuestion() {
   const textarea = document.getElementById('answerInput');
   textarea.value = '';
   textarea.disabled = false;
-  textarea.placeholder = selectedDirection === 'zh_vi'
-    ? 'Nhập câu dịch tiếng Việt của bạn…'
-    : '請輸入您的翻譯…';
+  textarea.placeholder = selectedDirection === 'zh_vi' ?
+    'Nhập câu dịch tiếng Việt của bạn…' :
+    '請輸入您的翻譯…';
   textarea.focus();
 
   // Reset feedback
@@ -314,11 +341,35 @@ function checkAnswerCorrect(userAnswer, referenceAnswers) {
       .trim();
 
     if (isChinese) {
-      const cnNums = { '0': '零', '1': '一', '2': '二', '3': '三', '4': '四', '5': '五', '6': '六', '7': '七', '8': '八', '9': '九', '10': '十' };
+      const cnNums = {
+        '0': '零',
+        '1': '一',
+        '2': '二',
+        '3': '三',
+        '4': '四',
+        '5': '五',
+        '6': '六',
+        '7': '七',
+        '8': '八',
+        '9': '九',
+        '10': '十'
+      };
       norm = norm.replace(/[0-9]/g, m => cnNums[m] || m);
       return norm.replace(/\s+/g, '');
     } else {
-      const viNums = { '0': 'không', '1': 'một', '2': 'hai', '3': 'ba', '4': 'bốn', '5': 'năm', '6': 'sáu', '7': 'bảy', '8': 'tám', '9': 'chín', '10': 'mười' };
+      const viNums = {
+        '0': 'không',
+        '1': 'một',
+        '2': 'hai',
+        '3': 'ba',
+        '4': 'bốn',
+        '5': 'năm',
+        '6': 'sáu',
+        '7': 'bảy',
+        '8': 'tám',
+        '9': 'chín',
+        '10': 'mười'
+      };
       norm = norm.replace(/\b([0-9]|10)\b/g, m => viNums[m] || m);
       return norm.replace(/\s+/g, ' ');
     }
@@ -330,9 +381,9 @@ function checkAnswerCorrect(userAnswer, referenceAnswers) {
     for (let j = 0; j <= b.length; j++) tmp[0][j] = j;
     for (let i = 1; i <= a.length; i++) {
       for (let j = 1; j <= b.length; j++) {
-        tmp[i][j] = a[i - 1] === b[j - 1] 
-          ? tmp[i - 1][j - 1] 
-          : Math.min(tmp[i - 1][j - 1] + 1, tmp[i][j - 1] + 1, tmp[i - 1][j] + 1);
+        tmp[i][j] = a[i - 1] === b[j - 1] ?
+          tmp[i - 1][j - 1] :
+          Math.min(tmp[i - 1][j - 1] + 1, tmp[i][j - 1] + 1, tmp[i - 1][j] + 1);
       }
     }
     return tmp[a.length][b.length];
@@ -369,7 +420,7 @@ function checkAnswerCorrect(userAnswer, referenceAnswers) {
 
     const isPass = similarity >= threshold;
     console.log(`  ${isPass ? '✅' : '❌'} So với: "${refNorm}" | Khớp: ${(similarity * 100).toFixed(1)}% | Ngưỡng: ${threshold * 100}%`);
-    
+
     return isPass;
   });
 }
@@ -560,7 +611,12 @@ function openVocabCard(chinese) {
 
     // Level badge
     const level = matches[0].level || '';
-    const levelColors = { A1: '#10b981', A2: '#3b82f6', B1: '#f59e0b', B2: '#06b6d4' };
+    const levelColors = {
+      A1: '#10b981',
+      A2: '#3b82f6',
+      B1: '#f59e0b',
+      B2: '#06b6d4'
+    };
     const lc = levelColors[level] || '#7c3aed';
     vcLevelWrap.innerHTML = `<span class="vocab-level-badge" style="background:${lc}22;color:${lc};border:1px solid ${lc}44;">Band ${level}</span>`;
 
@@ -665,7 +721,9 @@ function showWrongFeedback(userAnswer, q, attemptCount) {
     const refSet = new Set(refTokens.map(t => t.toLowerCase()));
 
     let matches = 0;
-    userTokens.forEach(t => { if (refSet.has(t.toLowerCase())) matches++; });
+    userTokens.forEach(t => {
+      if (refSet.has(t.toLowerCase())) matches++;
+    });
 
     if (matches > maxMatch) {
       maxMatch = matches;

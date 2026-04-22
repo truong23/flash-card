@@ -44,9 +44,9 @@
   function isFirebaseConfigured() {
     return Boolean(
       FIREBASE_CONFIG.apiKey &&
-        FIREBASE_CONFIG.authDomain &&
-        FIREBASE_CONFIG.projectId &&
-        FIREBASE_CONFIG.appId,
+      FIREBASE_CONFIG.authDomain &&
+      FIREBASE_CONFIG.projectId &&
+      FIREBASE_CONFIG.appId,
     );
   }
 
@@ -55,7 +55,7 @@
   }
 
   function getFriendlyFirebaseError(error) {
-    const code = error?.code || "";
+    const code = error ?.code || "";
 
     if (code === "auth/configuration-not-found") {
       return "Firebase Authentication chưa được cấu hình đầy đủ. Hãy bật Authentication trong Firebase Console, kích hoạt Google provider, rồi kiểm tra Authorized domains.";
@@ -77,12 +77,12 @@
       return "Bạn đã đóng popup đăng nhập trước khi hoàn tất.";
     }
 
-    return error?.message || "Không thể đăng nhập bằng Google.";
+    return error ?.message || "Không thể đăng nhập bằng Google.";
   }
 
   function getFriendlyFirestoreError(error) {
-    const code = error?.code || "";
-    const message = error?.message || "";
+    const code = error ?.code || "";
+    const message = error ?.message || "";
     const isFileProtocol = window.location.protocol === "file:";
 
     if (
@@ -119,9 +119,9 @@
       return firebaseServices;
     }
 
-    firebaseServices.app = firebase.apps.length
-      ? firebase.app()
-      : firebase.initializeApp(FIREBASE_CONFIG);
+    firebaseServices.app = firebase.apps.length ?
+      firebase.app() :
+      firebase.initializeApp(FIREBASE_CONFIG);
     firebaseServices.auth = firebase.auth();
     firebaseServices.db = firebase.firestore();
     firebaseServices.enabled = true;
@@ -185,9 +185,9 @@
 
     try {
       session.accessRecord = await resolveAccessRecord(user.email);
-      session.hasAccess = Boolean(session.accessRecord?.approved);
-      session.isAdmin = session.hasAccess && session.accessRecord?.role === "admin";
-      session.pendingBootstrap = Boolean(session.accessRecord?.pendingBootstrap);
+      session.hasAccess = Boolean(session.accessRecord ?.approved);
+      session.isAdmin = session.hasAccess && session.accessRecord ?.role === "admin";
+      session.pendingBootstrap = Boolean(session.accessRecord ?.pendingBootstrap);
       return session;
     } catch (error) {
       session.error = error;
@@ -231,7 +231,7 @@
 
   async function persistBootstrapAdmin() {
     await initializeFirebase();
-    const currentUser = firebaseServices.auth?.currentUser;
+    const currentUser = firebaseServices.auth ?.currentUser;
     if (!firebaseServices.db || !currentUser || !isAdminEmail(currentUser.email)) {
       return;
     }
@@ -240,16 +240,15 @@
     await firebaseServices.db
       .collection(FIRESTORE_ACCESS_COLLECTION)
       .doc(email)
-      .set(
-        {
-          email,
-          role: "admin",
-          approved: true,
-          createdAt: firebase.firestore.FieldValue.serverTimestamp(),
-          updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
-        },
-        { merge: true },
-      );
+      .set({
+        email,
+        role: "admin",
+        approved: true,
+        createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+        updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
+      }, {
+        merge: true
+      }, );
   }
 
   async function listAccessRecords() {
@@ -282,16 +281,15 @@
     await firebaseServices.db
       .collection(FIRESTORE_ACCESS_COLLECTION)
       .doc(email)
-      .set(
-        {
-          email,
-          role: record.role || "viewer",
-          approved: Boolean(record.approved),
-          createdAt: firebase.firestore.FieldValue.serverTimestamp(),
-          updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
-        },
-        { merge: true },
-      );
+      .set({
+        email,
+        role: record.role || "viewer",
+        approved: Boolean(record.approved),
+        createdAt: firebase.firestore.FieldValue.serverTimestamp(),
+        updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
+      }, {
+        merge: true
+      }, );
   }
 
   async function toggleApproved(email) {
@@ -304,15 +302,14 @@
     if (!snapshot.exists) return;
     const data = snapshot.data() || {};
 
-    await docRef.set(
-      {
-        email: normalizedEmail,
-        role: data.role || "viewer",
-        approved: !(data.approved !== false),
-        updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
-      },
-      { merge: true },
-    );
+    await docRef.set({
+      email: normalizedEmail,
+      role: data.role || "viewer",
+      approved: !(data.approved !== false),
+      updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
+    }, {
+      merge: true
+    }, );
   }
 
   async function toggleRole(email) {
@@ -325,15 +322,14 @@
     if (!snapshot.exists) return;
     const data = snapshot.data() || {};
 
-    await docRef.set(
-      {
-        email: normalizedEmail,
-        role: data.role === "admin" ? "viewer" : "admin",
-        approved: data.approved !== false,
-        updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
-      },
-      { merge: true },
-    );
+    await docRef.set({
+      email: normalizedEmail,
+      role: data.role === "admin" ? "viewer" : "admin",
+      approved: data.approved !== false,
+      updatedAt: firebase.firestore.FieldValue.serverTimestamp(),
+    }, {
+      merge: true
+    }, );
   }
 
   async function deleteAccessRecord(email) {
@@ -359,10 +355,17 @@
   function loadDisplaySettings() {
     try {
       const raw = window.localStorage.getItem(DISPLAY_SETTINGS_STORAGE_KEY);
-      if (!raw) return { ...DEFAULT_DISPLAY_SETTINGS };
-      return { ...DEFAULT_DISPLAY_SETTINGS, ...JSON.parse(raw) };
+      if (!raw) return {
+        ...DEFAULT_DISPLAY_SETTINGS
+      };
+      return {
+        ...DEFAULT_DISPLAY_SETTINGS,
+        ...JSON.parse(raw)
+      };
     } catch (error) {
-      return { ...DEFAULT_DISPLAY_SETTINGS };
+      return {
+        ...DEFAULT_DISPLAY_SETTINGS
+      };
     }
   }
 
@@ -375,17 +378,23 @@
 
   function getRoute(name) {
     const isAdminPage = window.location.pathname.includes("/admin/");
+    const isPracticePage = window.location.pathname.includes("/practice/");
+    const isSubPage = isAdminPage || isPracticePage;
 
     if (name === "login") {
-      return isAdminPage ? "../index.html" : "./index.html";
+      return isSubPage ? "../index.html" : "./index.html";
     }
 
     if (name === "study") {
-      return isAdminPage ? "../study.html" : "./study.html";
+      return isSubPage ? "../study.html" : "./study.html";
     }
 
     if (name === "admin") {
-      return isAdminPage ? "./" : "./admin/";
+      return isAdminPage ? "./" : (isPracticePage ? "../admin/" : "./admin/");
+    }
+
+    if (name === "practice") {
+      return isPracticePage ? "./" : (isAdminPage ? "../practice/" : "./practice/");
     }
 
     return "./index.html";
