@@ -794,12 +794,10 @@ body {
   display: block;
 }
 
-/* Two-column layout */
+/* One-column layout */
 .practice-layout {
-  display: grid;
-  grid-template-columns: 7fr 5fr;
-  gap: 32px;
-  align-items: flex-start;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .practice-main-col {
@@ -1996,14 +1994,6 @@ body {
 @media (max-width: 1024px) {
   #screen-practice {
     max-width: 800px;
-  }
-  .practice-layout {
-    grid-template-columns: 1fr;
-    gap: 24px;
-  }
-  .practice-sidebar-col {
-    position: static;
-    max-height: 500px;
   }
 }
 
