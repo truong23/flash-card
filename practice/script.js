@@ -1,4 +1,71 @@
 // ================================================================
+// AI & SEMANTIC SIMILARITY SETUP
+// ================================================================
+import { pipeline, env } from 'https://cdn.jsdelivr.net/npm/@huggingface/transformers@3.0.2';
+
+// Configure for browser-only caching
+env.allowLocalModels = false;
+
+let extractor = null;
+
+async function initAI() {
+  const container = document.getElementById('modelProgressContainer');
+  const bar = document.getElementById('modelProgressBar');
+  if (container) container.style.display = 'block';
+
+  try {
+    // Model paraphrase-multilingual-MiniLM-L12-v2 supports Vietnamese & Chinese
+    extractor = await pipeline('feature-extraction', 'Xenova/paraphrase-multilingual-MiniLM-L12-v2', {
+      progress_callback: (data) => {
+        if (data.status === 'progress' && bar) {
+          bar.style.width = `${data.progress}%`;
+        }
+        if (data.status === 'ready' && container) {
+          container.style.display = 'none';
+        }
+      }
+    });
+    console.log("✅ AI Model ready for semantic validation");
+  } catch (err) {
+    console.error("❌ Lỗi tải Model AI:", err);
+    if (container) container.style.display = 'none';
+  }
+}
+
+initAI();
+
+// ================================================================
+// EXPOSE TO WINDOW (for HTML onclick compatibility)
+// ================================================================
+// We expose these early so they are available as soon as possible
+window.selectLevel = selectLevel;
+window.selectDirection = selectDirection;
+window.startPractice = startPractice;
+window.checkAnswer = checkAnswer;
+window.showHint = showHint;
+window.nextQuestion = nextQuestion;
+window.skipQuestion = skipQuestion;
+window.restartSession = restartSession;
+window.goBack = goBack;
+window.closeVocabCard = closeVocabCard;
+window.changeSidebarZoom = changeSidebarZoom;
+window.openVocabCard = openVocabCard;
+
+function dotProduct(a, b) {
+  let sum = 0;
+  for (let i = 0; i < a.length; i++) sum += a[i] * b[i];
+  return sum;
+}
+
+async function getSimilarity(text1, text2) {
+  if (!extractor) return 0;
+  // Use mean pooling and normalization for cosine similarity via dot product
+  const out1 = await extractor(text1, { pooling: 'mean', normalize: true });
+  const out2 = await extractor(text2, { pooling: 'mean', normalize: true });
+  return dotProduct(out1.data, out2.data);
+}
+
+// ================================================================
 // AUTH GUARD — redirect to login if session has no access
 // ================================================================
 (async function () {
@@ -299,6 +366,7 @@ function showQuestion() {
   // Reset feedback
   hideWrongFeedback();
 
+
   // Reset UI
   document.getElementById('wrongPanel').classList.remove('visible');
   document.getElementById('correctPanel').classList.remove('visible');
@@ -320,7 +388,7 @@ function showQuestion() {
 /* ================================================================
    ANSWER COMPARISON
 ================================================================ */
-function checkAnswerCorrect(userAnswer, referenceAnswers) {
+async function checkAnswerCorrect(userAnswer, referenceAnswers) {
   function isCJK(c) {
     const code = c.codePointAt(0);
     return (code >= 0x4E00 && code <= 0x9FFF) ||
@@ -337,7 +405,7 @@ function checkAnswerCorrect(userAnswer, referenceAnswers) {
   function normalize(s, isChinese) {
     let norm = s
       .toLowerCase()
-      .replace(/[.,!?。，！？；：、「」『』【】《》〈〉“”‘’()（）…—]/g, '')
+      .replace(/[.,!?%。，！？；：、「」『』【】《》〈〉“”‘’()（）…—]/g, '')
       .trim();
 
     if (isChinese) {
@@ -394,7 +462,12 @@ function checkAnswerCorrect(userAnswer, referenceAnswers) {
 
   console.log(`%c[Kiểm tra đáp án] Nhập: "${userNorm}"`, "color: #3b82f6; font-weight: bold;");
 
-  return referenceAnswers.some(ref => {
+  // Support both array and piped string formats
+  const refs = Array.isArray(referenceAnswers) ? 
+    referenceAnswers : 
+    (typeof referenceAnswers === 'string' ? referenceAnswers.split('|') : [referenceAnswers]);
+
+  const lexicalMatch = refs.some(ref => {
     const refNorm = normalize(ref, isChineseTarget);
     if (userNorm === refNorm) {
       console.log(`  ✅ Khớp tuyệt đối với: "${refNorm}"`);
@@ -423,12 +496,30 @@ function checkAnswerCorrect(userAnswer, referenceAnswers) {
 
     return isPass;
   });
+
+  if (lexicalMatch) return true;
+
+  // --- SEMANTIC CHECK (AI) ---
+  if (extractor) {
+    console.log("%c[AI Check] Đang phân tích ngữ nghĩa...", "color: #7c3aed; font-weight: bold;");
+    for (const ref of refs) {
+      const score = await getSimilarity(userAnswer, ref);
+      console.log(`  🤖 So với: "${ref}" | Khớp ngữ nghĩa: ${(score * 100).toFixed(1)}%`);
+      // 0.82 is a safe threshold for "very similar" meanings in this model
+      if (score >= 0.82) {
+        console.log("  ✅ AI chấp nhận đáp án này!");
+        return true;
+      }
+    }
+  }
+
+  return false;
 }
 
 /* ================================================================
    CHECK ANSWER
 ================================================================ */
-function checkAnswer() {
+async function checkAnswer() {
   if (isAnswerShown) return;
 
   const textarea = document.getElementById('answerInput');
@@ -445,7 +536,7 @@ function checkAnswer() {
 
   const idx = questionSuffSheet[currentPosInSheet];
   const q = exercises[idx];
-  const isCorrect = checkAnswerCorrect(userAnswer, q.referenceAnswers);
+  const isCorrect = await checkAnswerCorrect(userAnswer, q.referenceAnswers);
 
   if (isCorrect) {
     // --- CORRECT ---
@@ -700,14 +791,6 @@ if (initialLevel && ['A1', 'A2', 'B1', 'B2'].includes(initialLevel.toUpperCase()
   selectLevel(initialLevel.toUpperCase());
 }
 
-function escapeHtml(value) {
-  return String(value ?? "")
-    .replace(/&/g, "&amp;")
-    .replace(/</g, "&lt;")
-    .replace(/>/g, "&gt;")
-    .replace(/\"/g, "&quot;")
-    .replace(/'/g, "&#39;");
-}
 
 /**
  * Duolingo-style diff:
@@ -790,3 +873,19 @@ function hideWrongFeedback() {
     container.innerHTML = '';
   }
 }
+
+// ================================================================
+// EXPOSE TO WINDOW (for HTML onclick compatibility)
+// ================================================================
+window.selectLevel = selectLevel;
+window.selectDirection = selectDirection;
+window.startPractice = startPractice;
+window.checkAnswer = checkAnswer;
+window.showHint = showHint;
+window.nextQuestion = nextQuestion;
+window.skipQuestion = skipQuestion;
+window.restartSession = restartSession;
+window.goBack = goBack;
+window.closeVocabCard = closeVocabCard;
+window.changeSidebarZoom = changeSidebarZoom;
+window.openVocabCard = openVocabCard;
