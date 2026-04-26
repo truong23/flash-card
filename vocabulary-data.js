@@ -469,7 +469,7 @@ const vocabularyData = [
     "meaning": "nhà lầu"
   },
   {
-    "chinese": "大樓",
+    "chinese": "蛋糕",
     "level": "A1",
     "pinyin": "dàngāo",
     "part_of_speech": "N",
