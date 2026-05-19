@@ -1176,6 +1176,43 @@ body {
   letter-spacing: 0.04em;
 }
 
+.question-pinyin-row {
+  display: none;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-top: 6px;
+}
+
+.question-pinyin {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  font-style: italic;
+  opacity: 0.72;
+}
+
+.btn-toggle-pinyin {
+  border: 1px solid var(--border);
+  background: #fff7e6;
+  color: #b45309;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 6px 12px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+  box-shadow: 0 3px 0 #f59e0b;
+}
+
+.btn-toggle-pinyin:hover {
+  filter: brightness(1.05);
+}
+
+.btn-toggle-pinyin:active {
+  transform: translateY(3px);
+  box-shadow: 0 0 0 #f59e0b;
+}
+
 .keyword-chips {
   display: flex;
   flex-wrap: wrap;

@@ -33822,5 +33822,18006 @@ const vocabularyData = [
     "pinyin": "zuòkè",
     "part_of_speech": "Vi",
     "meaning": "làm khách"
-  }
+  },
+  
+ {
+  "chinese": "欸",
+  "level": "C1",
+  "pinyin": "āi",
+  "meaning": "này , ơ"
+ },
+ {
+  "chinese": "挨",
+  "level": "C1",
+  "pinyin": "āi",
+  "meaning": "chịu , bị"
+ },
+ {
+  "chinese": "愛戴",
+  "level": "C1",
+  "pinyin": "Àidài",
+  "meaning": "yêu mến, kính trọng"
+ },
+ {
+  "chinese": "愛國",
+  "level": "C1",
+  "pinyin": "àiguó",
+  "meaning": "yêu nước"
+ },
+ {
+  "chinese": "愛滋病",
+  "level": "C1",
+  "pinyin": "àizībìng",
+  "meaning": "bệnh AIDS"
+ },
+ {
+  "chinese": "暗暗",
+  "level": "C1",
+  "pinyin": "àn'àn",
+  "meaning": "ngầm ngầm, thầm"
+ },
+ {
+  "chinese": "安頓",
+  "level": "C1",
+  "pinyin": "āndùn",
+  "meaning": "sắp xếp ổn thỏa, an bài"
+ },
+ {
+  "chinese": "安撫",
+  "level": "C1",
+  "pinyin": "ānfǔ",
+  "meaning": "an ủi, vỗ về"
+ },
+ {
+  "chinese": "昂貴",
+  "level": "C1",
+  "pinyin": "ángguì",
+  "meaning": "đắt đỏ, đắt giá"
+ },
+ {
+  "chinese": "案件",
+  "level": "C1",
+  "pinyin": "ànjiàn",
+  "meaning": "vụ án"
+ },
+ {
+  "chinese": "按摩",
+  "level": "C1",
+  "pinyin": "ànmó",
+  "meaning": "mát-xa, xoa bóp"
+ },
+ {
+  "chinese": "安寧",
+  "level": "C1",
+  "pinyin": "ānníng",
+  "meaning": "an ninh, yên ổn"
+ },
+ {
+  "chinese": "案情",
+  "level": "C1",
+  "pinyin": "ànqíng",
+  "meaning": "tình tiết vụ án"
+ },
+ {
+  "chinese": "安詳",
+  "level": "C1",
+  "pinyin": "ānxiáng",
+  "meaning": "an tường, yên bình"
+ },
+ {
+  "chinese": "安置",
+  "level": "C1",
+  "pinyin": "ānzhì",
+  "meaning": "bố trí, sắp xếp (chỗ ở, công việc)"
+ },
+ {
+  "chinese": "奧妙",
+  "level": "C1",
+  "pinyin": "àomiào",
+  "meaning": "huyền diệu, ảo diệu"
+ },
+ {
+  "chinese": "懊惱",
+  "level": "C1",
+  "pinyin": "àonǎo",
+  "meaning": "bực bội, khó chịu"
+ },
+ {
+  "chinese": "把持",
+  "level": "C1",
+  "pinyin": "bǎchí",
+  "meaning": "nắm giữ, kiểm soát"
+ },
+ {
+  "chinese": "八卦",
+  "level": "C1",
+  "pinyin": "bāguà",
+  "meaning": "chuyện phiếm, tin đồn nhảm"
+ },
+ {
+  "chinese": "拜會",
+  "level": "C1",
+  "pinyin": "bàihuì",
+  "meaning": "bái kiến, viếng thăm (chính thức)"
+ },
+ {
+  "chinese": "白皮書",
+  "level": "C1",
+  "pinyin": "báipíshū",
+  "meaning": "sách trắng, bạch thư"
+ },
+ {
+  "chinese": "辦案",
+  "level": "C1",
+  "pinyin": "bàn'àn",
+  "meaning": "xử án, điều tra vụ án"
+ },
+ {
+  "chinese": "半島",
+  "level": "C1",
+  "pinyin": "bàndǎo",
+  "meaning": "bán đảo"
+ },
+ {
+  "chinese": "半導體",
+  "level": "C1",
+  "pinyin": "bàndǎotǐ",
+  "meaning": "chất bán dẫn"
+ },
+ {
+  "chinese": "頒發",
+  "level": "C1",
+  "pinyin": "bānfā",
+  "meaning": "ban phát, trao tặng"
+ },
+ {
+  "chinese": "幫",
+  "level": "C1",
+  "pinyin": "bāng",
+  "meaning": "băng, nhóm, lũ"
+ },
+ {
+  "chinese": "綁",
+  "level": "C1",
+  "pinyin": "bǎng",
+  "meaning": "buộc, trói"
+ },
+ {
+  "chinese": "頒獎",
+  "level": "C1",
+  "pinyin": "bānjiǎng",
+  "meaning": "trao giải"
+ },
+ {
+  "chinese": "報案",
+  "level": "C1",
+  "pinyin": "bào'àn",
+  "meaning": "báo án"
+ },
+ {
+  "chinese": "保安",
+  "level": "C1",
+  "pinyin": "bǎo'àn",
+  "meaning": "bảo an, bảo vệ"
+ },
+ {
+  "chinese": "寶貝",
+  "level": "C1",
+  "pinyin": "bǎobèi",
+  "meaning": "coi như bảo bối, yêu chiều"
+ },
+ {
+  "chinese": "報表",
+  "level": "C1",
+  "pinyin": "bàobiǎo",
+  "meaning": "báo cáo (dạng biểu)"
+ },
+ {
+  "chinese": "報酬",
+  "level": "C1",
+  "pinyin": "bàochóu",
+  "meaning": "thù lao, báo đáp"
+ },
+ {
+  "chinese": "爆發",
+  "level": "C1",
+  "pinyin": "bàofā",
+  "meaning": "bùng nổ, bùng phát"
+ },
+ {
+  "chinese": "包袱",
+  "level": "C1",
+  "pinyin": "bāofú",
+  "meaning": "gánh nặng, tay nải"
+ },
+ {
+  "chinese": "報復",
+  "level": "C1",
+  "pinyin": "bàofù",
+  "meaning": "báo thù, trả đũa"
+ },
+ {
+  "chinese": "抱負",
+  "level": "C1",
+  "pinyin": "bàofù",
+  "meaning": "hoài bão, chí lớn"
+ },
+ {
+  "chinese": "報關",
+  "level": "C1",
+  "pinyin": "bàoguān",
+  "meaning": "khai báo hải quan"
+ },
+ {
+  "chinese": "保管",
+  "level": "C1",
+  "pinyin": "bǎoguǎn",
+  "meaning": "bảo quản, cất giữ"
+ },
+ {
+  "chinese": "曝光",
+  "level": "C1",
+  "pinyin": "bàoguāng",
+  "meaning": "phơi sáng, bị lộ ra"
+ },
+ {
+  "chinese": "飽和",
+  "level": "C1",
+  "pinyin": "bǎohé",
+  "meaning": "bão hòa"
+ },
+ {
+  "chinese": "報價",
+  "level": "C1",
+  "pinyin": "bàojià",
+  "meaning": "báo giá"
+ },
+ {
+  "chinese": "報刊",
+  "level": "C1",
+  "pinyin": "bàokān",
+  "meaning": "báo và tạp chí"
+ },
+ {
+  "chinese": "保齡球",
+  "level": "C1",
+  "pinyin": "bǎolíngqiú",
+  "meaning": "bowling"
+ },
+ {
+  "chinese": "暴露",
+  "level": "C1",
+  "pinyin": "bàolù",
+  "meaning": "phơi bày, để lộ"
+ },
+ {
+  "chinese": "飽滿",
+  "level": "C1",
+  "pinyin": "bǎomǎn",
+  "meaning": "đầy đặn, căng tròn"
+ },
+ {
+  "chinese": "保姆",
+  "level": "C1",
+  "pinyin": "bǎomǔ",
+  "meaning": "bảo mẫu, vú em"
+ },
+ {
+  "chinese": "保全",
+  "level": "C1",
+  "pinyin": "bǎoquán",
+  "meaning": "bảo toàn, giữ gìn"
+ },
+ {
+  "chinese": "寶石",
+  "level": "C1",
+  "pinyin": "bǎoshí",
+  "meaning": "đá quý, bảo thạch"
+ },
+ {
+  "chinese": "包圍",
+  "level": "C1",
+  "pinyin": "bāowéi",
+  "meaning": "bao vây"
+ },
+ {
+  "chinese": "保險",
+  "level": "C1",
+  "pinyin": "bǎoxiǎn",
+  "meaning": "an toàn, bảo hiểm"
+ },
+ {
+  "chinese": "報應",
+  "level": "C1",
+  "pinyin": "bàoyìng",
+  "meaning": "báo ứng, quả báo"
+ },
+ {
+  "chinese": "保佑",
+  "level": "C1",
+  "pinyin": "bǎoyòu",
+  "meaning": "phù hộ, ban phước"
+ },
+ {
+  "chinese": "暴雨",
+  "level": "C1",
+  "pinyin": "bàoyǔ",
+  "meaning": "mưa bão, mưa lớn"
+ },
+ {
+  "chinese": "報章",
+  "level": "C1",
+  "pinyin": "bàozhāng",
+  "meaning": "báo chí"
+ },
+ {
+  "chinese": "保重",
+  "level": "C1",
+  "pinyin": "bǎozhòng",
+  "meaning": "bảo trọng, giữ gìn sức khỏe"
+ },
+ {
+  "chinese": "把手",
+  "level": "C1",
+  "pinyin": "bǎshǒu",
+  "meaning": "tay cầm, tay nắm"
+ },
+ {
+  "chinese": "八字",
+  "level": "C1",
+  "pinyin": "bāzì",
+  "meaning": "bát tự, ngày sinh tháng đẻ"
+ },
+ {
+  "chinese": "碑",
+  "level": "C1",
+  "pinyin": "bēi",
+  "meaning": "bia, tấm bia"
+ },
+ {
+  "chinese": "悲哀",
+  "level": "C1",
+  "pinyin": "bēi'āi",
+  "meaning": "bi ai, đau buồn"
+ },
+ {
+  "chinese": "悲觀",
+  "level": "C1",
+  "pinyin": "bēiguān",
+  "meaning": "bi quan"
+ },
+ {
+  "chinese": "貝殼",
+  "level": "C1",
+  "pinyin": "bèiké",
+  "meaning": "vỏ sò, vỏ ốc"
+ },
+ {
+  "chinese": "倍數",
+  "level": "C1",
+  "pinyin": "bèishù",
+  "meaning": "bội số"
+ },
+ {
+  "chinese": "背誦",
+  "level": "C1",
+  "pinyin": "bèisòng",
+  "meaning": "đọc thuộc lòng, ngâm thơ"
+ },
+ {
+  "chinese": "本",
+  "level": "C1",
+  "pinyin": "běn",
+  "meaning": "vốn, ban đầu"
+ },
+ {
+  "chinese": "甭",
+  "level": "C1",
+  "pinyin": "béng",
+  "meaning": "đừng, khỏi cần"
+ },
+ {
+  "chinese": "崩潰",
+  "level": "C1",
+  "pinyin": "bēngkuì",
+  "meaning": "sụp đổ, suy sụp"
+ },
+ {
+  "chinese": "本事",
+  "level": "C1",
+  "pinyin": "běnshì",
+  "meaning": "bản lĩnh, tài năng"
+ },
+ {
+  "chinese": "奔騰",
+  "level": "C1",
+  "pinyin": "bēnténg",
+  "meaning": "phi nước đại, cuồn cuộn"
+ },
+ {
+  "chinese": "本位",
+  "level": "C1",
+  "pinyin": "běnwèi",
+  "meaning": "bản vị, vị trí của mình"
+ },
+ {
+  "chinese": "本性",
+  "level": "C1",
+  "pinyin": "běnxìng",
+  "meaning": "bản tính"
+ },
+ {
+  "chinese": "本質",
+  "level": "C1",
+  "pinyin": "běnzhì",
+  "meaning": "bản chất"
+ },
+ {
+  "chinese": "敝",
+  "level": "C1",
+  "pinyin": "bì",
+  "meaning": "của tôi, của chúng tôi (khiêm tốn)"
+ },
+ {
+  "chinese": "必",
+  "level": "C1",
+  "pinyin": "bì",
+  "meaning": "tất, nhất định"
+ },
+ {
+  "chinese": "辯",
+  "level": "C1",
+  "pinyin": "biàn",
+  "meaning": "biện luận, tranh luận"
+ },
+ {
+  "chinese": "貶",
+  "level": "C1",
+  "pinyin": "biǎn",
+  "meaning": "giáng chức, chê bai"
+ },
+ {
+  "chinese": "匾額",
+  "level": "C1",
+  "pinyin": "biǎné",
+  "meaning": "bức hoành phi"
+ },
+ {
+  "chinese": "變革",
+  "level": "C1",
+  "pinyin": "biàngé",
+  "meaning": "biến cách, cải cách"
+ },
+ {
+  "chinese": "辯護",
+  "level": "C1",
+  "pinyin": "biànhù",
+  "meaning": "biện hộ, bào chữa"
+ },
+ {
+  "chinese": "編輯",
+  "level": "C1",
+  "pinyin": "biānjí",
+  "meaning": "biên tập, biên tập viên"
+ },
+ {
+  "chinese": "邊界",
+  "level": "C1",
+  "pinyin": "biānjiè",
+  "meaning": "biên giới"
+ },
+ {
+  "chinese": "辯論",
+  "level": "C1",
+  "pinyin": "biànlùn",
+  "meaning": "biện luận, tranh luận"
+ },
+ {
+  "chinese": "變遷",
+  "level": "C1",
+  "pinyin": "biànqiān",
+  "meaning": "biến thiên, thay đổi"
+ },
+ {
+  "chinese": "辨認",
+  "level": "C1",
+  "pinyin": "biànrèn",
+  "meaning": "nhận dạng, nhận ra"
+ },
+ {
+  "chinese": "辨識",
+  "level": "C1",
+  "pinyin": "biànshí",
+  "meaning": "nhận biết, phân biệt"
+ },
+ {
+  "chinese": "變通",
+  "level": "C1",
+  "pinyin": "biàntōng",
+  "meaning": "linh động, tùy cơ ứng biến"
+ },
+ {
+  "chinese": "編寫",
+  "level": "C1",
+  "pinyin": "biānxiě",
+  "meaning": "biên soạn, viết"
+ },
+ {
+  "chinese": "變形",
+  "level": "C1",
+  "pinyin": "biànxíng",
+  "meaning": "biến hình, biến dạng"
+ },
+ {
+  "chinese": "邊緣",
+  "level": "C1",
+  "pinyin": "biānyuán",
+  "meaning": "bên lề, rìa"
+ },
+ {
+  "chinese": "編制",
+  "level": "C1",
+  "pinyin": "biānzhì",
+  "meaning": "biên chế"
+ },
+ {
+  "chinese": "編織",
+  "level": "C1",
+  "pinyin": "biānzhī",
+  "meaning": "dệt, đan"
+ },
+ {
+  "chinese": "編製",
+  "level": "C1",
+  "pinyin": "biānzhì",
+  "meaning": "biên soạn, lập"
+ },
+ {
+  "chinese": "貶值",
+  "level": "C1",
+  "pinyin": "biǎnzhí",
+  "meaning": "mất giá, giảm giá trị"
+ },
+ {
+  "chinese": "表白",
+  "level": "C1",
+  "pinyin": "biǎobái",
+  "meaning": "tỏ tình, thổ lộ"
+ },
+ {
+  "chinese": "表明",
+  "level": "C1",
+  "pinyin": "biǎomíng",
+  "meaning": "bày tỏ, cho thấy rõ"
+ },
+ {
+  "chinese": "標籤",
+  "level": "C1",
+  "pinyin": "biāoqiān",
+  "meaning": "nhãn, nhãn hiệu"
+ },
+ {
+  "chinese": "標語",
+  "level": "C1",
+  "pinyin": "biāoyǔ",
+  "meaning": "biểu ngữ, khẩu hiệu"
+ },
+ {
+  "chinese": "必備",
+  "level": "C1",
+  "pinyin": "bìbèi",
+  "meaning": "cần phải có, thiết yếu"
+ },
+ {
+  "chinese": "必定",
+  "level": "C1",
+  "pinyin": "bìdìng",
+  "meaning": "nhất định, tất nhiên"
+ },
+ {
+  "chinese": "憋",
+  "level": "C1",
+  "pinyin": "biē",
+  "meaning": "nín, nhịn"
+ },
+ {
+  "chinese": "別",
+  "level": "C1",
+  "pinyin": "bié",
+  "meaning": "cài, ghim"
+ },
+ {
+  "chinese": "別墅",
+  "level": "C1",
+  "pinyin": "biéshù",
+  "meaning": "biệt thự"
+ },
+ {
+  "chinese": "鼻孔",
+  "level": "C1",
+  "pinyin": "bíkǒng",
+  "meaning": "lỗ mũi"
+ },
+ {
+  "chinese": "比率",
+  "level": "C1",
+  "pinyin": "bǐlǜ",
+  "meaning": "tỷ lệ"
+ },
+ {
+  "chinese": "筆錄",
+  "level": "C1",
+  "pinyin": "bǐlù",
+  "meaning": "biên bản, bản ghi chép"
+ },
+ {
+  "chinese": "閉幕",
+  "level": "C1",
+  "pinyin": "bìmù",
+  "meaning": "bế mạc"
+ },
+ {
+  "chinese": "避難",
+  "level": "C1",
+  "pinyin": "bìnàn",
+  "meaning": "tị nạn"
+ },
+ {
+  "chinese": "兵",
+  "level": "C1",
+  "pinyin": "bīng",
+  "meaning": "binh, lính"
+ },
+ {
+  "chinese": "柄",
+  "level": "C1",
+  "pinyin": "bǐng",
+  "meaning": "cái chuôi, cái cán"
+ },
+ {
+  "chinese": "病床",
+  "level": "C1",
+  "pinyin": "bìngchuáng",
+  "meaning": "giường bệnh"
+ },
+ {
+  "chinese": "併發",
+  "level": "C1",
+  "pinyin": "bìngfā",
+  "meaning": "bùng phát đồng thời, biến chứng"
+ },
+ {
+  "chinese": "病患",
+  "level": "C1",
+  "pinyin": "bìnghuàn",
+  "meaning": "bệnh nhân"
+ },
+ {
+  "chinese": "病菌",
+  "level": "C1",
+  "pinyin": "bìngjūn",
+  "meaning": "mầm bệnh, vi trùng"
+ },
+ {
+  "chinese": "並列",
+  "level": "C1",
+  "pinyin": "bìngliè",
+  "meaning": "đặt ngang hàng, xếp song song"
+ },
+ {
+  "chinese": "賓館",
+  "level": "C1",
+  "pinyin": "bīnguǎn",
+  "meaning": "nhà khách"
+ },
+ {
+  "chinese": "並重",
+  "level": "C1",
+  "pinyin": "bìngzhòng",
+  "meaning": "coi trọng như nhau"
+ },
+ {
+  "chinese": "比擬",
+  "level": "C1",
+  "pinyin": "bǐnǐ",
+  "meaning": "so sánh, ví von"
+ },
+ {
+  "chinese": "必然",
+  "level": "C1",
+  "pinyin": "bìrán",
+  "meaning": "tất nhiên, tất yếu"
+ },
+ {
+  "chinese": "閉塞",
+  "level": "C1",
+  "pinyin": "bìsè",
+  "meaning": "bế tắc, hẻo lánh"
+ },
+ {
+  "chinese": "畢生",
+  "level": "C1",
+  "pinyin": "bìshēng",
+  "meaning": "cả đời, suốt đời"
+ },
+ {
+  "chinese": "筆友",
+  "level": "C1",
+  "pinyin": "bǐyǒu",
+  "meaning": "bạn qua thư"
+ },
+ {
+  "chinese": "比喻",
+  "level": "C1",
+  "pinyin": "bǐyù",
+  "meaning": "ví von, tỷ dụ"
+ },
+ {
+  "chinese": "避孕",
+  "level": "C1",
+  "pinyin": "bìyùn",
+  "meaning": "tránh thai"
+ },
+ {
+  "chinese": "幣值",
+  "level": "C1",
+  "pinyin": "bìzhí",
+  "meaning": "giá trị tiền tệ"
+ },
+ {
+  "chinese": "比重",
+  "level": "C1",
+  "pinyin": "bǐzhòng",
+  "meaning": "tỷ trọng"
+ },
+ {
+  "chinese": "剝",
+  "level": "C1",
+  "pinyin": "bō",
+  "meaning": "bóc, lột"
+ },
+ {
+  "chinese": "波",
+  "level": "C1",
+  "pinyin": "bō",
+  "meaning": "làn, đợt (sóng)"
+ },
+ {
+  "chinese": "播出",
+  "level": "C1",
+  "pinyin": "bōchū",
+  "meaning": "phát sóng"
+ },
+ {
+  "chinese": "搏鬥",
+  "level": "C1",
+  "pinyin": "bódòu",
+  "meaning": "đánh nhau, vật lộn"
+ },
+ {
+  "chinese": "波及",
+  "level": "C1",
+  "pinyin": "bōjí",
+  "meaning": "lan đến, ảnh hưởng đến"
+ },
+ {
+  "chinese": "波浪",
+  "level": "C1",
+  "pinyin": "bōlàng",
+  "meaning": "sóng, sóng biển"
+ },
+ {
+  "chinese": "剝削",
+  "level": "C1",
+  "pinyin": "bōxuè",
+  "meaning": "bóc lột"
+ },
+ {
+  "chinese": "不便",
+  "level": "C1",
+  "pinyin": "bùbiàn",
+  "meaning": "bất tiện"
+ },
+ {
+  "chinese": "不得",
+  "level": "C1",
+  "pinyin": "bùdé",
+  "meaning": "không được, không thể"
+ },
+ {
+  "chinese": "不等",
+  "level": "C1",
+  "pinyin": "bùděng",
+  "meaning": "không đều, không bằng nhau"
+ },
+ {
+  "chinese": "步調",
+  "level": "C1",
+  "pinyin": "bùdiào",
+  "meaning": "nhịp điệu, bước đi"
+ },
+ {
+  "chinese": "不動產",
+  "level": "C1",
+  "pinyin": "bùdòngchǎn",
+  "meaning": "bất động sản"
+ },
+ {
+  "chinese": "不法",
+  "level": "C1",
+  "pinyin": "bùfǎ",
+  "meaning": "bất hợp pháp, phi pháp"
+ },
+ {
+  "chinese": "不凡",
+  "level": "C1",
+  "pinyin": "bùfán",
+  "meaning": "bất phàm, phi thường"
+ },
+ {
+  "chinese": "不妨",
+  "level": "C1",
+  "pinyin": "bùfáng",
+  "meaning": "không ngại, cứ thử"
+ },
+ {
+  "chinese": "不公",
+  "level": "C1",
+  "pinyin": "bùgōng",
+  "meaning": "bất công"
+ },
+ {
+  "chinese": "不及",
+  "level": "C1",
+  "pinyin": "bùjí",
+  "meaning": "không bằng, không kịp"
+ },
+ {
+  "chinese": "補給",
+  "level": "C1",
+  "pinyin": "bǔjǐ",
+  "meaning": "tiếp tế, cung cấp"
+ },
+ {
+  "chinese": "不禁",
+  "level": "C1",
+  "pinyin": "bùjīn",
+  "meaning": "không khỏi, bất giác"
+ },
+ {
+  "chinese": "補救",
+  "level": "C1",
+  "pinyin": "bǔjiù",
+  "meaning": "cứu vãn, bù đắp"
+ },
+ {
+  "chinese": "不堪",
+  "level": "C1",
+  "pinyin": "bùkān",
+  "meaning": "không chịu nổi, không thể chịu được"
+ },
+ {
+  "chinese": "不力",
+  "level": "C1",
+  "pinyin": "bùlì",
+  "meaning": "không có năng lực, yếu kém"
+ },
+ {
+  "chinese": "不料",
+  "level": "C1",
+  "pinyin": "bùliào",
+  "meaning": "không ngờ, bất ngờ"
+ },
+ {
+  "chinese": "部落",
+  "level": "C1",
+  "pinyin": "bùluò",
+  "meaning": "bộ lạc"
+ },
+ {
+  "chinese": "不免",
+  "level": "C1",
+  "pinyin": "bùmiǎn",
+  "meaning": "khó tránh khỏi"
+ },
+ {
+  "chinese": "不容",
+  "level": "C1",
+  "pinyin": "bùróng",
+  "meaning": "không cho phép, không dung thứ"
+ },
+ {
+  "chinese": "哺乳動物",
+  "level": "C1",
+  "pinyin": "bǔrǔ dòngwù",
+  "meaning": "động vật có vú"
+ },
+ {
+  "chinese": "不時",
+  "level": "C1",
+  "pinyin": "bùshí",
+  "meaning": "thỉnh thoảng, luôn luôn"
+ },
+ {
+  "chinese": "部署",
+  "level": "C1",
+  "pinyin": "bùshǔ",
+  "meaning": "bố trí, triển khai"
+ },
+ {
+  "chinese": "不惜",
+  "level": "C1",
+  "pinyin": "bùxī",
+  "meaning": "không tiếc, bất chấp"
+ },
+ {
+  "chinese": "不下",
+  "level": "C1",
+  "pinyin": "bùxià",
+  "meaning": "không dưới, hơn"
+ },
+ {
+  "chinese": "不肖",
+  "level": "C1",
+  "pinyin": "bùxiào",
+  "meaning": "bất hiếu, không ra gì"
+ },
+ {
+  "chinese": "不懈",
+  "level": "C1",
+  "pinyin": "bùxiè",
+  "meaning": "không mệt mỏi, không ngừng nghỉ"
+ },
+ {
+  "chinese": "不再",
+  "level": "C1",
+  "pinyin": "bùzài",
+  "meaning": "không còn... nữa"
+ },
+ {
+  "chinese": "不致",
+  "level": "C1",
+  "pinyin": "bùzhì",
+  "meaning": "không đến nỗi"
+ },
+ {
+  "chinese": "不知不覺",
+  "level": "C1",
+  "pinyin": "bùzhībùjué",
+  "meaning": "bất tri bất giác, không hay không biết"
+ },
+ {
+  "chinese": "不至於",
+  "level": "C1",
+  "pinyin": "bùzhìyú",
+  "meaning": "không đến nỗi, không đến mức"
+ },
+ {
+  "chinese": "步驟",
+  "level": "C1",
+  "pinyin": "bùzhòu",
+  "meaning": "bước, trình tự"
+ },
+ {
+  "chinese": "猜測",
+  "level": "C1",
+  "pinyin": "cāicè",
+  "meaning": "suy đoán, phỏng đoán"
+ },
+ {
+  "chinese": "採訪",
+  "level": "C1",
+  "pinyin": "cǎifǎng",
+  "meaning": "phỏng vấn, săn tin"
+ },
+ {
+  "chinese": "裁縫",
+  "level": "C1",
+  "pinyin": "cáiféng",
+  "meaning": "thợ may"
+ },
+ {
+  "chinese": "採光",
+  "level": "C1",
+  "pinyin": "cǎiguāng",
+  "meaning": "ánh sáng tự nhiên, lấy sáng"
+ },
+ {
+  "chinese": "彩繪",
+  "level": "C1",
+  "pinyin": "cǎihuì",
+  "meaning": "vẽ màu, tô màu"
+ },
+ {
+  "chinese": "猜忌",
+  "level": "C1",
+  "pinyin": "cāijì",
+  "meaning": "nghi kỵ, đố kỵ"
+ },
+ {
+  "chinese": "裁減",
+  "level": "C1",
+  "pinyin": "cáijiǎn",
+  "meaning": "cắt giảm, giảm bớt"
+ },
+ {
+  "chinese": "採納",
+  "level": "C1",
+  "pinyin": "cǎinà",
+  "meaning": "tiếp thu, chấp nhận (ý kiến)"
+ },
+ {
+  "chinese": "採取",
+  "level": "C1",
+  "pinyin": "cǎiqǔ",
+  "meaning": "áp dụng, thực hiện"
+ },
+ {
+  "chinese": "財團",
+  "level": "C1",
+  "pinyin": "cáituán",
+  "meaning": "tập đoàn tài chính, tài phiệt"
+ },
+ {
+  "chinese": "猜想",
+  "level": "C1",
+  "pinyin": "cāixiǎng",
+  "meaning": "suy đoán, tưởng tượng"
+ },
+ {
+  "chinese": "財政",
+  "level": "C1",
+  "pinyin": "cáizhèng",
+  "meaning": "tài chính"
+ },
+ {
+  "chinese": "才智",
+  "level": "C1",
+  "pinyin": "cáizhì",
+  "meaning": "tài trí, trí tuệ"
+ },
+ {
+  "chinese": "殘暴",
+  "level": "C1",
+  "pinyin": "cánbào",
+  "meaning": "tàn bạo"
+ },
+ {
+  "chinese": "蒼白",
+  "level": "C1",
+  "pinyin": "cāngbái",
+  "meaning": "tái nhợt, nhợt nhạt"
+ },
+ {
+  "chinese": "蒼蠅",
+  "level": "C1",
+  "pinyin": "cāngyíng",
+  "meaning": "con ruồi"
+ },
+ {
+  "chinese": "餐具",
+  "level": "C1",
+  "pinyin": "cānjù",
+  "meaning": "dụng cụ ăn uống"
+ },
+ {
+  "chinese": "殘酷",
+  "level": "C1",
+  "pinyin": "cánkù",
+  "meaning": "tàn khốc, tàn nhẫn"
+ },
+ {
+  "chinese": "燦爛",
+  "level": "C1",
+  "pinyin": "cànlàn",
+  "meaning": "rực rỡ, xán lạn"
+ },
+ {
+  "chinese": "參謀",
+  "level": "C1",
+  "pinyin": "cānmóu",
+  "meaning": "tham mưu"
+ },
+ {
+  "chinese": "殘殺",
+  "level": "C1",
+  "pinyin": "cánshā",
+  "meaning": "tàn sát"
+ },
+ {
+  "chinese": "慘重",
+  "level": "C1",
+  "pinyin": "cǎnzhòng",
+  "meaning": "thảm trọng, nặng nề"
+ },
+ {
+  "chinese": "草案",
+  "level": "C1",
+  "pinyin": "cǎo'àn",
+  "meaning": "dự thảo"
+ },
+ {
+  "chinese": "草叢",
+  "level": "C1",
+  "pinyin": "cǎocóng",
+  "meaning": "bụi cỏ, lùm cỏ"
+ },
+ {
+  "chinese": "草率",
+  "level": "C1",
+  "pinyin": "cǎoshuài",
+  "meaning": "qua loa, cẩu thả"
+ },
+ {
+  "chinese": "草藥",
+  "level": "C1",
+  "pinyin": "cǎoyào",
+  "meaning": "thảo dược, thuốc nam"
+ },
+ {
+  "chinese": "操縱",
+  "level": "C1",
+  "pinyin": "cāozòng",
+  "meaning": "thao túng, điều khiển"
+ },
+ {
+  "chinese": "測",
+  "level": "C1",
+  "pinyin": "cè",
+  "meaning": "do, lường, trắc nghiệm"
+ },
+ {
+  "chinese": "策劃",
+  "level": "C1",
+  "pinyin": "cèhuà",
+  "meaning": "hoạch định, lên kế hoạch"
+ },
+ {
+  "chinese": "差額",
+  "level": "C1",
+  "pinyin": "chā'é",
+  "meaning": "chênh lệch"
+ },
+ {
+  "chinese": "茶具",
+  "level": "C1",
+  "pinyin": "chájù",
+  "meaning": "bộ trà, dụng cụ pha trà"
+ },
+ {
+  "chinese": "察覺",
+  "level": "C1",
+  "pinyin": "chájué",
+  "meaning": "nhận ra, phát giác"
+ },
+ {
+  "chinese": "查明",
+  "level": "C1",
+  "pinyin": "chámíng",
+  "meaning": "điều tra làm rõ"
+ },
+ {
+  "chinese": "饞",
+  "level": "C1",
+  "pinyin": "chán",
+  "meaning": "tham ăn, thèm ăn"
+ },
+ {
+  "chinese": "蟬",
+  "level": "C1",
+  "pinyin": "chán",
+  "meaning": "con ve"
+ },
+ {
+  "chinese": "潺潺",
+  "level": "C1",
+  "pinyin": "chánchán",
+  "meaning": "róc rách, róc rách"
+ },
+ {
+  "chinese": "顫抖",
+  "level": "C1",
+  "pinyin": "chàndǒu",
+  "meaning": "run rẩy, run sợ"
+ },
+ {
+  "chinese": "腸(子)",
+  "level": "C1",
+  "pinyin": "cháng(zi)",
+  "meaning": "ruột"
+ },
+ {
+  "chinese": "場次",
+  "level": "C1",
+  "pinyin": "chǎngcì",
+  "meaning": "suất chiếu, buổi diễn"
+ },
+ {
+  "chinese": "倡導",
+  "level": "C1",
+  "pinyin": "chàngdǎo",
+  "meaning": "đề xướng, khởi xướng"
+ },
+ {
+  "chinese": "猖獗",
+  "level": "C1",
+  "pinyin": "chāngjué",
+  "meaning": "tràn lan, hung hăng"
+ },
+ {
+  "chinese": "場面",
+  "level": "C1",
+  "pinyin": "chǎngmiàn",
+  "meaning": "quang cảnh, cảnh tượng"
+ },
+ {
+  "chinese": "唱腔",
+  "level": "C1",
+  "pinyin": "chàngqiāng",
+  "meaning": "lối hát, giọng hát (trong kịch)"
+ },
+ {
+  "chinese": "暢銷",
+  "level": "C1",
+  "pinyin": "chàngxiāo",
+  "meaning": "bán chạy"
+ },
+ {
+  "chinese": "長遠",
+  "level": "C1",
+  "pinyin": "chángyuǎn",
+  "meaning": "lâu dài, viễn vông"
+ },
+ {
+  "chinese": "產物",
+  "level": "C1",
+  "pinyin": "chǎnwù",
+  "meaning": "sản vật, sản phẩm"
+ },
+ {
+  "chinese": "產值",
+  "level": "C1",
+  "pinyin": "chǎnzhí",
+  "meaning": "giá trị sản lượng"
+ },
+ {
+  "chinese": "超速",
+  "level": "C1",
+  "pinyin": "chāosù",
+  "meaning": "vượt quá tốc độ"
+ },
+ {
+  "chinese": "超脫",
+  "level": "C1",
+  "pinyin": "chāotuō",
+  "meaning": "siêu thoát, thoát tục"
+ },
+ {
+  "chinese": "抄襲",
+  "level": "C1",
+  "pinyin": "chāoxí",
+  "meaning": "sao chép, đạo văn"
+ },
+ {
+  "chinese": "吵嘴",
+  "level": "C1",
+  "pinyin": "chǎozuǐ",
+  "meaning": "cãi vã, cãi cọ"
+ },
+ {
+  "chinese": "插曲",
+  "level": "C1",
+  "pinyin": "chāqǔ",
+  "meaning": "nhạc dạo, tình tiết xen vào"
+ },
+ {
+  "chinese": "插嘴",
+  "level": "C1",
+  "pinyin": "chāzuǐ",
+  "meaning": "xen miệng, nói leo"
+ },
+ {
+  "chinese": "撤回",
+  "level": "C1",
+  "pinyin": "chèhuí",
+  "meaning": "rút về, thu hồi"
+ },
+ {
+  "chinese": "車輛",
+  "level": "C1",
+  "pinyin": "chēliàng",
+  "meaning": "xe cộ"
+ },
+ {
+  "chinese": "乘",
+  "level": "C1",
+  "pinyin": "chéng",
+  "meaning": "đi, đáp (phương tiện)"
+ },
+ {
+  "chinese": "稱",
+  "level": "C1",
+  "pinyin": "chēng",
+  "meaning": "cân (đo trọng lượng)"
+ },
+ {
+  "chinese": "呈",
+  "level": "C1",
+  "pinyin": "chéng",
+  "meaning": "trình, dâng lên"
+ },
+ {
+  "chinese": "成敗",
+  "level": "C1",
+  "pinyin": "chéngbài",
+  "meaning": "thành bại, thành công và thất bại"
+ },
+ {
+  "chinese": "承包",
+  "level": "C1",
+  "pinyin": "chéngbāo",
+  "meaning": "bao thầu, nhận thầu"
+ },
+ {
+  "chinese": "承擔",
+  "level": "C1",
+  "pinyin": "chéngdān",
+  "meaning": "gánh vác, đảm đương"
+ },
+ {
+  "chinese": "稱號",
+  "level": "C1",
+  "pinyin": "chēnghào",
+  "meaning": "danh hiệu"
+ },
+ {
+  "chinese": "稱呼",
+  "level": "C1",
+  "pinyin": "chēnghu",
+  "meaning": "xưng hô, gọi là"
+ },
+ {
+  "chinese": "成見",
+  "level": "C1",
+  "pinyin": "chéngjiàn",
+  "meaning": "thành kiến, định kiến"
+ },
+ {
+  "chinese": "成就",
+  "level": "C1",
+  "pinyin": "chéngjiù",
+  "meaning": "thành tựu, đạt được"
+ },
+ {
+  "chinese": "承諾",
+  "level": "C1",
+  "pinyin": "chéngnuò",
+  "meaning": "lời hứa, cam kết"
+ },
+ {
+  "chinese": "成品",
+  "level": "C1",
+  "pinyin": "chéngpǐn",
+  "meaning": "thành phẩm"
+ },
+ {
+  "chinese": "成全",
+  "level": "C1",
+  "pinyin": "chéngquán",
+  "meaning": "tác thành"
+ },
+ {
+  "chinese": "程式",
+  "level": "C1",
+  "pinyin": "chéngshì",
+  "meaning": "chương trình (máy tính)"
+ },
+ {
+  "chinese": "呈獻",
+  "level": "C1",
+  "pinyin": "chéngxiàn",
+  "meaning": "trình lên, dâng lên"
+ },
+ {
+  "chinese": "成效",
+  "level": "C1",
+  "pinyin": "chéngxiào",
+  "meaning": "hiệu quả, thành quả"
+ },
+ {
+  "chinese": "誠心",
+  "level": "C1",
+  "pinyin": "chéngxīn",
+  "meaning": "thành tâm, chân thành"
+ },
+ {
+  "chinese": "誠心誠意",
+  "level": "C1",
+  "pinyin": "chéngxīn chéngyì",
+  "meaning": "thành tâm thành ý"
+ },
+ {
+  "chinese": "撐腰",
+  "level": "C1",
+  "pinyin": "chēngyāo",
+  "meaning": "chống lưng, ủng hộ"
+ },
+ {
+  "chinese": "成衣",
+  "level": "C1",
+  "pinyin": "chéngyī",
+  "meaning": "quần áo may sẵn"
+ },
+ {
+  "chinese": "成員",
+  "level": "C1",
+  "pinyin": "chéngyuán",
+  "meaning": "thành viên"
+ },
+ {
+  "chinese": "成長",
+  "level": "C1",
+  "pinyin": "chéngzhǎng",
+  "meaning": "sự trưởng thành, sự phát triển"
+ },
+ {
+  "chinese": "誠摯",
+  "level": "C1",
+  "pinyin": "chéngzhì",
+  "meaning": "chân thành, nồng nhiệt"
+ },
+ {
+  "chinese": "沉默",
+  "level": "C1",
+  "pinyin": "chénmò",
+  "meaning": "trầm mặc, im lặng"
+ },
+ {
+  "chinese": "沉思",
+  "level": "C1",
+  "pinyin": "chénsī",
+  "meaning": "trầm tư, suy ngẫm"
+ },
+ {
+  "chinese": "塵土",
+  "level": "C1",
+  "pinyin": "chéntǔ",
+  "meaning": "bụi bặm, cát bụi"
+ },
+ {
+  "chinese": "沉重",
+  "level": "C1",
+  "pinyin": "chénzhòng",
+  "meaning": "nặng nề, trĩu nặng"
+ },
+ {
+  "chinese": "車廂",
+  "level": "C1",
+  "pinyin": "chēxiāng",
+  "meaning": "toa xe, khoang xe"
+ },
+ {
+  "chinese": "撤銷",
+  "level": "C1",
+  "pinyin": "chèxiāo",
+  "meaning": "hủy bỏ, bãi bỏ"
+ },
+ {
+  "chinese": "持",
+  "level": "C1",
+  "pinyin": "chí",
+  "meaning": "cầm, giữ, duy trì"
+ },
+ {
+  "chinese": "池(子)",
+  "level": "C1",
+  "pinyin": "chí(zi)",
+  "meaning": "cái ao, cái hồ"
+ },
+ {
+  "chinese": "遲鈍",
+  "level": "C1",
+  "pinyin": "chídùn",
+  "meaning": "chậm chạp, đần độn"
+ },
+ {
+  "chinese": "吃驚",
+  "level": "C1",
+  "pinyin": "chījīng",
+  "meaning": "kinh ngạc, giật mình"
+ },
+ {
+  "chinese": "持久",
+  "level": "C1",
+  "pinyin": "chíjiǔ",
+  "meaning": "lâu dài, bền bỉ"
+ },
+ {
+  "chinese": "吃苦",
+  "level": "C1",
+  "pinyin": "chīkǔ",
+  "meaning": "chiu khổ, chịu cực"
+ },
+ {
+  "chinese": "吃力",
+  "level": "C1",
+  "pinyin": "chīlì",
+  "meaning": "vất vả, tốn sức"
+ },
+ {
+  "chinese": "持平",
+  "level": "C1",
+  "pinyin": "chípíng",
+  "meaning": "giữ nguyên, không đổi"
+ },
+ {
+  "chinese": "寵愛",
+  "level": "C1",
+  "pinyin": "chǒng'ài",
+  "meaning": "cưng chiều, sủng ái"
+ },
+ {
+  "chinese": "充斥",
+  "level": "C1",
+  "pinyin": "chōngchì",
+  "meaning": "tràn ngập, đầy rẫy"
+ },
+ {
+  "chinese": "沖淡",
+  "level": "C1",
+  "pinyin": "chōngdàn",
+  "meaning": "làm nhạt đi, pha loãng"
+ },
+ {
+  "chinese": "重疊",
+  "level": "C1",
+  "pinyin": "chóngdié",
+  "meaning": "trùng điệp, chồng chéo"
+ },
+ {
+  "chinese": "衝動",
+  "level": "C1",
+  "pinyin": "chōngdòng",
+  "meaning": "bốc đồng, xung động"
+ },
+ {
+  "chinese": "衝擊",
+  "level": "C1",
+  "pinyin": "chōngjí",
+  "meaning": "va chạm, tác động mạnh"
+ },
+ {
+  "chinese": "憧憬",
+  "level": "C1",
+  "pinyin": "chōngjǐng",
+  "meaning": "ước ao, khao khát"
+ },
+ {
+  "chinese": "崇尚",
+  "level": "C1",
+  "pinyin": "chóngshàng",
+  "meaning": "tôn sùng, đề cao"
+ },
+ {
+  "chinese": "沖天",
+  "level": "C1",
+  "pinyin": "chōngtiān",
+  "meaning": "ngút trời, xông lên trời"
+ },
+ {
+  "chinese": "寵物",
+  "level": "C1",
+  "pinyin": "chǒngwù",
+  "meaning": "thú cưng"
+ },
+ {
+  "chinese": "充裕",
+  "level": "C1",
+  "pinyin": "chōngyù",
+  "meaning": "dư dả, dồi dào"
+ },
+ {
+  "chinese": "仇",
+  "level": "C1",
+  "pinyin": "chóu",
+  "meaning": "thù, cừu hận"
+ },
+ {
+  "chinese": "抽查",
+  "level": "C1",
+  "pinyin": "chōuchá",
+  "meaning": "kiểm tra đột xuất, kiểm tra ngẫu nhiên"
+ },
+ {
+  "chinese": "仇恨",
+  "level": "C1",
+  "pinyin": "chóuhèn",
+  "meaning": "thù hận, căm ghét"
+ },
+ {
+  "chinese": "抽空",
+  "level": "C1",
+  "pinyin": "chōukòng",
+  "meaning": "tranh thủ, dành thời gian"
+ },
+ {
+  "chinese": "稠密",
+  "level": "C1",
+  "pinyin": "chóumì",
+  "meaning": "dày đặc, đông đúc"
+ },
+ {
+  "chinese": "抽象",
+  "level": "C1",
+  "pinyin": "chōuxiàng",
+  "meaning": "trừu tượng"
+ },
+ {
+  "chinese": "抽樣",
+  "level": "C1",
+  "pinyin": "chōuyàng",
+  "meaning": "lấy mẫu"
+ },
+ {
+  "chinese": "處",
+  "level": "C1",
+  "pinyin": "chǔ",
+  "meaning": "ở, xử, đối xử"
+ },
+ {
+  "chinese": "傳",
+  "level": "C1",
+  "pinyin": "chuán",
+  "meaning": "truyền, lan truyền"
+ },
+ {
+  "chinese": "喘",
+  "level": "C1",
+  "pinyin": "chuǎn",
+  "meaning": "thở hổn hển, thở dốc"
+ },
+ {
+  "chinese": "傳遞",
+  "level": "C1",
+  "pinyin": "chuándì",
+  "meaning": "truyền đi, truyền đạt"
+ },
+ {
+  "chinese": "創",
+  "level": "C1",
+  "pinyin": "chuàng",
+  "meaning": "sáng tạo, sáng lập"
+ },
+ {
+  "chinese": "創辦",
+  "level": "C1",
+  "pinyin": "chuàngbàn",
+  "meaning": "sáng lập, thành lập"
+ },
+ {
+  "chinese": "創立",
+  "level": "C1",
+  "pinyin": "chuànglì",
+  "meaning": "sáng lập, gây dựng"
+ },
+ {
+  "chinese": "創傷",
+  "level": "C1",
+  "pinyin": "chuàngshāng",
+  "meaning": "vết thương, tổn thương (tinh thần)"
+ },
+ {
+  "chinese": "創業",
+  "level": "C1",
+  "pinyin": "chuàngyè",
+  "meaning": "khởi nghiệp"
+ },
+ {
+  "chinese": "傳奇",
+  "level": "C1",
+  "pinyin": "chuánqí",
+  "meaning": "truyện kỳ, huyền thoại"
+ },
+ {
+  "chinese": "傳神",
+  "level": "C1",
+  "pinyin": "chuánshén",
+  "meaning": "truyền thần, sống động như thật"
+ },
+ {
+  "chinese": "傳授",
+  "level": "C1",
+  "pinyin": "chuánshòu",
+  "meaning": "truyền thụ"
+ },
+ {
+  "chinese": "穿梭",
+  "level": "C1",
+  "pinyin": "chuānsuō",
+  "meaning": "đi lại như con thoi, qua lại tấp nập"
+ },
+ {
+  "chinese": "船隻",
+  "level": "C1",
+  "pinyin": "chuánzhī",
+  "meaning": "tàu thuyền"
+ },
+ {
+  "chinese": "儲備",
+  "level": "C1",
+  "pinyin": "chǔbèi",
+  "meaning": "dự trữ, dự bị"
+ },
+ {
+  "chinese": "出超",
+  "level": "C1",
+  "pinyin": "chūchāo",
+  "meaning": "xuất siêu"
+ },
+ {
+  "chinese": "除此之外",
+  "level": "C1",
+  "pinyin": "chú cǐ zhī wài",
+  "meaning": "ngoài cái đó ra"
+ },
+ {
+  "chinese": "出錯",
+  "level": "C1",
+  "pinyin": "chūcuò",
+  "meaning": "xảy ra lỗi, mắc sai lầm"
+ },
+ {
+  "chinese": "出發點",
+  "level": "C1",
+  "pinyin": "chūfādiǎn",
+  "meaning": "xuất phát điểm, điểm khởi đầu"
+ },
+ {
+  "chinese": "處方",
+  "level": "C1",
+  "pinyin": "chǔfāng",
+  "meaning": "đơn thuốc"
+ },
+ {
+  "chinese": "處分",
+  "level": "C1",
+  "pinyin": "chǔfèn",
+  "meaning": "xử phạt, kỷ luật, hình phạt"
+ },
+ {
+  "chinese": "垂",
+  "level": "C1",
+  "pinyin": "chuí",
+  "meaning": "rủ xuống, buông xuống"
+ },
+ {
+  "chinese": "吹牛",
+  "level": "C1",
+  "pinyin": "chuīniú",
+  "meaning": "chém gió, khoác lác"
+ },
+ {
+  "chinese": "垂直",
+  "level": "C1",
+  "pinyin": "chuízhí",
+  "meaning": "thẳng đứng, vuông góc"
+ },
+ {
+  "chinese": "處境",
+  "level": "C1",
+  "pinyin": "chǔjìng",
+  "meaning": "hoàn cảnh, tình cảnh"
+ },
+ {
+  "chinese": "出局",
+  "level": "C1",
+  "pinyin": "chūjú",
+  "meaning": "bị loại, ra khỏi cuộc chơi"
+ },
+ {
+  "chinese": "出力",
+  "level": "C1",
+  "pinyin": "chūlì",
+  "meaning": "ra sức, góp sức"
+ },
+ {
+  "chinese": "出路",
+  "level": "C1",
+  "pinyin": "chūlù",
+  "meaning": "lối ra, con đường thoát"
+ },
+ {
+  "chinese": "出馬",
+  "level": "C1",
+  "pinyin": "chūmǎ",
+  "meaning": "ra tay, xuất mã"
+ },
+ {
+  "chinese": "出賣",
+  "level": "C1",
+  "pinyin": "chūmài",
+  "meaning": "bán, phản bội"
+ },
+ {
+  "chinese": "出面",
+  "level": "C1",
+  "pinyin": "chūmiàn",
+  "meaning": "ra mặt, đứng ra"
+ },
+ {
+  "chinese": "出名",
+  "level": "C1",
+  "pinyin": "chūmíng",
+  "meaning": "nổi tiếng, có danh"
+ },
+ {
+  "chinese": "處女",
+  "level": "C1",
+  "pinyin": "chǔnǚ",
+  "meaning": "trinh nữ, xử nữ"
+ },
+ {
+  "chinese": "出品",
+  "level": "C1",
+  "pinyin": "chūpǐn",
+  "meaning": "sản phẩm, hàng hóa"
+ },
+ {
+  "chinese": "初期",
+  "level": "C1",
+  "pinyin": "chūqī",
+  "meaning": "thời kỳ đầu, giai đoạn đầu"
+ },
+ {
+  "chinese": "處事",
+  "level": "C1",
+  "pinyin": "chǔshì",
+  "meaning": "xử sự, giải quyết công việc"
+ },
+ {
+  "chinese": "出示",
+  "level": "C1",
+  "pinyin": "chūshì",
+  "meaning": "xuất trình, đưa ra"
+ },
+ {
+  "chinese": "出手",
+  "level": "C1",
+  "pinyin": "chūshǒu",
+  "meaning": "ra tay, bán ra"
+ },
+ {
+  "chinese": "鋤頭",
+  "level": "C1",
+  "pinyin": "chútóu",
+  "meaning": "cái cuốc"
+ },
+ {
+  "chinese": "出頭",
+  "level": "C1",
+  "pinyin": "chūtóu",
+  "meaning": "ra mặt, nổi bật, hơn (tuổi)"
+ },
+ {
+  "chinese": "出土",
+  "level": "C1",
+  "pinyin": "chūtǔ",
+  "meaning": "khai quật"
+ },
+ {
+  "chinese": "出息",
+  "level": "C1",
+  "pinyin": "chūxí",
+  "meaning": "tiền đồ, triển vọng"
+ },
+ {
+  "chinese": "出血",
+  "level": "C1",
+  "pinyin": "chūxiě",
+  "meaning": "chảy máu, xuất huyết"
+ },
+ {
+  "chinese": "處於",
+  "level": "C1",
+  "pinyin": "chǔyú",
+  "meaning": "ở vào, rơi vào (tình thế)"
+ },
+ {
+  "chinese": "辭",
+  "level": "C1",
+  "pinyin": "cí",
+  "meaning": "từ, từ chối, từ chức"
+ },
+ {
+  "chinese": "賜",
+  "level": "C1",
+  "pinyin": "cì",
+  "meaning": "ban, ban cho (bề trên cho bề dưới)"
+ },
+ {
+  "chinese": "次",
+  "level": "C1",
+  "pinyin": "cì",
+  "meaning": "thứ, thứ hai, kém hơn"
+ },
+ {
+  "chinese": "伺候",
+  "level": "C1",
+  "pinyin": "cìhòu",
+  "meaning": "hầu hạ, chăm sóc"
+ },
+ {
+  "chinese": "此刻",
+  "level": "C1",
+  "pinyin": "cǐkè",
+  "meaning": "giờ phút này, lúc này"
+ },
+ {
+  "chinese": "刺殺",
+  "level": "C1",
+  "pinyin": "cìshā",
+  "meaning": "ám sát"
+ },
+ {
+  "chinese": "慈善",
+  "level": "C1",
+  "pinyin": "císhàn",
+  "meaning": "từ thiện"
+ },
+ {
+  "chinese": "辭行",
+  "level": "C1",
+  "pinyin": "cíxíng",
+  "meaning": "từ biệt, cáo biệt"
+ },
+ {
+  "chinese": "次要",
+  "level": "C1",
+  "pinyin": "cìyào",
+  "meaning": "thứ yếu, không quan trọng bằng"
+ },
+ {
+  "chinese": "從而",
+  "level": "C1",
+  "pinyin": "cóng'ér",
+  "meaning": "do đó, vì vậy"
+ },
+ {
+  "chinese": "匆忙",
+  "level": "C1",
+  "pinyin": "cōngmáng",
+  "meaning": "vội vàng, hấp tấp"
+ },
+ {
+  "chinese": "從容",
+  "level": "C1",
+  "pinyin": "cóngróng",
+  "meaning": "ung dung, điềm tĩnh"
+ },
+ {
+  "chinese": "湊巧",
+  "level": "C1",
+  "pinyin": "còuqiǎo",
+  "meaning": "tình cờ, trùng hợp"
+ },
+ {
+  "chinese": "促",
+  "level": "C1",
+  "pinyin": "cù",
+  "meaning": "thúc, giục"
+ },
+ {
+  "chinese": "粗糙",
+  "level": "C1",
+  "pinyin": "cūcāo",
+  "meaning": "thô ráp, sần sùi"
+ },
+ {
+  "chinese": "促成",
+  "level": "C1",
+  "pinyin": "cùchéng",
+  "meaning": "thúc đẩy thành công, tác thành"
+ },
+ {
+  "chinese": "摧殘",
+  "level": "C1",
+  "pinyin": "cuīcán",
+  "meaning": "tàn phá, hủy hoại"
+ },
+ {
+  "chinese": "摧毀",
+  "level": "C1",
+  "pinyin": "cuīhuǐ",
+  "meaning": "phá hủy, hủy diệt"
+ },
+ {
+  "chinese": "催眠",
+  "level": "C1",
+  "pinyin": "cuīmián",
+  "meaning": "thôi miên"
+ },
+ {
+  "chinese": "脆弱",
+  "level": "C1",
+  "pinyin": "cuìruò",
+  "meaning": "mong manh, yếu đuối"
+ },
+ {
+  "chinese": "粗魯",
+  "level": "C1",
+  "pinyin": "cūlǔ",
+  "meaning": "thô lỗ, cục cằn"
+ },
+ {
+  "chinese": "存貨",
+  "level": "C1",
+  "pinyin": "cúnhuò",
+  "meaning": "hàng tồn kho"
+ },
+ {
+  "chinese": "撮合",
+  "level": "C1",
+  "pinyin": "cuòhé",
+  "meaning": "làm mối, tác hợp"
+ },
+ {
+  "chinese": "磋商",
+  "level": "C1",
+  "pinyin": "cuōshāng",
+  "meaning": "thương thảo, hội đàm"
+ },
+ {
+  "chinese": "促使",
+  "level": "C1",
+  "pinyin": "cùshǐ",
+  "meaning": "thúc đẩy, khiến cho"
+ },
+ {
+  "chinese": "促銷",
+  "level": "C1",
+  "pinyin": "cùxiāo",
+  "meaning": "khuyến mãi, xúc tiến bán hàng"
+ },
+ {
+  "chinese": "簇擁",
+  "level": "C1",
+  "pinyin": "cùyōng",
+  "meaning": "vây quanh, bao quanh"
+ },
+ {
+  "chinese": "打",
+  "level": "C1",
+  "pinyin": "dǎ",
+  "meaning": "từ, kể từ"
+ },
+ {
+  "chinese": "達",
+  "level": "C1",
+  "pinyin": "dá",
+  "meaning": "đạt đến, lên tới"
+ },
+ {
+  "chinese": "大道",
+  "level": "C1",
+  "pinyin": "dàdào",
+  "meaning": "đại lộ, con đường lớn"
+ },
+ {
+  "chinese": "打鬥",
+  "level": "C1",
+  "pinyin": "dǎdòu",
+  "meaning": "đánh nhau, ẩu đả"
+ },
+ {
+  "chinese": "打賭",
+  "level": "C1",
+  "pinyin": "dǎdǔ",
+  "meaning": "cá cược, đánh cược"
+ },
+ {
+  "chinese": "大隊",
+  "level": "C1",
+  "pinyin": "dàduì",
+  "meaning": "đại đội, đoàn người"
+ },
+ {
+  "chinese": "打發",
+  "level": "C1",
+  "pinyin": "dǎfā",
+  "meaning": "giết thời gian, đuổi đi"
+ },
+ {
+  "chinese": "答覆",
+  "level": "C1",
+  "pinyin": "dáfù",
+  "meaning": "trả lời, hồi đáp"
+ },
+ {
+  "chinese": "呆",
+  "level": "C1",
+  "pinyin": "dāi",
+  "meaning": "ngây người, ngớ ngẩn"
+ },
+ {
+  "chinese": "逮捕",
+  "level": "C1",
+  "pinyin": "dàibǔ",
+  "meaning": "bắt giữ, câu lưu"
+ },
+ {
+  "chinese": "代課",
+  "level": "C1",
+  "pinyin": "dàikè",
+  "meaning": "dạy thay, dạy thế"
+ },
+ {
+  "chinese": "怠慢",
+  "level": "C1",
+  "pinyin": "dàimàn",
+  "meaning": "chậm chạp, thờ ơ, lơ là"
+ },
+ {
+  "chinese": "歹徒",
+  "level": "C1",
+  "pinyin": "dǎitú",
+  "meaning": "kẻ xấu, côn đồ"
+ },
+ {
+  "chinese": "打擊",
+  "level": "C1",
+  "pinyin": "dǎjī",
+  "meaning": "đả kích, tấn công"
+ },
+ {
+  "chinese": "打量",
+  "level": "C1",
+  "pinyin": "dǎliàng",
+  "meaning": "nhìn, đánh giá (bằng ánh mắt)"
+ },
+ {
+  "chinese": "打獵",
+  "level": "C1",
+  "pinyin": "dǎliè",
+  "meaning": "đi săn"
+ },
+ {
+  "chinese": "擔",
+  "level": "C1",
+  "pinyin": "dān",
+  "meaning": "gánh, vác"
+ },
+ {
+  "chinese": "膽",
+  "level": "C1",
+  "pinyin": "dǎn",
+  "meaning": "mật, lòng can đảm"
+ },
+ {
+  "chinese": "但",
+  "level": "C1",
+  "pinyin": "dàn",
+  "meaning": "chỉ, chỉ có"
+ },
+ {
+  "chinese": "擔當",
+  "level": "C1",
+  "pinyin": "dāndāng",
+  "meaning": "đảm đương, gánh vác"
+ },
+ {
+  "chinese": "單獨",
+  "level": "C1",
+  "pinyin": "dāndú",
+  "meaning": "đơn độc, một mình"
+ },
+ {
+  "chinese": "擔負",
+  "level": "C1",
+  "pinyin": "dānfù",
+  "meaning": "gánh vác, đảm nhận"
+ },
+ {
+  "chinese": "當",
+  "level": "C1",
+  "pinyin": "dāng",
+  "meaning": "đó, ấy (chỉ thời gian)"
+ },
+ {
+  "chinese": "當兵",
+  "level": "C1",
+  "pinyin": "dāngbīng",
+  "meaning": "đi lính, nhập ngũ"
+ },
+ {
+  "chinese": "當代",
+  "level": "C1",
+  "pinyin": "dāngdài",
+  "meaning": "đương đại, thời nay"
+ },
+ {
+  "chinese": "當局",
+  "level": "C1",
+  "pinyin": "dāngjú",
+  "meaning": "nhà chức trách, chính quyền"
+ },
+ {
+  "chinese": "黨派",
+  "level": "C1",
+  "pinyin": "dǎngpài",
+  "meaning": "đảng phái"
+ },
+ {
+  "chinese": "當前",
+  "level": "C1",
+  "pinyin": "dāngqián",
+  "meaning": "trước mắt, hiện nay"
+ },
+ {
+  "chinese": "膽固醇",
+  "level": "C1",
+  "pinyin": "dǎngùchún",
+  "meaning": "cholesterol"
+ },
+ {
+  "chinese": "當心",
+  "level": "C1",
+  "pinyin": "dāngxīn",
+  "meaning": "cẩn thận, coi chừng"
+ },
+ {
+  "chinese": "黨員",
+  "level": "C1",
+  "pinyin": "dǎngyuán",
+  "meaning": "đảng viên"
+ },
+ {
+  "chinese": "淡季",
+  "level": "C1",
+  "pinyin": "dànjì",
+  "meaning": "mùa vắng khách, mùa thấp điểm"
+ },
+ {
+  "chinese": "單價",
+  "level": "C1",
+  "pinyin": "dānjià",
+  "meaning": "đơn giá"
+ },
+ {
+  "chinese": "單據",
+  "level": "C1",
+  "pinyin": "dānjù",
+  "meaning": "biên lai, hóa đơn"
+ },
+ {
+  "chinese": "單純",
+  "level": "C1",
+  "pinyin": "dānchún",
+  "meaning": "đơn thuần"
+ },
+ {
+  "chinese": "淡水",
+  "level": "C1",
+  "pinyin": "dànshuǐ",
+  "meaning": "nước ngọt"
+ },
+ {
+  "chinese": "單行道",
+  "level": "C1",
+  "pinyin": "dānxíngdào",
+  "meaning": "đường một chiều"
+ },
+ {
+  "chinese": "刀",
+  "level": "C1",
+  "pinyin": "dāo",
+  "meaning": "con dao (lượng từ)"
+ },
+ {
+  "chinese": "道",
+  "level": "C1",
+  "pinyin": "dào",
+  "meaning": "nói, nói rằng"
+ },
+ {
+  "chinese": "道別",
+  "level": "C1",
+  "pinyin": "dàobié",
+  "meaning": "từ biệt, chào tạm biệt"
+ },
+ {
+  "chinese": "道地",
+  "level": "C1",
+  "pinyin": "dàodì",
+  "meaning": "chính cống, đích thực"
+ },
+ {
+  "chinese": "道士",
+  "level": "C1",
+  "pinyin": "dàoshì",
+  "meaning": "đạo sĩ"
+ },
+ {
+  "chinese": "導師",
+  "level": "C1",
+  "pinyin": "dǎoshī",
+  "meaning": "giáo viên hướng dẫn, cố vấn"
+ },
+ {
+  "chinese": "倒數",
+  "level": "C1",
+  "pinyin": "dàoshǔ",
+  "meaning": "đếm ngược"
+ },
+ {
+  "chinese": "到頭來",
+  "level": "C1",
+  "pinyin": "dàotóulái",
+  "meaning": "rốt cuộc, cuối cùng"
+ },
+ {
+  "chinese": "道義",
+  "level": "C1",
+  "pinyin": "dàoyì",
+  "meaning": "đạo nghĩa"
+ },
+ {
+  "chinese": "島嶼",
+  "level": "C1",
+  "pinyin": "dǎoyǔ",
+  "meaning": "đảo, quần đảo"
+ },
+ {
+  "chinese": "導致",
+  "level": "C1",
+  "pinyin": "dǎozhì",
+  "meaning": "dẫn đến, gây ra"
+ },
+ {
+  "chinese": "打牌",
+  "level": "C1",
+  "pinyin": "dǎpái",
+  "meaning": "đánh bài"
+ },
+ {
+  "chinese": "搭配",
+  "level": "C1",
+  "pinyin": "dāpèi",
+  "meaning": "phối hợp, kết hợp"
+ },
+ {
+  "chinese": "大使",
+  "level": "C1",
+  "pinyin": "dàshǐ",
+  "meaning": "đại sứ"
+ },
+ {
+  "chinese": "打手",
+  "level": "C1",
+  "pinyin": "dǎshǒu",
+  "meaning": "tay sai, côn đồ"
+ },
+ {
+  "chinese": "大選",
+  "level": "C1",
+  "pinyin": "dàxuǎn",
+  "meaning": "tổng tuyển cử, cuộc bầu cử lớn"
+ },
+ {
+  "chinese": "打烊",
+  "level": "C1",
+  "pinyin": "dǎyàng",
+  "meaning": "đóng cửa (kinh doanh)"
+ },
+ {
+  "chinese": "大洋洲",
+  "level": "C1",
+  "pinyin": "dàyángzhōu",
+  "meaning": "Châu Đại Dương"
+ },
+ {
+  "chinese": "瞪",
+  "level": "C1",
+  "pinyin": "dèng",
+  "meaning": "trừng, lườm"
+ },
+ {
+  "chinese": "登場",
+  "level": "C1",
+  "pinyin": "dēngchǎng",
+  "meaning": "lên sân khấu, ra mắt"
+ },
+ {
+  "chinese": "等候",
+  "level": "C1",
+  "pinyin": "děnghòu",
+  "meaning": "chờ, chờ đợi"
+ },
+ {
+  "chinese": "燈火",
+  "level": "C1",
+  "pinyin": "dēnghuǒ",
+  "meaning": "ánh đèn"
+ },
+ {
+  "chinese": "等價",
+  "level": "C1",
+  "pinyin": "děngjià",
+  "meaning": "đồng giá, tương đương giá trị"
+ },
+ {
+  "chinese": "燈籠",
+  "level": "C1",
+  "pinyin": "dēnglóng",
+  "meaning": "đèn lồng"
+ },
+ {
+  "chinese": "登陸",
+  "level": "C1",
+  "pinyin": "dēnglù",
+  "meaning": "đổ bộ, hạ cánh"
+ },
+ {
+  "chinese": "得以",
+  "level": "C1",
+  "pinyin": "déyǐ",
+  "meaning": "có thể, nhờ đó mà"
+ },
+ {
+  "chinese": "奠定",
+  "level": "C1",
+  "pinyin": "diàndìng",
+  "meaning": "đặt nền móng, xây dựng nền tảng"
+ },
+ {
+  "chinese": "顛覆",
+  "level": "C1",
+  "pinyin": "diānfù",
+  "meaning": "lật đổ, phá vỡ (truyền thống)"
+ },
+ {
+  "chinese": "電工",
+  "level": "C1",
+  "pinyin": "diàngōng",
+  "meaning": "thợ điện"
+ },
+ {
+  "chinese": "惦記",
+  "level": "C1",
+  "pinyin": "diànjì",
+  "meaning": "nhớ mong, lo lắng cho"
+ },
+ {
+  "chinese": "電力",
+  "level": "C1",
+  "pinyin": "diànlì",
+  "meaning": "điện lực, năng lượng điện"
+ },
+ {
+  "chinese": "電流",
+  "level": "C1",
+  "pinyin": "diànliú",
+  "meaning": "dòng điện"
+ },
+ {
+  "chinese": "電壓",
+  "level": "C1",
+  "pinyin": "diànyā",
+  "meaning": "điện áp"
+ },
+ {
+  "chinese": "典雅",
+  "level": "C1",
+  "pinyin": "diǎnyǎ",
+  "meaning": "thanh lịch, trang nhã"
+ },
+ {
+  "chinese": "點子",
+  "level": "C1",
+  "pinyin": "diǎnzi",
+  "meaning": "ý tưởng, sáng kiến"
+ },
+ {
+  "chinese": "調",
+  "level": "C1",
+  "pinyin": "diào",
+  "meaning": "điều động, chuyển"
+ },
+ {
+  "chinese": "調查",
+  "level": "C1",
+  "pinyin": "diàochá",
+  "meaning": "sự điều tra"
+ },
+ {
+  "chinese": "調度",
+  "level": "C1",
+  "pinyin": "diàodù",
+  "meaning": "điều độ, điều phối"
+ },
+ {
+  "chinese": "凋零",
+  "level": "C1",
+  "pinyin": "diāolíng",
+  "meaning": "khô héo, tàn lụi"
+ },
+ {
+  "chinese": "吊橋",
+  "level": "C1",
+  "pinyin": "diàoqiáo",
+  "meaning": "cầu treo"
+ },
+ {
+  "chinese": "地表",
+  "level": "C1",
+  "pinyin": "dìbiǎo",
+  "meaning": "bề mặt trái đất"
+ },
+ {
+  "chinese": "地步",
+  "level": "C1",
+  "pinyin": "dìbù",
+  "meaning": "bước, tình thế"
+ },
+ {
+  "chinese": "疊",
+  "level": "C1",
+  "pinyin": "dié",
+  "meaning": "xếp, chồng"
+ },
+ {
+  "chinese": "嘀咕",
+  "level": "C1",
+  "pinyin": "dígū",
+  "meaning": "thì thầm, lẩm bẩm"
+ },
+ {
+  "chinese": "締結",
+  "level": "C1",
+  "pinyin": "dìjié",
+  "meaning": "ký kết, kết giao"
+ },
+ {
+  "chinese": "頂",
+  "level": "C1",
+  "pinyin": "dǐng",
+  "meaning": "rất, vô cùng, chống đỡ"
+ },
+ {
+  "chinese": "釘",
+  "level": "C1",
+  "pinyin": "dīng",
+  "meaning": "đóng, đóng đinh"
+ },
+ {
+  "chinese": "定額",
+  "level": "C1",
+  "pinyin": "dìng'é",
+  "meaning": "định mức, hạn ngạch"
+ },
+ {
+  "chinese": "定義",
+  "level": "C1",
+  "pinyin": "dìngyì",
+  "meaning": "định nghĩa"
+ },
+ {
+  "chinese": "底片",
+  "level": "C1",
+  "pinyin": "dǐpiàn",
+  "meaning": "phim (máy ảnh)"
+ },
+ {
+  "chinese": "地勢",
+  "level": "C1",
+  "pinyin": "dìshì",
+  "meaning": "địa thế"
+ },
+ {
+  "chinese": "丟棄",
+  "level": "C1",
+  "pinyin": "diūqì",
+  "meaning": "vứt bỏ, từ bỏ"
+ },
+ {
+  "chinese": "弟兄",
+  "level": "C1",
+  "pinyin": "dìxiōng",
+  "meaning": "anh em"
+ },
+ {
+  "chinese": "抵押",
+  "level": "C1",
+  "pinyin": "dǐyā",
+  "meaning": "thế chấp, cầm cố"
+ },
+ {
+  "chinese": "地獄",
+  "level": "C1",
+  "pinyin": "dìyù",
+  "meaning": "địa ngục"
+ },
+ {
+  "chinese": "地域",
+  "level": "C1",
+  "pinyin": "dìyù",
+  "meaning": "khu vực, vùng"
+ },
+ {
+  "chinese": "締造",
+  "level": "C1",
+  "pinyin": "dìzào",
+  "meaning": "tạo nên, sáng lập"
+ },
+ {
+  "chinese": "抵制",
+  "level": "C1",
+  "pinyin": "dǐzhì",
+  "meaning": "tẩy chay, chống lại"
+ },
+ {
+  "chinese": "地質",
+  "level": "C1",
+  "pinyin": "dìzhì",
+  "meaning": "địa chất"
+ },
+ {
+  "chinese": "地主",
+  "level": "C1",
+  "pinyin": "dìzhǔ",
+  "meaning": "địa chủ"
+ },
+ {
+  "chinese": "動產",
+  "level": "C1",
+  "pinyin": "dòngchǎn",
+  "meaning": "động sản"
+ },
+ {
+  "chinese": "動機",
+  "level": "C1",
+  "pinyin": "dòngjī",
+  "meaning": "động cơ (gây án)"
+ },
+ {
+  "chinese": "凍結",
+  "level": "C1",
+  "pinyin": "dòngjié",
+  "meaning": "đóng băng, phong tỏa"
+ },
+ {
+  "chinese": "動靜",
+  "level": "C1",
+  "pinyin": "dòngjìng",
+  "meaning": "động tĩnh, tin tức"
+ },
+ {
+  "chinese": "動力",
+  "level": "C1",
+  "pinyin": "dònglì",
+  "meaning": "động lực"
+ },
+ {
+  "chinese": "動亂",
+  "level": "C1",
+  "pinyin": "dòngluàn",
+  "meaning": "bạo loạn, náo loạn"
+ },
+ {
+  "chinese": "動脈",
+  "level": "C1",
+  "pinyin": "dòngmài",
+  "meaning": "động mạch"
+ },
+ {
+  "chinese": "動態",
+  "level": "C1",
+  "pinyin": "dòngtài",
+  "meaning": "động thái, tình hình"
+ },
+ {
+  "chinese": "動向",
+  "level": "C1",
+  "pinyin": "dòngxiàng",
+  "meaning": "động hướng, xu hướng"
+ },
+ {
+  "chinese": "洞穴",
+  "level": "C1",
+  "pinyin": "dòngxué",
+  "meaning": "hang động"
+ },
+ {
+  "chinese": "動員",
+  "level": "C1",
+  "pinyin": "dòngyuán",
+  "meaning": "động viên, huy động"
+ },
+ {
+  "chinese": "抖",
+  "level": "C1",
+  "pinyin": "dǒu",
+  "meaning": "run, rẩy"
+ },
+ {
+  "chinese": "陡",
+  "level": "C1",
+  "pinyin": "dǒu",
+  "meaning": "dốc, dốc đứng"
+ },
+ {
+  "chinese": "逗留",
+  "level": "C1",
+  "pinyin": "dòuliú",
+  "meaning": "lưu lại, dừng lại"
+ },
+ {
+  "chinese": "鬥志",
+  "level": "C1",
+  "pinyin": "dòuzhì",
+  "meaning": "ý chí chiến đấu"
+ },
+ {
+  "chinese": "渡",
+  "level": "C1",
+  "pinyin": "dù",
+  "meaning": "vượt qua, đi qua (sông)"
+ },
+ {
+  "chinese": "堵",
+  "level": "C1",
+  "pinyin": "dǔ",
+  "meaning": "chặn, lấp"
+ },
+ {
+  "chinese": "斷絕",
+  "level": "C1",
+  "pinyin": "duànjué",
+  "meaning": "cắt đứt, đoạn tuyệt"
+ },
+ {
+  "chinese": "短缺",
+  "level": "C1",
+  "pinyin": "duǎnquē",
+  "meaning": "thiếu hụt"
+ },
+ {
+  "chinese": "短暫",
+  "level": "C1",
+  "pinyin": "duǎnzàn",
+  "meaning": "ngắn ngủi, tạm thời"
+ },
+ {
+  "chinese": "端正",
+  "level": "C1",
+  "pinyin": "duānzhèng",
+  "meaning": "ngay ngắn, đoan chính"
+ },
+ {
+  "chinese": "賭博",
+  "level": "C1",
+  "pinyin": "dǔbó",
+  "meaning": "đánh bạc, cờ bạc"
+ },
+ {
+  "chinese": "賭場",
+  "level": "C1",
+  "pinyin": "dǔchǎng",
+  "meaning": "sòng bạc, sòng bài"
+ },
+ {
+  "chinese": "獨創",
+  "level": "C1",
+  "pinyin": "dúchuàng",
+  "meaning": "độc đáo, sáng tạo riêng"
+ },
+ {
+  "chinese": "督促",
+  "level": "C1",
+  "pinyin": "dūcù",
+  "meaning": "đôn đốc, thúc giục"
+ },
+ {
+  "chinese": "獨到",
+  "level": "C1",
+  "pinyin": "dúdào",
+  "meaning": "độc đáo, riêng biệt"
+ },
+ {
+  "chinese": "對比",
+  "level": "C1",
+  "pinyin": "duìbǐ",
+  "meaning": "sự so sánh, sự đối chiếu"
+ },
+ {
+  "chinese": "堆積",
+  "level": "C1",
+  "pinyin": "duījī",
+  "meaning": "chất đống, tích tụ"
+ },
+ {
+  "chinese": "隊伍",
+  "level": "C1",
+  "pinyin": "duìwǔ",
+  "meaning": "đội ngũ, hàng ngũ"
+ },
+ {
+  "chinese": "兌現",
+  "level": "C1",
+  "pinyin": "duìxiàn",
+  "meaning": "đổi thành tiền mặt, thực hiện (lời hứa)"
+ },
+ {
+  "chinese": "對照",
+  "level": "C1",
+  "pinyin": "duìzhào",
+  "meaning": "đối chiếu, so sánh"
+ },
+ {
+  "chinese": "對峙",
+  "level": "C1",
+  "pinyin": "duìzhì",
+  "meaning": "đối đầu, giằng co"
+ },
+ {
+  "chinese": "度量衡",
+  "level": "C1",
+  "pinyin": "dùliànghéng",
+  "meaning": "đơn vị đo lường"
+ },
+ {
+  "chinese": "頓",
+  "level": "C1",
+  "pinyin": "dùn",
+  "meaning": "đột nhiên, dừng lại"
+ },
+ {
+  "chinese": "頓時",
+  "level": "C1",
+  "pinyin": "dùnshí",
+  "meaning": "đột nhiên, ngay lập tức"
+ },
+ {
+  "chinese": "躲避",
+  "level": "C1",
+  "pinyin": "duǒbì",
+  "meaning": "trốn tránh, lẩn tránh"
+ },
+ {
+  "chinese": "多寡",
+  "level": "C1",
+  "pinyin": "duōguǎ",
+  "meaning": "nhiều ít, số lượng"
+ },
+ {
+  "chinese": "奪魁",
+  "level": "C1",
+  "pinyin": "duókuí",
+  "meaning": "đoạt giải nhất, giành quán quân"
+ },
+ {
+  "chinese": "多虧",
+  "level": "C1",
+  "pinyin": "duōkuī",
+  "meaning": "may mà, nhờ có"
+ },
+ {
+  "chinese": "多媒體",
+  "level": "C1",
+  "pinyin": "duōméitǐ",
+  "meaning": "đa phương tiện"
+ },
+ {
+  "chinese": "墮胎",
+  "level": "C1",
+  "pinyin": "duòtāi",
+  "meaning": "phá thai, nạo thai"
+ },
+ {
+  "chinese": "多元",
+  "level": "C1",
+  "pinyin": "duōyuán",
+  "meaning": "đa nguyên, đa dạng"
+ },
+ {
+  "chinese": "堵塞",
+  "level": "C1",
+  "pinyin": "dǔsè",
+  "meaning": "tắc nghẽn"
+ },
+ {
+  "chinese": "讀物",
+  "level": "C1",
+  "pinyin": "dúwù",
+  "meaning": "sách báo, ấn phẩm để đọc"
+ },
+ {
+  "chinese": "獨佔",
+  "level": "C1",
+  "pinyin": "dúzhàn",
+  "meaning": "độc chiếm, độc quyền"
+ },
+ {
+  "chinese": "惡",
+  "level": "C1",
+  "pinyin": "è",
+  "meaning": "ác, xấu"
+ },
+ {
+  "chinese": "惡化",
+  "level": "C1",
+  "pinyin": "èhuà",
+  "meaning": "xấu đi, trở nên tồi tệ"
+ },
+ {
+  "chinese": "恩愛",
+  "level": "C1",
+  "pinyin": "ēn'ài",
+  "meaning": "ân ái, yêu thương nhau"
+ },
+ {
+  "chinese": "恩情",
+  "level": "C1",
+  "pinyin": "ēnqíng",
+  "meaning": "ân tình"
+ },
+ {
+  "chinese": "恩人",
+  "level": "C1",
+  "pinyin": "ēnrén",
+  "meaning": "ân nhân"
+ },
+ {
+  "chinese": "恩怨",
+  "level": "C1",
+  "pinyin": "ēnyuàn",
+  "meaning": "ân oán"
+ },
+ {
+  "chinese": "耳光",
+  "level": "C1",
+  "pinyin": "ěrguāng",
+  "meaning": "cái tát, bạt tai"
+ },
+ {
+  "chinese": "兒女",
+  "level": "C1",
+  "pinyin": "érnǚ",
+  "meaning": "con cái"
+ },
+ {
+  "chinese": "而是",
+  "level": "C1",
+  "pinyin": "érshì",
+  "meaning": "mà là"
+ },
+ {
+  "chinese": "而言",
+  "level": "C1",
+  "pinyin": "éryán",
+  "meaning": "mà nói, đối với"
+ },
+ {
+  "chinese": "額外",
+  "level": "C1",
+  "pinyin": "éwài",
+  "meaning": "ngoài, thêm"
+ },
+ {
+  "chinese": "惡性",
+  "level": "C1",
+  "pinyin": "èxìng",
+  "meaning": "ác tính, xấu"
+ },
+ {
+  "chinese": "惡意",
+  "level": "C1",
+  "pinyin": "èyì",
+  "meaning": "ác ý"
+ },
+ {
+  "chinese": "發",
+  "level": "C1",
+  "pinyin": "fā",
+  "meaning": "phát (đạn)"
+ },
+ {
+  "chinese": "發電",
+  "level": "C1",
+  "pinyin": "fādiàn",
+  "meaning": "phát điện"
+ },
+ {
+  "chinese": "法定",
+  "level": "C1",
+  "pinyin": "fǎdìng",
+  "meaning": "pháp định, theo luật định"
+ },
+ {
+  "chinese": "發瘋",
+  "level": "C1",
+  "pinyin": "fāfēng",
+  "meaning": "phát điên, nổi điên"
+ },
+ {
+  "chinese": "法官",
+  "level": "C1",
+  "pinyin": "fǎguān",
+  "meaning": "pháp quan, thẩm phán"
+ },
+ {
+  "chinese": "發掘",
+  "level": "C1",
+  "pinyin": "fājué",
+  "meaning": "khai quật, phát hiện"
+ },
+ {
+  "chinese": "法令",
+  "level": "C1",
+  "pinyin": "fǎlìng",
+  "meaning": "pháp lệnh, luật lệ"
+ },
+ {
+  "chinese": "凡",
+  "level": "C1",
+  "pinyin": "fán",
+  "meaning": "phàm là, hễ là"
+ },
+ {
+  "chinese": "返",
+  "level": "C1",
+  "pinyin": "fǎn",
+  "meaning": "trở về, quay lại"
+ },
+ {
+  "chinese": "販毒",
+  "level": "C1",
+  "pinyin": "fàndú",
+  "meaning": "buôn bán ma túy"
+ },
+ {
+  "chinese": "繁多",
+  "level": "C1",
+  "pinyin": "fánduō",
+  "meaning": "nhiều, đa dạng"
+ },
+ {
+  "chinese": "妨礙",
+  "level": "C1",
+  "pinyin": "fáng'ài",
+  "meaning": "cản trở, gây trở ngại"
+ },
+ {
+  "chinese": "防備",
+  "level": "C1",
+  "pinyin": "fángbèi",
+  "meaning": "phòng bị, đề phòng"
+ },
+ {
+  "chinese": "放蕩",
+  "level": "C1",
+  "pinyin": "fàngdàng",
+  "meaning": "phóng đãng, trác táng"
+ },
+ {
+  "chinese": "防範",
+  "level": "C1",
+  "pinyin": "fángfàn",
+  "meaning": "phòng chống, đề phòng"
+ },
+ {
+  "chinese": "放寬",
+  "level": "C1",
+  "pinyin": "fàngkuān",
+  "meaning": "nới lỏng"
+ },
+ {
+  "chinese": "放款",
+  "level": "C1",
+  "pinyin": "fàngkuǎn",
+  "meaning": "cho vay"
+ },
+ {
+  "chinese": "仿冒",
+  "level": "C1",
+  "pinyin": "fǎngmào",
+  "meaning": "làm giả, làm nhái"
+ },
+ {
+  "chinese": "放任",
+  "level": "C1",
+  "pinyin": "fàngrèn",
+  "meaning": "mặc kệ, không quan tâm"
+ },
+ {
+  "chinese": "防水",
+  "level": "C1",
+  "pinyin": "fángshuǐ",
+  "meaning": "chống nước, không thấm nước"
+ },
+ {
+  "chinese": "犯規",
+  "level": "C1",
+  "pinyin": "fànguī",
+  "meaning": "phạm quy, phạm luật (thể thao)"
+ },
+ {
+  "chinese": "方位",
+  "level": "C1",
+  "pinyin": "fāngwèi",
+  "meaning": "phương vị, phương hướng"
+ },
+ {
+  "chinese": "防衛",
+  "level": "C1",
+  "pinyin": "fángwèi",
+  "meaning": "phòng vệ, tự vệ"
+ },
+ {
+  "chinese": "方向盤",
+  "level": "C1",
+  "pinyin": "fāngxiàngpán",
+  "meaning": "vô lăng, tay lái"
+ },
+ {
+  "chinese": "放映",
+  "level": "C1",
+  "pinyin": "fàngyìng",
+  "meaning": "chiếu phim, trình chiếu"
+ },
+ {
+  "chinese": "防禦",
+  "level": "C1",
+  "pinyin": "fángyù",
+  "meaning": "phòng ngự"
+ },
+ {
+  "chinese": "仿造",
+  "level": "C1",
+  "pinyin": "fǎngzào",
+  "meaning": "phỏng chế, làm giả theo mẫu"
+ },
+ {
+  "chinese": "方針",
+  "level": "C1",
+  "pinyin": "fāngzhēn",
+  "meaning": "phương châm, đường lối"
+ },
+ {
+  "chinese": "方正",
+  "level": "C1",
+  "pinyin": "fāngzhèng",
+  "meaning": "vuông vắn, ngay thẳng"
+ },
+ {
+  "chinese": "紡織",
+  "level": "C1",
+  "pinyin": "fǎngzhī",
+  "meaning": "dệt, ngành dệt"
+ },
+ {
+  "chinese": "防治",
+  "level": "C1",
+  "pinyin": "fángzhì",
+  "meaning": "phòng trị, phòng chống"
+ },
+ {
+  "chinese": "放逐",
+  "level": "C1",
+  "pinyin": "fàngzhú",
+  "meaning": "lưu đày, trục xuất"
+ },
+ {
+  "chinese": "反擊",
+  "level": "C1",
+  "pinyin": "fǎnjí",
+  "meaning": "phản kích, đánh trả"
+ },
+ {
+  "chinese": "藩籬",
+  "level": "C1",
+  "pinyin": "fānlí",
+  "meaning": "rào cản, hàng rào"
+ },
+ {
+  "chinese": "翻臉",
+  "level": "C1",
+  "pinyin": "fānliǎn",
+  "meaning": "trở mặt, lật mặt"
+ },
+ {
+  "chinese": "販賣",
+  "level": "C1",
+  "pinyin": "fànmài",
+  "meaning": "buôn bán"
+ },
+ {
+  "chinese": "反射",
+  "level": "C1",
+  "pinyin": "fǎnshè",
+  "meaning": "(vi.) phản xạ, phản chiếu"
+ },
+ {
+  "chinese": "翻身",
+  "level": "C1",
+  "pinyin": "fānshēn",
+  "meaning": "(v-sep.) trở mình, thay đổi thân phận"
+ },
+ {
+  "chinese": "繁體",
+  "level": "C1",
+  "pinyin": "fántǐ",
+  "meaning": "(n.) phồn thể (chữ)"
+ },
+ {
+  "chinese": "翻新",
+  "level": "C1",
+  "pinyin": "fānxīn",
+  "meaning": "(v.) tân trang, làm mới"
+ },
+ {
+  "chinese": "反省",
+  "level": "C1",
+  "pinyin": "fǎnxǐng",
+  "meaning": "(vi.) tự kiểm điểm, xem xét lại bản thân"
+ },
+ {
+  "chinese": "反之",
+  "level": "C1",
+  "pinyin": "fǎnzhī",
+  "meaning": "(conj.) ngược lại"
+ },
+ {
+  "chinese": "法人",
+  "level": "C1",
+  "pinyin": "fǎrén",
+  "meaning": "(n.) pháp nhân"
+ },
+ {
+  "chinese": "發誓",
+  "level": "C1",
+  "pinyin": "fāshì",
+  "meaning": "(v-sep.) thề, phát thệ"
+ },
+ {
+  "chinese": "發育",
+  "level": "C1",
+  "pinyin": "fāyù",
+  "meaning": "(vs.) phát triển (cơ thể)"
+ },
+ {
+  "chinese": "法則",
+  "level": "C1",
+  "pinyin": "fǎzé",
+  "meaning": "(n.) quy tắc, luật"
+ },
+ {
+  "chinese": "法制",
+  "level": "C1",
+  "pinyin": "fǎzhì",
+  "meaning": "(n.) pháp chế"
+ },
+ {
+  "chinese": "法治",
+  "level": "C1",
+  "pinyin": "fǎzhì",
+  "meaning": "(n.) pháp trị"
+ },
+ {
+  "chinese": "發作",
+  "level": "C1",
+  "pinyin": "fāzuò",
+  "meaning": "(vp.) phát tác, tái phát"
+ },
+ {
+  "chinese": "廢",
+  "level": "C1",
+  "pinyin": "fèi",
+  "meaning": "(v.) phế, bỏ"
+ },
+ {
+  "chinese": "廢除",
+  "level": "C1",
+  "pinyin": "fèichú",
+  "meaning": "(v.) phế trừ, bãi bỏ"
+ },
+ {
+  "chinese": "飛彈",
+  "level": "C1",
+  "pinyin": "fēidàn",
+  "meaning": "(n.) tên lửa, hỏa tiễn"
+ },
+ {
+  "chinese": "非凡",
+  "level": "C1",
+  "pinyin": "fēifán",
+  "meaning": "(vs.) phi phàm, phi thường"
+ },
+ {
+  "chinese": "飛快",
+  "level": "C1",
+  "pinyin": "fēikuài",
+  "meaning": "(adv.) nhanh như bay, vun vút"
+ },
+ {
+  "chinese": "費力",
+  "level": "C1",
+  "pinyin": "fèilì",
+  "meaning": "(vs.) tốn sức, vất vả"
+ },
+ {
+  "chinese": "肥料",
+  "level": "C1",
+  "pinyin": "fèiliào",
+  "meaning": "(n.) phân bón"
+ },
+ {
+  "chinese": "廢棄",
+  "level": "C1",
+  "pinyin": "fèiqì",
+  "meaning": "(v.) vứt bỏ, phế bỏ"
+ },
+ {
+  "chinese": "沸騰",
+  "level": "C1",
+  "pinyin": "fèiténg",
+  "meaning": "(v.) sôi, sôi sục"
+ },
+ {
+  "chinese": "飛翔",
+  "level": "C1",
+  "pinyin": "fēixiáng",
+  "meaning": "(vi.) bay lượn"
+ },
+ {
+  "chinese": "飛行",
+  "level": "C1",
+  "pinyin": "fēixíng",
+  "meaning": "(vi.) bay, phi hành"
+ },
+ {
+  "chinese": "廢墟",
+  "level": "C1",
+  "pinyin": "fèixū",
+  "meaning": "(n.) phế tích, đống đổ nát"
+ },
+ {
+  "chinese": "肺炎",
+  "level": "C1",
+  "pinyin": "fèiyán",
+  "meaning": "(n.) viêm phổi"
+ },
+ {
+  "chinese": "廢止",
+  "level": "C1",
+  "pinyin": "fèizhǐ",
+  "meaning": "(v.) bãi bỏ, đình chỉ"
+ },
+ {
+  "chinese": "糞",
+  "level": "C1",
+  "pinyin": "fèn",
+  "meaning": "(n.) phân"
+ },
+ {
+  "chinese": "分貝",
+  "level": "C1",
+  "pinyin": "fēnbèi",
+  "meaning": "(meas.) decibel"
+ },
+ {
+  "chinese": "分辨",
+  "level": "C1",
+  "pinyin": "fēnbiàn",
+  "meaning": "(v.) phân biệt"
+ },
+ {
+  "chinese": "分寸",
+  "level": "C1",
+  "pinyin": "fēncùn",
+  "meaning": "(n.) chừng mực, mức độ"
+ },
+ {
+  "chinese": "分擔",
+  "level": "C1",
+  "pinyin": "fēndān",
+  "meaning": "(v.) chia sẻ, gánh vác chung"
+ },
+ {
+  "chinese": "分發",
+  "level": "C1",
+  "pinyin": "fēnfā",
+  "meaning": "(vi.) phân phát"
+ },
+ {
+  "chinese": "縫",
+  "level": "C1",
+  "pinyin": "fèng",
+  "meaning": "(n.) khe, kẽ hở"
+ },
+ {
+  "chinese": "風暴",
+  "level": "C1",
+  "pinyin": "fēngbào",
+  "meaning": "(n.) bão tố, cơn bão"
+ },
+ {
+  "chinese": "封閉",
+  "level": "C1",
+  "pinyin": "fēngbì",
+  "meaning": "(vs.) phong tỏa, đóng kín, bảo thủ"
+ },
+ {
+  "chinese": "風潮",
+  "level": "C1",
+  "pinyin": "fēngcháo",
+  "meaning": "(n.) trào lưu, phong trào"
+ },
+ {
+  "chinese": "分割",
+  "level": "C1",
+  "pinyin": "fēngē",
+  "meaning": "(v.) chia cắt, phân chia"
+ },
+ {
+  "chinese": "風光",
+  "level": "C1",
+  "pinyin": "fēngguāng",
+  "meaning": "(n\/vs) phong quang, cảnh sắc, vẻ vang"
+ },
+ {
+  "chinese": "風化",
+  "level": "C1",
+  "pinyin": "fēnghuà",
+  "meaning": "(vp.) phong hóa, xói mòn"
+ },
+ {
+  "chinese": "風力",
+  "level": "C1",
+  "pinyin": "fēnglì",
+  "meaning": "(n.) sức gió"
+ },
+ {
+  "chinese": "鋒面",
+  "level": "C1",
+  "pinyin": "fēngmiàn",
+  "meaning": "(n.) khối không khí lạnh, frông"
+ },
+ {
+  "chinese": "風尚",
+  "level": "C1",
+  "pinyin": "fēngshàng",
+  "meaning": "(n.) trào lưu, mốt"
+ },
+ {
+  "chinese": "豐盛",
+  "level": "C1",
+  "pinyin": "fēngshèng",
+  "meaning": "(vs.) phong phú, thịnh soạn"
+ },
+ {
+  "chinese": "豐收",
+  "level": "C1",
+  "pinyin": "fēngshōu",
+  "meaning": "(vs.) được mùa, bội thu"
+ },
+ {
+  "chinese": "風水",
+  "level": "C1",
+  "pinyin": "fēngshuǐ",
+  "meaning": "(n.) phong thủy"
+ },
+ {
+  "chinese": "封鎖",
+  "level": "C1",
+  "pinyin": "fēngsuǒ",
+  "meaning": "(v.) phong tỏa, bao vây"
+ },
+ {
+  "chinese": "封條",
+  "level": "C1",
+  "pinyin": "fēngtiáo",
+  "meaning": "(n.) niêm phong"
+ },
+ {
+  "chinese": "奉獻",
+  "level": "C1",
+  "pinyin": "fèngxiàn",
+  "meaning": "(v.) cống hiến, dâng hiến"
+ },
+ {
+  "chinese": "風行",
+  "level": "C1",
+  "pinyin": "fèngxíng",
+  "meaning": "(vs.) thịnh hành, lưu hành"
+ },
+ {
+  "chinese": "奉養",
+  "level": "C1",
+  "pinyin": "fèngyàng",
+  "meaning": "(v.) phụng dưỡng (cha mẹ)"
+ },
+ {
+  "chinese": "分化",
+  "level": "C1",
+  "pinyin": "fēnhuà",
+  "meaning": "(vpt.) phân hóa, chia rẽ"
+ },
+ {
+  "chinese": "分級",
+  "level": "C1",
+  "pinyin": "fēnjí",
+  "meaning": "(v-sep.) phân cấp, xếp hạng"
+ },
+ {
+  "chinese": "分家",
+  "level": "C1",
+  "pinyin": "fēnjiā",
+  "meaning": "(v-sep.) chia gia tài, ở riêng"
+ },
+ {
+  "chinese": "分解",
+  "level": "C1",
+  "pinyin": "fēnjiě",
+  "meaning": "(v.) phân giải, phân hủy"
+ },
+ {
+  "chinese": "分離",
+  "level": "C1",
+  "pinyin": "fēnlí",
+  "meaning": "(vs.) chia lìa, tách rời"
+ },
+ {
+  "chinese": "分量",
+  "level": "C1",
+  "pinyin": "fènliàng",
+  "meaning": "(n.) trọng lượng, sức nặng"
+ },
+ {
+  "chinese": "分裂",
+  "level": "C1",
+  "pinyin": "fēnliè",
+  "meaning": "(v.) chia rẽ, phân liệt"
+ },
+ {
+  "chinese": "分泌",
+  "level": "C1",
+  "pinyin": "fēnmì",
+  "meaning": "(v.) bài tiết, tiết ra"
+ },
+ {
+  "chinese": "墳墓",
+  "level": "C1",
+  "pinyin": "fénmù",
+  "meaning": "(n.) phần mộ, ngôi mộ"
+ },
+ {
+  "chinese": "粉刷",
+  "level": "C1",
+  "pinyin": "fěnshuā",
+  "meaning": "(v.) quét vôi, sơn"
+ },
+ {
+  "chinese": "分子",
+  "level": "C1",
+  "pinyin": "fènzǐ",
+  "meaning": "(n.) phần tử, phân tử"
+ },
+ {
+  "chinese": "佛經",
+  "level": "C1",
+  "pinyin": "fójīng",
+  "meaning": "(n.) kinh Phật"
+ },
+ {
+  "chinese": "否決",
+  "level": "C1",
+  "pinyin": "fǒujué",
+  "meaning": "(v.) phủ quyết"
+ },
+ {
+  "chinese": "佛像",
+  "level": "C1",
+  "pinyin": "fóxiàng",
+  "meaning": "(n.) tượng Phật"
+ },
+ {
+  "chinese": "負",
+  "level": "C1",
+  "pinyin": "fù",
+  "meaning": "(vst.) âm (số), phụ (trách)"
+ },
+ {
+  "chinese": "服從",
+  "level": "C1",
+  "pinyin": "fúcóng",
+  "meaning": "(v.) phục tùng, tuân theo"
+ },
+ {
+  "chinese": "浮動",
+  "level": "C1",
+  "pinyin": "fúdòng",
+  "meaning": "(vi.) trôi nổi, biến động"
+ },
+ {
+  "chinese": "幅度",
+  "level": "C1",
+  "pinyin": "fúdù",
+  "meaning": "(n.) biên độ, mức độ"
+ },
+ {
+  "chinese": "富貴",
+  "level": "C1",
+  "pinyin": "fùguì",
+  "meaning": "(n.) phú quý, giàu sang"
+ },
+ {
+  "chinese": "付款",
+  "level": "C1",
+  "pinyin": "fùkuǎn",
+  "meaning": "(v-sep.) thanh toán, trả tiền"
+ },
+ {
+  "chinese": "腐爛",
+  "level": "C1",
+  "pinyin": "fǔlàn",
+  "meaning": "(v.) thối rữa, mục nát"
+ },
+ {
+  "chinese": "俘虜",
+  "level": "C1",
+  "pinyin": "fúlǔ",
+  "meaning": "(n\/v) tù binh, bắt làm tù binh"
+ },
+ {
+  "chinese": "負面",
+  "level": "C1",
+  "pinyin": "fùmiàn",
+  "meaning": "(n.) mặt tiêu cực, mặt trái"
+ },
+ {
+  "chinese": "福氣",
+  "level": "C1",
+  "pinyin": "fúqì",
+  "meaning": "(n.) phúc khí, may mắn"
+ },
+ {
+  "chinese": "膚淺",
+  "level": "C1",
+  "pinyin": "fūqiǎn",
+  "meaning": "(vs.) nông cạn, hời hợt"
+ },
+ {
+  "chinese": "婦人",
+  "level": "C1",
+  "pinyin": "fùrén",
+  "meaning": "(n.) phụ nữ, người đàn bà"
+ },
+ {
+  "chinese": "附上",
+  "level": "C1",
+  "pinyin": "fùshàng",
+  "meaning": "(vpt.) đính kèm, gửi kèm"
+ },
+ {
+  "chinese": "輻射",
+  "level": "C1",
+  "pinyin": "fúshè",
+  "meaning": "(n.) bức xạ, phóng xạ"
+ },
+ {
+  "chinese": "服飾",
+  "level": "C1",
+  "pinyin": "fúshì",
+  "meaning": "(n.) trang phục, quần áo phụ kiện"
+ },
+ {
+  "chinese": "腐蝕",
+  "level": "C1",
+  "pinyin": "fǔshí",
+  "meaning": "(vst.) ăn mòn, xói mòn"
+ },
+ {
+  "chinese": "復甦",
+  "level": "C1",
+  "pinyin": "fùsū",
+  "meaning": "(vi.) hồi sinh, phục hồi"
+ },
+ {
+  "chinese": "斧頭",
+  "level": "C1",
+  "pinyin": "fǔtou",
+  "meaning": "(n.) cái rìu"
+ },
+ {
+  "chinese": "服務",
+  "level": "C1",
+  "pinyin": "fúwù",
+  "meaning": "(n.) dịch vụ, sự phục vụ"
+ },
+ {
+  "chinese": "服刑",
+  "level": "C1",
+  "pinyin": "fúxíng",
+  "meaning": "(v-sep.) chịu án, thi hành án tù"
+ },
+ {
+  "chinese": "腐朽",
+  "level": "C1",
+  "pinyin": "fǔxiǔ",
+  "meaning": "(vp.) mục nát, hủ bại"
+ },
+ {
+  "chinese": "敷衍",
+  "level": "C1",
+  "pinyin": "fūyǎn",
+  "meaning": "(v.) qua loa, đại khái"
+ },
+ {
+  "chinese": "撫養",
+  "level": "C1",
+  "pinyin": "fǔyǎng",
+  "meaning": "(v.) nuôi dưỡng, nuôi nấng"
+ },
+ {
+  "chinese": "富有",
+  "level": "C1",
+  "pinyin": "fùyǒu",
+  "meaning": "(vs.) giàu có, phong phú"
+ },
+ {
+  "chinese": "撫育",
+  "level": "C1",
+  "pinyin": "fǔyù",
+  "meaning": "(v.) nuôi nấng, chăm sóc"
+ },
+ {
+  "chinese": "賦予",
+  "level": "C1",
+  "pinyin": "fùyǔ",
+  "meaning": "(v.) ban cho, trao cho"
+ },
+ {
+  "chinese": "復原",
+  "level": "C1",
+  "pinyin": "fùyuán",
+  "meaning": "(adv.) phục hồi, khôi phục"
+ },
+ {
+  "chinese": "概",
+  "level": "C1",
+  "pinyin": "gài",
+  "meaning": "(adv.) đại khái, nói chung"
+ },
+ {
+  "chinese": "鈣",
+  "level": "C1",
+  "pinyin": "gài",
+  "meaning": "(n.) canxi"
+ },
+ {
+  "chinese": "改編",
+  "level": "C1",
+  "pinyin": "gǎibiān",
+  "meaning": "(v.) cải biên, chuyển thể"
+ },
+ {
+  "chinese": "改觀",
+  "level": "C1",
+  "pinyin": "gǎiguān",
+  "meaning": "(vp.) thay đổi cách nhìn, thay đổi diện mạo"
+ },
+ {
+  "chinese": "概況",
+  "level": "C1",
+  "pinyin": "gàikuàng",
+  "meaning": "(n.) tình hình chung, khái quát"
+ },
+ {
+  "chinese": "概括",
+  "level": "C1",
+  "pinyin": "gàikuò",
+  "meaning": "(vst.) khái quát, tóm tắt"
+ },
+ {
+  "chinese": "改良",
+  "level": "C1",
+  "pinyin": "gǎiliáng",
+  "meaning": "(v.) cải tiến, cải lương"
+ },
+ {
+  "chinese": "該死",
+  "level": "C1",
+  "pinyin": "gāisǐ",
+  "meaning": "(vs.) đáng chết, chết tiệt"
+ },
+ {
+  "chinese": "改選",
+  "level": "C1",
+  "pinyin": "gǎixuǎn",
+  "meaning": "(v.) bầu lại, cải tuyển"
+ },
+ {
+  "chinese": "蓋章",
+  "level": "C1",
+  "pinyin": "gàizhāng",
+  "meaning": "(v-sep.) đóng dấu"
+ },
+ {
+  "chinese": "感觸",
+  "level": "C1",
+  "pinyin": "gǎnchù",
+  "meaning": "(n.) cảm xúc, xúc động"
+ },
+ {
+  "chinese": "尷尬",
+  "level": "C1",
+  "pinyin": "gāngà",
+  "meaning": "(vs.) khó xử, lúng túng"
+ },
+ {
+  "chinese": "綱領",
+  "level": "C1",
+  "pinyin": "gānglǐng",
+  "meaning": "(n.) cương lĩnh"
+ },
+ {
+  "chinese": "剛強",
+  "level": "C1",
+  "pinyin": "gāngqiáng",
+  "meaning": "(vs.) cương cường, mạnh mẽ"
+ },
+ {
+  "chinese": "鋼鐵",
+  "level": "C1",
+  "pinyin": "gāngtiě",
+  "meaning": "(n.) sắt thép"
+ },
+ {
+  "chinese": "崗位",
+  "level": "C1",
+  "pinyin": "gǎngwèi",
+  "meaning": "(n.) cương vị, vị trí công tác"
+ },
+ {
+  "chinese": "趕忙",
+  "level": "C1",
+  "pinyin": "gǎnmáng",
+  "meaning": "(adv.) vội vàng, khẩn trương"
+ },
+ {
+  "chinese": "干擾",
+  "level": "C1",
+  "pinyin": "gānrǎo",
+  "meaning": "(v.) can nhiễu, gây nhiễu"
+ },
+ {
+  "chinese": "干涉",
+  "level": "C1",
+  "pinyin": "gānshè",
+  "meaning": "(v.) can thiệp, can dự"
+ },
+ {
+  "chinese": "感性",
+  "level": "C1",
+  "pinyin": "gǎnxìng",
+  "meaning": "(vs.) cảm tính, đa cảm"
+ },
+ {
+  "chinese": "乾燥",
+  "level": "C1",
+  "pinyin": "gānzào",
+  "meaning": "(vs.) khô, khô hanh"
+ },
+ {
+  "chinese": "告別",
+  "level": "C1",
+  "pinyin": "gàobié",
+  "meaning": "(v.) cáo biệt, từ biệt"
+ },
+ {
+  "chinese": "高見",
+  "level": "C1",
+  "pinyin": "gāojiàn",
+  "meaning": "(n.) cao kiến, ý kiến hay"
+ },
+ {
+  "chinese": "高壓",
+  "level": "C1",
+  "pinyin": "gāoyā",
+  "meaning": "(n.) cao áp, áp lực cao"
+ },
+ {
+  "chinese": "告狀",
+  "level": "C1",
+  "pinyin": "gàozhuàng",
+  "meaning": "(v-sep.) tố cáo, mách lẻo"
+ },
+ {
+  "chinese": "鴿子",
+  "level": "C1",
+  "pinyin": "gēzi",
+  "meaning": "(n.) chim bồ câu"
+ },
+ {
+  "chinese": "胳膊",
+  "level": "C1",
+  "pinyin": "gēbó",
+  "meaning": "(n.) cánh tay"
+ },
+ {
+  "chinese": "疙瘩",
+  "level": "C1",
+  "pinyin": "gēda",
+  "meaning": "(n.) cục, mụn, khúc mắc"
+ },
+ {
+  "chinese": "隔閡",
+  "level": "C1",
+  "pinyin": "géhé",
+  "meaning": "(n.) ngăn cách, xa cách"
+ },
+ {
+  "chinese": "各界",
+  "level": "C1",
+  "pinyin": "gèjiè",
+  "meaning": "(n.) các giới, mọi tầng lớp"
+ },
+ {
+  "chinese": "格局",
+  "level": "C1",
+  "pinyin": "géjú",
+  "meaning": "(n.) cơ cấu, bố cục"
+ },
+ {
+  "chinese": "耕地",
+  "level": "C1",
+  "pinyin": "gēngdì",
+  "meaning": "(n.) đất canh tác"
+ },
+ {
+  "chinese": "更動",
+  "level": "C1",
+  "pinyin": "gēngdòng",
+  "meaning": "(v.) thay đổi, điều chỉnh"
+ },
+ {
+  "chinese": "跟進",
+  "level": "C1",
+  "pinyin": "gēnjìn",
+  "meaning": "(vi.) theo sát, tiếp nối"
+ },
+ {
+  "chinese": "跟前",
+  "level": "C1",
+  "pinyin": "gēnqián",
+  "meaning": "(n.) trước mặt, bên cạnh"
+ },
+ {
+  "chinese": "根源",
+  "level": "C1",
+  "pinyin": "gēnyuán",
+  "meaning": "(n.) nguồn gốc, căn nguyên"
+ },
+ {
+  "chinese": "格式",
+  "level": "C1",
+  "pinyin": "géshì",
+  "meaning": "(n.) định dạng, khuôn mẫu"
+ },
+ {
+  "chinese": "個數",
+  "level": "C1",
+  "pinyin": "gèshù",
+  "meaning": "(n.) số lượng (đếm được)"
+ },
+ {
+  "chinese": "歌頌",
+  "level": "C1",
+  "pinyin": "gēsòng",
+  "meaning": "(v.) ca ngợi, ca tụng"
+ },
+ {
+  "chinese": "個體",
+  "level": "C1",
+  "pinyin": "gètǐ",
+  "meaning": "(n.) cá thể"
+ },
+ {
+  "chinese": "隔天",
+  "level": "C1",
+  "pinyin": "gétiān",
+  "meaning": "(n.) ngày hôm sau"
+ },
+ {
+  "chinese": "格外",
+  "level": "C1",
+  "pinyin": "géwài",
+  "meaning": "(adv.) cách riêng, đặc biệt"
+ },
+ {
+  "chinese": "革新",
+  "level": "C1",
+  "pinyin": "géxīn",
+  "meaning": "(v.) cách tân, đổi mới"
+ },
+ {
+  "chinese": "攻",
+  "level": "C1",
+  "pinyin": "gōng",
+  "meaning": "(v.) tấn công, công phá"
+ },
+ {
+  "chinese": "弓",
+  "level": "C1",
+  "pinyin": "gōng",
+  "meaning": "(n.) cái cung"
+ },
+ {
+  "chinese": "公安",
+  "level": "C1",
+  "pinyin": "gōng'ān",
+  "meaning": "(n.) công an"
+ },
+ {
+  "chinese": "共產",
+  "level": "C1",
+  "pinyin": "gòngchǎn",
+  "meaning": "(vs-attr.) cộng sản"
+ },
+ {
+  "chinese": "工地",
+  "level": "C1",
+  "pinyin": "gōngdì",
+  "meaning": "(n.) công trường, công địa"
+ },
+ {
+  "chinese": "宮殿",
+  "level": "C1",
+  "pinyin": "gōngdiàn",
+  "meaning": "(n.) cung điện"
+ },
+ {
+  "chinese": "攻讀",
+  "level": "C1",
+  "pinyin": "gōngdú",
+  "meaning": "(v.) chuyên tâm học tập, nghiên cứu"
+ },
+ {
+  "chinese": "工讀",
+  "level": "C1",
+  "pinyin": "gōngdú",
+  "meaning": "(v.) vừa học vừa làm"
+ },
+ {
+  "chinese": "公費",
+  "level": "C1",
+  "pinyin": "gōngfèi",
+  "meaning": "(n.) công quỹ, chi phí công"
+ },
+ {
+  "chinese": "鞏固",
+  "level": "C1",
+  "pinyin": "gǒnggù",
+  "meaning": "(vs.) củng cố, làm cho vững chắc"
+ },
+ {
+  "chinese": "共和國",
+  "level": "C1",
+  "pinyin": "gònghéguó",
+  "meaning": "(n.) nước cộng hòa"
+ },
+ {
+  "chinese": "攻擊",
+  "level": "C1",
+  "pinyin": "gōngjí",
+  "meaning": "(v.) công kích, tấn công"
+ },
+ {
+  "chinese": "供給",
+  "level": "C1",
+  "pinyin": "gōngjǐ",
+  "meaning": "(v.) cung cấp, cung ứng"
+ },
+ {
+  "chinese": "恭敬",
+  "level": "C1",
+  "pinyin": "gōngjìng",
+  "meaning": "(vs.) cung kính, kính trọng"
+ },
+ {
+  "chinese": "功勞",
+  "level": "C1",
+  "pinyin": "gōngláo",
+  "meaning": "(n.) công lao"
+ },
+ {
+  "chinese": "功利",
+  "level": "C1",
+  "pinyin": "gōnglì",
+  "meaning": "(vs.) công lợi, thực dụng"
+ },
+ {
+  "chinese": "公民",
+  "level": "C1",
+  "pinyin": "gōngmín",
+  "meaning": "(n.) công dân"
+ },
+ {
+  "chinese": "共鳴",
+  "level": "C1",
+  "pinyin": "gòngmíng",
+  "meaning": "(n.) cộng hưởng, đồng cảm"
+ },
+ {
+  "chinese": "公認",
+  "level": "C1",
+  "pinyin": "gōngrèn",
+  "meaning": "(v.) công nhận, thừa nhận rộng rãi"
+ },
+ {
+  "chinese": "公事",
+  "level": "C1",
+  "pinyin": "gōngshì",
+  "meaning": "(n.) công vụ, việc công"
+ },
+ {
+  "chinese": "恭維",
+  "level": "C1",
+  "pinyin": "gōngwéi",
+  "meaning": "(v.) tâng bốc, nịnh hót"
+ },
+ {
+  "chinese": "公文",
+  "level": "C1",
+  "pinyin": "gōngwén",
+  "meaning": "(n.) công văn"
+ },
+ {
+  "chinese": "公務",
+  "level": "C1",
+  "pinyin": "gōngwù",
+  "meaning": "(n.) công vụ"
+ },
+ {
+  "chinese": "公務員",
+  "level": "C1",
+  "pinyin": "gōngwùyuán",
+  "meaning": "(n.) công chức, nhân viên nhà nước"
+ },
+ {
+  "chinese": "供養",
+  "level": "C1",
+  "pinyin": "gōngyǎng",
+  "meaning": "(v.) cúng dường, phụng dưỡng"
+ },
+ {
+  "chinese": "公益",
+  "level": "C1",
+  "pinyin": "gōngyì",
+  "meaning": "(n.) công ích, phúc lợi công cộng"
+ },
+ {
+  "chinese": "工藝品",
+  "level": "C1",
+  "pinyin": "gōngyìpǐn",
+  "meaning": "(n.) đồ thủ công mỹ nghệ"
+ },
+ {
+  "chinese": "公債",
+  "level": "C1",
+  "pinyin": "gōngzhài",
+  "meaning": "(n.) công trái"
+ },
+ {
+  "chinese": "購",
+  "level": "C1",
+  "pinyin": "gòu",
+  "meaning": "(v.) mua"
+ },
+ {
+  "chinese": "溝",
+  "level": "C1",
+  "pinyin": "gōu",
+  "meaning": "(n.) cái mương, rãnh"
+ },
+ {
+  "chinese": "勾結",
+  "level": "C1",
+  "pinyin": "gōujié",
+  "meaning": "(v.) câu kết, thông đồng"
+ },
+ {
+  "chinese": "構想",
+  "level": "C1",
+  "pinyin": "gòuxiǎng",
+  "meaning": "(n.) ý tưởng, cấu tứ"
+ },
+ {
+  "chinese": "僱",
+  "level": "C1",
+  "pinyin": "gù",
+  "meaning": "(v.) thuê, mướn"
+ },
+ {
+  "chinese": "故",
+  "level": "C1",
+  "pinyin": "gù",
+  "meaning": "(conj.) cho nên, vì vậy"
+ },
+ {
+  "chinese": "股",
+  "level": "C1",
+  "pinyin": "gǔ",
+  "meaning": "(meas.) cổ (phần), luồng (không khí)"
+ },
+ {
+  "chinese": "孤兒",
+  "level": "C1",
+  "pinyin": "gū'ér",
+  "meaning": "(n.) trẻ mồ côi"
+ },
+ {
+  "chinese": "寡婦",
+  "level": "C1",
+  "pinyin": "guǎfù",
+  "meaning": "(n.) góa phụ, quả phụ"
+ },
+ {
+  "chinese": "拐",
+  "level": "C1",
+  "pinyin": "guǎi",
+  "meaning": "(v.) rẽ, quẹo, lừa bán"
+ },
+ {
+  "chinese": "觀",
+  "level": "C1",
+  "pinyin": "guān",
+  "meaning": "(v.) nhìn, xem, quan sát"
+ },
+ {
+  "chinese": "官",
+  "level": "C1",
+  "pinyin": "guān",
+  "meaning": "(n.) quan, quan chức"
+ },
+ {
+  "chinese": "灌",
+  "level": "C1",
+  "pinyin": "guàn",
+  "meaning": "(v.) rót, đổ, tưới"
+ },
+ {
+  "chinese": "管(子)",
+  "level": "C1",
+  "pinyin": "guǎn(zi)",
+  "meaning": "(n.) cái ống"
+ },
+ {
+  "chinese": "棺材",
+  "level": "C1",
+  "pinyin": "guāncái",
+  "meaning": "(n.) quan tài, áo quan"
+ },
+ {
+  "chinese": "觀測",
+  "level": "C1",
+  "pinyin": "guāncè",
+  "meaning": "(v.) quan trắc, quan sát và đo lường"
+ },
+ {
+  "chinese": "貫徹",
+  "level": "C1",
+  "pinyin": "guànchè",
+  "meaning": "(vst.) quán triệt"
+ },
+ {
+  "chinese": "灌溉",
+  "level": "C1",
+  "pinyin": "guàngài",
+  "meaning": "(v.) tưới tiêu"
+ },
+ {
+  "chinese": "觀感",
+  "level": "C1",
+  "pinyin": "guāngǎn",
+  "meaning": "(n.) cảm quan, ấn tượng"
+ },
+ {
+  "chinese": "光顧",
+  "level": "C1",
+  "pinyin": "guānggù",
+  "meaning": "(v.) ghé thăm (cửa hàng)"
+ },
+ {
+  "chinese": "光滑",
+  "level": "C1",
+  "pinyin": "guānghuá",
+  "meaning": "(vs.) trơn nhẵn, bóng loáng"
+ },
+ {
+  "chinese": "光輝",
+  "level": "C1",
+  "pinyin": "guānghuī",
+  "meaning": "(n.) ánh sáng huy hoàng, vinh quang"
+ },
+ {
+  "chinese": "光芒",
+  "level": "C1",
+  "pinyin": "guāngmáng",
+  "meaning": "(n.) ánh hào quang, tia sáng"
+ },
+ {
+  "chinese": "關懷",
+  "level": "C1",
+  "pinyin": "guānhuái",
+  "meaning": "(vst.) quan tâm, chăm sóc"
+ },
+ {
+  "chinese": "管教",
+  "level": "C1",
+  "pinyin": "guǎnjiào",
+  "meaning": "(v.) quản giáo, dạy dỗ"
+ },
+ {
+  "chinese": "觀看",
+  "level": "C1",
+  "pinyin": "guānkàn",
+  "meaning": "(v.) xem, quan sát"
+ },
+ {
+  "chinese": "管理",
+  "level": "C1",
+  "pinyin": "guǎnlǐ",
+  "meaning": "(n.) sự quản lý, ban quản lý"
+ },
+ {
+  "chinese": "觀摩",
+  "level": "C1",
+  "pinyin": "guānmó",
+  "meaning": "(v.) quan sát và học hỏi"
+ },
+ {
+  "chinese": "關切",
+  "level": "C1",
+  "pinyin": "guānqiè",
+  "meaning": "(vst.) quan tâm, lo lắng"
+ },
+ {
+  "chinese": "灌輸",
+  "level": "C1",
+  "pinyin": "guànshū",
+  "meaning": "(v.) nhồi nhét, truyền thụ (tư tưởng)"
+ },
+ {
+  "chinese": "關稅",
+  "level": "C1",
+  "pinyin": "guānshuì",
+  "meaning": "(n.) thuế quan"
+ },
+ {
+  "chinese": "官司",
+  "level": "C1",
+  "pinyin": "guānsī",
+  "meaning": "(n.) vụ kiện, kiện tụng"
+ },
+ {
+  "chinese": "關頭",
+  "level": "C1",
+  "pinyin": "guāntóu",
+  "meaning": "(n.) thời điểm mấu chốt, bước ngoặt"
+ },
+ {
+  "chinese": "觀望",
+  "level": "C1",
+  "pinyin": "guānwàng",
+  "meaning": "(vi.) quan sát, đứng ngoài xem"
+ },
+ {
+  "chinese": "關係",
+  "level": "C1",
+  "pinyin": "guānxì",
+  "meaning": "(n.) liên quan, dính líu"
+ },
+ {
+  "chinese": "管線",
+  "level": "C1",
+  "pinyin": "guǎnxiàn",
+  "meaning": "(n.) đường ống"
+ },
+ {
+  "chinese": "關照",
+  "level": "C1",
+  "pinyin": "guānzhào",
+  "meaning": "(v.) chăm sóc, chiếu cố"
+ },
+ {
+  "chinese": "鼓吹",
+  "level": "C1",
+  "pinyin": "gǔchuī",
+  "meaning": "(v.) cổ xúy, hô hào"
+ },
+ {
+  "chinese": "鼓動",
+  "level": "C1",
+  "pinyin": "gǔdòng",
+  "meaning": "(v.) cổ động, xúi giục"
+ },
+ {
+  "chinese": "孤獨",
+  "level": "C1",
+  "pinyin": "gūdú",
+  "meaning": "(vs.) cô độc, cô đơn"
+ },
+ {
+  "chinese": "辜負",
+  "level": "C1",
+  "pinyin": "gūfù",
+  "meaning": "(v.) phụ lòng, cô phụ"
+ },
+ {
+  "chinese": "古怪",
+  "level": "C1",
+  "pinyin": "gǔguài",
+  "meaning": "(vs.) kỳ quặc, có quái"
+ },
+ {
+  "chinese": "歸",
+  "level": "C1",
+  "pinyin": "guī",
+  "meaning": "(v\/vst) trở về, thuộc về"
+ },
+ {
+  "chinese": "貴",
+  "level": "C1",
+  "pinyin": "guì",
+  "meaning": "(det.) quý, của ông\/bà (lịch sự)"
+ },
+ {
+  "chinese": "貴賓",
+  "level": "C1",
+  "pinyin": "guìbīn",
+  "meaning": "(n.) khách quý, VIP"
+ },
+ {
+  "chinese": "軌道",
+  "level": "C1",
+  "pinyin": "guǐdào",
+  "meaning": "(n.) quỹ đạo, đường ray"
+ },
+ {
+  "chinese": "規範",
+  "level": "C1",
+  "pinyin": "guīfàn",
+  "meaning": "(vst.) quy phạm, tiêu chuẩn"
+ },
+ {
+  "chinese": "規格",
+  "level": "C1",
+  "pinyin": "guīgé",
+  "meaning": "(n.) quy cách, tiêu chuẩn kỹ thuật"
+ },
+ {
+  "chinese": "鬼怪",
+  "level": "C1",
+  "pinyin": "guǐguài",
+  "meaning": "(n.) ma quỷ, yêu quái"
+ },
+ {
+  "chinese": "歸還",
+  "level": "C1",
+  "pinyin": "guīhuán",
+  "meaning": "(v.) trả lại, hoàn trả"
+ },
+ {
+  "chinese": "規矩",
+  "level": "C1",
+  "pinyin": "guīju",
+  "meaning": "(vs.) quy củ, nề nếp"
+ },
+ {
+  "chinese": "歸納",
+  "level": "C1",
+  "pinyin": "guīnà",
+  "meaning": "(v.) quy nạp, tóm tắt"
+ },
+ {
+  "chinese": "古籍",
+  "level": "C1",
+  "pinyin": "gǔjí",
+  "meaning": "(n.) sách cổ, thư tịch cổ"
+ },
+ {
+  "chinese": "估價",
+  "level": "C1",
+  "pinyin": "gūjià",
+  "meaning": "(v-sep.) định giá, ước giá"
+ },
+ {
+  "chinese": "孤立",
+  "level": "C1",
+  "pinyin": "gūlì",
+  "meaning": "(vs.) cô lập"
+ },
+ {
+  "chinese": "棍(子)",
+  "level": "C1",
+  "pinyin": "gùn(zi)",
+  "meaning": "(n.) cái gậy"
+ },
+ {
+  "chinese": "國產",
+  "level": "C1",
+  "pinyin": "guóchǎn",
+  "meaning": "(vs-attr.) sản xuất trong nước, hàng nội địa"
+ },
+ {
+  "chinese": "果斷",
+  "level": "C1",
+  "pinyin": "guǒduàn",
+  "meaning": "(vs.) quyết đoán"
+ },
+ {
+  "chinese": "國防",
+  "level": "C1",
+  "pinyin": "guófáng",
+  "meaning": "(n.) quốc phòng"
+ },
+ {
+  "chinese": "過關",
+  "level": "C1",
+  "pinyin": "guòguān",
+  "meaning": "(v-sep.) qua ải, vượt qua (kỳ thi)"
+ },
+ {
+  "chinese": "國境",
+  "level": "C1",
+  "pinyin": "guójìng",
+  "meaning": "(n.) biên giới quốc gia, quốc cảnh"
+ },
+ {
+  "chinese": "國君",
+  "level": "C1",
+  "pinyin": "guójūn",
+  "meaning": "(n.) quốc vương, vua của một nước"
+ },
+ {
+  "chinese": "過量",
+  "level": "C1",
+  "pinyin": "guòliàng",
+  "meaning": "(vs.) quá liều, quá lượng"
+ },
+ {
+  "chinese": "國民",
+  "level": "C1",
+  "pinyin": "guómín",
+  "meaning": "(n.) quốc dân, công dân"
+ },
+ {
+  "chinese": "過目",
+  "level": "C1",
+  "pinyin": "guòmù",
+  "meaning": "(vi.) xem qua, đọc lướt"
+ },
+ {
+  "chinese": "過人",
+  "level": "C1",
+  "pinyin": "guòrén",
+  "meaning": "(vs.) hơn người, phi thường"
+ },
+ {
+  "chinese": "果實",
+  "level": "C1",
+  "pinyin": "guǒshí",
+  "meaning": "(n.) quả, thành quả"
+ },
+ {
+  "chinese": "過失",
+  "level": "C1",
+  "pinyin": "guòshī",
+  "meaning": "(n.) lỗi lầm, sai sót"
+ },
+ {
+  "chinese": "果樹",
+  "level": "C1",
+  "pinyin": "guǒshù",
+  "meaning": "(n.) cây ăn quả"
+ },
+ {
+  "chinese": "過癮",
+  "level": "C1",
+  "pinyin": "guòyǐn",
+  "meaning": "(vs.) đã ghiền, đã thèm"
+ },
+ {
+  "chinese": "國營",
+  "level": "C1",
+  "pinyin": "guóyíng",
+  "meaning": "(vs-attr.) quốc doanh, nhà nước"
+ },
+ {
+  "chinese": "果真",
+  "level": "C1",
+  "pinyin": "guǒzhēn",
+  "meaning": "(adv.) quả nhiên, quả thật"
+ },
+ {
+  "chinese": "過重",
+  "level": "C1",
+  "pinyin": "guòzhòng",
+  "meaning": "(vs.) quá cân, quá nặng"
+ },
+ {
+  "chinese": "顧全",
+  "level": "C1",
+  "pinyin": "gùquán",
+  "meaning": "(v.) chăm lo toàn diện"
+ },
+ {
+  "chinese": "固然",
+  "level": "C1",
+  "pinyin": "gùrán",
+  "meaning": "(conj.) tuy, cố nhiên"
+ },
+ {
+  "chinese": "股市",
+  "level": "C1",
+  "pinyin": "gǔshì",
+  "meaning": "(n.) thị trường chứng khoán"
+ },
+ {
+  "chinese": "固體",
+  "level": "C1",
+  "pinyin": "gùtǐ",
+  "meaning": "(n.) thể rắn, vật rắn"
+ },
+ {
+  "chinese": "古物",
+  "level": "C1",
+  "pinyin": "gǔwù",
+  "meaning": "(n.) cổ vật, đồ cổ"
+ },
+ {
+  "chinese": "僱用",
+  "level": "C1",
+  "pinyin": "gùyòng",
+  "meaning": "(v.) thuê, tuyển dụng"
+ },
+ {
+  "chinese": "固有",
+  "level": "C1",
+  "pinyin": "gùyǒu",
+  "meaning": "(vs-attr.) vốn có, cố hữu"
+ },
+ {
+  "chinese": "固執",
+  "level": "C1",
+  "pinyin": "gùzhí",
+  "meaning": "(vs.) cố chấp, bướng bỉnh"
+ },
+ {
+  "chinese": "海拔",
+  "level": "C1",
+  "pinyin": "hǎibá",
+  "meaning": "(n.) độ cao so với mực nước biển"
+ },
+ {
+  "chinese": "害蟲",
+  "level": "C1",
+  "pinyin": "hàichóng",
+  "meaning": "(n.) sâu bệnh, côn trùng có hại"
+ },
+ {
+  "chinese": "海面",
+  "level": "C1",
+  "pinyin": "hǎimiàn",
+  "meaning": "(n.) mặt biển"
+ },
+ {
+  "chinese": "海嘯",
+  "level": "C1",
+  "pinyin": "hǎixiào",
+  "meaning": "(n.) sóng thần"
+ },
+ {
+  "chinese": "海運",
+  "level": "C1",
+  "pinyin": "hǎiyùn",
+  "meaning": "(n.) vận tải biển, đường biển"
+ },
+ {
+  "chinese": "行號",
+  "level": "C1",
+  "pinyin": "hánghào",
+  "meaning": "(n.) cửa hàng, hãng buôn"
+ },
+ {
+  "chinese": "航空信",
+  "level": "C1",
+  "pinyin": "hángkōngxìn",
+  "meaning": "(n.) thư máy bay, thư hàng không"
+ },
+ {
+  "chinese": "行列",
+  "level": "C1",
+  "pinyin": "hángliè",
+  "meaning": "(n.) hàng ngũ, đội ngũ"
+ },
+ {
+  "chinese": "航行",
+  "level": "C1",
+  "pinyin": "hángxíng",
+  "meaning": "(vi.) đi biển, đi tàu, bay (hàng không)"
+ },
+ {
+  "chinese": "號",
+  "level": "C1",
+  "pinyin": "hào",
+  "meaning": "(vst.) hiệu là, có tên là"
+ },
+ {
+  "chinese": "好比",
+  "level": "C1",
+  "pinyin": "hǎobǐ",
+  "meaning": "(vst.) ví như, giống như"
+ },
+ {
+  "chinese": "毫不",
+  "level": "C1",
+  "pinyin": "háobù",
+  "meaning": "(adv.) không hề, chẳng chút nào"
+ },
+ {
+  "chinese": "好受",
+  "level": "C1",
+  "pinyin": "hǎoshòu",
+  "meaning": "(vs.) dễ chịu, thoải mái"
+ },
+ {
+  "chinese": "好手",
+  "level": "C1",
+  "pinyin": "hǎoshǒu",
+  "meaning": "(n.) cao thủ, người giỏi"
+ },
+ {
+  "chinese": "號子",
+  "level": "C1",
+  "pinyin": "hàozi",
+  "meaning": "(n.) công ty chứng khoán"
+ },
+ {
+  "chinese": "何",
+  "level": "C1",
+  "pinyin": "hé",
+  "meaning": "(det.) gì, nào"
+ },
+ {
+  "chinese": "合併",
+  "level": "C1",
+  "pinyin": "hébìng",
+  "meaning": "(v.) sáp nhập, hợp nhất"
+ },
+ {
+  "chinese": "核定",
+  "level": "C1",
+  "pinyin": "hédìng",
+  "meaning": "(v.) xét duyệt và phê chuẩn"
+ },
+ {
+  "chinese": "核對",
+  "level": "C1",
+  "pinyin": "héduì",
+  "meaning": "(v.) đối chiếu, kiểm tra lại"
+ },
+ {
+  "chinese": "黑名單",
+  "level": "C1",
+  "pinyin": "hēimíngdān",
+  "meaning": "(n.) danh sách đen"
+ },
+ {
+  "chinese": "黑社會",
+  "level": "C1",
+  "pinyin": "hēishèhuì",
+  "meaning": "(n.) xã hội đen"
+ },
+ {
+  "chinese": "和解",
+  "level": "C1",
+  "pinyin": "héjiě",
+  "meaning": "(vi.) hòa giải"
+ },
+ {
+  "chinese": "和睦",
+  "level": "C1",
+  "pinyin": "hémù",
+  "meaning": "(vs.) hòa thuận, hòa mục"
+ },
+ {
+  "chinese": "狠",
+  "level": "C1",
+  "pinyin": "hěn",
+  "meaning": "(vs.) tàn nhẫn, độc ác"
+ },
+ {
+  "chinese": "哼",
+  "level": "C1",
+  "pinyin": "hēng",
+  "meaning": "(ptc\/vi) hừ, ngâm nga"
+ },
+ {
+  "chinese": "橫",
+  "level": "C1",
+  "pinyin": "héng",
+  "meaning": "(vi.) ngang ngược, càn quấy"
+ },
+ {
+  "chinese": "衡量",
+  "level": "C1",
+  "pinyin": "héngliáng",
+  "meaning": "(v.) đo lường, cân nhắc"
+ },
+ {
+  "chinese": "狠心",
+  "level": "C1",
+  "pinyin": "hěnxīn",
+  "meaning": "(vs.) nhẫn tâm, tàn nhẫn"
+ },
+ {
+  "chinese": "核算",
+  "level": "C1",
+  "pinyin": "hésuàn",
+  "meaning": "(v.) hạch toán, tính toán"
+ },
+ {
+  "chinese": "合同",
+  "level": "C1",
+  "pinyin": "hétong",
+  "meaning": "(n.) hợp đồng"
+ },
+ {
+  "chinese": "和諧",
+  "level": "C1",
+  "pinyin": "héxié",
+  "meaning": "(vs.) hài hòa"
+ },
+ {
+  "chinese": "合意",
+  "level": "C1",
+  "pinyin": "héyì",
+  "meaning": "(vs.) vừa ý, hợp ý"
+ },
+ {
+  "chinese": "何在",
+  "level": "C1",
+  "pinyin": "hézài",
+  "meaning": "(vs.) ở đâu, là gì"
+ },
+ {
+  "chinese": "核准",
+  "level": "C1",
+  "pinyin": "hézhǔn",
+  "meaning": "(v.) phê chuẩn, chấp thuận"
+ },
+ {
+  "chinese": "核子",
+  "level": "C1",
+  "pinyin": "hézǐ",
+  "meaning": "(n.) hạt nhân"
+ },
+ {
+  "chinese": "哄",
+  "level": "C1",
+  "pinyin": "hǒng",
+  "meaning": "(v.) dỗ, dỗ dành"
+ },
+ {
+  "chinese": "轟動",
+  "level": "C1",
+  "pinyin": "hōngdòng",
+  "meaning": "(v.) gây chấn động, làm xôn xao"
+ },
+ {
+  "chinese": "轟轟烈烈",
+  "level": "C1",
+  "pinyin": "hōnghōnglièliè",
+  "meaning": "(vs.) oanh oanh liệt liệt, lừng lẫy"
+ },
+ {
+  "chinese": "紅利",
+  "level": "C1",
+  "pinyin": "hónglì",
+  "meaning": "(n.) cổ tức, tiền lãi"
+ },
+ {
+  "chinese": "紅燒",
+  "level": "C1",
+  "pinyin": "hóngshāo",
+  "meaning": "(v.) kho, om (nước màu)"
+ },
+ {
+  "chinese": "洪水",
+  "level": "C1",
+  "pinyin": "hóngshuǐ",
+  "meaning": "(n.) hồng thủy, lũ lụt"
+ },
+ {
+  "chinese": "宏偉",
+  "level": "C1",
+  "pinyin": "hóngwěi",
+  "meaning": "(vs.) hùng vĩ, tráng lệ"
+ },
+ {
+  "chinese": "後輩",
+  "level": "C1",
+  "pinyin": "hòubèi",
+  "meaning": "(n.) hậu bối, thế hệ sau"
+ },
+ {
+  "chinese": "候選人",
+  "level": "C1",
+  "pinyin": "hòuxuǎnrén",
+  "meaning": "(n.) ứng cử viên"
+ },
+ {
+  "chinese": "護",
+  "level": "C1",
+  "pinyin": "hù",
+  "meaning": "(v.) bảo vệ, che chở"
+ },
+ {
+  "chinese": "壺",
+  "level": "C1",
+  "pinyin": "hú",
+  "meaning": "(meas.) cái ấm"
+ },
+ {
+  "chinese": "花瓣",
+  "level": "C1",
+  "pinyin": "huābàn",
+  "meaning": "(n.) cánh hoa"
+ },
+ {
+  "chinese": "劃不來",
+  "level": "C1",
+  "pinyin": "huábùlái",
+  "meaning": "(vs.) không đáng, không có lợi"
+ },
+ {
+  "chinese": "劃得來",
+  "level": "C1",
+  "pinyin": "huádelái",
+  "meaning": "(vs.) đáng, có lợi"
+ },
+ {
+  "chinese": "花朵",
+  "level": "C1",
+  "pinyin": "huāduǒ",
+  "meaning": "(n.) đóa hoa, bông hoa"
+ },
+ {
+  "chinese": "化工",
+  "level": "C1",
+  "pinyin": "huàgōng",
+  "meaning": "(n.) công nghiệp hóa chất"
+ },
+ {
+  "chinese": "花卉",
+  "level": "C1",
+  "pinyin": "huāhuì",
+  "meaning": "(n.) hoa cỏ (nói chung)"
+ },
+ {
+  "chinese": "懷",
+  "level": "C1",
+  "pinyin": "huái",
+  "meaning": "(vst.) mang trong lòng, hoài"
+ },
+ {
+  "chinese": "話劇",
+  "level": "C1",
+  "pinyin": "huàjù",
+  "meaning": "(n.) kịch nói"
+ },
+ {
+  "chinese": "患",
+  "level": "C1",
+  "pinyin": "huàn",
+  "meaning": "(v.) mắc, bị (bệnh)"
+ },
+ {
+  "chinese": "恍惚",
+  "level": "C1",
+  "pinyin": "huǎnghū",
+  "meaning": "(vs.) hoảng hốt, mơ hồ"
+ },
+ {
+  "chinese": "惶恐",
+  "level": "C1",
+  "pinyin": "huángkǒng",
+  "meaning": "(vs.) hoảng hốt, sợ hãi"
+ },
+ {
+  "chinese": "荒唐",
+  "level": "C1",
+  "pinyin": "huāngtáng",
+  "meaning": "(vs.) hoang đường, ngớ ngẩn"
+ },
+ {
+  "chinese": "慌張",
+  "level": "C1",
+  "pinyin": "huāngzhāng",
+  "meaning": "(vs.) hoảng hốt, luống cuống"
+ },
+ {
+  "chinese": "換取",
+  "level": "C1",
+  "pinyin": "huànqǔ",
+  "meaning": "(v.) đổi lấy"
+ },
+ {
+  "chinese": "歡送",
+  "level": "C1",
+  "pinyin": "huānsòng",
+  "meaning": "(v.) hoan tống, tiễn đưa"
+ },
+ {
+  "chinese": "幻象",
+  "level": "C1",
+  "pinyin": "huànxiàng",
+  "meaning": "(n.) ảo ảnh, ảo tưởng"
+ },
+ {
+  "chinese": "患者",
+  "level": "C1",
+  "pinyin": "huànzhě",
+  "meaning": "(n.) bệnh nhân"
+ },
+ {
+  "chinese": "化石",
+  "level": "C1",
+  "pinyin": "huàshí",
+  "meaning": "(n.) hóa thạch"
+ },
+ {
+  "chinese": "劃時代",
+  "level": "C1",
+  "pinyin": "huàshídài",
+  "meaning": "(vs-attr.) mang tính thời đại, vạch thời đại"
+ },
+ {
+  "chinese": "花紋",
+  "level": "C1",
+  "pinyin": "huāwén",
+  "meaning": "(n.) hoa văn"
+ },
+ {
+  "chinese": "花樣",
+  "level": "C1",
+  "pinyin": "huāyàng",
+  "meaning": "(n.) kiểu dáng, mảnh khóe"
+ },
+ {
+  "chinese": "華商",
+  "level": "C1",
+  "pinyin": "huáshāng",
+  "meaning": "(n.) người gốc Hoa"
+ },
+ {
+  "chinese": "畫展",
+  "level": "C1",
+  "pinyin": "huàzhǎn",
+  "meaning": "(n.) triển lãm tranh"
+ },
+ {
+  "chinese": "互補",
+  "level": "C1",
+  "pinyin": "hùbǔ",
+  "meaning": "(v.) bổ sung cho nhau, tương hỗ"
+ },
+ {
+  "chinese": "互惠",
+  "level": "C1",
+  "pinyin": "hùhuì",
+  "meaning": "(vs.) cùng có lợi, tương hỗ"
+ },
+ {
+  "chinese": "毀",
+  "level": "C1",
+  "pinyin": "huǐ",
+  "meaning": "(v.) hủy, phá hủy"
+ },
+ {
+  "chinese": "匯",
+  "level": "C1",
+  "pinyin": "huì",
+  "meaning": "(v.) chuyển, hồi (tiền)"
+ },
+ {
+  "chinese": "灰塵",
+  "level": "C1",
+  "pinyin": "huīchén",
+  "meaning": "(n.) bụi, bụi bặm"
+ },
+ {
+  "chinese": "回合",
+  "level": "C1",
+  "pinyin": "huíhé",
+  "meaning": "(n.) hiệp, vòng (thi đấu)"
+ },
+ {
+  "chinese": "悔恨",
+  "level": "C1",
+  "pinyin": "huǐhèn",
+  "meaning": "(v.) hối hận, ăn năn"
+ },
+ {
+  "chinese": "繪畫",
+  "level": "C1",
+  "pinyin": "huìhuà",
+  "meaning": "(n.) hội họa, vẽ tranh"
+ },
+ {
+  "chinese": "輝煌",
+  "level": "C1",
+  "pinyin": "huīhuáng",
+  "meaning": "(vs.) huy hoàng, rực rỡ"
+ },
+ {
+  "chinese": "會見",
+  "level": "C1",
+  "pinyin": "huìjiàn",
+  "meaning": "(v.) hội kiến, gặp gỡ (chính thức)"
+ },
+ {
+  "chinese": "回絕",
+  "level": "C1",
+  "pinyin": "huíjué",
+  "meaning": "(v.) từ chối, cự tuyệt"
+ },
+ {
+  "chinese": "賄賂",
+  "level": "C1",
+  "pinyin": "huìlù",
+  "meaning": "(v.) hối lộ, đút lót"
+ },
+ {
+  "chinese": "匯票",
+  "level": "C1",
+  "pinyin": "huìpiào",
+  "meaning": "(n.) hối phiếu"
+ },
+ {
+  "chinese": "回升",
+  "level": "C1",
+  "pinyin": "huíshēng",
+  "meaning": "(vp.) tăng trở lại, hồi phục"
+ },
+ {
+  "chinese": "毀損",
+  "level": "C1",
+  "pinyin": "huǐsǔn",
+  "meaning": "(v.) hư hỏng, tổn hại"
+ },
+ {
+  "chinese": "會談",
+  "level": "C1",
+  "pinyin": "huìtán",
+  "meaning": "(vi.) hội đàm, đàm phán"
+ },
+ {
+  "chinese": "迴響",
+  "level": "C1",
+  "pinyin": "huíxiǎng",
+  "meaning": "(n.) tiếng vang, sự hưởng ứng"
+ },
+ {
+  "chinese": "彗星",
+  "level": "C1",
+  "pinyin": "huìxīng",
+  "meaning": "(n.) sao chổi"
+ },
+ {
+  "chinese": "會意",
+  "level": "C1",
+  "pinyin": "huìyì",
+  "meaning": "(vp.) hiểu ý, lĩnh hội"
+ },
+ {
+  "chinese": "戶口",
+  "level": "C1",
+  "pinyin": "hùkǒu",
+  "meaning": "(n.) hộ khẩu"
+ },
+ {
+  "chinese": "胡亂",
+  "level": "C1",
+  "pinyin": "húluàn",
+  "meaning": "(adv.) lung tung, bừa bãi"
+ },
+ {
+  "chinese": "昏",
+  "level": "C1",
+  "pinyin": "hūn",
+  "meaning": "(vs.) hôn mê, mờ mịt"
+ },
+ {
+  "chinese": "混",
+  "level": "C1",
+  "pinyin": "hùn",
+  "meaning": "(vst.) lẫn lộn, hỗn tạp"
+ },
+ {
+  "chinese": "渾身",
+  "level": "C1",
+  "pinyin": "húnshēn",
+  "meaning": "(n.) toàn thân, khắp người"
+ },
+ {
+  "chinese": "混淆",
+  "level": "C1",
+  "pinyin": "hùnxiáo",
+  "meaning": "(vs.) lẫn lộn, nhầm lẫn"
+ },
+ {
+  "chinese": "混濁",
+  "level": "C1",
+  "pinyin": "hùnzhuó",
+  "meaning": "(vs.) vẩn đục, đục ngầu"
+ },
+ {
+  "chinese": "活",
+  "level": "C1",
+  "pinyin": "huó",
+  "meaning": "(n.) việc, công việc (tay chân)"
+ },
+ {
+  "chinese": "夥伴",
+  "level": "C1",
+  "pinyin": "huǒbàn",
+  "meaning": "(n.) bạn đồng hành, đối tác"
+ },
+ {
+  "chinese": "貨幣",
+  "level": "C1",
+  "pinyin": "huòbì",
+  "meaning": "(n.) tiền tệ"
+ },
+ {
+  "chinese": "豁達",
+  "level": "C1",
+  "pinyin": "huòdá",
+  "meaning": "(vs.) rộng lượng, khoáng đạt"
+ },
+ {
+  "chinese": "火箭",
+  "level": "C1",
+  "pinyin": "huǒjiàn",
+  "meaning": "(n.) tên lửa, hỏa tiễn"
+ },
+ {
+  "chinese": "火力",
+  "level": "C1",
+  "pinyin": "huǒlì",
+  "meaning": "(n.) hỏa lực"
+ },
+ {
+  "chinese": "貨品",
+  "level": "C1",
+  "pinyin": "huòpǐn",
+  "meaning": "(n.) hàng hóa"
+ },
+ {
+  "chinese": "活期",
+  "level": "C1",
+  "pinyin": "huóqī",
+  "meaning": "(vs-attr.) không kỳ hạn (tiền gửi)"
+ },
+ {
+  "chinese": "火焰",
+  "level": "C1",
+  "pinyin": "huǒyàn",
+  "meaning": "(n.) ngọn lửa"
+ },
+ {
+  "chinese": "火藥",
+  "level": "C1",
+  "pinyin": "huǒyào",
+  "meaning": "(n.) thuốc súng"
+ },
+ {
+  "chinese": "狐疑",
+  "level": "C1",
+  "pinyin": "húyí",
+  "meaning": "(vs.) hoài nghi, nghi ngờ"
+ },
+ {
+  "chinese": "呼籲",
+  "level": "C1",
+  "pinyin": "hūyù",
+  "meaning": "(vi.) kêu gọi, hô hào"
+ },
+ {
+  "chinese": "暨",
+  "level": "C1",
+  "pinyin": "jì",
+  "meaning": "(conj.) và, cùng với"
+ },
+ {
+  "chinese": "擊",
+  "level": "C1",
+  "pinyin": "jí",
+  "meaning": "(v.) đánh, công kích"
+ },
+ {
+  "chinese": "計",
+  "level": "C1",
+  "pinyin": "jì",
+  "meaning": "(vst.) tính toán, kế hoạch"
+ },
+ {
+  "chinese": "即",
+  "level": "C1",
+  "pinyin": "jí",
+  "meaning": "(vst.) chính là, tức là"
+ },
+ {
+  "chinese": "積",
+  "level": "C1",
+  "pinyin": "jī",
+  "meaning": "(vst.) tích, tích lũy"
+ },
+ {
+  "chinese": "飢餓",
+  "level": "C1",
+  "pinyin": "jī'è",
+  "meaning": "(vs.) đói, đói khát"
+ },
+ {
+  "chinese": "假",
+  "level": "C1",
+  "pinyin": "jiǎ",
+  "meaning": "(prep.) mượn, nhờ"
+ },
+ {
+  "chinese": "架",
+  "level": "C1",
+  "pinyin": "jià",
+  "meaning": "(v\/n) dựng lên, cái giá"
+ },
+ {
+  "chinese": "架構",
+  "level": "C1",
+  "pinyin": "jiàgòu",
+  "meaning": "(n.) kết cấu, cấu trúc"
+ },
+ {
+  "chinese": "傢伙",
+  "level": "C1",
+  "pinyin": "jiāhuo",
+  "meaning": "(n.) gã, thằng cha, đồ vật"
+ },
+ {
+  "chinese": "家家戶戶",
+  "level": "C1",
+  "pinyin": "jiājiāhùhù",
+  "meaning": "(n.) nhà nhà, mọi nhà"
+ },
+ {
+  "chinese": "佳節",
+  "level": "C1",
+  "pinyin": "jiājié",
+  "meaning": "(n.) ngày lễ đẹp, dịp lễ tết"
+ },
+ {
+  "chinese": "加緊",
+  "level": "C1",
+  "pinyin": "jiājǐn",
+  "meaning": "(v.) đẩy nhanh, tăng cường"
+ },
+ {
+  "chinese": "加快",
+  "level": "C1",
+  "pinyin": "jiākuài",
+  "meaning": "(v.) tăng nhanh, đẩy nhanh"
+ },
+ {
+  "chinese": "賤",
+  "level": "C1",
+  "pinyin": "jiàn",
+  "meaning": "(vs.) rẻ, hèn hạ"
+ },
+ {
+  "chinese": "濺",
+  "level": "C1",
+  "pinyin": "jiàn",
+  "meaning": "(v.) bắn, văng"
+ },
+ {
+  "chinese": "簡便",
+  "level": "C1",
+  "pinyin": "jiǎnbiàn",
+  "meaning": "(vs.) đơn giản và tiện lợi"
+ },
+ {
+  "chinese": "簡稱",
+  "level": "C1",
+  "pinyin": "jiǎnchēng",
+  "meaning": "(vst.) gọi tắt là, viết tắt là"
+ },
+ {
+  "chinese": "監督",
+  "level": "C1",
+  "pinyin": "jiāndū",
+  "meaning": "(v.) giám sát, đôn đốc"
+ },
+ {
+  "chinese": "尖端",
+  "level": "C1",
+  "pinyin": "jiānduān",
+  "meaning": "(vs-attr.) tiên tiến, mũi nhọn"
+ },
+ {
+  "chinese": "將",
+  "level": "C1",
+  "pinyin": "jiāng",
+  "meaning": "(prep.) đem, lấy"
+ },
+ {
+  "chinese": "將軍",
+  "level": "C1",
+  "pinyin": "jiāngjūn",
+  "meaning": "(n.) tướng quân"
+ },
+ {
+  "chinese": "獎勵",
+  "level": "C1",
+  "pinyin": "jiǎnglì",
+  "meaning": "(v.) khen thưởng, tưởng thưởng"
+ },
+ {
+  "chinese": "講理",
+  "level": "C1",
+  "pinyin": "jiǎnglǐ",
+  "meaning": "(vs.) nói lý, hợp lý"
+ },
+ {
+  "chinese": "獎賞",
+  "level": "C1",
+  "pinyin": "jiǎngshǎng",
+  "meaning": "(n.) phần thưởng"
+ },
+ {
+  "chinese": "堅固",
+  "level": "C1",
+  "pinyin": "jiāngù",
+  "meaning": "(vs.) kiên cố, vững chắc"
+ },
+ {
+  "chinese": "講習",
+  "level": "C1",
+  "pinyin": "jiǎngxí",
+  "meaning": "(v.) khóa học ngắn hạn, hội thảo"
+ },
+ {
+  "chinese": "講義",
+  "level": "C1",
+  "pinyin": "jiǎngyì",
+  "meaning": "(n.) bài giảng, giáo trình"
+ },
+ {
+  "chinese": "獎狀",
+  "level": "C1",
+  "pinyin": "jiǎngzhuàng",
+  "meaning": "(n.) giấy khen, bằng khen"
+ },
+ {
+  "chinese": "講座",
+  "level": "C1",
+  "pinyin": "jiǎngzuò",
+  "meaning": "(n.) buổi diễn thuyết, tọa đàm"
+ },
+ {
+  "chinese": "簡化",
+  "level": "C1",
+  "pinyin": "jiǎnhuà",
+  "meaning": "(vpt.) đơn giản hóa"
+ },
+ {
+  "chinese": "見解",
+  "level": "C1",
+  "pinyin": "jiànjiě",
+  "meaning": "(n.) kiến giải, quan điểm"
+ },
+ {
+  "chinese": "艱鉅",
+  "level": "C1",
+  "pinyin": "jiānjù",
+  "meaning": "(vs.) gian truân, khó khăn to lớn"
+ },
+ {
+  "chinese": "艱苦",
+  "level": "C1",
+  "pinyin": "jiānkǔ",
+  "meaning": "(vs.) gian khổ, vất vả"
+ },
+ {
+  "chinese": "艱難",
+  "level": "C1",
+  "pinyin": "jiānnán",
+  "meaning": "(vs.) gian nan, khó khăn"
+ },
+ {
+  "chinese": "堅忍",
+  "level": "C1",
+  "pinyin": "jiānrěn",
+  "meaning": "(vs.) kiên nhẫn, bền bỉ"
+ },
+ {
+  "chinese": "健身",
+  "level": "C1",
+  "pinyin": "jiànshēn",
+  "meaning": "(vi.) tập thể hình, rèn luyện sức khỏe"
+ },
+ {
+  "chinese": "健身房",
+  "level": "C1",
+  "pinyin": "jiànshēnfáng",
+  "meaning": "(n.) phòng tập gym"
+ },
+ {
+  "chinese": "見識",
+  "level": "C1",
+  "pinyin": "jiànshì",
+  "meaning": "(n.) kiến thức, sự hiểu biết"
+ },
+ {
+  "chinese": "檢討",
+  "level": "C1",
+  "pinyin": "jiǎntǎo",
+  "meaning": "(v.) kiểm điểm, xem xét lại"
+ },
+ {
+  "chinese": "簡體",
+  "level": "C1",
+  "pinyin": "jiǎntǐ",
+  "meaning": "(n.) giản thể (chữ)"
+ },
+ {
+  "chinese": "堅信",
+  "level": "C1",
+  "pinyin": "jiānxìn",
+  "meaning": "(vst.) tin tưởng vững chắc, kiên tin"
+ },
+ {
+  "chinese": "堅硬",
+  "level": "C1",
+  "pinyin": "jiānyìng",
+  "meaning": "(vs.) cứng rắn, rắn chắc"
+ },
+ {
+  "chinese": "建造",
+  "level": "C1",
+  "pinyin": "jiànzào",
+  "meaning": "(v.) xây dựng, kiến tạo"
+ },
+ {
+  "chinese": "見證",
+  "level": "C1",
+  "pinyin": "jiànzhèng",
+  "meaning": "(v.) làm chứng, chứng kiến"
+ },
+ {
+  "chinese": "兼職",
+  "level": "C1",
+  "pinyin": "jiānzhí",
+  "meaning": "(n.) làm thêm, kiêm chức"
+ },
+ {
+  "chinese": "健壯",
+  "level": "C1",
+  "pinyin": "jiànzhuàng",
+  "meaning": "(vs.) khỏe mạnh, cường tráng"
+ },
+ {
+  "chinese": "腳本",
+  "level": "C1",
+  "pinyin": "jiǎoběn",
+  "meaning": "(n.) kịch bản"
+ },
+ {
+  "chinese": "轎車",
+  "level": "C1",
+  "pinyin": "jiàochē",
+  "meaning": "(n.) xe hơi (sedan)"
+ },
+ {
+  "chinese": "交錯",
+  "level": "C1",
+  "pinyin": "jiāocuò",
+  "meaning": "(vs.) giao nhau, đan xen"
+ },
+ {
+  "chinese": "教官",
+  "level": "C1",
+  "pinyin": "jiàoguān",
+  "meaning": "(n.) giáo quan, sĩ quan huấn luyện"
+ },
+ {
+  "chinese": "叫好",
+  "level": "C1",
+  "pinyin": "jiàohǎo",
+  "meaning": "(vi.) hoan hô, tán thưởng"
+ },
+ {
+  "chinese": "教化",
+  "level": "C1",
+  "pinyin": "jiàohuà",
+  "meaning": "(v.) giáo hóa, cảm hóa"
+ },
+ {
+  "chinese": "教誨",
+  "level": "C1",
+  "pinyin": "jiàohuì",
+  "meaning": "(n.) lời dạy bảo, giáo huấn"
+ },
+ {
+  "chinese": "攪和",
+  "level": "C1",
+  "pinyin": "jiǎohuo",
+  "meaning": "(v.) khuấy động, làm rối tung"
+ },
+ {
+  "chinese": "交貨",
+  "level": "C1",
+  "pinyin": "jiāohuò",
+  "meaning": "(v-sep.) giao hàng"
+ },
+ {
+  "chinese": "交集",
+  "level": "C1",
+  "pinyin": "jiāojí",
+  "meaning": "(n.) giao điểm, giao tập"
+ },
+ {
+  "chinese": "焦急",
+  "level": "C1",
+  "pinyin": "jiāojí",
+  "meaning": "(vs.) lo lắng, sốt ruột"
+ },
+ {
+  "chinese": "較量",
+  "level": "C1",
+  "pinyin": "jiàoliàng",
+  "meaning": "(vi.) đọ sức, so tài"
+ },
+ {
+  "chinese": "交情",
+  "level": "C1",
+  "pinyin": "jiāoqing",
+  "meaning": "(n.) tình bạn, giao tình"
+ },
+ {
+  "chinese": "交涉",
+  "level": "C1",
+  "pinyin": "jiāoshè",
+  "meaning": "(v.) thương lượng, đàm phán"
+ },
+ {
+  "chinese": "交談",
+  "level": "C1",
+  "pinyin": "jiāotán",
+  "meaning": "(vi.) trò chuyện, đàm thoại"
+ },
+ {
+  "chinese": "教徒",
+  "level": "C1",
+  "pinyin": "jiàotú",
+  "meaning": "(n.) tín đồ"
+ },
+ {
+  "chinese": "教學",
+  "level": "C1",
+  "pinyin": "jiàoxué",
+  "meaning": "(n.) việc giảng dạy"
+ },
+ {
+  "chinese": "教員",
+  "level": "C1",
+  "pinyin": "jiàoyuán",
+  "meaning": "(n.) giáo viên, giảng viên"
+ },
+ {
+  "chinese": "佳人",
+  "level": "C1",
+  "pinyin": "jiārén",
+  "meaning": "(n.) giai nhân, người đẹp"
+ },
+ {
+  "chinese": "假若",
+  "level": "C1",
+  "pinyin": "jiǎruò",
+  "meaning": "(conj.) giá như, nếu như"
+ },
+ {
+  "chinese": "假使",
+  "level": "C1",
+  "pinyin": "jiǎshǐ",
+  "meaning": "(conj.) giả sử"
+ },
+ {
+  "chinese": "家屬",
+  "level": "C1",
+  "pinyin": "jiāshǔ",
+  "meaning": "(n.) người nhà, gia quyến"
+ },
+ {
+  "chinese": "枷鎖",
+  "level": "C1",
+  "pinyin": "jiāsuǒ",
+  "meaning": "(n.) gông cùm, xiềng xích"
+ },
+ {
+  "chinese": "假象",
+  "level": "C1",
+  "pinyin": "jiǎxiàng",
+  "meaning": "(n.) giả tượng, hiện tượng giả"
+ },
+ {
+  "chinese": "加薪",
+  "level": "C1",
+  "pinyin": "jiāxīn",
+  "meaning": "(v-sep.) tăng lương"
+ },
+ {
+  "chinese": "夾雜",
+  "level": "C1",
+  "pinyin": "jiāzá",
+  "meaning": "(vpt.) lẫn lộn, xen kẽ"
+ },
+ {
+  "chinese": "加重",
+  "level": "C1",
+  "pinyin": "jiāzhòng",
+  "meaning": "(v.) làm nặng thêm, gia trọng"
+ },
+ {
+  "chinese": "基層",
+  "level": "C1",
+  "pinyin": "jīcéng",
+  "meaning": "(n.) cơ sở, tầng lớp dưới"
+ },
+ {
+  "chinese": "繼承",
+  "level": "C1",
+  "pinyin": "jìchéng",
+  "meaning": "(vpt.) kế thừa, thừa kế"
+ },
+ {
+  "chinese": "基地",
+  "level": "C1",
+  "pinyin": "jīdì",
+  "meaning": "(n.) căn cứ, cơ sở"
+ },
+ {
+  "chinese": "機動",
+  "level": "C1",
+  "pinyin": "jīdòng",
+  "meaning": "(vs-attr.) cơ động, linh hoạt"
+ },
+ {
+  "chinese": "基督",
+  "level": "C1",
+  "pinyin": "jīdū",
+  "meaning": "(n.) Chúa Ki-tô"
+ },
+ {
+  "chinese": "極端",
+  "level": "C1",
+  "pinyin": "jíduān",
+  "meaning": "(n\/vs) cực đoan"
+ },
+ {
+  "chinese": "皆",
+  "level": "C1",
+  "pinyin": "jiē",
+  "meaning": "(adv.) đều, tất cả"
+ },
+ {
+  "chinese": "屆",
+  "level": "C1",
+  "pinyin": "jiè",
+  "meaning": "đến, đến kỳ"
+ },
+ {
+  "chinese": "戒",
+  "level": "C1",
+  "pinyin": "jiè",
+  "meaning": "cai, bỏ, kiêng"
+ },
+ {
+  "chinese": "截",
+  "level": "C1",
+  "pinyin": "jié",
+  "meaning": "đoạn, khúc, cắt"
+ },
+ {
+  "chinese": "潔白",
+  "level": "C1",
+  "pinyin": "jiébái",
+  "meaning": "trắng tinh, trong trắng"
+ },
+ {
+  "chinese": "戒備",
+  "level": "C1",
+  "pinyin": "jièbèi",
+  "meaning": "cảnh giác, đề phòng"
+ },
+ {
+  "chinese": "階層",
+  "level": "C1",
+  "pinyin": "jiēcéng",
+  "meaning": "tầng lớp"
+ },
+ {
+  "chinese": "解答",
+  "level": "C1",
+  "pinyin": "jiědá",
+  "meaning": "lời giải đáp"
+ },
+ {
+  "chinese": "借貸",
+  "level": "C1",
+  "pinyin": "jièdài",
+  "meaning": "vay mượn, cho vay"
+ },
+ {
+  "chinese": "解放",
+  "level": "C1",
+  "pinyin": "jiěfàng",
+  "meaning": "giải phóng"
+ },
+ {
+  "chinese": "街坊",
+  "level": "C1",
+  "pinyin": "jiēfāng",
+  "meaning": "hàng xóm, láng giềng"
+ },
+ {
+  "chinese": "接管",
+  "level": "C1",
+  "pinyin": "jiēguǎn",
+  "meaning": "tiếp quản"
+ },
+ {
+  "chinese": "階級",
+  "level": "C1",
+  "pinyin": "jiējí",
+  "meaning": "giai cấp"
+ },
+ {
+  "chinese": "節儉",
+  "level": "C1",
+  "pinyin": "jiéjiǎn",
+  "meaning": "tiết kiệm, tằn tiện"
+ },
+ {
+  "chinese": "解渴",
+  "level": "C1",
+  "pinyin": "jiěkě",
+  "meaning": "giải khát"
+ },
+ {
+  "chinese": "藉口",
+  "level": "C1",
+  "pinyin": "jièkǒu",
+  "meaning": "cãi cớ, viện cớ"
+ },
+ {
+  "chinese": "竭力",
+  "level": "C1",
+  "pinyin": "jiélì",
+  "meaning": "hết sức, dốc sức"
+ },
+ {
+  "chinese": "接連",
+  "level": "C1",
+  "pinyin": "jiēlián",
+  "meaning": "liên tiếp, nối tiếp"
+ },
+ {
+  "chinese": "揭幕",
+  "level": "C1",
+  "pinyin": "jiēmù",
+  "meaning": "khai mạc, vén màn"
+ },
+ {
+  "chinese": "接納",
+  "level": "C1",
+  "pinyin": "jiēnà",
+  "meaning": "tiếp nhận, chấp nhận"
+ },
+ {
+  "chinese": "解剖",
+  "level": "C1",
+  "pinyin": "jiěpōu",
+  "meaning": "giải phẫu"
+ },
+ {
+  "chinese": "接洽",
+  "level": "C1",
+  "pinyin": "jiēqià",
+  "meaning": "tiếp xúc, liên hệ"
+ },
+ {
+  "chinese": "介入",
+  "level": "C1",
+  "pinyin": "jièrù",
+  "meaning": "can thiệp, xen vào"
+ },
+ {
+  "chinese": "結實",
+  "level": "C1",
+  "pinyin": "jiēshi",
+  "meaning": "chắc, rắn chắc, khỏe mạnh"
+ },
+ {
+  "chinese": "屆時",
+  "level": "C1",
+  "pinyin": "jièshí",
+  "meaning": "đến lúc đó, đến khi đó"
+ },
+ {
+  "chinese": "解說",
+  "level": "C1",
+  "pinyin": "jiěshuō",
+  "meaning": "giải thích, thuyết minh"
+ },
+ {
+  "chinese": "解體",
+  "level": "C1",
+  "pinyin": "jiětǐ",
+  "meaning": "tan rã, giải thể"
+ },
+ {
+  "chinese": "解脫",
+  "level": "C1",
+  "pinyin": "jiětuō",
+  "meaning": "giải thoát"
+ },
+ {
+  "chinese": "揭曉",
+  "level": "C1",
+  "pinyin": "jiēxiǎo",
+  "meaning": "công bố, tiết lộ (kết quả)"
+ },
+ {
+  "chinese": "結業",
+  "level": "C1",
+  "pinyin": "jiéyè",
+  "meaning": "kết thúc khóa học, tốt nghiệp"
+ },
+ {
+  "chinese": "結緣",
+  "level": "C1",
+  "pinyin": "jiéyuán",
+  "meaning": "kết duyên, có duyên"
+ },
+ {
+  "chinese": "解約",
+  "level": "C1",
+  "pinyin": "jiēyuē",
+  "meaning": "hủy hợp đồng"
+ },
+ {
+  "chinese": "季風",
+  "level": "C1",
+  "pinyin": "jìfēng",
+  "meaning": "gió mùa"
+ },
+ {
+  "chinese": "肌膚",
+  "level": "C1",
+  "pinyin": "jīfū",
+  "meaning": "da thịt, làn da"
+ },
+ {
+  "chinese": "籍貫",
+  "level": "C1",
+  "pinyin": "jíguàn",
+  "meaning": "nguyên quán"
+ },
+ {
+  "chinese": "集合",
+  "level": "C1",
+  "pinyin": "jíhé",
+  "meaning": "tập hợp, sự tập trung"
+ },
+ {
+  "chinese": "集結",
+  "level": "C1",
+  "pinyin": "jíjié",
+  "meaning": "tập kết, tập trung"
+ },
+ {
+  "chinese": "機警",
+  "level": "C1",
+  "pinyin": "jījǐng",
+  "meaning": "lanh lợi, cảnh giác"
+ },
+ {
+  "chinese": "急救",
+  "level": "C1",
+  "pinyin": "jíjiù",
+  "meaning": "cấp cứu"
+ },
+ {
+  "chinese": "吉利",
+  "level": "C1",
+  "pinyin": "jílì",
+  "meaning": "may mắn, tốt lành"
+ },
+ {
+  "chinese": "極力",
+  "level": "C1",
+  "pinyin": "jílì",
+  "meaning": "hết sức, cực lực"
+ },
+ {
+  "chinese": "劑量",
+  "level": "C1",
+  "pinyin": "jìliàng",
+  "meaning": "liều lượng"
+ },
+ {
+  "chinese": "紀律",
+  "level": "C1",
+  "pinyin": "jìlǜ",
+  "meaning": "kỷ luật"
+ },
+ {
+  "chinese": "機率",
+  "level": "C1",
+  "pinyin": "jīlǜ",
+  "meaning": "xác suất"
+ },
+ {
+  "chinese": "擊落",
+  "level": "C1",
+  "pinyin": "jīluò",
+  "meaning": "bắn rơi"
+ },
+ {
+  "chinese": "機密",
+  "level": "C1",
+  "pinyin": "jīmì",
+  "meaning": "cơ mật, bí mật"
+ },
+ {
+  "chinese": "勁",
+  "level": "C1",
+  "pinyin": "jìn",
+  "meaning": "sức, khí thế"
+ },
+ {
+  "chinese": "近",
+  "level": "C1",
+  "pinyin": "jìn",
+  "meaning": "gần, khoảng"
+ },
+ {
+  "chinese": "進而",
+  "level": "C1",
+  "pinyin": "jìn'ér",
+  "meaning": "tiếp đó, từ đó"
+ },
+ {
+  "chinese": "進場",
+  "level": "C1",
+  "pinyin": "jìnchǎng",
+  "meaning": "vào sân, vào hội trường"
+ },
+ {
+  "chinese": "緊湊",
+  "level": "C1",
+  "pinyin": "jǐncòu",
+  "meaning": "gọn, chặt chẽ, dồn dập"
+ },
+ {
+  "chinese": "進度",
+  "level": "C1",
+  "pinyin": "jìndù",
+  "meaning": "tiến độ"
+ },
+ {
+  "chinese": "技能",
+  "level": "C1",
+  "pinyin": "jìnéng",
+  "meaning": "kỹ năng"
+ },
+ {
+  "chinese": "靜",
+  "level": "C1",
+  "pinyin": "jìng",
+  "meaning": "yên lặng, tĩnh lặng"
+ },
+ {
+  "chinese": "井",
+  "level": "C1",
+  "pinyin": "jǐng",
+  "meaning": "cái giếng"
+ },
+ {
+  "chinese": "敬",
+  "level": "C1",
+  "pinyin": "jìng",
+  "meaning": "kính, dâng"
+ },
+ {
+  "chinese": "精",
+  "level": "C1",
+  "pinyin": "jīng",
+  "meaning": "tinh, tinh anh, thông minh"
+ },
+ {
+  "chinese": "警報",
+  "level": "C1",
+  "pinyin": "jǐngbào",
+  "meaning": "báo động, còi báo động"
+ },
+ {
+  "chinese": "境地",
+  "level": "C1",
+  "pinyin": "jìngdì",
+  "meaning": "hoàn cảnh, tình thế"
+ },
+ {
+  "chinese": "經典",
+  "level": "C1",
+  "pinyin": "jīngdiǎn",
+  "meaning": "kinh điển, tác phẩm kinh điển"
+ },
+ {
+  "chinese": "景觀",
+  "level": "C1",
+  "pinyin": "jǐngguān",
+  "meaning": "cảnh quan"
+ },
+ {
+  "chinese": "精光",
+  "level": "C1",
+  "pinyin": "jīngguāng",
+  "meaning": "hết sạch, nhẵn bóng"
+ },
+ {
+  "chinese": "精華",
+  "level": "C1",
+  "pinyin": "jīnghuá",
+  "meaning": "tinh hoa, tinh túy"
+ },
+ {
+  "chinese": "驚惶",
+  "level": "C1",
+  "pinyin": "jīnghuáng",
+  "meaning": "kinh hoàng, hoảng sợ"
+ },
+ {
+  "chinese": "經濟",
+  "level": "C1",
+  "pinyin": "jīngjì",
+  "meaning": "kinh tế, tiết kiệm"
+ },
+ {
+  "chinese": "警覺",
+  "level": "C1",
+  "pinyin": "jǐngjué",
+  "meaning": "cảnh giác"
+ },
+ {
+  "chinese": "靜脈",
+  "level": "C1",
+  "pinyin": "jìngmài",
+  "meaning": "tĩnh mạch"
+ },
+ {
+  "chinese": "精明",
+  "level": "C1",
+  "pinyin": "jīngmíng",
+  "meaning": "tinh ranh, khôn ngoan"
+ },
+ {
+  "chinese": "進攻",
+  "level": "C1",
+  "pinyin": "jìngōng",
+  "meaning": "tấn công"
+ },
+ {
+  "chinese": "敬佩",
+  "level": "C1",
+  "pinyin": "jìngpèi",
+  "meaning": "kính phục, khâm phục"
+ },
+ {
+  "chinese": "驚奇",
+  "level": "C1",
+  "pinyin": "jīngqí",
+  "meaning": "kinh ngạc, ngạc nhiên"
+ },
+ {
+  "chinese": "景氣",
+  "level": "C1",
+  "pinyin": "jīngqì",
+  "meaning": "tình hình kinh tế"
+ },
+ {
+  "chinese": "競賽",
+  "level": "C1",
+  "pinyin": "jìngsài",
+  "meaning": "thi đấu, cuộc thi"
+ },
+ {
+  "chinese": "經書",
+  "level": "C1",
+  "pinyin": "jīngshū",
+  "meaning": "kinh thư, sách kinh điển"
+ },
+ {
+  "chinese": "精髓",
+  "level": "C1",
+  "pinyin": "jīngsuǐ",
+  "meaning": "tinh túy, cốt lõi"
+ },
+ {
+  "chinese": "靜態",
+  "level": "C1",
+  "pinyin": "jìngtài",
+  "meaning": "trạng thái tĩnh, tĩnh thái"
+ },
+ {
+  "chinese": "警惕",
+  "level": "C1",
+  "pinyin": "jǐngtì",
+  "meaning": "cảnh giác, đề cao cảnh giác"
+ },
+ {
+  "chinese": "警衛",
+  "level": "C1",
+  "pinyin": "jǐngwèi",
+  "meaning": "cảnh vệ, bảo vệ"
+ },
+ {
+  "chinese": "景物",
+  "level": "C1",
+  "pinyin": "jǐngwù",
+  "meaning": "cảnh vật"
+ },
+ {
+  "chinese": "驚喜",
+  "level": "C1",
+  "pinyin": "jīngxǐ",
+  "meaning": "kinh hỉ, bất ngờ vui mừng"
+ },
+ {
+  "chinese": "驚險",
+  "level": "C1",
+  "pinyin": "jīngxiǎn",
+  "meaning": "mạo hiểm, gay cấn"
+ },
+ {
+  "chinese": "景象",
+  "level": "C1",
+  "pinyin": "jǐngxiàng",
+  "meaning": "cảnh tượng"
+ },
+ {
+  "chinese": "競選",
+  "level": "C1",
+  "pinyin": "jìngxuǎn",
+  "meaning": "tranh cử"
+ },
+ {
+  "chinese": "鯨魚",
+  "level": "C1",
+  "pinyin": "jīngyú",
+  "meaning": "cá voi"
+ },
+ {
+  "chinese": "競爭",
+  "level": "C1",
+  "pinyin": "jìngzhēng",
+  "meaning": "sự cạnh tranh"
+ },
+ {
+  "chinese": "精緻",
+  "level": "C1",
+  "pinyin": "jīngzhì",
+  "meaning": "tinh xảo, tinh tế"
+ },
+ {
+  "chinese": "進化",
+  "level": "C1",
+  "pinyin": "jìnhuà",
+  "meaning": "tiến hóa"
+ },
+ {
+  "chinese": "晉級",
+  "level": "C1",
+  "pinyin": "jìnjí",
+  "meaning": "thăng cấp, vào vòng trong"
+ },
+ {
+  "chinese": "進軍",
+  "level": "C1",
+  "pinyin": "jìnjūn",
+  "meaning": "tiến quân, tiến vào (thị trường)"
+ },
+ {
+  "chinese": "禁令",
+  "level": "C1",
+  "pinyin": "jìnlìng",
+  "meaning": "lệnh cấm"
+ },
+ {
+  "chinese": "緊密",
+  "level": "C1",
+  "pinyin": "jǐnmì",
+  "meaning": "chặt chẽ, mật thiết"
+ },
+ {
+  "chinese": "謹慎",
+  "level": "C1",
+  "pinyin": "jǐnshèn",
+  "meaning": "cẩn trọng, thận trọng"
+ },
+ {
+  "chinese": "緊縮",
+  "level": "C1",
+  "pinyin": "jǐnsuō",
+  "meaning": "thắt chặt, thu hẹp"
+ },
+ {
+  "chinese": "津貼",
+  "level": "C1",
+  "pinyin": "jīntiē",
+  "meaning": "trợ cấp, phụ cấp"
+ },
+ {
+  "chinese": "進修",
+  "level": "C1",
+  "pinyin": "jìnxiū",
+  "meaning": "tu nghiệp, học nâng cao"
+ },
+ {
+  "chinese": "金魚",
+  "level": "C1",
+  "pinyin": "jīnyú",
+  "meaning": "cá vàng"
+ },
+ {
+  "chinese": "進展",
+  "level": "C1",
+  "pinyin": "jìnzhǎn",
+  "meaning": "tiến triển, phát triển"
+ },
+ {
+  "chinese": "機器人",
+  "level": "C1",
+  "pinyin": "jīqìrén",
+  "meaning": "người máy, robot"
+ },
+ {
+  "chinese": "汲取",
+  "level": "C1",
+  "pinyin": "jíqǔ",
+  "meaning": "hấp thụ, rút ra (bài học)"
+ },
+ {
+  "chinese": "集權",
+  "level": "C1",
+  "pinyin": "jíquán",
+  "meaning": "tập trung quyền lực"
+ },
+ {
+  "chinese": "即日",
+  "level": "C1",
+  "pinyin": "jírì",
+  "meaning": "ngay trong ngày"
+ },
+ {
+  "chinese": "即時",
+  "level": "C1",
+  "pinyin": "jíshí",
+  "meaning": "tức thời, ngay lập tức"
+ },
+ {
+  "chinese": "祭祀",
+  "level": "C1",
+  "pinyin": "jìsì",
+  "meaning": "tế lễ, cúng bái"
+ },
+ {
+  "chinese": "集體",
+  "level": "C1",
+  "pinyin": "jítǐ",
+  "meaning": "tập thể"
+ },
+ {
+  "chinese": "集團",
+  "level": "C1",
+  "pinyin": "jítuán",
+  "meaning": "tập đoàn"
+ },
+ {
+  "chinese": "就",
+  "level": "C1",
+  "pinyin": "jiù",
+  "meaning": "theo, dựa vào, nhận tiện"
+ },
+ {
+  "chinese": "揪",
+  "level": "C1",
+  "pinyin": "jiū",
+  "meaning": "túm, níu"
+ },
+ {
+  "chinese": "酒店",
+  "level": "C1",
+  "pinyin": "jiǔdiàn",
+  "meaning": "khách sạn (có nhà hàng, quán bar)"
+ },
+ {
+  "chinese": "糾紛",
+  "level": "C1",
+  "pinyin": "jiūfēn",
+  "meaning": "tranh chấp, mâu thuẫn"
+ },
+ {
+  "chinese": "酒館",
+  "level": "C1",
+  "pinyin": "jiǔguǎn",
+  "meaning": "quán rượu"
+ },
+ {
+  "chinese": "救濟",
+  "level": "C1",
+  "pinyin": "jiùjì",
+  "meaning": "cứu tế, cứu trợ"
+ },
+ {
+  "chinese": "酒精",
+  "level": "C1",
+  "pinyin": "jiǔjīng",
+  "meaning": "cồn, rượu"
+ },
+ {
+  "chinese": "就緒",
+  "level": "C1",
+  "pinyin": "jiǔxù",
+  "meaning": "sẵn sàng, đã chuẩn bị xong"
+ },
+ {
+  "chinese": "救援",
+  "level": "C1",
+  "pinyin": "jiùyuán",
+  "meaning": "cứu viện, cứu hộ"
+ },
+ {
+  "chinese": "極為",
+  "level": "C1",
+  "pinyin": "jíwéi",
+  "meaning": "cực kỳ, vô cùng"
+ },
+ {
+  "chinese": "吉祥",
+  "level": "C1",
+  "pinyin": "jíxiáng",
+  "meaning": "cát tường, may mắn"
+ },
+ {
+  "chinese": "畸形",
+  "level": "C1",
+  "pinyin": "jīxíng",
+  "meaning": "dị hình, dị dạng"
+ },
+ {
+  "chinese": "技藝",
+  "level": "C1",
+  "pinyin": "jìyì",
+  "meaning": "kỹ nghệ, tài nghệ"
+ },
+ {
+  "chinese": "基因",
+  "level": "C1",
+  "pinyin": "jīyīn",
+  "meaning": "gen"
+ },
+ {
+  "chinese": "給予",
+  "level": "C1",
+  "pinyin": "jǐyǔ",
+  "meaning": "cho, ban cho"
+ },
+ {
+  "chinese": "急躁",
+  "level": "C1",
+  "pinyin": "jízào",
+  "meaning": "nóng nảy, vội vàng"
+ },
+ {
+  "chinese": "及早",
+  "level": "C1",
+  "pinyin": "jízǎo",
+  "meaning": "sớm, kịp thời"
+ },
+ {
+  "chinese": "激增",
+  "level": "C1",
+  "pinyin": "jīzēng",
+  "meaning": "tăng vọt, tăng mạnh"
+ },
+ {
+  "chinese": "機制",
+  "level": "C1",
+  "pinyin": "jīzhì",
+  "meaning": "cơ chế"
+ },
+ {
+  "chinese": "拒",
+  "level": "C1",
+  "pinyin": "jù",
+  "meaning": "từ chối, cự tuyệt"
+ },
+ {
+  "chinese": "居",
+  "level": "C1",
+  "pinyin": "jū",
+  "meaning": "ở, cư ngụ"
+ },
+ {
+  "chinese": "捐獻",
+  "level": "C1",
+  "pinyin": "juānxiàn",
+  "meaning": "quyên tặng, hiến tặng"
+ },
+ {
+  "chinese": "捐贈",
+  "level": "C1",
+  "pinyin": "juānzèng",
+  "meaning": "quyên tặng"
+ },
+ {
+  "chinese": "局部",
+  "level": "C1",
+  "pinyin": "júbù",
+  "meaning": "cục bộ, một phần"
+ },
+ {
+  "chinese": "絕大多數",
+  "level": "C1",
+  "pinyin": "juédàduōshù",
+  "meaning": "tuyệt đại đa số"
+ },
+ {
+  "chinese": "絕跡",
+  "level": "C1",
+  "pinyin": "juéjì",
+  "meaning": "tuyệt chủng, biến mất"
+ },
+ {
+  "chinese": "決賽",
+  "level": "C1",
+  "pinyin": "juésài",
+  "meaning": "chung kết, trận chung kết"
+ },
+ {
+  "chinese": "決議",
+  "level": "C1",
+  "pinyin": "juéyì",
+  "meaning": "nghị quyết"
+ },
+ {
+  "chinese": "抉擇",
+  "level": "C1",
+  "pinyin": "juézé",
+  "meaning": "lựa chọn (giữa những thứ khó khăn)"
+ },
+ {
+  "chinese": "局面",
+  "level": "C1",
+  "pinyin": "júmiàn",
+  "meaning": "cục diện, tình thế"
+ },
+ {
+  "chinese": "均",
+  "level": "C1",
+  "pinyin": "jūn",
+  "meaning": "đều, cả"
+ },
+ {
+  "chinese": "軍備",
+  "level": "C1",
+  "pinyin": "jūnbèi",
+  "meaning": "quân bị, vũ trang"
+ },
+ {
+  "chinese": "軍閥",
+  "level": "C1",
+  "pinyin": "jūnfá",
+  "meaning": "quân phiệt"
+ },
+ {
+  "chinese": "軍官",
+  "level": "C1",
+  "pinyin": "jūnguān",
+  "meaning": "sĩ quan, quân quan"
+ },
+ {
+  "chinese": "均衡",
+  "level": "C1",
+  "pinyin": "jūnhéng",
+  "meaning": "cân bằng, cân đối"
+ },
+ {
+  "chinese": "軍艦",
+  "level": "C1",
+  "pinyin": "jūnjiàn",
+  "meaning": "tàu chiến, quân hạm"
+ },
+ {
+  "chinese": "均勻",
+  "level": "C1",
+  "pinyin": "jūnyún",
+  "meaning": "đều, đồng đều"
+ },
+ {
+  "chinese": "俱全",
+  "level": "C1",
+  "pinyin": "jùquán",
+  "meaning": "đầy đủ, có đủ"
+ },
+ {
+  "chinese": "巨人",
+  "level": "C1",
+  "pinyin": "jùrén",
+  "meaning": "người khổng lồ"
+ },
+ {
+  "chinese": "沮喪",
+  "level": "C1",
+  "pinyin": "jǔsàng",
+  "meaning": "chán nản, thất vọng"
+ },
+ {
+  "chinese": "據悉",
+  "level": "C1",
+  "pinyin": "jùxī",
+  "meaning": "nghe nói, được biết"
+ },
+ {
+  "chinese": "舉止",
+  "level": "C1",
+  "pinyin": "jǔzhǐ",
+  "meaning": "cử chỉ, hành vi"
+ },
+ {
+  "chinese": "舉重",
+  "level": "C1",
+  "pinyin": "jǔzhòng",
+  "meaning": "cử tạ"
+ },
+ {
+  "chinese": "開辦",
+  "level": "C1",
+  "pinyin": "kāibàn",
+  "meaning": "mở, thành lập (trường học, công ty)"
+ },
+ {
+  "chinese": "開導",
+  "level": "C1",
+  "pinyin": "kāidǎo",
+  "meaning": "khai thông, chỉ bảo"
+ },
+ {
+  "chinese": "開發",
+  "level": "C1",
+  "pinyin": "kāifā",
+  "meaning": "khai thác, sự phát triển"
+ },
+ {
+  "chinese": "開飯",
+  "level": "C1",
+  "pinyin": "kāifàn",
+  "meaning": "bắt đầu ăn cơm"
+ },
+ {
+  "chinese": "開放",
+  "level": "C1",
+  "pinyin": "kāifàng",
+  "meaning": "cởi mở, rộng rãi"
+ },
+ {
+  "chinese": "開口",
+  "level": "C1",
+  "pinyin": "kāikǒu",
+  "meaning": "mở miệng, lên tiếng"
+ },
+ {
+  "chinese": "開闊",
+  "level": "C1",
+  "pinyin": "kāikuò",
+  "meaning": "rộng rãi, mở rộng"
+ },
+ {
+  "chinese": "開路",
+  "level": "C1",
+  "pinyin": "kāilù",
+  "meaning": "mở đường"
+ },
+ {
+  "chinese": "開幕",
+  "level": "C1",
+  "pinyin": "kāimù",
+  "meaning": "khai mạc"
+ },
+ {
+  "chinese": "開盤",
+  "level": "C1",
+  "pinyin": "kāipán",
+  "meaning": "mở cửa"
+ },
+ {
+  "chinese": "開闢",
+  "level": "C1",
+  "pinyin": "kāipì",
+  "meaning": "khai phá, mở ra"
+ },
+ {
+  "chinese": "開啟",
+  "level": "C1",
+  "pinyin": "kāiqǐ",
+  "meaning": "mở ra, bắt đầu"
+ },
+ {
+  "chinese": "開頭",
+  "level": "C1",
+  "pinyin": "kāitóu",
+  "meaning": "bắt đầu, lúc đầu"
+ },
+ {
+  "chinese": "開銷",
+  "level": "C1",
+  "pinyin": "kāixiāo",
+  "meaning": "chi tiêu, khoản chi"
+ },
+ {
+  "chinese": "開業",
+  "level": "C1",
+  "pinyin": "kāiyè",
+  "meaning": "khai trương"
+ },
+ {
+  "chinese": "開展",
+  "level": "C1",
+  "pinyin": "kāizhǎn",
+  "meaning": "triển khai, phát triển"
+ },
+ {
+  "chinese": "開張",
+  "level": "C1",
+  "pinyin": "kāizhāng",
+  "meaning": "khai trương"
+ },
+ {
+  "chinese": "刊登",
+  "level": "C1",
+  "pinyin": "kāndēng",
+  "meaning": "đăng, đăng tải"
+ },
+ {
+  "chinese": "扛",
+  "level": "C1",
+  "pinyin": "káng",
+  "meaning": "vác, khiêng"
+ },
+ {
+  "chinese": "康復",
+  "level": "C1",
+  "pinyin": "kāngfù",
+  "meaning": "bình phục, hồi phục"
+ },
+ {
+  "chinese": "慷慨",
+  "level": "C1",
+  "pinyin": "kāngkǎi",
+  "meaning": "hào phóng, rộng rãi"
+ },
+ {
+  "chinese": "抗爭",
+  "level": "C1",
+  "pinyin": "kàngzhēng",
+  "meaning": "kháng cự, đấu tranh"
+ },
+ {
+  "chinese": "看守",
+  "level": "C1",
+  "pinyin": "kānshǒu",
+  "meaning": "canh gác, trông coi"
+ },
+ {
+  "chinese": "刊物",
+  "level": "C1",
+  "pinyin": "kānwù",
+  "meaning": "ấn phẩm định kỳ, tạp chí"
+ },
+ {
+  "chinese": "靠",
+  "level": "C1",
+  "pinyin": "kào",
+  "meaning": "dựa vào, dựa trên"
+ },
+ {
+  "chinese": "考場",
+  "level": "C1",
+  "pinyin": "kǎochǎng",
+  "meaning": "phòng thi, trường thi"
+ },
+ {
+  "chinese": "考古",
+  "level": "C1",
+  "pinyin": "kǎogǔ",
+  "meaning": "khảo cổ"
+ },
+ {
+  "chinese": "考量",
+  "level": "C1",
+  "pinyin": "kǎoliáng",
+  "meaning": "sự cân nhắc, xem xét"
+ },
+ {
+  "chinese": "烤肉",
+  "level": "C1",
+  "pinyin": "kǎoròu",
+  "meaning": "thịt nướng, BBQ"
+ },
+ {
+  "chinese": "考生",
+  "level": "C1",
+  "pinyin": "kǎoshēng",
+  "meaning": "thí sinh"
+ },
+ {
+  "chinese": "考驗",
+  "level": "C1",
+  "pinyin": "kǎoyàn",
+  "meaning": "thử thách, khảo nghiệm"
+ },
+ {
+  "chinese": "殼",
+  "level": "C1",
+  "pinyin": "ké",
+  "meaning": "vỏ"
+ },
+ {
+  "chinese": "刻薄",
+  "level": "C1",
+  "pinyin": "kèbó",
+  "meaning": "khắc bạc, cay nghiệt"
+ },
+ {
+  "chinese": "可觀",
+  "level": "C1",
+  "pinyin": "kěguān",
+  "meaning": "đáng kể, đáng nể"
+ },
+ {
+  "chinese": "刻畫",
+  "level": "C1",
+  "pinyin": "kèhuà",
+  "meaning": "khắc họa, miêu tả"
+ },
+ {
+  "chinese": "科幻",
+  "level": "C1",
+  "pinyin": "kēhuàn",
+  "meaning": "khoa học viễn tưởng"
+ },
+ {
+  "chinese": "客機",
+  "level": "C1",
+  "pinyin": "kèjī",
+  "meaning": "máy bay chở khách"
+ },
+ {
+  "chinese": "可見",
+  "level": "C1",
+  "pinyin": "kějiàn",
+  "meaning": "có thể thấy, rõ ràng là"
+ },
+ {
+  "chinese": "刻苦",
+  "level": "C1",
+  "pinyin": "kèkǔ",
+  "meaning": "chịu khó, cần cù"
+ },
+ {
+  "chinese": "吭聲",
+  "level": "C1",
+  "pinyin": "kēngshēng",
+  "meaning": "lên tiếng"
+ },
+ {
+  "chinese": "可望",
+  "level": "C1",
+  "pinyin": "kěwàng",
+  "meaning": "có triển vọng, có thể hy vọng"
+ },
+ {
+  "chinese": "可行",
+  "level": "C1",
+  "pinyin": "kěxíng",
+  "meaning": "khả thi, có thể thực hiện"
+ },
+ {
+  "chinese": "課業",
+  "level": "C1",
+  "pinyin": "kèyè",
+  "meaning": "bài vở, việc học"
+ },
+ {
+  "chinese": "刻意",
+  "level": "C1",
+  "pinyin": "kèyì",
+  "meaning": "cố ý, có tình"
+ },
+ {
+  "chinese": "苛責",
+  "level": "C1",
+  "pinyin": "kēzé",
+  "meaning": "trách mắng, chỉ trích gay gắt"
+ },
+ {
+  "chinese": "克制",
+  "level": "C1",
+  "pinyin": "kèzhì",
+  "meaning": "kiềm chế, khắc chế"
+ },
+ {
+  "chinese": "孔",
+  "level": "C1",
+  "pinyin": "kǒng",
+  "meaning": "lỗ, không"
+ },
+ {
+  "chinese": "恐嚇",
+  "level": "C1",
+  "pinyin": "kǒnghè",
+  "meaning": "khủng bố, đe dọa"
+ },
+ {
+  "chinese": "恐懼",
+  "level": "C1",
+  "pinyin": "kǒngjù",
+  "meaning": "sợ hãi, khủng hoảng"
+ },
+ {
+  "chinese": "空曠",
+  "level": "C1",
+  "pinyin": "kōngkuàng",
+  "meaning": "trống trải, rộng rãi"
+ },
+ {
+  "chinese": "空難",
+  "level": "C1",
+  "pinyin": "kōngnàn",
+  "meaning": "tai nạn hàng không"
+ },
+ {
+  "chinese": "空談",
+  "level": "C1",
+  "pinyin": "kōngtán",
+  "meaning": "nói suông"
+ },
+ {
+  "chinese": "空運",
+  "level": "C1",
+  "pinyin": "kōngyùn",
+  "meaning": "vận chuyển bằng đường hàng không"
+ },
+ {
+  "chinese": "扣除",
+  "level": "C1",
+  "pinyin": "kòuchú",
+  "meaning": "khấu trừ"
+ },
+ {
+  "chinese": "口頭",
+  "level": "C1",
+  "pinyin": "kǒutóu",
+  "meaning": "bằng miệng, lời nói"
+ },
+ {
+  "chinese": "口吻",
+  "level": "C1",
+  "pinyin": "kǒuwěn",
+  "meaning": "giọng điệu, khẩu khí"
+ },
+ {
+  "chinese": "快活",
+  "level": "C1",
+  "pinyin": "kuàihuó",
+  "meaning": "vui vẻ, sung sướng"
+ },
+ {
+  "chinese": "款",
+  "level": "C1",
+  "pinyin": "kuǎn",
+  "meaning": "khoản, kiểu"
+ },
+ {
+  "chinese": "款待",
+  "level": "C1",
+  "pinyin": "kuǎndài",
+  "meaning": "chiêu đãi, tiếp đãi"
+ },
+ {
+  "chinese": "礦產",
+  "level": "C1",
+  "pinyin": "kuàngchǎn",
+  "meaning": "khoáng sản"
+ },
+ {
+  "chinese": "狂風",
+  "level": "C1",
+  "pinyin": "kuángfēng",
+  "meaning": "cuồng phong, gió lớn"
+ },
+ {
+  "chinese": "礦工",
+  "level": "C1",
+  "pinyin": "kuànggōng",
+  "meaning": "thợ mỏ"
+ },
+ {
+  "chinese": "寬廣",
+  "level": "C1",
+  "pinyin": "kuānguǎng",
+  "meaning": "rộng lớn, bao la"
+ },
+ {
+  "chinese": "狂妄",
+  "level": "C1",
+  "pinyin": "kuángwàng",
+  "meaning": "cuồng vọng, ngông cuồng"
+ },
+ {
+  "chinese": "寬闊",
+  "level": "C1",
+  "pinyin": "kuānkuò",
+  "meaning": "rộng rãi, rộng lớn"
+ },
+ {
+  "chinese": "誇耀",
+  "level": "C1",
+  "pinyin": "kuāyào",
+  "meaning": "khoe khoang, phô trương"
+ },
+ {
+  "chinese": "跨越",
+  "level": "C1",
+  "pinyin": "kuàyuè",
+  "meaning": "vượt qua, bắc qua"
+ },
+ {
+  "chinese": "庫存",
+  "level": "C1",
+  "pinyin": "kùcún",
+  "meaning": "hàng tồn kho"
+ },
+ {
+  "chinese": "苦工",
+  "level": "C1",
+  "pinyin": "kǔgōng",
+  "meaning": "lao động khổ sai, công việc cực nhọc"
+ },
+ {
+  "chinese": "虧",
+  "level": "C1",
+  "pinyin": "kuī",
+  "meaning": "lỗ, thua thiệt"
+ },
+ {
+  "chinese": "捆",
+  "level": "C1",
+  "pinyin": "kǔn",
+  "meaning": "bó, buộc"
+ },
+ {
+  "chinese": "困",
+  "level": "C1",
+  "pinyin": "kùn",
+  "meaning": "buồn ngủ"
+ },
+ {
+  "chinese": "苦難",
+  "level": "C1",
+  "pinyin": "kǔnàn",
+  "meaning": "khó khăn, khổ nạn"
+ },
+ {
+  "chinese": "苦惱",
+  "level": "C1",
+  "pinyin": "kǔnǎo",
+  "meaning": "khổ não, phiền muộn"
+ },
+ {
+  "chinese": "昆蟲",
+  "level": "C1",
+  "pinyin": "kūnchóng",
+  "meaning": "côn trùng"
+ },
+ {
+  "chinese": "困境",
+  "level": "C1",
+  "pinyin": "kùnjìng",
+  "meaning": "hoàn cảnh khó khăn, tình thế tiến thoái lưỡng nan"
+ },
+ {
+  "chinese": "困擾",
+  "level": "C1",
+  "pinyin": "kùnrǎo",
+  "meaning": "làm phiền, quấy nhiễu"
+ },
+ {
+  "chinese": "擴建",
+  "level": "C1",
+  "pinyin": "kuòjiàn",
+  "meaning": "mở rộng"
+ },
+ {
+  "chinese": "擴散",
+  "level": "C1",
+  "pinyin": "kuòsàn",
+  "meaning": "khuếch tán, lan rộng"
+ },
+ {
+  "chinese": "擴張",
+  "level": "C1",
+  "pinyin": "kuòzhāng",
+  "meaning": "mở rộng, bành trướng"
+ },
+ {
+  "chinese": "苦衷",
+  "level": "C1",
+  "pinyin": "kǔzhōng",
+  "meaning": "nỗi khổ tâm, nỗi niềm riêng"
+ },
+ {
+  "chinese": "來賓",
+  "level": "C1",
+  "pinyin": "láibīn",
+  "meaning": "khách mời, khách đến dự"
+ },
+ {
+  "chinese": "來得",
+  "level": "C1",
+  "pinyin": "láide",
+  "meaning": "đến, đến nỗi"
+ },
+ {
+  "chinese": "來客",
+  "level": "C1",
+  "pinyin": "láikè",
+  "meaning": "khách đến"
+ },
+ {
+  "chinese": "攔",
+  "level": "C1",
+  "pinyin": "lán",
+  "meaning": "ngân, cản"
+ },
+ {
+  "chinese": "欄",
+  "level": "C1",
+  "pinyin": "lán",
+  "meaning": "cột"
+ },
+ {
+  "chinese": "拉票",
+  "level": "C1",
+  "pinyin": "lāpiào",
+  "meaning": "kéo phiếu, vận động bầu cử"
+ },
+ {
+  "chinese": "臘月",
+  "level": "C1",
+  "pinyin": "làyuè",
+  "meaning": "tháng Chạp, tháng mười hai âm lịch"
+ },
+ {
+  "chinese": "率",
+  "level": "C1",
+  "pinyin": "lǜ",
+  "meaning": "dẫn đầu, suất lĩnh"
+ },
+ {
+  "chinese": "評估",
+  "level": "C1",
+  "pinyin": "pínggū",
+  "meaning": "đánh giá"
+ },
+ {
+  "chinese": "評價",
+  "level": "C1",
+  "pinyin": "píngjià",
+  "meaning": "sự đánh giá, bình phẩm"
+ },
+ {
+  "chinese": "評論",
+  "level": "C1",
+  "pinyin": "pínglù",
+  "meaning": "bình luận, phê bình"
+ },
+ {
+  "chinese": "平穩",
+  "level": "C1",
+  "pinyin": "píngwěn",
+  "meaning": "bình ổn, ổn định"
+ },
+ {
+  "chinese": "平行",
+  "level": "C1",
+  "pinyin": "píngxíng",
+  "meaning": "song song"
+ },
+ {
+  "chinese": "潑",
+  "level": "C1",
+  "pinyin": "pō",
+  "meaning": "tạt, hắt"
+ },
+ {
+  "chinese": "破案",
+  "level": "C1",
+  "pinyin": "pò'àn",
+  "meaning": "phá án"
+ },
+ {
+  "chinese": "破產",
+  "level": "C1",
+  "pinyin": "pòchǎn",
+  "meaning": "phá sản"
+ },
+ {
+  "chinese": "破除",
+  "level": "C1",
+  "pinyin": "pòchú",
+  "meaning": "phá bỏ, loại bỏ"
+ },
+ {
+  "chinese": "迫害",
+  "level": "C1",
+  "pinyin": "pòhài",
+  "meaning": "bức hại, đàn áp"
+ },
+ {
+  "chinese": "破獲",
+  "level": "C1",
+  "pinyin": "pòhuò",
+  "meaning": "phá được"
+ },
+ {
+  "chinese": "婆家",
+  "level": "C1",
+  "pinyin": "pójiā",
+  "meaning": "nhà chồng"
+ },
+ {
+  "chinese": "破例",
+  "level": "C1",
+  "pinyin": "pòlì",
+  "meaning": "phá lệ, ngoại lệ"
+ },
+ {
+  "chinese": "魄力",
+  "level": "C1",
+  "pinyin": "pòlì",
+  "meaning": "khí phách, sự quyết đoán"
+ },
+ {
+  "chinese": "破碎",
+  "level": "C1",
+  "pinyin": "pòsuì",
+  "meaning": "vỡ vụn, tan vỡ"
+ },
+ {
+  "chinese": "樸素",
+  "level": "C1",
+  "pinyin": "púsù",
+  "meaning": "giản dị, mộc mạc"
+ },
+ {
+  "chinese": "漆",
+  "level": "C1",
+  "pinyin": "qī",
+  "meaning": "sơn"
+ },
+ {
+  "chinese": "啟",
+  "level": "C1",
+  "pinyin": "qǐ",
+  "meaning": "mở, bắt đầu, trình bày"
+ },
+ {
+  "chinese": "恰當",
+  "level": "C1",
+  "pinyin": "qiàdàng",
+  "meaning": "thích đáng, phù hợp"
+ },
+ {
+  "chinese": "恰好",
+  "level": "C1",
+  "pinyin": "qiàhǎo",
+  "meaning": "vừa hay, đúng lúc"
+ },
+ {
+  "chinese": "鉛",
+  "level": "C1",
+  "pinyin": "qiān",
+  "meaning": "chì"
+ },
+ {
+  "chinese": "前輩",
+  "level": "C1",
+  "pinyin": "qiánbèi",
+  "meaning": "tiền bối, người đi trước"
+ },
+ {
+  "chinese": "淺薄",
+  "level": "C1",
+  "pinyin": "qiǎnbó",
+  "meaning": "nông cạn, hời hợt"
+ },
+ {
+  "chinese": "潛藏",
+  "level": "C1",
+  "pinyin": "qiáncáng",
+  "meaning": "tiềm ẩn, ẩn giấu"
+ },
+ {
+  "chinese": "前程",
+  "level": "C1",
+  "pinyin": "qiánchéng",
+  "meaning": "tiền đồ, tương lai"
+ },
+ {
+  "chinese": "虔誠",
+  "level": "C1",
+  "pinyin": "qiánchéng",
+  "meaning": "thành kính, ngoan đạo"
+ },
+ {
+  "chinese": "腔調",
+  "level": "C1",
+  "pinyin": "qiāngdiào",
+  "meaning": "giọng điệu, ngữ điệu"
+ },
+ {
+  "chinese": "牆角",
+  "level": "C1",
+  "pinyin": "qiángjiǎo",
+  "meaning": "góc tường"
+ },
+ {
+  "chinese": "強勁",
+  "level": "C1",
+  "pinyin": "qiángjìng",
+  "meaning": "mạnh mẽ, cường tráng"
+ },
+ {
+  "chinese": "強求",
+  "level": "C1",
+  "pinyin": "qiǎngqiú",
+  "meaning": "cưỡng cầu, ép buộc"
+ },
+ {
+  "chinese": "強權",
+  "level": "C1",
+  "pinyin": "qiángquán",
+  "meaning": "cường quyền, thế lực mạnh"
+ },
+ {
+  "chinese": "強壯",
+  "level": "C1",
+  "pinyin": "qiángzhuàng",
+  "meaning": "cường tráng, khỏe mạnh"
+ },
+ {
+  "chinese": "前後",
+  "level": "C1",
+  "pinyin": "qiánhòu",
+  "meaning": "trước sau, khoảng"
+ },
+ {
+  "chinese": "前景",
+  "level": "C1",
+  "pinyin": "qiánjǐng",
+  "meaning": "triển vọng, tiền cảnh"
+ },
+ {
+  "chinese": "前科",
+  "level": "C1",
+  "pinyin": "qiánkē",
+  "meaning": "tiền án, tiền sự"
+ },
+ {
+  "chinese": "潛力",
+  "level": "C1",
+  "pinyin": "qiánlì",
+  "meaning": "tiềm lực, tiềm năng"
+ },
+ {
+  "chinese": "牽連",
+  "level": "C1",
+  "pinyin": "qiānlián",
+  "meaning": "liên lụy, dính líu"
+ },
+ {
+  "chinese": "簽署",
+  "level": "C1",
+  "pinyin": "qiānshǔ",
+  "meaning": "ký, ký kết"
+ },
+ {
+  "chinese": "前提",
+  "level": "C1",
+  "pinyin": "qiántí",
+  "meaning": "tiền đề, điều kiện tiên quyết"
+ },
+ {
+  "chinese": "千萬",
+  "level": "C1",
+  "pinyin": "qiānwàn",
+  "meaning": "mười triệu, hàng nghìn vạn"
+ },
+ {
+  "chinese": "淺顯",
+  "level": "C1",
+  "pinyin": "qiǎnxiǎn",
+  "meaning": "dễ hiểu, đơn giản"
+ },
+ {
+  "chinese": "謙遜",
+  "level": "C1",
+  "pinyin": "qiānxùn",
+  "meaning": "khiêm tốn"
+ },
+ {
+  "chinese": "翹",
+  "level": "C1",
+  "pinyin": "qiào",
+  "meaning": "vênh lên, cong lên"
+ },
+ {
+  "chinese": "俏",
+  "level": "C1",
+  "pinyin": "qiào",
+  "meaning": "xinh xắn, duyên dáng"
+ },
+ {
+  "chinese": "峭壁",
+  "level": "C1",
+  "pinyin": "qiàobì",
+  "meaning": "vách đá dựng đứng"
+ },
+ {
+  "chinese": "瞧不起",
+  "level": "C1",
+  "pinyin": "qiáobùqǐ",
+  "meaning": "coi thường, xem thường"
+ },
+ {
+  "chinese": "巧合",
+  "level": "C1",
+  "pinyin": "qiǎohé",
+  "meaning": "trùng hợp, ngẫu nhiên"
+ },
+ {
+  "chinese": "翹課",
+  "level": "C1",
+  "pinyin": "qiàokè",
+  "meaning": "trốn học, bùng học"
+ },
+ {
+  "chinese": "橋樑",
+  "level": "C1",
+  "pinyin": "qiáoliáng",
+  "meaning": "cầu, cầu nối"
+ },
+ {
+  "chinese": "恰恰",
+  "level": "C1",
+  "pinyin": "qiàqià",
+  "meaning": "vừa đúng, chính là"
+ },
+ {
+  "chinese": "洽商",
+  "level": "C1",
+  "pinyin": "qiàshāng",
+  "meaning": "thương thảo, đàm phán"
+ },
+ {
+  "chinese": "洽談",
+  "level": "C1",
+  "pinyin": "qiàtán",
+  "meaning": "đàm phán, thương lượng"
+ },
+ {
+  "chinese": "起步",
+  "level": "C1",
+  "pinyin": "qǐbù",
+  "meaning": "bắt đầu, khởi bước"
+ },
+ {
+  "chinese": "且",
+  "level": "C1",
+  "pinyin": "qiě",
+  "meaning": "tạm thời, hãy cứ"
+ },
+ {
+  "chinese": "切磋",
+  "level": "C1",
+  "pinyin": "qiēcuō",
+  "meaning": "trao đổi, học hỏi lẫn nhau"
+ },
+ {
+  "chinese": "切實",
+  "level": "C1",
+  "pinyin": "qièshí",
+  "meaning": "thiết thực, thực tế"
+ },
+ {
+  "chinese": "竊賊",
+  "level": "C1",
+  "pinyin": "qièzéi",
+  "meaning": "kẻ trộm"
+ },
+ {
+  "chinese": "啟發",
+  "level": "C1",
+  "pinyin": "qǐfā",
+  "meaning": "gợi mở, khai sáng"
+ },
+ {
+  "chinese": "起伏",
+  "level": "C1",
+  "pinyin": "qǐfú",
+  "meaning": "nhấp nhô, thăng trầm"
+ },
+ {
+  "chinese": "氣概",
+  "level": "C1",
+  "pinyin": "qìgài",
+  "meaning": "khí phách, khí khái"
+ },
+ {
+  "chinese": "乞丐",
+  "level": "C1",
+  "pinyin": "qǐgài",
+  "meaning": "người ăn xin, kẻ ăn mày"
+ },
+ {
+  "chinese": "奇觀",
+  "level": "C1",
+  "pinyin": "qíguān",
+  "meaning": "kỳ quan"
+ },
+ {
+  "chinese": "氣管",
+  "level": "C1",
+  "pinyin": "qìguǎn",
+  "meaning": "khí quản"
+ },
+ {
+  "chinese": "期貨",
+  "level": "C1",
+  "pinyin": "qīhuò",
+  "meaning": "hàng hóa kỳ hạn, hợp đồng tương lai"
+ },
+ {
+  "chinese": "契機",
+  "level": "C1",
+  "pinyin": "qìjī",
+  "meaning": "cơ hội, thời cơ"
+ },
+ {
+  "chinese": "奇蹟",
+  "level": "C1",
+  "pinyin": "qíjì",
+  "meaning": "kỳ tích"
+ },
+ {
+  "chinese": "凄涼",
+  "level": "C1",
+  "pinyin": "qīliáng",
+  "meaning": "thê lương, hoang vắng"
+ },
+ {
+  "chinese": "起碼",
+  "level": "C1",
+  "pinyin": "qǐmǎ",
+  "meaning": "ít nhất, tối thiểu"
+ },
+ {
+  "chinese": "奇妙",
+  "level": "C1",
+  "pinyin": "qímiào",
+  "meaning": "kỳ diệu, tuyệt diệu"
+ },
+ {
+  "chinese": "琴",
+  "level": "C1",
+  "pinyin": "qín",
+  "meaning": "đàn"
+ },
+ {
+  "chinese": "親",
+  "level": "C1",
+  "pinyin": "qīn",
+  "meaning": "thân, thân thiết"
+ },
+ {
+  "chinese": "侵犯",
+  "level": "C1",
+  "pinyin": "qīnfàn",
+  "meaning": "xâm phạm"
+ },
+ {
+  "chinese": "勤奮",
+  "level": "C1",
+  "pinyin": "qínfèn",
+  "meaning": "cần cù, siêng năng"
+ },
+ {
+  "chinese": "情報",
+  "level": "C1",
+  "pinyin": "qíngbào",
+  "meaning": "tình báo, thông tin"
+ },
+ {
+  "chinese": "輕薄",
+  "level": "C1",
+  "pinyin": "qīngbó",
+  "meaning": "mỏng, nhẹ, phù phiếm"
+ },
+ {
+  "chinese": "情操",
+  "level": "C1",
+  "pinyin": "qíngcāo",
+  "meaning": "tình cảm và đạo đức, phẩm chất"
+ },
+ {
+  "chinese": "清澈",
+  "level": "C1",
+  "pinyin": "qīngchè",
+  "meaning": "trong vắt, trong trẻo"
+ },
+ {
+  "chinese": "青春",
+  "level": "C1",
+  "pinyin": "qīngchūn",
+  "meaning": "thanh xuân, tuổi trẻ"
+ },
+ {
+  "chinese": "青翠",
+  "level": "C1",
+  "pinyin": "qīngcuì",
+  "meaning": "xanh biếc, xanh tươi"
+ },
+ {
+  "chinese": "情婦",
+  "level": "C1",
+  "pinyin": "qíngfù",
+  "meaning": "tình nhân, bồ nhí"
+ },
+ {
+  "chinese": "情節",
+  "level": "C1",
+  "pinyin": "qíngjié",
+  "meaning": "tình tiết"
+ },
+ {
+  "chinese": "清潔",
+  "level": "C1",
+  "pinyin": "qīngjié",
+  "meaning": "sạch sẽ, trong sạch"
+ },
+ {
+  "chinese": "情景",
+  "level": "C1",
+  "pinyin": "qíngjǐng",
+  "meaning": "tình cảnh, cảnh tượng"
+ },
+ {
+  "chinese": "清靜",
+  "level": "C1",
+  "pinyin": "qīngjìng",
+  "meaning": "thanh tĩnh, yên tĩnh"
+ },
+ {
+  "chinese": "清廉",
+  "level": "C1",
+  "pinyin": "qīnglián",
+  "meaning": "thanh liêm, trong sạch"
+ },
+ {
+  "chinese": "情侶",
+  "level": "C1",
+  "pinyin": "qínglǚ",
+  "meaning": "cặp tình nhân, cặp đôi"
+ },
+ {
+  "chinese": "輕蔑",
+  "level": "C1",
+  "pinyin": "qīngmiè",
+  "meaning": "khinh miệt, coi thường"
+ },
+ {
+  "chinese": "情趣",
+  "level": "C1",
+  "pinyin": "qíngqù",
+  "meaning": "tình thú, sự thú vị"
+ },
+ {
+  "chinese": "清掃",
+  "level": "C1",
+  "pinyin": "qīngsǎo",
+  "meaning": "quét dọn, dọn dẹp"
+ },
+ {
+  "chinese": "青蛙",
+  "level": "C1",
+  "pinyin": "qīngwā",
+  "meaning": "con ếch"
+ },
+ {
+  "chinese": "傾向",
+  "level": "C1",
+  "pinyin": "qīngxiàng",
+  "meaning": "xu hướng, khuynh hướng"
+ },
+ {
+  "chinese": "慶幸",
+  "level": "C1",
+  "pinyin": "qìngxìng",
+  "meaning": "may mắn, vui mừng"
+ },
+ {
+  "chinese": "輕易",
+  "level": "C1",
+  "pinyin": "qīngyì",
+  "meaning": "dễ dàng"
+ },
+ {
+  "chinese": "清幽",
+  "level": "C1",
+  "pinyin": "qīngyōu",
+  "meaning": "thanh u, yên tĩnh và đẹp"
+ },
+ {
+  "chinese": "侵略",
+  "level": "C1",
+  "pinyin": "qīnlüè",
+  "meaning": "xâm lược"
+ },
+ {
+  "chinese": "欽佩",
+  "level": "C1",
+  "pinyin": "qīnpèi",
+  "meaning": "khâm phục, ngưỡng mộ"
+ },
+ {
+  "chinese": "親熱",
+  "level": "C1",
+  "pinyin": "qīnrè",
+  "meaning": "thân mật, nồng nhiệt"
+ },
+ {
+  "chinese": "親身",
+  "level": "C1",
+  "pinyin": "qīnshēn",
+  "meaning": "đích thân, tự mình trải nghiệm"
+ },
+ {
+  "chinese": "親生",
+  "level": "C1",
+  "pinyin": "qīnshēng",
+  "meaning": "ruột, đẻ"
+ },
+ {
+  "chinese": "侵蝕",
+  "level": "C1",
+  "pinyin": "qīnshí",
+  "meaning": "xâm thực, ăn mòn"
+ },
+ {
+  "chinese": "侵襲",
+  "level": "C1",
+  "pinyin": "qīnxí",
+  "meaning": "xâm chiếm, tấn công"
+ },
+ {
+  "chinese": "氣派",
+  "level": "C1",
+  "pinyin": "qìpài",
+  "meaning": "khí phách, oai phong"
+ },
+ {
+  "chinese": "棄權",
+  "level": "C1",
+  "pinyin": "qìquán",
+  "meaning": "bỏ phiếu trắng, bỏ cuộc"
+ },
+ {
+  "chinese": "啟事",
+  "level": "C1",
+  "pinyin": "qǐshì",
+  "meaning": "thông báo, cáo thị"
+ },
+ {
+  "chinese": "氣勢",
+  "level": "C1",
+  "pinyin": "qìshì",
+  "meaning": "khí thế"
+ },
+ {
+  "chinese": "啟示",
+  "level": "C1",
+  "pinyin": "qǐshì",
+  "meaning": "sự gợi mở, sự mặc khải"
+ },
+ {
+  "chinese": "氣體",
+  "level": "C1",
+  "pinyin": "qìtǐ",
+  "meaning": "thể khí, chất khí"
+ },
+ {
+  "chinese": "丘陵",
+  "level": "C1",
+  "pinyin": "qiūlíng",
+  "meaning": "đồi núi, gò đồi"
+ },
+ {
+  "chinese": "求學",
+  "level": "C1",
+  "pinyin": "qiúxué",
+  "meaning": "đi học, tìm con đường học vấn"
+ },
+ {
+  "chinese": "求助",
+  "level": "C1",
+  "pinyin": "qiúzhù",
+  "meaning": "cầu cứu, nhờ giúp đỡ"
+ },
+ {
+  "chinese": "欺侮",
+  "level": "C1",
+  "pinyin": "qīwǔ",
+  "meaning": "bắt nạt, ức hiếp"
+ },
+ {
+  "chinese": "氣壓",
+  "level": "C1",
+  "pinyin": "qìyā",
+  "meaning": "khí áp, áp suất không khí"
+ },
+ {
+  "chinese": "奇異",
+  "level": "C1",
+  "pinyin": "qíyì",
+  "meaning": "kỳ dị, kỳ lạ"
+ },
+ {
+  "chinese": "起源",
+  "level": "C1",
+  "pinyin": "qǐyuán",
+  "meaning": "nguồn gốc, khởi nguồn"
+ },
+ {
+  "chinese": "旗幟",
+  "level": "C1",
+  "pinyin": "qízhì",
+  "meaning": "lá cờ, ngọn cờ"
+ },
+ {
+  "chinese": "圈",
+  "level": "C1",
+  "pinyin": "quān",
+  "meaning": "khoanh tròn, vây quanh"
+ },
+ {
+  "chinese": "拳",
+  "level": "C1",
+  "pinyin": "quán",
+  "meaning": "quyền, cú đấm"
+ },
+ {
+  "chinese": "勸導",
+  "level": "C1",
+  "pinyin": "quàndǎo",
+  "meaning": "khuyên bảo, chỉ dẫn"
+ },
+ {
+  "chinese": "勸告",
+  "level": "C1",
+  "pinyin": "quàngào",
+  "meaning": "lời khuyên"
+ },
+ {
+  "chinese": "全力",
+  "level": "C1",
+  "pinyin": "quánlì",
+  "meaning": "toàn lực, hết sức"
+ },
+ {
+  "chinese": "權力",
+  "level": "C1",
+  "pinyin": "quánlì",
+  "meaning": "quyền lực"
+ },
+ {
+  "chinese": "全盤",
+  "level": "C1",
+  "pinyin": "quánpán",
+  "meaning": "toàn bộ, tất cả"
+ },
+ {
+  "chinese": "權威",
+  "level": "C1",
+  "pinyin": "quánwēi",
+  "meaning": "uy tín, quyền uy, chuyên gia"
+ },
+ {
+  "chinese": "權益",
+  "level": "C1",
+  "pinyin": "quányì",
+  "meaning": "quyền lợi và lợi ích"
+ },
+ {
+  "chinese": "泉源",
+  "level": "C1",
+  "pinyin": "quányuán",
+  "meaning": "nguồn, suối nguồn"
+ },
+ {
+  "chinese": "圈子",
+  "level": "C1",
+  "pinyin": "quānzi",
+  "meaning": "vòng, giới, nhóm"
+ },
+ {
+  "chinese": "取材",
+  "level": "C1",
+  "pinyin": "qǔcái",
+  "meaning": "lấy tài liệu, chọn đề tài"
+ },
+ {
+  "chinese": "渠道",
+  "level": "C1",
+  "pinyin": "qúdào",
+  "meaning": "kênh, con đường"
+ },
+ {
+  "chinese": "取締",
+  "level": "C1",
+  "pinyin": "qǔdì",
+  "meaning": "cấm, hủy bỏ"
+ },
+ {
+  "chinese": "確保",
+  "level": "C1",
+  "pinyin": "quèbǎo",
+  "meaning": "bảo đảm, chắc chắn"
+ },
+ {
+  "chinese": "確切",
+  "level": "C1",
+  "pinyin": "quèqiè",
+  "meaning": "chính xác, xác thực"
+ },
+ {
+  "chinese": "確實",
+  "level": "C1",
+  "pinyin": "quèshí",
+  "meaning": "quả thực, đích thực"
+ },
+ {
+  "chinese": "缺陷",
+  "level": "C1",
+  "pinyin": "quēxiàn",
+  "meaning": "khuyết điểm, thiếu sót"
+ },
+ {
+  "chinese": "屈服",
+  "level": "C1",
+  "pinyin": "qūfú",
+  "meaning": "khuất phục, đầu hàng"
+ },
+ {
+  "chinese": "群島",
+  "level": "C1",
+  "pinyin": "qúndǎo",
+  "meaning": "quần đảo"
+ },
+ {
+  "chinese": "群居",
+  "level": "C1",
+  "pinyin": "qúnjū",
+  "meaning": "sống bầy đàn, quần cư"
+ },
+ {
+  "chinese": "趨勢",
+  "level": "C1",
+  "pinyin": "qūshì",
+  "meaning": "xu thế, xu hướng"
+ },
+ {
+  "chinese": "趣味",
+  "level": "C1",
+  "pinyin": "qùwèi",
+  "meaning": "thú vị, sự hứng thú"
+ },
+ {
+  "chinese": "取樣",
+  "level": "C1",
+  "pinyin": "qǔyàng",
+  "meaning": "lấy mẫu"
+ },
+ {
+  "chinese": "取悅",
+  "level": "C1",
+  "pinyin": "qǔyuè",
+  "meaning": "lấy lòng, làm vui lòng"
+ },
+ {
+  "chinese": "嚷",
+  "level": "C1",
+  "pinyin": "rǎng",
+  "meaning": "la hét, làm ầm lên"
+ },
+ {
+  "chinese": "染料",
+  "level": "C1",
+  "pinyin": "rǎnliào",
+  "meaning": "thuốc nhuộm"
+ },
+ {
+  "chinese": "饒",
+  "level": "C1",
+  "pinyin": "ráo",
+  "meaning": "tha, tha thứ, thêm"
+ },
+ {
+  "chinese": "熱潮",
+  "level": "C1",
+  "pinyin": "rècháo",
+  "meaning": "trào lưu, cơn sốt"
+ },
+ {
+  "chinese": "熱帶",
+  "level": "C1",
+  "pinyin": "rèdài",
+  "meaning": "nhiệt đới"
+ },
+ {
+  "chinese": "任",
+  "level": "C1",
+  "pinyin": "rèn",
+  "meaning": "nhiệm kỳ, khóa"
+ },
+ {
+  "chinese": "仁愛",
+  "level": "C1",
+  "pinyin": "rén'ài",
+  "meaning": "nhân ái"
+ },
+ {
+  "chinese": "人次",
+  "level": "C1",
+  "pinyin": "réncì",
+  "meaning": "lượt người"
+ },
+ {
+  "chinese": "認錯",
+  "level": "C1",
+  "pinyin": "rèncuò",
+  "meaning": "nhận lỗi, nhận sai"
+ },
+ {
+  "chinese": "人道",
+  "level": "C1",
+  "pinyin": "réndào",
+  "meaning": "nhân đạo"
+ },
+ {
+  "chinese": "認定",
+  "level": "C1",
+  "pinyin": "rèndìng",
+  "meaning": "công nhận, xác định"
+ },
+ {
+  "chinese": "人禍",
+  "level": "C1",
+  "pinyin": "rénhuò",
+  "meaning": "nhân họa, tai họa do con người gây ra"
+ },
+ {
+  "chinese": "人際",
+  "level": "C1",
+  "pinyin": "rénjì",
+  "meaning": "quan hệ giữa người với người"
+ },
+ {
+  "chinese": "任期",
+  "level": "C1",
+  "pinyin": "rènqī",
+  "meaning": "nhiệm kỳ"
+ },
+ {
+  "chinese": "人情",
+  "level": "C1",
+  "pinyin": "rénqíng",
+  "meaning": "nhân tình, tình người"
+ },
+ {
+  "chinese": "人群",
+  "level": "C1",
+  "pinyin": "rénqún",
+  "meaning": "đám đông, quần chúng"
+ },
+ {
+  "chinese": "人士",
+  "level": "C1",
+  "pinyin": "rénshì",
+  "meaning": "nhân sĩ, người (trong một lĩnh vực)"
+ },
+ {
+  "chinese": "人手",
+  "level": "C1",
+  "pinyin": "rénshǒu",
+  "meaning": "nhân lực, nhân công"
+ },
+ {
+  "chinese": "忍痛",
+  "level": "C1",
+  "pinyin": "rěntòng",
+  "meaning": "nén đau, cắn răng chịu đựng"
+ },
+ {
+  "chinese": "人選",
+  "level": "C1",
+  "pinyin": "rénxuǎn",
+  "meaning": "người được chọn, ứng cử viên"
+ },
+ {
+  "chinese": "任意",
+  "level": "C1",
+  "pinyin": "rènyì",
+  "meaning": "tùy ý, tự do"
+ },
+ {
+  "chinese": "人造",
+  "level": "C1",
+  "pinyin": "rénzào",
+  "meaning": "nhân tạo"
+ },
+ {
+  "chinese": "熱水瓶",
+  "level": "C1",
+  "pinyin": "rèshuǐpíng",
+  "meaning": "bình thủy, phích nước"
+ },
+ {
+  "chinese": "日程",
+  "level": "C1",
+  "pinyin": "rìchéng",
+  "meaning": "lịch trình, chương trình nghị sự"
+ },
+ {
+  "chinese": "日光燈",
+  "level": "C1",
+  "pinyin": "rìguāngdēng",
+  "meaning": "đèn huỳnh quang"
+ },
+ {
+  "chinese": "日益",
+  "level": "C1",
+  "pinyin": "rìyì",
+  "meaning": "ngày càng"
+ },
+ {
+  "chinese": "溶",
+  "level": "C1",
+  "pinyin": "róng",
+  "meaning": "tan, hòa tan"
+ },
+ {
+  "chinese": "融合",
+  "level": "C1",
+  "pinyin": "rónghé",
+  "meaning": "dung hợp, hòa quyện"
+ },
+ {
+  "chinese": "溶化",
+  "level": "C1",
+  "pinyin": "rónghuà",
+  "meaning": "tan chảy, tan ra"
+ },
+ {
+  "chinese": "容量",
+  "level": "C1",
+  "pinyin": "róngliàng",
+  "meaning": "dung lượng, sức chứa"
+ },
+ {
+  "chinese": "容納",
+  "level": "C1",
+  "pinyin": "róngnà",
+  "meaning": "chứa, dung nạp"
+ },
+ {
+  "chinese": "容器",
+  "level": "C1",
+  "pinyin": "róngqì",
+  "meaning": "đồ chứa, vật chứa"
+ },
+ {
+  "chinese": "融洽",
+  "level": "C1",
+  "pinyin": "róngqià",
+  "meaning": "hòa hợp, hòa thuận"
+ },
+ {
+  "chinese": "容許",
+  "level": "C1",
+  "pinyin": "róngxǔ",
+  "meaning": "cho phép, dung thứ"
+ },
+ {
+  "chinese": "榮譽",
+  "level": "C1",
+  "pinyin": "róngyù",
+  "meaning": "danh dự, vinh dự"
+ },
+ {
+  "chinese": "揉",
+  "level": "C1",
+  "pinyin": "róu",
+  "meaning": "vò, xoa, dụi"
+ },
+ {
+  "chinese": "肉麻",
+  "level": "C1",
+  "pinyin": "ròumá",
+  "meaning": "sến sẩm, nổi da gà"
+ },
+ {
+  "chinese": "柔軟",
+  "level": "C1",
+  "pinyin": "róuruǎn",
+  "meaning": "mềm mại"
+ },
+ {
+  "chinese": "肉體",
+  "level": "C1",
+  "pinyin": "ròutǐ",
+  "meaning": "thể xác, nhục thể"
+ },
+ {
+  "chinese": "軟弱",
+  "level": "C1",
+  "pinyin": "ruǎnruò",
+  "meaning": "yếu đuối, mềm yếu"
+ },
+ {
+  "chinese": "軟體",
+  "level": "C1",
+  "pinyin": "ruǎntǐ",
+  "meaning": "phần mềm"
+ },
+ {
+  "chinese": "入超",
+  "level": "C1",
+  "pinyin": "rùchāo",
+  "meaning": "nhập siêu"
+ },
+ {
+  "chinese": "如此",
+  "level": "C1",
+  "pinyin": "rúcǐ",
+  "meaning": "như thế, như vậy"
+ },
+ {
+  "chinese": "儒家",
+  "level": "C1",
+  "pinyin": "rújiā",
+  "meaning": "Nho giáo, nhà Nho"
+ },
+ {
+  "chinese": "入口",
+  "level": "C1",
+  "pinyin": "rùkǒu",
+  "meaning": "ăn, cho vào miệng"
+ },
+ {
+  "chinese": "若",
+  "level": "C1",
+  "pinyin": "ruò",
+  "meaning": "nếu, nếu như"
+ },
+ {
+  "chinese": "若干",
+  "level": "C1",
+  "pinyin": "ruògān",
+  "meaning": "một vài, một số"
+ },
+ {
+  "chinese": "入世",
+  "level": "C1",
+  "pinyin": "rùshì",
+  "meaning": "nhập thế, tham gia vào đời"
+ },
+ {
+  "chinese": "撒",
+  "level": "C1",
+  "pinyin": "sǎ",
+  "meaning": "rắc, gieo"
+ },
+ {
+  "chinese": "灑",
+  "level": "C1",
+  "pinyin": "sǎ",
+  "meaning": "vẩy, rắc, tưới"
+ },
+ {
+  "chinese": "撒謊",
+  "level": "C1",
+  "pinyin": "sāhuǎng",
+  "meaning": "nói dối"
+ },
+ {
+  "chinese": "賽",
+  "level": "C1",
+  "pinyin": "sài",
+  "meaning": "thi đấu, đọ sức"
+ },
+ {
+  "chinese": "散布",
+  "level": "C1",
+  "pinyin": "sànbù",
+  "meaning": "phát tán, lan truyền"
+ },
+ {
+  "chinese": "喪生",
+  "level": "C1",
+  "pinyin": "sàngshēng",
+  "meaning": "thiệt mạng, tử vong"
+ },
+ {
+  "chinese": "喪事",
+  "level": "C1",
+  "pinyin": "sāngshì",
+  "meaning": "tang sự, đám ma"
+ },
+ {
+  "chinese": "嗓子",
+  "level": "C1",
+  "pinyin": "sǎngzi",
+  "meaning": "cổ họng, giọng"
+ },
+ {
+  "chinese": "散文",
+  "level": "C1",
+  "pinyin": "sǎnwén",
+  "meaning": "tản văn, văn xuôi"
+ },
+ {
+  "chinese": "騷動",
+  "level": "C1",
+  "pinyin": "sāodòng",
+  "meaning": "náo động, xôn xao"
+ },
+ {
+  "chinese": "嫂子",
+  "level": "C1",
+  "pinyin": "sǎozi",
+  "meaning": "chị dâu"
+ },
+ {
+  "chinese": "色澤",
+  "level": "C1",
+  "pinyin": "sèzé",
+  "meaning": "màu sắc, nước màu"
+ },
+ {
+  "chinese": "剎車",
+  "level": "C1",
+  "pinyin": "shāchē",
+  "meaning": "phanh xe, thắng xe"
+ },
+ {
+  "chinese": "傻瓜",
+  "level": "C1",
+  "pinyin": "shǎguā",
+  "meaning": "đồ ngốc, kẻ khờ"
+ },
+ {
+  "chinese": "擅長",
+  "level": "C1",
+  "pinyin": "shàncháng",
+  "meaning": "giỏi về, có sở trường"
+ },
+ {
+  "chinese": "閃電",
+  "level": "C1",
+  "pinyin": "shǎndiàn",
+  "meaning": "tia chớp, sấm chớp"
+ },
+ {
+  "chinese": "山峰",
+  "level": "C1",
+  "pinyin": "shānfēng",
+  "meaning": "đỉnh núi"
+ },
+ {
+  "chinese": "尚",
+  "level": "C1",
+  "pinyin": "shàng",
+  "meaning": "vẫn còn, còn"
+ },
+ {
+  "chinese": "賞",
+  "level": "C1",
+  "pinyin": "shǎng",
+  "meaning": "thưởng, ban thưởng, thưởng thức"
+ },
+ {
+  "chinese": "上品",
+  "level": "C1",
+  "pinyin": "shàngpǐn",
+  "meaning": "thượng phẩm"
+ },
+ {
+  "chinese": "傷害",
+  "level": "C1",
+  "pinyin": "shānghài",
+  "meaning": "sự tổn thương, sự gây hại"
+ },
+ {
+  "chinese": "上好",
+  "level": "C1",
+  "pinyin": "shànghǎo",
+  "meaning": "thượng hạng, tốt nhất"
+ },
+ {
+  "chinese": "上進",
+  "level": "C1",
+  "pinyin": "shàngjìn",
+  "meaning": "cầu tiến, có chí tiến thủ"
+ },
+ {
+  "chinese": "上空",
+  "level": "C1",
+  "pinyin": "shàngkōng",
+  "meaning": "trên không, bầu trời"
+ },
+ {
+  "chinese": "傷口",
+  "level": "C1",
+  "pinyin": "shāngkǒu",
+  "meaning": "vết thương"
+ },
+ {
+  "chinese": "上路",
+  "level": "C1",
+  "pinyin": "shànglù",
+  "meaning": "lên đường, khởi hành"
+ },
+ {
+  "chinese": "上門",
+  "level": "C1",
+  "pinyin": "shàngmén",
+  "meaning": "đến nhà, tới cửa"
+ },
+ {
+  "chinese": "商榷",
+  "level": "C1",
+  "pinyin": "shāngquè",
+  "meaning": "thương thảo, bàn bạc"
+ },
+ {
+  "chinese": "上司",
+  "level": "C1",
+  "pinyin": "shàngsī",
+  "meaning": "cấp trên, sếp"
+ },
+ {
+  "chinese": "商討",
+  "level": "C1",
+  "pinyin": "shāngtǎo",
+  "meaning": "thương thảo, thảo luận"
+ },
+ {
+  "chinese": "山谷",
+  "level": "C1",
+  "pinyin": "shāngǔ",
+  "meaning": "thung lũng, sơn cốc"
+ },
+ {
+  "chinese": "傷亡",
+  "level": "C1",
+  "pinyin": "shāngwáng",
+  "meaning": "thương vong"
+ },
+ {
+  "chinese": "上下",
+  "level": "C1",
+  "pinyin": "shàngxià",
+  "meaning": "lên xuống"
+ },
+ {
+  "chinese": "上旬",
+  "level": "C1",
+  "pinyin": "shàngxún",
+  "meaning": "thượng tuần (mười ngày đầu tháng)"
+ },
+ {
+  "chinese": "上演",
+  "level": "C1",
+  "pinyin": "shàngyǎn",
+  "meaning": "công diễn, trình diễn"
+ },
+ {
+  "chinese": "上癮",
+  "level": "C1",
+  "pinyin": "shàngyǐn",
+  "meaning": "nghiện, ghiền"
+ },
+ {
+  "chinese": "上漲",
+  "level": "C1",
+  "pinyin": "shàngzhǎng",
+  "meaning": "tăng giá, dâng lên"
+ },
+ {
+  "chinese": "山脈",
+  "level": "C1",
+  "pinyin": "shānmài",
+  "meaning": "dãy núi, mạch núi"
+ },
+ {
+  "chinese": "閃爍",
+  "level": "C1",
+  "pinyin": "shǎnshuò",
+  "meaning": "lấp lánh, nhấp nháy"
+ },
+ {
+  "chinese": "閃耀",
+  "level": "C1",
+  "pinyin": "shǎnyào",
+  "meaning": "tỏa sáng, lấp lánh"
+ },
+ {
+  "chinese": "燒香",
+  "level": "C1",
+  "pinyin": "shāoxiāng",
+  "meaning": "thắp hương, đốt nhang"
+ },
+ {
+  "chinese": "沙啞",
+  "level": "C1",
+  "pinyin": "shāyǎ",
+  "meaning": "khàn, khàn giọng"
+ },
+ {
+  "chinese": "設",
+  "level": "C1",
+  "pinyin": "shè",
+  "meaning": "thiết lập, thành lập"
+ },
+ {
+  "chinese": "奢侈",
+  "level": "C1",
+  "pinyin": "shēchǐ",
+  "meaning": "xa xỉ"
+ },
+ {
+  "chinese": "涉及",
+  "level": "C1",
+  "pinyin": "shèjí",
+  "meaning": "liên quan đến, dính líu đến"
+ },
+ {
+  "chinese": "射擊",
+  "level": "C1",
+  "pinyin": "shèjī",
+  "meaning": "bắn, xạ kích"
+ },
+ {
+  "chinese": "社論",
+  "level": "C1",
+  "pinyin": "shèlùn",
+  "meaning": "xã luận"
+ },
+ {
+  "chinese": "甚",
+  "level": "C1",
+  "pinyin": "shèn",
+  "meaning": "rất, vô cùng"
+ },
+ {
+  "chinese": "神",
+  "level": "C1",
+  "pinyin": "shén",
+  "meaning": "thần, thần kỳ"
+ },
+ {
+  "chinese": "深奧",
+  "level": "C1",
+  "pinyin": "shēn'ào",
+  "meaning": "sâu sắc, uyên thâm"
+ },
+ {
+  "chinese": "深沉",
+  "level": "C1",
+  "pinyin": "shēnchén",
+  "meaning": "sâu sắc, trầm lặng"
+ },
+ {
+  "chinese": "深度",
+  "level": "C1",
+  "pinyin": "shēndù",
+  "meaning": "độ sâu"
+ },
+ {
+  "chinese": "身段",
+  "level": "C1",
+  "pinyin": "shēnduàn",
+  "meaning": "vóc người, tư thế, vị thế"
+ },
+ {
+  "chinese": "盛",
+  "level": "C1",
+  "pinyin": "shèng",
+  "meaning": "thịnh, thịnh hành, đông"
+ },
+ {
+  "chinese": "省",
+  "level": "C1",
+  "pinyin": "shěng",
+  "meaning": "tỉnh"
+ },
+ {
+  "chinese": "聲稱",
+  "level": "C1",
+  "pinyin": "shēngchēng",
+  "meaning": "tuyên bố, quả quyết"
+ },
+ {
+  "chinese": "勝地",
+  "level": "C1",
+  "pinyin": "shèngdì",
+  "meaning": "thắng cảnh, danh lam thắng cảnh"
+ },
+ {
+  "chinese": "生火",
+  "level": "C1",
+  "pinyin": "shēnghuǒ",
+  "meaning": "nhóm lửa, nổi lửa"
+ },
+ {
+  "chinese": "生理",
+  "level": "C1",
+  "pinyin": "shēnglǐ",
+  "meaning": "sinh lý"
+ },
+ {
+  "chinese": "聲明",
+  "level": "C1",
+  "pinyin": "shēngmíng",
+  "meaning": "tuyên bố, bản tuyên bố"
+ },
+ {
+  "chinese": "生平",
+  "level": "C1",
+  "pinyin": "shēngpíng",
+  "meaning": "cuộc đời, sinh thời"
+ },
+ {
+  "chinese": "生氣",
+  "level": "C1",
+  "pinyin": "shēngqì",
+  "meaning": "sinh khí, sức sống"
+ },
+ {
+  "chinese": "升遷",
+  "level": "C1",
+  "pinyin": "shēngqiān",
+  "meaning": "thăng tiến, thăng chức"
+ },
+ {
+  "chinese": "生前",
+  "level": "C1",
+  "pinyin": "shēngqián",
+  "meaning": "lúc sinh thời, trước khi qua đời"
+ },
+ {
+  "chinese": "盛情",
+  "level": "C1",
+  "pinyin": "shèngqíng",
+  "meaning": "thịnh tình, lòng hiếu khách nồng hậu"
+ },
+ {
+  "chinese": "生人",
+  "level": "C1",
+  "pinyin": "shēngrén",
+  "meaning": "người lạ"
+ },
+ {
+  "chinese": "聲勢",
+  "level": "C1",
+  "pinyin": "shēngshì",
+  "meaning": "thanh thế, khí thế"
+ },
+ {
+  "chinese": "省事",
+  "level": "C1",
+  "pinyin": "shěngshì",
+  "meaning": "tiết kiệm công sức, đỡ phiền"
+ },
+ {
+  "chinese": "生死",
+  "level": "C1",
+  "pinyin": "shēngsǐ",
+  "meaning": "sinh tử, sống chết"
+ },
+ {
+  "chinese": "生態",
+  "level": "C1",
+  "pinyin": "shēngtài",
+  "meaning": "sinh thái"
+ },
+ {
+  "chinese": "生物",
+  "level": "C1",
+  "pinyin": "shēngwù",
+  "meaning": "sinh vật"
+ },
+ {
+  "chinese": "聖賢",
+  "level": "C1",
+  "pinyin": "shèngxián",
+  "meaning": "thánh hiền"
+ },
+ {
+  "chinese": "生效",
+  "level": "C1",
+  "pinyin": "shēngxiào",
+  "meaning": "có hiệu lực"
+ },
+ {
+  "chinese": "盛行",
+  "level": "C1",
+  "pinyin": "shèngxíng",
+  "meaning": "thịnh hành, lưu hành rộng rãi"
+ },
+ {
+  "chinese": "生硬",
+  "level": "C1",
+  "pinyin": "shēngyìng",
+  "meaning": "cứng nhắc, không tự nhiên"
+ },
+ {
+  "chinese": "生育",
+  "level": "C1",
+  "pinyin": "shēngyù",
+  "meaning": "sinh đẻ, sinh sản"
+ },
+ {
+  "chinese": "升值",
+  "level": "C1",
+  "pinyin": "shēngzhí",
+  "meaning": "tăng giá trị"
+ },
+ {
+  "chinese": "生殖",
+  "level": "C1",
+  "pinyin": "shēngzhí",
+  "meaning": "sinh sản, sinh thực"
+ },
+ {
+  "chinese": "盛裝",
+  "level": "C1",
+  "pinyin": "shèngzhuāng",
+  "meaning": "diện, ăn mặc lộng lẫy"
+ },
+ {
+  "chinese": "審核",
+  "level": "C1",
+  "pinyin": "shěnhé",
+  "meaning": "thẩm duyệt, xét duyệt"
+ },
+ {
+  "chinese": "深厚",
+  "level": "C1",
+  "pinyin": "shēnhòu",
+  "meaning": "sâu đậm, thâm hậu"
+ },
+ {
+  "chinese": "身教",
+  "level": "C1",
+  "pinyin": "shēnjiào",
+  "meaning": "gương mẫu, làm gương bằng hành động"
+ },
+ {
+  "chinese": "審判",
+  "level": "C1",
+  "pinyin": "shěnpàn",
+  "meaning": "xét xử, thẩm phán"
+ },
+ {
+  "chinese": "深切",
+  "level": "C1",
+  "pinyin": "shēnqiè",
+  "meaning": "sâu sắc, tha thiết"
+ },
+ {
+  "chinese": "神情",
+  "level": "C1",
+  "pinyin": "shénqíng",
+  "meaning": "thần thái, vẻ mặt"
+ },
+ {
+  "chinese": "深入",
+  "level": "C1",
+  "pinyin": "shēnrù",
+  "meaning": "đi sâu vào, thâm nhập"
+ },
+ {
+  "chinese": "滲入",
+  "level": "C1",
+  "pinyin": "shènrù",
+  "meaning": "thấm vào, xâm nhập"
+ },
+ {
+  "chinese": "審慎",
+  "level": "C1",
+  "pinyin": "shěnshèn",
+  "meaning": "thận trọng"
+ },
+ {
+  "chinese": "身為",
+  "level": "C1",
+  "pinyin": "shēnwéi",
+  "meaning": "với tư cách là, là"
+ },
+ {
+  "chinese": "審議",
+  "level": "C1",
+  "pinyin": "shěnyì",
+  "meaning": "thẩm nghị, xem xét"
+ },
+ {
+  "chinese": "深造",
+  "level": "C1",
+  "pinyin": "shēnzào",
+  "meaning": "học chuyên sâu, nâng cao"
+ },
+ {
+  "chinese": "伸張",
+  "level": "C1",
+  "pinyin": "shēnzhāng",
+  "meaning": "mở rộng, phát huy (công lý)"
+ },
+ {
+  "chinese": "身子",
+  "level": "C1",
+  "pinyin": "shēnzi",
+  "meaning": "thân thể, sức khỏe"
+ },
+ {
+  "chinese": "攝取",
+  "level": "C1",
+  "pinyin": "shèqǔ",
+  "meaning": "hấp thụ, nạp vào"
+ },
+ {
+  "chinese": "攝氏",
+  "level": "C1",
+  "pinyin": "shèshì",
+  "meaning": "độ C"
+ },
+ {
+  "chinese": "設施",
+  "level": "C1",
+  "pinyin": "shèshī",
+  "meaning": "cơ sở vật chất, thiết bị"
+ },
+ {
+  "chinese": "射手",
+  "level": "C1",
+  "pinyin": "shèshǒu",
+  "meaning": "xạ thủ"
+ },
+ {
+  "chinese": "奢望",
+  "level": "C1",
+  "pinyin": "shēwàng",
+  "meaning": "hy vọng hão huyền, mong ước xa vời"
+ },
+ {
+  "chinese": "涉嫌",
+  "level": "C1",
+  "pinyin": "shèxián",
+  "meaning": "bị tình nghi, có dính líu"
+ },
+ {
+  "chinese": "設想",
+  "level": "C1",
+  "pinyin": "shèxiǎng",
+  "meaning": "tưởng tượng, hình dung"
+ },
+ {
+  "chinese": "攝影機",
+  "level": "C1",
+  "pinyin": "shèyǐngjī",
+  "meaning": "máy quay phim"
+ },
+ {
+  "chinese": "拾",
+  "level": "C1",
+  "pinyin": "shí",
+  "meaning": "nhật, lượm"
+ },
+ {
+  "chinese": "失",
+  "level": "C1",
+  "pinyin": "shī",
+  "meaning": "mất, thất"
+ },
+ {
+  "chinese": "屎",
+  "level": "C1",
+  "pinyin": "shǐ",
+  "meaning": "phân, cứt"
+ },
+ {
+  "chinese": "勢必",
+  "level": "C1",
+  "pinyin": "shìbì",
+  "meaning": "tất sẽ, chắc chắn sẽ"
+ },
+ {
+  "chinese": "事變",
+  "level": "C1",
+  "pinyin": "shìbiàn",
+  "meaning": "sự biến, biến cố"
+ },
+ {
+  "chinese": "士兵",
+  "level": "C1",
+  "pinyin": "shìbīng",
+  "meaning": "binh sĩ, người lính"
+ },
+ {
+  "chinese": "世代",
+  "level": "C1",
+  "pinyin": "shìdài",
+  "meaning": "thế hệ, đời"
+ },
+ {
+  "chinese": "似的",
+  "level": "C1",
+  "pinyin": "shìde",
+  "meaning": "giống như, như thể"
+ },
+ {
+  "chinese": "實地",
+  "level": "C1",
+  "pinyin": "shídì",
+  "meaning": "thực địa, tại chỗ"
+ },
+ {
+  "chinese": "師範",
+  "level": "C1",
+  "pinyin": "shīfàn",
+  "meaning": "sư phạm"
+ },
+ {
+  "chinese": "示範",
+  "level": "C1",
+  "pinyin": "shìfàn",
+  "meaning": "làm mẫu, thị phạm"
+ },
+ {
+  "chinese": "釋放",
+  "level": "C1",
+  "pinyin": "shìfàng",
+  "meaning": "phóng thích, thả"
+ },
+ {
+  "chinese": "施肥",
+  "level": "C1",
+  "pinyin": "shīféi",
+  "meaning": "bón phân"
+ },
+ {
+  "chinese": "石膏",
+  "level": "C1",
+  "pinyin": "shígāo",
+  "meaning": "thạch cao"
+ },
+ {
+  "chinese": "事故",
+  "level": "C1",
+  "pinyin": "shìgù",
+  "meaning": "sự cố, tai nạn"
+ },
+ {
+  "chinese": "時光",
+  "level": "C1",
+  "pinyin": "shíguāng",
+  "meaning": "thời gian, năm tháng"
+ },
+ {
+  "chinese": "嗜好",
+  "level": "C1",
+  "pinyin": "shìhào",
+  "meaning": "sở thích, thói quen"
+ },
+ {
+  "chinese": "使喚",
+  "level": "C1",
+  "pinyin": "shǐhuàn",
+  "meaning": "sai khiến, ra lệnh"
+ },
+ {
+  "chinese": "世間",
+  "level": "C1",
+  "pinyin": "shìjiān",
+  "meaning": "thế gian, trần gian"
+ },
+ {
+  "chinese": "實踐",
+  "level": "C1",
+  "pinyin": "shíjiàn",
+  "meaning": "thực tiễn, thực hành"
+ },
+ {
+  "chinese": "使節",
+  "level": "C1",
+  "pinyin": "shǐjié",
+  "meaning": "sứ giả, đặc phái viên"
+ },
+ {
+  "chinese": "時節",
+  "level": "C1",
+  "pinyin": "shíjié",
+  "meaning": "thời tiết, mùa"
+ },
+ {
+  "chinese": "使勁",
+  "level": "C1",
+  "pinyin": "shǐjìn",
+  "meaning": "ra sức, gắng sức"
+ },
+ {
+  "chinese": "試卷",
+  "level": "C1",
+  "pinyin": "shìjuàn",
+  "meaning": "bài thi, đề thi (giấy)"
+ },
+ {
+  "chinese": "實況",
+  "level": "C1",
+  "pinyin": "shíkuàng",
+  "meaning": "tình hình thực tế, trực tiếp"
+ },
+ {
+  "chinese": "實例",
+  "level": "C1",
+  "pinyin": "shìlì",
+  "meaning": "ví dụ thực tế, trường hợp cụ thể"
+ },
+ {
+  "chinese": "史料",
+  "level": "C1",
+  "pinyin": "shǐliào",
+  "meaning": "sử liệu, tài liệu lịch sử"
+ },
+ {
+  "chinese": "失靈",
+  "level": "C1",
+  "pinyin": "shīlíng",
+  "meaning": "hỏng, mất tác dụng"
+ },
+ {
+  "chinese": "失落",
+  "level": "C1",
+  "pinyin": "shīluò",
+  "meaning": "mất mát, hụt hẫng"
+ },
+ {
+  "chinese": "時髦",
+  "level": "C1",
+  "pinyin": "shímáo",
+  "meaning": "thời thượng, hợp mốt"
+ },
+ {
+  "chinese": "市面",
+  "level": "C1",
+  "pinyin": "shìmiàn",
+  "meaning": "thị trường, mặt bằng chung (giá cả)"
+ },
+ {
+  "chinese": "失明",
+  "level": "C1",
+  "pinyin": "shīmíng",
+  "meaning": "mù, bị mù"
+ },
+ {
+  "chinese": "使命",
+  "level": "C1",
+  "pinyin": "shǐmìng",
+  "meaning": "sứ mệnh"
+ },
+ {
+  "chinese": "仕女",
+  "level": "C1",
+  "pinyin": "shìnǚ",
+  "meaning": "thục nữ, tiểu thư (thời xưa)"
+ },
+ {
+  "chinese": "市容",
+  "level": "C1",
+  "pinyin": "shìróng",
+  "meaning": "diện mạo thành phố, mỹ quan đô thị"
+ },
+ {
+  "chinese": "失事",
+  "level": "C1",
+  "pinyin": "shīshì",
+  "meaning": "gặp tai nạn (máy bay, tàu)"
+ },
+ {
+  "chinese": "世事",
+  "level": "C1",
+  "pinyin": "shìshì",
+  "meaning": "việc đời, thế sự"
+ },
+ {
+  "chinese": "逝世",
+  "level": "C1",
+  "pinyin": "shìshì",
+  "meaning": "tạ thế, qua đời (trang trọng)"
+ },
+ {
+  "chinese": "失手",
+  "level": "C1",
+  "pinyin": "shīshǒu",
+  "meaning": "lỡ tay, sẩy tay"
+ },
+ {
+  "chinese": "事態",
+  "level": "C1",
+  "pinyin": "shìtài",
+  "meaning": "tình hình, tình thế"
+ },
+ {
+  "chinese": "屍體",
+  "level": "C1",
+  "pinyin": "shītǐ",
+  "meaning": "thi thể, xác chết"
+ },
+ {
+  "chinese": "試圖",
+  "level": "C1",
+  "pinyin": "shìtú",
+  "meaning": "cố gắng, có ý định"
+ },
+ {
+  "chinese": "視為",
+  "level": "C1",
+  "pinyin": "shìwéi",
+  "meaning": "coi là, xem như"
+ },
+ {
+  "chinese": "事務",
+  "level": "C1",
+  "pinyin": "shìwù",
+  "meaning": "sự vụ, công việc"
+ },
+ {
+  "chinese": "實習",
+  "level": "C1",
+  "pinyin": "shíxí",
+  "meaning": "thực tập"
+ },
+ {
+  "chinese": "時效",
+  "level": "C1",
+  "pinyin": "shíxiào",
+  "meaning": "hiệu lực thời gian, thời hiệu"
+ },
+ {
+  "chinese": "施行",
+  "level": "C1",
+  "pinyin": "shīxíng",
+  "meaning": "thi hành, thực thi"
+ },
+ {
+  "chinese": "事宜",
+  "level": "C1",
+  "pinyin": "shìyí",
+  "meaning": "việc, những việc liên quan"
+ },
+ {
+  "chinese": "適宜",
+  "level": "C1",
+  "pinyin": "shìyí",
+  "meaning": "thích hợp, phù hợp"
+ },
+ {
+  "chinese": "實證",
+  "level": "C1",
+  "pinyin": "shízhèng",
+  "meaning": "chứng thực, bằng chứng thực tế"
+ },
+ {
+  "chinese": "實質",
+  "level": "C1",
+  "pinyin": "shízhì",
+  "meaning": "thực chất, bản chất"
+ },
+ {
+  "chinese": "適中",
+  "level": "C1",
+  "pinyin": "shìzhōng",
+  "meaning": "vừa phải, mức độ trung bình"
+ },
+ {
+  "chinese": "失蹤",
+  "level": "C1",
+  "pinyin": "shīzōng",
+  "meaning": "mất tích"
+ },
+ {
+  "chinese": "十足",
+  "level": "C1",
+  "pinyin": "shízú",
+  "meaning": "đầy đủ, mười phân"
+ },
+ {
+  "chinese": "守",
+  "level": "C1",
+  "pinyin": "shǒu",
+  "meaning": "giữ, tuân thủ, canh gác"
+ },
+ {
+  "chinese": "收藏",
+  "level": "C1",
+  "pinyin": "shōucáng",
+  "meaning": "sưu tầm, cất giữ"
+ },
+ {
+  "chinese": "手冊",
+  "level": "C1",
+  "pinyin": "shǒucè",
+  "meaning": "sổ tay, sách hướng dẫn"
+ },
+ {
+  "chinese": "首府",
+  "level": "C1",
+  "pinyin": "shǒufǔ",
+  "meaning": "thủ phủ"
+ },
+ {
+  "chinese": "受害",
+  "level": "C1",
+  "pinyin": "shòuhài",
+  "meaning": "bị hại, chịu thiệt hại"
+ },
+ {
+  "chinese": "守護",
+  "level": "C1",
+  "pinyin": "shǒuhù",
+  "meaning": "bảo vệ, canh giữ"
+ },
+ {
+  "chinese": "售貨員",
+  "level": "C1",
+  "pinyin": "shòuhuòyuán",
+  "meaning": "nhân viên bán hàng"
+ },
+ {
+  "chinese": "授課",
+  "level": "C1",
+  "pinyin": "shòukè",
+  "meaning": "giảng dạy, lên lớp"
+ },
+ {
+  "chinese": "狩獵",
+  "level": "C1",
+  "pinyin": "shòuliè",
+  "meaning": "săn bắn"
+ },
+ {
+  "chinese": "首領",
+  "level": "C1",
+  "pinyin": "shǒulǐng",
+  "meaning": "thủ lĩnh, người đứng đầu"
+ },
+ {
+  "chinese": "收買",
+  "level": "C1",
+  "pinyin": "shōumǎi",
+  "meaning": "mua chuộc, thu mua"
+ },
+ {
+  "chinese": "手槍",
+  "level": "C1",
+  "pinyin": "shǒuqiāng",
+  "meaning": "súng lục, súng ngắn"
+ },
+ {
+  "chinese": "手勢",
+  "level": "C1",
+  "pinyin": "shǒushì",
+  "meaning": "cử chỉ tay, ra hiệu bằng tay"
+ },
+ {
+  "chinese": "首飾",
+  "level": "C1",
+  "pinyin": "shǒushì",
+  "meaning": "trang sức, đồ trang sức"
+ },
+ {
+  "chinese": "收縮",
+  "level": "C1",
+  "pinyin": "shōusuō",
+  "meaning": "co lại, thu hẹp"
+ },
+ {
+  "chinese": "收聽",
+  "level": "C1",
+  "pinyin": "shōutīng",
+  "meaning": "nghe (đài)"
+ },
+ {
+  "chinese": "首席",
+  "level": "C1",
+  "pinyin": "shǒuxí",
+  "meaning": "đứng đầu, trưởng"
+ },
+ {
+  "chinese": "首先",
+  "level": "C1",
+  "pinyin": "shǒuxiān",
+  "meaning": "đầu tiên, trước hết"
+ },
+ {
+  "chinese": "壽星",
+  "level": "C1",
+  "pinyin": "shòuxīng",
+  "meaning": "người có sinh nhật, ông Thọ"
+ },
+ {
+  "chinese": "受訓",
+  "level": "C1",
+  "pinyin": "shòuxùn",
+  "meaning": "được huấn luyện, tham gia huấn luyện"
+ },
+ {
+  "chinese": "收益",
+  "level": "C1",
+  "pinyin": "shōuyì",
+  "meaning": "thu nhập, lợi nhuận"
+ },
+ {
+  "chinese": "首長",
+  "level": "C1",
+  "pinyin": "shǒuzhǎng",
+  "meaning": "thủ trưởng, người đứng đầu cơ quan"
+ },
+ {
+  "chinese": "梳",
+  "level": "C1",
+  "pinyin": "shū",
+  "meaning": "chải"
+ },
+ {
+  "chinese": "霜",
+  "level": "C1",
+  "pinyin": "shuāng",
+  "meaning": "sương giá, sương muối"
+ },
+ {
+  "chinese": "雙重",
+  "level": "C1",
+  "pinyin": "shuāngchóng",
+  "meaning": "hai mặt, song trùng"
+ },
+ {
+  "chinese": "雙打",
+  "level": "C1",
+  "pinyin": "shuāngdǎ",
+  "meaning": "đánh đôi (thể thao)"
+ },
+ {
+  "chinese": "爽快",
+  "level": "C1",
+  "pinyin": "shuǎngkuài",
+  "meaning": "sảng khoái, thẳng thắn"
+ },
+ {
+  "chinese": "書本",
+  "level": "C1",
+  "pinyin": "shūběn",
+  "meaning": "sách vở"
+ },
+ {
+  "chinese": "舒暢",
+  "level": "C1",
+  "pinyin": "shūchàng",
+  "meaning": "dễ chịu, sảng khoái"
+ },
+ {
+  "chinese": "疏導",
+  "level": "C1",
+  "pinyin": "shūdǎo",
+  "meaning": "khai thông, phân luồng"
+ },
+ {
+  "chinese": "束縛",
+  "level": "C1",
+  "pinyin": "shùfù",
+  "meaning": "trói buộc, ràng buộc"
+ },
+ {
+  "chinese": "水道",
+  "level": "C1",
+  "pinyin": "shuǐdào",
+  "meaning": "đường thủy, kênh đào"
+ },
+ {
+  "chinese": "水稻",
+  "level": "C1",
+  "pinyin": "shuǐdào",
+  "meaning": "lúa nước"
+ },
+ {
+  "chinese": "水晶",
+  "level": "C1",
+  "pinyin": "shuǐjīng",
+  "meaning": "pha lê, thạch anh"
+ },
+ {
+  "chinese": "水庫",
+  "level": "C1",
+  "pinyin": "shuǐkù",
+  "meaning": "hồ chứa nước, hồ thủy lợi"
+ },
+ {
+  "chinese": "水力",
+  "level": "C1",
+  "pinyin": "shuǐlì",
+  "meaning": "thủy lực, sức nước"
+ },
+ {
+  "chinese": "水泥",
+  "level": "C1",
+  "pinyin": "shuǐní",
+  "meaning": "xi măng"
+ },
+ {
+  "chinese": "水源",
+  "level": "C1",
+  "pinyin": "shuǐyuán",
+  "meaning": "nguồn nước"
+ },
+ {
+  "chinese": "水蒸氣",
+  "level": "C1",
+  "pinyin": "shuǐzhēngqì",
+  "meaning": "hơi nước"
+ },
+ {
+  "chinese": "數據",
+  "level": "C1",
+  "pinyin": "shùjù",
+  "meaning": "dữ liệu, số liệu"
+ },
+ {
+  "chinese": "書面",
+  "level": "C1",
+  "pinyin": "shùmiàn",
+  "meaning": "văn bản, giấy trắng mực đen"
+ },
+ {
+  "chinese": "樹苗",
+  "level": "C1",
+  "pinyin": "shùmiáo",
+  "meaning": "cây non, cây giống"
+ },
+ {
+  "chinese": "順從",
+  "level": "C1",
+  "pinyin": "shùncóng",
+  "meaning": "thuận theo, phục tùng"
+ },
+ {
+  "chinese": "瞬間",
+  "level": "C1",
+  "pinyin": "shùnjiān",
+  "meaning": "chốc lát, khoảnh khắc"
+ },
+ {
+  "chinese": "順應",
+  "level": "C1",
+  "pinyin": "shùnyìng",
+  "meaning": "thuận ứng, thích ứng với"
+ },
+ {
+  "chinese": "說謊",
+  "level": "C1",
+  "pinyin": "shuōhuǎng",
+  "meaning": "nói dối"
+ },
+ {
+  "chinese": "說笑",
+  "level": "C1",
+  "pinyin": "shuōxiào",
+  "meaning": "nói cười, trò chuyện vui vẻ"
+ },
+ {
+  "chinese": "疏散",
+  "level": "C1",
+  "pinyin": "shūsàn",
+  "meaning": "sơ tán"
+ },
+ {
+  "chinese": "書寫",
+  "level": "C1",
+  "pinyin": "shūxiě",
+  "meaning": "viết"
+ },
+ {
+  "chinese": "輸血",
+  "level": "C1",
+  "pinyin": "shūxuè",
+  "meaning": "truyền máu"
+ },
+ {
+  "chinese": "舒展",
+  "level": "C1",
+  "pinyin": "shūzhǎn",
+  "meaning": "duỗi, giãn ra"
+ },
+ {
+  "chinese": "思潮",
+  "level": "C1",
+  "pinyin": "sīcháo",
+  "meaning": "trào lưu tư tưởng"
+ },
+ {
+  "chinese": "絲毫",
+  "level": "C1",
+  "pinyin": "sīháo",
+  "meaning": "một chút, mảy may"
+ },
+ {
+  "chinese": "司令",
+  "level": "C1",
+  "pinyin": "sīlìng",
+  "meaning": "tư lệnh"
+ },
+ {
+  "chinese": "思念",
+  "level": "C1",
+  "pinyin": "sīniàn",
+  "meaning": "tư niệm, nhớ nhung"
+ },
+ {
+  "chinese": "思維",
+  "level": "C1",
+  "pinyin": "sīwéi",
+  "meaning": "tư duy"
+ },
+ {
+  "chinese": "斯文",
+  "level": "C1",
+  "pinyin": "sīwén",
+  "meaning": "nho nhã, lịch sự"
+ },
+ {
+  "chinese": "私心",
+  "level": "C1",
+  "pinyin": "sīxīn",
+  "meaning": "lòng riêng, tư tâm"
+ },
+ {
+  "chinese": "松樹",
+  "level": "C1",
+  "pinyin": "sōngshù",
+  "meaning": "cây thông"
+ },
+ {
+  "chinese": "慫恿",
+  "level": "C1",
+  "pinyin": "sǒngyǒng",
+  "meaning": "xúi giục, khuyến khích (làm việc xấu)"
+ },
+ {
+  "chinese": "蒐集",
+  "level": "C1",
+  "pinyin": "sōují",
+  "meaning": "sưu tập, thu thập"
+ },
+ {
+  "chinese": "算命",
+  "level": "C1",
+  "pinyin": "suànmìng",
+  "meaning": "bói toán, xem số mệnh"
+ },
+ {
+  "chinese": "算術",
+  "level": "C1",
+  "pinyin": "suànshù",
+  "meaning": "số học, phép tính"
+ },
+ {
+  "chinese": "俗稱",
+  "level": "C1",
+  "pinyin": "súchēng",
+  "meaning": "thường gọi là, tên tục"
+ },
+ {
+  "chinese": "隨",
+  "level": "C1",
+  "pinyin": "suí",
+  "meaning": "tùy, tùy theo"
+ },
+ {
+  "chinese": "隧道",
+  "level": "C1",
+  "pinyin": "suìdào",
+  "meaning": "đường hầm"
+ },
+ {
+  "chinese": "隨後",
+  "level": "C1",
+  "pinyin": "suìhòu",
+  "meaning": "sau đó, ngay sau đó"
+ },
+ {
+  "chinese": "隨即",
+  "level": "C1",
+  "pinyin": "suìjí",
+  "meaning": "ngay lập tức, tức thì"
+ },
+ {
+  "chinese": "隨身",
+  "level": "C1",
+  "pinyin": "suìshēn",
+  "meaning": "mang theo người"
+ },
+ {
+  "chinese": "雖說",
+  "level": "C1",
+  "pinyin": "suìshuō",
+  "meaning": "tuy nói là, mặc dù"
+ },
+ {
+  "chinese": "隨同",
+  "level": "C1",
+  "pinyin": "suìtóng",
+  "meaning": "cùng với, tháp tùng"
+ },
+ {
+  "chinese": "歲月",
+  "level": "C1",
+  "pinyin": "suìyuè",
+  "meaning": "năm tháng, thời gian"
+ },
+ {
+  "chinese": "訴苦",
+  "level": "C1",
+  "pinyin": "sùkǔ",
+  "meaning": "kể khổ, than khổ"
+ },
+ {
+  "chinese": "損",
+  "level": "C1",
+  "pinyin": "sǔn",
+  "meaning": "tổn hại, làm hỏng"
+ },
+ {
+  "chinese": "損害",
+  "level": "C1",
+  "pinyin": "sǔnhài",
+  "meaning": "làm tổn hại, gây thiệt hại"
+ },
+ {
+  "chinese": "損壞",
+  "level": "C1",
+  "pinyin": "sǔnhuài",
+  "meaning": "hư hỏng, phá hỏng"
+ },
+ {
+  "chinese": "損傷",
+  "level": "C1",
+  "pinyin": "sǔnshāng",
+  "meaning": "tổn thương, bị thương"
+ },
+ {
+  "chinese": "所得",
+  "level": "C1",
+  "pinyin": "suǒdé",
+  "meaning": "thu nhập, sở đắc"
+ },
+ {
+  "chinese": "索賠",
+  "level": "C1",
+  "pinyin": "suǒpéi",
+  "meaning": "đòi bồi thường"
+ },
+ {
+  "chinese": "瑣碎",
+  "level": "C1",
+  "pinyin": "suǒsuì",
+  "meaning": "vụn vặt, lặt vặt"
+ },
+ {
+  "chinese": "縮小",
+  "level": "C1",
+  "pinyin": "suōxiǎo",
+  "meaning": "thu nhỏ, thu hẹp"
+ },
+ {
+  "chinese": "所在",
+  "level": "C1",
+  "pinyin": "suǒzài",
+  "meaning": "nơi ở, vị trí"
+ },
+ {
+  "chinese": "俗語",
+  "level": "C1",
+  "pinyin": "súyǔ",
+  "meaning": "tục ngữ"
+ },
+ {
+  "chinese": "素質",
+  "level": "C1",
+  "pinyin": "sùzhì",
+  "meaning": "tố chất, phẩm chất"
+ },
+ {
+  "chinese": "塔",
+  "level": "C1",
+  "pinyin": "tǎ",
+  "meaning": "cái tháp"
+ },
+ {
+  "chinese": "台階",
+  "level": "C1",
+  "pinyin": "táijiē",
+  "meaning": "bậc thềm, bậc thang"
+ },
+ {
+  "chinese": "太平",
+  "level": "C1",
+  "pinyin": "tàipíng",
+  "meaning": "thái bình, yên ổn"
+ },
+ {
+  "chinese": "態勢",
+  "level": "C1",
+  "pinyin": "tàishì",
+  "meaning": "thế, tình thế"
+ },
+ {
+  "chinese": "痰",
+  "level": "C1",
+  "pinyin": "tán",
+  "meaning": "đờm, đàm"
+ },
+ {
+  "chinese": "貪",
+  "level": "C1",
+  "pinyin": "tān",
+  "meaning": "tham, tham lam"
+ },
+ {
+  "chinese": "探病",
+  "level": "C1",
+  "pinyin": "tànbìng",
+  "meaning": "thăm bệnh"
+ },
+ {
+  "chinese": "倘若",
+  "level": "C1",
+  "pinyin": "tǎngruò",
+  "meaning": "nếu, giả như"
+ },
+ {
+  "chinese": "堂堂",
+  "level": "C1",
+  "pinyin": "tángtáng",
+  "meaning": "đường đường, hoàng"
+ },
+ {
+  "chinese": "探究",
+  "level": "C1",
+  "pinyin": "tànjiù",
+  "meaning": "tìm tòi, nghiên cứu"
+ },
+ {
+  "chinese": "坦克",
+  "level": "C1",
+  "pinyin": "tǎnkè",
+  "meaning": "xe tăng"
+ },
+ {
+  "chinese": "談論",
+  "level": "C1",
+  "pinyin": "tánlùn",
+  "meaning": "thảo luận, bàn luận"
+ },
+ {
+  "chinese": "坦然",
+  "level": "C1",
+  "pinyin": "tǎnrán",
+  "meaning": "thản nhiên, bình thản"
+ },
+ {
+  "chinese": "探索",
+  "level": "C1",
+  "pinyin": "tànsuǒ",
+  "meaning": "thăm dò, khám phá"
+ },
+ {
+  "chinese": "探望",
+  "level": "C1",
+  "pinyin": "tànwàng",
+  "meaning": "thăm, thăm hỏi"
+ },
+ {
+  "chinese": "探險",
+  "level": "C1",
+  "pinyin": "tànxiǎn",
+  "meaning": "thám hiểm, mạo hiểm"
+ },
+ {
+  "chinese": "貪心",
+  "level": "C1",
+  "pinyin": "tānxīn",
+  "meaning": "tham lam"
+ },
+ {
+  "chinese": "彈性",
+  "level": "C1",
+  "pinyin": "tánxìng",
+  "meaning": "tính đàn hồi, sự linh hoạt"
+ },
+ {
+  "chinese": "套房",
+  "level": "C1",
+  "pinyin": "tàofáng",
+  "meaning": "phòng khép kín, căn hộ studio"
+ },
+ {
+  "chinese": "陶器",
+  "level": "C1",
+  "pinyin": "táoqì",
+  "meaning": "đồ gốm"
+ },
+ {
+  "chinese": "逃生",
+  "level": "C1",
+  "pinyin": "táoshēng",
+  "meaning": "thoát hiểm, chạy thoát thân"
+ },
+ {
+  "chinese": "逃稅",
+  "level": "C1",
+  "pinyin": "táoshuì",
+  "meaning": "trốn thuế"
+ },
+ {
+  "chinese": "淘汰",
+  "level": "C1",
+  "pinyin": "táotài",
+  "meaning": "loại bỏ, đào thải"
+ },
+ {
+  "chinese": "套裝",
+  "level": "C1",
+  "pinyin": "tàozhuāng",
+  "meaning": "bộ đồ, bộ com-lê"
+ },
+ {
+  "chinese": "他人",
+  "level": "C1",
+  "pinyin": "tārén",
+  "meaning": "người khác"
+ },
+ {
+  "chinese": "踏實",
+  "level": "C1",
+  "pinyin": "tàshí",
+  "meaning": "thiết thực, vững vàng, yên tâm"
+ },
+ {
+  "chinese": "特此",
+  "level": "C1",
+  "pinyin": "tècǐ",
+  "meaning": "nhân đây, đặc biệt"
+ },
+ {
+  "chinese": "疼愛",
+  "level": "C1",
+  "pinyin": "téng'ài",
+  "meaning": "yêu thương, thương yêu"
+ },
+ {
+  "chinese": "特區",
+  "level": "C1",
+  "pinyin": "tèqū",
+  "meaning": "đặc khu"
+ },
+ {
+  "chinese": "特權",
+  "level": "C1",
+  "pinyin": "tèquán",
+  "meaning": "đặc quyền"
+ },
+ {
+  "chinese": "特約",
+  "level": "C1",
+  "pinyin": "tèyuē",
+  "meaning": "đặc biệt mời, đặc ước"
+ },
+ {
+  "chinese": "特徵",
+  "level": "C1",
+  "pinyin": "tèzhēng",
+  "meaning": "đặc trưng, đặc điểm"
+ },
+ {
+  "chinese": "啼",
+  "level": "C1",
+  "pinyin": "tí",
+  "meaning": "kêu, hót, khóc"
+ },
+ {
+  "chinese": "添",
+  "level": "C1",
+  "pinyin": "tiān",
+  "meaning": "thêm, cho thêm"
+ },
+ {
+  "chinese": "田地",
+  "level": "C1",
+  "pinyin": "tiándì",
+  "meaning": "ruộng nương, đất ruộng"
+ },
+ {
+  "chinese": "天敵",
+  "level": "C1",
+  "pinyin": "tiāndí",
+  "meaning": "thiên địch"
+ },
+ {
+  "chinese": "田徑",
+  "level": "C1",
+  "pinyin": "tiánjìng",
+  "meaning": "điền kinh"
+ },
+ {
+  "chinese": "甜美",
+  "level": "C1",
+  "pinyin": "tiánměi",
+  "meaning": "ngọt ngào, dịu dàng"
+ },
+ {
+  "chinese": "天然氣",
+  "level": "C1",
+  "pinyin": "tiānránqì",
+  "meaning": "khí thiên nhiên, khí tự nhiên"
+ },
+ {
+  "chinese": "天性",
+  "level": "C1",
+  "pinyin": "tiānxìng",
+  "meaning": "thiên tính, bản tính"
+ },
+ {
+  "chinese": "天災",
+  "level": "C1",
+  "pinyin": "tiānzāi",
+  "meaning": "thiên tai"
+ },
+ {
+  "chinese": "調和",
+  "level": "C1",
+  "pinyin": "tiáohé",
+  "meaning": "điều hòa, hòa giải, hài hòa"
+ },
+ {
+  "chinese": "調節",
+  "level": "C1",
+  "pinyin": "tiáojié",
+  "meaning": "điều tiết, điều chỉnh"
+ },
+ {
+  "chinese": "條例",
+  "level": "C1",
+  "pinyin": "tiáolì",
+  "meaning": "điều lệ, quy định"
+ },
+ {
+  "chinese": "調皮",
+  "level": "C1",
+  "pinyin": "tiáopí",
+  "meaning": "nghịch ngợm, bướng bỉnh"
+ },
+ {
+  "chinese": "挑剔",
+  "level": "C1",
+  "pinyin": "tiāotì",
+  "meaning": "kén chọn, bới móc"
+ },
+ {
+  "chinese": "挑戰",
+  "level": "C1",
+  "pinyin": "tiǎozhàn",
+  "meaning": "sự thách thức, sự thử thách"
+ },
+ {
+  "chinese": "提拔",
+  "level": "C1",
+  "pinyin": "tíbá",
+  "meaning": "đề bạt, cất nhắc"
+ },
+ {
+  "chinese": "體操",
+  "level": "C1",
+  "pinyin": "tǐcāo",
+  "meaning": "thể dục dụng cụ"
+ },
+ {
+  "chinese": "提倡",
+  "level": "C1",
+  "pinyin": "tíchàng",
+  "meaning": "đề xướng, khởi xướng"
+ },
+ {
+  "chinese": "提出",
+  "level": "C1",
+  "pinyin": "tíchū",
+  "meaning": "đưa ra, đề xuất"
+ },
+ {
+  "chinese": "剔除",
+  "level": "C1",
+  "pinyin": "tīchú",
+  "meaning": "loại bỏ, gạt ra"
+ },
+ {
+  "chinese": "替代",
+  "level": "C1",
+  "pinyin": "tìdài",
+  "meaning": "thay thế"
+ },
+ {
+  "chinese": "體格",
+  "level": "C1",
+  "pinyin": "tǐgé",
+  "meaning": "thể cách, vóc người"
+ },
+ {
+  "chinese": "體積",
+  "level": "C1",
+  "pinyin": "tǐjī",
+  "meaning": "thể tích"
+ },
+ {
+  "chinese": "提及",
+  "level": "C1",
+  "pinyin": "tíjí",
+  "meaning": "nhắc đến, đề cập"
+ },
+ {
+  "chinese": "體諒",
+  "level": "C1",
+  "pinyin": "tǐliàng",
+  "meaning": "thông cảm, châm chước"
+ },
+ {
+  "chinese": "體面",
+  "level": "C1",
+  "pinyin": "tǐmiàn",
+  "meaning": "thể diện, lịch sự"
+ },
+ {
+  "chinese": "提名",
+  "level": "C1",
+  "pinyin": "tímíng",
+  "meaning": "đề cử"
+ },
+ {
+  "chinese": "停頓",
+  "level": "C1",
+  "pinyin": "tíngdùn",
+  "meaning": "dừng lại, ngưng lại"
+ },
+ {
+  "chinese": "停留",
+  "level": "C1",
+  "pinyin": "tíngliú",
+  "meaning": "dừng lại, ở lại"
+ },
+ {
+  "chinese": "聽寫",
+  "level": "C1",
+  "pinyin": "tīngxiě",
+  "meaning": "chính tả (nghe viết)"
+ },
+ {
+  "chinese": "停滯",
+  "level": "C1",
+  "pinyin": "tíngzhì",
+  "meaning": "đình trệ, ngưng trệ"
+ },
+ {
+  "chinese": "提升",
+  "level": "C1",
+  "pinyin": "tíshēng",
+  "meaning": "nâng cao, đề bạt"
+ },
+ {
+  "chinese": "體系",
+  "level": "C1",
+  "pinyin": "tǐxì",
+  "meaning": "hệ thống, thế hệ"
+ },
+ {
+  "chinese": "提議",
+  "level": "C1",
+  "pinyin": "tíyì",
+  "meaning": "đề nghị"
+ },
+ {
+  "chinese": "體質",
+  "level": "C1",
+  "pinyin": "tǐzhì",
+  "meaning": "thể chất"
+ },
+ {
+  "chinese": "通",
+  "level": "C1",
+  "pinyin": "tōng",
+  "meaning": "thông, cuộc (điện thoại), thông suốt"
+ },
+ {
+  "chinese": "同伴",
+  "level": "C1",
+  "pinyin": "tóngbàn",
+  "meaning": "bạn đồng hành"
+ },
+ {
+  "chinese": "通報",
+  "level": "C1",
+  "pinyin": "tōngbào",
+  "meaning": "thông báo"
+ },
+ {
+  "chinese": "通車",
+  "level": "C1",
+  "pinyin": "tōngchē",
+  "meaning": "thông xe"
+ },
+ {
+  "chinese": "通稱",
+  "level": "C1",
+  "pinyin": "tōngchēng",
+  "meaning": "thường gọi là, tên gọi chung"
+ },
+ {
+  "chinese": "痛恨",
+  "level": "C1",
+  "pinyin": "tònghèn",
+  "meaning": "căm hận, căm ghét"
+ },
+ {
+  "chinese": "同化",
+  "level": "C1",
+  "pinyin": "tónghuà",
+  "meaning": "đồng hóa"
+ },
+ {
+  "chinese": "通貨膨脹",
+  "level": "C1",
+  "pinyin": "tōnghuòpéngzhàng",
+  "meaning": "lạm phát"
+ },
+ {
+  "chinese": "通緝",
+  "level": "C1",
+  "pinyin": "tōngjī",
+  "meaning": "truy nã"
+ },
+ {
+  "chinese": "統計",
+  "level": "C1",
+  "pinyin": "tǒngjì",
+  "meaning": "thống kê"
+ },
+ {
+  "chinese": "統統",
+  "level": "C1",
+  "pinyin": "tǒngtǒng",
+  "meaning": "tất cả, toàn bộ"
+ },
+ {
+  "chinese": "同鄉",
+  "level": "C1",
+  "pinyin": "tóngxiāng",
+  "meaning": "đồng hương, người cùng quê"
+ },
+ {
+  "chinese": "同心",
+  "level": "C1",
+  "pinyin": "tóngxīn",
+  "meaning": "đồng tâm, đồng lòng"
+ },
+ {
+  "chinese": "通行",
+  "level": "C1",
+  "pinyin": "tōngxíng",
+  "meaning": "lưu thông, đi lại"
+ },
+ {
+  "chinese": "同性戀",
+  "level": "C1",
+  "pinyin": "tóngxìngliàn",
+  "meaning": "đồng tính luyến ái"
+ },
+ {
+  "chinese": "同業",
+  "level": "C1",
+  "pinyin": "tóngyè",
+  "meaning": "cùng ngành, cùng nghề"
+ },
+ {
+  "chinese": "通用",
+  "level": "C1",
+  "pinyin": "tōngyòng",
+  "meaning": "thông dụng, phổ biến"
+ },
+ {
+  "chinese": "統制",
+  "level": "C1",
+  "pinyin": "tǒngzhì",
+  "meaning": "khống chế, kiểm soát"
+ },
+ {
+  "chinese": "投保",
+  "level": "C1",
+  "pinyin": "tóubǎo",
+  "meaning": "mua bảo hiểm"
+ },
+ {
+  "chinese": "偷渡",
+  "level": "C1",
+  "pinyin": "tōudù",
+  "meaning": "vượt biên trái phép"
+ },
+ {
+  "chinese": "投機",
+  "level": "C1",
+  "pinyin": "tóujī",
+  "meaning": "đầu cơ, trục lợi"
+ },
+ {
+  "chinese": "偷懶",
+  "level": "C1",
+  "pinyin": "tōulǎn",
+  "meaning": "lười biếng, ăn gian"
+ },
+ {
+  "chinese": "透明",
+  "level": "C1",
+  "pinyin": "tòumíng",
+  "meaning": "trong suốt, minh bạch"
+ },
+ {
+  "chinese": "投入",
+  "level": "C1",
+  "pinyin": "tóurù",
+  "meaning": "đầu tư, hết mình"
+ },
+ {
+  "chinese": "圖",
+  "level": "C1",
+  "pinyin": "tú",
+  "meaning": "mưu đồ, tìm kiếm"
+ },
+ {
+  "chinese": "塗",
+  "level": "C1",
+  "pinyin": "tú",
+  "meaning": "sơn, bôi, trát"
+ },
+ {
+  "chinese": "團",
+  "level": "C1",
+  "pinyin": "tuán",
+  "meaning": "đoàn, vo tròn"
+ },
+ {
+  "chinese": "團聚",
+  "level": "C1",
+  "pinyin": "tuánjù",
+  "meaning": "đoàn tụ, sum họp"
+ },
+ {
+  "chinese": "團員",
+  "level": "C1",
+  "pinyin": "tuányuán",
+  "meaning": "đoàn viên, thành viên (đoàn thể)"
+ },
+ {
+  "chinese": "圖表",
+  "level": "C1",
+  "pinyin": "túbiǎo",
+  "meaning": "biểu đồ"
+ },
+ {
+  "chinese": "徒弟",
+  "level": "C1",
+  "pinyin": "túdì",
+  "meaning": "đồ đệ, học trò"
+ },
+ {
+  "chinese": "推測",
+  "level": "C1",
+  "pinyin": "tuīcè",
+  "meaning": "suy đoán, phỏng đoán"
+ },
+ {
+  "chinese": "推崇",
+  "level": "C1",
+  "pinyin": "tuīchóng",
+  "meaning": "tôn sùng, đề cao"
+ },
+ {
+  "chinese": "推出",
+  "level": "C1",
+  "pinyin": "tuīchū",
+  "meaning": "đưa ra, ra mắt"
+ },
+ {
+  "chinese": "退化",
+  "level": "C1",
+  "pinyin": "tuìhuà",
+  "meaning": "thoái hóa"
+ },
+ {
+  "chinese": "推選",
+  "level": "C1",
+  "pinyin": "tuīxuǎn",
+  "meaning": "bầu, đề cử"
+ },
+ {
+  "chinese": "突擊",
+  "level": "C1",
+  "pinyin": "tūjī",
+  "meaning": "đột kích, tấn công bất ngờ"
+ },
+ {
+  "chinese": "吞吞吐吐",
+  "level": "C1",
+  "pinyin": "tūntūntǔtǔ",
+  "meaning": "ấp úng, ngập ngừng"
+ },
+ {
+  "chinese": "託",
+  "level": "C1",
+  "pinyin": "tuō",
+  "meaning": "nhờ, ủy thác, nâng, đỡ"
+ },
+ {
+  "chinese": "拖累",
+  "level": "C1",
+  "pinyin": "tuōlěi",
+  "meaning": "làm liên lụy, làm gánh nặng"
+ },
+ {
+  "chinese": "脫身",
+  "level": "C1",
+  "pinyin": "tuōshēn",
+  "meaning": "thoát thân, thoát ra"
+ },
+ {
+  "chinese": "脫手",
+  "level": "C1",
+  "pinyin": "tuōshǒu",
+  "meaning": "bán được, tuột khỏi tay"
+ },
+ {
+  "chinese": "拖延",
+  "level": "C1",
+  "pinyin": "tuōyán",
+  "meaning": "trì hoãn, kéo dài"
+ },
+ {
+  "chinese": "土壤",
+  "level": "C1",
+  "pinyin": "tǔrǎng",
+  "meaning": "đất, thổ nhưỡng"
+ },
+ {
+  "chinese": "圖騰",
+  "level": "C1",
+  "pinyin": "túténg",
+  "meaning": "vật tổ, tô-tem"
+ },
+ {
+  "chinese": "突兀",
+  "level": "C1",
+  "pinyin": "tūwù",
+  "meaning": "đột ngột, bất ngờ"
+ },
+ {
+  "chinese": "外號",
+  "level": "C1",
+  "pinyin": "wàihào",
+  "meaning": "biệt hiệu, biệt danh"
+ },
+ {
+  "chinese": "外力",
+  "level": "C1",
+  "pinyin": "wàilì",
+  "meaning": "ngoại lực, sức mạnh bên ngoài"
+ },
+ {
+  "chinese": "外貿",
+  "level": "C1",
+  "pinyin": "wàimào",
+  "meaning": "ngoại thương"
+ },
+ {
+  "chinese": "外線",
+  "level": "C1",
+  "pinyin": "wàixiàn",
+  "meaning": "đường dây bên ngoài (điện thoại)"
+ },
+ {
+  "chinese": "外銷",
+  "level": "C1",
+  "pinyin": "wàixiāo",
+  "meaning": "bán ra nước ngoài, xuất khẩu"
+ },
+ {
+  "chinese": "外遇",
+  "level": "C1",
+  "pinyin": "wàiyù",
+  "meaning": "ngoại tình"
+ },
+ {
+  "chinese": "外在",
+  "level": "C1",
+  "pinyin": "wàizài",
+  "meaning": "bên ngoài, ngoại tại"
+ },
+ {
+  "chinese": "外資",
+  "level": "C1",
+  "pinyin": "wàizī",
+  "meaning": "vốn đầu tư nước ngoài"
+ },
+ {
+  "chinese": "挽",
+  "level": "C1",
+  "pinyin": "wǎn",
+  "meaning": "níu kéo, cứu vãn"
+ },
+ {
+  "chinese": "完備",
+  "level": "C1",
+  "pinyin": "wánbèi",
+  "meaning": "hoàn bị, đầy đủ"
+ },
+ {
+  "chinese": "萬分",
+  "level": "C1",
+  "pinyin": "wànfèn",
+  "meaning": "vô cùng, vạn phần"
+ },
+ {
+  "chinese": "亡國",
+  "level": "C1",
+  "pinyin": "wángguó",
+  "meaning": "mất nước, vong quốc"
+ },
+ {
+  "chinese": "旺季",
+  "level": "C1",
+  "pinyin": "wàngjì",
+  "meaning": "mùa cao điểm, mùa đông khách"
+ },
+ {
+  "chinese": "往來",
+  "level": "C1",
+  "pinyin": "wǎnglái",
+  "meaning": "qua lại, giao du"
+ },
+ {
+  "chinese": "旺盛",
+  "level": "C1",
+  "pinyin": "wàngshèng",
+  "meaning": "thịnh vượng, dồi dào"
+ },
+ {
+  "chinese": "挽救",
+  "level": "C1",
+  "pinyin": "wǎnjiù",
+  "meaning": "cứu vãn, cứu chữa"
+ },
+ {
+  "chinese": "玩弄",
+  "level": "C1",
+  "pinyin": "wànnòng",
+  "meaning": "chơi đùa, đùa giỡn (tình cảm)"
+ },
+ {
+  "chinese": "頑強",
+  "level": "C1",
+  "pinyin": "wánqiáng",
+  "meaning": "ngoan cường"
+ },
+ {
+  "chinese": "彎曲",
+  "level": "C1",
+  "pinyin": "wānqū",
+  "meaning": "cong, uốn lượn"
+ },
+ {
+  "chinese": "萬事",
+  "level": "C1",
+  "pinyin": "wànshì",
+  "meaning": "vạn sự, mọi việc"
+ },
+ {
+  "chinese": "萬歲",
+  "level": "C1",
+  "pinyin": "wànsuì",
+  "meaning": "vạn tuế, muôn năm"
+ },
+ {
+  "chinese": "萬萬",
+  "level": "C1",
+  "pinyin": "wànwàn",
+  "meaning": "tuyệt đối (thường dùng trong câu phủ định)"
+ },
+ {
+  "chinese": "萬物",
+  "level": "C1",
+  "pinyin": "wànwù",
+  "meaning": "vạn vật"
+ },
+ {
+  "chinese": "惋惜",
+  "level": "C1",
+  "pinyin": "wǎnxī",
+  "meaning": "tiếc nuối, đáng tiếc"
+ },
+ {
+  "chinese": "胃",
+  "level": "C1",
+  "pinyin": "wèi",
+  "meaning": "dạ dày, bao tử"
+ },
+ {
+  "chinese": "為",
+  "level": "C1",
+  "pinyin": "wéi",
+  "meaning": "là, làm"
+ },
+ {
+  "chinese": "違背",
+  "level": "C1",
+  "pinyin": "wéibèi",
+  "meaning": "làm trái, vi phạm"
+ },
+ {
+  "chinese": "未必",
+  "level": "C1",
+  "pinyin": "wèibì",
+  "meaning": "chưa chắc, không hẳn"
+ },
+ {
+  "chinese": "威風",
+  "level": "C1",
+  "pinyin": "wēifèng",
+  "meaning": "uy phong, oai vệ"
+ },
+ {
+  "chinese": "危害",
+  "level": "C1",
+  "pinyin": "wēihài",
+  "meaning": "gây nguy hại"
+ },
+ {
+  "chinese": "未婚夫",
+  "level": "C1",
+  "pinyin": "wèihūnfū",
+  "meaning": "vị hôn phu, chồng chưa cưới"
+ },
+ {
+  "chinese": "未婚妻",
+  "level": "C1",
+  "pinyin": "wèihūnqī",
+  "meaning": "vị hôn thê, vợ chưa cưới"
+ },
+ {
+  "chinese": "圍巾",
+  "level": "C1",
+  "pinyin": "wéijīn",
+  "meaning": "khăn quàng cổ"
+ },
+ {
+  "chinese": "胃口",
+  "level": "C1",
+  "pinyin": "wèikǒu",
+  "meaning": "khẩu vị, sự ngon miệng"
+ },
+ {
+  "chinese": "威力",
+  "level": "C1",
+  "pinyin": "wēilì",
+  "meaning": "uy lực, sức mạnh"
+ },
+ {
+  "chinese": "未免",
+  "level": "C1",
+  "pinyin": "wèimiǎn",
+  "meaning": "không khỏi, hơi, quá"
+ },
+ {
+  "chinese": "圍牆",
+  "level": "C1",
+  "pinyin": "wéiqiáng",
+  "meaning": "tường vây, hàng rào"
+ },
+ {
+  "chinese": "圍繞",
+  "level": "C1",
+  "pinyin": "wéirào",
+  "meaning": "xoay quanh, vây quanh"
+ },
+ {
+  "chinese": "為人",
+  "level": "C1",
+  "pinyin": "wéirén",
+  "meaning": "cách làm người, cách đối nhân xử thế"
+ },
+ {
+  "chinese": "微弱",
+  "level": "C1",
+  "pinyin": "wēiruò",
+  "meaning": "yếu ớt, mờ nhạt"
+ },
+ {
+  "chinese": "衛生",
+  "level": "C1",
+  "pinyin": "wèishēng",
+  "meaning": "vệ sinh"
+ },
+ {
+  "chinese": "為生",
+  "level": "C1",
+  "pinyin": "wéishēng",
+  "meaning": "kiếm sống, mưu sinh"
+ },
+ {
+  "chinese": "為首",
+  "level": "C1",
+  "pinyin": "wéishǒu",
+  "meaning": "đứng đầu, cầm đầu"
+ },
+ {
+  "chinese": "萎縮",
+  "level": "C1",
+  "pinyin": "wěisuō",
+  "meaning": "teo lại, co lại, suy thoái"
+ },
+ {
+  "chinese": "微小",
+  "level": "C1",
+  "pinyin": "wēixiǎo",
+  "meaning": "nhỏ bé, vi mô"
+ },
+ {
+  "chinese": "違約",
+  "level": "C1",
+  "pinyin": "wéiyuè",
+  "meaning": "vi phạm hợp đồng, bội ước"
+ },
+ {
+  "chinese": "為止",
+  "level": "C1",
+  "pinyin": "wéizhǐ",
+  "meaning": "cho đến nay, đến khi"
+ },
+ {
+  "chinese": "溫帶",
+  "level": "C1",
+  "pinyin": "wēndài",
+  "meaning": "ôn đới"
+ },
+ {
+  "chinese": "穩健",
+  "level": "C1",
+  "pinyin": "wěnjiàn",
+  "meaning": "vững vàng, thận trọng"
+ },
+ {
+  "chinese": "紊亂",
+  "level": "C1",
+  "pinyin": "wènluàn",
+  "meaning": "rối loạn, hỗn loạn"
+ },
+ {
+  "chinese": "文明",
+  "level": "C1",
+  "pinyin": "wénmíng",
+  "meaning": "văn minh"
+ },
+ {
+  "chinese": "聞名",
+  "level": "C1",
+  "pinyin": "wénmíng",
+  "meaning": "nổi tiếng, vang danh"
+ },
+ {
+  "chinese": "問世",
+  "level": "C1",
+  "pinyin": "wènshì",
+  "meaning": "ra mắt, ra đời"
+ },
+ {
+  "chinese": "文壇",
+  "level": "C1",
+  "pinyin": "wéntán",
+  "meaning": "văn đàn, giới văn học"
+ },
+ {
+  "chinese": "溫習",
+  "level": "C1",
+  "pinyin": "wénxí",
+  "meaning": "ôn tập, ôn lại"
+ },
+ {
+  "chinese": "文獻",
+  "level": "C1",
+  "pinyin": "wénxiàn",
+  "meaning": "văn hiến, tài liệu"
+ },
+ {
+  "chinese": "溫馴",
+  "level": "C1",
+  "pinyin": "wénxùn",
+  "meaning": "ngoan ngoãn, hiền lành (động vật)"
+ },
+ {
+  "chinese": "瘟疫",
+  "level": "C1",
+  "pinyin": "wēnyì",
+  "meaning": "ôn dịch, bệnh dịch"
+ },
+ {
+  "chinese": "臥",
+  "level": "C1",
+  "pinyin": "wò",
+  "meaning": "nằm"
+ },
+ {
+  "chinese": "蝸牛",
+  "level": "C1",
+  "pinyin": "wōniú",
+  "meaning": "ốc sên"
+ },
+ {
+  "chinese": "無比",
+  "level": "C1",
+  "pinyin": "wúbǐ",
+  "meaning": "vô cùng, không gì sánh bằng"
+ },
+ {
+  "chinese": "誤差",
+  "level": "C1",
+  "pinyin": "wùchā",
+  "meaning": "sai số"
+ },
+ {
+  "chinese": "物產",
+  "level": "C1",
+  "pinyin": "wùchǎn",
+  "meaning": "vật sản, sản vật"
+ },
+ {
+  "chinese": "烏龜",
+  "level": "C1",
+  "pinyin": "wūguī",
+  "meaning": "con rùa"
+ },
+ {
+  "chinese": "誤解",
+  "level": "C1",
+  "pinyin": "wùjiě",
+  "meaning": "hiểu lầm"
+ },
+ {
+  "chinese": "五金",
+  "level": "C1",
+  "pinyin": "wǔjīn",
+  "meaning": "ngũ kim, đồ kim khí"
+ },
+ {
+  "chinese": "武力",
+  "level": "C1",
+  "pinyin": "wǔlì",
+  "meaning": "vũ lực"
+ },
+ {
+  "chinese": "物品",
+  "level": "C1",
+  "pinyin": "wùpǐn",
+  "meaning": "vật phẩm, đồ vật"
+ },
+ {
+  "chinese": "汙染",
+  "level": "C1",
+  "pinyin": "wūrǎn",
+  "meaning": "sự ô nhiễm"
+ },
+ {
+  "chinese": "侮辱",
+  "level": "C1",
+  "pinyin": "wǔrǔ",
+  "meaning": "sỉ nhục, lăng mạ"
+ },
+ {
+  "chinese": "務實",
+  "level": "C1",
+  "pinyin": "wùshí",
+  "meaning": "thực tế, thực dụng"
+ },
+ {
+  "chinese": "武士",
+  "level": "C1",
+  "pinyin": "wǔshì",
+  "meaning": "võ sĩ"
+ },
+ {
+  "chinese": "物體",
+  "level": "C1",
+  "pinyin": "wùtǐ",
+  "meaning": "vật thể"
+ },
+ {
+  "chinese": "無線電",
+  "level": "C1",
+  "pinyin": "wúxiàndiàn",
+  "meaning": "radio, vô tuyến điện"
+ },
+ {
+  "chinese": "無形",
+  "level": "C1",
+  "pinyin": "wúxíng",
+  "meaning": "vô hình"
+ },
+ {
+  "chinese": "烏鴉",
+  "level": "C1",
+  "pinyin": "wūyā",
+  "meaning": "con quạ"
+ },
+ {
+  "chinese": "無疑",
+  "level": "C1",
+  "pinyin": "wúyí",
+  "meaning": "không nghi ngờ gì, chắc chắn"
+ },
+ {
+  "chinese": "武裝",
+  "level": "C1",
+  "pinyin": "wǔzhuāng",
+  "meaning": "vũ trang"
+ },
+ {
+  "chinese": "物資",
+  "level": "C1",
+  "pinyin": "wùzī",
+  "meaning": "vật tư"
+ },
+ {
+  "chinese": "席",
+  "level": "C1",
+  "pinyin": "xí",
+  "meaning": "suất, chỗ ngồi"
+ },
+ {
+  "chinese": "錫",
+  "level": "C1",
+  "pinyin": "xí",
+  "meaning": "thiếc"
+ },
+ {
+  "chinese": "下筆",
+  "level": "C1",
+  "pinyin": "xiàbǐ",
+  "meaning": "hạ bút, bắt đầu viết"
+ },
+ {
+  "chinese": "瑕疵",
+  "level": "C1",
+  "pinyin": "xiácī",
+  "meaning": "tì vết, khuyết điểm"
+ },
+ {
+  "chinese": "下跌",
+  "level": "C1",
+  "pinyin": "xiàdié",
+  "meaning": "giảm xuống, rớt giá"
+ },
+ {
+  "chinese": "峽谷",
+  "level": "C1",
+  "pinyin": "xiágǔ",
+  "meaning": "hẻm núi, thung lũng sâu"
+ },
+ {
+  "chinese": "下滑",
+  "level": "C1",
+  "pinyin": "xiàhuá",
+  "meaning": "trượt dốc, đi xuống"
+ },
+ {
+  "chinese": "下列",
+  "level": "C1",
+  "pinyin": "xiàliè",
+  "meaning": "sau đây, dưới đây"
+ },
+ {
+  "chinese": "掀",
+  "level": "C1",
+  "pinyin": "xiān",
+  "meaning": "lật, vén, đẩy lên"
+ },
+ {
+  "chinese": "仙丹",
+  "level": "C1",
+  "pinyin": "xiāndān",
+  "meaning": "tiên đan, thuốc tiên"
+ },
+ {
+  "chinese": "限度",
+  "level": "C1",
+  "pinyin": "xiàndù",
+  "meaning": "mức độ, giới hạn"
+ },
+ {
+  "chinese": "憲法",
+  "level": "C1",
+  "pinyin": "xiànfǎ",
+  "meaning": "hiến pháp"
+ },
+ {
+  "chinese": "鑲",
+  "level": "C1",
+  "pinyin": "xiāng",
+  "meaning": "khảm, nạm"
+ },
+ {
+  "chinese": "向",
+  "level": "C1",
+  "pinyin": "xiàng",
+  "meaning": "luôn, trước nay"
+ },
+ {
+  "chinese": "相傳",
+  "level": "C1",
+  "pinyin": "xiāngchuán",
+  "meaning": "tương truyền"
+ },
+ {
+  "chinese": "嚮導",
+  "level": "C1",
+  "pinyin": "xiàngdǎo",
+  "meaning": "hướng đạo, người dẫn đường"
+ },
+ {
+  "chinese": "相仿",
+  "level": "C1",
+  "pinyin": "xiāngfǎng",
+  "meaning": "tương tự, gần giống"
+ },
+ {
+  "chinese": "相符",
+  "level": "C1",
+  "pinyin": "xiāngfú",
+  "meaning": "phù hợp, tương ứng"
+ },
+ {
+  "chinese": "相繼",
+  "level": "C1",
+  "pinyin": "xiāngjì",
+  "meaning": "lần lượt, nối tiếp"
+ },
+ {
+  "chinese": "想開",
+  "level": "C1",
+  "pinyin": "xiǎngkāi",
+  "meaning": "nghĩ thoáng ra"
+ },
+ {
+  "chinese": "響亮",
+  "level": "C1",
+  "pinyin": "xiǎngliàng",
+  "meaning": "vang dội, kêu to"
+ },
+ {
+  "chinese": "相配",
+  "level": "C1",
+  "pinyin": "xiāngpèi",
+  "meaning": "xứng đôi, hợp nhau"
+ },
+ {
+  "chinese": "鄉土",
+  "level": "C1",
+  "pinyin": "xiāngtǔ",
+  "meaning": "quê hương, bản địa"
+ },
+ {
+  "chinese": "嚮往",
+  "level": "C1",
+  "pinyin": "xiàngwǎng",
+  "meaning": "hướng về, mong ước"
+ },
+ {
+  "chinese": "香皂",
+  "level": "C1",
+  "pinyin": "xiāngzào",
+  "meaning": "xà phòng thơm, xà bông"
+ },
+ {
+  "chinese": "象徵",
+  "level": "C1",
+  "pinyin": "xiàngzhēng",
+  "meaning": "tượng trưng, biểu tượng"
+ },
+ {
+  "chinese": "先後",
+  "level": "C1",
+  "pinyin": "xiānhòu",
+  "meaning": "trước sau, lần lượt"
+ },
+ {
+  "chinese": "現今",
+  "level": "C1",
+  "pinyin": "xiànjīn",
+  "meaning": "ngày nay, hiện nay"
+ },
+ {
+  "chinese": "先進",
+  "level": "C1",
+  "pinyin": "xiānjìn",
+  "meaning": "tiên tiến, người đi trước"
+ },
+ {
+  "chinese": "線路",
+  "level": "C1",
+  "pinyin": "xiànlù",
+  "meaning": "tuyến đường, đường dây"
+ },
+ {
+  "chinese": "鮮明",
+  "level": "C1",
+  "pinyin": "xiānmíng",
+  "meaning": "rõ nét, tươi sáng"
+ },
+ {
+  "chinese": "先驅",
+  "level": "C1",
+  "pinyin": "xiānqū",
+  "meaning": "người tiên phong"
+ },
+ {
+  "chinese": "陷入",
+  "level": "C1",
+  "pinyin": "xiànrù",
+  "meaning": "rơi vào, lún sâu vào"
+ },
+ {
+  "chinese": "獻身",
+  "level": "C1",
+  "pinyin": "xiànshēn",
+  "meaning": "dâng hiến, hiến thân"
+ },
+ {
+  "chinese": "先天",
+  "level": "C1",
+  "pinyin": "xiāntiān",
+  "meaning": "bẩm sinh, thiên tiên"
+ },
+ {
+  "chinese": "纖維",
+  "level": "C1",
+  "pinyin": "xiānwéi",
+  "meaning": "chất xơ, sợi"
+ },
+ {
+  "chinese": "顯現",
+  "level": "C1",
+  "pinyin": "xiǎnxiàn",
+  "meaning": "hiện ra, lộ ra"
+ },
+ {
+  "chinese": "現行",
+  "level": "C1",
+  "pinyin": "xiànxíng",
+  "meaning": "hiện hành"
+ },
+ {
+  "chinese": "鮮艷",
+  "level": "C1",
+  "pinyin": "xiānyàn",
+  "meaning": "tươi đẹp, sặc sỡ"
+ },
+ {
+  "chinese": "嫌疑",
+  "level": "C1",
+  "pinyin": "xiányí",
+  "meaning": "tình nghi, nghi ngờ"
+ },
+ {
+  "chinese": "現狀",
+  "level": "C1",
+  "pinyin": "xiànzhuàng",
+  "meaning": "hiện trạng"
+ },
+ {
+  "chinese": "消毒",
+  "level": "C1",
+  "pinyin": "xiāodú",
+  "meaning": "khử trùng, tiêu độc"
+ },
+ {
+  "chinese": "效法",
+  "level": "C1",
+  "pinyin": "xiàofǎ",
+  "meaning": "noi gương, học theo"
+ },
+ {
+  "chinese": "消防",
+  "level": "C1",
+  "pinyin": "xiāofáng",
+  "meaning": "phòng cháy chữa cháy, cứu hỏa"
+ },
+ {
+  "chinese": "消耗",
+  "level": "C1",
+  "pinyin": "xiāohào",
+  "meaning": "tiêu hao"
+ },
+ {
+  "chinese": "小夥子",
+  "level": "C1",
+  "pinyin": "xiǎohuǒzi",
+  "meaning": "chàng trai, thanh niên"
+ },
+ {
+  "chinese": "效勞",
+  "level": "C1",
+  "pinyin": "xiàoláo",
+  "meaning": "phục vụ, cống hiến sức lực"
+ },
+ {
+  "chinese": "效力",
+  "level": "C1",
+  "pinyin": "xiàolì",
+  "meaning": "hiệu lực"
+ },
+ {
+  "chinese": "消遣",
+  "level": "C1",
+  "pinyin": "xiāoqiǎn",
+  "meaning": "tiêu khiển, giải khuây"
+ },
+ {
+  "chinese": "瀟灑",
+  "level": "C1",
+  "pinyin": "xiāosǎ",
+  "meaning": "phóng khoáng, tiêu sái"
+ },
+ {
+  "chinese": "笑嘻嘻",
+  "level": "C1",
+  "pinyin": "xiàoxīxī",
+  "meaning": "cười hì hì, cười tủm tỉm"
+ },
+ {
+  "chinese": "逍遙",
+  "level": "C1",
+  "pinyin": "xiāoyáo",
+  "meaning": "tiêu dao, tự tại"
+ },
+ {
+  "chinese": "效忠",
+  "level": "C1",
+  "pinyin": "xiàozhōng",
+  "meaning": "trung thành, hết lòng phục vụ"
+ },
+ {
+  "chinese": "孝子",
+  "level": "C1",
+  "pinyin": "xiàozi",
+  "meaning": "người con có hiếu"
+ },
+ {
+  "chinese": "下水",
+  "level": "C1",
+  "pinyin": "xiàshuǐ",
+  "meaning": "xuống nước, hạ thủy"
+ },
+ {
+  "chinese": "下水道",
+  "level": "C1",
+  "pinyin": "xiàshuǐdào",
+  "meaning": "cống, cống ngầm"
+ },
+ {
+  "chinese": "狹小",
+  "level": "C1",
+  "pinyin": "xiáxiǎo",
+  "meaning": "chật hẹp, nhỏ hẹp"
+ },
+ {
+  "chinese": "下旬",
+  "level": "C1",
+  "pinyin": "xiàxún",
+  "meaning": "hạ tuần (mười ngày cuối tháng)"
+ },
+ {
+  "chinese": "狹窄",
+  "level": "C1",
+  "pinyin": "xiázhǎi",
+  "meaning": "chật hẹp, hẹp hòi"
+ },
+ {
+  "chinese": "協辦",
+  "level": "C1",
+  "pinyin": "xiébàn",
+  "meaning": "hiệp trợ, cùng tổ chức"
+ },
+ {
+  "chinese": "協定",
+  "level": "C1",
+  "pinyin": "xiédìng",
+  "meaning": "hiệp định"
+ },
+ {
+  "chinese": "協會",
+  "level": "C1",
+  "pinyin": "xiéhuì",
+  "meaning": "hiệp hội"
+ },
+ {
+  "chinese": "洩氣",
+  "level": "C1",
+  "pinyin": "xièqì",
+  "meaning": "nản lòng, xì hơi"
+ },
+ {
+  "chinese": "協商",
+  "level": "C1",
+  "pinyin": "xiéshāng",
+  "meaning": "hiệp thương, thương lượng"
+ },
+ {
+  "chinese": "寫實",
+  "level": "C1",
+  "pinyin": "xiěshí",
+  "meaning": "tả thực, hiện thực"
+ },
+ {
+  "chinese": "協調",
+  "level": "C1",
+  "pinyin": "xiétiáo",
+  "meaning": "điều phối, hài hòa"
+ },
+ {
+  "chinese": "協議",
+  "level": "C1",
+  "pinyin": "xiéyì",
+  "meaning": "thỏa thuận, hiệp nghị"
+ },
+ {
+  "chinese": "西服",
+  "level": "C1",
+  "pinyin": "xīfú",
+  "meaning": "âu phục, com-lê"
+ },
+ {
+  "chinese": "襲擊",
+  "level": "C1",
+  "pinyin": "xíjī",
+  "meaning": "tập kích, tấn công"
+ },
+ {
+  "chinese": "洗禮",
+  "level": "C1",
+  "pinyin": "xǐlǐ",
+  "meaning": "lễ rửa tội"
+ },
+ {
+  "chinese": "溪流",
+  "level": "C1",
+  "pinyin": "xīliú",
+  "meaning": "suối, dòng suối"
+ },
+ {
+  "chinese": "心愛",
+  "level": "C1",
+  "pinyin": "xīn'ài",
+  "meaning": "yêu quý, yêu dấu"
+ },
+ {
+  "chinese": "新潮",
+  "level": "C1",
+  "pinyin": "xīncháo",
+  "meaning": "hợp thời, tân thời"
+ },
+ {
+  "chinese": "性",
+  "level": "C1",
+  "pinyin": "xìng",
+  "meaning": "tính, giới tính, bản tính"
+ },
+ {
+  "chinese": "星辰",
+  "level": "C1",
+  "pinyin": "xīngchén",
+  "meaning": "sao, tinh tú"
+ },
+ {
+  "chinese": "興建",
+  "level": "C1",
+  "pinyin": "xīngjiàn",
+  "meaning": "xây dựng, kiến thiết"
+ },
+ {
+  "chinese": "興隆",
+  "level": "C1",
+  "pinyin": "xīnglóng",
+  "meaning": "hưng thịnh, phát đạt"
+ },
+ {
+  "chinese": "性能",
+  "level": "C1",
+  "pinyin": "xìngnéng",
+  "meaning": "tính năng"
+ },
+ {
+  "chinese": "興起",
+  "level": "C1",
+  "pinyin": "xīngqǐ",
+  "meaning": "nổi lên, hưng khởi"
+ },
+ {
+  "chinese": "性情",
+  "level": "C1",
+  "pinyin": "xìngqíng",
+  "meaning": "tính tình, tính cách"
+ },
+ {
+  "chinese": "行善",
+  "level": "C1",
+  "pinyin": "xíngshàn",
+  "meaning": "làm việc thiện"
+ },
+ {
+  "chinese": "刑事",
+  "level": "C1",
+  "pinyin": "xíngshì",
+  "meaning": "hình sự"
+ },
+ {
+  "chinese": "行使",
+  "level": "C1",
+  "pinyin": "xíngshǐ",
+  "meaning": "thi hành, thực hiện (quyền lực)"
+ },
+ {
+  "chinese": "形勢",
+  "level": "C1",
+  "pinyin": "xíngshì",
+  "meaning": "tình hình, thế cục"
+ },
+ {
+  "chinese": "型態",
+  "level": "C1",
+  "pinyin": "xíngtài",
+  "meaning": "hình thái, kiểu"
+ },
+ {
+  "chinese": "形態",
+  "level": "C1",
+  "pinyin": "xíngtài",
+  "meaning": "hình thái, hình dạng"
+ },
+ {
+  "chinese": "形體",
+  "level": "C1",
+  "pinyin": "xíngtǐ",
+  "meaning": "hình thể, vóc dáng"
+ },
+ {
+  "chinese": "行星",
+  "level": "C1",
+  "pinyin": "xīngxīng",
+  "meaning": "hành tinh"
+ },
+ {
+  "chinese": "形形色色",
+  "level": "C1",
+  "pinyin": "xíngxíngsèsè",
+  "meaning": "muôn hình vạn trạng, đủ loại"
+ },
+ {
+  "chinese": "行政",
+  "level": "C1",
+  "pinyin": "xíngzhèng",
+  "meaning": "hành chính"
+ },
+ {
+  "chinese": "興致",
+  "level": "C1",
+  "pinyin": "xìngzhì",
+  "meaning": "hứng thú, hưng khởi"
+ },
+ {
+  "chinese": "星座",
+  "level": "C1",
+  "pinyin": "xīngzuò",
+  "meaning": "chòm sao, cung hoàng đạo"
+ },
+ {
+  "chinese": "信賴",
+  "level": "C1",
+  "pinyin": "xìnlài",
+  "meaning": "tin cậy, tín nhiệm"
+ },
+ {
+  "chinese": "信念",
+  "level": "C1",
+  "pinyin": "xìnniàn",
+  "meaning": "niềm tin, tín niệm"
+ },
+ {
+  "chinese": "辛勤",
+  "level": "C1",
+  "pinyin": "xīnqín",
+  "meaning": "cần cù, siêng năng"
+ },
+ {
+  "chinese": "心軟",
+  "level": "C1",
+  "pinyin": "xīnruǎn",
+  "meaning": "mềm lòng, mủi lòng"
+ },
+ {
+  "chinese": "心事",
+  "level": "C1",
+  "pinyin": "xīnshì",
+  "meaning": "tâm sự, nỗi lòng"
+ },
+ {
+  "chinese": "新手",
+  "level": "C1",
+  "pinyin": "xīnshǒu",
+  "meaning": "người mới, lính mới"
+ },
+ {
+  "chinese": "心思",
+  "level": "C1",
+  "pinyin": "xīnsī",
+  "meaning": "tâm tư, suy nghĩ"
+ },
+ {
+  "chinese": "心酸",
+  "level": "C1",
+  "pinyin": "xīnsuān",
+  "meaning": "xót xa, chua xót"
+ },
+ {
+  "chinese": "辛酸",
+  "level": "C1",
+  "pinyin": "xīnsuān",
+  "meaning": "cay đắng, chua xót"
+ },
+ {
+  "chinese": "心態",
+  "level": "C1",
+  "pinyin": "xīntài",
+  "meaning": "tâm thái, thái độ"
+ },
+ {
+  "chinese": "心疼",
+  "level": "C1",
+  "pinyin": "xīnténg",
+  "meaning": "thương, xót"
+ },
+ {
+  "chinese": "信徒",
+  "level": "C1",
+  "pinyin": "xìntú",
+  "meaning": "tín đồ"
+ },
+ {
+  "chinese": "心胸",
+  "level": "C1",
+  "pinyin": "xīnxiōng",
+  "meaning": "tấm lòng, lòng dạ"
+ },
+ {
+  "chinese": "新穎",
+  "level": "C1",
+  "pinyin": "xīnyǐng",
+  "meaning": "mới lạ, độc đáo"
+ },
+ {
+  "chinese": "胸",
+  "level": "C1",
+  "pinyin": "xiōng",
+  "meaning": "ngực"
+ },
+ {
+  "chinese": "胸口",
+  "level": "C1",
+  "pinyin": "xiōngkǒu",
+  "meaning": "trước ngực"
+ },
+ {
+  "chinese": "喜氣",
+  "level": "C1",
+  "pinyin": "xǐqì",
+  "meaning": "không khí vui mừng, hỷ khí"
+ },
+ {
+  "chinese": "戲曲",
+  "level": "C1",
+  "pinyin": "xìqǔ",
+  "meaning": "hí kịch, tuồng"
+ },
+ {
+  "chinese": "昔日",
+  "level": "C1",
+  "pinyin": "xīrì",
+  "meaning": "ngày xưa, trước đây"
+ },
+ {
+  "chinese": "習題",
+  "level": "C1",
+  "pinyin": "xítí",
+  "meaning": "bài tập"
+ },
+ {
+  "chinese": "繡",
+  "level": "C1",
+  "pinyin": "xiù",
+  "meaning": "thêu"
+ },
+ {
+  "chinese": "修補",
+  "level": "C1",
+  "pinyin": "xiūbǔ",
+  "meaning": "sửa chữa, vá"
+ },
+ {
+  "chinese": "修訂",
+  "level": "C1",
+  "pinyin": "xiūdìng",
+  "meaning": "sửa đổi, tu đính"
+ },
+ {
+  "chinese": "修建",
+  "level": "C1",
+  "pinyin": "xiūjiàn",
+  "meaning": "xây dựng, sửa chữa"
+ },
+ {
+  "chinese": "修女",
+  "level": "C1",
+  "pinyin": "xiūnǚ",
+  "meaning": "nữ tu, sơ"
+ },
+ {
+  "chinese": "修養",
+  "level": "C1",
+  "pinyin": "xiūyǎng",
+  "meaning": "tu dưỡng"
+ },
+ {
+  "chinese": "修築",
+  "level": "C1",
+  "pinyin": "xiūzhù",
+  "meaning": "xây dựng, tu sửa (đường, cầu)"
+ },
+ {
+  "chinese": "席位",
+  "level": "C1",
+  "pinyin": "xíwèi",
+  "meaning": "chỗ ngồi, ghế (trong nghị viện)"
+ },
+ {
+  "chinese": "西洋",
+  "level": "C1",
+  "pinyin": "xīyáng",
+  "meaning": "phương Tây, Tây Dương"
+ },
+ {
+  "chinese": "西醫",
+  "level": "C1",
+  "pinyin": "xīyī",
+  "meaning": "Tây y, bác sĩ Tây y"
+ },
+ {
+  "chinese": "喜悅",
+  "level": "C1",
+  "pinyin": "xǐyuè",
+  "meaning": "vui sướng, hân hoan"
+ },
+ {
+  "chinese": "許",
+  "level": "C1",
+  "pinyin": "xǔ",
+  "meaning": "hứa, cho phép, khoảng"
+ },
+ {
+  "chinese": "選拔",
+  "level": "C1",
+  "pinyin": "xuǎnbá",
+  "meaning": "tuyền chọn"
+ },
+ {
+  "chinese": "宣稱",
+  "level": "C1",
+  "pinyin": "xuānchēng",
+  "meaning": "tuyên bố, quả quyết"
+ },
+ {
+  "chinese": "宣告",
+  "level": "C1",
+  "pinyin": "xuāngào",
+  "meaning": "tuyên cáo, tuyên bố"
+ },
+ {
+  "chinese": "選購",
+  "level": "C1",
+  "pinyin": "xuǎngòu",
+  "meaning": "chọn mua"
+ },
+ {
+  "chinese": "旋律",
+  "level": "C1",
+  "pinyin": "xuánlǜ",
+  "meaning": "giai điệu"
+ },
+ {
+  "chinese": "選民",
+  "level": "C1",
+  "pinyin": "xuǎnmín",
+  "meaning": "cử tri"
+ },
+ {
+  "chinese": "選票",
+  "level": "C1",
+  "pinyin": "xuǎnpiào",
+  "meaning": "phiếu bầu"
+ },
+ {
+  "chinese": "宣示",
+  "level": "C1",
+  "pinyin": "xuānshì",
+  "meaning": "tuyên thệ, thể hiện rõ"
+ },
+ {
+  "chinese": "宣誓",
+  "level": "C1",
+  "pinyin": "xuānshì",
+  "meaning": "tuyên thệ"
+ },
+ {
+  "chinese": "懸殊",
+  "level": "C1",
+  "pinyin": "xuánshū",
+  "meaning": "chênh lệch, cách biệt"
+ },
+ {
+  "chinese": "選修",
+  "level": "C1",
+  "pinyin": "xuǎnxiū",
+  "meaning": "chọn học (môn tự chọn)"
+ },
+ {
+  "chinese": "懸崖",
+  "level": "C1",
+  "pinyin": "xuányá",
+  "meaning": "vách đá cheo leo"
+ },
+ {
+  "chinese": "宣言",
+  "level": "C1",
+  "pinyin": "xuānyán",
+  "meaning": "bản tuyên ngôn"
+ },
+ {
+  "chinese": "宣揚",
+  "level": "C1",
+  "pinyin": "xuānyáng",
+  "meaning": "tuyên dương, quảng bá"
+ },
+ {
+  "chinese": "旋轉",
+  "level": "C1",
+  "pinyin": "xuánzhuǎn",
+  "meaning": "xoay, quay tròn"
+ },
+ {
+  "chinese": "許多",
+  "level": "C1",
+  "pinyin": "xǔduō",
+  "meaning": "rất nhiều"
+ },
+ {
+  "chinese": "學分",
+  "level": "C1",
+  "pinyin": "xuéfèn",
+  "meaning": "tín chỉ"
+ },
+ {
+  "chinese": "血汗",
+  "level": "C1",
+  "pinyin": "xuèhàn",
+  "meaning": "mồ hôi nước mắt, mồ hôi xương máu"
+ },
+ {
+  "chinese": "血跡",
+  "level": "C1",
+  "pinyin": "xuèjì",
+  "meaning": "vết máu"
+ },
+ {
+  "chinese": "學科",
+  "level": "C1",
+  "pinyin": "xuékē",
+  "meaning": "môn học, ngành học"
+ },
+ {
+  "chinese": "學年",
+  "level": "C1",
+  "pinyin": "xuénián",
+  "meaning": "năm học"
+ },
+ {
+  "chinese": "雪人",
+  "level": "C1",
+  "pinyin": "xuěrén",
+  "meaning": "người tuyết"
+ },
+ {
+  "chinese": "削弱",
+  "level": "C1",
+  "pinyin": "xuēruò",
+  "meaning": "làm suy yếu"
+ },
+ {
+  "chinese": "學識",
+  "level": "C1",
+  "pinyin": "xuèshí",
+  "meaning": "học thức, kiến thức"
+ },
+ {
+  "chinese": "學說",
+  "level": "C1",
+  "pinyin": "xuéshuō",
+  "meaning": "học thuyết"
+ },
+ {
+  "chinese": "學徒",
+  "level": "C1",
+  "pinyin": "xuétú",
+  "meaning": "học việc, người học nghề"
+ },
+ {
+  "chinese": "血壓",
+  "level": "C1",
+  "pinyin": "xuèyā",
+  "meaning": "huyết áp"
+ },
+ {
+  "chinese": "學員",
+  "level": "C1",
+  "pinyin": "xuévuán",
+  "meaning": "học viên"
+ },
+ {
+  "chinese": "學制",
+  "level": "C1",
+  "pinyin": "xuèzhì",
+  "meaning": "hệ thống giáo dục"
+ },
+ {
+  "chinese": "酗酒",
+  "level": "C1",
+  "pinyin": "xùjiǔ",
+  "meaning": "nghiện rượu, bợm rượu"
+ },
+ {
+  "chinese": "許久",
+  "level": "C1",
+  "pinyin": "xǔjiǔ",
+  "meaning": "rất lâu, một lúc lâu"
+ },
+ {
+  "chinese": "許可",
+  "level": "C1",
+  "pinyin": "xǔkě",
+  "meaning": "cho phép, cấp phép"
+ },
+ {
+  "chinese": "序幕",
+  "level": "C1",
+  "pinyin": "xùmù",
+  "meaning": "màn mở đầu, khúc dạo đầu"
+ },
+ {
+  "chinese": "訓",
+  "level": "C1",
+  "pinyin": "xùn",
+  "meaning": "dạy bảo, huấn luyện"
+ },
+ {
+  "chinese": "循環",
+  "level": "C1",
+  "pinyin": "xúnhuán",
+  "meaning": "sự tuần hoàn, vòng tuần hoàn"
+ },
+ {
+  "chinese": "虛擬",
+  "level": "C1",
+  "pinyin": "xūnǐ",
+  "meaning": "ảo, hư cấu"
+ },
+ {
+  "chinese": "巡邏",
+  "level": "C1",
+  "pinyin": "xúnluó",
+  "meaning": "tuần tra"
+ },
+ {
+  "chinese": "巡視",
+  "level": "C1",
+  "pinyin": "xúnshì",
+  "meaning": "tuần tra, đi thị sát"
+ },
+ {
+  "chinese": "詢問",
+  "level": "C1",
+  "pinyin": "xúnwèn",
+  "meaning": "hỏi, tra hỏi"
+ },
+ {
+  "chinese": "敘述",
+  "level": "C1",
+  "pinyin": "xùshù",
+  "meaning": "tường thuật, kể lại"
+ },
+ {
+  "chinese": "虛心",
+  "level": "C1",
+  "pinyin": "xūxīn",
+  "meaning": "khiêm tốn, cầu thị"
+ },
+ {
+  "chinese": "芽",
+  "level": "C1",
+  "pinyin": "yá",
+  "meaning": "mầm, chồi"
+ },
+ {
+  "chinese": "押",
+  "level": "C1",
+  "pinyin": "yā",
+  "meaning": "áp giải, cầm cố"
+ },
+ {
+  "chinese": "啞",
+  "level": "C1",
+  "pinyin": "yǎ",
+  "meaning": "câm, không nói được"
+ },
+ {
+  "chinese": "亞軍",
+  "level": "C1",
+  "pinyin": "yàjūn",
+  "meaning": "á quân"
+ },
+ {
+  "chinese": "牙科",
+  "level": "C1",
+  "pinyin": "yákē",
+  "meaning": "nha khoa"
+ },
+ {
+  "chinese": "淹",
+  "level": "C1",
+  "pinyin": "yān",
+  "meaning": "ngập, lụt, chìm"
+ },
+ {
+  "chinese": "燕子",
+  "level": "C1",
+  "pinyin": "yànzi",
+  "meaning": "con chim én"
+ },
+ {
+  "chinese": "演變",
+  "level": "C1",
+  "pinyin": "yǎnbiàn",
+  "meaning": "diễn biến, biến đổi"
+ },
+ {
+  "chinese": "延遲",
+  "level": "C1",
+  "pinyin": "yánchí",
+  "meaning": "trì hoãn, chậm trễ"
+ },
+ {
+  "chinese": "仰",
+  "level": "C1",
+  "pinyin": "yǎng",
+  "meaning": "ngẩng, ngước"
+ },
+ {
+  "chinese": "養分",
+  "level": "C1",
+  "pinyin": "yǎngfèn",
+  "meaning": "chất dinh dưỡng"
+ },
+ {
+  "chinese": "養老",
+  "level": "C1",
+  "pinyin": "yǎnglǎo",
+  "meaning": "dưỡng lão, về hưu"
+ },
+ {
+  "chinese": "仰慕",
+  "level": "C1",
+  "pinyin": "yǎngmù",
+  "meaning": "ngưỡng mộ, ái mộ"
+ },
+ {
+  "chinese": "央求",
+  "level": "C1",
+  "pinyin": "yāngqiú",
+  "meaning": " van xin, nài nỉ"
+ },
+ {
+  "chinese": "養育",
+  "level": "C1",
+  "pinyin": "yǎngyù",
+  "meaning": "nuôi dưỡng, dạy dỗ"
+ },
+ {
+  "chinese": "沿海",
+  "level": "C1",
+  "pinyin": "yánhǎi",
+  "meaning": "ven biển, duyên hải"
+ },
+ {
+  "chinese": "演講",
+  "level": "C1",
+  "pinyin": "yǎnjiǎng",
+  "meaning": "bài diễn thuyết, buổi diễn thuyết"
+ },
+ {
+  "chinese": "眼界",
+  "level": "C1",
+  "pinyin": "yǎnjiè",
+  "meaning": "tầm mắt, tầm nhìn"
+ },
+ {
+  "chinese": "嚴禁",
+  "level": "C1",
+  "pinyin": "yánjìn",
+  "meaning": "nghiêm cấm"
+ },
+ {
+  "chinese": "眼看",
+  "level": "C1",
+  "pinyin": "yǎnkàn",
+  "meaning": "chẳng mấy chốc, sắp sửa"
+ },
+ {
+  "chinese": "嚴厲",
+  "level": "C1",
+  "pinyin": "yánlì",
+  "meaning": "nghiêm khắc, nghiêm khắt"
+ },
+ {
+  "chinese": "言論",
+  "level": "C1",
+  "pinyin": "yánlùn",
+  "meaning": "ngôn luận, phát biểu"
+ },
+ {
+  "chinese": "嚴密",
+  "level": "C1",
+  "pinyin": "yánmì",
+  "meaning": "chặt chẽ, nghiêm ngặt"
+ },
+ {
+  "chinese": "延伸",
+  "level": "C1",
+  "pinyin": "yánshēn",
+  "meaning": "kéo dài, mở rộng"
+ },
+ {
+  "chinese": "衍生",
+  "level": "C1",
+  "pinyin": "yǎnshēng",
+  "meaning": "phái sinh, nảy sinh từ"
+ },
+ {
+  "chinese": "岩石",
+  "level": "C1",
+  "pinyin": "yánshí",
+  "meaning": "nham thạch, đá"
+ },
+ {
+  "chinese": "演說",
+  "level": "C1",
+  "pinyin": "yǎnshuō",
+  "meaning": "diễn thuyết, bài phát biểu"
+ },
+ {
+  "chinese": "沿途",
+  "level": "C1",
+  "pinyin": "yántú",
+  "meaning": "dọc đường"
+ },
+ {
+  "chinese": "燕窩",
+  "level": "C1",
+  "pinyin": "yànwō",
+  "meaning": "tổ yến"
+ },
+ {
+  "chinese": "延誤",
+  "level": "C1",
+  "pinyin": "yánwù",
+  "meaning": "chậm trễ, lầm lỡ"
+ },
+ {
+  "chinese": "演習",
+  "level": "C1",
+  "pinyin": "yǎnxí",
+  "meaning": "diễn tập"
+ },
+ {
+  "chinese": "沿襲",
+  "level": "C1",
+  "pinyin": "yánxí",
+  "meaning": "noi theo, kế thừa (tập tục)"
+ },
+ {
+  "chinese": "延續",
+  "level": "C1",
+  "pinyin": "yánxù",
+  "meaning": "kéo dài, tiếp tục"
+ },
+ {
+  "chinese": "沿用",
+  "level": "C1",
+  "pinyin": "yányòng",
+  "meaning": "tiếp tục sử dụng"
+ },
+ {
+  "chinese": "窯",
+  "level": "C1",
+  "pinyin": "yáo",
+  "meaning": "lò (nung gốm, gạch)"
+ },
+ {
+  "chinese": "邀",
+  "level": "C1",
+  "pinyin": "yāo",
+  "meaning": "mời"
+ },
+ {
+  "chinese": "要點",
+  "level": "C1",
+  "pinyin": "yàodiǎn",
+  "meaning": "điểm chính, yếu điểm"
+ },
+ {
+  "chinese": "要犯",
+  "level": "C1",
+  "pinyin": "yàofàn",
+  "meaning": "tội phạm quan trọng, tội phạm bị truy nã gắt gao"
+ },
+ {
+  "chinese": "搖晃",
+  "level": "C1",
+  "pinyin": "yáohuàng",
+  "meaning": "lắc lư, rung chuyển"
+ },
+ {
+  "chinese": "藥品",
+  "level": "C1",
+  "pinyin": "yàopǐn",
+  "meaning": "dược phẩm, thuốc men"
+ },
+ {
+  "chinese": "謠言",
+  "level": "C1",
+  "pinyin": "yáoyán",
+  "meaning": "tin đồn, lời đồn"
+ },
+ {
+  "chinese": "遙遠",
+  "level": "C1",
+  "pinyin": "yáoyuǎn",
+  "meaning": "xa xôi, xa xăm"
+ },
+ {
+  "chinese": "鴉片",
+  "level": "C1",
+  "pinyin": "yāpiàn",
+  "meaning": "thuộc phiện"
+ },
+ {
+  "chinese": "壓歲錢",
+  "level": "C1",
+  "pinyin": "yāsuìqián",
+  "meaning": "tiền mừng tuổi, tiền lì xì"
+ },
+ {
+  "chinese": "壓縮",
+  "level": "C1",
+  "pinyin": "yāsuō",
+  "meaning": "nén, ép, rút ngắn"
+ },
+ {
+  "chinese": "壓制",
+  "level": "C1",
+  "pinyin": "yāzhì",
+  "meaning": "đàn áp, áp chế"
+ },
+ {
+  "chinese": "業績",
+  "level": "C1",
+  "pinyin": "yèjì",
+  "meaning": "thành tích (kinh doanh)"
+ },
+ {
+  "chinese": "液體",
+  "level": "C1",
+  "pinyin": "yètǐ",
+  "meaning": "thể lỏng, chất lỏng"
+ },
+ {
+  "chinese": "咦",
+  "level": "C1",
+  "pinyin": "yí",
+  "meaning": "á, á"
+ },
+ {
+  "chinese": "倚",
+  "level": "C1",
+  "pinyin": "yǐ",
+  "meaning": "dựa, tựa"
+ },
+ {
+  "chinese": "依",
+  "level": "C1",
+  "pinyin": "yī",
+  "meaning": "theo, dựa vào"
+ },
+ {
+  "chinese": "亦",
+  "level": "C1",
+  "pinyin": "yì",
+  "meaning": "cũng, cũng là"
+ },
+ {
+  "chinese": "儀表",
+  "level": "C1",
+  "pinyin": "yíbiǎo",
+  "meaning": "diện mạo, đồng hồ đo"
+ },
+ {
+  "chinese": "遺產",
+  "level": "C1",
+  "pinyin": "yíchǎn",
+  "meaning": "di sản"
+ },
+ {
+  "chinese": "異常",
+  "level": "C1",
+  "pinyin": "yìcháng",
+  "meaning": "bất thường, khác thường"
+ },
+ {
+  "chinese": "遺傳",
+  "level": "C1",
+  "pinyin": "yíchuán",
+  "meaning": "di truyền"
+ },
+ {
+  "chinese": "一道",
+  "level": "C1",
+  "pinyin": "yídào",
+  "meaning": "cùng nhau, đồng thời"
+ },
+ {
+  "chinese": "議定",
+  "level": "C1",
+  "pinyin": "yìdìng",
+  "meaning": "nghị định, thỏa thuận"
+ },
+ {
+  "chinese": "一定",
+  "level": "C1",
+  "pinyin": "yídìng",
+  "meaning": "nhất định, nào đó"
+ },
+ {
+  "chinese": "一度",
+  "level": "C1",
+  "pinyin": "yídù",
+  "meaning": "một thời, từng có lúc"
+ },
+ {
+  "chinese": "一概",
+  "level": "C1",
+  "pinyin": "yígài",
+  "meaning": "tất cả, không ngoại lệ"
+ },
+ {
+  "chinese": "一貫",
+  "level": "C1",
+  "pinyin": "yíguàn",
+  "meaning": "nhất quán, trước sau như một"
+ },
+ {
+  "chinese": "遺憾",
+  "level": "C1",
+  "pinyin": "yíhàn",
+  "meaning": "hối tiếc, đáng tiếc"
+ },
+ {
+  "chinese": "依舊",
+  "level": "C1",
+  "pinyin": "yījiù",
+  "meaning": "như cũ, vẫn vậy"
+ },
+ {
+  "chinese": "依據",
+  "level": "C1",
+  "pinyin": "yījù",
+  "meaning": "căn cứ vào, dựa theo"
+ },
+ {
+  "chinese": "依賴",
+  "level": "C1",
+  "pinyin": "yīlài",
+  "meaning": "dựa dẫm, phụ thuộc"
+ },
+ {
+  "chinese": "毅力",
+  "level": "C1",
+  "pinyin": "yìlì",
+  "meaning": "nghị lực"
+ },
+ {
+  "chinese": "一連串",
+  "level": "C1",
+  "pinyin": "yìliánchuàn",
+  "meaning": "một chuỗi, một loạt"
+ },
+ {
+  "chinese": "醫療",
+  "level": "C1",
+  "pinyin": "yīliáo",
+  "meaning": "y tế, chữa trị"
+ },
+ {
+  "chinese": "一流",
+  "level": "C1",
+  "pinyin": "yìliú",
+  "meaning": "hạng nhất, hàng đầu"
+ },
+ {
+  "chinese": "遺留",
+  "level": "C1",
+  "pinyin": "yíliú",
+  "meaning": "để lại, lưu lại"
+ },
+ {
+  "chinese": "一律",
+  "level": "C1",
+  "pinyin": "yílǜ",
+  "meaning": "tất cả, không phân biệt"
+ },
+ {
+  "chinese": "疑慮",
+  "level": "C1",
+  "pinyin": "yílǜ",
+  "meaning": "nghi ngờ, lo ngại"
+ },
+ {
+  "chinese": "議論",
+  "level": "C1",
+  "pinyin": "yìlùn",
+  "meaning": "bàn luận, nghị luận"
+ },
+ {
+  "chinese": "音",
+  "level": "C1",
+  "pinyin": "yīn",
+  "meaning": "âm, âm thanh"
+ },
+ {
+  "chinese": "引",
+  "level": "C1",
+  "pinyin": "yǐn",
+  "meaning": "dẫn, gây ra"
+ },
+ {
+  "chinese": "隱藏",
+  "level": "C1",
+  "pinyin": "yǐncáng",
+  "meaning": "ẩn giấu, che giấu"
+ },
+ {
+  "chinese": "引導",
+  "level": "C1",
+  "pinyin": "yǐndǎo",
+  "meaning": "hướng dẫn, dẫn dắt"
+ },
+ {
+  "chinese": "迎",
+  "level": "C1",
+  "pinyin": "yíng",
+  "meaning": "đón, nghênh đón"
+ },
+ {
+  "chinese": "應",
+  "level": "C1",
+  "pinyin": "yìng",
+  "meaning": "theo, nên, nhận lời"
+ },
+ {
+  "chinese": "硬",
+  "level": "C1",
+  "pinyin": "yìng",
+  "meaning": "cứng rắn, ép buộc"
+ },
+ {
+  "chinese": "鷹",
+  "level": "C1",
+  "pinyin": "yīng",
+  "meaning": "chim ưng, đại bàng"
+ },
+ {
+  "chinese": "應變",
+  "level": "C1",
+  "pinyin": "yìngbiàn",
+  "meaning": "ứng biến, tùy cơ ứng biến"
+ },
+ {
+  "chinese": "應酬",
+  "level": "C1",
+  "pinyin": "yìngchóu",
+  "meaning": "xã giao, tiếp đãi"
+ },
+ {
+  "chinese": "營地",
+  "level": "C1",
+  "pinyin": "yíngdì",
+  "meaning": "doanh trại, khu cắm trại"
+ },
+ {
+  "chinese": "迎合",
+  "level": "C1",
+  "pinyin": "yínghé",
+  "meaning": "chiều theo, làm hài lòng"
+ },
+ {
+  "chinese": "應急",
+  "level": "C1",
+  "pinyin": "yìngjí",
+  "meaning": "ứng cứu, khẩn cấp"
+ },
+ {
+  "chinese": "影射",
+  "level": "C1",
+  "pinyin": "yǐngshè",
+  "meaning": "ám chỉ, nói bóng gió"
+ },
+ {
+  "chinese": "櫻桃",
+  "level": "C1",
+  "pinyin": "yīngtáo",
+  "meaning": "quả anh đào"
+ },
+ {
+  "chinese": "硬體",
+  "level": "C1",
+  "pinyin": "yìngtǐ",
+  "meaning": "phần cứng"
+ },
+ {
+  "chinese": "因果",
+  "level": "C1",
+  "pinyin": "yīnguǒ",
+  "meaning": "nhân quả"
+ },
+ {
+  "chinese": "應驗",
+  "level": "C1",
+  "pinyin": "yìngyàn",
+  "meaning": "ứng nghiệm, trở thành sự thật"
+ },
+ {
+  "chinese": "英勇",
+  "level": "C1",
+  "pinyin": "yīngyǒng",
+  "meaning": "anh dũng"
+ },
+ {
+  "chinese": "營造",
+  "level": "C1",
+  "pinyin": "yíngzào",
+  "meaning": "xây dựng, tạo ra (không khí)"
+ },
+ {
+  "chinese": "應徵",
+  "level": "C1",
+  "pinyin": "yìngzhēng",
+  "meaning": "ứng tuyển, tuyển dụng"
+ },
+ {
+  "chinese": "引進",
+  "level": "C1",
+  "pinyin": "yǐnjìn",
+  "meaning": "đưa vào, du nhập"
+ },
+ {
+  "chinese": "陰謀",
+  "level": "C1",
+  "pinyin": "yīnmóu",
+  "meaning": "âm mưu"
+ },
+ {
+  "chinese": "銀幕",
+  "level": "C1",
+  "pinyin": "yínmù",
+  "meaning": "màn bạc, màn ảnh"
+ },
+ {
+  "chinese": "引擎",
+  "level": "C1",
+  "pinyin": "yǐnqíng",
+  "meaning": "động cơ, máy"
+ },
+ {
+  "chinese": "銀色",
+  "level": "C1",
+  "pinyin": "yínsè",
+  "meaning": "màu bạc"
+ },
+ {
+  "chinese": "隱士",
+  "level": "C1",
+  "pinyin": "yǐnshì",
+  "meaning": "ẩn sĩ"
+ },
+ {
+  "chinese": "陰影",
+  "level": "C1",
+  "pinyin": "yīnyǐng",
+  "meaning": "bóng tối, bóng râm, ám ảnh"
+ },
+ {
+  "chinese": "隱約",
+  "level": "C1",
+  "pinyin": "yǐnyuē",
+  "meaning": "mờ ảo, lờ mờ"
+ },
+ {
+  "chinese": "印證",
+  "level": "C1",
+  "pinyin": "yìnzhèng",
+  "meaning": "minh chứng, xác nhận"
+ },
+ {
+  "chinese": "銀子",
+  "level": "C1",
+  "pinyin": "yínzi",
+  "meaning": "bạc, tiền bạc"
+ },
+ {
+  "chinese": "遺棄",
+  "level": "C1",
+  "pinyin": "yíqì",
+  "meaning": "bỏ rơi, vứt bỏ"
+ },
+ {
+  "chinese": "翌日",
+  "level": "C1",
+  "pinyin": "yìrì",
+  "meaning": "ngày hôm sau"
+ },
+ {
+  "chinese": "一如",
+  "level": "C1",
+  "pinyin": "yìrú",
+  "meaning": "giống như, như"
+ },
+ {
+  "chinese": "意識到",
+  "level": "C1",
+  "pinyin": "yìshídào",
+  "meaning": "nhận thức được, ý thức được"
+ },
+ {
+  "chinese": "醫術",
+  "level": "C1",
+  "pinyin": "yīshù",
+  "meaning": "y thuật, tay nghề y bác sĩ"
+ },
+ {
+  "chinese": "意味",
+  "level": "C1",
+  "pinyin": "yìwèi",
+  "meaning": "ý vị, có nghĩa là"
+ },
+ {
+  "chinese": "一味",
+  "level": "C1",
+  "pinyin": "yíwèi",
+  "meaning": "một mực, mù quáng"
+ },
+ {
+  "chinese": "異鄉",
+  "level": "C1",
+  "pinyin": "yìxiāng",
+  "meaning": "nơi đất khách quê người"
+ },
+ {
+  "chinese": "一心",
+  "level": "C1",
+  "pinyin": "yìxīn",
+  "meaning": "một lòng một dạ, chuyên tâm"
+ },
+ {
+  "chinese": "醫藥",
+  "level": "C1",
+  "pinyin": "yīyào",
+  "meaning": "y dược, thuốc men"
+ },
+ {
+  "chinese": "議員",
+  "level": "C1",
+  "pinyin": "yìyuán",
+  "meaning": "nghị viên, nghị sĩ"
+ },
+ {
+  "chinese": "依照",
+  "level": "C1",
+  "pinyin": "yīzhào",
+  "meaning": "dựa theo, chiếu theo"
+ },
+ {
+  "chinese": "遺志",
+  "level": "C1",
+  "pinyin": "yízhì",
+  "meaning": "di chí, ý nguyện để lại"
+ },
+ {
+  "chinese": "抑制",
+  "level": "C1",
+  "pinyin": "yìzhì",
+  "meaning": "ức chế, kìm nén"
+ },
+ {
+  "chinese": "移植",
+  "level": "C1",
+  "pinyin": "yízhí",
+  "meaning": "cấy ghép, di thực"
+ },
+ {
+  "chinese": "遺址",
+  "level": "C1",
+  "pinyin": "yízhǐ",
+  "meaning": "di chỉ, phế tích"
+ },
+ {
+  "chinese": "以至",
+  "level": "C1",
+  "pinyin": "yǐzhì",
+  "meaning": "đến nỗi, đến mức"
+ },
+ {
+  "chinese": "唷",
+  "level": "C1",
+  "pinyin": "yo",
+  "meaning": "trợ từ cuối câu, nhấn mạnh"
+ },
+ {
+  "chinese": "湧",
+  "level": "C1",
+  "pinyin": "yǒng",
+  "meaning": "trào ra, ùa ra"
+ },
+ {
+  "chinese": "用戶",
+  "level": "C1",
+  "pinyin": "yònghù",
+  "meaning": "người dùng, khách hàng sử dụng"
+ },
+ {
+  "chinese": "用途",
+  "level": "C1",
+  "pinyin": "yòngtú",
+  "meaning": "công dụng, mục đích sử dụng"
+ },
+ {
+  "chinese": "踴躍",
+  "level": "C1",
+  "pinyin": "yǒngyuè",
+  "meaning": "sôi nổi, hăng hái"
+ },
+ {
+  "chinese": "鈾",
+  "level": "C1",
+  "pinyin": "yóu",
+  "meaning": "uranium"
+ },
+ {
+  "chinese": "友愛",
+  "level": "C1",
+  "pinyin": "yǒu'ài",
+  "meaning": "thân ái, hữu nghị"
+ },
+ {
+  "chinese": "優待",
+  "level": "C1",
+  "pinyin": "yōudài",
+  "meaning": "ưu đãi, đối đãi tốt"
+ },
+ {
+  "chinese": "誘惑",
+  "level": "C1",
+  "pinyin": "yòuhuò",
+  "meaning": "dụ dỗ, cám dỗ"
+ },
+ {
+  "chinese": "有機",
+  "level": "C1",
+  "pinyin": "yǒujī",
+  "meaning": "hữu cơ"
+ },
+ {
+  "chinese": "悠久",
+  "level": "C1",
+  "pinyin": "yōujiǔ",
+  "meaning": "lâu đời, xa xưa"
+ },
+ {
+  "chinese": "由來",
+  "level": "C1",
+  "pinyin": "yóulái",
+  "meaning": "nguồn gốc, lai lịch"
+ },
+ {
+  "chinese": "遊覽",
+  "level": "C1",
+  "pinyin": "yóulǎn",
+  "meaning": "du lãm, tham quan"
+ },
+ {
+  "chinese": "有理",
+  "level": "C1",
+  "pinyin": "yǒulǐ",
+  "meaning": "có lý, hợp lý"
+ },
+ {
+  "chinese": "優勢",
+  "level": "C1",
+  "pinyin": "yōushì",
+  "meaning": "ưu thế"
+ },
+ {
+  "chinese": "有所",
+  "level": "C1",
+  "pinyin": "yǒusuǒ",
+  "meaning": "có phần, có chút"
+ },
+ {
+  "chinese": "油田",
+  "level": "C1",
+  "pinyin": "yóutián",
+  "meaning": "mỏ dầu"
+ },
+ {
+  "chinese": "油條",
+  "level": "C1",
+  "pinyin": "yóutiáo",
+  "meaning": "dầu cháo quẩy"
+ },
+ {
+  "chinese": "有為",
+  "level": "C1",
+  "pinyin": "yǒuwéi",
+  "meaning": "có triển vọng, có làm nên"
+ },
+ {
+  "chinese": "有限",
+  "level": "C1",
+  "pinyin": "yǒuxiàn",
+  "meaning": "có hạn, hữu hạn"
+ },
+ {
+  "chinese": "悠閒",
+  "level": "C1",
+  "pinyin": "yōuxián",
+  "meaning": "thanh nhàn, ung dung"
+ },
+ {
+  "chinese": "優先",
+  "level": "C1",
+  "pinyin": "yōuxiān",
+  "meaning": "ưu tiên"
+ },
+ {
+  "chinese": "有形",
+  "level": "C1",
+  "pinyin": "yǒuxíng",
+  "meaning": "hữu hình"
+ },
+ {
+  "chinese": "有心人",
+  "level": "C1",
+  "pinyin": "yǒuxīnrén",
+  "meaning": "người có lòng, người hữu tâm"
+ },
+ {
+  "chinese": "有意",
+  "level": "C1",
+  "pinyin": "yǒuyì",
+  "meaning": "có ý, cố ý"
+ },
+ {
+  "chinese": "優異",
+  "level": "C1",
+  "pinyin": "yōuyì",
+  "meaning": "ưu tú, xuất sắc"
+ },
+ {
+  "chinese": "有益",
+  "level": "C1",
+  "pinyin": "yǒuyì",
+  "meaning": "có ích, bổ ích"
+ },
+ {
+  "chinese": "有緣",
+  "level": "C1",
+  "pinyin": "yǒuyuán",
+  "meaning": "có duyên"
+ },
+ {
+  "chinese": "幼稚",
+  "level": "C1",
+  "pinyin": "yòuzhì",
+  "meaning": "ngây thơ, ấu trĩ"
+ },
+ {
+  "chinese": "愈",
+  "level": "C1",
+  "pinyin": "yù",
+  "meaning": "càng"
+ },
+ {
+  "chinese": "於",
+  "level": "C1",
+  "pinyin": "yú",
+  "meaning": "ở, tại, vào, hơn (văn viết)"
+ },
+ {
+  "chinese": "逾",
+  "level": "C1",
+  "pinyin": "yú",
+  "meaning": "vượt quá, hơn"
+ },
+ {
+  "chinese": "予",
+  "level": "C1",
+  "pinyin": "yǔ",
+  "meaning": "cho, ban cho"
+ },
+ {
+  "chinese": "餘",
+  "level": "C1",
+  "pinyin": "yú",
+  "meaning": "dư, còn lại"
+ },
+ {
+  "chinese": "怨",
+  "level": "C1",
+  "pinyin": "yuàn",
+  "meaning": "oán, oán trách"
+ },
+ {
+  "chinese": "原",
+  "level": "C1",
+  "pinyin": "yuán",
+  "meaning": "vốn, ban đầu"
+ },
+ {
+  "chinese": "遠景",
+  "level": "C1",
+  "pinyin": "yuǎnjǐng",
+  "meaning": "viễn cảnh, tương lai"
+ },
+ {
+  "chinese": "園林",
+  "level": "C1",
+  "pinyin": "yuánlín",
+  "meaning": "vườn, lâm viên"
+ },
+ {
+  "chinese": "元氣",
+  "level": "C1",
+  "pinyin": "yuánqì",
+  "meaning": "nguyên khí, sinh lực"
+ },
+ {
+  "chinese": "元首",
+  "level": "C1",
+  "pinyin": "yuánshǒu",
+  "meaning": "nguyên thủ"
+ },
+ {
+  "chinese": "元素",
+  "level": "C1",
+  "pinyin": "yuánsù",
+  "meaning": "nguyên tố"
+ },
+ {
+  "chinese": "原形",
+  "level": "C1",
+  "pinyin": "yuánxíng",
+  "meaning": "nguyên hình"
+ },
+ {
+  "chinese": "原野",
+  "level": "C1",
+  "pinyin": "yuányě",
+  "meaning": "cánh đồng hoang, thảo nguyên"
+ },
+ {
+  "chinese": "援助",
+  "level": "C1",
+  "pinyin": "yuánzhù",
+  "meaning": "viện trợ, cứu trợ"
+ },
+ {
+  "chinese": "原狀",
+  "level": "C1",
+  "pinyin": "yuánzhuàng",
+  "meaning": "nguyên trạng, trạng thái ban đầu"
+ },
+ {
+  "chinese": "原住民",
+  "level": "C1",
+  "pinyin": "yuánzhùmín",
+  "meaning": "thổ dân, dân bản địa"
+ },
+ {
+  "chinese": "原子",
+  "level": "C1",
+  "pinyin": "yuánzǐ",
+  "meaning": "nguyên tử"
+ },
+ {
+  "chinese": "原子彈",
+  "level": "C1",
+  "pinyin": "yuánzǐdàn",
+  "meaning": "bom nguyên tử"
+ },
+ {
+  "chinese": "預測",
+  "level": "C1",
+  "pinyin": "yùcè",
+  "meaning": "dự đoán, dự báo"
+ },
+ {
+  "chinese": "愚蠢",
+  "level": "C1",
+  "pinyin": "yúchǔn",
+  "meaning": "ngu xuẩn, ngu ngốc"
+ },
+ {
+  "chinese": "躍",
+  "level": "C1",
+  "pinyin": "yuè",
+  "meaning": "nhảy, vọt lên"
+ },
+ {
+  "chinese": "樂隊",
+  "level": "C1",
+  "pinyin": "yuèduì",
+  "meaning": "ban nhạc, đội nhạc"
+ },
+ {
+  "chinese": "約束",
+  "level": "C1",
+  "pinyin": "yuēshù",
+  "meaning": "ràng buộc, kiềm chế"
+ },
+ {
+  "chinese": "語法",
+  "level": "C1",
+  "pinyin": "yǔfǎ",
+  "meaning": "ngữ pháp"
+ },
+ {
+  "chinese": "預防",
+  "level": "C1",
+  "pinyin": "yùfáng",
+  "meaning": "phòng ngừa, đề phòng"
+ },
+ {
+  "chinese": "預告",
+  "level": "C1",
+  "pinyin": "yùgào",
+  "meaning": "báo trước, trailer phim"
+ },
+ {
+  "chinese": "預估",
+  "level": "C1",
+  "pinyin": "yùgū",
+  "meaning": "ước tính, dự tính"
+ },
+ {
+  "chinese": "與會",
+  "level": "C1",
+  "pinyin": "yùhuì",
+  "meaning": "tham dự hội nghị"
+ },
+ {
+  "chinese": "雨季",
+  "level": "C1",
+  "pinyin": "yǔjì",
+  "meaning": "mùa mưa"
+ },
+ {
+  "chinese": "輿論",
+  "level": "C1",
+  "pinyin": "yúlùn",
+  "meaning": "dư luận"
+ },
+ {
+  "chinese": "漁民",
+  "level": "C1",
+  "pinyin": "yúmín",
+  "meaning": "ngư dân"
+ },
+ {
+  "chinese": "運",
+  "level": "C1",
+  "pinyin": "yùn",
+  "meaning": "vận chuyển, vận động"
+ },
+ {
+  "chinese": "孕婦",
+  "level": "C1",
+  "pinyin": "yùnfù",
+  "meaning": "phụ nữ mang thai, thai phụ"
+ },
+ {
+  "chinese": "醞釀",
+  "level": "C1",
+  "pinyin": "yùnniàng",
+  "meaning": "ủ, nung nấu, chuẩn bị"
+ },
+ {
+  "chinese": "運行",
+  "level": "C1",
+  "pinyin": "yùnxíng",
+  "meaning": "vận hành, hoạt động"
+ },
+ {
+  "chinese": "玉器",
+  "level": "C1",
+  "pinyin": "yùqì",
+  "meaning": "đồ ngọc"
+ },
+ {
+  "chinese": "預賽",
+  "level": "C1",
+  "pinyin": "yùsài",
+  "meaning": "vòng loại, trận sơ tuyển"
+ },
+ {
+  "chinese": "語文",
+  "level": "C1",
+  "pinyin": "yǔwén",
+  "meaning": "ngữ văn"
+ },
+ {
+  "chinese": "寓言",
+  "level": "C1",
+  "pinyin": "yùyán",
+  "meaning": "ngụ ngôn"
+ },
+ {
+  "chinese": "予以",
+  "level": "C1",
+  "pinyin": "yǔyǐ",
+  "meaning": "cho, dành cho"
+ },
+ {
+  "chinese": "預約",
+  "level": "C1",
+  "pinyin": "yùyuē",
+  "meaning": "đặt hẹn trước"
+ },
+ {
+  "chinese": "宇宙",
+  "level": "C1",
+  "pinyin": "yǔzhòu",
+  "meaning": "vũ trụ"
+ },
+ {
+  "chinese": "栽",
+  "level": "C1",
+  "pinyin": "zāi",
+  "meaning": "trồng, cấy"
+ },
+ {
+  "chinese": "在場",
+  "level": "C1",
+  "pinyin": "zàichǎng",
+  "meaning": "có mặt tại hiện trường"
+ },
+ {
+  "chinese": "災禍",
+  "level": "C1",
+  "pinyin": "zāihuò",
+  "meaning": "tai họa, tai ương"
+ },
+ {
+  "chinese": "災情",
+  "level": "C1",
+  "pinyin": "zāiqíng",
+  "meaning": "tình hình thiên tai"
+ },
+ {
+  "chinese": "再生",
+  "level": "C1",
+  "pinyin": "zàishēng",
+  "meaning": "tái sinh, tái chế"
+ },
+ {
+  "chinese": "在世",
+  "level": "C1",
+  "pinyin": "zàishì",
+  "meaning": "tại thế, còn sống"
+ },
+ {
+  "chinese": "在座",
+  "level": "C1",
+  "pinyin": "zàizuò",
+  "meaning": "có mặt (tại buổi họp, tiệc)"
+ },
+ {
+  "chinese": "咱",
+  "level": "C1",
+  "pinyin": "zán",
+  "meaning": "chúng ta (thân mật)"
+ },
+ {
+  "chinese": "贓物",
+  "level": "C1",
+  "pinyin": "zāngwù",
+  "meaning": "tang vật"
+ },
+ {
+  "chinese": "讚嘆",
+  "level": "C1",
+  "pinyin": "zàntàn",
+  "meaning": "thán phục, khen ngợi"
+ },
+ {
+  "chinese": "贊助",
+  "level": "C1",
+  "pinyin": "zànzhù",
+  "meaning": "tài trợ, bảo trợ"
+ },
+ {
+  "chinese": "遭",
+  "level": "C1",
+  "pinyin": "zāo",
+  "meaning": "lần, lượt, gặp phải"
+ },
+ {
+  "chinese": "造反",
+  "level": "C1",
+  "pinyin": "zàofǎn",
+  "meaning": "nổi dậy, tạo phản"
+ },
+ {
+  "chinese": "造化",
+  "level": "C1",
+  "pinyin": "zàohuà",
+  "meaning": "tạo hóa, số phận"
+ },
+ {
+  "chinese": "造物主",
+  "level": "C1",
+  "pinyin": "zàowùzhǔ",
+  "meaning": "Đấng Tạo Hóa"
+ },
+ {
+  "chinese": "造型",
+  "level": "C1",
+  "pinyin": "zàoxíng",
+  "meaning": "tạo hình, kiểu dáng"
+ },
+ {
+  "chinese": "遭遇",
+  "level": "C1",
+  "pinyin": "zāoyù",
+  "meaning": "gặp phải, trải qua (điều không may)"
+ },
+ {
+  "chinese": "責備",
+  "level": "C1",
+  "pinyin": "zébèi",
+  "meaning": "trách mắng, khiển trách"
+ },
+ {
+  "chinese": "增進",
+  "level": "C1",
+  "pinyin": "zēngjìn",
+  "meaning": "tăng tiến, thúc đẩy"
+ },
+ {
+  "chinese": "增強",
+  "level": "C1",
+  "pinyin": "zēngqiáng",
+  "meaning": "tăng cường, củng cố"
+ },
+ {
+  "chinese": "增值",
+  "level": "C1",
+  "pinyin": "zēngzhí",
+  "meaning": "tăng giá trị"
+ },
+ {
+  "chinese": "扎",
+  "level": "C1",
+  "pinyin": "zhā",
+  "meaning": "buộc, cột"
+ },
+ {
+  "chinese": "盞",
+  "level": "C1",
+  "pinyin": "zhǎn",
+  "meaning": "cái, ngọn (đèn)"
+ },
+ {
+  "chinese": "沾",
+  "level": "C1",
+  "pinyin": "zhān",
+  "meaning": "dính, thấm"
+ },
+ {
+  "chinese": "丈",
+  "level": "C1",
+  "pinyin": "zhàng",
+  "meaning": "trượng (đơn vị đo)"
+ },
+ {
+  "chinese": "帳篷",
+  "level": "C1",
+  "pinyin": "zhàngpéng",
+  "meaning": "cái lều"
+ },
+ {
+  "chinese": "張貼",
+  "level": "C1",
+  "pinyin": "zhāngtiē",
+  "meaning": "dán, niêm yết"
+ },
+ {
+  "chinese": "長子",
+  "level": "C1",
+  "pinyin": "zhǎngzǐ",
+  "meaning": "trưởng nam, con trai cả"
+ },
+ {
+  "chinese": "戰火",
+  "level": "C1",
+  "pinyin": "zhànhuǒ",
+  "meaning": "khói lửa chiến tranh"
+ },
+ {
+  "chinese": "戰機",
+  "level": "C1",
+  "pinyin": "zhànjī",
+  "meaning": "máy bay chiến đấu, thời cơ chiến đấu"
+ },
+ {
+  "chinese": "佔據",
+  "level": "C1",
+  "pinyin": "zhànjù",
+  "meaning": "chiếm cứ, chiếm giữ"
+ },
+ {
+  "chinese": "佔領",
+  "level": "C1",
+  "pinyin": "zhànlǐng",
+  "meaning": "chiếm lĩnh"
+ },
+ {
+  "chinese": "戰亂",
+  "level": "C1",
+  "pinyin": "zhànluàn",
+  "meaning": "chiến loạn, loạn lạc"
+ },
+ {
+  "chinese": "戰略",
+  "level": "C1",
+  "pinyin": "zhànlüè",
+  "meaning": "chiến lược"
+ },
+ {
+  "chinese": "戰勝",
+  "level": "C1",
+  "pinyin": "zhànshèng",
+  "meaning": "chiến thắng, đánh thắng"
+ },
+ {
+  "chinese": "戰士",
+  "level": "C1",
+  "pinyin": "zhànshì",
+  "meaning": "chiến sĩ, binh sĩ"
+ },
+ {
+  "chinese": "戰術",
+  "level": "C1",
+  "pinyin": "zhànshù",
+  "meaning": "chiến thuật"
+ },
+ {
+  "chinese": "展望",
+  "level": "C1",
+  "pinyin": "zhànwàng",
+  "meaning": "nhìn về tương lai, triển vọng"
+ },
+ {
+  "chinese": "展現",
+  "level": "C1",
+  "pinyin": "zhǎnxiàn",
+  "meaning": "thể hiện, bày ra"
+ },
+ {
+  "chinese": "戰線",
+  "level": "C1",
+  "pinyin": "zhànxiàn",
+  "meaning": "chiến tuyến, mặt trận"
+ },
+ {
+  "chinese": "嶄新",
+  "level": "C1",
+  "pinyin": "zhǎnxīn",
+  "meaning": "mới toanh, hoàn toàn mới"
+ },
+ {
+  "chinese": "戰友",
+  "level": "C1",
+  "pinyin": "zhànyǒu",
+  "meaning": "chiến hữu, đồng đội"
+ },
+ {
+  "chinese": "戰戰兢兢",
+  "level": "C1",
+  "pinyin": "zhànzhànjīngjīng",
+  "meaning": "run rẩy, lo sợ"
+ },
+ {
+  "chinese": "召集",
+  "level": "C1",
+  "pinyin": "zhàojí",
+  "meaning": "triệu tập, tập hợp"
+ },
+ {
+  "chinese": "照例",
+  "level": "C1",
+  "pinyin": "zhàolì",
+  "meaning": "theo lệ, như thường lệ"
+ },
+ {
+  "chinese": "朝氣",
+  "level": "C1",
+  "pinyin": "zhāoqì",
+  "meaning": "sinh khí, sức sống ban mai"
+ },
+ {
+  "chinese": "找尋",
+  "level": "C1",
+  "pinyin": "zhǎoxún",
+  "meaning": "tìm kiếm"
+ },
+ {
+  "chinese": "照耀",
+  "level": "C1",
+  "pinyin": "zhàoyào",
+  "meaning": "chiếu rọi"
+ },
+ {
+  "chinese": "沼澤",
+  "level": "C1",
+  "pinyin": "zhǎozé",
+  "meaning": "đầm lầy, bãi lầy"
+ },
+ {
+  "chinese": "炸藥",
+  "level": "C1",
+  "pinyin": "zhàyào",
+  "meaning": "thuốc nổ"
+ },
+ {
+  "chinese": "遮",
+  "level": "C1",
+  "pinyin": "zhē",
+  "meaning": "che, đậy"
+ },
+ {
+  "chinese": "遮蔽",
+  "level": "C1",
+  "pinyin": "zhēbì",
+  "meaning": "che khuất, che đậy"
+ },
+ {
+  "chinese": "鎮定",
+  "level": "C1",
+  "pinyin": "zhèndìng",
+  "meaning": "bình tĩnh, trấn tĩnh"
+ },
+ {
+  "chinese": "振動",
+  "level": "C1",
+  "pinyin": "zhèndòng",
+  "meaning": "rung động, chấn động"
+ },
+ {
+  "chinese": "診斷",
+  "level": "C1",
+  "pinyin": "zhěnduàn",
+  "meaning": "chẩn đoán"
+ },
+ {
+  "chinese": "掙",
+  "level": "C1",
+  "pinyin": "zhēng",
+  "meaning": "kiếm (tiền), vùng vẫy"
+ },
+ {
+  "chinese": "整",
+  "level": "C1",
+  "pinyin": "zhěng",
+  "meaning": "chỉnh đốn, trừng trị"
+ },
+ {
+  "chinese": "蒸",
+  "level": "C1",
+  "pinyin": "zhēng",
+  "meaning": "hấp, chưng"
+ },
+ {
+  "chinese": "爭辯",
+  "level": "C1",
+  "pinyin": "zhēngbiàn",
+  "meaning": "tranh biện, tranh cãi"
+ },
+ {
+  "chinese": "正當",
+  "level": "C1",
+  "pinyin": "zhèngdāng",
+  "meaning": "chính đáng, hợp pháp"
+ },
+ {
+  "chinese": "整頓",
+  "level": "C1",
+  "pinyin": "zhěngdùn",
+  "meaning": "chỉnh đốn, củng cố"
+ },
+ {
+  "chinese": "爭奪",
+  "level": "C1",
+  "pinyin": "zhēngduó",
+  "meaning": "tranh đoạt, giành giật"
+ },
+ {
+  "chinese": "蒸發",
+  "level": "C1",
+  "pinyin": "zhēngfā",
+  "meaning": "bốc hơi"
+ },
+ {
+  "chinese": "政績",
+  "level": "C1",
+  "pinyin": "zhèngjì",
+  "meaning": "thành tích chính trị"
+ },
+ {
+  "chinese": "政見",
+  "level": "C1",
+  "pinyin": "zhèngjiàn",
+  "meaning": "kiến giải, quan điểm chính trị"
+ },
+ {
+  "chinese": "爭論",
+  "level": "C1",
+  "pinyin": "zhēnglùn",
+  "meaning": "cuộc tranh luận"
+ },
+ {
+  "chinese": "正面",
+  "level": "C1",
+  "pinyin": "zhèngmiàn",
+  "meaning": "trực diện, trực tiếp"
+ },
+ {
+  "chinese": "爭氣",
+  "level": "C1",
+  "pinyin": "zhèngqì",
+  "meaning": "tranh đua, nỗ lực để vượt hơn"
+ },
+ {
+  "chinese": "蒸氣",
+  "level": "C1",
+  "pinyin": "zhēngqì",
+  "meaning": " hơi nước"
+ },
+ {
+  "chinese": "證券",
+  "level": "C1",
+  "pinyin": "zhèngquàn",
+  "meaning": "chứng khoán"
+ },
+ {
+  "chinese": "政權",
+  "level": "C1",
+  "pinyin": "zhèngquán",
+  "meaning": "chính quyền"
+ },
+ {
+  "chinese": "證人",
+  "level": "C1",
+  "pinyin": "zhèngrén",
+  "meaning": "nhân chứng"
+ },
+ {
+  "chinese": "徵收",
+  "level": "C1",
+  "pinyin": "zhēngshōu",
+  "meaning": "trưng thu, thu (thuế)"
+ },
+ {
+  "chinese": "正統",
+  "level": "C1",
+  "pinyin": "zhèngtǒng",
+  "meaning": "chính thống"
+ },
+ {
+  "chinese": "正義",
+  "level": "C1",
+  "pinyin": "zhèngyì",
+  "meaning": "chính nghĩa"
+ },
+ {
+  "chinese": "爭議",
+  "level": "C1",
+  "pinyin": "zhēngyì",
+  "meaning": "tranh cãi, sự tranh luận"
+ },
+ {
+  "chinese": "掙扎",
+  "level": "C1",
+  "pinyin": "zhēngzhá",
+  "meaning": "giãy giụa, vùng vẫy"
+ },
+ {
+  "chinese": "整整",
+  "level": "C1",
+  "pinyin": "zhěngzhěng",
+  "meaning": "tròn, chẵn"
+ },
+ {
+  "chinese": "震驚",
+  "level": "C1",
+  "pinyin": "zhènjīng",
+  "meaning": "chấn kinh, kinh ngạc"
+ },
+ {
+  "chinese": "針灸",
+  "level": "C1",
+  "pinyin": "zhēnjiǔ",
+  "meaning": "châm cứu"
+ },
+ {
+  "chinese": "真情",
+  "level": "C1",
+  "pinyin": "zhēnqíng",
+  "meaning": "chân tình, tình cảm thật"
+ },
+ {
+  "chinese": "診所",
+  "level": "C1",
+  "pinyin": "zhěnsuǒ",
+  "meaning": "phòng khám"
+ },
+ {
+  "chinese": "鎮壓",
+  "level": "C1",
+  "pinyin": "zhènyā",
+  "meaning": "trấn áp, đàn áp"
+ },
+ {
+  "chinese": "陣營",
+  "level": "C1",
+  "pinyin": "zhènyíng",
+  "meaning": "trận doanh, phe phái"
+ },
+ {
+  "chinese": "折騰",
+  "level": "C1",
+  "pinyin": "zhēteng",
+  "meaning": "hành hạ, làm khổ"
+ },
+ {
+  "chinese": "至",
+  "level": "C1",
+  "pinyin": "zhì",
+  "meaning": "đến, cho đến"
+ },
+ {
+  "chinese": "止",
+  "level": "C1",
+  "pinyin": "zhǐ",
+  "meaning": "dừng, ngừng"
+ },
+ {
+  "chinese": "織",
+  "level": "C1",
+  "pinyin": "zhī",
+  "meaning": "dệt"
+ },
+ {
+  "chinese": "治安",
+  "level": "C1",
+  "pinyin": "zhì'ān",
+  "meaning": "trị an, an ninh"
+ },
+ {
+  "chinese": "值班",
+  "level": "C1",
+  "pinyin": "zhíbān",
+  "meaning": "trực ban, trực nhật"
+ },
+ {
+  "chinese": "治本",
+  "level": "C1",
+  "pinyin": "zhìběn",
+  "meaning": "trị tận gốc"
+ },
+ {
+  "chinese": "治標",
+  "level": "C1",
+  "pinyin": "zhìbiāo",
+  "meaning": "trị triệu chứng, trị phần ngọn"
+ },
+ {
+  "chinese": "指標",
+  "level": "C1",
+  "pinyin": "zhǐbiāo",
+  "meaning": "chỉ tiêu, chỉ số"
+ },
+ {
+  "chinese": "制裁",
+  "level": "C1",
+  "pinyin": "zhìcái",
+  "meaning": "chế tài, trừng phạt"
+ },
+ {
+  "chinese": "支撐",
+  "level": "C1",
+  "pinyin": "zhīchēng",
+  "meaning": "chống đỡ, duy trì"
+ },
+ {
+  "chinese": "致詞",
+  "level": "C1",
+  "pinyin": "zhìcí",
+  "meaning": "phát biểu, đọc diễn văn"
+ },
+ {
+  "chinese": "只得",
+  "level": "C1",
+  "pinyin": "zhǐdé",
+  "meaning": "đành phải, chỉ còn cách"
+ },
+ {
+  "chinese": "指點",
+  "level": "C1",
+  "pinyin": "zhǐdiǎn",
+  "meaning": "chỉ điểm, chỉ bảo"
+ },
+ {
+  "chinese": "脂肪",
+  "level": "C1",
+  "pinyin": "zhīfáng",
+  "meaning": "mỡ, chất béo"
+ },
+ {
+  "chinese": "致富",
+  "level": "C1",
+  "pinyin": "zhìfù",
+  "meaning": "làm giàu"
+ },
+ {
+  "chinese": "支付",
+  "level": "C1",
+  "pinyin": "zhīfù",
+  "meaning": "thanh toán, chi trả"
+ },
+ {
+  "chinese": "指揮",
+  "level": "C1",
+  "pinyin": "zhǐhuī",
+  "meaning": "chỉ huy, người chỉ huy"
+ },
+ {
+  "chinese": "至今",
+  "level": "C1",
+  "pinyin": "zhìjīn",
+  "meaning": "cho đến nay, đến tận bây giờ"
+ },
+ {
+  "chinese": "直徑",
+  "level": "C1",
+  "pinyin": "zhíjìng",
+  "meaning": "đường kính"
+ },
+ {
+  "chinese": "指控",
+  "level": "C1",
+  "pinyin": "zhǐkòng",
+  "meaning": "chỉ trích, tố cáo"
+ },
+ {
+  "chinese": "治理",
+  "level": "C1",
+  "pinyin": "zhìlǐ",
+  "meaning": "cai trị, quản lý"
+ },
+ {
+  "chinese": "智力",
+  "level": "C1",
+  "pinyin": "zhìlì",
+  "meaning": "trí lực, trí tuệ"
+ },
+ {
+  "chinese": "致力",
+  "level": "C1",
+  "pinyin": "zhìlì",
+  "meaning": "dốc sức, nỗ lực"
+ },
+ {
+  "chinese": "質量",
+  "level": "C1",
+  "pinyin": "zhìliàng",
+  "meaning": "chất lượng"
+ },
+ {
+  "chinese": "治療",
+  "level": "C1",
+  "pinyin": "zhìliáo",
+  "meaning": "điều trị, chữa trị"
+ },
+ {
+  "chinese": "滯留",
+  "level": "C1",
+  "pinyin": "zhìliú",
+  "meaning": "lưu lại, bị kẹt lại"
+ },
+ {
+  "chinese": "殖民",
+  "level": "C1",
+  "pinyin": "zhímín",
+  "meaning": "thực dân, đô hộ"
+ },
+ {
+  "chinese": "致命",
+  "level": "C1",
+  "pinyin": "zhìmìng",
+  "meaning": "chí mạng, gây chết người"
+ },
+ {
+  "chinese": "指南針",
+  "level": "C1",
+  "pinyin": "zhǐnánzhēn",
+  "meaning": "la bàn"
+ },
+ {
+  "chinese": "之內",
+  "level": "C1",
+  "pinyin": "zhīnèi",
+  "meaning": "trong vòng, nội trong"
+ },
+ {
+  "chinese": "支配",
+  "level": "C1",
+  "pinyin": "zhīpèi",
+  "meaning": "chi phối, điều khiển"
+ },
+ {
+  "chinese": "製品",
+  "level": "C1",
+  "pinyin": "zhìpǐn",
+  "meaning": "sản phẩm, chế phẩm"
+ },
+ {
+  "chinese": "值錢",
+  "level": "C1",
+  "pinyin": "zhíqián",
+  "meaning": "có giá trị, đáng giá"
+ },
+ {
+  "chinese": "志趣",
+  "level": "C1",
+  "pinyin": "zhìqù",
+  "meaning": "chí hướng và sở thích"
+ },
+ {
+  "chinese": "指数",
+  "level": "C1",
+  "pinyin": "zhǐshù",
+  "meaning": "chỉ số"
+ },
+ {
+  "chinese": "之所以",
+  "level": "C1",
+  "pinyin": "zhīsuǒyǐ",
+  "meaning": "sở dĩ, lý do tại sao"
+ },
+ {
+  "chinese": "指望",
+  "level": "C1",
+  "pinyin": "zhǐwàng",
+  "meaning": "trông mong, hy vọng"
+ },
+ {
+  "chinese": "指紋",
+  "level": "C1",
+  "pinyin": "zhǐwén",
+  "meaning": "vân tay"
+ },
+ {
+  "chinese": "職務",
+  "level": "C1",
+  "pinyin": "zhíwù",
+  "meaning": "chức vụ"
+ },
+ {
+  "chinese": "志向",
+  "level": "C1",
+  "pinyin": "zhìxiàng",
+  "meaning": "chí hướng, hoài bão"
+ },
+ {
+  "chinese": "致意",
+  "level": "C1",
+  "pinyin": "zhìyì",
+  "meaning": "bày tỏ lòng kính trọng, chào hỏi"
+ },
+ {
+  "chinese": "質疑",
+  "level": "C1",
+  "pinyin": "zhìyí",
+  "meaning": "chất vấn, nghi ngờ"
+ },
+ {
+  "chinese": "指引",
+  "level": "C1",
+  "pinyin": "zhǐyǐn",
+  "meaning": "chỉ dẫn, hướng dẫn"
+ },
+ {
+  "chinese": "支應",
+  "level": "C1",
+  "pinyin": "zhīyìng",
+  "meaning": "trang trải, đối phó"
+ },
+ {
+  "chinese": "職責",
+  "level": "C1",
+  "pinyin": "zhízé",
+  "meaning": "chức trách, trách nhiệm"
+ },
+ {
+  "chinese": "執照",
+  "level": "C1",
+  "pinyin": "zhízhào",
+  "meaning": "giấy phép, bằng lái"
+ },
+ {
+  "chinese": "執政",
+  "level": "C1",
+  "pinyin": "zhízhèng",
+  "meaning": "cầm quyền, chấp chính"
+ },
+ {
+  "chinese": "指正",
+  "level": "C1",
+  "pinyin": "zhǐzhèng",
+  "meaning": "chỉ ra chỗ sai, góp ý"
+ },
+ {
+  "chinese": "執著",
+  "level": "C1",
+  "pinyin": "zhízhuó",
+  "meaning": "cố chấp, kiên trì"
+ },
+ {
+  "chinese": "知足",
+  "level": "C1",
+  "pinyin": "zhīzú",
+  "meaning": "biết đủ, tri túc"
+ },
+ {
+  "chinese": "終場",
+  "level": "C1",
+  "pinyin": "zhōngchǎng",
+  "meaning": "kết thúc, cuối trận"
+ },
+ {
+  "chinese": "中斷",
+  "level": "C1",
+  "pinyin": "zhōngduàn",
+  "meaning": "gián đoạn, đứt quãng"
+ },
+ {
+  "chinese": "中風",
+  "level": "C1",
+  "pinyin": "zhòngfēng",
+  "meaning": "trúng gió, đột quỵ"
+ },
+ {
+  "chinese": "中和",
+  "level": "C1",
+  "pinyin": "zhōnghé",
+  "meaning": "trung hòa"
+ },
+ {
+  "chinese": "中獎",
+  "level": "C1",
+  "pinyin": "zhòngjiǎng",
+  "meaning": "trúng thưởng, trúng số"
+ },
+ {
+  "chinese": "終結",
+  "level": "C1",
+  "pinyin": "zhōngjié",
+  "meaning": "chấm dứt, kết thúc"
+ },
+ {
+  "chinese": "終究",
+  "level": "C1",
+  "pinyin": "zhōngjiū",
+  "meaning": "rốt cuộc, cuối cùng"
+ },
+ {
+  "chinese": "中肯",
+  "level": "C1",
+  "pinyin": "zhòngkěn",
+  "meaning": "trúng, xác đáng"
+ },
+ {
+  "chinese": "中立",
+  "level": "C1",
+  "pinyin": "zhōnglì",
+  "meaning": "trung lập"
+ },
+ {
+  "chinese": "終身",
+  "level": "C1",
+  "pinyin": "zhōngshēn",
+  "meaning": "suốt đời, cả đời"
+ },
+ {
+  "chinese": "忠實",
+  "level": "C1",
+  "pinyin": "zhōngshí",
+  "meaning": "trung thành, trung thực"
+ },
+ {
+  "chinese": "中暑",
+  "level": "C1",
+  "pinyin": "zhòngshǔ",
+  "meaning": "say nắng, trúng nắng"
+ },
+ {
+  "chinese": "衷心",
+  "level": "C1",
+  "pinyin": "zhōngxīn",
+  "meaning": "thật tâm"
+ },
+ {
+  "chinese": "中旬",
+  "level": "C1",
+  "pinyin": "zhōngxún",
+  "meaning": "trung tuần (mười ngày giữa tháng)"
+ },
+ {
+  "chinese": "中葉",
+  "level": "C1",
+  "pinyin": "zhōngyè",
+  "meaning": "giữa thế kỷ, trung diệp"
+ },
+ {
+  "chinese": "中醫",
+  "level": "C1",
+  "pinyin": "zhōngyī",
+  "meaning": "Đông y, thầy thuốc Đông y"
+ },
+ {
+  "chinese": "中庸",
+  "level": "C1",
+  "pinyin": "zhōngyōng",
+  "meaning": "trung dung, không thiên vị"
+ },
+ {
+  "chinese": "重用",
+  "level": "C1",
+  "pinyin": "zhòngyòng",
+  "meaning": "trọng dụng"
+ },
+ {
+  "chinese": "重鎮",
+  "level": "C1",
+  "pinyin": "zhòngzhèn",
+  "meaning": "trung tâm quan trọng, trọng trấn"
+ },
+ {
+  "chinese": "種植",
+  "level": "C1",
+  "pinyin": "zhòngzhí",
+  "meaning": "trồng trọt"
+ },
+ {
+  "chinese": "種種",
+  "level": "C1",
+  "pinyin": "zhǒngzhǒng",
+  "meaning": "đủ loại, các loại"
+ },
+ {
+  "chinese": "皺",
+  "level": "C1",
+  "pinyin": "zhòu",
+  "meaning": "nhăn, cau (mày)"
+ },
+ {
+  "chinese": "周邊",
+  "level": "C1",
+  "pinyin": "zhōubiān",
+  "meaning": "xung quanh, vùng lân cận"
+ },
+ {
+  "chinese": "周密",
+  "level": "C1",
+  "pinyin": "zhōumì",
+  "meaning": "chu đáo, tỉ mỉ"
+ },
+ {
+  "chinese": "皺紋",
+  "level": "C1",
+  "pinyin": "zhòuwén",
+  "meaning": "nếp nhăn"
+ },
+ {
+  "chinese": "周詳",
+  "level": "C1",
+  "pinyin": "zhōuxiáng",
+  "meaning": "chu đáo, tường tận"
+ },
+ {
+  "chinese": "周遊",
+  "level": "C1",
+  "pinyin": "zhōuyóu",
+  "meaning": "chu du, đi du lịch khắp nơi"
+ },
+ {
+  "chinese": "周轉",
+  "level": "C1",
+  "pinyin": "zhōuzhuǎn",
+  "meaning": "xoay vòng (vốn), lưu thông"
+ },
+ {
+  "chinese": "駐",
+  "level": "C1",
+  "pinyin": "zhù",
+  "meaning": "đóng quân, đóng tại"
+ },
+ {
+  "chinese": "株",
+  "level": "C1",
+  "pinyin": "zhū",
+  "meaning": "cây, gốc (lượng từ)"
+ },
+ {
+  "chinese": "逐",
+  "level": "C1",
+  "pinyin": "zhú",
+  "meaning": "đuổi theo, từng"
+ },
+ {
+  "chinese": "柱(子)",
+  "level": "C1",
+  "pinyin": "zhù(zi)",
+  "meaning": "cái cột"
+ },
+ {
+  "chinese": "抓緊",
+  "level": "C1",
+  "pinyin": "zhuājǐn",
+  "meaning": "nắm chặt, tranh thủ"
+ },
+ {
+  "chinese": "磚",
+  "level": "C1",
+  "pinyin": "zhuān",
+  "meaning": "gạch"
+ },
+ {
+  "chinese": "轉動",
+  "level": "C1",
+  "pinyin": "zhuǎndòng",
+  "meaning": "xoay, chuyển động"
+ },
+ {
+  "chinese": "裝備",
+  "level": "C1",
+  "pinyin": "zhuāngbèi",
+  "meaning": "trang bị"
+ },
+ {
+  "chinese": "壯觀",
+  "level": "C1",
+  "pinyin": "zhuàngguān",
+  "meaning": "tráng quan, hùng vĩ"
+ },
+ {
+  "chinese": "裝潢",
+  "level": "C1",
+  "pinyin": "zhuānghuáng",
+  "meaning": "trang trí nội thất"
+ },
+ {
+  "chinese": "壯麗",
+  "level": "C1",
+  "pinyin": "zhuànglì",
+  "meaning": "tráng lệ, hùng vĩ"
+ },
+ {
+  "chinese": "裝配",
+  "level": "C1",
+  "pinyin": "zhuāngpèi",
+  "meaning": "lắp ráp"
+ },
+ {
+  "chinese": "專櫃",
+  "level": "C1",
+  "pinyin": "zhuānguì",
+  "meaning": "quầy chuyên doanh, quầy hàng hiệu"
+ },
+ {
+  "chinese": "莊嚴",
+  "level": "C1",
+  "pinyin": "zhuāngyán",
+  "meaning": "trang nghiêm, trang trọng"
+ },
+ {
+  "chinese": "狀元",
+  "level": "C1",
+  "pinyin": "zhuàngyuán",
+  "meaning": "trạng nguyên"
+ },
+ {
+  "chinese": "裝運",
+  "level": "C1",
+  "pinyin": "zhuāngyùn",
+  "meaning": "bốc hàng lên tàu xe, chuyên chở"
+ },
+ {
+  "chinese": "裝置",
+  "level": "C1",
+  "pinyin": "zhuāngzhì",
+  "meaning": "lắp đặt, thiết bị"
+ },
+ {
+  "chinese": "轉化",
+  "level": "C1",
+  "pinyin": "zhuǎnhuà",
+  "meaning": "chuyển hóa"
+ },
+ {
+  "chinese": "轉機",
+  "level": "C1",
+  "pinyin": "zhuǎnjī",
+  "meaning": "bước ngoặt, chuyển biến tốt"
+ },
+ {
+  "chinese": "轉手",
+  "level": "C1",
+  "pinyin": "zhuǎnshǒu",
+  "meaning": "sang tay, chuyển nhượng"
+ },
+ {
+  "chinese": "撰寫",
+  "level": "C1",
+  "pinyin": "zhuànxiě",
+  "meaning": "viết, biên soạn"
+ },
+ {
+  "chinese": "轉眼",
+  "level": "C1",
+  "pinyin": "zhuǎnyǎn",
+  "meaning": "trong nháy mắt, thoáng chốc"
+ },
+ {
+  "chinese": "轉移",
+  "level": "C1",
+  "pinyin": "zhuǎnyí",
+  "meaning": "di chuyển, chuyển dời"
+ },
+ {
+  "chinese": "專員",
+  "level": "C1",
+  "pinyin": "zhuānyuán",
+  "meaning": "chuyên viên"
+ },
+ {
+  "chinese": "轉帳",
+  "level": "C1",
+  "pinyin": "zhuǎnzhàng",
+  "meaning": "chuyển khoản"
+ },
+ {
+  "chinese": "專制",
+  "level": "C1",
+  "pinyin": "zhuānzhì",
+  "meaning": "chuyên chế, độc tài"
+ },
+ {
+  "chinese": "逐步",
+  "level": "C1",
+  "pinyin": "zhúbù",
+  "meaning": "dần dần, từng bước"
+ },
+ {
+  "chinese": "主導",
+  "level": "C1",
+  "pinyin": "zhǔdǎo",
+  "meaning": "chủ đạo, dẫn dắt"
+ },
+ {
+  "chinese": "注定",
+  "level": "C1",
+  "pinyin": "zhùdìng",
+  "meaning": "chủ định, số phận đã định"
+ },
+ {
+  "chinese": "諸多",
+  "level": "C1",
+  "pinyin": "zhūduō",
+  "meaning": "nhiều, rất nhiều"
+ },
+ {
+  "chinese": "囑咐",
+  "level": "C1",
+  "pinyin": "zhǔfù",
+  "meaning": "dặn dò, căn dặn"
+ },
+ {
+  "chinese": "主管",
+  "level": "C1",
+  "pinyin": "zhǔguǎn",
+  "meaning": "chủ quản, phụ trách"
+ },
+ {
+  "chinese": "追捕",
+  "level": "C1",
+  "pinyin": "zhuībǔ",
+  "meaning": "truy bắt"
+ },
+ {
+  "chinese": "追查",
+  "level": "C1",
+  "pinyin": "zhuīchá",
+  "meaning": "truy tra, điều tra"
+ },
+ {
+  "chinese": "追究",
+  "level": "C1",
+  "pinyin": "zhuījiū",
+  "meaning": "truy cứu (trách nhiệm)"
+ },
+ {
+  "chinese": "主見",
+  "level": "C1",
+  "pinyin": "zhǔjiàn",
+  "meaning": "chủ kiến, ý kiến riêng"
+ },
+ {
+  "chinese": "助教",
+  "level": "C1",
+  "pinyin": "zhùjiào",
+  "meaning": "trợ giảng"
+ },
+ {
+  "chinese": "佇立",
+  "level": "C1",
+  "pinyin": "zhùlì",
+  "meaning": "đứng lặng, đứng sững"
+ },
+ {
+  "chinese": "主力",
+  "level": "C1",
+  "pinyin": "zhǔlì",
+  "meaning": "chủ lực"
+ },
+ {
+  "chinese": "主流",
+  "level": "C1",
+  "pinyin": "zhǔliú",
+  "meaning": "dòng chính, chủ lưu"
+ },
+ {
+  "chinese": "矚目",
+  "level": "C1",
+  "pinyin": "zhǔmù",
+  "meaning": "chú ý, nhìn châm chú"
+ },
+ {
+  "chinese": "注目",
+  "level": "C1",
+  "pinyin": "zhùmù",
+  "meaning": "nhìn châm chú, chú ý"
+ },
+ {
+  "chinese": "準",
+  "level": "C1",
+  "pinyin": "zhǔn",
+  "meaning": "chắc chắn, nhất định"
+ },
+ {
+  "chinese": "準備",
+  "level": "C1",
+  "pinyin": "zhǔnbèi",
+  "meaning": "sự chuẩn bị"
+ },
+ {
+  "chinese": "准許",
+  "level": "C1",
+  "pinyin": "zhǔnxǔ",
+  "meaning": "cho phép, phê chuẩn"
+ },
+ {
+  "chinese": "準則",
+  "level": "C1",
+  "pinyin": "zhǔnzé",
+  "meaning": "chuẩn tắc, nguyên tắc"
+ },
+ {
+  "chinese": "酌量",
+  "level": "C1",
+  "pinyin": "zhuóliàng",
+  "meaning": "châm chước, xem xét"
+ },
+ {
+  "chinese": "卓越",
+  "level": "C1",
+  "pinyin": "zhuóyuè",
+  "meaning": "xuất chúng, đặc biệt"
+ },
+ {
+  "chinese": "主權",
+  "level": "C1",
+  "pinyin": "zhǔquán",
+  "meaning": "chủ quyền"
+ },
+ {
+  "chinese": "主人翁",
+  "level": "C1",
+  "pinyin": "zhǔrénwēng",
+  "meaning": "nhân vật chính, người làm chủ"
+ },
+ {
+  "chinese": "注視",
+  "level": "C1",
+  "pinyin": "zhùshì",
+  "meaning": "nhìn châm chú, nhìn thẳng"
+ },
+ {
+  "chinese": "助手",
+  "level": "C1",
+  "pinyin": "zhùshǒu",
+  "meaning": "trợ thủ, phụ tá"
+ },
+ {
+  "chinese": "著手",
+  "level": "C1",
+  "pinyin": "zhuóshǒu",
+  "meaning": "bắt tay vào, bắt đầu"
+ },
+ {
+  "chinese": "住宿",
+  "level": "C1",
+  "pinyin": "zhùsù",
+  "meaning": "ở trọ, lưu trú"
+ },
+ {
+  "chinese": "著想",
+  "level": "C1",
+  "pinyin": "zhuóxiǎng",
+  "meaning": "nghĩ cho, vì"
+ },
+ {
+  "chinese": "著眼",
+  "level": "C1",
+  "pinyin": "zhuóyǎn",
+  "meaning": "chú trọng vào, nhìn vào"
+ },
+ {
+  "chinese": "主義",
+  "level": "C1",
+  "pinyin": "zhǔyì",
+  "meaning": "chủ nghĩa"
+ },
+ {
+  "chinese": "主宰",
+  "level": "C1",
+  "pinyin": "zhǔzǎi",
+  "meaning": "chủ tể, thống trị"
+ },
+ {
+  "chinese": "主旨",
+  "level": "C1",
+  "pinyin": "zhǔzhǐ",
+  "meaning": "chủ chỉ, ý chính"
+ },
+ {
+  "chinese": "著重",
+  "level": "C1",
+  "pinyin": "zhuózhòng",
+  "meaning": "chú trọng, coi trọng"
+ },
+ {
+  "chinese": "注重",
+  "level": "C1",
+  "pinyin": "zhùzhòng",
+  "meaning": "chú trọng, coi trọng"
+ },
+ {
+  "chinese": "主軸",
+  "level": "C1",
+  "pinyin": "zhǔzhóu",
+  "meaning": "trục chính, trọng tâm"
+ },
+ {
+  "chinese": "著作",
+  "level": "C1",
+  "pinyin": "zhùzuò",
+  "meaning": "tác phẩm, trước tác"
+ },
+ {
+  "chinese": "自",
+  "level": "C1",
+  "pinyin": "zì",
+  "meaning": "từ, kể từ"
+ },
+ {
+  "chinese": "自稱",
+  "level": "C1",
+  "pinyin": "zìchēng",
+  "meaning": "tự xưng, tự cho là"
+ },
+ {
+  "chinese": "子彈",
+  "level": "C1",
+  "pinyin": "zǐdàn",
+  "meaning": "viên đạn"
+ },
+ {
+  "chinese": "子弟",
+  "level": "C1",
+  "pinyin": "zǐdì",
+  "meaning": "con em, thế hệ trẻ"
+ },
+ {
+  "chinese": "自費",
+  "level": "C1",
+  "pinyin": "zìfèi",
+  "meaning": "tự túc kinh phí"
+ },
+ {
+  "chinese": "自豪",
+  "level": "C1",
+  "pinyin": "zìháo",
+  "meaning": "tự hào"
+ },
+ {
+  "chinese": "自覺",
+  "level": "C1",
+  "pinyin": "zìjué",
+  "meaning": "tự giác, ý thức"
+ },
+ {
+  "chinese": "自立",
+  "level": "C1",
+  "pinyin": "zìlì",
+  "meaning": "tự lập"
+ },
+ {
+  "chinese": "自滿",
+  "level": "C1",
+  "pinyin": "zìmǎn",
+  "meaning": "tự mãn, kiêu ngạo"
+ },
+ {
+  "chinese": "自然",
+  "level": "C1",
+  "pinyin": "zìrán",
+  "meaning": "tự nhiên, dĩ nhiên"
+ },
+ {
+  "chinese": "資深",
+  "level": "C1",
+  "pinyin": "zīshēn",
+  "meaning": "thâm niên, có kinh nghiệm lâu năm"
+ },
+ {
+  "chinese": "自身",
+  "level": "C1",
+  "pinyin": "zìshēn",
+  "meaning": "tự thân, bản thân"
+ },
+ {
+  "chinese": "姿勢",
+  "level": "C1",
+  "pinyin": "zīshì",
+  "meaning": "tư thế, dáng điệu"
+ },
+ {
+  "chinese": "子孫",
+  "level": "C1",
+  "pinyin": "zǐsūn",
+  "meaning": "con cháu"
+ },
+ {
+  "chinese": "姿態",
+  "level": "C1",
+  "pinyin": "zītài",
+  "meaning": "tư thái, dáng vẻ"
+ },
+ {
+  "chinese": "字體",
+  "level": "C1",
+  "pinyin": "zìtǐ",
+  "meaning": "phông chữ, kiểu chữ"
+ },
+ {
+  "chinese": "紫外線",
+  "level": "C1",
+  "pinyin": "zǐwàixiàn",
+  "meaning": "tia cực tím, tia tử ngoại"
+ },
+ {
+  "chinese": "滋味",
+  "level": "C1",
+  "pinyin": "zīwèi",
+  "meaning": "mùi vị, hương vị, cảm giác"
+ },
+ {
+  "chinese": "自行",
+  "level": "C1",
+  "pinyin": "zìxíng",
+  "meaning": "tự mình, tự động"
+ },
+ {
+  "chinese": "字眼",
+  "level": "C1",
+  "pinyin": "zìyǎn",
+  "meaning": "từ ngữ, cách dùng từ"
+ },
+ {
+  "chinese": "字樣",
+  "level": "C1",
+  "pinyin": "zìyàng",
+  "meaning": "chữ, dòng chữ"
+ },
+ {
+  "chinese": "自治",
+  "level": "C1",
+  "pinyin": "zìzhì",
+  "meaning": "tự trị"
+ },
+ {
+  "chinese": "自制",
+  "level": "C1",
+  "pinyin": "zìzhì",
+  "meaning": "tự chủ, tự kiềm chế"
+ },
+ {
+  "chinese": "資助",
+  "level": "C1",
+  "pinyin": "zīzhù",
+  "meaning": "tài trợ, cấp vốn"
+ },
+ {
+  "chinese": "自傳",
+  "level": "C1",
+  "pinyin": "zìzhuàn",
+  "meaning": "tự truyện"
+ },
+ {
+  "chinese": "總額",
+  "level": "C1",
+  "pinyin": "zǒng'é",
+  "meaning": "tổng số tiền, tổng ngạch"
+ },
+ {
+  "chinese": "總裁",
+  "level": "C1",
+  "pinyin": "zǒngcái",
+  "meaning": "tổng tài, chủ tịch (tập đoàn)"
+ },
+ {
+  "chinese": "總得",
+  "level": "C1",
+  "pinyin": "zǒngděi",
+  "meaning": "dù sao cũng phải, phải"
+ },
+ {
+  "chinese": "總和",
+  "level": "C1",
+  "pinyin": "zǒnghé",
+  "meaning": "tổng, tổng số"
+ },
+ {
+  "chinese": "縱火",
+  "level": "C1",
+  "pinyin": "zònghuǒ",
+  "meaning": "phóng hỏa, đốt nhà"
+ },
+ {
+  "chinese": "總結",
+  "level": "C1",
+  "pinyin": "zǒngjié",
+  "meaning": "tổng kết"
+ },
+ {
+  "chinese": "總經理",
+  "level": "C1",
+  "pinyin": "zǒngjīnglǐ",
+  "meaning": "tổng giám đốc"
+ },
+ {
+  "chinese": "縱容",
+  "level": "C1",
+  "pinyin": "zòngróng",
+  "meaning": "dung túng, nuông chiều"
+ },
+ {
+  "chinese": "縱使",
+  "level": "C1",
+  "pinyin": "zòngshǐ",
+  "meaning": "cho dù, mặc dù"
+ },
+ {
+  "chinese": "總數",
+  "level": "C1",
+  "pinyin": "zǒngshù",
+  "meaning": "tổng số"
+ },
+ {
+  "chinese": "宗旨",
+  "level": "C1",
+  "pinyin": "zōngzhǐ",
+  "meaning": "tôn chỉ, mục đích"
+ },
+ {
+  "chinese": "揍",
+  "level": "C1",
+  "pinyin": "zòu",
+  "meaning": "đánh, đấm"
+ },
+ {
+  "chinese": "走廊",
+  "level": "C1",
+  "pinyin": "zǒuláng",
+  "meaning": "hành lang"
+ },
+ {
+  "chinese": "鑽研",
+  "level": "C1",
+  "pinyin": "zuānyán",
+  "meaning": "nghiên cứu chuyên sâu, đi sâu vào"
+ },
+ {
+  "chinese": "阻擋",
+  "level": "C1",
+  "pinyin": "zǔdǎng",
+  "meaning": "cản trở, ngăn cản"
+ },
+ {
+  "chinese": "罪惡",
+  "level": "C1",
+  "pinyin": "zuì'è",
+  "meaning": "tội ác"
+ },
+ {
+  "chinese": "嘴唇",
+  "level": "C1",
+  "pinyin": "zuǐchún",
+  "meaning": "môi"
+ },
+ {
+  "chinese": "罪名",
+  "level": "C1",
+  "pinyin": "zuìmíng",
+  "meaning": "tội danh"
+ },
+ {
+  "chinese": "罪行",
+  "level": "C1",
+  "pinyin": "zuìxíng",
+  "meaning": "tội ác, hành vi phạm tội"
+ },
+ {
+  "chinese": "阻力",
+  "level": "C1",
+  "pinyin": "zǔlì",
+  "meaning": "trở lực, sức cản"
+ },
+ {
+  "chinese": "租賃",
+  "level": "C1",
+  "pinyin": "zūlìn",
+  "meaning": "thuê và cho thuê"
+ },
+ {
+  "chinese": "尊",
+  "level": "C1",
+  "pinyin": "zūn",
+  "meaning": "bức (tượng), tôn kính"
+ },
+ {
+  "chinese": "阻撓",
+  "level": "C1",
+  "pinyin": "zǔnáo",
+  "meaning": "cản trở, gây khó dễ"
+ },
+ {
+  "chinese": "遵循",
+  "level": "C1",
+  "pinyin": "zūnxún",
+  "meaning": "tuân theo, tuân thủ"
+ },
+ {
+  "chinese": "尊嚴",
+  "level": "C1",
+  "pinyin": "zūnyán",
+  "meaning": "tôn nghiêm, phẩm giá"
+ },
+ {
+  "chinese": "作風",
+  "level": "C1",
+  "pinyin": "zuòfēng",
+  "meaning": "tác phong, phong cách làm việc"
+ },
+ {
+  "chinese": "作怪",
+  "level": "C1",
+  "pinyin": "zuòguài",
+  "meaning": "làm trò, quấy phá"
+ },
+ {
+  "chinese": "坐牢",
+  "level": "C1",
+  "pinyin": "zuòláo",
+  "meaning": "ngồi tù"
+ },
+ {
+  "chinese": "座談",
+  "level": "C1",
+  "pinyin": "zuòtán",
+  "meaning": "tọa đàm, hội thảo"
+ },
+ {
+  "chinese": "作物",
+  "level": "C1",
+  "pinyin": "zuòwù",
+  "meaning": "cây trồng, hoa màu"
+ },
+ {
+  "chinese": "座右銘",
+  "level": "C1",
+  "pinyin": "zuòyòumíng",
+  "meaning": "châm ngôn, phương châm sống"
+ },
+ {
+  "chinese": "作戰",
+  "level": "C1",
+  "pinyin": "zuòzhàn",
+  "meaning": "tác chiến, chiến đấu"
+ },
+ {
+  "chinese": "坐鎮",
+  "level": "C1",
+  "pinyin": "zuòzhèn",
+  "meaning": "trấn giữ, chỉ huy tại chỗ"
+ },
+ {
+  "chinese": "作證",
+  "level": "C1",
+  "pinyin": "zuòzhèng",
+  "meaning": "làm chứng"
+ },
+ {
+  "chinese": "阻塞",
+  "level": "C1",
+  "pinyin": "zǔsè",
+  "meaning": "tắc nghẽn, cản trở"
+ },
+ {
+  "chinese": "組裝",
+  "level": "C1",
+  "pinyin": "zǔzhuāng",
+  "meaning": "lắp ráp"
+ },
+ {
+  "chinese": "祖宗",
+  "level": "C1",
+  "pinyin": "zǔzōng",
+  "meaning": "tổ tông, tổ tiên"
+ },
+ {
+  "chinese": "市政府",
+  "level": "C1",
+  "pinyin": "shìzhèngfǔ",
+  "meaning": "tòa thị chính"
+ },
+ {
+  "chinese": "蛻變",
+  "level": "C1",
+  "pinyin": "tuìbiàn",
+  "meaning": "sự lột xác, biến đổi hoàn toàn để trở nên tốt đẹp hơn"
+ },
+ {
+  "chinese": "捍衛",
+  "level": "C1",
+  "pinyin": "hànwèi",
+  "meaning": "bảo vệ, canh giữ chủ quyền hoặc danh dự"
+ },
+ {
+  "chinese": "睿智",
+  "level": "C1",
+  "pinyin": "ruìzhì",
+  "meaning": "sáng suốt, minh mẫn và có tầm nhìn xa"
+ },
+ {
+  "chinese": "殫精竭慮",
+  "level": "C1",
+  "pinyin": "dānjīngjiélǜ",
+  "meaning": "vắt kiệt tâm trí, dốc hết sức lực cho một việc khó"
+ },
+ {
+  "chinese": "彙整",
+  "level": "C1",
+  "pinyin": "huìzhěng",
+  "meaning": "thu thập và chỉnh lý, tổng hợp dữ liệu"
+ },
+ {
+  "chinese": "範疇",
+  "level": "C1",
+  "pinyin": "fànchóu",
+  "meaning": "phạm trù, lĩnh vực rộng lớn"
+ },
+ {
+  "chinese": "弊端",
+  "level": "C1",
+  "pinyin": "bìduān",
+  "meaning": "mặt trái, tệ nạn hoặc khuyết điểm tồn tại lâu đời"
+ },
+ {
+  "chinese": "核心",
+  "level": "C1",
+  "pinyin": "héxīn",
+  "meaning": "cốt lõi, trọng tâm của vấn đề"
+ },
+ {
+  "chinese": "壟斷",
+  "level": "C1",
+  "pinyin": "lǒngduàn",
+  "meaning": "độc quyền, thâu tóm thị trường"
+ },
+ {
+  "chinese": "扼要",
+  "level": "C1",
+  "pinyin": "èyào",
+  "meaning": "vắn tắt, tóm lược những điểm then chốt"
+ },
+ {
+  "chinese": "博大精深",
+  "level": "C1",
+  "pinyin": "bódàjīngshēn",
+  "meaning": "rộng lớn và tinh sâu về kiến thức văn hóa"
+ },
+ {
+  "chinese": "震撼",
+  "level": "C1",
+  "pinyin": "zhènhàn",
+  "meaning": "gây chấn động mạnh mẽ về tâm lý hoặc vật lý"
+ },
+ {
+  "chinese": "潛移默化",
+  "level": "C1",
+  "pinyin": "qiányímòhuà",
+  "meaning": "thay đổi dần dần một cách âm thầm mà không hay biết"
+ },
+ {
+  "chinese": "策略",
+  "level": "C1",
+  "pinyin": "cèlüè",
+  "meaning": "chiến lược, mưu lược"
+ },
+ {
+  "chinese": "宏觀",
+  "level": "C1",
+  "pinyin": "hóngguān",
+  "meaning": "vĩ mô, tầm nhìn bao quát"
+ },
+ {
+  "chinese": "微觀",
+  "level": "C1",
+  "pinyin": "wēiguān",
+  "meaning": "vi mô, cái nhìn chi tiết"
+ },
+ {
+  "chinese": "突破",
+  "level": "C1",
+  "pinyin": "túpò",
+  "meaning": "đột phá, vượt qua rào cản"
+ },
+ {
+  "chinese": "具備",
+  "level": "C1",
+  "pinyin": "jùbèi",
+  "meaning": "có đầy đủ, hội tụ đủ"
+ },
+ {
+  "chinese": "引領",
+  "level": "C1",
+  "pinyin": "yǐnlǐng",
+  "meaning": "dẫn dắt, đi đầu"
+ },
+ {
+  "chinese": "落實",
+  "level": "C1",
+  "pinyin": "luòshí",
+  "meaning": "thực hiện triệt để, áp dụng thực tế"
+ },
+ {
+  "chinese": "兼容並蓄",
+  "level": "C1",
+  "pinyin": "jiānróngbìngxù",
+  "meaning": "bao hàm toàn diện, dung nạp đa dạng"
+ },
+ {
+  "chinese": "未雨綢繆",
+  "level": "C1",
+  "pinyin": "wèiyǔchóumóu",
+  "meaning": "chuẩn bị trước khi sự việc xảy ra"
+ },
+ {
+  "chinese": "深耕",
+  "level": "C1",
+  "pinyin": "shēngēng",
+  "meaning": "nghiên cứu sâu, cày sâu cuốc bẫm"
+ },
+ {
+  "chinese": "永續",
+  "level": "C1",
+  "pinyin": "yǒngxù",
+  "meaning": "bền vững, lâu dài"
+ },
+ {
+  "chinese": "脈絡",
+  "level": "C1",
+  "pinyin": "màiluò",
+  "meaning": "mạch lạc, sự liên kết của vấn đề"
+ },
+ {
+  "chinese": "剖析",
+  "level": "C1",
+  "pinyin": "pǒuxī",
+  "meaning": "phân tích mổ xẻ"
+ },
+ {
+  "chinese": "整合",
+  "level": "C1",
+  "pinyin": "zhěnghé",
+  "meaning": "tích hợp, chỉnh hợp"
+ },
+ {
+  "chinese": "巔峰",
+  "level": "C1",
+  "pinyin": "diānfēng",
+  "meaning": "đỉnh cao"
+ },
+ {
+  "chinese": "洞察",
+  "level": "C1",
+  "pinyin": "dòngchá",
+  "meaning": "thấu hiểu sâu sắc"
+ },
+ {
+  "chinese": "反思",
+  "level": "C1",
+  "pinyin": "fǎnsī",
+  "meaning": "suy ngẫm lại, phản tỉnh"
+ },
+ {
+  "chinese": "傳承",
+  "level": "C1",
+  "pinyin": "chuánchéng",
+  "meaning": "kế thừa và phát huy"
+ },
+ {
+  "chinese": "素養",
+  "level": "C1",
+  "pinyin": "sùyǎng",
+  "meaning": "tố chất, trình độ văn hóa"
+ },
+ {
+  "chinese": "內涵",
+  "level": "C1",
+  "pinyin": "nèihán",
+  "meaning": "nội hàm, giá trị bên trong"
+ },
+ {
+  "chinese": "脈動",
+  "level": "C1",
+  "pinyin": "màidòng",
+  "meaning": "nhịp đập, xu hướng vận động"
+ },
+ {
+  "chinese": "底蘊",
+  "level": "C1",
+  "pinyin": "dǐyùn",
+  "meaning": "nền tảng văn hóa sâu dày"
+ },
+ {
+  "chinese": "沉澱",
+  "level": "C1",
+  "pinyin": "chéndiàn",
+  "meaning": "lắng đọng, tích lũy"
+ },
+ {
+  "chinese": "昇華",
+  "level": "C1",
+  "pinyin": "shēnghuá",
+  "meaning": "thăng hoa"
+ },
+ {
+  "chinese": "借鏡",
+  "level": "C1",
+  "pinyin": "jièjìng",
+  "meaning": "soi rọi, lấy làm gương"
+ },
+ {
+  "chinese": "布局",
+  "level": "C1",
+  "pinyin": "bùjú",
+  "meaning": "bố cục, dàn trận"
+ },
+ {
+  "chinese": "落幕",
+  "level": "C1",
+  "pinyin": "luòmù",
+  "meaning": "khép lại, kết thúc"
+ },
+ {
+  "chinese": "啟航",
+  "level": "C1",
+  "pinyin": "qǐháng",
+  "meaning": "khởi hành, bắt đầu hành trình"
+ },
+ {
+  "chinese": "綻放",
+  "level": "C1",
+  "pinyin": "zhànfàng",
+  "meaning": "nở rộ, tỏa sáng"
+ },
+ {
+  "chinese": "凝聚",
+  "level": "C1",
+  "pinyin": "níngjù",
+  "meaning": "hội tụ, đoàn kết"
+ },
+ {
+  "chinese": "永恆",
+  "level": "C1",
+  "pinyin": "yǒnghéng",
+  "meaning": "vĩnh hằng"
+ },
+ {
+  "chinese": "磅礴",
+  "level": "C1",
+  "pinyin": "pángbó",
+  "meaning": "hùng hậu, mạnh mẽ"
+ },
+ {
+  "chinese": "溫潤",
+  "level": "C1",
+  "pinyin": "wēnrùn",
+  "meaning": "ôn hòa, nhuận sắc"
+ },
+ {
+  "chinese": "璀璨",
+  "level": "C1",
+  "pinyin": "cuǐcàn",
+  "meaning": "rực rỡ, lấp lánh"
+ },
+ {
+  "chinese": "雋永",
+  "level": "C1",
+  "pinyin": "juànyǒng",
+  "meaning": "ý vị sâu xa, bền lâu"
+ },
+ {
+  "chinese": "洗鍊",
+  "level": "C1",
+  "pinyin": "xǐliàn",
+  "meaning": "tinh luyện, súc tích"
+ },
+ {
+  "chinese": "厚實",
+  "level": "C1",
+  "pinyin": "hòushí",
+  "meaning": "vững chắc, dày dặn"
+ },
+ {
+  "chinese": "豐碩",
+  "level": "C1",
+  "pinyin": "fēngshuò",
+  "meaning": "phong phú, to lớn"
+ },
+ {
+  "chinese": "堅韌",
+  "level": "C1",
+  "pinyin": "jiānrèn",
+  "meaning": "kiên cường, dẻo dai"
+ },
+ {
+  "chinese": "虛懷若谷",
+  "level": "C1",
+  "pinyin": "xūhuáiruògǔ",
+  "meaning": "khiêm tốn như thung lũng trống"
+ },
+ {
+  "chinese": "大公無私",
+  "level": "C1",
+  "pinyin": "dàgōngwúsī",
+  "meaning": "chí công vô tư"
+ },
+ {
+  "chinese": "鍥而不捨",
+  "level": "C1",
+  "pinyin": "qiè'érbùshě",
+  "meaning": "kiên trì không bỏ cuộc"
+ },
+ {
+  "chinese": "任重道遠",
+  "level": "C1",
+  "pinyin": "rènzhòngdàoyuǎn",
+  "meaning": "trách nhiệm nặng nề đường xa"
+ },
+ {
+  "chinese": "披荊斬棘",
+  "level": "C1",
+  "pinyin": "pījīngzhǎnjí",
+  "meaning": "vượt qua chông gai"
+ },
+ {
+  "chinese": "勇往直前",
+  "level": "C1",
+  "pinyin": "yǒngwǎngzhíqián",
+  "meaning": "dũng cảm tiến về phía trước"
+ },
+ {
+  "chinese": "同心協力",
+  "level": "C1",
+  "pinyin": "tóngxīnxiélì",
+  "meaning": "đồng tâm hiệp lực"
+ },
+ {
+  "chinese": "共創輝煌",
+  "level": "C1",
+  "pinyin": "gòngchuànghuīhuáng",
+  "meaning": "cùng tạo nên huy hoàng"
+ },
+ {
+  "chinese": "兢兢業業",
+  "level": "C1",
+  "pinyin": "jīngjīngyèyè",
+  "meaning": "thận trọng cần mẫn"
+ },
+ {
+  "chinese": "知難而進",
+  "level": "C1",
+  "pinyin": "zhīnán'érjìn",
+  "meaning": "biết khó vẫn làm"
+ },
+ {
+  "chinese": "迎難而上",
+  "level": "C1",
+  "pinyin": "yíngnán'érshàng",
+  "meaning": "đối mặt khó khăn"
+ },
+ {
+  "chinese": "砥礪前行",
+  "level": "C1",
+  "pinyin": "dǐlìqiánháng",
+  "meaning": "rèn luyện tiến bước"
+ },
+ {
+  "chinese": "不忘初心",
+  "level": "C1",
+  "pinyin": "bùwàngchūxīn",
+  "meaning": "không quên tâm nguyện ban đầu"
+ },
+ {
+  "chinese": "方得始終",
+  "level": "C1",
+  "pinyin": "fāngdéshǐzhōng",
+  "meaning": "mới có được kết cục trọn vẹn"
+ },
+ {
+  "chinese": "厚德載物",
+  "level": "C1",
+  "pinyin": "hòudézàiwù",
+  "meaning": "đức dày nâng đỡ vạn vật"
+ },
+ {
+  "chinese": "自強不息",
+  "level": "C1",
+  "pinyin": "zìqiángbùxī",
+  "meaning": "tự cường không nghỉ"
+ },
+ {
+  "chinese": "海納百川",
+  "level": "C1",
+  "pinyin": "hǎinàbǎichuān",
+  "meaning": "biển rộng nạp trăm sông"
+ },
+ {
+  "chinese": "有容乃大",
+  "level": "C1",
+  "pinyin": "yǒuróngnǎidà",
+  "meaning": "có bao dung mới lớn mạnh"
+ },
+ {
+  "chinese": "高瞻遠矚",
+  "level": "C1",
+  "pinyin": "gāozhānyuǎnzhǔ",
+  "meaning": "nhìn xa trông rộng"
+ },
+ {
+  "chinese": "腳踏實地",
+  "level": "C1",
+  "pinyin": "jiǎotàshídì",
+  "meaning": "vững bước trên đất, thực tế"
+ },
+ {
+  "chinese": "實事求是",
+  "level": "C1",
+  "pinyin": "shíshìqiúshì",
+  "meaning": "tìm sự thật từ thực tế"
+ },
+ {
+  "chinese": "精益求精",
+  "level": "C1",
+  "pinyin": "jīngyìqiújīng",
+  "meaning": "đã tốt muốn tốt hơn"
+ },
+ {
+  "chinese": "開拓創新",
+  "level": "C1",
+  "pinyin": "kāituòchuàngxīn",
+  "meaning": "khai phá sáng tạo"
+ },
+ {
+  "chinese": "與時俱進",
+  "level": "C1",
+  "pinyin": "yǔshíjùjìn",
+  "meaning": "tiến cùng thời đại"
+ },
+ {
+  "chinese": "和而不同",
+  "level": "C1",
+  "pinyin": "hé'érbùtóng",
+  "meaning": "hòa hợp nhưng khác biệt"
+ },
+ {
+  "chinese": "求同存異",
+  "level": "C1",
+  "pinyin": "qiútóngcúnyì",
+  "meaning": "tìm điểm chung gác lại khác biệt"
+ },
+ {
+  "chinese": "互利共贏",
+  "level": "C1",
+  "pinyin": "hùlìgòngyíng",
+  "meaning": "đôi bên cùng có lợi"
+ },
+ {
+  "chinese": "合作交流",
+  "level": "C1",
+  "pinyin": "hézuòjiāoliú",
+  "meaning": "hợp tác giao lưu"
+ },
+ {
+  "chinese": "攜手並進",
+  "level": "C1",
+  "pinyin": "xiéshǒubìngjìn",
+  "meaning": "cùng nắm tay tiến bước"
+ },
+ {
+  "chinese": "展望未來",
+  "level": "C1",
+  "pinyin": "zhǎnwàngwèilái",
+  "meaning": "trông chờ tương lai"
+ },
+ {
+  "chinese": "築夢前行",
+  "level": "C1",
+  "pinyin": "zhùmèngqiánháng",
+  "meaning": "xây ước mơ tiến bước"
+ },
+ {
+  "chinese": "不負韶華",
+  "level": "C1",
+  "pinyin": "bùfùsháohuá",
+  "meaning": "không phụ tuổi thanh xuân"
+ },
+ {
+  "chinese": "砥礪奮進",
+  "level": "C1",
+  "pinyin": "dǐlìfènjìn",
+  "meaning": "rèn luyện phấn đấu"
+ },
+ {
+  "chinese": "勇攀高峰",
+  "level": "C1",
+  "pinyin": "yǒngpāngāofēng",
+  "meaning": "dũng cảm leo đỉnh cao"
+ },
+ {
+  "chinese": "揚帆起航",
+  "level": "C1",
+  "pinyin": "yángfānqǐháng",
+  "meaning": "giương buồm xuất phát"
+ },
+ {
+  "chinese": "乘風破浪",
+  "level": "C1",
+  "pinyin": "chéngfēngpòlàng",
+  "meaning": "cưỡi gió đạp sóng"
+ },
+ {
+  "chinese": "再創佳績",
+  "level": "C1",
+  "pinyin": "zàichuàngjiājì",
+  "meaning": "lập thêm thành tích tốt"
+ },
+ {
+  "chinese": "續寫篇章",
+  "level": "C1",
+  "pinyin": "xùxiěpiānzhāng",
+  "meaning": "viết tiếp chương mới"
+ },
+ {
+  "chinese": "共話發展",
+  "level": "C1",
+  "pinyin": "gònghuàfāzhǎn",
+  "meaning": "cùng bàn chuyện phát triển"
+ },
+ {
+  "chinese": "深化合作",
+  "level": "C1",
+  "pinyin": "shēnhuàhézuò",
+  "meaning": "chiều sâu hợp tác"
+ },
+ {
+  "chinese": "拓展領域",
+  "level": "C1",
+  "pinyin": "tuòzhǎnlǐngyù",
+  "meaning": "mở rộng lĩnh vực"
+ },
+ {
+  "chinese": "提質增效",
+  "level": "C1",
+  "pinyin": "tízhìzēngxiào",
+  "meaning": "nâng chất tăng hiệu quả"
+ },
+ {
+  "chinese": "轉型升級",
+  "level": "C1",
+  "pinyin": "zhuǎnxíngshēngjí",
+  "meaning": "chuyển đổi nâng cấp"
+ },
+ {
+  "chinese": "創新驅動",
+  "level": "C1",
+  "pinyin": "chuàngxīnqūdòng",
+  "meaning": "động lực sáng tạo"
+ },
+ {
+  "chinese": "融合發展",
+  "level": "C1",
+  "pinyin": "rónghéfāzhǎn",
+  "meaning": "phát triển hòa nhập"
+ },
+ {
+  "chinese": "穩中求進",
+  "level": "C1",
+  "pinyin": "wěnzhōngqiújìn",
+  "meaning": "tiến bước trong ổn định"
+ },
+ {
+  "chinese": "精準發力",
+  "level": "C1",
+  "pinyin": "jīngzhǔnfālì",
+  "meaning": "phát lực chính xác"
+ },
+ {
+  "chinese": "全面覆蓋",
+  "level": "C1",
+  "pinyin": "quánmiànfùgài",
+  "meaning": "phủ sóng toàn diện"
+ },
+ {
+  "chinese": "源頭治理",
+  "level": "C1",
+  "pinyin": "yuántóuzhìlǐ",
+  "meaning": "quản lý từ gốc rễ"
+ },
+ {
+  "chinese": "機制創新",
+  "level": "C1",
+  "pinyin": "jīzhìchuàngxīn",
+  "meaning": "sáng tạo cơ chế"
+ },
+ {
+  "chinese": "優化服務",
+  "level": "C1",
+  "pinyin": "yōuhuàfúwù",
+  "meaning": "tối ưu hóa dịch vụ"
+ },
+ {
+  "chinese": "法治建設",
+  "level": "C1",
+  "pinyin": "fǎzhìjiànshè",
+  "meaning": "xây dựng pháp trị"
+ },
+ {
+  "chinese": "民生保障",
+  "level": "C1",
+  "pinyin": "mínshēngbǎozhàng",
+  "meaning": "bảo đảm dân sinh"
+ },
+ {
+  "chinese": "生態文明",
+  "level": "C1",
+  "pinyin": "shēngtàiwénmíng",
+  "meaning": "văn minh sinh thái"
+ },
+ {
+  "chinese": "綠色發展",
+  "level": "C1",
+  "pinyin": "lǜsèfāzhǎn",
+  "meaning": "phát triển xanh"
+ },
+ {
+  "chinese": "文化傳承",
+  "level": "C1",
+  "pinyin": "wénhuàchuánchéng",
+  "meaning": "kế thừa văn hóa"
+ },
+ {
+  "chinese": "核心價值",
+  "level": "C1",
+  "pinyin": "héxīnjiàzhí",
+  "meaning": "giá trị cốt lõi"
+ },
+ {
+  "chinese": "精神家園",
+  "level": "C1",
+  "pinyin": "jīngshénjiāyuán",
+  "meaning": "mái nhà tinh thần"
+ },
+ {
+  "chinese": "使命擔當",
+  "level": "C1",
+  "pinyin": "shǐmìngdāndāng",
+  "meaning": "gánh vác sứ mệnh"
+ },
+ {
+  "chinese": "時代責任",
+  "level": "C1",
+  "pinyin": "shídàizérèn",
+  "meaning": "trách nhiệm thời đại"
+ },
+ {
+  "chinese": "共同奮鬥",
+  "level": "C1",
+  "pinyin": "gòngtóngfèndòu",
+  "meaning": "cùng nhau phấn đấu"
+ },
+ {
+  "chinese": "夢想成真",
+  "level": "C1",
+  "pinyin": "mèngxiǎngchéngzhēn",
+  "meaning": "ước mơ thành hiện thực"
+ },
+ {
+  "chinese": "共創美好",
+  "level": "C1",
+  "pinyin": "gòngchuàngměihǎo",
+  "meaning": "cùng tạo tốt đẹp"
+ },
+ {
+  "chinese": "幸福生活",
+  "level": "C1",
+  "pinyin": "xìngfúshēnghuó",
+  "meaning": "cuộc sống hạnh phúc"
+ },
+ {
+  "chinese": "砥礪",
+  "level": "C1",
+  "pinyin": "dǐlì",
+  "meaning": "rèn luyện"
+ },
+ {
+  "chinese": "騰飛",
+  "level": "C1",
+  "pinyin": "téngfēi",
+  "meaning": "cất cánh (kinh tế)"
+ },
+ {
+  "chinese": "繁榮",
+  "level": "C1",
+  "pinyin": "fánróng",
+  "meaning": "phồn vinh"
+ },
+ {
+  "chinese": "昌盛",
+  "level": "C1",
+  "pinyin": "chāngshèng",
+  "meaning": "hưng thịnh"
+ },
+ {
+  "chinese": "進步",
+  "level": "C1",
+  "pinyin": "jìnbù",
+  "meaning": "tiến bộ"
+ },
+ {
+  "chinese": "共贏",
+  "level": "C1",
+  "pinyin": "gòngyíng",
+  "meaning": "cùng thắng"
+ },
+ {
+  "chinese": "交流",
+  "level": "C1",
+  "pinyin": "jiāoliú",
+  "meaning": "giao lưu"
+ },
+ {
+  "chinese": "提昇",
+  "level": "C1",
+  "pinyin": "tíshēng",
+  "meaning": "nâng cao"
+ },
+ {
+  "chinese": "完善",
+  "level": "C1",
+  "pinyin": "wánshàn",
+  "meaning": "hoàn thiện"
+ },
+ {
+  "chinese": "健全",
+  "level": "C1",
+  "pinyin": "jiànquán",
+  "meaning": "kiện toàn"
+ },
+ {
+  "chinese": "推動",
+  "level": "C1",
+  "pinyin": "tuīdòng",
+  "meaning": "thúc đẩy"
+ },
+ {
+  "chinese": "促進",
+  "level": "C1",
+  "pinyin": "cùjìn",
+  "meaning": "xúc tiến"
+ },
+ {
+  "chinese": "保障",
+  "level": "C1",
+  "pinyin": "bǎozhàng",
+  "meaning": "bảo đảm"
+ },
+ {
+  "chinese": "弘揚",
+  "level": "C1",
+  "pinyin": "hóngyáng",
+  "meaning": "phát huy"
+ },
+ {
+  "chinese": "彰顯",
+  "level": "C1",
+  "pinyin": "zhāngxiǎn",
+  "meaning": "làm rạng rỡ, biểu thị rõ"
+ },
+ {
+  "chinese": "體現",
+  "level": "C1",
+  "pinyin": "tǐxiàn",
+  "meaning": "thể hiện"
+ },
+ {
+  "chinese": "反映",
+  "level": "C1",
+  "pinyin": "fǎnyìng",
+  "meaning": "phản ánh"
+ },
+ {
+  "chinese": "揭示",
+  "level": "C1",
+  "pinyin": "jiēshì",
+  "meaning": "tiết lộ, cho thấy"
+ },
+ {
+  "chinese": "昭示",
+  "level": "C1",
+  "pinyin": "zhāoshì",
+  "meaning": "cho thấy rõ, răn dạy"
+ },
+ {
+  "chinese": "預示",
+  "level": "C1",
+  "pinyin": "yùshì",
+  "meaning": "báo trước"
+ },
+ {
+  "chinese": "啟迪",
+  "level": "C1",
+  "pinyin": "qǐdí",
+  "meaning": "khơi gợi, giác ngộ"
+ },
+ {
+  "chinese": "激發",
+  "level": "C1",
+  "pinyin": "jīfā",
+  "meaning": "kích hoạt, khơi dậy"
+ },
+ {
+  "chinese": "喚醒",
+  "level": "C1",
+  "pinyin": "huànxǐng",
+  "meaning": "đánh thức"
+ },
+ {
+  "chinese": "鍛造",
+  "level": "C1",
+  "pinyin": "duànzào",
+  "meaning": "rèn đúc"
+ },
+ {
+  "chinese": "鑄就",
+  "level": "C1",
+  "pinyin": "zhùjiù",
+  "meaning": "đúc nên"
+ },
+ {
+  "chinese": "譜寫",
+  "level": "C1",
+  "pinyin": "pǔxiě",
+  "meaning": "viết nên (bản nhạc, lịch sử)"
+ },
+ {
+  "chinese": "築牢",
+  "level": "C1",
+  "pinyin": "zhùláo",
+  "meaning": "xây chắc"
+ },
+ {
+  "chinese": "扎根",
+  "level": "C1",
+  "pinyin": "zhāgēn",
+  "meaning": "bám rễ"
+ },
+ {
+  "chinese": "紮實",
+  "level": "C1",
+  "pinyin": "zhāshí",
+  "meaning": "vững chắc"
+ },
+ {
+  "chinese": "穩固",
+  "level": "C1",
+  "pinyin": "wěngù",
+  "meaning": "ổn định vững chắc"
+ },
+ {
+  "chinese": "高效",
+  "level": "C1",
+  "pinyin": "gāoxiào",
+  "meaning": "hiệu suất cao"
+ },
+ {
+  "chinese": "智能",
+  "level": "C1",
+  "pinyin": "zhìnéng",
+  "meaning": "thông minh (AI)"
+ },
+ {
+  "chinese": "環保",
+  "level": "C1",
+  "pinyin": "huánbǎo",
+  "meaning": "bảo vệ môi trường"
+ },
+ {
+  "chinese": "公平",
+  "level": "C1",
+  "pinyin": "gōngpíng",
+  "meaning": "công bằng"
+ },
+ {
+  "chinese": "公正",
+  "level": "C1",
+  "pinyin": "gōngzhèng",
+  "meaning": "công chính"
+ },
+ {
+  "chinese": "誠信",
+  "level": "C1",
+  "pinyin": "chéngxìn",
+  "meaning": "thành tín"
+ },
+ {
+  "chinese": "友善",
+  "level": "C1",
+  "pinyin": "yǒushàn",
+  "meaning": "thân thiện"
+ },
+ {
+  "chinese": "美滿",
+  "level": "C1",
+  "pinyin": "měimǎn",
+  "meaning": "mỹ mãn"
+ },
+ {
+  "chinese": "温馨",
+  "level": "C1",
+  "pinyin": "wēnxīn",
+  "meaning": "ấm áp"
+ },
+ {
+  "chinese": "雄偉",
+  "level": "C1",
+  "pinyin": "xióngwěi",
+  "meaning": "hùng vĩ"
+ },
+ {
+  "chinese": "浩瀚",
+  "level": "C1",
+  "pinyin": "hàohàn",
+  "meaning": "mênh mông (biển, trời)"
+ },
+ {
+  "chinese": "廣博",
+  "level": "C1",
+  "pinyin": "guǎngbó",
+  "meaning": "rộng khắp, bác học"
+ },
+ {
+  "chinese": "深邃",
+  "level": "C1",
+  "pinyin": "shēnsuì",
+  "meaning": "thâm thúy, sâu thẳm"
+ },
+ {
+  "chinese": "傑出",
+  "level": "C1",
+  "pinyin": "jiéchū",
+  "meaning": "kiệt xuất"
+ },
+ {
+  "chinese": "頂尖",
+  "level": "C1",
+  "pinyin": "dǐngjiān",
+  "meaning": "đỉnh cao nhất"
+ },
+ {
+  "chinese": "心無旁騖",
+  "level": "C1",
+  "pinyin": "xīnwúpángwù",
+  "meaning": "tập trung tuyệt đối"
+ },
+ {
+  "chinese": "全力以赴",
+  "level": "C1",
+  "pinyin": "quánlìyǐfù",
+  "meaning": "dốc toàn lực"
+ },
+ {
+  "chinese": "克勤克儉",
+  "level": "C1",
+  "pinyin": "kèqínkèjiǎn",
+  "meaning": "siêng năng tiết kiệm"
+ },
+ {
+  "chinese": "任勞任怨",
+  "level": "C1",
+  "pinyin": "rènláorènyuàn",
+  "meaning": "không ngại khó khổ"
+ },
+ {
+  "chinese": "有志者事竟成",
+  "level": "C1",
+  "pinyin": "yǒuzhìzhěshìjìngchéng",
+  "meaning": "có chí thì nên"
+ },
+ {
+  "chinese": "聚沙成塔",
+  "level": "C1",
+  "pinyin": "jùshāchéngtǎ",
+  "meaning": "tích tiểu thành đại"
+ },
+ {
+  "chinese": "滴水穿石",
+  "level": "C1",
+  "pinyin": "dīshuǐchuānshí",
+  "meaning": "nước chảy đá mòn"
+ },
+ {
+  "chinese": "精誠所至",
+  "level": "C1",
+  "pinyin": "jīngchéngsuǒzhì",
+  "meaning": "lòng thành cảm động trời"
+ },
+ {
+  "chinese": "金石為開",
+  "level": "C1",
+  "pinyin": "jīnshíwéikāi",
+  "meaning": "sắt đá cũng mòn"
+ },
+ {
+  "chinese": "功到自然成",
+  "level": "C1",
+  "pinyin": "gōngdàozìránchéng",
+  "meaning": "công đủ tự thành công"
+ },
+ {
+  "chinese": "千里之行",
+  "level": "C1",
+  "pinyin": "qiānlǐzhīxíng",
+  "meaning": "hành trình vạn dặm"
+ },
+ {
+  "chinese": "始於足下",
+  "level": "C1",
+  "pinyin": "shǐyúzúxià",
+  "meaning": "bắt đầu từ bước chân"
+ },
+ {
+  "chinese": "路遙知馬力",
+  "level": "C1",
+  "pinyin": "lùyáozhīmǎlì",
+  "meaning": "đường xa biết sức ngựa"
+ },
+ {
+  "chinese": "日久見人心",
+  "level": "C1",
+  "pinyin": "rìjiǔjiànrénxīn",
+  "meaning": "ngày lâu thấy lòng người"
+ },
+ {
+  "chinese": "機不可失",
+  "level": "C1",
+  "pinyin": "jībùkěshī",
+  "meaning": "thời cơ không thể bỏ lỡ"
+ },
+ {
+  "chinese": "失不再來",
+  "level": "C1",
+  "pinyin": "shībùzàilái",
+  "meaning": "mất đi không trở lại"
+ },
+ {
+  "chinese": "防患未然",
+  "level": "C1",
+  "pinyin": "fánghuànwèirán",
+  "meaning": "phòng họa khi chưa xảy ra"
+ },
+ {
+  "chinese": "居安思危",
+  "level": "C1",
+  "pinyin": "jū'ānsīwēi",
+  "meaning": "trong yên bình nghĩ đến hiểm nguy"
+ },
+ {
+  "chinese": "艾滋病",
+  "level": "C1",
+  "pinyin": "àizībìng",
+  "meaning": "bệnh AIDS"
+ },
+ {
+  "chinese": "霸權",
+  "level": "C1",
+  "pinyin": "bàquán",
+  "meaning": "bá quyền"
+ },
+ {
+  "chinese": "罷免",
+  "level": "C1",
+  "pinyin": "bàmiǎn",
+  "meaning": "bãi miễn, cách chức"
+ },
+ {
+  "chinese": "白熱化",
+  "level": "C1",
+  "pinyin": "báirèhuà",
+  "meaning": "giai đoạn quyết liệt"
+ },
+ {
+  "chinese": "敗北",
+  "level": "C1",
+  "pinyin": "bàiběi",
+  "meaning": "thất bại"
+ },
+ {
+  "chinese": "版圖",
+  "level": "C1",
+  "pinyin": "bǎntú",
+  "meaning": "lãnh thổ"
+ },
+ {
+  "chinese": "暴漲",
+  "level": "C1",
+  "pinyin": "bàozhǎng",
+  "meaning": "tăng vọt"
+ },
+ {
+  "chinese": "卑鄙",
+  "level": "C1",
+  "pinyin": "bēibǐ",
+  "meaning": "hèn hạ"
+ },
+ {
+  "chinese": "悲劇",
+  "level": "C1",
+  "pinyin": "bēijù",
+  "meaning": "bi kịch"
+ },
+ {
+  "chinese": "被告",
+  "level": "C1",
+  "pinyin": "bèigào",
+  "meaning": "bị cáo"
+ },
+ {
+  "chinese": "背棄",
+  "level": "C1",
+  "pinyin": "bèiqì",
+  "meaning": "ruồng bỏ"
+ },
+ {
+  "chinese": "比例",
+  "level": "C1",
+  "pinyin": "bǐlì",
+  "meaning": "tỷ lệ"
+ },
+ {
+  "chinese": "邊際",
+  "level": "C1",
+  "pinyin": "biānjì",
+  "meaning": "giới hạn"
+ },
+ {
+  "chinese": "便捷",
+  "level": "C1",
+  "pinyin": "biànjié",
+  "meaning": "tiện lợi"
+ },
+ {
+  "chinese": "辯解",
+  "level": "C1",
+  "pinyin": "biànjiě",
+  "meaning": "biện hộ"
+ },
+ {
+  "chinese": "辯證",
+  "level": "C1",
+  "pinyin": "biànzhèng",
+  "meaning": "biện chứng"
+ },
+ {
+  "chinese": "變質",
+  "level": "C1",
+  "pinyin": "biànzhì",
+  "meaning": "biến chất"
+ },
+ {
+  "chinese": "標本",
+  "level": "C1",
+  "pinyin": "biāoběn",
+  "meaning": "mẫu vật"
+ },
+ {
+  "chinese": "飆升",
+  "level": "C1",
+  "pinyin": "biāoshēng",
+  "meaning": "tăng vọt"
+ },
+ {
+  "chinese": "表率",
+  "level": "C1",
+  "pinyin": "biǎoshuài",
+  "meaning": "gương mẫu"
+ },
+ {
+  "chinese": "撥款",
+  "level": "C1",
+  "pinyin": "bōkuǎn",
+  "meaning": "cấp tiền"
+ },
+ {
+  "chinese": "裁員",
+  "level": "C1",
+  "pinyin": "cáiyuán",
+  "meaning": "sa thải"
+ },
+ {
+  "chinese": "參照",
+  "level": "C1",
+  "pinyin": "cānzhào",
+  "meaning": "tham chiếu"
+ },
+ {
+  "chinese": "層次",
+  "level": "C1",
+  "pinyin": "céngcì",
+  "meaning": "tầng lớp"
+ },
+ {
+  "chinese": "差距",
+  "level": "C1",
+  "pinyin": "chājù",
+  "meaning": "khoảng cách"
+ },
+ {
+  "chinese": "詫異",
+  "level": "C1",
+  "pinyin": "chàyì",
+  "meaning": "kinh ngạc"
+ },
+ {
+  "chinese": "常規",
+  "level": "C1",
+  "pinyin": "chángguī",
+  "meaning": "thông lệ"
+ },
+ {
+  "chinese": "倡議",
+  "level": "C1",
+  "pinyin": "chàngyì",
+  "meaning": "đề xướng"
+ },
+ {
+  "chinese": "超負荷",
+  "level": "C1",
+  "pinyin": "chāofùhè",
+  "meaning": "quá tải"
+ },
+ {
+  "chinese": "潮流",
+  "level": "C1",
+  "pinyin": "cháoliú",
+  "meaning": "trào lưu"
+ },
+ {
+  "chinese": "呈现",
+  "level": "C1",
+  "pinyin": "chéngxiàn",
+  "meaning": "hiện ra"
+ },
+ {
+  "chinese": "遲緩",
+  "level": "C1",
+  "pinyin": "chíhuǎn",
+  "meaning": "chậm chạp"
+ },
+ {
+  "chinese": "充沛",
+  "level": "C1",
+  "pinyin": "chōngpèi",
+  "meaning": "dồi dào"
+ },
+ {
+  "chinese": "籌備",
+  "level": "C1",
+  "pinyin": "chóubèi",
+  "meaning": "chuẩn bị"
+ },
+ {
+  "chinese": "喘氣",
+  "level": "C1",
+  "pinyin": "chuǎnqì",
+  "meaning": "thở dốc"
+ },
+ {
+  "chinese": "純粹",
+  "level": "C1",
+  "pinyin": "chúncuì",
+  "meaning": "thuần túy"
+ },
+ {
+  "chinese": "次序",
+  "level": "C1",
+  "pinyin": "cìxù",
+  "meaning": "thứ tự"
+ },
+ {
+  "chinese": "措施",
+  "level": "C1",
+  "pinyin": "cuòshī",
+  "meaning": "biện pháp"
+ },
+ {
+  "chinese": "答辯",
+  "level": "C1",
+  "pinyin": "dábiàn",
+  "meaning": "biện luận"
+ },
+ {
+  "chinese": "大致",
+  "level": "C1",
+  "pinyin": "dàzhì",
+  "meaning": "đại khái"
+ },
+ {
+  "chinese": "代價",
+  "level": "C1",
+  "pinyin": "dàijià",
+  "meaning": "giá phải trả"
+ },
+ {
+  "chinese": "擔保",
+  "level": "C1",
+  "pinyin": "dānbǎo",
+  "meaning": "đảm bảo"
+ },
+ {
+  "chinese": "導向",
+  "level": "C1",
+  "pinyin": "dǎoxiàng",
+  "meaning": "định hướng"
+ },
+ {
+  "chinese": "低廉",
+  "level": "C1",
+  "pinyin": "dīlián",
+  "meaning": "thấp (giá cả)"
+ },
+ {
+  "chinese": "典型",
+  "level": "C1",
+  "pinyin": "diǎnxíng",
+  "meaning": "điển hình"
+ },
+ {
+  "chinese": "凋謝",
+  "level": "C1",
+  "pinyin": "diāoxiè",
+  "meaning": "héo tàn"
+ },
+ {
+  "chinese": "定位",
+  "level": "C1",
+  "pinyin": "dìngwèi",
+  "meaning": "định vị"
+ },
+ {
+  "chinese": "動盪",
+  "level": "C1",
+  "pinyin": "dòngdàng",
+  "meaning": "biến động"
+ },
+ {
+  "chinese": "獨特",
+  "level": "C1",
+  "pinyin": "dútè",
+  "meaning": "độc đáo"
+ },
+ {
+  "chinese": "對策",
+  "level": "C1",
+  "pinyin": "duìcè",
+  "meaning": "đối sách"
+ },
+ {
+  "chinese": "多元化",
+  "level": "C1",
+  "pinyin": "duōyuánhuà",
+  "meaning": "đa dạng hóa"
+ },
+ {
+  "chinese": "墮落",
+  "level": "C1",
+  "pinyin": "duòluò",
+  "meaning": "sa ngã"
+ },
+ {
+  "chinese": "遏制",
+  "level": "C1",
+  "pinyin": "èzhì",
+  "meaning": "khống chế"
+ },
+ {
+  "chinese": "發布",
+  "level": "C1",
+  "pinyin": "fābù",
+  "meaning": "tuyên bố"
+ },
+ {
+  "chinese": "發放",
+  "level": "C1",
+  "pinyin": "fāfàng",
+  "meaning": "cấp phát"
+ },
+ {
+  "chinese": "法規",
+  "level": "C1",
+  "pinyin": "fǎguī",
+  "meaning": "quy định"
+ },
+ {
+  "chinese": "繁忙",
+  "level": "C1",
+  "pinyin": "fánmáng",
+  "meaning": "bận rộn"
+ },
+ {
+  "chinese": "反駁",
+  "level": "C1",
+  "pinyin": "fǎnbó",
+  "meaning": "phản bác"
+ },
+ {
+  "chinese": "氾濫",
+  "level": "C1",
+  "pinyin": "fànlàn",
+  "meaning": "tràn lan"
+ },
+ {
+  "chinese": "房地產",
+  "level": "C1",
+  "pinyin": "fángdìchǎn",
+  "meaning": "bất động sản"
+ },
+ {
+  "chinese": "飛躍",
+  "level": "C1",
+  "pinyin": "fēiyuè",
+  "meaning": "nhảy vọt"
+ },
+ {
+  "chinese": "肥沃",
+  "level": "C1",
+  "pinyin": "féiwò",
+  "meaning": "phì nhiêu"
+ },
+ {
+  "chinese": "誹謗",
+  "level": "C1",
+  "pinyin": "fěibàng",
+  "meaning": "phỉ báng"
+ },
+ {
+  "chinese": "分歧",
+  "level": "C1",
+  "pinyin": "fēnqí",
+  "meaning": "bất đồng"
+ },
+ {
+  "chinese": "氛圍",
+  "level": "C1",
+  "pinyin": "fēnwéi",
+  "meaning": "không khí"
+ },
+ {
+  "chinese": "紛爭",
+  "level": "C1",
+  "pinyin": "fēnzhēng",
+  "meaning": "tranh chấp"
+ },
+ {
+  "chinese": "奮鬥",
+  "level": "C1",
+  "pinyin": "fèndòu",
+  "meaning": "phấn đấu"
+ },
+ {
+  "chinese": "符合",
+  "level": "C1",
+  "pinyin": "fúhé",
+  "meaning": "phù hợp"
+ },
+ {
+  "chinese": "福利",
+  "level": "C1",
+  "pinyin": "fúlì",
+  "meaning": "phúc lợi"
+ },
+ {
+  "chinese": "腐敗",
+  "level": "C1",
+  "pinyin": "fǔbài",
+  "meaning": "tham nhũng"
+ },
+ {
+  "chinese": "輔助",
+  "level": "C1",
+  "pinyin": "fǔzhù",
+  "meaning": "hỗ trợ"
+ },
+ {
+  "chinese": "副作用",
+  "level": "C1",
+  "pinyin": "fùzuòyòng",
+  "meaning": "tác dụng phụ"
+ },
+ {
+  "chinese": "富裕",
+  "level": "C1",
+  "pinyin": "fùyù",
+  "meaning": "giàu có"
+ },
+ {
+  "chinese": "概念",
+  "level": "C1",
+  "pinyin": "gàiniàn",
+  "meaning": "khái niệm"
+ },
+ {
+  "chinese": "干預",
+  "level": "C1",
+  "pinyin": "gānyù",
+  "meaning": "can thiệp"
+ },
+ {
+  "chinese": "告終",
+  "level": "C1",
+  "pinyin": "gàozhōng",
+  "meaning": "kết thúc"
+ },
+ {
+  "chinese": "跟隨",
+  "level": "C1",
+  "pinyin": "gēnsuí",
+  "meaning": "đi theo"
+ },
+ {
+  "chinese": "更加",
+  "level": "C1",
+  "pinyin": "gèngjiā",
+  "meaning": "càng thêm"
+ },
+ {
+  "chinese": "共識",
+  "level": "C1",
+  "pinyin": "gòngshí",
+  "meaning": "đồng thuận"
+ },
+ {
+  "chinese": "供需",
+  "level": "C1",
+  "pinyin": "gōngxū",
+  "meaning": "cung cầu"
+ },
+ {
+  "chinese": "構築",
+  "level": "C1",
+  "pinyin": "gòuzhù",
+  "meaning": "xây dựng"
+ },
+ {
+  "chinese": "古董",
+  "level": "C1",
+  "pinyin": "gǔdǒng",
+  "meaning": "đồ cổ"
+ },
+ {
+  "chinese": "股票",
+  "level": "C1",
+  "pinyin": "gǔpiào",
+  "meaning": "cổ phiếu"
+ },
+ {
+  "chinese": "骨幹",
+  "level": "C1",
+  "pinyin": "gǔgàn",
+  "meaning": "cốt cán"
+ },
+ {
+  "chinese": "鼓舞",
+  "level": "C1",
+  "pinyin": "gǔwǔ",
+  "meaning": "cổ vũ"
+ },
+ {
+  "chinese": "雇傭",
+  "level": "C1",
+  "pinyin": "gùyōng",
+  "meaning": "thuê mướn"
+ },
+ {
+  "chinese": "慣例",
+  "level": "C1",
+  "pinyin": "guànlì",
+  "meaning": "thông lệ"
+ },
+ {
+  "chinese": "規劃",
+  "level": "C1",
+  "pinyin": "guīhuà",
+  "meaning": "quy hoạch"
+ },
+ {
+  "chinese": "規律",
+  "level": "C1",
+  "pinyin": "guīlǜ",
+  "meaning": "quy luật"
+ },
+ {
+  "chinese": "瑰寶",
+  "level": "C1",
+  "pinyin": "guībǎo",
+  "meaning": "báu vật"
+ },
+ {
+  "chinese": "後勤",
+  "level": "C1",
+  "pinyin": "hòuqín",
+  "meaning": "hậu cần"
+ },
+ {
+  "chinese": "互聯網",
+  "level": "C1",
+  "pinyin": "hùliánwǎng",
+  "meaning": "internet"
+ },
+ {
+  "chinese": "華麗",
+  "level": "C1",
+  "pinyin": "huálì",
+  "meaning": "hoa lệ"
+ },
+ {
+  "chinese": "環境",
+  "level": "C1",
+  "pinyin": "huánjìng",
+  "meaning": "môi trường"
+ },
+ {
+  "chinese": "幻想",
+  "level": "C1",
+  "pinyin": "huànxiǎng",
+  "meaning": "ảo tưởng"
+ },
+ {
+  "chinese": "荒謬",
+  "level": "C1",
+  "pinyin": "huāngmiù",
+  "meaning": "hoang đường"
+ },
+ {
+  "chinese": "恢復",
+  "level": "C1",
+  "pinyin": "huīfù",
+  "meaning": "khôi phục"
+ },
+ {
+  "chinese": "混亂",
+  "level": "C1",
+  "pinyin": "hùnluàn",
+  "meaning": "hỗn loạn"
+ },
+ {
+  "chinese": "活潑",
+  "level": "C1",
+  "pinyin": "huópō",
+  "meaning": "hoạt bát"
+ },
+ {
+  "chinese": "基礎",
+  "level": "C1",
+  "pinyin": "jīchǔ",
+  "meaning": "nền tảng"
+ },
+ {
+  "chinese": "激情",
+  "level": "C1",
+  "pinyin": "jīqíng",
+  "meaning": "đam mê"
+ },
+ {
+  "chinese": "及時",
+  "level": "C1",
+  "pinyin": "jíshí",
+  "meaning": "kịp thời"
+ },
+ {
+  "chinese": "急劇",
+  "level": "C1",
+  "pinyin": "jíjù",
+  "meaning": "cấp bách"
+ },
+ {
+  "chinese": "棘手",
+  "level": "C1",
+  "pinyin": "jíshǒu",
+  "meaning": "hóc búa"
+ },
+ {
+  "chinese": "集中",
+  "level": "C1",
+  "pinyin": "jízhōng",
+  "meaning": "tập trung"
+ },
+ {
+  "chinese": "寄存",
+  "level": "C1",
+  "pinyin": "jìcún",
+  "meaning": "ký gửi"
+ },
+ {
+  "chinese": "寂寞",
+  "level": "C1",
+  "pinyin": "jìmò",
+  "meaning": "cô đơn"
+ },
+ {
+  "chinese": "加工",
+  "level": "C1",
+  "pinyin": "jiāgōng",
+  "meaning": "gia công"
+ },
+ {
+  "chinese": "家長",
+  "level": "C1",
+  "pinyin": "jiāzhǎng",
+  "meaning": "phụ huynh"
+ },
+ {
+  "chinese": "價值",
+  "level": "C1",
+  "pinyin": "jiàzhí",
+  "meaning": "giá trị"
+ },
+ {
+  "chinese": "監管",
+  "level": "C1",
+  "pinyin": "jiānguǎn",
+  "meaning": "giám sát"
+ },
+ {
+  "chinese": "監視",
+  "level": "C1",
+  "pinyin": "jiānshì",
+  "meaning": "theo dõi"
+ },
+ {
+  "chinese": "艱巨",
+  "level": "C1",
+  "pinyin": "jiānjù",
+  "meaning": "gian khổ"
+ },
+ {
+  "chinese": "尖銳",
+  "level": "C1",
+  "pinyin": "jiānruì",
+  "meaning": "gay gắt"
+ },
+ {
+  "chinese": "剪輯",
+  "level": "C1",
+  "pinyin": "jiǎnjí",
+  "meaning": "cắt ghép"
+ },
+ {
+  "chinese": "簡短",
+  "level": "C1",
+  "pinyin": "jiǎnduǎn",
+  "meaning": "ngắn gọn"
+ },
+ {
+  "chinese": "建立",
+  "level": "C1",
+  "pinyin": "jiànlì",
+  "meaning": "thiết lập"
+ },
+ {
+  "chinese": "鑒定",
+  "level": "C1",
+  "pinyin": "jiàndìng",
+  "meaning": "giám định"
+ },
+ {
+  "chinese": "交付",
+  "level": "C1",
+  "pinyin": "jiāofù",
+  "meaning": "bàn giao"
+ },
+ {
+  "chinese": "交互",
+  "level": "C1",
+  "pinyin": "jiāohù",
+  "meaning": "tương tác"
+ },
+ {
+  "chinese": "焦点",
+  "level": "C1",
+  "pinyin": "jiāodiǎn",
+  "meaning": "tiêu điểm"
+ },
+ {
+  "chinese": "攪拌",
+  "level": "C1",
+  "pinyin": "jiǎobàn",
+  "meaning": "nhào trộn"
+ },
+ {
+  "chinese": "教授",
+  "level": "C1",
+  "pinyin": "jiàoshòu",
+  "meaning": "giáo sư"
+ },
+ {
+  "chinese": "結構",
+  "level": "C1",
+  "pinyin": "jiégòu",
+  "meaning": "kết cấu"
+ },
+ {
+  "chinese": "結算",
+  "level": "C1",
+  "pinyin": "jiésuàn",
+  "meaning": "quyết toán"
+ },
+ {
+  "chinese": "截止",
+  "level": "C1",
+  "pinyin": "jiézhǐ",
+  "meaning": "đến hạn"
+ },
+ {
+  "chinese": "節奏",
+  "level": "C1",
+  "pinyin": "jiézòu",
+  "meaning": "nhịp điệu"
+ },
+ {
+  "chinese": "解雇",
+  "level": "C1",
+  "pinyin": "jiěgù",
+  "meaning": "sa thải"
+ },
+ {
+  "chinese": "解除",
+  "level": "C1",
+  "pinyin": "jiěchú",
+  "meaning": "giải trừ"
+ },
+ {
+  "chinese": "金融",
+  "level": "C1",
+  "pinyin": "jīnróng",
+  "meaning": "tài chính"
+ },
+ {
+  "chinese": "儘管",
+  "level": "C1",
+  "pinyin": "jǐnguǎn",
+  "meaning": "mặc dù"
+ },
+ {
+  "chinese": "精英",
+  "level": "C1",
+  "pinyin": "jīngyīng",
+  "meaning": "tinh anh"
+ },
+ {
+  "chinese": "精品",
+  "level": "C1",
+  "pinyin": "jīngpǐn",
+  "meaning": "hàng cao cấp"
+ },
+ {
+  "chinese": "精准",
+  "level": "C1",
+  "pinyin": "jīngzhǔn",
+  "meaning": "chính xác"
+ },
+ {
+  "chinese": "境遇",
+  "level": "C1",
+  "pinyin": "jìngyù",
+  "meaning": "hoàn cảnh"
+ },
+ {
+  "chinese": "纠正",
+  "level": "C1",
+  "pinyin": "jiūzhèng",
+  "meaning": "uốn nắn"
+ },
+ {
+  "chinese": "居住",
+  "level": "C1",
+  "pinyin": "jūzhù",
+  "meaning": "cư trú"
+ },
+ {
+  "chinese": "絕望",
+  "level": "C1",
+  "pinyin": "juéwàng",
+  "meaning": "tuyệt vọng"
+ },
+ {
+  "chinese": "軍事",
+  "level": "C1",
+  "pinyin": "jūnshì",
+  "meaning": "quân sự"
+ },
+ {
+  "chinese": "卡通",
+  "level": "C1",
+  "pinyin": "kǎtōng",
+  "meaning": "hoạt hình"
+ },
+ {
+  "chinese": "看重",
+  "level": "C1",
+  "pinyin": "kànzhòng",
+  "meaning": "coi trọng"
+ },
+ {
+  "chinese": "抗議",
+  "level": "C1",
+  "pinyin": "kàngyì",
+  "meaning": "kháng nghị"
+ },
+ {
+  "chinese": "考察",
+  "level": "C1",
+  "pinyin": "kǎochá",
+  "meaning": "khảo sát"
+ },
+ {
+  "chinese": "苛刻",
+  "level": "C1",
+  "pinyin": "kēkè",
+  "meaning": "khắt khe"
+ },
+ {
+  "chinese": "科目",
+  "level": "C1",
+  "pinyin": "kēmù",
+  "meaning": "môn học"
+ },
+ {
+  "chinese": "可靠",
+  "level": "C1",
+  "pinyin": "kěkào",
+  "meaning": "đáng tin"
+ },
+ {
+  "chinese": "可惜",
+  "level": "C1",
+  "pinyin": "kěxī",
+  "meaning": "đáng tiếc"
+ },
+ {
+  "chinese": "渴望",
+  "level": "C1",
+  "pinyin": "kěwàng",
+  "meaning": "khát khao"
+ },
+ {
+  "chinese": "克服",
+  "level": "C1",
+  "pinyin": "kèfú",
+  "meaning": "khắc phục"
+ },
+ {
+  "chinese": "課程",
+  "level": "C1",
+  "pinyin": "kèchéng",
+  "meaning": "khóa học"
+ },
+ {
+  "chinese": "控制",
+  "level": "C1",
+  "pinyin": "kòngzhì",
+  "meaning": "khống chế"
+ },
+ {
+  "chinese": "恐怖",
+  "level": "C1",
+  "pinyin": "kǒngbù",
+  "meaning": "khủng bố"
+ },
+ {
+  "chinese": "空白",
+  "level": "C1",
+  "pinyin": "kòngbái",
+  "meaning": "trống trải"
+ },
+ {
+  "chinese": "跨國",
+  "level": "C1",
+  "pinyin": "kuàguó",
+  "meaning": "đa quốc gia"
+ },
+ {
+  "chinese": "寬容",
+  "level": "C1",
+  "pinyin": "kuānróng",
+  "meaning": "bao dung"
+ },
+ {
+  "chinese": "垃圾",
+  "level": "C1",
+  "pinyin": "lājī",
+  "meaning": "rác rưởi"
+ },
+ {
+  "chinese": "攔截",
+  "level": "C1",
+  "pinyin": "lánjié",
+  "meaning": "đánh chặn"
+ },
+ {
+  "chinese": "懶惰",
+  "level": "C1",
+  "pinyin": "lǎnduò",
+  "meaning": "lười biếng"
+ },
+ {
+  "chinese": "濫用",
+  "level": "C1",
+  "pinyin": "lànyòng",
+  "meaning": "lạm dụng"
+ },
+ {
+  "chinese": "浪漫",
+  "level": "C1",
+  "pinyin": "làngmàn",
+  "meaning": "lãng mạn"
+ },
+ {
+  "chinese": "勞動",
+  "level": "C1",
+  "pinyin": "láodòng",
+  "meaning": "lao động"
+ },
+ {
+  "chinese": "樂觀",
+  "level": "C1",
+  "pinyin": "lèguān",
+  "meaning": "lạc quan"
+ },
+ {
+  "chinese": "冷酷",
+  "level": "C1",
+  "pinyin": "lěngkù",
+  "meaning": "lạnh lùng"
+ },
+ {
+  "chinese": "禮儀",
+  "level": "C1",
+  "pinyin": "lǐyí",
+  "meaning": "lễ nghi"
+ },
+ {
+  "chinese": "理想",
+  "level": "C1",
+  "pinyin": "lǐxiǎng",
+  "meaning": "lý tưởng"
+ },
+ {
+  "chinese": "理解",
+  "level": "C1",
+  "pinyin": "lǐjiě",
+  "meaning": "lý giải"
+ },
+ {
+  "chinese": "里程碑",
+  "level": "C1",
+  "pinyin": "lǐchéngbēi",
+  "meaning": "cột mốc"
+ },
+ {
+  "chinese": "利潤",
+  "level": "C1",
+  "pinyin": "lìrùn",
+  "meaning": "lợi nhuận"
+ },
+ {
+  "chinese": "利弊",
+  "level": "C1",
+  "pinyin": "lìbì",
+  "meaning": "lợi hại"
+ },
+ {
+  "chinese": "聯合",
+  "level": "C1",
+  "pinyin": "liánhé",
+  "meaning": "liên hiệp"
+ },
+ {
+  "chinese": "廉潔",
+  "level": "C1",
+  "pinyin": "liánjié",
+  "meaning": "liêm khiết"
+ },
+ {
+  "chinese": "鏈接",
+  "level": "C1",
+  "pinyin": "liànjiē",
+  "meaning": "kết nối"
+ },
+ {
+  "chinese": "良心",
+  "level": "C1",
+  "pinyin": "liángxīn",
+  "meaning": "lương tâm"
+ },
+ {
+  "chinese": "糧食",
+  "level": "C1",
+  "pinyin": "liángshí",
+  "meaning": "lương thực"
+ },
+ {
+  "chinese": "亮點",
+  "level": "C1",
+  "pinyin": "liàngdiǎn",
+  "meaning": "điểm sáng"
+ },
+ {
+  "chinese": "列舉",
+  "level": "C1",
+  "pinyin": "lièjǔ",
+  "meaning": "liệt kê"
+ },
+ {
+  "chinese": "臨床",
+  "level": "C1",
+  "pinyin": "línchuáng",
+  "meaning": "lâm sàng"
+ },
+ {
+  "chinese": "臨時",
+  "level": "C1",
+  "pinyin": "línshí",
+  "meaning": "tạm thời"
+ },
+ {
+  "chinese": "領域",
+  "level": "C1",
+  "pinyin": "lǐngyù",
+  "meaning": "lĩnh vực"
+ },
+ {
+  "chinese": "瀏覽",
+  "level": "C1",
+  "pinyin": "liúlǎn",
+  "meaning": "duyệt lướt"
+ },
+ {
+  "chinese": "流利",
+  "level": "C1",
+  "pinyin": "liúlì",
+  "meaning": "trôi chảy"
+ },
+ {
+  "chinese": "露天",
+  "level": "C1",
+  "pinyin": "lùtiān",
+  "meaning": "ngoài trời"
+ },
+ {
+  "chinese": "履行",
+  "level": "C1",
+  "pinyin": "lǚxíng",
+  "meaning": "thực hiện"
+ },
+ {
+  "chinese": "倫理",
+  "level": "C1",
+  "pinyin": "lúnlǐ",
+  "meaning": "luân thường"
+ },
+ {
+  "chinese": "邏輯",
+  "level": "C1",
+  "pinyin": "luójí",
+  "meaning": "lô-gic"
+ },
+ {
+  "chinese": "落後",
+  "level": "C1",
+  "pinyin": "luòhòu",
+  "meaning": "lạc hậu"
+ },
+ {
+  "chinese": "矛盾",
+  "level": "C1",
+  "pinyin": "máodùn",
+  "meaning": "mâu thuẫn"
+ },
+ {
+  "chinese": "盲目",
+  "level": "C1",
+  "pinyin": "mángmù",
+  "meaning": "mù quáng"
+ },
+ {
+  "chinese": "茫然",
+  "level": "C1",
+  "pinyin": "mángrán",
+  "meaning": "ngơ ngác"
+ },
+ {
+  "chinese": "茂盛",
+  "level": "C1",
+  "pinyin": "màoshèng",
+  "meaning": "tươi tốt"
+ },
+ {
+  "chinese": "冒犯",
+  "level": "C1",
+  "pinyin": "màofàn",
+  "meaning": "mạo phạm"
+ },
+ {
+  "chinese": "貿易",
+  "level": "C1",
+  "pinyin": "màoyì",
+  "meaning": "thương mại"
+ },
+ {
+  "chinese": "沒收",
+  "level": "C1",
+  "pinyin": "mòshōu",
+  "meaning": "tịch thu"
+ },
+ {
+  "chinese": "媒介",
+  "level": "C1",
+  "pinyin": "méijiè",
+  "meaning": "môi giới"
+ },
+ {
+  "chinese": "美德",
+  "level": "C1",
+  "pinyin": "měidé",
+  "meaning": "mỹ đức"
+ },
+ {
+  "chinese": "門檻",
+  "level": "C1",
+  "pinyin": "ménkǎn",
+  "meaning": "ngưỡng cửa"
+ },
+ {
+  "chinese": "夢想",
+  "level": "C1",
+  "pinyin": "mèngxiǎng",
+  "meaning": "ước mơ"
+ },
+ {
+  "chinese": "彌補",
+  "level": "C1",
+  "pinyin": "míbǔ",
+  "meaning": "bù đắp"
+ },
+ {
+  "chinese": "迷茫",
+  "level": "C1",
+  "pinyin": "mímáng",
+  "meaning": "mơ hồ"
+ },
+ {
+  "chinese": "密封",
+  "level": "C1",
+  "pinyin": "mìfēng",
+  "meaning": "niêm phong"
+ },
+ {
+  "chinese": "密碼",
+  "level": "C1",
+  "pinyin": "mìmǎ",
+  "meaning": "mật mã"
+ },
+ {
+  "chinese": "免疫",
+  "level": "C1",
+  "pinyin": "miǎnyì",
+  "meaning": "miễn dịch"
+ },
+ {
+  "chinese": "面貌",
+  "level": "C1",
+  "pinyin": "miànmào",
+  "meaning": "diện mạo"
+ },
+ {
+  "chinese": "描繪",
+  "level": "C1",
+  "pinyin": "miáohuì",
+  "meaning": "miêu tả"
+ },
+ {
+  "chinese": "渺小",
+  "level": "C1",
+  "pinyin": "miǎoxiǎo",
+  "meaning": "nhỏ bé"
+ },
+ {
+  "chinese": "民主",
+  "level": "C1",
+  "pinyin": "mínzhǔ",
+  "meaning": "dân chủ"
+ },
+ {
+  "chinese": "敏感",
+  "level": "C1",
+  "pinyin": "mǐngǎn",
+  "meaning": "nhạy cảm"
+ },
+ {
+  "chinese": "明白",
+  "level": "C1",
+  "pinyin": "míngbai",
+  "meaning": "hiểu rõ"
+ },
+ {
+  "chinese": "明智",
+  "level": "C1",
+  "pinyin": "míngzhì",
+  "meaning": "sáng suốt"
+ },
+ {
+  "chinese": "命名",
+  "level": "C1",
+  "pinyin": "mìngmíng",
+  "meaning": "đặt tên"
+ },
+ {
+  "chinese": "命運",
+  "level": "C1",
+  "pinyin": "mìngyùn",
+  "meaning": "vận mệnh"
+ },
+ {
+  "chinese": "模範",
+  "level": "C1",
+  "pinyin": "mófàn",
+  "meaning": "mẫu mực"
+ },
+ {
+  "chinese": "模糊",
+  "level": "C1",
+  "pinyin": "móhu",
+  "meaning": "mờ nhạt"
+ },
+ {
+  "chinese": "模仿",
+  "level": "C1",
+  "pinyin": "mófǎng",
+  "meaning": "bắt chước"
+ },
+ {
+  "chinese": "模式",
+  "level": "C1",
+  "pinyin": "móshì",
+  "meaning": "mô thức"
+ },
+ {
+  "chinese": "魔力",
+  "level": "C1",
+  "pinyin": "mólì",
+  "meaning": "ma lực"
+ },
+ {
+  "chinese": "摩擦",
+  "level": "C1",
+  "pinyin": "mócā",
+  "meaning": "xích mích"
+ },
+ {
+  "chinese": "陌生",
+  "level": "C1",
+  "pinyin": "mòshēng",
+  "meaning": "xa lạ"
+ },
+ {
+  "chinese": "某種",
+  "level": "C1",
+  "pinyin": "mǒuzhǒng",
+  "meaning": "loại nào đó"
+ },
+ {
+  "chinese": "目标",
+  "level": "C1",
+  "pinyin": "mùbiāo",
+  "meaning": "mục tiêu"
+ },
+ {
+  "chinese": "目錄",
+  "level": "C1",
+  "pinyin": "mùlù",
+  "meaning": "mục lục"
+ },
+ {
+  "chinese": "目前",
+  "level": "C1",
+  "pinyin": "mùqián",
+  "meaning": "hiện tại"
+ },
+ {
+  "chinese": "納稅",
+  "level": "C1",
+  "pinyin": "nàshuì",
+  "meaning": "nộp thuế"
+ },
+ {
+  "chinese": "耐力",
+  "level": "C1",
+  "pinyin": "nàilì",
+  "meaning": "nhẫn nại"
+ },
+ {
+  "chinese": "難堪",
+  "level": "C1",
+  "pinyin": "nánkān",
+  "meaning": "khó xử"
+ },
+ {
+  "chinese": "難題",
+  "level": "C1",
+  "pinyin": "nántí",
+  "meaning": "vấn đề nan giải"
+ },
+ {
+  "chinese": "能量",
+  "level": "C1",
+  "pinyin": "néngliàng",
+  "meaning": "năng lượng"
+ },
+ {
+  "chinese": "寧願",
+  "level": "C1",
+  "pinyin": "níngyuàn",
+  "meaning": "thà rằng"
+ },
+ {
+  "chinese": "扭轉",
+  "level": "C1",
+  "pinyin": "niǔzhuǎn",
+  "meaning": "xoay chuyển"
+ },
+ {
+  "chinese": "農村",
+  "level": "C1",
+  "pinyin": "nóngcūn",
+  "meaning": "nông thôn"
+ },
+ {
+  "chinese": "農曆",
+  "level": "C1",
+  "pinyin": "nónglì",
+  "meaning": "âm lịch"
+ },
+ {
+  "chinese": "濃厚",
+  "level": "C1",
+  "pinyin": "nónghòu",
+  "meaning": "nồng đậm"
+ },
+ {
+  "chinese": "弄虛作假",
+  "level": "C1",
+  "pinyin": "nòngxūzuòjiǎ",
+  "meaning": "làm giả"
+ },
+ {
+  "chinese": "奴隸",
+  "level": "C1",
+  "pinyin": "núlì",
+  "meaning": "nô lệ"
+ },
+ {
+  "chinese": "努力",
+  "level": "C1",
+  "pinyin": "nǔlì",
+  "meaning": "nỗ lực"
+ },
+ {
+  "chinese": "暖和",
+  "level": "C1",
+  "pinyin": "nuǎnhuo",
+  "meaning": "ấm áp"
+ },
+ {
+  "chinese": "挪用",
+  "level": "C1",
+  "pinyin": "nuóyòng",
+  "meaning": "biển thủ"
+ },
+ {
+  "chinese": "偶像",
+  "level": "C1",
+  "pinyin": "ǒuxiàng",
+  "meaning": "thần tượng"
+ },
+ {
+  "chinese": "排斥",
+  "level": "C1",
+  "pinyin": "páichì",
+  "meaning": "bài trừ"
+ },
+ {
+  "chinese": "排除",
+  "level": "C1",
+  "pinyin": "páichú",
+  "meaning": "loại trừ"
+ },
+ {
+  "chinese": "派別",
+  "level": "C1",
+  "pinyin": "pàibié",
+  "meaning": "phái"
+ },
+ {
+  "chinese": "判決",
+  "level": "C1",
+  "pinyin": "pànjué",
+  "meaning": "phán quyết"
+ },
+ {
+  "chinese": "龐大",
+  "level": "C1",
+  "pinyin": "pángdà",
+  "meaning": "to lớn"
+ },
+ {
+  "chinese": "拋棄",
+  "level": "C1",
+  "pinyin": "pāoqì",
+  "meaning": "vứt bỏ"
+ },
+ {
+  "chinese": "泡沫",
+  "level": "C1",
+  "pinyin": "pàomò",
+  "meaning": "bong bóng"
+ },
+ {
+  "chinese": "陪伴",
+  "level": "C1",
+  "pinyin": "péibàn",
+  "meaning": "đồng hành"
+ },
+ {
+  "chinese": "培訓",
+  "level": "C1",
+  "pinyin": "péixùn",
+  "meaning": "đào tạo"
+ },
+ {
+  "chinese": "配備",
+  "level": "C1",
+  "pinyin": "pèibèi",
+  "meaning": "trang bị"
+ },
+ {
+  "chinese": "配合",
+  "level": "C1",
+  "pinyin": "pèihé",
+  "meaning": "phối hợp"
+ },
+ {
+  "chinese": "盆地",
+  "level": "C1",
+  "pinyin": "péndì",
+  "meaning": "bồn địa"
+ },
+ {
+  "chinese": "烹飪",
+  "level": "C1",
+  "pinyin": "pēngrèn",
+  "meaning": "nấu nướng"
+ },
+ {
+  "chinese": "偏差",
+  "level": "C1",
+  "pinyin": "piānchā",
+  "meaning": "sai lệch"
+ },
+ {
+  "chinese": "偏見",
+  "level": "C1",
+  "pinyin": "piānjiàn",
+  "meaning": "định kiến"
+ },
+ {
+  "chinese": "便宜",
+  "level": "C1",
+  "pinyin": "piányi",
+  "meaning": "rẻ"
+ },
+ {
+  "chinese": "騙子",
+  "level": "C1",
+  "pinyin": "piànzi",
+  "meaning": "kẻ lừa đảo"
+ },
+ {
+  "chinese": "片面",
+  "level": "C1",
+  "pinyin": "piànmiàn",
+  "meaning": "một chiều"
+ },
+ {
+  "chinese": "飄揚",
+  "level": "C1",
+  "pinyin": "piāoyáng",
+  "meaning": "bay phấp phới"
+ },
+ {
+  "chinese": "貧乏",
+  "level": "C1",
+  "pinyin": "pínfá",
+  "meaning": "thiếu thốn"
+ },
+ {
+  "chinese": "頻繁",
+  "level": "C1",
+  "pinyin": "pínfán",
+  "meaning": "thường xuyên"
+ },
+ {
+  "chinese": "品質",
+  "level": "C1",
+  "pinyin": "pǐnzhì",
+  "meaning": "chất lượng"
+ },
+ {
+  "chinese": "平凡",
+  "level": "C1",
+  "pinyin": "píngfán",
+  "meaning": "bình thường"
+ },
+ {
+  "chinese": "平台",
+  "level": "C1",
+  "pinyin": "píngtái",
+  "meaning": "nền tảng"
+ },
+ {
+  "chinese": "平衡",
+  "level": "C1",
+  "pinyin": "pínghéng",
+  "meaning": "cân bằng"
+ },
+ {
+  "chinese": "屏障",
+  "level": "C1",
+  "pinyin": "píngzhàng",
+  "meaning": "màn chắn"
+ },
+ {
+  "chinese": "坡度",
+  "level": "C1",
+  "pinyin": "pōdù",
+  "meaning": "độ dốc"
+ },
+ {
+  "chinese": "破壞",
+  "level": "C1",
+  "pinyin": "pòhuài",
+  "meaning": "phá hoại"
+ },
+ {
+  "chinese": "撲滅",
+  "level": "C1",
+  "pinyin": "pūmiè",
+  "meaning": "dập tắt"
+ },
+ {
+  "chinese": "鋪設",
+  "level": "C1",
+  "pinyin": "pūshè",
+  "meaning": "trải lát"
+ },
+ {
+  "chinese": "普及",
+  "level": "C1",
+  "pinyin": "pǔjí",
+  "meaning": "phổ cập"
+ },
+ {
+  "chinese": "器材",
+  "level": "C1",
+  "pinyin": "qìcái",
+  "meaning": "thiết bị"
+ },
+ {
+  "chinese": "氣氛",
+  "level": "C1",
+  "pinyin": "qìfēn",
+  "meaning": "không khí"
+ },
+ {
+  "chinese": "氣候",
+  "level": "C1",
+  "pinyin": "qìhòu",
+  "meaning": "khí hậu"
+ },
+ {
+  "chinese": "起初",
+  "level": "C1",
+  "pinyin": "qǐchū",
+  "meaning": "lúc đầu"
+ },
+ {
+  "chinese": "起草",
+  "level": "C1",
+  "pinyin": "qǐcǎo",
+  "meaning": "soạn thảo"
+ },
+ {
+  "chinese": "謙虛",
+  "level": "C1",
+  "pinyin": "qiānxū",
+  "meaning": "khiêm tốn"
+ },
+ {
+  "chinese": "前進",
+  "level": "C1",
+  "pinyin": "qiánjìn",
+  "meaning": "tiến lên"
+ },
+ {
+  "chinese": "潛在",
+  "level": "C1",
+  "pinyin": "qiánzài",
+  "meaning": "tiềm tàng"
+ },
+ {
+  "chinese": "譴責",
+  "level": "C1",
+  "pinyin": "qiǎnzé",
+  "meaning": "lên án"
+ },
+ {
+  "chinese": "強制",
+  "level": "C1",
+  "pinyin": "qiángzhì",
+  "meaning": "cưỡng chế"
+ },
+ {
+  "chinese": "強烈",
+  "level": "C1",
+  "pinyin": "qiángliè",
+  "meaning": "mãnh liệt"
+ },
+ {
+  "chinese": "親切",
+  "level": "C1",
+  "pinyin": "qīnqiè",
+  "meaning": "thân thiết"
+ },
+ {
+  "chinese": "清晰",
+  "level": "C1",
+  "pinyin": "qīngxī",
+  "meaning": "rõ ràng"
+ },
+ {
+  "chinese": "情形",
+  "level": "C1",
+  "pinyin": "qíngxíng",
+  "meaning": "tình hình"
+ },
+ {
+  "chinese": "窮困",
+  "level": "C1",
+  "pinyin": "qióngkùn",
+  "meaning": "nghèo túng"
+ },
+ {
+  "chinese": "區域",
+  "level": "C1",
+  "pinyin": "qūyù",
+  "meaning": "khu vực"
+ },
+ {
+  "chinese": "曲折",
+  "level": "C1",
+  "pinyin": "qūzhé",
+  "meaning": "trắc trở"
+ },
+ {
+  "chinese": "驅逐",
+  "level": "C1",
+  "pinyin": "qūzhú",
+  "meaning": "trục xuất"
+ },
+ {
+  "chinese": "取名",
+  "level": "C1",
+  "pinyin": "qǔmíng",
+  "meaning": "đặt tên"
+ },
+ {
+  "chinese": "去向",
+  "level": "C1",
+  "pinyin": "qùxiàng",
+  "meaning": "hướng đi"
+ },
+ {
+  "chinese": "全心全意",
+  "level": "C1",
+  "pinyin": "quánxīnquányì",
+  "meaning": "toàn tâm toàn ý"
+ },
+ {
+  "chinese": "缺席",
+  "level": "C1",
+  "pinyin": "quēxí",
+  "meaning": "vắng mặt"
+ },
+ {
+  "chinese": "確定",
+  "level": "C1",
+  "pinyin": "quèdìng",
+  "meaning": "xác định"
+ },
+ {
+  "chinese": "確認",
+  "level": "C1",
+  "pinyin": "quèrèn",
+  "meaning": "xác nhận"
+ },
+ {
+  "chinese": "確信",
+  "level": "C1",
+  "pinyin": "quèxìn",
+  "meaning": "tin chắc"
+ },
+ {
+  "chinese": "燃燒",
+  "level": "C1",
+  "pinyin": "ránshāo",
+  "meaning": "bùng cháy"
+ },
+ {
+  "chinese": "染指",
+  "level": "C1",
+  "pinyin": "rǎnzhǐ",
+  "meaning": "can thiệp"
+ },
+ {
+  "chinese": "讓步",
+  "level": "C1",
+  "pinyin": "ràngbù",
+  "meaning": "nhượng bộ"
+ },
+ {
+  "chinese": "擾亂",
+  "level": "C1",
+  "pinyin": "rǎoluàn",
+  "meaning": "làm loạn"
+ },
+ {
+  "chinese": "熱烈",
+  "level": "C1",
+  "pinyin": "rèliè",
+  "meaning": "nồng nhiệt"
+ },
+ {
+  "chinese": "熱情",
+  "level": "C1",
+  "pinyin": "rèqíng",
+  "meaning": "nhiệt tình"
+ },
+ {
+  "chinese": "熱門",
+  "level": "C1",
+  "pinyin": "rèmén",
+  "meaning": "phổ biến"
+ },
+ {
+  "chinese": "人口",
+  "level": "C1",
+  "pinyin": "rénkǒu",
+  "meaning": "dân số"
+ },
+ {
+  "chinese": "人工",
+  "level": "C1",
+  "pinyin": "réngōng",
+  "meaning": "nhân tạo"
+ },
+ {
+  "chinese": "人類",
+  "level": "C1",
+  "pinyin": "rénlèi",
+  "meaning": "nhân loại"
+ },
+ {
+  "chinese": "任務",
+  "level": "C1",
+  "pinyin": "rènwu",
+  "meaning": "nhiệm vụ"
+ },
+ {
+  "chinese": "仍然",
+  "level": "C1",
+  "pinyin": "réngrán",
+  "meaning": "vẫn vậy"
+ },
+ {
+  "chinese": "榮幸",
+  "level": "C1",
+  "pinyin": "róngxìng",
+  "meaning": "vinh hạnh"
+ },
+ {
+  "chinese": "容忍",
+  "level": "C1",
+  "pinyin": "róngrèn",
+  "meaning": "nhẫn nhịn"
+ },
+ {
+  "chinese": "冗長",
+  "level": "C1",
+  "pinyin": "rǒngcháng",
+  "meaning": "dài dòng"
+ },
+ {
+  "chinese": "如期",
+  "level": "C1",
+  "pinyin": "rúqī",
+  "meaning": "đúng hạn"
+ },
+ {
+  "chinese": "如意",
+  "level": "C1",
+  "pinyin": "rúyì",
+  "meaning": "như ý"
+ },
+ {
+  "chinese": "如今",
+  "level": "C1",
+  "pinyin": "rújīn",
+  "meaning": "ngày nay"
+ },
+ {
+  "chinese": "軟件",
+  "level": "C1",
+  "pinyin": "ruǎnjiàn",
+  "meaning": "phần mềm"
+ },
+ {
+  "chinese": "弱點",
+  "level": "C1",
+  "pinyin": "ruòdiǎn",
+  "meaning": "điểm yếu"
+ },
+ {
+  "chinese": "刪除",
+  "level": "C1",
+  "pinyin": "shānchú",
+  "meaning": "xóa bỏ"
+ },
+ {
+  "chinese": "善良",
+  "level": "C1",
+  "pinyin": "shànliáng",
+  "meaning": "lương thiện"
+ },
+ {
+  "chinese": "贍養",
+  "level": "C1",
+  "pinyin": "shànyǎng",
+  "meaning": "phụng dưỡng"
+ },
+ {
+  "chinese": "上任",
+  "level": "C1",
+  "pinyin": "shàngrèn",
+  "meaning": "nhậm chức"
+ },
+ {
+  "chinese": "奢華",
+  "level": "C1",
+  "pinyin": "shēhuá",
+  "meaning": "xa hoa"
+ },
+ {
+  "chinese": "設備",
+  "level": "C1",
+  "pinyin": "shèbèi",
+  "meaning": "thiết bị"
+ },
+ {
+  "chinese": "攝影",
+  "level": "C1",
+  "pinyin": "shèyǐng",
+  "meaning": "nhiếp ảnh"
+ },
+ {
+  "chinese": "伸展",
+  "level": "C1",
+  "pinyin": "shēnzhǎn",
+  "meaning": "mở rộng"
+ },
+ {
+  "chinese": "審查",
+  "level": "C1",
+  "pinyin": "shěnchá",
+  "meaning": "xét duyệt"
+ },
+ {
+  "chinese": "審美",
+  "level": "C1",
+  "pinyin": "shěnměi",
+  "meaning": "thẩm mỹ"
+ },
+ {
+  "chinese": "滲透",
+  "level": "C1",
+  "pinyin": "shèntòu",
+  "meaning": "xâm nhập"
+ },
+ {
+  "chinese": "慎重",
+  "level": "C1",
+  "pinyin": "shènzhòng",
+  "meaning": "thận trọng"
+ },
+ {
+  "chinese": "生命",
+  "level": "C1",
+  "pinyin": "shēngmìng",
+  "meaning": "sinh mạng"
+ },
+ {
+  "chinese": "生意",
+  "level": "C1",
+  "pinyin": "shēngyi",
+  "meaning": "kinh doanh"
+ },
+ {
+  "chinese": "升級",
+  "level": "C1",
+  "pinyin": "shēngjí",
+  "meaning": "nâng cấp"
+ },
+ {
+  "chinese": "剩餘",
+  "level": "C1",
+  "pinyin": "shèngyú",
+  "meaning": "dư thừa"
+ },
+ {
+  "chinese": "失敗",
+  "level": "C1",
+  "pinyin": "shībài",
+  "meaning": "thất bại"
+ },
+ {
+  "chinese": "失望",
+  "level": "C1",
+  "pinyin": "shīwàng",
+  "meaning": "thất vọng"
+ },
+ {
+  "chinese": "失業",
+  "level": "C1",
+  "pinyin": "shīyè",
+  "meaning": "thất nghiệp"
+ },
+ {
+  "chinese": "施工",
+  "level": "C1",
+  "pinyin": "shīgōng",
+  "meaning": "thi công"
+ },
+ {
+  "chinese": "湿润",
+  "level": "C1",
+  "pinyin": "shīrùn",
+  "meaning": "ẩm ướt"
+ },
+ {
+  "chinese": "時而",
+  "level": "C1",
+  "pinyin": "shí'ér",
+  "meaning": "có lúc"
+ },
+ {
+  "chinese": "時尚",
+  "level": "C1",
+  "pinyin": "shíshàng",
+  "meaning": "thời thượng"
+ },
+ {
+  "chinese": "實力",
+  "level": "C1",
+  "pinyin": "shílì",
+  "meaning": "thực lực"
+ },
+ {
+  "chinese": "實施",
+  "level": "C1",
+  "pinyin": "shíshī",
+  "meaning": "thực thi"
+ },
+ {
+  "chinese": "實用",
+  "level": "C1",
+  "pinyin": "shíyòng",
+  "meaning": "hữu dụng"
+ },
+ {
+  "chinese": "市中心",
+  "level": "C1",
+  "pinyin": "shìzhōngxīn",
+  "meaning": "trung tâm"
+ },
+ {
+  "chinese": "視野",
+  "level": "C1",
+  "pinyin": "shìyě",
+  "meaning": "tầm nhìn"
+ },
+ {
+  "chinese": "事業",
+  "level": "C1",
+  "pinyin": "shìyè",
+  "meaning": "sự nghiệp"
+ },
+ {
+  "chinese": "適應",
+  "level": "C1",
+  "pinyin": "shìyìng",
+  "meaning": "thích ứng"
+ },
+ {
+  "chinese": "收看",
+  "level": "C1",
+  "pinyin": "shōukàn",
+  "meaning": "theo dõi"
+ },
+ {
+  "chinese": "受罪",
+  "level": "C1",
+  "pinyin": "shòuzuì",
+  "meaning": "khổ sở"
+ },
+ {
+  "chinese": "售後服務",
+  "level": "C1",
+  "pinyin": "shòuhòufúwù",
+  "meaning": "dịch vụ sau bán"
+ },
+ {
+  "chinese": "疏忽",
+  "level": "C1",
+  "pinyin": "shūhu",
+  "meaning": "sơ suất"
+ },
+ {
+  "chinese": "蔬菜",
+  "level": "C1",
+  "pinyin": "shūcài",
+  "meaning": "rau củ"
+ },
+ {
+  "chinese": "舒適",
+  "level": "C1",
+  "pinyin": "shūshì",
+  "meaning": "thoải mái"
+ },
+ {
+  "chinese": "熟悉",
+  "level": "C1",
+  "pinyin": "shúxī",
+  "meaning": "quen thuộc"
+ }
 ];

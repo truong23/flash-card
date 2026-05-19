@@ -24,7 +24,7 @@
 
 const WORDS_PER_COLOR = 50;
 const CARD_COLOR_SCALE = ['#f8b51e', '#267f94', '#fa501c', '#bb1818', '#1c3e76', '#6a3669'];
-const LEVELS = ['A1', 'A2', 'B1', 'B2'];
+const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1'];
 const MAX_CARDS_PER_SECTION = 406;
 const MAX_CHARS_PER_CARD = 150;
 const SECTION_WINDOW_OVERSCAN_MULTIPLIER = 0.75;
@@ -33,7 +33,8 @@ const levelColors = {
   'A1': '#10b981',
   'A2': '#3b82f6',
   'B1': '#f8b51e',
-  'B2': '#267f94'
+  'B2': '#267f94',
+  'C1': '#ec4899'
 };
 
 const searchInput = document.getElementById('searchInput');
@@ -43,6 +44,7 @@ const filterA1Button = document.getElementById('filterA1Button');
 const filterA2Button = document.getElementById('filterA2Button');
 const filterB1Button = document.getElementById('filterB1Button');
 const filterB2Button = document.getElementById('filterB2Button');
+const filterC1Button = document.getElementById('filterC1Button');
 const flipChineseButton = document.getElementById('flipChineseButton');
 const flipVietnameseButton = document.getElementById('flipVietnameseButton');
 const zoomOutButton = document.getElementById('zoomOutButton');
@@ -80,20 +82,23 @@ function buildDataIndex() {
     A1: 0,
     A2: 0,
     B1: 0,
-    B2: 0
+    B2: 0,
+    C1: 0
   };
   const searchableEntries = [];
   const sectionsByLevel = {
     A1: [],
     A2: [],
     B1: [],
-    B2: []
+    B2: [],
+    C1: []
   };
   const processedByLevel = {
     A1: [],
     A2: [],
     B1: [],
-    B2: []
+    B2: [],
+    C1: []
   };
   const firstSectionByWordIndex = new Map();
   const sectionsById = new Map();
@@ -269,7 +274,7 @@ function parseSearchQuery(rawQuery) {
   for (let index = 0; index < tokens.length; index += 1) {
     const token = tokens[index];
     const normalizedToken = token.toLowerCase();
-    const inlineLevelMatch = normalizedToken.match(/^#(?:(?:sym:)?level)(?::|=)(a1|a2|b1|b2)$/i);
+    const inlineLevelMatch = normalizedToken.match(/^#(?:(?:sym:)?level)(?::|=)(a1|a2|b1|b2|c1)$/i);
 
     if (inlineLevelMatch) {
       levelFilter = inlineLevelMatch[1].toUpperCase();
@@ -278,7 +283,7 @@ function parseSearchQuery(rawQuery) {
 
     if (normalizedToken === '#sym:level' || normalizedToken === '#level') {
       const nextToken = tokens[index + 1];
-      if (nextToken && /^(a1|a2|b1|b2)$/i.test(nextToken)) {
+      if (nextToken && /^(a1|a2|b1|b2|c1)$/i.test(nextToken)) {
         levelFilter = nextToken.toUpperCase();
         index += 1;
         continue;
@@ -318,6 +323,11 @@ function updateLevelFilterButtons() {
       element: filterB2Button,
       level: 'B2',
       class: 'active-b2'
+    },
+    {
+      element: filterC1Button,
+      level: 'C1',
+      class: 'active-c1'
     }
   ];
 
@@ -487,6 +497,7 @@ function updateStats() {
   document.getElementById('a2Count').textContent = dataIndex.counts.A2;
   document.getElementById('b1Count').textContent = dataIndex.counts.B1;
   document.getElementById('b2Count').textContent = dataIndex.counts.B2;
+  document.getElementById('c1Count').textContent = dataIndex.counts.C1;
 }
 
 function clearRenderedHighlights() {
@@ -690,6 +701,7 @@ filterA1Button.addEventListener('click', () => setLevelFilter('A1'));
 filterA2Button.addEventListener('click', () => setLevelFilter('A2'));
 filterB1Button.addEventListener('click', () => setLevelFilter('B1'));
 filterB2Button.addEventListener('click', () => setLevelFilter('B2'));
+filterC1Button.addEventListener('click', () => setLevelFilter('C1'));
 flipChineseButton.addEventListener('click', () => setAllCardsFace(false));
 flipVietnameseButton.addEventListener('click', () => setAllCardsFace(true));
 zoomOutButton.addEventListener('click', () => changeZoom(-0.15));

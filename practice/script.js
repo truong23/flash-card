@@ -50,6 +50,23 @@ window.goBack = goBack;
 window.closeVocabCard = closeVocabCard;
 window.changeSidebarZoom = changeSidebarZoom;
 window.openVocabCard = openVocabCard;
+window.togglePinyinVisibility = togglePinyinVisibility;
+
+function normalizeReferenceAnswers(referenceAnswers) {
+  if (Array.isArray(referenceAnswers)) {
+    return referenceAnswers
+      .map(item => String(item).trim())
+      .filter(Boolean);
+  }
+  if (typeof referenceAnswers === 'string') {
+    return referenceAnswers
+      .split('|')
+      .map(part => part.trim())
+      .filter(Boolean);
+  }
+  if (referenceAnswers === null || referenceAnswers === undefined) return [];
+  return [String(referenceAnswers).trim()].filter(Boolean);
+}
 
 function dotProduct(a, b) {
   let sum = 0;
@@ -99,6 +116,24 @@ let questionSuffSheet = []; // shuffled index array (session-aware)
 let currentPosInSheet = 0; // pointer into questionSuffSheet
 let isAnswerShown = false;
 let attemptCount = 0; // wrong attempts on current question
+const PINYIN_STORAGE_KEY = 'practice_pinyin_visible';
+let isPinyinVisible = loadPinyinPreference();
+
+function loadPinyinPreference() {
+  try {
+    const value = localStorage.getItem(PINYIN_STORAGE_KEY);
+    if (value === null) return false;
+    return value === 'true';
+  } catch (e) {
+    return false;
+  }
+}
+
+function savePinyinPreference(value) {
+  try {
+    localStorage.setItem(PINYIN_STORAGE_KEY, String(value));
+  } catch (e) {}
+}
 
 /* Settings for flashcard colors (matching study.js) */
 const WORDS_PER_COLOR = 50;
@@ -330,8 +365,9 @@ function showQuestion() {
   // Update counter + progress
   const total = questionSuffSheet.length;
   const current = currentPosInSheet + 1;
+  const completedCount = currentPosInSheet;
   document.getElementById('practiceCounter').innerHTML =
-    `<strong>${current}</strong> / ${total}`;
+    `<strong>${completedCount}</strong> câu đã làm`;
   document.getElementById('progressFill').style.width =
     `${((current - 1) / total) * 100}%`;
 
@@ -348,6 +384,16 @@ function showQuestion() {
     sourceEl.classList.remove('is-chinese');
   }
 
+  // Pinyin handling
+  const pinyinRow = document.getElementById('questionPinyinRow');
+  const pinyinEl = document.getElementById('questionPinyin');
+  const toggleBtn = document.getElementById('btnTogglePinyin');
+  const pinyinText = (q.pinyin || '').trim();
+  if (pinyinRow && pinyinEl && toggleBtn) {
+    pinyinEl.textContent = pinyinText;
+    updatePinyinVisibility();
+  }
+
 
 
   // Reset hint
@@ -358,9 +404,13 @@ function showQuestion() {
   const textarea = document.getElementById('answerInput');
   textarea.value = '';
   textarea.disabled = false;
-  textarea.placeholder = selectedDirection === 'zh_vi' ?
-    'Nhập câu dịch tiếng Việt của bạn…' :
-    '請輸入您的翻譯…';
+  if (selectedDirection === 'zh_vi') {
+    textarea.placeholder = 'Nhập câu dịch tiếng Việt của bạn…';
+  } else if (isPinyinVisible && pinyinText) {
+    textarea.placeholder = pinyinText;
+  } else {
+    textarea.placeholder = '請輸入您的翻譯…';
+  }
   textarea.focus();
 
   // Reset feedback
@@ -396,8 +446,10 @@ async function checkAnswerCorrect(userAnswer, referenceAnswers) {
       (code >= 0x20000 && code <= 0x2A6DF);
   }
 
+  const refs = normalizeReferenceAnswers(referenceAnswers);
+
   // Determine language context from reference answers
-  const isChineseTarget = referenceAnswers.some(ref => {
+  const isChineseTarget = refs.some(ref => {
     const cjk = [...ref].filter(isCJK);
     return cjk.length > 0;
   });
@@ -461,11 +513,6 @@ async function checkAnswerCorrect(userAnswer, referenceAnswers) {
   if (!userNorm) return false;
 
   console.log(`%c[Kiểm tra đáp án] Nhập: "${userNorm}"`, "color: #3b82f6; font-weight: bold;");
-
-  // Support both array and piped string formats
-  const refs = Array.isArray(referenceAnswers) ? 
-    referenceAnswers : 
-    (typeof referenceAnswers === 'string' ? referenceAnswers.split('|') : [referenceAnswers]);
 
   const lexicalMatch = refs.some(ref => {
     const refNorm = normalize(ref, isChineseTarget);
@@ -667,13 +714,52 @@ function showScreen(name) {
 function showHint() {
   const idx = questionSuffSheet[currentPosInSheet];
   const q = exercises[idx];
-  const hint = q.referenceAnswers[0] || '';
+  const refs = normalizeReferenceAnswers(q.referenceAnswers);
+  const hint = refs[0] || '';
   const textarea = document.getElementById('answerInput');
   textarea.placeholder = hint;
   textarea.focus();
   const btn = document.getElementById('btnHint');
   btn.textContent = '💡 Đang hiện gợi ý';
   btn.disabled = true;
+}
+
+function updatePinyinVisibility() {
+  const pinyinRow = document.getElementById('questionPinyinRow');
+  const pinyinEl = document.getElementById('questionPinyin');
+  const toggleBtn = document.getElementById('btnTogglePinyin');
+  if (!pinyinRow || !pinyinEl || !toggleBtn) return;
+
+  if (selectedDirection === 'vi_zh') {
+    const hasPinyin = pinyinEl.textContent.trim().length > 0;
+    pinyinRow.style.display = hasPinyin ? 'flex' : 'none';
+    pinyinEl.style.display = 'none';
+    if (hasPinyin) {
+      toggleBtn.textContent = isPinyinVisible ? 'Ẩn pinyin' : 'Hiện pinyin';
+      toggleBtn.setAttribute('aria-pressed', String(isPinyinVisible));
+    }
+    const textarea = document.getElementById('answerInput');
+    if (textarea) {
+      const pinyinText = pinyinEl.textContent.trim();
+      textarea.placeholder = isPinyinVisible && pinyinText ? pinyinText : '請輸入您的翻譯…';
+    }
+    return;
+  }
+
+  const hasPinyin = pinyinEl.textContent.trim().length > 0;
+  pinyinRow.style.display = hasPinyin ? 'flex' : 'none';
+  if (!hasPinyin) return;
+
+  pinyinEl.style.display = isPinyinVisible ? 'block' : 'none';
+  toggleBtn.textContent = isPinyinVisible ? 'Ẩn pinyin' : 'Hiện pinyin';
+  toggleBtn.setAttribute('aria-pressed', String(isPinyinVisible));
+
+}
+
+function togglePinyinVisibility() {
+  isPinyinVisible = !isPinyinVisible;
+  savePinyinPreference(isPinyinVisible);
+  updatePinyinVisibility();
 }
 
 /* ================================================================
@@ -799,6 +885,8 @@ if (initialLevel && ['A1', 'A2', 'B1', 'B2'].includes(initialLevel.toUpperCase()
 function showWrongFeedback(userAnswer, q, attemptCount) {
   const container = document.getElementById('wrongFeedbackContainer');
   const isChinese = q.direction === 'vi_zh';
+  const refs = normalizeReferenceAnswers(q.referenceAnswers);
+  if (refs.length === 0) return;
 
   // 1. Helper: Tokenize based on language
   const tokenize = (s) => {
@@ -814,10 +902,10 @@ function showWrongFeedback(userAnswer, q, attemptCount) {
   if (userTokens.length === 0) return;
 
   // 2. Find best reference (most token overlap)
-  let bestRef = q.referenceAnswers[0];
+  let bestRef = refs[0];
   let maxMatch = -1;
 
-  q.referenceAnswers.forEach(ref => {
+  refs.forEach(ref => {
     const refTokens = tokenize(ref);
     const refSet = new Set(refTokens.map(t => t.toLowerCase()));
 
