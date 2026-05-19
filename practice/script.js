@@ -86,10 +86,11 @@ async function getSimilarity(text1, text2) {
 // AUTH GUARD — redirect to login if session has no access
 // ================================================================
 (async function () {
-  document.documentElement.style.visibility = 'hidden';
+  document.documentElement.style.visibility = '';
+  showScreen('loading');
 
   if (typeof flashCardAuth === 'undefined') {
-    document.documentElement.style.visibility = '';
+    showScreen('setup');
     return;
   }
 
@@ -102,7 +103,8 @@ async function getSimilarity(text1, text2) {
       flashCardAuth.redirectTo('login');
       return;
     }
-    document.documentElement.style.visibility = '';
+    showScreen('setup');
+    applyInitialLevelSelection();
   });
 })();
 
@@ -866,15 +868,39 @@ function changeSidebarZoom(delta) {
    INIT
 ================================================================ */
 // Parse URL config
-const urlParams = new URLSearchParams(window.location.search);
-const initialLevel = urlParams.get('level');
+function getInitialLevelFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const levelParam = params.get('level');
+  if (levelParam) return levelParam;
+
+  const hash = window.location.hash || '';
+  const hashParams = new URLSearchParams(hash.replace(/^#/, ''));
+  return hashParams.get('level');
+}
+
+function applyInitialLevelSelection() {
+  const initialLevel = getInitialLevelFromUrl();
+  if (!initialLevel) return;
+
+  const normalized = initialLevel.toUpperCase();
+  if (!['A1', 'A2', 'B1', 'B2', 'C1', 'C2'].includes(normalized)) return;
+
+  const targetButton = document.getElementById(`lvl${normalized}`);
+  if (!targetButton) return;
+
+  selectLevel(normalized);
+}
 
 // Start on setup screen
 showScreen('setup');
 
 // Pre-select level if provided in URL
-if (initialLevel && ['A1', 'A2', 'B1', 'B2'].includes(initialLevel.toUpperCase())) {
-  selectLevel(initialLevel.toUpperCase());
+if (document.readyState === 'loading') {
+  window.addEventListener('DOMContentLoaded', () => {
+    requestAnimationFrame(applyInitialLevelSelection);
+  });
+} else {
+  requestAnimationFrame(applyInitialLevelSelection);
 }
 
 
