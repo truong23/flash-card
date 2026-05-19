@@ -1729,7 +1729,7 @@ const vocabularyData = [
     "meaning": "ngoài cửa"
   },
   {
-    "chinese": "面",
+    "chinese": "麵",
     "level": "A1",
     "pinyin": "miàn",
     "part_of_speech": "N",
