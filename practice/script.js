@@ -408,10 +408,8 @@ function showQuestion() {
   textarea.disabled = false;
   if (selectedDirection === 'zh_vi') {
     textarea.placeholder = 'Nhập câu dịch tiếng Việt của bạn…';
-  } else if (isPinyinVisible && pinyinText) {
-    textarea.placeholder = pinyinText;
   } else {
-    textarea.placeholder = '請輸入您的翻譯…';
+    textarea.placeholder = 'Nhập câu dịch tiếng Trung của bạn…';
   }
   textarea.focus();
 
@@ -717,9 +715,14 @@ function showHint() {
   const idx = questionSuffSheet[currentPosInSheet];
   const q = exercises[idx];
   const refs = normalizeReferenceAnswers(q.referenceAnswers);
-  const hint = refs[0] || '';
+  const hintAnswer = refs[0] || '';
+  const hintPinyin = (q.pinyin || '').trim();
   const textarea = document.getElementById('answerInput');
-  textarea.placeholder = hint;
+  if (selectedDirection === 'vi_zh' && hintAnswer) {
+    textarea.placeholder = hintPinyin ? `${hintAnswer}\n${hintPinyin}` : hintAnswer;
+  } else {
+    textarea.placeholder = hintAnswer;
+  }
   textarea.focus();
   const btn = document.getElementById('btnHint');
   btn.textContent = '💡 Đang hiện gợi ý';
@@ -733,18 +736,7 @@ function updatePinyinVisibility() {
   if (!pinyinRow || !pinyinEl || !toggleBtn) return;
 
   if (selectedDirection === 'vi_zh') {
-    const hasPinyin = pinyinEl.textContent.trim().length > 0;
-    pinyinRow.style.display = hasPinyin ? 'flex' : 'none';
-    pinyinEl.style.display = 'none';
-    if (hasPinyin) {
-      toggleBtn.textContent = isPinyinVisible ? 'Ẩn pinyin' : 'Hiện pinyin';
-      toggleBtn.setAttribute('aria-pressed', String(isPinyinVisible));
-    }
-    const textarea = document.getElementById('answerInput');
-    if (textarea) {
-      const pinyinText = pinyinEl.textContent.trim();
-      textarea.placeholder = isPinyinVisible && pinyinText ? pinyinText : '請輸入您的翻譯…';
-    }
+    pinyinRow.style.display = 'none';
     return;
   }
 
