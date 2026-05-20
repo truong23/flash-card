@@ -103,6 +103,19 @@ async function getSimilarity(text1, text2) {
       flashCardAuth.redirectTo('login');
       return;
     }
+
+    if (!session.isApproved) {
+      document.querySelectorAll('.level-btn').forEach(btn => {
+        const lvl = btn.id.replace('lvl', '');
+        if (lvl !== 'A1') {
+          btn.style.opacity = '0.6';
+          btn.style.filter = 'grayscale(80%)';
+          const icon = btn.querySelector('.lbtn-icon');
+          if (icon) icon.textContent = '🔒';
+        }
+      });
+    }
+
     showScreen('setup');
     applyInitialLevelSelection();
   });
@@ -185,7 +198,15 @@ function shuffle(arr) {
 /* ================================================================
    SETUP SCREEN LOGIC
 ================================================================ */
-function selectLevel(level) {
+async function selectLevel(level) {
+  if (level !== 'A1') {
+    const session = await flashCardAuth.getCurrentSession();
+    if (!session.isApproved) {
+      flashCardAuth.showUpgradeModal();
+      return;
+    }
+  }
+
   selectedLevel = level;
   document.querySelectorAll('.level-btn').forEach(b => b.classList.remove('selected'));
   document.getElementById(`lvl${level}`).classList.add('selected');

@@ -18,6 +18,19 @@
       flashCardAuth.redirectTo('login');
       return;
     }
+
+    if (!session.isApproved) {
+      document.querySelectorAll('.level-btn').forEach(btn => {
+        const lvl = btn.dataset.level;
+        if (lvl && lvl !== 'A1') {
+          btn.style.opacity = '0.6';
+          btn.style.filter = 'grayscale(80%)';
+          const icon = btn.querySelector('.lbtn-icon');
+          if (icon) icon.textContent = '🔒';
+        }
+      });
+    }
+
     document.documentElement.style.visibility = '';
   });
 })();
@@ -53,7 +66,14 @@ function updateStartButton() {
   dom.btnStart.disabled = !(selectedLevel && selectedDirection);
 }
 
-function selectLevel(level) {
+async function selectLevel(level) {
+  if (level !== 'A1') {
+    const session = await flashCardAuth.getCurrentSession();
+    if (!session.isApproved) {
+      flashCardAuth.showUpgradeModal();
+      return;
+    }
+  }
   selectedLevel = level;
   dom.levelButtons.forEach((btn) => {
     btn.classList.toggle('selected', btn.dataset.level === level);

@@ -176,6 +176,7 @@
       user: user || null,
       accessRecord: null,
       hasAccess: false,
+      isApproved: false,
       isAdmin: false,
       pendingBootstrap: false,
       error: null,
@@ -185,9 +186,10 @@
 
     try {
       session.accessRecord = await resolveAccessRecord(user.email);
-      session.hasAccess = Boolean(session.accessRecord ?.approved);
-      session.isAdmin = session.hasAccess && session.accessRecord ?.role === "admin";
-      session.pendingBootstrap = Boolean(session.accessRecord ?.pendingBootstrap);
+      session.isApproved = Boolean(session.accessRecord?.approved);
+      session.hasAccess = true; // Bất kỳ ai đăng nhập đều có quyền truy cập cơ bản
+      session.isAdmin = session.isApproved && session.accessRecord?.role === "admin";
+      session.pendingBootstrap = Boolean(session.accessRecord?.pendingBootstrap);
       return session;
     } catch (error) {
       session.error = error;
@@ -417,6 +419,45 @@
     });
   }
 
+  function showUpgradeModal() {
+    let modal = document.getElementById('upgrade-modal');
+    if (!modal) {
+      modal = document.createElement('div');
+      modal.id = 'upgrade-modal';
+      modal.innerHTML = `
+        <div style="position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(15, 23, 42, 0.7); backdrop-filter: blur(4px); display: flex; align-items: center; justify-content: center; z-index: 99999; padding: 20px;">
+          <div style="background: white; border-radius: 20px; padding: 30px 24px; max-width: 360px; width: 100%; text-align: center; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 10px 10px -5px rgba(0,0,0,0.04); position: relative; animation: modalPop 0.3s cubic-bezier(0.16, 1, 0.3, 1);">
+            <button onclick="document.getElementById('upgrade-modal').style.display='none'" style="position: absolute; top: 12px; right: 16px; background: none; border: none; font-size: 28px; cursor: pointer; color: #94a3b8; padding: 4px; line-height: 1;">&times;</button>
+            
+            <div style="width: 64px; height: 64px; background: #eff6ff; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto 16px;">
+              <span style="font-size: 32px;">🔒</span>
+            </div>
+            
+            <h3 style="margin: 0 0 12px 0; font-family: inherit; color: #0f172a; font-size: 1.25rem; font-weight: 700;">Tính năng cao cấp</h3>
+            
+            <p style="color: #475569; font-size: 0.95rem; line-height: 1.5; margin: 0 0 24px 0;">
+              Vui lòng liên hệ với mình qua Zalo để được duyệt tài khoản và mở khoá trải nghiệm học đầy đủ nhé!
+            </p>
+            
+            <img src="/images/zalo-qr.jpg" alt="Zalo QR Code" style="width: 100%; max-width: 300px; border-radius: 12px; border: 1px solid #e2e8f0; display: block; margin: 0 auto 24px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+            
+            <button onclick="document.getElementById('upgrade-modal').style.display='none'" style="display: block; width: 100%; background: #0068ff; color: white; padding: 14px; border-radius: 12px; border: none; font-weight: 600; font-size: 1rem; cursor: pointer; transition: background 0.2s;">
+              Đã hiểu
+            </button>
+          </div>
+        </div>
+        <style>
+          @keyframes modalPop {
+            0% { opacity: 0; transform: scale(0.95) translateY(10px); }
+            100% { opacity: 1; transform: scale(1) translateY(0); }
+          }
+        </style>
+      `;
+      document.body.appendChild(modal);
+    }
+    modal.style.display = 'flex';
+  }
+
   window.flashCardAuth = {
     FIRESTORE_ACCESS_COLLECTION,
     DISPLAY_SETTINGS_STORAGE_KEY,
@@ -442,5 +483,6 @@
     saveDisplaySettings,
     getRoute,
     redirectTo,
+    showUpgradeModal,
   };
 })();

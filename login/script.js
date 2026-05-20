@@ -32,10 +32,10 @@ function clearNotices() {
 async function renderSession(session) {
   dom.currentUserEmail.textContent = session.user?.email || "Chưa đăng nhập";
   dom.currentUserRole.textContent = session.accessRecord?.role || "Khách";
-  dom.currentUserState.textContent = session.hasAccess
+  dom.currentUserState.textContent = session.isApproved
     ? "Đã được duyệt"
     : session.user
-      ? "Đang chờ duyệt"
+      ? "Truy cập cơ bản (Band A1)"
       : "Chưa đăng nhập";
 
   clearNotices();
@@ -63,26 +63,22 @@ async function renderSession(session) {
   if (!session.user) {
     setStatus("Chưa đăng nhập", "info");
     dom.statusDescription.textContent = "Đăng nhập bằng Google để hệ thống kiểm tra quyền vào trang học.";
-    dom.infoNotice.textContent = "Nếu đăng nhập xong mà chưa được duyệt, bạn sẽ thấy thông báo chờ duyệt ngay tại đây.";
+    dom.infoNotice.textContent = "Bạn có thể trải nghiệm miễn phí Band A1 ngay sau khi đăng nhập.";
     toggleElement(dom.infoNotice, true);
     toggleElement(dom.signInButton, true);
     return;
   }
 
-  if (session.hasAccess) {
-    setStatus("Đã được phê duyệt", "success");
-    dom.statusDescription.textContent = "Đăng nhập thành công. Đang chuyển bạn về trang chủ...";
-    dom.successNotice.textContent = "Bạn đã có quyền truy cập. Hệ thống sẽ chuyển hướng tự động.";
+  if (session.user) {
+    setStatus("Đăng nhập thành công", "success");
+    dom.statusDescription.textContent = "Đang chuyển bạn về trang chủ...";
+    dom.successNotice.textContent = session.isApproved 
+      ? "Bạn đã có quyền truy cập đầy đủ." 
+      : "Bạn đang sử dụng quyền truy cập cơ bản (Band A1).";
     toggleElement(dom.successNotice, true);
     flashCardAuth.redirectTo("home");
     return;
   }
-
-  setStatus("Yêu cầu đang chờ duyệt", "pending");
-  dom.statusDescription.textContent = "Bạn đã đăng nhập nhưng chưa được phê duyệt vào trang học.";
-  dom.infoNotice.textContent = "Yêu cầu của bạn đang chờ admin duyệt. Khi admin cấp quyền approved=true, bạn có thể bấm kiểm tra lại trạng thái.";
-  toggleElement(dom.infoNotice, true);
-  toggleElement(dom.refreshButton, true);
 }
 
 async function init() {

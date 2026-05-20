@@ -18,6 +18,11 @@
       flashCardAuth.redirectTo('login');
       return;
     }
+
+    if (!session.isApproved) {
+      window.isUserApproved = false;
+    }
+
     document.documentElement.style.visibility = '';
   });
 })();
@@ -678,8 +683,25 @@ backToTopButton.addEventListener('click', () => {
 });
 
 wordsContainer.addEventListener('click', (event) => {
+  const practiceBtn = event.target.closest('.btn-practice-inline');
+  if (practiceBtn) {
+    const section = practiceBtn.closest('.level-section');
+    const level = section ? section.dataset.level : null;
+    if (level && level !== 'A1' && window.isUserApproved === false) {
+      event.preventDefault();
+      flashCardAuth.showUpgradeModal();
+      return;
+    }
+  }
+
   const card = event.target.closest('.word-card');
   if (!card || !wordsContainer.contains(card)) {
+    return;
+  }
+
+  const isA1 = card.classList.contains('level-A1');
+  if (!isA1 && window.isUserApproved === false) {
+    flashCardAuth.showUpgradeModal();
     return;
   }
 
