@@ -51,7 +51,6 @@ window.closeVocabCard = closeVocabCard;
 window.changeSidebarZoom = changeSidebarZoom;
 window.openVocabCard = openVocabCard;
 window.togglePinyinVisibility = togglePinyinVisibility;
-window.enterTranslateMode = enterTranslateMode;
 
 function normalizeReferenceAnswers(referenceAnswers) {
   if (Array.isArray(referenceAnswers)) {
@@ -104,11 +103,8 @@ async function getSimilarity(text1, text2) {
       flashCardAuth.redirectTo('login');
       return;
     }
-    const initialScreen = getInitialScreen();
-    showScreen(initialScreen);
-    if (initialScreen === 'setup') {
-      applyInitialLevelSelection();
-    }
+    showScreen('setup');
+    applyInitialLevelSelection();
   });
 })();
 
@@ -221,13 +217,13 @@ function updateSessionHint() {
     const remaining = saved.sheet.length - saved.pos;
     hint.innerHTML = `
       <span class="session-info-badge">
-        💾 Tiếp tục từ câu ${saved.pos + 1} &mdash; còn ${remaining} câu trong vòng này
+        💾 Tiep tuc tu cau ${saved.pos + 1} &mdash; con ${remaining} cau trong vong nay
       </span>
     `;
   } else {
     hint.innerHTML = `
       <span class="session-info-badge">
-        🎲 Sẽ tạo thứ tự câu hỏi ngẫu nhiên mới
+        🎲 Se tao thu tu cau hoi ngau nhien moi
       </span>
     `;
   }
@@ -257,7 +253,7 @@ async function startPractice() {
 
   if (!data || data.length === 0) {
     showScreen('setup');
-    alert(`Không tìm thấy dữ liệu bài tập cho cấp độ: ${key}\nHãy chắc chắn file exercises/${key}.json đã tồn tại.`);
+    alert(`Khong tim thay du lieu bai tap cho cap do: ${key}\nHay chac chan file exercises/${key}.json da ton tai.`);
     return;
   }
 
@@ -340,11 +336,11 @@ function setupPracticeUI() {
   // Answer label
   const answerLabel = document.getElementById('answerAreaLabel');
   if (selectedDirection === 'zh_vi') {
-    answerLabel.textContent = '✏️ Dịch sang tiếng Việt';
+    answerLabel.textContent = 'Dich sang tieng Viet';
     document.getElementById('answerInput').classList.remove('is-chinese-answer');
-    document.getElementById('answerInput').placeholder = 'Nhập câu dịch tiếng Việt của bạn…';
+    document.getElementById('answerInput').placeholder = 'Nhap cau dich tieng Viet cua ban…';
   } else {
-    answerLabel.textContent = '✏️ Dịch sang tiếng Trung';
+    answerLabel.textContent = 'Dich sang tieng Trung';
     document.getElementById('answerInput').classList.add('is-chinese-answer');
     document.getElementById('answerInput').placeholder = '請輸入您的翻譯…';
   }
@@ -373,13 +369,13 @@ function showQuestion() {
   const current = currentPosInSheet + 1;
   const completedCount = currentPosInSheet;
   document.getElementById('practiceCounter').innerHTML =
-    `<strong>${completedCount}</strong> câu đã làm`;
+    `<strong>${completedCount}</strong> cau da lam`;
   document.getElementById('progressFill').style.width =
     `${((current - 1) / total) * 100}%`;
 
   // Direction label
   document.getElementById('questionDirLabel').textContent =
-    selectedDirection === 'zh_vi' ? '🇨🇳 Đọc câu tiếng Trung và dịch sang tiếng Việt' : '🇻🇳 Đọc câu tiếng Việt và dịch sang tiếng Trung';
+    selectedDirection === 'zh_vi' ? '🇨🇳 Doc cau tieng Trung va dich sang tieng Viet' : '🇻🇳 Doc cau tieng Viet va dich sang tieng Trung';
 
   // Source text
   const sourceEl = document.getElementById('questionSource');
@@ -400,26 +396,23 @@ function showQuestion() {
     updatePinyinVisibility();
   }
 
-
-
   // Reset hint
   document.getElementById('btnHint').disabled = false;
-  document.getElementById('btnHint').textContent = '💡 Gợi ý';
+  document.getElementById('btnHint').textContent = 'Goi y';
 
   // Reset answer area (also reset placeholder in case hint was shown)
   const textarea = document.getElementById('answerInput');
   textarea.value = '';
   textarea.disabled = false;
   if (selectedDirection === 'zh_vi') {
-    textarea.placeholder = 'Nhập câu dịch tiếng Việt của bạn…';
+    textarea.placeholder = 'Nhap cau dich tieng Viet cua ban…';
   } else {
-    textarea.placeholder = 'Nhập câu dịch tiếng Trung của bạn…';
+    textarea.placeholder = 'Nhap cau dich tieng Trung cua ban…';
   }
   textarea.focus();
 
   // Reset feedback
   hideWrongFeedback();
-
 
   // Reset UI
   document.getElementById('wrongPanel').classList.remove('visible');
@@ -427,7 +420,7 @@ function showQuestion() {
   document.getElementById('answerInput').disabled = false;
   document.getElementById('answerInput').value = '';
   document.getElementById('btnCheck').style.display = 'block';
-  document.getElementById('btnHint').textContent = '💡 Gợi ý';
+  document.getElementById('btnHint').textContent = 'Goi y';
   attemptCount = 0;
 
   // Animate card
@@ -482,17 +475,17 @@ async function checkAnswerCorrect(userAnswer, referenceAnswers) {
       return norm.replace(/\s+/g, '');
     } else {
       const viNums = {
-        '0': 'không',
-        '1': 'một',
+        '0': 'khong',
+        '1': 'mot',
         '2': 'hai',
         '3': 'ba',
-        '4': 'bốn',
-        '5': 'năm',
-        '6': 'sáu',
-        '7': 'bảy',
-        '8': 'tám',
-        '9': 'chín',
-        '10': 'mười'
+        '4': 'bon',
+        '5': 'nam',
+        '6': 'sau',
+        '7': 'bay',
+        '8': 'tam',
+        '9': 'chin',
+        '10': 'muoi'
       };
       norm = norm.replace(/\b([0-9]|10)\b/g, m => viNums[m] || m);
       return norm.replace(/\s+/g, ' ');
@@ -607,16 +600,15 @@ async function checkAnswer() {
     const attemptEl = document.getElementById('wrongAttemptCount');
 
     // Vary message
-    if (attemptCount === 1) wrongText.textContent = 'Chưa đúng! Hãy thử lại…';
-    else if (attemptCount === 2) wrongText.textContent = 'Vẫn chưa đúng, thử lại nhé!';
-    else wrongText.textContent = 'Có thể dùng gợi ý để xem đáp án!';
+    if (attemptCount === 1) wrongText.textContent = 'Chua dung! Hay thu lai…';
+    else if (attemptCount === 2) wrongText.textContent = 'Van chua dung, thu lai nhe!';
+    else wrongText.textContent = 'Co the dung goi y de xem dap an!';
 
-    attemptEl.textContent = `Lần ${attemptCount}`;
+    attemptEl.textContent = `Lan ${attemptCount}`;
     wrongPanel.classList.add('visible');
 
     // Show detailed feedback (highlights always, correct answer after 3 attempts)
     showWrongFeedback(userAnswer, q, attemptCount);
-
 
     // Shake textarea
     textarea.classList.remove('shake');
@@ -689,35 +681,17 @@ function goBack() {
   updateSessionHint();
 }
 
-function getInitialScreen() {
-  const params = new URLSearchParams(window.location.search);
-  const mode = params.get('mode');
-  return mode === 'translate' ? 'setup' : 'choice';
-}
-
-function enterTranslateMode() {
-  const url = new URL(window.location.href);
-  url.searchParams.set('mode', 'translate');
-  history.replaceState({}, '', url);
-  showScreen('setup');
-  applyInitialLevelSelection();
-  updateSessionHint();
-}
-
 /* ================================================================
    SCREEN SWITCHER
 ================================================================ */
 function showScreen(name) {
   document.getElementById('screen-loading').classList.remove('active');
-  document.getElementById('screen-choice').classList.remove('active');
   document.getElementById('screen-setup').style.display = 'none';
   document.getElementById('screen-practice').classList.remove('active');
   document.getElementById('screen-done').classList.remove('active');
 
   if (name === 'loading') {
     document.getElementById('screen-loading').classList.add('active');
-  } else if (name === 'choice') {
-    document.getElementById('screen-choice').classList.add('active');
   } else if (name === 'setup') {
     document.getElementById('screen-setup').style.display = 'block';
   } else if (name === 'practice') {
@@ -726,7 +700,7 @@ function showScreen(name) {
     const done = document.getElementById('screen-done');
     done.classList.add('active');
     done.querySelector('#doneSubText').textContent =
-      `Bạn đã luyện xong ${questionSuffSheet.length} câu trong vòng này. Nhấn "Luyện tập tiếp" để tạo thứ tự mới và tiếp tục!`;
+      `Ban da luyen xong ${questionSuffSheet.length} cau trong vong nay. Nhan "Luyen tap tiep" de tao thu tu moi va tiep tuc!`;
   }
 }
 
@@ -747,7 +721,7 @@ function showHint() {
   }
   textarea.focus();
   const btn = document.getElementById('btnHint');
-  btn.textContent = '💡 Đang hiện gợi ý';
+  btn.textContent = 'Dang hien goi y';
   btn.disabled = true;
 }
 
@@ -767,7 +741,7 @@ function updatePinyinVisibility() {
   if (!hasPinyin) return;
 
   pinyinEl.style.display = isPinyinVisible ? 'block' : 'none';
-  toggleBtn.textContent = isPinyinVisible ? 'Ẩn pinyin' : 'Hiện pinyin';
+  toggleBtn.textContent = isPinyinVisible ? 'An pinyin' : 'Hien pinyin';
   toggleBtn.setAttribute('aria-pressed', String(isPinyinVisible));
 
 }
@@ -797,7 +771,7 @@ function openVocabCard(chinese) {
   if (matches.length === 0) {
     vcPinyin.textContent = '';
     vcLevelWrap.innerHTML = '';
-    vcEntries.innerHTML = `<div class="vocab-not-found">Không tìm thấy từ "${escapeHtml(chinese)}" trong từ điển.</div>`;
+    vcEntries.innerHTML = `<div class="vocab-not-found">Khong tim thay tu "${escapeHtml(chinese)}" trong tu dien.</div>`;
   } else {
     // Pinyin: take first unique
     vcPinyin.textContent = matches[0].pinyin || '';
@@ -906,7 +880,7 @@ function applyInitialLevelSelection() {
 }
 
 // Start on setup screen
-showScreen(getInitialScreen());
+showScreen('setup');
 
 // Pre-select level if provided in URL
 if (document.readyState === 'loading') {
@@ -966,7 +940,7 @@ function showWrongFeedback(userAnswer, q, attemptCount) {
   // 3. Generate HTML with highlights
   let html = `
     <div class="wrong-feedback-container">
-      <div class="diff-title"><span>⚠️</span> Phân tích lỗi:</div>
+      <div class="diff-title"><span>⚠️</span> Phan tich loi:</div>
       <div class="diff-text">
   `;
 
@@ -982,7 +956,7 @@ function showWrongFeedback(userAnswer, q, attemptCount) {
   if (attemptCount >= 3) {
     html += `
       <div class="diff-correct-answer">
-        <span>💡 Đáp án chuẩn:</span><br/>
+        <span>💡 Dap an chuan:</span><br/>
         <strong>${escapeHtml(bestRef)}</strong>
       </div>
     `;
@@ -1017,4 +991,3 @@ window.goBack = goBack;
 window.closeVocabCard = closeVocabCard;
 window.changeSidebarZoom = changeSidebarZoom;
 window.openVocabCard = openVocabCard;
-window.enterTranslateMode = enterTranslateMode;

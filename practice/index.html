@@ -4,14 +4,14 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Luyện Tập Dịch | TOCFL Flash Cards</title>
-  <meta name="description" content="Trang luyện tập dịch tiếng Trung - Việt theo từng cấp độ TOCFL A1, A2, B1, B2.">
+  <title>Luyện Tập | TOCFL Flash Cards</title>
+  <meta name="description" content="Luyện tập TOCFL: ôn từ vựng và luyện dịch theo từng cấp độ.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link
-    href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Noto+Serif+TC:wght@400;700&display=swap"
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="/practice/style.css?v=20260519">
+  <link rel="stylesheet" href="/practice/style.css?v=202605201200">
 </head>
 
 <body>
@@ -29,7 +29,7 @@
         <div class="logo-icon">📚</div>
         <div>
           <div class="logo-text">TOCFL Cards</div>
-          <div class="logo-sub">Luyện tập dịch</div>
+          <div class="logo-sub">Luyện tập</div>
         </div>
       </a>
       <nav class="header-nav">
@@ -41,209 +41,34 @@
     <!-- Main Content -->
     <main class="main-content" id="mainContent">
 
-      <!-- LOADING -->
-      <div id="screen-loading">
-        <div class="loading-spinner"></div>
-        <div class="loading-text" id="loadingText">Đang tải bài tập…</div>
-        <div id="modelProgressContainer" style="display:none; width: 200px; margin-top: 15px;">
-            <div style="font-size: 12px; margin-bottom: 5px; color: #666;">Đang tải Model AI (Semantic Check)...</div>
-            <div style="height: 4px; background: #eee; border-radius: 2px; overflow: hidden;">
-                <div id="modelProgressBar" style="width: 0%; height: 100%; background: #3b82f6; transition: width 0.3s;"></div>
+      <!-- CHOICE SCREEN -->
+      <div id="screen-choice" class="choice-screen active">
+        <div class="choice-title">
+          <h1>Luyện tập hôm nay</h1>
+          <p>Chọn kiểu luyện tập bạn muốn bắt đầu.</p>
+        </div>
+
+        <div class="choice-grid">
+          <button type="button" class="choice-card" id="btnChoiceVocab" onclick="location.href='/practice/vocab'">
+            <div class="choice-icon">📖</div>
+            <div class="choice-text">
+              <div class="choice-name">Ôn từ vựng</div>
+              <div class="choice-sub">Làm bảng kiểm tra Trung ⇄ Việt theo band.</div>
             </div>
+            <div class="choice-arrow">→</div>
+          </button>
+
+          <button type="button" class="choice-card" id="btnChoiceTranslate" onclick="location.href='/practice/translate'">
+            <div class="choice-icon">✍️</div>
+            <div class="choice-text">
+              <div class="choice-name">Luyện dịch</div>
+              <div class="choice-sub">Dịch câu Trung ⇄ Việt và chấm điểm tức thì.</div>
+            </div>
+            <div class="choice-arrow">→</div>
+          </button>
         </div>
       </div>
-
-      <!-- SETUP SCREEN -->
-      <div id="screen-setup">
-        <div class="setup-title">
-          <h1>Luyện Tập Dịch</h1>
-          <p>Chọn cấp độ và chiều dịch để bắt đầu</p>
-        </div>
-
-        <div class="setup-card">
-          <!-- Level -->
-          <div class="section-label">📊 Chọn cấp độ</div>
-          <div class="level-grid">
-            <button class="level-btn" data-level="A1" id="lvlA1" onclick="selectLevel('A1')">
-              <div class="lbtn-left">
-                <div class="lbtn-tag">Sơ cấp</div>
-                <div class="lbtn-title">A1</div>
-                <div class="lbtn-sub">Cơ bản &amp; đơn giản</div>
-              </div>
-              <div class="lbtn-icon">🌱</div>
-            </button>
-            <button class="level-btn" data-level="A2" id="lvlA2" onclick="selectLevel('A2')">
-              <div class="lbtn-left">
-                <div class="lbtn-tag">Tiền trung cấp</div>
-                <div class="lbtn-title">A2</div>
-                <div class="lbtn-sub">Tình huống thường ngày</div>
-              </div>
-              <div class="lbtn-icon">📚</div>
-            </button>
-            <button class="level-btn" data-level="B1" id="lvlB1" onclick="selectLevel('B1')">
-              <div class="lbtn-left">
-                <div class="lbtn-tag">Trung cấp</div>
-                <div class="lbtn-title">B1</div>
-                <div class="lbtn-sub">Diễn đạt đa dạng</div>
-              </div>
-              <div class="lbtn-icon">🎯</div>
-            </button>
-            <button class="level-btn" data-level="B2" id="lvlB2" onclick="selectLevel('B2')">
-              <div class="lbtn-left">
-                <div class="lbtn-tag">Trung cao cấp</div>
-                <div class="lbtn-title">B2</div>
-                <div class="lbtn-sub">Ngôn ngữ phức tạp</div>
-              </div>
-              <div class="lbtn-icon">🏆</div>
-            </button>
-            <button class="level-btn" data-level="C1" id="lvlC1" onclick="selectLevel('C1')">
-              <div class="lbtn-left">
-                <div class="lbtn-tag">Cao cấp</div>
-                <div class="lbtn-title">C1</div>
-                <div class="lbtn-sub">Giao tiếp lưu loát</div>
-              </div>
-              <div class="lbtn-icon">🔥</div>
-            </button>
-            <button class="level-btn" data-level="C2" id="lvlC2" onclick="selectLevel('C2')">
-              <div class="lbtn-left">
-                <div class="lbtn-tag">Thành thạo</div>
-                <div class="lbtn-title">C2</div>
-                <div class="lbtn-sub">Trình độ bản ngữ</div>
-              </div>
-              <div class="lbtn-icon">👑</div>
-            </button>
-          </div>
-
-          <!-- Direction -->
-          <div class="section-label">🔄 Chiều dịch</div>
-          <div class="direction-grid">
-            <button class="dir-btn" id="dirZhVi" onclick="selectDirection('zh_vi')">
-              <div class="dbtn-left">
-                <div class="dbtn-flags">🇨🇳→🇻🇳</div>
-                <div class="dbtn-title">Trung sang Việt</div>
-                <div class="dbtn-sub">Dịch từ tiếng Trung sang tiếng Việt</div>
-              </div>
-              <div class="dbtn-icon">🎮</div>
-            </button>
-            <button class="dir-btn" id="dirViZh" onclick="selectDirection('vi_zh')">
-              <div class="dbtn-left">
-                <div class="dbtn-flags">🇻🇳→🇨🇳</div>
-                <div class="dbtn-title">Việt sang Trung</div>
-                <div class="dbtn-sub">Dịch từ tiếng Việt sang tiếng Trung</div>
-              </div>
-              <div class="dbtn-icon">✏️</div>
-            </button>
-          </div>
-
-          <!-- Session hint + start -->
-          <div class="start-section">
-            <div id="sessionHint" class="session-hint"></div>
-            <button class="btn-start" id="btnStart" onclick="startPractice()" disabled>
-              🚀 Bắt đầu luyện tập
-            </button>
-          </div>
-        </div>
-      </div>
-
-      <!-- PRACTICE SCREEN (RESTRUCTURED) -->
-      <div id="screen-practice">
-        <div class="practice-layout">
-          <!-- Main Exercise Column -->
-          <div class="practice-main-col">
-            <!-- Top bar -->
-            <div class="practice-topbar">
-              <div class="practice-badges">
-                <span class="badge" id="badgeLevel"></span>
-                <span class="badge badge-dir" id="badgeDir"></span>
-              </div>
-              <div class="practice-counter" id="practiceCounter"></div>
-            </div>
-
-            <!-- Progress -->
-            <div class="progress-wrap">
-              <div class="progress-fill" id="progressFill" style="width: 0%"></div>
-            </div>
-
-            <!-- Question card -->
-            <div class="question-card" id="questionCard">
-              <div class="question-direction-label" id="questionDirLabel"></div>
-              <div class="question-source-text" id="questionSource"></div>
-              <div class="question-pinyin-row" id="questionPinyinRow">
-                <div class="question-pinyin" id="questionPinyin"></div>
-                <button class="btn-toggle-pinyin" id="btnTogglePinyin" onclick="togglePinyinVisibility()" aria-pressed="true">
-                  Ẩn pinyin
-                </button>
-              </div>
-            </div>
-
-            <!-- Answer -->
-            <div class="answer-area">
-              <div class="answer-top-row">
-                <div class="answer-label" id="answerAreaLabel">✏️ Câu trả lời của bạn</div>
-                <div style="display:flex;align-items:center;gap:10px;">
-                  <button class="btn-hint" id="btnHint" onclick="showHint()" title="Xem gợi ý">💡 Gợi ý</button>
-                  <span class="kbd-hint"><kbd class="kbd">Enter</kbd> Kiểm tra</span>
-                </div>
-              </div>
-              <textarea class="answer-textarea" id="answerInput" placeholder="Nhập câu dịch của bạn ở đây…"
-                rows="3"></textarea>
-
-              <div class="wrong-panel" id="wrongPanel">
-                <span>❌</span>
-                <span id="wrongPanelText">Chưa đúng! Hãy thử lại…</span>
-                <span class="wrong-attempt-count" id="wrongAttemptCount"></span>
-              </div>
-
-              <!-- Rich Feedback Container -->
-              <div id="wrongFeedbackContainer" style="display: none;"></div>
-
-              <!-- Correct answer feedback -->
-              <div class="correct-panel" id="correctPanel">
-                <span>✅</span>
-                <span>Chính xác! Đang chuyển câu tiếp theo…</span>
-                <div class="progress-dots">
-                  <div class="dot"></div>
-                  <div class="dot"></div>
-                  <div class="dot"></div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Action row -->
-            <div class="action-row">
-              <button class="btn btn-back" onclick="goBack()">← Thay đổi</button>
-              <button class="btn btn-skip" onclick="skipQuestion()">⏭ Bỏ qua</button>
-              <button class="btn btn-check" id="btnCheck" onclick="checkAnswer()">
-                🔍 Kiểm tra
-              </button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- DONE SCREEN -->
-      <div id="screen-done">
-        <div class="done-icon">🎉</div>
-        <div class="done-title">Hoàn thành vòng luyện!</div>
-        <div class="done-sub" id="doneSubText">Bạn đã luyện qua tất cả câu trong bộ bài tập. Bắt đầu lại để tiếp tục!
-        </div>
-        <button class="btn-restart" onclick="restartSession()">🔄 Luyện tập tiếp</button>
-        <button class="btn btn-back" onclick="goBack()">← Thay đổi cài đặt</button>
-      </div>
-
     </main>
-  </div>
-
-  <!-- Vocabulary popup overlay -->
-  <div class="vocab-overlay" id="vocabOverlay" onclick="closeVocabCard(event)">
-    <div class="vocab-card-popup" id="vocabCardPopup">
-      <button class="vocab-close" onclick="closeVocabCard()" title="Đóng">✕</button>
-      <div class="vocab-chinese" id="vcChinese"></div>
-      <div class="vocab-pinyin" id="vcPinyin"></div>
-      <div style="text-align:center;margin-bottom:14px;" id="vcLevelWrap"></div>
-      <div class="vocab-divider"></div>
-      <div class="vocab-entries" id="vcEntries"></div>
-    </div>
   </div>
 
   <!-- Firebase (matching root) -->
@@ -252,9 +77,8 @@
   <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore-compat.js"></script>
 
   <!-- App Scripts -->
-  <script src="/shared-auth.js?v=20260519"></script>
-  <script src="/vocabulary-data.js?v=20260519"></script>
-  <script src="/practice/script.js?v=20260519" type="module"></script>
+  <script src="/shared-auth.js?v=202605201200"></script>
+  <script src="/practice/choice.js?v=202605201200"></script>
 </body>
 
 </html>

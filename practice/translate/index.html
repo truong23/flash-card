@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Luyen Tap Dich | TOCFL Flash Cards</title>
+  <meta name="description" content="Trang luyen tap dich tieng Trung - Viet theo tung cap do TOCFL A1, A2, B1, B2.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700;800&family=Space+Grotesk:wght@400;500;600;700&family=Noto+Serif+TC:wght@400;700&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="/practice/translate/style.css?v=202605201200">
+</head>
+
+<body>
+
+  <div class="bg-orbs">
+    <div class="orb orb-1"></div>
+    <div class="orb orb-2"></div>
+    <div class="orb orb-3"></div>
+  </div>
+
+  <div class="app-wrapper">
+    <!-- Header -->
+    <header class="app-header">
+      <a href="/" class="header-logo" id="headerLogoLink">
+        <div class="logo-icon">📚</div>
+        <div>
+          <div class="logo-text">TOCFL Cards</div>
+          <div class="logo-sub">Luyen tap dich</div>
+        </div>
+      </a>
+      <nav class="header-nav">
+        <a href="/study">Tu vung</a>
+        <a href="/practice/translate" class="active">Luyen dich</a>
+      </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content" id="mainContent">
+
+      <!-- LOADING -->
+      <div id="screen-loading">
+        <div class="loading-spinner"></div>
+        <div class="loading-text" id="loadingText">Dang tai bai tap…</div>
+        <div id="modelProgressContainer" style="display:none; width: 200px; margin-top: 15px;">
+            <div style="font-size: 12px; margin-bottom: 5px; color: #666;">Dang tai Model AI (Semantic Check)...</div>
+            <div style="height: 4px; background: #eee; border-radius: 2px; overflow: hidden;">
+                <div id="modelProgressBar" style="width: 0%; height: 100%; background: #3b82f6; transition: width 0.3s;"></div>
+            </div>
+        </div>
+      </div>
+
+      <!-- SETUP SCREEN -->
+      <div id="screen-setup">
+        <div class="setup-title">
+          <h1>Luyen Tap Dich</h1>
+          <p>Chon cap do va chieu dich de bat dau</p>
+        </div>
+
+        <div class="setup-card">
+          <!-- Level -->
+          <div class="section-label">Chon cap do</div>
+          <div class="level-grid">
+            <button class="level-btn" data-level="A1" id="lvlA1" onclick="selectLevel('A1')">
+              <div class="lbtn-left">
+                <div class="lbtn-tag">So cap</div>
+                <div class="lbtn-title">A1</div>
+                <div class="lbtn-sub">Co ban &amp; don gian</div>
+              </div>
+              <div class="lbtn-icon">🌱</div>
+            </button>
+            <button class="level-btn" data-level="A2" id="lvlA2" onclick="selectLevel('A2')">
+              <div class="lbtn-left">
+                <div class="lbtn-tag">Tien trung cap</div>
+                <div class="lbtn-title">A2</div>
+                <div class="lbtn-sub">Tinh huong thuong ngay</div>
+              </div>
+              <div class="lbtn-icon">📚</div>
+            </button>
+            <button class="level-btn" data-level="B1" id="lvlB1" onclick="selectLevel('B1')">
+              <div class="lbtn-left">
+                <div class="lbtn-tag">Trung cap</div>
+                <div class="lbtn-title">B1</div>
+                <div class="lbtn-sub">Dien dat da dang</div>
+              </div>
+              <div class="lbtn-icon">🎯</div>
+            </button>
+            <button class="level-btn" data-level="B2" id="lvlB2" onclick="selectLevel('B2')">
+              <div class="lbtn-left">
+                <div class="lbtn-tag">Trung cao cap</div>
+                <div class="lbtn-title">B2</div>
+                <div class="lbtn-sub">Ngon ngu phuc tap</div>
+              </div>
+              <div class="lbtn-icon">🏆</div>
+            </button>
+            <button class="level-btn" data-level="C1" id="lvlC1" onclick="selectLevel('C1')">
+              <div class="lbtn-left">
+                <div class="lbtn-tag">Cao cap</div>
+                <div class="lbtn-title">C1</div>
+                <div class="lbtn-sub">Giao tiep luu loat</div>
+              </div>
+              <div class="lbtn-icon">🔥</div>
+            </button>
+            <button class="level-btn" data-level="C2" id="lvlC2" onclick="selectLevel('C2')">
+              <div class="lbtn-left">
+                <div class="lbtn-tag">Thanh thao</div>
+                <div class="lbtn-title">C2</div>
+                <div class="lbtn-sub">Trinh do ban ngu</div>
+              </div>
+              <div class="lbtn-icon">👑</div>
+            </button>
+          </div>
+
+          <!-- Direction -->
+          <div class="section-label">Chieu dich</div>
+          <div class="direction-grid">
+            <button class="dir-btn" id="dirZhVi" onclick="selectDirection('zh_vi')">
+              <div class="dbtn-left">
+                <div class="dbtn-flags">🇨🇳→🇻🇳</div>
+                <div class="dbtn-title">Trung sang Viet</div>
+                <div class="dbtn-sub">Dich tu tieng Trung sang tieng Viet</div>
+              </div>
+              <div class="dbtn-icon">🎮</div>
+            </button>
+            <button class="dir-btn" id="dirViZh" onclick="selectDirection('vi_zh')">
+              <div class="dbtn-left">
+                <div class="dbtn-flags">🇻🇳→🇨🇳</div>
+                <div class="dbtn-title">Viet sang Trung</div>
+                <div class="dbtn-sub">Dich tu tieng Viet sang tieng Trung</div>
+              </div>
+              <div class="dbtn-icon">✏️</div>
+            </button>
+          </div>
+
+          <!-- Session hint + start -->
+          <div class="start-section">
+            <div id="sessionHint" class="session-hint"></div>
+            <button class="btn-start" id="btnStart" onclick="startPractice()" disabled>
+              Bat dau luyen tap
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- PRACTICE SCREEN (RESTRUCTURED) -->
+      <div id="screen-practice">
+        <div class="practice-layout">
+          <!-- Main Exercise Column -->
+          <div class="practice-main-col">
+            <!-- Top bar -->
+            <div class="practice-topbar">
+              <div class="practice-badges">
+                <span class="badge" id="badgeLevel"></span>
+                <span class="badge badge-dir" id="badgeDir"></span>
+              </div>
+              <div class="practice-counter" id="practiceCounter"></div>
+            </div>
+
+            <!-- Progress -->
+            <div class="progress-wrap">
+              <div class="progress-fill" id="progressFill" style="width: 0%"></div>
+            </div>
+
+            <!-- Question card -->
+            <div class="question-card" id="questionCard">
+              <div class="question-direction-label" id="questionDirLabel"></div>
+              <div class="question-source-text" id="questionSource"></div>
+              <div class="question-pinyin-row" id="questionPinyinRow">
+                <div class="question-pinyin" id="questionPinyin"></div>
+                <button class="btn-toggle-pinyin" id="btnTogglePinyin" onclick="togglePinyinVisibility()" aria-pressed="true">
+                  An pinyin
+                </button>
+              </div>
+            </div>
+
+            <!-- Answer -->
+            <div class="answer-area">
+              <div class="answer-top-row">
+                <div class="answer-label" id="answerAreaLabel">Cau tra loi cua ban</div>
+                <div style="display:flex;align-items:center;gap:10px;">
+                  <button class="btn-hint" id="btnHint" onclick="showHint()" title="Xem goi y">Goi y</button>
+                  <span class="kbd-hint"><kbd class="kbd">Enter</kbd> Kiem tra</span>
+                </div>
+              </div>
+              <textarea class="answer-textarea" id="answerInput" placeholder="Nhap cau dich cua ban o day…"
+                rows="3"></textarea>
+
+              <div class="wrong-panel" id="wrongPanel">
+                <span>❌</span>
+                <span id="wrongPanelText">Chua dung! Hay thu lai…</span>
+                <span class="wrong-attempt-count" id="wrongAttemptCount"></span>
+              </div>
+
+              <!-- Rich Feedback Container -->
+              <div id="wrongFeedbackContainer" style="display: none;"></div>
+
+              <!-- Correct answer feedback -->
+              <div class="correct-panel" id="correctPanel">
+                <span>✅</span>
+                <span>Chinh xac! Dang chuyen cau tiep theo…</span>
+                <div class="progress-dots">
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                  <div class="dot"></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Action row -->
+            <div class="action-row">
+              <button class="btn btn-back" onclick="goBack()">Thay doi</button>
+              <button class="btn btn-skip" onclick="skipQuestion()">Bo qua</button>
+              <button class="btn btn-check" id="btnCheck" onclick="checkAnswer()">
+                Kiem tra
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DONE SCREEN -->
+      <div id="screen-done">
+        <div class="done-icon">🎉</div>
+        <div class="done-title">Hoan thanh vong luyen!</div>
+        <div class="done-sub" id="doneSubText">Ban da luyen qua tat ca cau trong bo bai tap. Bat dau lai de tiep tuc!
+        </div>
+        <button class="btn-restart" onclick="restartSession()">Luyen tap tiep</button>
+        <button class="btn btn-back" onclick="goBack()">Thay doi cai dat</button>
+      </div>
+
+    </main>
+  </div>
+
+  <!-- Vocabulary popup overlay -->
+  <div class="vocab-overlay" id="vocabOverlay" onclick="closeVocabCard(event)">
+    <div class="vocab-card-popup" id="vocabCardPopup">
+      <button class="vocab-close" onclick="closeVocabCard()" title="Dong">✕</button>
+      <div class="vocab-chinese" id="vcChinese"></div>
+      <div class="vocab-pinyin" id="vcPinyin"></div>
+      <div style="text-align:center;margin-bottom:14px;" id="vcLevelWrap"></div>
+      <div class="vocab-divider"></div>
+      <div class="vocab-entries" id="vcEntries"></div>
+    </div>
+  </div>
+
+  <!-- Firebase (matching root) -->
+  <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore-compat.js"></script>
+
+  <!-- App Scripts -->
+  <script src="/shared-auth.js?v=202605201200"></script>
+  <script src="/vocabulary-data.js?v=202605201200"></script>
+  <script src="/practice/translate/script.js?v=202605201200" type="module"></script>
+</body>
+
+</html>

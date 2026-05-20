@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>On Tu Vung | TOCFL Flash Cards</title>
+    <meta name="description" content="On tu vung Trung - Viet theo band A1-C1." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/practice/vocab/style.css?v=202605201200" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="app-header">
+        <a class="logo" href="/">
+          <span class="logo-mark">📘</span>
+          <span class="logo-text">
+            <strong>TOCFL Cards</strong>
+            <span>On tu vung</span>
+          </span>
+        </a>
+        <nav class="app-nav">
+          <a href="/study">Tu vung</a>
+          <a href="/practice" class="active">Luyen tap</a>
+        </nav>
+      </header>
+
+      <main class="content">
+        <section id="screen-setup" class="screen active">
+          <div class="setup-hero">
+            <h1>On tu vung theo band</h1>
+            <p>Chon band va chieu on tap de bat dau.</p>
+          </div>
+
+          <div class="setup-card">
+            <div class="section-label">Chon band</div>
+            <div class="level-grid">
+              <button type="button" class="level-btn" data-level="A1" id="lvlA1">A1</button>
+              <button type="button" class="level-btn" data-level="A2" id="lvlA2">A2</button>
+              <button type="button" class="level-btn" data-level="B1" id="lvlB1">B1</button>
+              <button type="button" class="level-btn" data-level="B2" id="lvlB2">B2</button>
+              <button type="button" class="level-btn" data-level="C1" id="lvlC1">C1</button>
+            </div>
+
+            <div class="section-label">Chon chieu</div>
+            <div class="direction-grid">
+              <button type="button" class="dir-btn" id="dirViZh" data-direction="vi_zh">
+                Viet -> Trung
+              </button>
+              <button type="button" class="dir-btn" id="dirZhVi" data-direction="zh_vi">
+                Trung -> Viet
+              </button>
+            </div>
+
+            <div class="setup-actions">
+              <button type="button" class="btn-start" id="btnStart" disabled>Bat dau on tap</button>
+            </div>
+          </div>
+        </section>
+
+        <section id="screen-practice" class="screen">
+          <div class="practice-header">
+            <div class="practice-title">
+              <span class="pill" id="pillLevel">Band</span>
+              <span class="pill" id="pillDirection">Chieu</span>
+            </div>
+            <div class="practice-actions">
+              <span class="score" id="scoreText">Dung 0/0</span>
+              <button type="button" class="btn-ghost" id="btnReset">Lam moi</button>
+              <button type="button" class="btn-ghost" id="btnBack">Thay doi</button>
+            </div>
+          </div>
+
+          <div class="table-card">
+            <div class="table-wrap">
+              <table class="practice-table">
+                <thead id="tableHead"></thead>
+                <tbody id="tableBody"></tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-app-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-auth-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore-compat.js"></script>
+    <script src="/shared-auth.js?v=202605201200"></script>
+    <script src="/vocabulary-data.js?v=202605201200"></script>
+    <script src="/practice/vocab/script.js?v=202605201200"></script>
+  </body>
+</html>

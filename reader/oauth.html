@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>YouTube OAuth Helper</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/reader/style.css?v=202605201200" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="page-header">
+        <a class="brand" href="/reader">
+          <span class="brand-icon">🔑</span>
+          <span>
+            <span class="brand-title">OAuth Helper</span>
+            <span class="brand-sub">Lay refresh token YouTube</span>
+          </span>
+        </a>
+      </header>
+
+      <section class="input-panel">
+        <h1>Lay refresh token</h1>
+        <ol style="padding-left: 18px; color: var(--muted); line-height: 1.6;">
+          <li>Nhap env YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REDIRECT_URI.</li>
+          <li>Click "Mo man hinh dong y" de lay code.</li>
+          <li>Refresh token se hien o duoi.</li>
+        </ol>
+        <div class="input-row">
+          <button id="openConsent">Mo man hinh dong y</button>
+        </div>
+        <div id="oauthStatus" class="status-line">Cho san.</div>
+      </section>
+
+      <section class="reading-card">
+        <h2>Ket qua</h2>
+        <pre id="oauthResult" class="reading-content">Chua co ket qua.</pre>
+      </section>
+    </div>
+
+    <script src="/reader/oauth.js?v=202605201200"></script>
+  </body>
+</html>

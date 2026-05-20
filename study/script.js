@@ -362,7 +362,7 @@ function createSectionElement(sectionData) {
         <span style="border-left: 4px solid var(--level-accent); padding-left: 10px;">TOCFL ${sectionData.level}${partTitle}</span>
         <span style="color: #64748b; font-size: 0.92rem; font-weight: 600;">${sectionData.words.length} thẻ</span>
       </div>
-      <a href="practice/?level=${sectionData.level}" class="btn-practice-inline" title="Luyện tập từ vựng phần này">
+      <a href="/practice/vocab?level=${sectionData.level}" class="btn-practice-inline" title="Luyện tập từ vựng phần này">
         🎯 Luyện tập
       </a>
     </h2>
