@@ -68,7 +68,7 @@ html {
 
 body {
   font-family:
-    "Space Grotesk",
+    "Be Vietnam Pro",
     "Segoe UI",
     sans-serif;
   background:
@@ -278,7 +278,7 @@ body {
   font-size: clamp(1.9rem, 5vw, 2.8rem);
   font-weight: 800;
   color: #0f172a;
-  font-family: "Fraunces", "Space Grotesk", serif;
+  font-family: "Sora", "Be Vietnam Pro", sans-serif;
   letter-spacing: -0.02em;
   margin-bottom: 10px;
 }
@@ -333,7 +333,7 @@ body {
 
 .choice-name {
   font-size: 1.2rem;
-  font-weight: 800;
+  font-weight: 700;
   color: #0f172a;
 }
 
@@ -412,7 +412,7 @@ body {
   font-size: clamp(1.8rem, 5vw, 2.6rem);
   font-weight: 800;
   color: #0f172a;
-  font-family: "Fraunces", "Space Grotesk", serif;
+  font-family: "Sora", "Be Vietnam Pro", sans-serif;
   letter-spacing: -0.03em;
   margin-bottom: 10px;
 }
@@ -1714,7 +1714,7 @@ body {
   font-size: 2rem;
   font-weight: 800;
   color: #0f172a;
-  font-family: "Fraunces", "Space Grotesk", serif;
+  font-family: "Sora", "Be Vietnam Pro", sans-serif;
 }
 
 .done-sub {
