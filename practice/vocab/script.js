@@ -22,7 +22,7 @@
   });
 })();
 
-const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1'];
+const LEVELS = ['A1', 'A2', 'B1', 'B2', 'C1', 'C2'];
 
 const dom = {
   screenSetup: document.getElementById('screen-setup'),
@@ -137,7 +137,22 @@ function updateScore() {
   rowStates.forEach((state) => {
     if (state === true) correct += 1;
   });
-  dom.scoreText.textContent = `Dung ${correct}/${total}`;
+  dom.scoreText.textContent = `Đúng ${correct}/${total}`;
+}
+
+function getStorageKey() {
+  return `vocab_practice_${selectedLevel}_${selectedDirection}`;
+}
+
+function saveProgress() {
+  const inputs = dom.tableBody.querySelectorAll('.practice-input');
+  const state = {};
+  inputs.forEach(input => {
+    if (input.value.trim()) {
+      state[input.dataset.index] = input.value;
+    }
+  });
+  localStorage.setItem(getStorageKey(), JSON.stringify(state));
 }
 
 function renderTable() {
@@ -145,95 +160,134 @@ function renderTable() {
   dom.tableBody.innerHTML = '';
   rowStates = new Map();
 
+  let savedState = {};
+  try {
+    const raw = localStorage.getItem(getStorageKey());
+    if (raw) savedState = JSON.parse(raw);
+  } catch (e) {
+    console.error('Failed to parse saved state', e);
+  }
+
   if (selectedDirection === 'vi_zh') {
     dom.tableHead.innerHTML = `
       <tr>
-        <th>tieng viet</th>
-        <th>nhap tieng trung</th>
-        <th>kiem tra</th>
+        <th>tiếng Việt</th>
+        <th>nhập tiếng Trung</th>
+        <th>kiểm tra</th>
       </tr>
     `;
   } else {
     dom.tableHead.innerHTML = `
       <tr>
-        <th>tieng trung</th>
+        <th>tiếng Trung</th>
         <th>pinyin</th>
-        <th>nhap tieng viet</th>
-        <th>kiem tra</th>
+        <th>nhập tiếng Việt</th>
+        <th>kiểm tra</th>
       </tr>
     `;
   }
 
   currentWords.forEach((word, index) => {
+    const savedValue = savedState[index] || '';
     const row = document.createElement('tr');
+    
     if (selectedDirection === 'vi_zh') {
       row.innerHTML = `
-        <td>${escapeHtml(word.meaning || '')}</td>
-        <td>
-          <input class="practice-input" data-index="${index}" placeholder="Nhap dap an..." />
+        <td class="word-meaning">${escapeHtml(word.meaning || '')}</td>
+        <td class="input-cell">
+          <input class="practice-input" data-index="${index}" placeholder="Nhập đáp án..." value="${escapeHtml(savedValue)}" />
         </td>
-        <td class="check-cell" data-check="${index}"></td>
+        <td class="practice-table check-cell" data-check="${index}"></td>
       `;
     } else {
       row.innerHTML = `
         <td class="cn-text">${escapeHtml(word.chinese || '')}</td>
-        <td>${escapeHtml(word.pinyin || '')}</td>
-        <td>
-          <input class="practice-input" data-index="${index}" placeholder="Nhap dap an..." />
+        <td class="word-pinyin">${escapeHtml(word.pinyin || '')}</td>
+        <td class="input-cell">
+          <input class="practice-input" data-index="${index}" placeholder="Nhập đáp án..." value="${escapeHtml(savedValue)}" />
         </td>
-        <td class="check-cell" data-check="${index}"></td>
+        <td class="practice-table check-cell" data-check="${index}"></td>
       `;
     }
+    
+    // Fix check-cell class to match styling fix earlier
+    const checkCell = row.querySelector('.check-cell');
+    if (checkCell) checkCell.className = 'check-cell';
+
     dom.tableBody.appendChild(row);
+  });
+
+  dom.tableBody.querySelectorAll('.practice-input').forEach(input => {
+    if (input.value) {
+      validateInput(input);
+    }
   });
 
   updateScore();
 }
 
-function handleInput(event) {
-  const target = event.target;
-  if (!target.classList.contains('practice-input')) return;
-
-  const index = Number(target.dataset.index);
+function validateInput(input) {
+  const index = Number(input.dataset.index);
   const word = currentWords[index];
   if (!word) return;
 
-  const result = isAnswerCorrect(target.value, word);
+  const result = isAnswerCorrect(input.value, word);
   const checkCell = dom.tableBody.querySelector(`[data-check="${index}"]`);
 
-  target.classList.remove('is-correct', 'is-wrong');
+  input.classList.remove('is-correct', 'is-wrong');
   if (result === true) {
-    target.classList.add('is-correct');
+    input.classList.add('is-correct');
     if (checkCell) checkCell.textContent = '✅';
   } else if (result === false) {
-    target.classList.add('is-wrong');
+    input.classList.add('is-wrong');
     if (checkCell) checkCell.textContent = '❌';
   } else {
     if (checkCell) checkCell.textContent = '';
   }
 
   rowStates.set(index, result === true);
+}
+
+function handleInput(event) {
+  const target = event.target;
+  if (!target.classList.contains('practice-input')) return;
+
+  validateInput(target);
   updateScore();
+  saveProgress();
+}
+
+function scrollToNextUnanswered() {
+  const inputs = Array.from(dom.tableBody.querySelectorAll('.practice-input'));
+  const firstEmpty = inputs.find(input => !input.value.trim() || input.classList.contains('is-wrong'));
+  if (firstEmpty) {
+    firstEmpty.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    firstEmpty.focus();
+  }
 }
 
 function startPractice() {
   if (!selectedLevel || !selectedDirection) return;
 
   if (typeof vocabularyData === 'undefined') {
-    alert('Chua tai du lieu tu vung.');
+    alert('Chưa tải dữ liệu từ vựng.');
     return;
   }
 
   currentWords = vocabularyData.filter(word => word.level === selectedLevel);
   if (currentWords.length === 0) {
-    alert(`Khong co tu vung cho band ${selectedLevel}.`);
+    alert(`Không có từ vựng cho band ${selectedLevel}.`);
     return;
   }
   dom.pillLevel.textContent = `Band ${selectedLevel}`;
-  dom.pillDirection.textContent = selectedDirection === 'vi_zh' ? 'Viet -> Trung' : 'Trung -> Viet';
+  dom.pillDirection.textContent = selectedDirection === 'vi_zh' ? 'Việt → Trung' : 'Trung → Việt';
 
   renderTable();
   showScreen('practice');
+  
+  setTimeout(() => {
+    scrollToNextUnanswered();
+  }, 100);
 }
 
 function resetAnswers() {
@@ -246,6 +300,8 @@ function resetAnswers() {
   });
   rowStates = new Map();
   updateScore();
+  localStorage.removeItem(getStorageKey());
+  scrollToNextUnanswered();
 }
 
 function goBack() {

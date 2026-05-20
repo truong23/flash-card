@@ -10,7 +10,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/reader/style.css?v=202605201200" />
+    <link rel="stylesheet" href="/reader/style.css?v=202605202246" />
   </head>
   <body>
     <div class="page-shell">
@@ -19,30 +19,30 @@
           <span class="brand-icon">🔑</span>
           <span>
             <span class="brand-title">OAuth Helper</span>
-            <span class="brand-sub">Lay refresh token YouTube</span>
+            <span class="brand-sub">Lấy refresh token YouTube</span>
           </span>
         </a>
       </header>
 
       <section class="input-panel">
-        <h1>Lay refresh token</h1>
+        <h1>Lấy refresh token</h1>
         <ol style="padding-left: 18px; color: var(--muted); line-height: 1.6;">
-          <li>Nhap env YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REDIRECT_URI.</li>
-          <li>Click "Mo man hinh dong y" de lay code.</li>
-          <li>Refresh token se hien o duoi.</li>
+          <li>Nhập env YOUTUBE_CLIENT_ID, YOUTUBE_CLIENT_SECRET, YOUTUBE_REDIRECT_URI.</li>
+          <li>Click "Mở màn hình đồng ý" để lấy code.</li>
+          <li>Refresh token sẽ hiện ở dưới.</li>
         </ol>
         <div class="input-row">
-          <button id="openConsent">Mo man hinh dong y</button>
+          <button id="openConsent">Mở màn hình đồng ý</button>
         </div>
-        <div id="oauthStatus" class="status-line">Cho san.</div>
+        <div id="oauthStatus" class="status-line">Chờ sẵn.</div>
       </section>
 
       <section class="reading-card">
-        <h2>Ket qua</h2>
-        <pre id="oauthResult" class="reading-content">Chua co ket qua.</pre>
+        <h2>Kết quả</h2>
+        <pre id="oauthResult" class="reading-content">Chưa có kết quả.</pre>
       </section>
     </div>
 
-    <script src="/reader/oauth.js?v=202605201200"></script>
+    <script src="/reader/oauth.js?v=202605202246"></script>
   </body>
 </html>

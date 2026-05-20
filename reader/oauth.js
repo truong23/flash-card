@@ -7,7 +7,7 @@ function setStatus(text) {
 }
 
 async function openConsent() {
-  setStatus('Dang tao URL dong y...');
+  setStatus('Đang tạo URL đồng ý...');
   const response = await fetch('/api/youtube-oauth-url');
   const data = await response.json();
   if (!response.ok) {
@@ -19,7 +19,7 @@ async function openConsent() {
 }
 
 async function exchangeCode(code) {
-  setStatus('Dang doi token...');
+  setStatus('Đang đổi token...');
   const response = await fetch('/api/youtube-oauth-exchange', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },

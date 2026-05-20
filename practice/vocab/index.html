@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>On Tu Vung | TOCFL Flash Cards</title>
-    <meta name="description" content="On tu vung Trung - Viet theo band A1-C1." />
+    <title>Ôn Từ Vựng | TOCFL Flash Cards</title>
+    <meta name="description" content="Ôn từ vựng Trung - Việt theo band A1-C1." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Noto+Sans+TC:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/practice/vocab/style.css?v=202605201200" />
+    <link rel="stylesheet" href="/practice/vocab/style.css?v=202605202246" />
   </head>
   <body>
     <div class="page">
@@ -20,44 +20,97 @@
           <span class="logo-mark">📘</span>
           <span class="logo-text">
             <strong>TOCFL Cards</strong>
-            <span>On tu vung</span>
+            <span>Ôn từ vựng</span>
           </span>
         </a>
         <nav class="app-nav">
-          <a href="/study">Tu vung</a>
-          <a href="/practice" class="active">Luyen tap</a>
+          <a href="/study">Từ vựng</a>
+          <a href="/practice" class="active">Luyện tập</a>
         </nav>
       </header>
 
       <main class="content">
         <section id="screen-setup" class="screen active">
           <div class="setup-hero">
-            <h1>On tu vung theo band</h1>
-            <p>Chon band va chieu on tap de bat dau.</p>
+            <h1>Ôn từ vựng theo band</h1>
+            <p>Chọn band và chiều ôn tập để bắt đầu.</p>
           </div>
 
           <div class="setup-card">
-            <div class="section-label">Chon band</div>
+            <div class="section-label">Chọn band</div>
             <div class="level-grid">
-              <button type="button" class="level-btn" data-level="A1" id="lvlA1">A1</button>
-              <button type="button" class="level-btn" data-level="A2" id="lvlA2">A2</button>
-              <button type="button" class="level-btn" data-level="B1" id="lvlB1">B1</button>
-              <button type="button" class="level-btn" data-level="B2" id="lvlB2">B2</button>
-              <button type="button" class="level-btn" data-level="C1" id="lvlC1">C1</button>
+              <button class="level-btn" data-level="A1" id="lvlA1">
+                <div class="lbtn-left">
+                  <div class="lbtn-tag">Sơ cấp</div>
+                  <div class="lbtn-title">A1</div>
+                  <div class="lbtn-sub">Cơ bản &amp; đơn giản</div>
+                </div>
+                <div class="lbtn-icon">🌱</div>
+              </button>
+              <button class="level-btn" data-level="A2" id="lvlA2">
+                <div class="lbtn-left">
+                  <div class="lbtn-tag">Tiền trung cấp</div>
+                  <div class="lbtn-title">A2</div>
+                  <div class="lbtn-sub">Tình huống thường ngày</div>
+                </div>
+                <div class="lbtn-icon">📚</div>
+              </button>
+              <button class="level-btn" data-level="B1" id="lvlB1">
+                <div class="lbtn-left">
+                  <div class="lbtn-tag">Trung cấp</div>
+                  <div class="lbtn-title">B1</div>
+                  <div class="lbtn-sub">Diễn đạt đa dạng</div>
+                </div>
+                <div class="lbtn-icon">🎯</div>
+              </button>
+              <button class="level-btn" data-level="B2" id="lvlB2">
+                <div class="lbtn-left">
+                  <div class="lbtn-tag">Trung cao cấp</div>
+                  <div class="lbtn-title">B2</div>
+                  <div class="lbtn-sub">Ngôn ngữ phức tạp</div>
+                </div>
+                <div class="lbtn-icon">🏆</div>
+              </button>
+              <button class="level-btn" data-level="C1" id="lvlC1">
+                <div class="lbtn-left">
+                  <div class="lbtn-tag">Cao cấp</div>
+                  <div class="lbtn-title">C1</div>
+                  <div class="lbtn-sub">Giao tiếp lưu loát</div>
+                </div>
+                <div class="lbtn-icon">🔥</div>
+              </button>
+              <button class="level-btn" data-level="C2" id="lvlC2">
+                <div class="lbtn-left">
+                  <div class="lbtn-tag">Thành thạo</div>
+                  <div class="lbtn-title">C2</div>
+                  <div class="lbtn-sub">Trình độ bản ngữ</div>
+                </div>
+                <div class="lbtn-icon">👑</div>
+              </button>
             </div>
 
-            <div class="section-label">Chon chieu</div>
+            <div class="section-label">Chọn chiều</div>
             <div class="direction-grid">
-              <button type="button" class="dir-btn" id="dirViZh" data-direction="vi_zh">
-                Viet -> Trung
+              <button class="dir-btn" id="dirZhVi" data-direction="zh_vi">
+                <div class="dbtn-left">
+                  <div class="dbtn-flags">🇨🇳→🇻🇳</div>
+                  <div class="dbtn-title">Trung sang Việt</div>
+                  <div class="dbtn-sub">Dịch từ tiếng Trung sang tiếng Việt</div>
+                </div>
+                <div class="dbtn-icon">🎮</div>
               </button>
-              <button type="button" class="dir-btn" id="dirZhVi" data-direction="zh_vi">
-                Trung -> Viet
+              <button class="dir-btn" id="dirViZh" data-direction="vi_zh">
+                <div class="dbtn-left">
+                  <div class="dbtn-flags">🇻🇳→🇨🇳</div>
+                  <div class="dbtn-title">Việt sang Trung</div>
+                  <div class="dbtn-sub">Dịch từ tiếng Việt sang tiếng Trung</div>
+                </div>
+                <div class="dbtn-icon">✏️</div>
               </button>
             </div>
 
             <div class="setup-actions">
-              <button type="button" class="btn-start" id="btnStart" disabled>Bat dau on tap</button>
+              <button type="button" class="btn-start" id="btnStart" disabled>Bắt đầu ôn tập</button>
             </div>
           </div>
         </section>
@@ -66,12 +119,12 @@
           <div class="practice-header">
             <div class="practice-title">
               <span class="pill" id="pillLevel">Band</span>
-              <span class="pill" id="pillDirection">Chieu</span>
+              <span class="pill" id="pillDirection">Chiều</span>
             </div>
             <div class="practice-actions">
-              <span class="score" id="scoreText">Dung 0/0</span>
-              <button type="button" class="btn-ghost" id="btnReset">Lam moi</button>
-              <button type="button" class="btn-ghost" id="btnBack">Thay doi</button>
+              <span class="score" id="scoreText">Đúng 0/0</span>
+              <button type="button" class="btn-ghost" id="btnReset">Làm mới</button>
+              <button type="button" class="btn-ghost" id="btnBack">Thay đổi</button>
             </div>
           </div>
 
@@ -90,8 +143,8 @@
     <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-app-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-auth-compat.js"></script>
     <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore-compat.js"></script>
-    <script src="/shared-auth.js?v=202605201200"></script>
-    <script src="/vocabulary-data.js?v=202605201200"></script>
-    <script src="/practice/vocab/script.js?v=202605201200"></script>
+    <script src="/shared-auth.js?v=202605202246"></script>
+    <script src="/vocabulary-data.js?v=202605202246"></script>
+    <script src="/practice/vocab/script.js?v=202605202246"></script>
   </body>
 </html>

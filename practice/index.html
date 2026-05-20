@@ -11,7 +11,7 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700;800&family=Sora:wght@500;600;700;800&family=Noto+Serif+TC:wght@400;700&display=swap"
     rel="stylesheet">
-  <link rel="stylesheet" href="/practice/style.css?v=202605201230">
+  <link rel="stylesheet" href="/practice/style.css?v=202605202246">
 </head>
 
 <body>
@@ -48,23 +48,21 @@
           <p>Chọn kiểu luyện tập bạn muốn bắt đầu.</p>
         </div>
 
-        <div class="choice-grid">
-          <button type="button" class="choice-card" id="btnChoiceVocab" onclick="location.href='/practice/vocab'">
-            <div class="choice-icon">📖</div>
-            <div class="choice-text">
-              <div class="choice-name">Ôn từ vựng</div>
-              <div class="choice-sub">Làm bảng kiểm tra Trung ⇄ Việt theo band.</div>
+        <div class="nav-grid">
+          <button type="button" class="nav-card" id="btnChoiceVocab" onclick="location.href='/practice/vocab'">
+            <div>
+              <span class="nav-card-top">📖</span>
+              <h2 class="nav-card-title">Ôn từ vựng</h2>
+              <p class="nav-card-sub">Làm bảng kiểm tra Trung ⇄ Việt theo band.</p>
             </div>
-            <div class="choice-arrow">→</div>
           </button>
 
-          <button type="button" class="choice-card" id="btnChoiceTranslate" onclick="location.href='/practice/translate'">
-            <div class="choice-icon">✍️</div>
-            <div class="choice-text">
-              <div class="choice-name">Luyện dịch</div>
-              <div class="choice-sub">Dịch câu Trung ⇄ Việt và chấm điểm tức thì.</div>
+          <button type="button" class="nav-card" id="btnChoiceTranslate" onclick="location.href='/practice/translate'">
+            <div>
+              <span class="nav-card-top">✍️</span>
+              <h2 class="nav-card-title">Luyện dịch</h2>
+              <p class="nav-card-sub">Dịch câu Trung ⇄ Việt và chấm điểm tức thì.</p>
             </div>
-            <div class="choice-arrow">→</div>
           </button>
         </div>
       </div>
@@ -77,8 +75,8 @@
   <script src="https://www.gstatic.com/firebasejs/11.6.0/firebase-firestore-compat.js"></script>
 
   <!-- App Scripts -->
-  <script src="/shared-auth.js?v=202605201230"></script>
-  <script src="/practice/choice.js?v=202605201230"></script>
+  <script src="/shared-auth.js?v=202605202246"></script>
+  <script src="/practice/choice.js?v=202605202246"></script>
 </body>
 
 </html>

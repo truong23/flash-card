@@ -3,15 +3,15 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>TOCFL Reader - Phu de YouTube</title>
-    <meta name="description" content="Tao bai doc tu phu de YouTube va tra nghia tu vung." />
+    <title>TOCFL Reader - Phụ đề YouTube</title>
+    <meta name="description" content="Tạo bài đọc từ phụ đề YouTube và tra nghĩa từ vựng." />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&family=Noto+Serif+TC:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="/reader/style.css?v=202605201200" />
+    <link rel="stylesheet" href="/reader/style.css?v=202605202246" />
   </head>
   <body>
     <div class="page-shell">
@@ -20,20 +20,20 @@
           <span class="brand-icon">📖</span>
           <span>
             <span class="brand-title">TOCFL Reader</span>
-            <span class="brand-sub">Tao bai doc tu phu de YouTube</span>
+            <span class="brand-sub">Tạo bài đọc từ phụ đề YouTube</span>
           </span>
         </a>
         <nav class="header-nav">
-          <a href="/study">Tu vung</a>
-          <a href="/practice">Luyen tap</a>
+          <a href="/study">Từ vựng</a>
+          <a href="/practice">Luyện tập</a>
         </nav>
       </header>
 
       <section class="input-panel">
         <div>
-          <h1>Doc phu de YouTube thanh bai doc</h1>
-          <p>Dan link YouTube. He thong se lay phu de tieng Trung va danh dau tu co trong tu vung.</p>
-          <p><a href="/reader/oauth.html">Mo OAuth helper de lay refresh token</a></p>
+          <h1>Đọc phụ đề YouTube thành bài đọc</h1>
+          <p>Dán link YouTube. Hệ thống sẽ lấy phụ đề tiếng Trung và đánh dấu từ có trong từ vựng.</p>
+          <p><a href="/reader/oauth.html">Mở OAuth helper để lấy refresh token</a></p>
         </div>
         <div class="input-row">
           <input
@@ -42,31 +42,31 @@
             placeholder="https://www.youtube.com/watch?v=..."
             autocomplete="off"
           />
-          <button id="loadCaptions">Tai phu de</button>
+          <button id="loadCaptions">Tải phụ đề</button>
         </div>
-        <div id="statusLine" class="status-line">San sang tai phu de.</div>
+        <div id="statusLine" class="status-line">Sẵn sàng tải phụ đề.</div>
       </section>
 
       <section class="content-grid">
         <div class="reading-card">
           <div class="reading-header">
-            <h2>Bai doc</h2>
-            <span id="captionMeta" class="chip">Chua co du lieu</span>
+            <h2>Bài đọc</h2>
+            <span id="captionMeta" class="chip">Chưa có dữ liệu</span>
           </div>
-          <div id="readingContent" class="reading-content">Nhap link de bat dau.</div>
+          <div id="readingContent" class="reading-content">Nhập link để bắt đầu.</div>
         </div>
 
         <aside class="meaning-card">
-          <h2>Tu vung</h2>
+          <h2>Từ vựng</h2>
           <div id="meaningBody" class="meaning-body">
-            <p>Click vao tu duoc to mau trong bai doc de xem nghia.</p>
+            <p>Click vào từ được tô màu trong bài đọc để xem nghĩa.</p>
           </div>
         </aside>
       </section>
     </div>
 
-    <script src="/shared-auth.js?v=202605201200"></script>
-    <script src="/vocabulary-data.js?v=202605201200"></script>
-    <script src="/reader/script.js?v=202605201200"></script>
+    <script src="/shared-auth.js?v=202605202246"></script>
+    <script src="/vocabulary-data.js?v=202605202246"></script>
+    <script src="/reader/script.js?v=202605202246"></script>
   </body>
 </html>

@@ -217,13 +217,13 @@ function updateSessionHint() {
     const remaining = saved.sheet.length - saved.pos;
     hint.innerHTML = `
       <span class="session-info-badge">
-        💾 Tiep tuc tu cau ${saved.pos + 1} &mdash; con ${remaining} cau trong vong nay
+        💾 Tiếp tục từ câu ${saved.pos + 1} &mdash; còn ${remaining} câu trong vòng này
       </span>
     `;
   } else {
     hint.innerHTML = `
       <span class="session-info-badge">
-        🎲 Se tao thu tu cau hoi ngau nhien moi
+        🎲 Sẽ tạo thứ tự câu hỏi ngẫu nhiên mới
       </span>
     `;
   }
@@ -253,7 +253,7 @@ async function startPractice() {
 
   if (!data || data.length === 0) {
     showScreen('setup');
-    alert(`Khong tim thay du lieu bai tap cho cap do: ${key}\nHay chac chan file exercises/${key}.json da ton tai.`);
+    alert(`Không tìm thấy dữ liệu bài tập cho cấp độ: ${key}\nHãy chắc chắn file exercises/${key}.json đã tồn tại.`);
     return;
   }
 
@@ -336,11 +336,11 @@ function setupPracticeUI() {
   // Answer label
   const answerLabel = document.getElementById('answerAreaLabel');
   if (selectedDirection === 'zh_vi') {
-    answerLabel.textContent = 'Dich sang tieng Viet';
+    answerLabel.textContent = 'Dịch sang tiếng Việt';
     document.getElementById('answerInput').classList.remove('is-chinese-answer');
-    document.getElementById('answerInput').placeholder = 'Nhap cau dich tieng Viet cua ban…';
+    document.getElementById('answerInput').placeholder = 'Nhập câu dịch tiếng Việt của bạn…';
   } else {
-    answerLabel.textContent = 'Dich sang tieng Trung';
+    answerLabel.textContent = 'Dịch sang tiếng Trung';
     document.getElementById('answerInput').classList.add('is-chinese-answer');
     document.getElementById('answerInput').placeholder = '請輸入您的翻譯…';
   }
@@ -369,13 +369,13 @@ function showQuestion() {
   const current = currentPosInSheet + 1;
   const completedCount = currentPosInSheet;
   document.getElementById('practiceCounter').innerHTML =
-    `<strong>${completedCount}</strong> cau da lam`;
+    `<strong>${completedCount}</strong> câu đã làm`;
   document.getElementById('progressFill').style.width =
     `${((current - 1) / total) * 100}%`;
 
   // Direction label
   document.getElementById('questionDirLabel').textContent =
-    selectedDirection === 'zh_vi' ? '🇨🇳 Doc cau tieng Trung va dich sang tieng Viet' : '🇻🇳 Doc cau tieng Viet va dich sang tieng Trung';
+    selectedDirection === 'zh_vi' ? '🇨🇳 Đọc câu tiếng Trung và dịch sang tiếng Việt' : '🇻🇳 Đọc câu tiếng Việt và dịch sang tiếng Trung';
 
   // Source text
   const sourceEl = document.getElementById('questionSource');
@@ -398,16 +398,16 @@ function showQuestion() {
 
   // Reset hint
   document.getElementById('btnHint').disabled = false;
-  document.getElementById('btnHint').textContent = 'Goi y';
+  document.getElementById('btnHint').textContent = 'Gợi ý';
 
   // Reset answer area (also reset placeholder in case hint was shown)
   const textarea = document.getElementById('answerInput');
   textarea.value = '';
   textarea.disabled = false;
   if (selectedDirection === 'zh_vi') {
-    textarea.placeholder = 'Nhap cau dich tieng Viet cua ban…';
+    textarea.placeholder = 'Nhập câu dịch tiếng Việt của bạn…';
   } else {
-    textarea.placeholder = 'Nhap cau dich tieng Trung cua ban…';
+    textarea.placeholder = 'Nhập câu dịch tiếng Trung của bạn…';
   }
   textarea.focus();
 
@@ -420,7 +420,7 @@ function showQuestion() {
   document.getElementById('answerInput').disabled = false;
   document.getElementById('answerInput').value = '';
   document.getElementById('btnCheck').style.display = 'block';
-  document.getElementById('btnHint').textContent = 'Goi y';
+  document.getElementById('btnHint').textContent = 'Gợi ý';
   attemptCount = 0;
 
   // Animate card
@@ -600,11 +600,11 @@ async function checkAnswer() {
     const attemptEl = document.getElementById('wrongAttemptCount');
 
     // Vary message
-    if (attemptCount === 1) wrongText.textContent = 'Chua dung! Hay thu lai…';
-    else if (attemptCount === 2) wrongText.textContent = 'Van chua dung, thu lai nhe!';
-    else wrongText.textContent = 'Co the dung goi y de xem dap an!';
+    if (attemptCount === 1) wrongText.textContent = 'Chưa đúng! Hãy thử lại…';
+    else if (attemptCount === 2) wrongText.textContent = 'Vẫn chưa đúng, thử lại nhé!';
+    else wrongText.textContent = 'Có thể dùng gợi ý để xem đáp án!';
 
-    attemptEl.textContent = `Lan ${attemptCount}`;
+    attemptEl.textContent = `Lần ${attemptCount}`;
     wrongPanel.classList.add('visible');
 
     // Show detailed feedback (highlights always, correct answer after 3 attempts)
@@ -700,7 +700,7 @@ function showScreen(name) {
     const done = document.getElementById('screen-done');
     done.classList.add('active');
     done.querySelector('#doneSubText').textContent =
-      `Ban da luyen xong ${questionSuffSheet.length} cau trong vong nay. Nhan "Luyen tap tiep" de tao thu tu moi va tiep tuc!`;
+      `Bạn đã luyện xong ${questionSuffSheet.length} câu trong vòng này. Nhấn "Luyện tập tiếp" để tạo thứ tự mới và tiếp tục!`;
   }
 }
 
@@ -721,7 +721,7 @@ function showHint() {
   }
   textarea.focus();
   const btn = document.getElementById('btnHint');
-  btn.textContent = 'Dang hien goi y';
+  btn.textContent = 'Đang hiện gợi ý';
   btn.disabled = true;
 }
 
@@ -741,7 +741,7 @@ function updatePinyinVisibility() {
   if (!hasPinyin) return;
 
   pinyinEl.style.display = isPinyinVisible ? 'block' : 'none';
-  toggleBtn.textContent = isPinyinVisible ? 'An pinyin' : 'Hien pinyin';
+  toggleBtn.textContent = isPinyinVisible ? 'Ẩn pinyin' : 'Hiện pinyin';
   toggleBtn.setAttribute('aria-pressed', String(isPinyinVisible));
 
 }
@@ -771,7 +771,7 @@ function openVocabCard(chinese) {
   if (matches.length === 0) {
     vcPinyin.textContent = '';
     vcLevelWrap.innerHTML = '';
-    vcEntries.innerHTML = `<div class="vocab-not-found">Khong tim thay tu "${escapeHtml(chinese)}" trong tu dien.</div>`;
+    vcEntries.innerHTML = `<div class="vocab-not-found">Không tìm thấy từ "${escapeHtml(chinese)}" trong từ điển.</div>`;
   } else {
     // Pinyin: take first unique
     vcPinyin.textContent = matches[0].pinyin || '';
@@ -940,7 +940,7 @@ function showWrongFeedback(userAnswer, q, attemptCount) {
   // 3. Generate HTML with highlights
   let html = `
     <div class="wrong-feedback-container">
-      <div class="diff-title"><span>⚠️</span> Phan tich loi:</div>
+      <div class="diff-title"><span>⚠️</span> Phân tích lỗi:</div>
       <div class="diff-text">
   `;
 
@@ -956,7 +956,7 @@ function showWrongFeedback(userAnswer, q, attemptCount) {
   if (attemptCount >= 3) {
     html += `
       <div class="diff-correct-answer">
-        <span>💡 Dap an chuan:</span><br/>
+        <span>💡 Đáp án chuẩn:</span><br/>
         <strong>${escapeHtml(bestRef)}</strong>
       </div>
     `;

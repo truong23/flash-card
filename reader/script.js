@@ -43,7 +43,7 @@ function isCjk(char) {
 }
 
 function buildReadingMarkup(text) {
-  if (!text) return 'Khong co phu de.';
+  if (!text) return 'Không có phụ đề.';
 
   const { map, maxLength } = vocabIndex;
   let output = '';
@@ -110,7 +110,7 @@ async function fetchCaptions(videoUrl) {
   const response = await fetch(`/api/youtube-captions?${params.toString()}`);
   if (!response.ok) {
     const error = await response.json().catch(() => ({}));
-    throw new Error(error.message || 'Khong tai duoc phu de.');
+    throw new Error(error.message || 'Không tải được phụ đề.');
   }
   return response.json();
 }
@@ -122,23 +122,23 @@ function joinCaptionText(segments) {
 async function handleLoadCaptions() {
   const url = urlInput.value.trim();
   if (!url) {
-    setStatus('Hay nhap link YouTube.', 'error');
+    setStatus('Hãy nhập link YouTube.', 'error');
     return;
   }
 
-  setStatus('Dang tai phu de...', 'loading');
-  readingContent.textContent = 'Dang tai...';
-  captionMeta.textContent = 'Dang xu ly';
+  setStatus('Đang tải phụ đề...', 'loading');
+  readingContent.textContent = 'Đang tải...';
+  captionMeta.textContent = 'Đang xử lý';
 
   try {
     const data = await fetchCaptions(url);
     const text = joinCaptionText(data.segments || []);
     readingContent.innerHTML = buildReadingMarkup(text);
-    captionMeta.textContent = `Ngon ngu: ${data.lang || 'zh'} • ${data.segments.length} dong`;
-    setStatus('Da tai phu de. Click vao tu de xem nghia.');
+    captionMeta.textContent = `Ngôn ngữ: ${data.lang || 'zh'} • ${data.segments.length} dòng`;
+    setStatus('Đã tải phụ đề. Click vào từ để xem nghĩa.');
   } catch (err) {
-    readingContent.textContent = 'Khong the tai phu de.';
-    captionMeta.textContent = 'Loi tai phu de';
+    readingContent.textContent = 'Không thể tải phụ đề.';
+    captionMeta.textContent = 'Lỗi tải phụ đề';
     setStatus(err.message, 'error');
   }
 }
