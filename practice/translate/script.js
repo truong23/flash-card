@@ -105,9 +105,10 @@ async function getSimilarity(text1, text2) {
     }
 
     if (!session.isApproved) {
+      window.isUserApproved = false;
       document.querySelectorAll('.level-btn').forEach(btn => {
         const lvl = btn.id.replace('lvl', '');
-        if (lvl !== 'A1') {
+        if (lvl && lvl !== 'A1' && lvl !== 'A2') {
           btn.style.opacity = '0.6';
           btn.style.filter = 'grayscale(80%)';
           const icon = btn.querySelector('.lbtn-icon');
@@ -199,7 +200,7 @@ function shuffle(arr) {
    SETUP SCREEN LOGIC
 ================================================================ */
 async function selectLevel(level) {
-  if (level !== 'A1') {
+  if (level !== 'A1' && level !== 'A2') {
     const session = await flashCardAuth.getCurrentSession();
     if (!session.isApproved) {
       flashCardAuth.showUpgradeModal();
@@ -316,7 +317,10 @@ function renderSidebarCards(level) {
 
   if (typeof vocabularyData === 'undefined') return;
 
-  const cards = vocabularyData.filter(w => w.level === level);
+  let cards = vocabularyData.filter(w => w.level === level);
+  if (window.isUserApproved === false) {
+    cards = cards.slice(0, 20);
+  }
 
   cards.forEach((word, index) => {
     const cardEl = document.createElement('div');
@@ -377,6 +381,12 @@ function showQuestion() {
   if (currentPosInSheet >= questionSuffSheet.length) {
     // Session complete — celebrate then reset
     showScreen('done');
+    return;
+  }
+
+  if (currentPosInSheet >= 20 && window.isUserApproved === false) {
+    showScreen('setup');
+    flashCardAuth.showUpgradeModal();
     return;
   }
 

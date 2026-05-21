@@ -20,9 +20,10 @@
     }
 
     if (!session.isApproved) {
+      window.isUserApproved = false;
       document.querySelectorAll('.level-btn').forEach(btn => {
         const lvl = btn.dataset.level;
-        if (lvl && lvl !== 'A1') {
+        if (lvl && lvl !== 'A1' && lvl !== 'A2') {
           btn.style.opacity = '0.6';
           btn.style.filter = 'grayscale(80%)';
           const icon = btn.querySelector('.lbtn-icon');
@@ -211,11 +212,20 @@ function renderTable() {
     const savedValue = savedState[index] || '';
     const row = document.createElement('tr');
     
+    let isLocked = false;
+    if (index >= 20 && window.isUserApproved === false) {
+      isLocked = true;
+    }
+
+    const inputAttr = isLocked 
+      ? `readonly class="practice-input locked-input"` 
+      : `class="practice-input"`;
+
     if (selectedDirection === 'vi_zh') {
       row.innerHTML = `
         <td class="word-meaning">${escapeHtml(word.meaning || '')}</td>
         <td class="input-cell">
-          <input class="practice-input" data-index="${index}" placeholder="Nhập đáp án..." value="${escapeHtml(savedValue)}" />
+          <input ${inputAttr} ${isLocked ? 'onclick="window.flashCardAuth.showUpgradeModal()"' : ''} data-index="${index}" placeholder="${isLocked ? '🔒 Bấm để mở khoá' : 'Nhập đáp án...'}" value="${escapeHtml(savedValue)}" />
         </td>
         <td class="practice-table check-cell" data-check="${index}"></td>
       `;
@@ -224,7 +234,7 @@ function renderTable() {
         <td class="cn-text">${escapeHtml(word.chinese || '')}</td>
         <td class="word-pinyin">${escapeHtml(word.pinyin || '')}</td>
         <td class="input-cell">
-          <input class="practice-input" data-index="${index}" placeholder="Nhập đáp án..." value="${escapeHtml(savedValue)}" />
+          <input ${inputAttr} ${isLocked ? 'onclick="window.flashCardAuth.showUpgradeModal()"' : ''} data-index="${index}" placeholder="${isLocked ? '🔒 Bấm để mở khoá' : 'Nhập đáp án...'}" value="${escapeHtml(savedValue)}" />
         </td>
         <td class="practice-table check-cell" data-check="${index}"></td>
       `;
@@ -299,6 +309,10 @@ function startPractice() {
     alert(`Không có từ vựng cho band ${selectedLevel}.`);
     return;
   }
+
+  const session = await flashCardAuth.getCurrentSession();
+  window.isUserApproved = session.isApproved;
+
   dom.pillLevel.textContent = `Band ${selectedLevel}`;
   dom.pillDirection.textContent = selectedDirection === 'vi_zh' ? 'Việt → Trung' : 'Trung → Việt';
 
