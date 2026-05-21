@@ -296,7 +296,7 @@ function scrollToNextUnanswered() {
   }
 }
 
-function startPractice() {
+async function startPractice() {
   if (!selectedLevel || !selectedDirection) return;
 
   if (typeof vocabularyData === 'undefined') {
