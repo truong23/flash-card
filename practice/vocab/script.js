@@ -23,7 +23,7 @@
       window.isUserApproved = false;
       document.querySelectorAll('.level-btn').forEach(btn => {
         const lvl = btn.dataset.level;
-        if (lvl && lvl !== 'A1' && lvl !== 'A2') {
+        if (lvl && lvl !== 'A1') {
           btn.style.opacity = '0.6';
           btn.style.filter = 'grayscale(80%)';
           const icon = btn.querySelector('.lbtn-icon');
@@ -213,7 +213,7 @@ function renderTable() {
     const row = document.createElement('tr');
     
     let isLocked = false;
-    if (index >= 20 && window.isUserApproved === false) {
+    if (index >= 10 && window.isUserApproved === false) {
       isLocked = true;
     }
 

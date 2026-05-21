@@ -687,7 +687,7 @@ wordsContainer.addEventListener('click', (event) => {
   if (practiceBtn) {
     const section = practiceBtn.closest('.level-section');
     const level = section ? section.dataset.level : null;
-    if (level && level !== 'A1' && level !== 'A2' && window.isUserApproved === false) {
+    if (level && level !== 'A1' && window.isUserApproved === false) {
       event.preventDefault();
       flashCardAuth.showUpgradeModal();
       return;
@@ -700,8 +700,7 @@ wordsContainer.addEventListener('click', (event) => {
   }
 
   const isA1 = card.classList.contains('level-A1');
-  const isA2 = card.classList.contains('level-A2');
-  if (!isA1 && !isA2 && window.isUserApproved === false) {
+  if (!isA1 && window.isUserApproved === false) {
     flashCardAuth.showUpgradeModal();
     return;
   }
