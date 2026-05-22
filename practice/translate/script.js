@@ -156,7 +156,7 @@ const WORDS_PER_COLOR = 50;
 const CARD_COLOR_SCALE = ['#f8b51e', '#267f94', '#fa501c', '#bb1818', '#1c3e76', '#6a3669'];
 
 /* ================================================================
-   SESSION STORAGE HELPERS
+   LOCAL STORAGE HELPERS
 ================================================================ */
 function getSessionKey(level, direction) {
   return `practice_sheet_${level}_${direction}`;
@@ -165,7 +165,7 @@ function getSessionKey(level, direction) {
 function loadSheet(level, direction) {
   const key = getSessionKey(level, direction);
   try {
-    const raw = sessionStorage.getItem(key);
+    const raw = localStorage.getItem(key);
     if (raw) return JSON.parse(raw);
   } catch (e) {}
   return null;
@@ -173,7 +173,7 @@ function loadSheet(level, direction) {
 
 function saveSheet(level, direction, sheet, pos) {
   const key = getSessionKey(level, direction);
-  sessionStorage.setItem(key, JSON.stringify({
+  localStorage.setItem(key, JSON.stringify({
     sheet,
     pos
   }));
@@ -181,7 +181,7 @@ function saveSheet(level, direction, sheet, pos) {
 
 function clearSheet(level, direction) {
   const key = getSessionKey(level, direction);
-  sessionStorage.removeItem(key);
+  localStorage.removeItem(key);
 }
 
 /* ================================================================
@@ -194,6 +194,23 @@ function shuffle(arr) {
     [a[i], a[j]] = [a[j], a[i]];
   }
   return a;
+}
+
+function generateDeck(exercises) {
+  const indices = exercises.map((_, i) => i);
+  // Sort by sentence length (shorter first)
+  indices.sort((a, b) => {
+    return exercises[a].sourceText.length - exercises[b].sourceText.length;
+  });
+
+  // Group into chunks of 300 and shuffle within each chunk
+  const CHUNK_SIZE = 300;
+  let finalSheet = [];
+  for (let i = 0; i < indices.length; i += CHUNK_SIZE) {
+    const chunk = indices.slice(i, i + CHUNK_SIZE);
+    finalSheet = finalSheet.concat(shuffle(chunk));
+  }
+  return finalSheet;
 }
 
 /* ================================================================
@@ -288,11 +305,11 @@ async function startPractice() {
     currentPosInSheet = saved.pos;
     // Validate indices still in range
     if (questionSuffSheet.some(i => i >= exercises.length)) {
-      questionSuffSheet = shuffle(exercises.map((_, i) => i));
+      questionSuffSheet = generateDeck(exercises);
       currentPosInSheet = 0;
     }
   } else {
-    questionSuffSheet = shuffle(exercises.map((_, i) => i));
+    questionSuffSheet = generateDeck(exercises);
     currentPosInSheet = 0;
   }
 
@@ -488,53 +505,65 @@ async function checkAnswerCorrect(userAnswer, referenceAnswers) {
       .replace(/[.,!?%。，！？；：、「」『』【】《》〈〉“”‘’()（）…—]/g, '')
       .trim();
 
+    function digitToCnWord(num) {
+      if (num === 0) return '零';
+      if (num === 10) return '十';
+      if (num === 100) return '一百';
+      const ones = ['', '一', '二', '三', '四', '五', '六', '七', '八', '九'];
+      if (num < 10) return ones[num];
+      if (num < 20) return '十' + ones[num % 10];
+      if (num < 100) return ones[Math.floor(num / 10)] + '十' + ones[num % 10];
+      return num.toString();
+    }
+
+    function digitToViWord(num) {
+      if (num === 0) return 'không';
+      if (num === 10) return 'mười';
+      if (num === 100) return 'một trăm';
+      const ones = ['', 'một', 'hai', 'ba', 'bốn', 'năm', 'sáu', 'bảy', 'tám', 'chín'];
+      if (num < 10) return ones[num];
+      if (num < 20) {
+        if (num === 15) return 'mười lăm';
+        return 'mười ' + ones[num % 10];
+      }
+      if (num < 100) {
+        let tens = Math.floor(num / 10);
+        let rem = num % 10;
+        let res = ones[tens] + ' mươi';
+        if (rem === 1) res += ' mốt';
+        else if (rem === 4) res += ' tư';
+        else if (rem === 5) res += ' lăm';
+        else if (rem !== 0) res += ' ' + ones[rem];
+        return res;
+      }
+      return num.toString();
+    }
+
+    if (!isChinese) {
+      // Expand common Vietnamese abbreviations
+      norm = norm.replace(/\b(\d{1,2})\s*h\s*(?:(\d{1,2})\s*(?:p|ph|phut|phút)?\b)?/g, (match, h, m) => {
+        let str = h + ' giờ';
+        if (m) str += ' ' + m + ' phút';
+        return str;
+      });
+      norm = norm.replace(/\bh\b/g, 'giờ');
+      norm = norm.replace(/\bph\b/g, 'phút');
+      norm = norm.replace(/\bko\b/g, 'không');
+      norm = norm.replace(/\bk\b/g, 'không'); 
+      norm = norm.replace(/\bdc\b/g, 'được');
+      norm = norm.replace(/\bđc\b/g, 'được');
+      norm = norm.replace(/\bvs\b/g, 'với');
+      norm = norm.replace(/\br\b/g, 'rồi');
+      norm = norm.replace(/\brùi\b/g, 'rồi');
+    }
+
     if (isChinese) {
-      const cnNums = {
-        '0': '零',
-        '1': '一',
-        '2': '二',
-        '3': '三',
-        '4': '四',
-        '5': '五',
-        '6': '六',
-        '7': '七',
-        '8': '八',
-        '9': '九',
-        '10': '十'
-      };
-      norm = norm.replace(/[0-9]/g, m => cnNums[m] || m);
+      norm = norm.replace(/\d+/g, m => digitToCnWord(parseInt(m, 10)));
       return norm.replace(/\s+/g, '');
     } else {
-      const viNums = {
-        '0': 'khong',
-        '1': 'mot',
-        '2': 'hai',
-        '3': 'ba',
-        '4': 'bon',
-        '5': 'nam',
-        '6': 'sau',
-        '7': 'bay',
-        '8': 'tam',
-        '9': 'chin',
-        '10': 'muoi'
-      };
-      norm = norm.replace(/\b([0-9]|10)\b/g, m => viNums[m] || m);
-      return norm.replace(/\s+/g, ' ');
+      norm = norm.replace(/\d+/g, m => digitToViWord(parseInt(m, 10)));
+      return norm.replace(/\s+/g, ' ').trim();
     }
-  }
-
-  function levenshtein(a, b) {
-    const tmp = [];
-    for (let i = 0; i <= a.length; i++) tmp[i] = [i];
-    for (let j = 0; j <= b.length; j++) tmp[0][j] = j;
-    for (let i = 1; i <= a.length; i++) {
-      for (let j = 1; j <= b.length; j++) {
-        tmp[i][j] = a[i - 1] === b[j - 1] ?
-          tmp[i - 1][j - 1] :
-          Math.min(tmp[i - 1][j - 1] + 1, tmp[i][j - 1] + 1, tmp[i - 1][j] + 1);
-      }
-    }
-    return tmp[a.length][b.length];
   }
 
   const userNorm = normalize(userAnswer, isChineseTarget);
@@ -548,28 +577,7 @@ async function checkAnswerCorrect(userAnswer, referenceAnswers) {
       console.log(`  ✅ Khớp tuyệt đối với: "${refNorm}"`);
       return true;
     }
-
-    let similarity = 0;
-    let threshold = isChineseTarget ? 0.95 : 0.90;
-
-    if (isChineseTarget) {
-      const refChars = [...refNorm].filter(isCJK);
-      const userChars = [...userNorm].filter(isCJK);
-      if (refChars.length === 0) return false;
-      const dist = levenshtein(refChars, userChars);
-      similarity = 1 - (dist / Math.max(refChars.length, userChars.length));
-    } else {
-      const refWords = refNorm.split(' ').filter(Boolean);
-      const userWords = userNorm.split(' ').filter(Boolean);
-      if (refWords.length === 0) return false;
-      const dist = levenshtein(refWords, userWords);
-      similarity = 1 - (dist / Math.max(refWords.length, userWords.length));
-    }
-
-    const isPass = similarity >= threshold;
-    console.log(`  ${isPass ? '✅' : '❌'} So với: "${refNorm}" | Khớp: ${(similarity * 100).toFixed(1)}% | Ngưỡng: ${threshold * 100}%`);
-
-    return isPass;
+    return false;
   });
 
   if (lexicalMatch) return true;
@@ -578,10 +586,12 @@ async function checkAnswerCorrect(userAnswer, referenceAnswers) {
   if (extractor) {
     console.log("%c[AI Check] Đang phân tích ngữ nghĩa...", "color: #7c3aed; font-weight: bold;");
     for (const ref of refs) {
+
+
       const score = await getSimilarity(userAnswer, ref);
       console.log(`  🤖 So với: "${ref}" | Khớp ngữ nghĩa: ${(score * 100).toFixed(1)}%`);
-      // 0.82 is a safe threshold for "very similar" meanings in this model
-      if (score >= 0.82) {
+      // 0.90 is the threshold for strict semantic matching
+      if (score >= 0.90) {
         console.log("  ✅ AI chấp nhận đáp án này!");
         return true;
       }
@@ -700,7 +710,7 @@ function skipQuestion() {
 
 function restartSession() {
   // New shuffle, reset pos
-  questionSuffSheet = shuffle(exercises.map((_, i) => i));
+  questionSuffSheet = generateDeck(exercises);
   currentPosInSheet = 0;
   saveSheet(selectedLevel, selectedDirection, questionSuffSheet, currentPosInSheet);
   setupPracticeUI();
@@ -971,14 +981,69 @@ function showWrongFeedback(userAnswer, q, attemptCount) {
   // 3. Generate HTML with highlights
   let html = `
     <div class="wrong-feedback-container">
-      <div class="diff-title"><span>⚠️</span> Phân tích lỗi:</div>
+      <div class="diff-title"><span>⚠️</span> Phân tích lỗi (theo vị trí từ):</div>
       <div class="diff-text">
   `;
 
-  userTokens.forEach(token => {
-    const isCorrect = finalRefSet.has(token.toLowerCase());
-    const cls = isCorrect ? 'correct' : 'wrong';
-    html += `<span class="diff-token ${cls}">${escapeHtml(token)}</span>`;
+  const n = userTokens.length;
+  const m = finalRefTokens.length;
+  const dp = Array(n + 1).fill(null).map(() => Array(m + 1).fill(0));
+
+  for (let i = 1; i <= n; i++) dp[i][0] = i;
+  for (let j = 1; j <= m; j++) dp[0][j] = j;
+
+  for (let i = 1; i <= n; i++) {
+    for (let j = 1; j <= m; j++) {
+      if (userTokens[i - 1].toLowerCase() === finalRefTokens[j - 1].toLowerCase()) {
+        dp[i][j] = dp[i - 1][j - 1];
+      } else {
+        dp[i][j] = 1 + Math.min(
+          dp[i - 1][j - 1], // Replace
+          dp[i - 1][j],     // Delete
+          dp[i][j - 1]      // Insert
+        );
+      }
+    }
+  }
+
+  const alignment = [];
+  let i = n;
+  let j = m;
+
+  while (i > 0 || j > 0) {
+    if (i > 0 && j > 0 && userTokens[i - 1].toLowerCase() === finalRefTokens[j - 1].toLowerCase()) {
+      alignment.unshift({ type: 'correct', token: userTokens[i - 1] });
+      i--;
+      j--;
+    } else {
+      const replaceCost = (i > 0 && j > 0) ? dp[i - 1][j - 1] : Infinity;
+      const deleteCost = (i > 0) ? dp[i - 1][j] : Infinity;
+      const insertCost = (j > 0) ? dp[i][j - 1] : Infinity;
+
+      const minCost = Math.min(replaceCost, deleteCost, insertCost);
+
+      if (minCost === replaceCost) {
+        alignment.unshift({ type: 'wrong', token: userTokens[i - 1] });
+        i--;
+        j--;
+      } else if (minCost === insertCost) {
+        alignment.unshift({ type: 'empty', token: null });
+        j--;
+      } else {
+        alignment.unshift({ type: 'wrong', token: userTokens[i - 1] });
+        i--;
+      }
+    }
+  }
+
+  alignment.forEach(item => {
+    if (item.type === 'correct') {
+      html += `<span class="diff-token correct">${escapeHtml(item.token)}</span>`;
+    } else if (item.type === 'wrong') {
+      html += `<span class="diff-token wrong">${escapeHtml(item.token)}</span>`;
+    } else if (item.type === 'empty') {
+      html += `<span class="diff-token empty">___</span>`;
+    }
   });
 
   html += `</div>`;

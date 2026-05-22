@@ -1873,6 +1873,19 @@ body {
   opacity: 0.85;
 }
 
+.diff-token.empty {
+  display: inline-block;
+  min-width: 40px;
+  background: #fef2f2;
+  color: #ef4444;
+  border-bottom: 3px solid #ef4444;
+  border-radius: 8px;
+  margin: 0 2px;
+  opacity: 0.85;
+  padding: 2px 6px;
+  text-align: center;
+}
+
 .diff-correct-answer {
   margin-top: 12px;
   padding-top: 12px;
